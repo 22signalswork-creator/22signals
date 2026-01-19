@@ -22,7 +22,7 @@ const HeroSection = () => {
             <h1 className="font-thin leading-[1.1]
                            text-4xl sm:text-5xl md:text-[68px]">
               <span className="bg-clip-text text-transparent bg-[linear-gradient(91.16deg,#325FEC_1.74%,#000000_43.71%,#000000_61.62%,#325FEC_102.48%)]">
-                Createing.
+                Create.
               </span>{" "}
               <span className="bg-clip-text text-transparent bg-[linear-gradient(91.16deg,#325FEC_1.74%,#000000_43.71%,#000000_61.62%,#325FEC_102.48%)]">
                 Innovate.
