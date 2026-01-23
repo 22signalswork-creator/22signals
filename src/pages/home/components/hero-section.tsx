@@ -35,7 +35,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
     >
       <div className="container pt-32 md:pt-60 relative z-10">
         <div className="mx-auto flex flex-col items-center">
-          <div className="w-full text-center md:text-left">
+          <div className="w-full text-center md:text-left ">
 
             {/* Heading */}
             <h1 className="font-thin leading-[1.1] text-4xl sm:text-5xl md:text-[68px]">
@@ -51,7 +51,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
             <div
               className="w-full bg-[#161922] rounded-2xl md:rounded-[38px]
                          mt-6 md:mt-8
-                         aspect-[16/9] md:aspect-[1312/369]
+
                          flex items-center justify-center"
             >
               <img
