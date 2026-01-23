@@ -215,10 +215,10 @@ color: rgba(222, 225, 230, 1);
 
 .svg-container {
     position: absolute;
-    top: 147px;
+    top: 180px;
     left: 88px;
     width: 100%;
-    max-width: 90%;
+    max-width: 90%; 
     height: 100%;
     pointer-events: none;
     overflow: visible;
