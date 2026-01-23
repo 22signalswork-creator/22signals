@@ -6,7 +6,7 @@
   width: 100%;
   z-index: 50;
   transition: background-color 0.5s;
-  padding: 0px 188px;
+  padding: 0px 105px;
 }
 
 .header.scrolled {
@@ -140,27 +140,11 @@
   .header-container {
     grid-template-columns:1fr 1fr 1fr;
   }
-  .header {
-  padding: 0px 137px;
 }
-
-}
-
-
-@media (max-width: 979px) {
-  .header-container {
-    grid-template-columns:1fr 1fr 1fr;
-  }
-  .header {
-  padding: 0px 49px;
-}
-
-}
-
 
 @media (max-width: 640px) {
   .header{
-    padding: 26px 22px;
+    padding: 0px;
   }
 }
 
