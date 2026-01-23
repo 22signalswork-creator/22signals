@@ -57,7 +57,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               <img
                 src={heroImage}
                 alt="Hero"
-                className="w-full h-full object-contain rounded-2xl md:rounded-[38px]"
+                className="w-full h-full object-contain rounded-2xl md:rounded-[38px] h-[100px]"
               />
             </div>
 
