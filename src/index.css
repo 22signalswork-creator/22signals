@@ -200,7 +200,7 @@ body.team-page {
 
 .container {
     width: 100%;      
-    max-width: 1735px;   
+    max-width: 1900px;   
     margin: 0 auto;  
     padding-left: 135px;
     padding-right: 135px;
@@ -209,7 +209,7 @@ body.team-page {
 /* Tablet */
 @media (max-width: 1024px) {
   .container {
-    width: 90%;       /* Use percentage to fit screen */
+    width: 100%;       /* Use percentage to fit screen */
     padding-left: 40px;
     padding-right: 40px;
   }
