@@ -12,6 +12,8 @@
     #325FEC 100%      /* end blue */
   );
   --h2-size:68px;
+  --button-color-:  rgba(50, 95, 236, 1);
+  --button-padding-: 23px 43px;
 }
 
 p {
@@ -36,6 +38,14 @@ p.white-text {
   font-size: var(--p-size);
 }
 
+
+p.blog-text{
+  --p-color: rgba(0,0,0,0.7);
+  --p-size: 20px;
+  color: var(--p-color);
+  font-size: var(--p-size);
+}
+
 .h1-large {
   --h1-size: 160px;
   --h1-line: 1.1;
@@ -48,6 +58,11 @@ p.white-text {
 ;
 }
 h1.card-heading{
+   --h1-size: 45px;
+  --h1-line: 1.1;
+}
+
+h1.tab-card-heading{
    --h1-size: 40px;
   --h1-line: 1.1;
 }
@@ -126,9 +141,13 @@ h2.recentproject-title{
 
 /* Mobile */
 @media (max-width: 640px) {
+  button.header-b{
+ padding: 5px 30px;
+ background: #325fec;
+}
   h1.card-heading {
     --h1-size: 25px;
-    --h1-line: 1.3;
+    --h1-line: 1.1;
   }
   h1.progress-bar{
     --h1-size: 25px;
@@ -145,10 +164,11 @@ h2.recentproject-title{
 }
 
   h1 {
-    font-size: var(--h1-size);
+    font-size: 45px;
     line-height: var(--h1-line);
   }
   h2 {
+    font-size: 45px;
     padding: 19px 0px;
   }
   h3{
@@ -229,19 +249,90 @@ button {
   cursor: pointer;
   font-family: Aeonik, sans-serif;
   font-weight: lighter;
-  font-style: Regular;
   font-size: 15px;
   line-height: 100%;
-  letter-spacing: 0%;
-  background-color: rgba(50, 95, 236, 1);
+  background-color: var(--button-color-);
   color: rgba(239, 239, 239, 1);
-  padding: 12px 30px;
+  padding: var(--button-padding-);
   border-radius: 50px;
   gap: 10px;
-
   width: auto; /* important: do not stretch */
   box-sizing: border-box; /* keep padding inside */
+  opacity: 0.9;
 }
+
+button.gray {
+  background-color: #191919;
+ 
+}
+
+button.header-b{
+ padding: 12px 30px;
+ background: #325fec;
+}
+
+button.white-opacity {
+  background-color: #466fee;
+  color: #fff;
+  backdrop-filter: blur(6px); 
+}
+/* Ripple + GSAP setup */
+.gsap-btn {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-content {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-flair {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transform: scale(0);
+  transform-origin: 0 0;
+  z-index: 1;
+  color: #000000;
+}
+
+.btn-flair::before {
+  content: "";
+  position: absolute;
+  width: 180%;
+  aspect-ratio: 1 / 1;
+  background: #000c77;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  opacity: 1; 
+    z-index: -1; /* text ke neeche rahe */
+  transition: background 0.3s ease;
+}
+.btn-flair:hover {
+  color: #fff; /* text white on hover */
+}
+
+
+/* Blue button default */
+button {
+  background-color: var(--button-color-);
+  color: #fff;
+}
+
+/* Gray button default */
+button.gray {
+  background-color: #191919;
+  color: #fff;
+}
+
+
 
 
 .services-badge-secondry {
@@ -260,3 +351,11 @@ button {
         linear-gradient(164deg, #504CFF 26.9%, rgba(80, 76, 255, 0) 99.52%); /* gradient border */
 }
 
+
+.footer-text-p{
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+letter-spacing: 0%;
+
+}

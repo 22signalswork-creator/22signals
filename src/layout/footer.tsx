@@ -26,7 +26,7 @@ const Footer = () => {
           <img
             src={OverlayImage}
             alt="Overlay"
-            className="w-full h-full object-contain object-right opacity-50"
+            className="w-full h-full object-contain object-right opacity-50  pr-30"
           />
         </div>
 
@@ -73,7 +73,7 @@ const Footer = () => {
             <div>
               <img src={Logo} alt="Logo" className="mb-4 mx-auto md:mx-0" />
 
-              <p className="mb-6 w-[100%] md:w-[70%]">
+              <p className="footer-text-p mb-6 w-[100%] md:w-[70%]">
                We offers a comprehensive suite of digital marketing services that cover all aspects of our online presence. From SEO and social media marketing to content creation and PPC advertising, they have the expertise and resources to handle our diverse marketing needs.
               </p>
 

@@ -115,7 +115,7 @@ color: rgba(222, 225, 230, 1);
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translateY(-200%);
+  transform: translateY(-224%);
   transition: transform 0.3s ease;
 }
 

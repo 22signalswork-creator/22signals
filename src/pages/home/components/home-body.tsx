@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import DigitalSolutions from "@/assets/digitalsolutions.png";
-import videoplayer from "@/assets/videoplayer.png";
-import videoplay from "@/assets/videoplay.svg";
 import Framed from "@/assets/DigitalIcon.png";
 import MyButton from "@/components/button.tsx";
 import SliderComponent from "@/components/Slider.tsx";
@@ -13,7 +11,6 @@ import Stafficon from "@/assets/staffIcon.png";
 import Broadcastingicon from "@/assets/broadcasticon.png";
 import staffbg from "@/assets/staffbg.png";
 import broadcastingbg from "@/assets/broadcastbg.png";
-
 import slide1 from "@/assets/Frame68.png";
 import slide2 from "@/assets/Frame69.png";
 import slide8 from "@/assets/Frame76.png";
@@ -24,6 +21,7 @@ import slide6 from "@/assets/Frame73.png";
 import slide7 from "@/assets/Frame74.png";
 import ScrollLine from "./ScrollLine.jsx";
 import ScrollLineBottom from "./ScrollLineBottom.jsx";
+import VideoSection from "./videosection.tsx";
 
 const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3];
 
@@ -53,8 +51,9 @@ const HomeBody = () => {
           </h1>
         </div>
 
-        {/* Right Column: Video Card */}
-        <div className="w-full  m-0 p-0 flex justify-center">
+            
+            <VideoSection/>
+        {/* <div className="w-full  m-0 p-0 flex justify-center">
           <div className="relative w-full max-w-[668px] h-[300px] bg-cover bg-center flex items-center justify-center overflow-hidden">
             <div
               className="w-full h-full bg-cover bg-center flex items-center justify-center"
@@ -65,7 +64,7 @@ const HomeBody = () => {
                 borderRadius: "24px",
               }}
             >
-              {/* Play Button */}
+    
               <img
                 src={videoplay}
                 alt="Play Button"
@@ -73,7 +72,7 @@ const HomeBody = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] items-center gap-8 mb-12">
         <div>
@@ -89,7 +88,7 @@ const HomeBody = () => {
         </div>
 
         <div className="flex justify-center md:justify-end mt-6 md:mt-0">
-          <MyButton text="GET STARTED" />
+         <MyButton text="CONTACT US" />
         </div>
       </div>
 
@@ -101,11 +100,11 @@ const HomeBody = () => {
             className="absolute digital-bg inset-0 bg-no-repeat bg-contain bg-right object-contain z-10"
             style={{
               backgroundImage: `url(${DigitalSolutions})`,
-              backgroundPosition: "right -130px top 55px",
+              backgroundPosition: "right -130px top 45px",
             }}
           ></div>
 
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full p-[30px] md:p-[48px]  text-white">
             {/* Top Content: Icon + Title + Text */}
             <div className="space-y-4">
               <img src={Framed} alt="Card Icon" className="w-[60px] h-[60px]" />
@@ -115,7 +114,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED" className="white-opacity" />
             </div>
           </div>
         </div>
@@ -132,7 +131,7 @@ const HomeBody = () => {
             }}
           ></div>
 
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full p-[30px] md:p-[48px] text-white">
             {/* Top Content: Icon + Title + Text */}
             <div className="space-y-4">
               <img
@@ -147,7 +146,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED" className="gray" />
             </div>
           </div>
         </div>
@@ -165,7 +164,7 @@ const HomeBody = () => {
             }}
           ></div>
 
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full p-[30px] md:p-[48px] text-white">
             {/* Top Content: Icon + Title + Text */}
             <div className="space-y-4">
               <img
@@ -179,7 +178,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED" className="gray" />
             </div>
           </div>
         </div>
@@ -195,7 +194,7 @@ const HomeBody = () => {
             }}
           ></div>
 
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full p-[30px] md:p-[48px] text-white">
             {/* Top Content: Icon + Title + Text */}
             <div className="space-y-4">
               <img
@@ -212,7 +211,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED"  className="white-opacity"/>
             </div>
           </div>
         </div>
@@ -222,7 +221,7 @@ const HomeBody = () => {
         <div className="h-[435px] relative rounded-[24px] overflow-hidden shadow-lg flex flex-col">
           <div className="absolute inset-0 bg-black z-0"></div>
           <div className="absolute inset-0 bg-no-repeat bg-contain bg-right object-contain z-10"></div>
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full px-[34px] py-[48px] text-white">
             <div className="space-y-4">
               <img
                 src={CreativeIcon}
@@ -236,7 +235,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED"  className="gray"/>
             </div>
           </div>
         </div>
@@ -251,7 +250,7 @@ const HomeBody = () => {
               backgroundPosition: "right -350px top 50px",
             }}
           ></div>
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full p-[30px] md:p-[48px] text-white">
             <div className="space-y-4">
               <img src={Framed} alt="Card Icon" className="w-[60px] h-[60px]" />
               <h3 className="text-2xl font-semibold w-[445px]">
@@ -263,7 +262,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED" className="white-opacity" />
             </div>
           </div>
         </div>
@@ -272,7 +271,7 @@ const HomeBody = () => {
         <div className="h-[435px] relative rounded-[24px] overflow-hidden shadow-lg flex flex-col">
           <div className="absolute inset-0 bg-black z-0"></div>
           <div className="absolute inset-0 bg-no-repeat bg-contain bg-right object-contain z-10"></div>
-          <div className="relative z-20 flex flex-col justify-between h-full p-6 text-white">
+          <div className="relative z-20 flex flex-col justify-between h-full px-[34px] py-[48px] text-white">
             <div className="space-y-4">
               <img
                 src={CreativeIcon}
@@ -286,7 +285,7 @@ const HomeBody = () => {
               </p>
             </div>
             <div className="w-full sm:w-auto flex justify-start">
-              <MyButton text="GET STARTED" />
+              <MyButton text="GET STARTED" className="gray" />
             </div>
           </div>
         </div>
@@ -301,7 +300,24 @@ const HomeBody = () => {
   );
 };
 
-const Card = ({ title, description, bg, text, style, className }) => {
+interface CardProps {
+  title: string;
+  description: string;
+  bg?: string;
+  text?: string;
+  style?: React.CSSProperties;
+  className?: string;
+}
+
+
+const Card: React.FC<CardProps> = ({
+  title,
+  description,
+  bg,
+  text,
+  style,
+  className,
+}) => {
   return (
     <div
       className={`${bg || ""} ${

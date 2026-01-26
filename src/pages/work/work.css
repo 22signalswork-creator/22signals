@@ -148,6 +148,7 @@ p {
   transition: background 0.3s ease, color 0.3s ease;
   font-size: 20px;
   white-space: nowrap; /* prevent text wrap */
+  min-width: 164px;
 }
 
 .tab:hover {
@@ -157,7 +158,6 @@ p {
 .tab.active {
   background: #325fec;
   color: white;
-  font-weight: 600;
 }
 
 /* =========================
@@ -190,7 +190,7 @@ p {
 @media (max-width: 768px) {
   .featured-heading { font-size: 80px; }
   .sub-heading { font-size: 42px; }
-  .cards-heading, h3 { font-size: 26px; }
+  .cards-heading, h3 { font-size: 30px; }
  .tabs {
     padding: 10px;
     height: auto;
@@ -198,7 +198,7 @@ p {
   }
   .tab {
     font-size: 16px;
-    padding: 6px 12px;
+    padding: 8px 16px;
   }
   .card, .middle-card { padding: 20px; gap: 16px; }
   .second-card {
@@ -210,9 +210,10 @@ p {
 @media (max-width: 480px) {
   .featured-heading { font-size: 48px; line-height: 1.1; }
   .sub-heading { font-size: 32px; }
-  .cards-heading, h3 { font-size: 25px; }
-  .tab { width: auto; padding: 6px 12px; font-size: 14px; }
-  .tabs { gap: 8px; padding: 6px; }
+  .cards-heading, h3 { font-size: 30px; }
+  .tab { width: auto;  padding: 8px 16px; font-size: 14px;
+  min-width: 110px; }
+  .tabs { gap: 8px; padding: 10px; }
   .card, .middle-card { padding: 16px; gap: 12px; }
   .second-card {
     align-items: center;

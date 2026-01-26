@@ -66,7 +66,7 @@ const Tabs = () => {
       </div>
 
       {/* Tab Content - Projects Grid */}
-      <div className="tab-content grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+      <div className="tab-content grid grid-cols-1 sm:grid-cols-3 gap-20 mt-8">
         {filteredProjects.map((project, idx) => (
           <div
             key={idx}
@@ -93,7 +93,7 @@ const Tabs = () => {
                 </div>
              
               {/* Title */}
-              <h1 className="card-heading">
+              <h1 className="tab-card-heading">
                 <span className="text-blue-600">
                   {project.title.split(" ")[0]}
                 </span>{" "}
@@ -101,25 +101,25 @@ const Tabs = () => {
               </h1>
 
               {/* Description */}
-              <p className="dark-text">{project.description}</p>
+              <p className="blog-text">{project.description}</p>
 
               {/* Info: Date + Read Time */}
               <div className="flex items-center gap-4 text-gray-500 text-sm">
-                <span className="flex items-center gap-1">
-                  <img src={Calendar} alt="calendar" className="w-4 h-4" />
+                <span className="text-[20px] font-thin flex items-center gap-2">
+                  <img src={Calendar} alt="calendar" className="w-[22px] h-[22px]" />
                   Nov 15, 2025
                 </span>
-                <span className="flex items-center gap-1">
-                  <img src={Clock} alt="clock" className="w-4 h-4" />8 min read
+                <span className="text-[20px] font-thin flex items-center gap-2">
+                  <img src={Clock} alt="clock" className="w-[22px] h-[22px]" />8 min read
                 </span>
               </div>
 
                 
-                    <hr/>
+                  <hr style={{ borderColor: "#BCBCBC" }} />
                 
               <div className="flex justify-between items-center pt-2">
-                <p className="dark-text">
-                  Blog By: Sarah Chen
+                <p className="blog-text">
+                  Blog Write By: Sarah Chen
                 </p>
                 <img src={Blogarrow} alt="arrow" className="w-5 h-5" />
               </div>

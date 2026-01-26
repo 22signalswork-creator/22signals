@@ -31,13 +31,14 @@ export default function HeroSection() {
                   Thoughts on design, technology, and the future of digital
                   experiences
                 </p>
-                <div className="w-[300px] max-w-md md:w-[100%]">
-                  <input
-                    type="text"
-                    placeholder="Search..."
-                    className="w-full px-4 py-3 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
-                </div>
+               <div className="flex justify-center">
+  <input
+    type="text"
+    placeholder="Search Articles......."
+    className="w-[300px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+</div>
+
               </div>
             </div>
           </div>

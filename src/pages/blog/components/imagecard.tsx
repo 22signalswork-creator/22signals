@@ -29,36 +29,34 @@ export default function imagecard () {
    
 
     {/* Title */}
-   <div className="flex flex-col gap-3">
+   <div className="flex flex-col gap-5 md:gap-3 mt-3">
 
          <h1 className="card-heading">
       Neural Interface Protocol
     </h1>
 
     {/* Description */}
-    <p className="dark-text">
+    <p className="blog-text">
       Developing next-generation human-computer interaction through advanced neural networks
     </p>
     </div>
    
 
     {/* Info: Date + read time + author */}
-   <div className="flex flex-wrap items-center text-gray-500 text-sm my-4 gap-4">
-  <span className="flex items-center gap-1">
-    <img src={Calendar} width={22} alt="calendar" />
-    Nov 15, 2025
-  </span>
-
-  <span className="flex items-center gap-1">
-    <img src={Clock} width={22} alt="clock" />
-    8 min read
-  </span>
-</div>
+  <div className="flex items-center gap-4 text-gray-500 text-sm my-4">
+                <span className="text-[20px] font-thin flex items-center gap-2">
+                  <img src={Calendar} alt="calendar" className="w-[22px] h-[22px]" />
+                  Nov 15, 2025
+                </span>
+                <span className="text-[20px] font-thin flex items-center gap-2">
+                  <img src={Clock} alt="clock" className="w-[22px] h-[22px]" />8 min read
+                </span>
+              </div>
 
 
     {/* Read More Button */}
-    <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:gap-0 gap-2    ">
-        <p className="dark-text">Blog By: Sarah Chen</p>
+    <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:gap-0 gap-5    ">
+        <p className="blog-text">Blog Write By: Sarah Chen</p>
       <MyButton text="READ MORE" />
     </div>
   </div>
