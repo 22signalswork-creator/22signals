@@ -36,7 +36,7 @@ export default function App() {
                 <Route path="/blog" element={<Blog />} />
               </Routes>
             </main>
-
+             <Footer />
           </div>
          
         </Router>
