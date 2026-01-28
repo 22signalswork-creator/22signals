@@ -16,6 +16,50 @@
   --button-padding-: 23px 43px;
 }
 
+@font-face {
+  font-family: 'Aeonik-regular';
+  src: url('/src/assets/fonts/aeoniktrial-regular.otf') format('opentype');
+
+}
+@font-face {
+  font-family: 'Aeonik-medium';
+  src: url('/src/assets/fonts/aeoniktrial-medium.otf') format('opentype');
+
+}
+html, body {
+    width: 100%;
+    min-width: 100%;
+}
+/* #root {
+  display: flex;
+  justify-content: center;
+} */
+
+
+/* This is the container that holds your Scaler */
+.zoom-lock-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Keeps site pinned to left if using top-left origin */
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* The actual div that gets the 'scale()' transform */
+.scaler-content {
+  /* width is set dynamically in React (1440px), but we ensure it's a block */
+  display: flex;
+  flex-direction: column;
+  will-change: transform; /* Performance optimization for GSAP and scaling */
+}
+p, a, li, button {
+  font-family: 'Aeonik-regular' !important;
+}
+
+h1, h2, h3 , h4 , h5 , h6{
+  font-family: 'Aeonik-medium' !important;
+  letter-spacing: 0 !important;
+}
 p {
   color: var(--p-color);
   font-size: var(--p-size);
@@ -217,11 +261,44 @@ body {
 body.team-page {
   background-color: #000000;
 }
+.animated-gradient {
+  /* Your original colors, but stretched to 200% width */
+  background: linear-gradient(
+    91.16deg,
+    #325fec 1.74%,
+    #000000 63.71%,
+    #000000 61.62%,
+    #325fec 102.48%
+  );
+  background-size: 200% 200%;
+  
+  /* Applying the animation */
+  animation: moveGradient 3s ease infinite;
+  
+  /* Standard styling for visibility */
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 8px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .container {
-    width: 100%;      
-    max-width: 1900px;   
-    margin: 0 auto;  
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto;
     padding-left: 135px;
     padding-right: 135px;
 }
@@ -291,14 +368,13 @@ button.white-opacity {
   gap: 10px;
 }
 
-.btn-flair {
+/* .btn-flair {
   position: absolute;
   inset: 0;
   pointer-events: none;
   transform: scale(0);
   transform-origin: 0 0;
   z-index: 1;
-  color: #000000;
 }
 
 .btn-flair::before {
@@ -306,18 +382,18 @@ button.white-opacity {
   position: absolute;
   width: 180%;
   aspect-ratio: 1 / 1;
-  background: #000c77;
+  background: var(--button-color, #000c77); 
   border-radius: 50%;
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
-  opacity: 1; 
-    z-index: -1; /* text ke neeche rahe */
-  transition: background 0.3s ease;
+  opacity: 0.2;
+  z-index: -1;
 }
+
 .btn-flair:hover {
-  color: #fff; /* text white on hover */
-}
+  color: #fff;
+} */
 
 
 /* Blue button default */

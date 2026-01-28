@@ -7,29 +7,47 @@ const ScrollLine = () => {
   useEffect(() => {
     const path = pathRef.current;
     const svg = svgRef.current;
-    const pathLength = path.getTotalLength();
+    if (!path || !svg) return;
 
-    // Initial dash setup
+    const pathLength = path.getTotalLength();
+    
     path.style.strokeDasharray = pathLength;
-    path.style.strokeDashoffset = pathLength;
+    // Initial 30% visible (70% offset)
+    path.style.strokeDashoffset = pathLength * 1;
+
+    const scrollContainer = svg.closest(".allow-internal-scroll");
 
     const handleScroll = () => {
-      const svgTop = svg.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
+      if (!scrollContainer) return;
 
-      const start = windowHeight * 0.9;
-      const end = windowHeight * 0.1;
+      const scrollTop = scrollContainer.scrollTop;
+      
+      const startScroll = 0;   
+      /** * 🔹 SPEED TWEAK: 
+       * Lower number = Faster drawing. 
+       * Reduced from 800 to 500.
+       */
+      const finishScroll = 400; 
 
-      let progress = (svgTop - end) / (start - end);
-      progress = Math.min(Math.max(progress, 0), 1);
+      let scrollProgress = (scrollTop - startScroll) / (finishScroll - startScroll);
+      scrollProgress = Math.min(Math.max(scrollProgress, 0), 1);
 
-      // 🔹 THIS IS THE KEY CHANGE
-      // Top → bottom draw without touching SVG
-      path.style.strokeDashoffset = pathLength * progress;
+      // Map scroll 0-1 to visual 0.3-1.0
+      const visualProgress = 0.3 + (scrollProgress * 0.7);
+
+      path.style.strokeDashoffset = pathLength * (1 - visualProgress);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    if (scrollContainer) {
+      scrollContainer.addEventListener("scroll", handleScroll);
+      handleScroll(); 
+    }
+
+    return () => {
+      if (scrollContainer) {
+        scrollContainer.removeEventListener("scroll", handleScroll);
+      }
+    };
   }, []);
 
   return (
@@ -40,18 +58,21 @@ const ScrollLine = () => {
       viewBox="0 0 1743 742"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full"
+      className="w-full h-auto"
+      style={{ pointerEvents: 'none' }}
     >
-      {/* Path reversed for top-right start */}
       <path
         ref={pathRef}
         d="M1652.13 2.5H1690.5C1715.91 2.5 1736.5 23.0949 1736.5 48.5V222.5C1736.5 247.905 1715.91 268.5 1690.5 268.5H52.5C27.0949 268.5 6.5 289.095 6.5 314.5V685.5C6.5 710.905 27.0949 731.5 52.5 731.5H80.749"
         stroke="url(#gradient)"
         strokeWidth="5"
         fill="none"
+        strokeLinecap="round"
+        // 🔹 SMOOTHNESS TWEAK: 
+        // Reduced transition time slightly to keep up with the faster speed
+        style={{ transition: 'stroke-dashoffset 0.1s linear' }} 
       />
-
-       <defs>
+      <defs>
         <linearGradient
           id="gradient"
           x1="39.6245"

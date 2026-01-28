@@ -211,20 +211,31 @@ color: rgba(222, 225, 230, 1);
   background-position: right -2px top 171px !important;
 }
 }
+.allow-internal-scroll {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+  /* Optional: Ensure the container remains scrollable */
+  overflow-y: auto;
+}
 
 .svg-container {
     position: absolute;
-    top: 180px;
+    top: 290px;
     left: 88px;
     width: 100%;
-    max-width: 90%; 
+    max-width: 90%;
     height: 100%;
     pointer-events: none;
     overflow: visible;
     z-index: -1;
 }
-
 
 .svg-container svg {
   width: 100%;
@@ -257,4 +268,35 @@ color: rgba(222, 225, 230, 1);
   .thirdsvg {
     display: none;
   }
+}
+
+/* The container for all sections */
+.slider-main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Individual section wrapper */
+.section-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden; /* GSAP toggles this to 'visible' when active */
+  overflow: hidden;
+}
+
+/* The element that actually moves up/down */
+.inner-content {
+  width: 100%;
+  height: 100%;
+  will-change: transform; /* Optimizes GPU for the sliding animation */
+}
+
+/* If a section has internal scrolling (not recommended for this effect) */
+.allow-internal-scroll {
+  overflow-y: auto;
+  height: 100%;
 }

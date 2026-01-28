@@ -7,7 +7,7 @@ import Logo from "../assets/logo.png";
 import Union from "../assets/Union.svg";
 import BgImage from "../assets/footerbg.png";
 import OverlayImage from "../assets/Vector.png";
-import MyButton from "../components/button.jsx";
+import MyButton from "../components/CustomButton.js";
 import Frame1 from "../assets/Frame1.svg";
 import dashiconemail from "../assets/dashicons_email.png";
 import Frame3 from "../assets/Frame3.svg";
@@ -111,19 +111,19 @@ const Footer = () => {
             <div>
               <h4 className="menu-heading mb-4">Contact</h4>
              <ul className=" text-center md:text-left">
-  <li className="text-content flex flex-row justify-center md:justify-start items-center gap-3">
-    <img src={Frame1} alt="Phone" className="w-6 h-6" />
-    <span className="contact-text">(406) 555-0120</span>
-  </li>
-  <li className="text-content flex flex-row justify-center md:justify-start items-center gap-3">
-    <img src={dashiconemail} alt="Email" className="w-6 h-6" />
-    <span className="contact-text">Hey@22signals.com</span>
-  </li>
-  <li className="flex flex-row mt-3 justify-center md:justify-start  gap-3">
-    <img src={Frame3} alt="Address" className="w-[27px] h-[27px]" />
-    <span className="contact-location">2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
-  </li>
-</ul>
+              <li className="text-content flex flex-row justify-center md:justify-start items-center gap-3">
+                <img src={Frame1} alt="Phone" className="w-6 h-6" />
+                <span className="contact-text">(406) 555-0120</span>
+              </li>
+              <li className="text-content flex flex-row justify-center md:justify-start items-center gap-3">
+                <img src={dashiconemail} alt="Email" className="w-6 h-6" />
+                <span className="contact-text">Hey@22signals.com</span>
+              </li>
+              <li className="flex flex-row mt-3 justify-center md:justify-start  gap-3">
+                <img src={Frame3} alt="Address" className="w-[27px] h-[27px]" />
+                <span className="contact-location">2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
+              </li>
+            </ul>
 
             </div>
           </div>

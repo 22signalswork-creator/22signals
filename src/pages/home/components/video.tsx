@@ -3,7 +3,7 @@ import videoplay from "@/assets/videoplay.svg";
 import { useState } from "react";
 
 
-const VideoSection = () => {
+const Video = () => {
   const [open, setOpen] = useState(false);
 
 
@@ -57,4 +57,4 @@ const VideoSection = () => {
   );
 };
 
-export default VideoSection;
+export default Video;

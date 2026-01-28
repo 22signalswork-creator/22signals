@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
-import MyButton from "../components/button.tsx";
+import MyButton from "../components/CustomButton.tsx";
 import "./headerfooter.css";
 import Headericon from "@/assets/headericon.png";
 

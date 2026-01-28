@@ -1,5 +1,5 @@
 import React from "react";
-import MyButton from "@/components/button.tsx";
+import MyButton from "@/components/CustomButton.js";
 import ProjectCardContent, { projects } from "./projectcard.js"; // <- import component + projects
 import cardbg from "@/assets/cartbg.png";
 import Portfoliobg from "@/assets/footerbg.png";
@@ -76,7 +76,7 @@ const isMobile = window.innerWidth <= 768;
 
 const PortfolioSection = () => {
   return (
-    <div className="relative w-full bg-[#000202] text-white pt-20">
+    <div className="relative w-full bg-[#000202] text-white pt-20 allow-internal-scroll">
 
       {/* Top Section - Recent Projects */}
       <div

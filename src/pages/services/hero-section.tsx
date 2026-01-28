@@ -1,5 +1,5 @@
 import "./services.css";
-import MyButton from "@/components/button";
+import MyButton from "@/components/CustomButton";
 
 export default function HeroSection() {
   return (

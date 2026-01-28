@@ -1,5 +1,5 @@
 import Blogimgcard from "@/assets/blogimgcard.png"
-import MyButton from "@/components/button.tsx"
+import MyButton from "@/components/CustomButton"
 import Rdicon from "@/assets/rdicon.png"
 import Calendar from "@/assets/clander.png"
 import Clock from "@/assets/clock.png"

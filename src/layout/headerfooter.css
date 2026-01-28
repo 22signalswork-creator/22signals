@@ -62,7 +62,7 @@
 }
 
 .menu-item.active {
-  color: #000000;
+  color: var(--p-color) !important;
 }
 
 .menu-black {
@@ -75,6 +75,9 @@
 
 .menu-item:hover {
   opacity: 0.8;
+  color: #325fec !important;
+  font-weight: bold;
+  
 }
 
 /* ================================
