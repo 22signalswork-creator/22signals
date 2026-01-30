@@ -20,6 +20,7 @@ import test7 from "@/assets/test7.jpg";
 import test8 from "@/assets/test5.jpg";
 
 import FadeIn from "@/transitions/FadeIn.js";
+import Cardhovereffect from "@/transitions/cardhovereffect.js"
 
 
 // Testimonials data (abhi component me shift nahi kiya, parent me hi rahega)
@@ -97,11 +98,12 @@ const PortfolioSection = () => {
 
         <section className="container mx-auto px-4 md:px-8 relative z-10 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center mb-12">
+            
             <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400  mb-12 md:mb-0 text-center md:text-left">
               Recent Projects
               <img src={Union} alt="Union" className="ml-2 inline-block" />
             </h2>
-            <MyButton text="All PORTFOLIO" />
+            <MyButton text="All PORTFOLIO" variant="primary" />
           </div>
 
           {/* Projects Grid */}
@@ -160,7 +162,7 @@ const PortfolioSection = () => {
             {testimonials.map((item, idx) => (
 
                <FadeIn delay={1.8}>
-
+                <Cardhovereffect>
               <div
                 key={idx}
                 className="glass-card-2 testimonial-border bg-gray-900 p-6 rounded-xl text-gray-300 hover:bg-gray-800 transition flex flex-col gap-3 md:gap-4 min-h-[180px] h-auto"
@@ -188,7 +190,7 @@ const PortfolioSection = () => {
                   {item.text}
                 </p>
               </div>
-
+              </Cardhovereffect>
               </FadeIn>
 
 

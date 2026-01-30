@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Faqicon from "@/assets/faqiconwhite.png";
-import Dot from "@/assets/Ellipse 379.png"
-import "../team.css"
+import Dot from "@/assets/Ellipse 379.png";
+import "../team.css";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
 export default function FaqSection() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -17,58 +20,60 @@ export default function FaqSection() {
 
   return (
     <section className="container">
- <div className="faq-section">
-      {/* LEFT COLUMN */}
-      <div className="faq-text">
-        <div>
-          <span className="services-badge-team">ANSWERS AT YOUR FINGERTIPS</span>
-          <h2 className="">
-            Frequently <br /> Asked <br /> Questions
-          </h2>
-        </div>
-        <span className="poppins">Still Have Questions? Chat With Us</span>
-      </div>
-
-      {/* RIGHT COLUMN */}
-      <div className="faq-list">
-        {faqs.map((question, index) => (
-          <div
-            key={index}
-            className={`Faq-item ${openFaq === index ? "open" : ""}`}
-            onClick={() => setOpenFaq(openFaq === index ? null : index)}
-          >
-            <div className="Faq-question">
-              <img src={Dot} alt="Dot" className="w-[9px] h-[9px] mt-1" />
-             <span className="faq-question-text">
-  {question}
-</span>
-
-              <span className="Faq-icon">
-                {openFaq === index ? (
-                  "−"
-                ) : (
-                  <img
-                    src={Faqicon}
-                    alt="FAQ Icon"
-                    className="faq-icon-img"
-                  />
-                )}
-              </span>
-            </div>
-
-            {openFaq === index && (
-              <div className="Faq-answer">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            )}
+      <div className="faq-section">
+        {/* LEFT COLUMN */}
+        <FadeIn>
+        <div className="faq-text">
+          <div>
+            <span className="services-badge-team">
+              ANSWERS AT YOUR FINGERTIPS
+            </span>
+            <h2 className="">
+              Frequently <br /> Asked <br /> Questions
+            </h2>
           </div>
-        ))}
+          <span className="poppins">Still Have Questions? Chat With Us</span>
+        </div>
+        </FadeIn>
+
+        {/* RIGHT COLUMN */}
+        <div className="faq-list">
+          {faqs.map((question, index) => (
+            <div
+              key={index}
+              className={`Faq-item ${openFaq === index ? "open" : ""}`}
+              onClick={() => setOpenFaq(openFaq === index ? null : index)}
+            >
+              <div className="Faq-question">
+                <img src={Dot} alt="Dot" className="w-[9px] h-[9px] mt-1" />
+                <span className="faq-question-text">{question}</span>
+
+                <span className="Faq-icon">
+                  {openFaq === index ? (
+                    "−"
+                  ) : (
+                    <img
+                      src={Faqicon}
+                      alt="FAQ Icon"
+                      className="faq-icon-img"
+                    />
+                  )}
+                </span>
+              </div>
+
+              {openFaq === index && (
+                <div className="Faq-answer">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
     </section>
-   
   );
 }

@@ -4,6 +4,9 @@ import Sliderimg2 from "@/assets/sliderimg2.png";
 import Sliderimg3 from "@/assets/sliderimg3.png";
 import Lefticon from "@/assets/lefticon.png";
 import Righticon from "@/assets/righticon.png";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
 
 const CARD_WIDTH = 800;
 const GAP = 30;
@@ -32,9 +35,9 @@ export default function Portfolio() {
         <div className="icon-circle" onClick={() => slide(-1)}>
           <img src={Lefticon} alt="prev" />
         </div>
-
+        <RisingText>
         <h1>Check Our Work</h1>
-
+</RisingText>
         <div className="icon-circle" onClick={() => slide(1)}>
           <img src={Righticon} alt="next" />
         </div>

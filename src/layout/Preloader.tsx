@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
+import Preloaderimg from "@/assets/preloader.png"
 
 interface Props { onComplete: () => void; }
 
@@ -37,11 +38,10 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
   }, [onComplete]);
 
   return (
-    <div ref={scope} className="fixed inset-0 z-[9999] flex items-center justify-center bg-white">
+    <div ref={scope} className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#325FEC]">
       <div className="logo-container relative overflow-hidden p-4">
         <img 
-          src="/logo.svg" /* Ensure your logo is in public/logo.svg */
-          alt="22 Signals" 
+          src={Preloaderimg}
           className="logo-img w-32 md:w-48 h-auto translate-y-[110%]" 
         />
       </div>

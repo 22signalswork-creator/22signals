@@ -1,8 +1,12 @@
 import React from "react";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
 const activeresearch = () => {
   return (
     <div className="container mx-auto px-4">
+      <FadeIn>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-6 items-start">
         <div>
           <span className="services-badge-secondry">Research & Development</span>
@@ -18,6 +22,7 @@ const activeresearch = () => {
           <div className="divider "></div>
         </div>
       </div>
+      </FadeIn>
     </div>
   );
 };

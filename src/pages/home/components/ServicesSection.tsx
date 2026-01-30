@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef } from "react"; // 1. useRef add kiya
 import { motion } from "framer-motion";
+import gsap from "gsap"; // 2. GSAP import kiya
 
 import DigitalSolutions from "@/assets/digitalsolutions.png";
 import Framed from "@/assets/DigitalIcon.png";
@@ -21,7 +22,7 @@ import slide6 from "@/assets/Frame73.png";
 import slide7 from "@/assets/Frame74.png";
 import ScrollLine from "./ScrollLine.js";
 import ScrollLineBottom from "./ScrollLineBottom.js";
-
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
 import Video from "./video.tsx";
 import RisingText from "@/transitions/RisingText.tsx";
 import ServiceCard from "./ServiceCard.tsx";
@@ -31,33 +32,29 @@ const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3];
 
 const ServicesSection = () => {
   return (
-    <section className="container relative pb-16 px-6 md:px-12 lg:px-20  allow-internal-scroll" style={{ paddingTop: '150px' }}>
+    <section className="container relative pb-16 px-6 md:px-12 lg:px-20 allow-internal-scroll" style={{ paddingTop: '150px' }}>
       <div className="svg-container">
         <ScrollLine />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1.7fr] gap-12 items-center mb-20">
         <div>
+          <RisingText>
           <h1 className="animated-gradient text-transparent text-center md:text-left">
-            <RisingText 
-                 text="We translate complex challenges into tangible data driven results." 
-                 className="" 
-                 delay={2} 
-               />
+            We translate complex challenges into tangible data driven results.
           </h1>
+          </RisingText>
         </div>
         <Video />
-        
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] items-center gap-8 mb-12">
         <div>
-          <h1 className="font-thin text-[68px] leading-[1.1] text-center md:text-left">
-            <RisingText 
-                 text="Integrated Solutions Singular Focus." 
-                 className="" 
-                 delay={3} 
-               />
+          <RisingText>
+          <h1 className="animated-gradient font-thin text-[68px] leading-[1.1] text-center md:text-left">
+            Integrated Solutions Singular Focus.
           </h1>
+          </RisingText>
         </div>
 
         <div className="flex justify-center md:justify-end mt-6 md:mt-0">
@@ -68,6 +65,7 @@ const ServicesSection = () => {
       {/* ROW 1: Digital & Creative */}
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1.3fr] gap-10 my-10">
         <FadeIn delay={1.7}>
+          <Cardhovereffect>
           <ServiceCard 
             title="Digital Solutions"
             description="Web dev, app dev, IoT and AI automations"
@@ -75,11 +73,13 @@ const ServicesSection = () => {
             bgImage={DigitalSolutions}
             bgColorClass="bg-[#325fec]"
             bgPosition="right -130px top 45px"
-            buttonVariant="white"
+            buttonVariant="secondary"
           />
+          </Cardhovereffect>
         </FadeIn>
 
         <FadeIn delay={1.8}>
+           <Cardhovereffect>
           <ServiceCard 
             title="Creative Solutions"
             description="Social Media Marketing, PPC Ads, Video Editing, 2D/3D Animations, Modeling, Graphic Designing"
@@ -87,13 +87,16 @@ const ServicesSection = () => {
             bgImage={Creative}
             titleColorClass="blue-gradient-text"
             bgPosition="right -50px top 60px"
+            buttonVariant="danger"
           />
+          </Cardhovereffect>
         </FadeIn>
       </div>
 
       {/* ROW 2: Staff & Broadcasting */}
       <div className="grid grid-cols-1 md:grid-cols-[1.3fr_2fr] gap-10 my-10">
         <FadeIn delay={0.1}>
+           <Cardhovereffect>
           <ServiceCard 
             title="Staff Augmentation"
             description="Back end offices and remote employees"
@@ -101,10 +104,13 @@ const ServicesSection = () => {
             bgImage={staffbg}
             titleColorClass="blue-gradient-text"
             bgPosition="right -20px top 50px"
+            buttonVariant="danger"
           />
+          </Cardhovereffect>
         </FadeIn>
 
         <FadeIn delay={0.2}>
+           <Cardhovereffect>
           <ServiceCard 
             title="Broadcasting & Event Execution"
             description="Broadcasting solutions, remote broadcasting, esports event management"
@@ -112,23 +118,28 @@ const ServicesSection = () => {
             bgImage={broadcastingbg}
             bgColorClass="bg-[#325fec]"
             bgPosition="right -5px top 50px"
-            buttonVariant="white"
+            buttonVariant="secondary"
           />
+          </Cardhovereffect>
         </FadeIn>
       </div>
 
       {/* ROW 3: Three Columns */}
       <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2.5fr_1.2fr] gap-10 my-10 mb-20">
         <FadeIn delay={0.3}>
+           <Cardhovereffect>
           <ServiceCard 
             title="Game Development"
             description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
             icon={CreativeIcon}
             titleColorClass="blue-gradient-text"
+            buttonVariant="danger"
           />
+          </Cardhovereffect>
         </FadeIn>
 
         <FadeIn delay={0.4}>
+          <Cardhovereffect>
           <ServiceCard 
             title="Global Manufacturing Solutions"
             description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
@@ -136,17 +147,21 @@ const ServicesSection = () => {
             bgImage={DigitalSolutions}
             bgColorClass="bg-[#325fec]"
             bgPosition="right -350px top 50px"
-            buttonVariant="white"
+            buttonVariant="secondary"
           />
+          </Cardhovereffect>
         </FadeIn>
 
         <FadeIn delay={0.5}>
+           <Cardhovereffect>
           <ServiceCard 
             title="UI/UX Design"
             description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
             icon={CreativeIcon}
             titleColorClass="blue-gradient-text"
+            buttonVariant="danger"
           />
+          </Cardhovereffect>
         </FadeIn>
       </div>
 
@@ -159,8 +174,7 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
-
+// --- Updated Card Component with GSAP Hover ---
 interface CardProps {
   title: string;
   description: string;
@@ -170,7 +184,6 @@ interface CardProps {
   className?: string;
 }
 
-
 const Card: React.FC<CardProps> = ({
   title,
   description,
@@ -179,13 +192,38 @@ const Card: React.FC<CardProps> = ({
   style,
   className,
 }) => {
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  const handleMouseEnter = () => {
+    gsap.to(cardRef.current, {
+      scale: 1.05,
+      y: -10,
+      boxShadow: "0px 20px 40px rgba(0,0,0,0.2)",
+      duration: 0.4,
+      ease: "power2.out"
+    });
+  };
+
+  const handleMouseLeave = () => {
+    gsap.to(cardRef.current, {
+      scale: 1,
+      y: 0,
+      boxShadow: "0px 10px 20px rgba(0,0,0,0.1)",
+      duration: 0.4,
+      ease: "power2.inOut"
+    });
+  };
+
   return (
     <div
+      ref={cardRef}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       className={`${bg || ""} ${
         text || ""
       } rounded-[24px] p-6 flex flex-col justify-between min-h-[220px] shadow-lg ${
         className || ""
-      }`}
+      } cursor-pointer`}
       style={style}
     >
       <div>
@@ -193,9 +231,9 @@ const Card: React.FC<CardProps> = ({
         <p className="text-sm opacity-90">{description}</p>
       </div>
 
-      <CustomButton variant="white" text="GET STARTED" />
+      <CustomButton variant="danger" text="GET STARTED" />
     </div>
   );
 };
 
-
+export default ServicesSection;

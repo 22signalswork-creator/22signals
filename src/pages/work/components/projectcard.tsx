@@ -4,6 +4,9 @@ import Bigimg1 from "@/assets/Bigimg1.png";
 import Bigimg2 from "@/assets/Bigimg2.png";
 import Bigimg3 from "@/assets/Bigimg3.png";
 import Bigimg4 from "@/assets/Bigimg4.png";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
 
 export interface Project {
   title: string;
@@ -47,6 +50,8 @@ export const projects: Project[] = [
     return (
       <>
         {/* Desktop View */}
+        <FadeIn>
+          <Cardhovereffect>
       <div className="glass-card  rounded-2xl relative overflow-hidden my-4 group 
         min-h-[307px] h-auto md:h-[307px] w-full md:mr-4 p-4 md:p-6 
         grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-4 md:gap-6 items-center hidden md:grid"
@@ -78,10 +83,14 @@ export const projects: Project[] = [
           <img src={Floatingimg} alt={project.title} className="floating-img" />
         </div>
       </div>
+      </Cardhovereffect>
+      </FadeIn>
 
 
   {/* Mobile View */}
     <div className="block md:hidden">
+      <FadeIn>
+          <Cardhovereffect>
     <div className="glass-card  rounded-2xl relative overflow-hidden my-4 px-4 pt-6 flex flex-col gap-4"
     style={{ background: gradientBg }}>
       {/* Text */}
@@ -106,6 +115,9 @@ export const projects: Project[] = [
         
       </div>
     </div>
+
+    </Cardhovereffect>
+     </FadeIn>
   </div>
 
             </>

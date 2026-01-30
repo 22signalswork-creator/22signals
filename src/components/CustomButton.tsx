@@ -1,151 +1,179 @@
+"use client";
+
 import React, { useRef, useEffect } from "react";
 import icon from "../assets/btn-icon.svg";
 import gsap from "gsap";
 
-// Define your variants here
 const VARIANTS = {
   primary: {
-    base: "#325fec",
-    text: "#ffffff",
-    flair: "#ffffff",
-    border: "rgba(50, 95, 236, 0.2)",
+    initialBg: "#325FEC",      // Default Solid Blue
+    hoverBg: "#fff",        // Hover state (Solid Light)
+    flair: "#fff",          // Moving Flair Color
+    textDefault: "#ffffff",    // Default Text Color
+    textHover: "#000",      // Hover Text Color (Dark Blue)
+    borderDefault: "rgba(50, 95, 236, 0.5)",
+    borderHover: "#000",    // Hover Border Color (Dark)
   },
   secondary: {
-    base: "#000c77",
-    text: "#ffffff",
-    flair: "#325fec",
-    border: "rgba(0, 12, 119, 0.2)",
+    initialBg: "#466fee",
+     hoverBg: "#fff",        // Hover state (Solid Light)
+    flair: "#fff",          // Moving Flair Color
+    textDefault: "#ffffff",    // Default Text Color
+    textHover: "#000",      // Hover Text Color (Dark Blue)
+    borderDefault: "#466fee",
+    borderHover: "#fff",    
   },
   white: {
-    base: "#ffffff",
+    initialBg: "rgba(255, 255, 255, 0.1)",
+    hoverBg: "rgba(255, 255, 255, 0.2)",
+    flair: "#ffffff",
     text: "#000000",
-    flair: "#000000",
     border: "rgba(255, 255, 255, 0.5)",
   },
   danger: {
-    base: "#dc2626",
-    text: "#ffffff",
+    initialBg: "#191919",
+    hoverBg: "#fff",
     flair: "#ffffff",
-    border: "rgba(220, 38, 38, 0.2)",
+    textDefault: "#ffffff",    // Default Text Color
+    textHover: "#000",      // Hover Text Color (Dark Blue)
+    borderDefault: "#191919",
+    borderHover: "none", 
   },
 };
-
 type ButtonVariant = keyof typeof VARIANTS;
 
 interface MyButtonProps {
   text?: string;
   variant?: ButtonVariant;
   className?: string;
+  onClick?: () => void;
 }
 
-function CustomButton({ variant = "primary", text = "LET’S TALK",   className = "", }: MyButtonProps) {
+function CustomButton({ variant = "primary", text = "GET STARTED", className = "", onClick }: MyButtonProps) {
   const btnRef = useRef<HTMLButtonElement>(null);
   const flairRef = useRef<HTMLSpanElement>(null);
+  const labelRef = useRef<HTMLSpanElement>(null);
   const config = VARIANTS[variant];
 
   useEffect(() => {
-    if (!btnRef.current || !flairRef.current) return;
+    if (!btnRef.current || !flairRef.current || !labelRef.current) return;
 
     const btn = btnRef.current;
     const flair = flairRef.current;
+    const label = labelRef.current;
 
-    // 1. Set the initial "Transparent/Light" state (15% opacity)
-    gsap.set(btn, { backgroundColor: `${config.base}26` }); // 26 is 15% in Hex
-    gsap.set(flair, { scale: 0 });
-
-    const xSet = gsap.quickSetter(flair, "xPercent");
-    const ySet = gsap.quickSetter(flair, "yPercent");
-
-    const getXY = (e: MouseEvent) => {
-      const { left, top, width, height } = btn.getBoundingClientRect();
-      const x = gsap.utils.clamp(0, 100, ((e.clientX - left) / width) * 100);
-      const y = gsap.utils.clamp(0, 100, ((e.clientY - top) / height) * 100);
-      return { x, y };
-    };
+    // --- INITIAL SETUP ---
+    gsap.set(btn, { 
+      backgroundColor: config.initialBg, 
+      borderColor: config.borderDefault,
+      color: config.textDefault,
+      scale: 1 
+    });
+    gsap.set(flair, { scale: 0, xPercent: -50, yPercent: -50 });
 
     const onMouseEnter = (e: MouseEvent) => {
-      const { x, y } = getXY(e);
-      xSet(x);
-      ySet(y);
-      
-      // Animate Flair & Button Lift
-      gsap.to(flair, { scale: 1.2, duration: 0.5, ease: "power2.out" });
-      gsap.to(btn, { y: -2, duration: 0.2, ease: "power2.out" });
-      
-      // Animate Background to 100% Solid
-      gsap.to(btn, { backgroundColor: config.base, duration: 0.4 });
-    };
+      const rect = btn.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
 
-    const onMouseLeave = (e: MouseEvent) => {
-      const { x, y } = getXY(e);
-      
-      // Reset Flair & Button
-      gsap.to(flair, { xPercent: x, yPercent: y, scale: 0, duration: 0.3, ease: "power2.out" });
-      gsap.to(btn, { y: 0, duration: 0.3, ease: "power2.out" });
-      
-      // Reset Background to 15% Opacity
-      gsap.to(btn, { backgroundColor: `${config.base}26`, duration: 0.4 });
+      gsap.killTweensOf([btn, flair, label]);
+      gsap.set(flair, { x, y });
+
+      // 1. SLOW ENTRY (Circle Fill)
+      gsap.to(flair, { scale: 1, duration: 1.2, ease: "sine.out" });
+
+      // 2. BUTTON ZOOM & TEXT/BORDER COLOR CHANGE
+      gsap.to(btn, { 
+        scale: 1.05, 
+        borderColor: config.borderHover,
+        color: config.textHover, // Text Dark ho jayega
+        duration: 0.6, 
+        ease: "power2.out" 
+      });
     };
 
     const onMouseMove = (e: MouseEvent) => {
-      const { x, y } = getXY(e);
-      gsap.to(flair, { xPercent: x, yPercent: y, duration: 0.4, ease: "power2" });
+      const rect = btn.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      gsap.to(flair, { x, y, duration: 0.8, ease: "power1.out" });
+    };
+
+    const onMouseLeave = () => {
+      gsap.killTweensOf([btn, flair, label]);
+
+      // INSTANT RESET (Snap back to Blue Default)
+      gsap.to(flair, { scale: 0, duration: 0.2, ease: "power2.in" });
+      gsap.to(btn, { 
+        scale: 1, 
+        backgroundColor: config.initialBg, 
+        borderColor: config.borderDefault,
+        color: config.textDefault, // Text wapas White
+        duration: 0.2, 
+        ease: "power2.in" 
+      });
     };
 
     btn.addEventListener("mouseenter", onMouseEnter);
-    btn.addEventListener("mouseleave", onMouseLeave);
     btn.addEventListener("mousemove", onMouseMove);
+    btn.addEventListener("mouseleave", onMouseLeave);
 
     return () => {
       btn.removeEventListener("mouseenter", onMouseEnter);
-      btn.removeEventListener("mouseleave", onMouseLeave);
       btn.removeEventListener("mousemove", onMouseMove);
+      btn.removeEventListener("mouseleave", onMouseLeave);
     };
-  }, [variant, config]); // Re-init if variant changes
+  }, [variant, config]);
 
   return (
     <button
       ref={btnRef}
-      className={`gsap-btn relative overflow-hidden group rounded-full border px-8 py-3 transition-colors duration-300 ${className}`}
-      style={{ 
-        borderColor: config.border,
-        color: config.text,
-        // We pass the flair color to CSS via a variable
-        ['--button-color' as any]: config.flair 
+      onClick={onClick}
+      className={`relative overflow-hidden group rounded-full border px-9 py-4 will-change-transform ${className}`}
+      style={{
+        transition: "color 0.3s ease, border-color 0.3s ease" // Smooth color switch
       }}
     >
-      <span ref={flairRef} className="btn-flair"></span>
-      <span className="btn-label flex items-center gap-2 relative z-10 font-medium">
-        {text} 
-        <img 
-          src={icon} 
-          alt="Icon" 
-          className="h-4 w-4 pointer-events-none" 
-          style={{ filter: variant === 'white' ? 'brightness(0)' : 'brightness(0) invert(1)' }}
+      {/* Flair Element */}
+      <span
+        ref={flairRef}
+        className="absolute pointer-events-none rounded-full"
+        style={{
+          width: "350%",
+          aspectRatio: "1/1",
+          backgroundColor: config.flair, // Your #dadada color
+          left: 0,
+          top: 0,
+          zIndex: 1,
+        }}
+      ></span>
+
+      {/* Label Content */}
+    {/* Label Content */}
+      <span ref={labelRef} className="relative z-10 flex items-center gap-3 font-semibold uppercase tracking-wider pointer-events-none">
+        {text}
+        <img
+          src={icon}
+          alt="icon"
+          className="btn-icon h-4 w-4 transition-all duration-300"
+          style={{
+            // Default state: White icon
+            filter: "brightness(0) invert(1)" 
+          }}
         />
       </span>
-
-      <style>{`
-        .btn-flair {
-          position: absolute;
-          inset: 0;
-          pointer-events: none;
-          transform: scale(0);
-          transform-origin: 0 0;
-          z-index: 1;
+      
+      {/* CSS for Icon change on Hover */}
+      <style jsx>{`
+        /* Button hover par icon ko pure black karne ke liye */
+        button:hover .btn-icon {
+          filter: brightness(0) !important;
         }
-        .btn-flair::before {
-          content: "";
-          position: absolute;
-          width: 180%;
-          aspect-ratio: 1 / 1;
-          background: var(--button-color); 
-          border-radius: 50%;
-          top: 0;
-          left: 0;
-          transform: translate(-50%, -50%);
-          opacity: 0.15;
-          z-index: -1;
+        
+        /* Text color ko bhi dark black karne ke liye agar zaroorat ho */
+        button:hover {
+          color: #000000 !important;
         }
       `}</style>
     </button>

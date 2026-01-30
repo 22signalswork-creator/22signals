@@ -1,5 +1,7 @@
 import "@/pages/services/services.css";
 import MyButton from "@/components/CustomButton";
+import AnimatedText from "@/transitions/herosectionP.tsx";
+import RisingText from "@/transitions/RisingText";
 
 export default function HeroSection() {
   return (
@@ -12,14 +14,19 @@ export default function HeroSection() {
             {/* Inner container for content */}
             <div className="content-container">
               <div className="service-content">
-                <h1>Innovation <br></br>Laboratory</h1>
+                <RisingText>
+                  <h1>
+                    Innovation <br></br>Laboratory
+                  </h1>
+                </RisingText>
 
-                <p className="dark-text">
+                <AnimatedText className="dark-text">
                   Pioneering the future of digital experiences through
                   cutting-edge research and experimentation
-                </p>
-
-                <MyButton text="GET STARTED" />
+                </AnimatedText>
+                <RisingText>
+                  <MyButton text="GET STARTED" />
+                </RisingText>
               </div>
             </div>
           </div>

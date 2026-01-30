@@ -7,6 +7,8 @@ import Bigimg4 from "@/assets/Bigimg4.png";
 import "../../../pages/home/home.css";
 import Calendar from "@/assets/clander.png";
 import Clock from "@/assets/clock.png";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect"
 
 // Projects array with categories
 const projects = [
@@ -32,7 +34,7 @@ const projects = [
     category: "Branding",
   },
   {
-  title: "Neural Interface Protocol",
+    title: "Neural Interface Protocol",
     description:
       "Developing next-generation human-computer interaction through advanced neural networks",
     bigImage: Bigimg1,
@@ -68,30 +70,29 @@ const Tabs = () => {
       {/* Tab Content - Projects Grid */}
       <div className="tab-content grid grid-cols-1 sm:grid-cols-3 gap-20 mt-8">
         {filteredProjects.map((project, idx) => (
+          <FadeIn>
+            <Cardhovereffect>
           <div
             key={idx}
             className="bg-white rounded-[24px] shadow-lg overflow-hidden flex flex-col w-full md:w-full"
           >
-          {/* Top Image */}
-<div className="w-full h-[330px] md:h-[330px] overflow-hidden rounded-t-[24px]">
-  <img
-    src={project.bigImage}
-    alt={project.title}
-    className="w-full h-[330px] object-cover block rounded-b-[24px]"
-  />
-</div>
-
-
+            {/* Top Image */}
+            <div className="w-full h-[330px] md:h-[330px] overflow-hidden rounded-t-[24px]">
+              <img
+                src={project.bigImage}
+                alt={project.title}
+                className="w-full h-[330px] object-cover block rounded-b-[24px]"
+              />
+            </div>
 
             {/* Content */}
             <div className="p-6 flex flex-col gap-4 ">
-                <div>
-                     <span className="services-badge-secondry">
-                {project.category}
-              </span>
+              <div>
+                <span className="services-badge-secondry">
+                  {project.category}
+                </span>
+              </div>
 
-                </div>
-             
               {/* Title */}
               <h1 className="tab-card-heading">
                 <span className="text-blue-600">
@@ -106,25 +107,29 @@ const Tabs = () => {
               {/* Info: Date + Read Time */}
               <div className="flex items-center gap-4 text-gray-500 text-sm">
                 <span className="text-[20px] font-thin flex items-center gap-2">
-                  <img src={Calendar} alt="calendar" className="w-[22px] h-[22px]" />
+                  <img
+                    src={Calendar}
+                    alt="calendar"
+                    className="w-[22px] h-[22px]"
+                  />
                   Nov 15, 2025
                 </span>
                 <span className="text-[20px] font-thin flex items-center gap-2">
-                  <img src={Clock} alt="clock" className="w-[22px] h-[22px]" />8 min read
+                  <img src={Clock} alt="clock" className="w-[22px] h-[22px]" />8
+                  min read
                 </span>
               </div>
 
-                
-                  <hr style={{ borderColor: "#BCBCBC" }} />
-                
+              <hr style={{ borderColor: "#BCBCBC" }} />
+
               <div className="flex justify-between items-center pt-2">
-                <p className="blog-text">
-                  Blog Write By: Sarah Chen
-                </p>
+                <p className="blog-text">Blog Write By: Sarah Chen</p>
                 <img src={Blogarrow} alt="arrow" className="w-5 h-5" />
               </div>
             </div>
           </div>
+          </Cardhovereffect>
+          </FadeIn>
         ))}
 
         {filteredProjects.length === 0 && (

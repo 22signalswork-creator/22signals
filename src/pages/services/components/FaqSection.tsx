@@ -1,5 +1,9 @@
 import { useState } from "react";
 import Faqicon from "@/assets/faqicon.png";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
+
 
 export default function FaqSection() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -18,13 +22,18 @@ export default function FaqSection() {
  <div className="faq-section">
       {/* LEFT COLUMN */}
       <div className="faq-text">
+        <RisingText>
         <div>
+           
           <span className="services-badge">ANSWERS AT YOUR FINGERTIPS</span>
+     
           <h1 className="">
             Frequently <br /> Asked <br /> Questions
           </h1>
+          
         </div>
         <span className="faq-subtext">Still Have Questions? Chat With Us</span>
+        </RisingText>
       </div>
 
       {/* RIGHT COLUMN */}

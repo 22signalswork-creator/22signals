@@ -69,8 +69,8 @@ const Header = () => {
 
         <div className="desktop-button">
           <img src={Headericon} className="w-[44px] h-[44px]" alt="" />
-          <div className="btn">
-            <MyButton text="GET STARTED" className="header-b" />
+          <div className="">
+            <MyButton text="GET STARTED" variant="primary" className="header-b" />
           </div>
         </div>
 

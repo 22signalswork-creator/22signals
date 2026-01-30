@@ -1,4 +1,7 @@
 import React from "react";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
 const Score = () => {
   const scores = [
@@ -12,7 +15,8 @@ const Score = () => {
     <div className="container mx-auto p-6 py-50">
 
       {/* Top Section */}
-      <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-2">
+      <FadeIn>
+      <div className="grid grid-cols-2 gap-4 mb-8 md:grid-cols-2">
         <div>
           <h1 className="">Project Details</h1>
         </div>
@@ -22,10 +26,13 @@ const Score = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
       {/* Score Grid */}
-      <div className="grid grid-cols-2 gap-10">
+      <FadeIn>
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 md:gap-10">
         {scores.map((item, index) => (
+          <Cardhovereffect>
           <div
             key={index}
             className="progress-card"
@@ -46,8 +53,10 @@ const Score = () => {
               />
             </div>
           </div>
+          </Cardhovereffect>
         ))}
       </div>
+      </FadeIn>
 
     </div>
   );

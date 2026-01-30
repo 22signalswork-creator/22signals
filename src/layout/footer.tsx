@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Right */}
           <div className="flex justify-center md:justify-end items-center mt-6 md:mt-0">
-            <MyButton text="KNOW MORE" />
+            <MyButton text="KNOW MORE" variant="primary" />
           </div>
         </div>
       </div>
