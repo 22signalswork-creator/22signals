@@ -15,6 +15,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const isHomePage = location.pathname === "/";
   const isTeamPage = location.pathname === "/team";
 
   const tabs = [
@@ -28,18 +29,64 @@ const Header = () => {
   ];
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    if (isHomePage) {
+      // Use MutationObserver to detect when ScrollSlider changes sections
+      const checkScrollSliderPosition = () => {
+        const sections = document.querySelectorAll('.section-container');
+        let currentSectionIndex = -1;
+
+        sections.forEach((section, index) => {
+          const computedStyle = window.getComputedStyle(section as HTMLElement);
+          const opacity = parseFloat(computedStyle.opacity);
+          if (opacity > 0) {
+            currentSectionIndex = index;
+          }
+        });
+
+        // If we're on any section other than the first, consider it scrolled
+        setScrolled(currentSectionIndex > 0);
+      };
+
+      // Check immediately
+      checkScrollSliderPosition();
+
+      // Set up MutationObserver to watch for section changes
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+            checkScrollSliderPosition();
+          }
+        });
+      });
+
+      // Observe all section containers
+      const sections = document.querySelectorAll('.section-container');
+      sections.forEach(section => {
+        observer.observe(section, { attributes: true, attributeFilter: ['style'] });
+      });
+
+      // Also observe for new sections being added
+      const container = document.querySelector('.relative.w-screen.h-screen.overflow-hidden');
+      if (container) {
+        observer.observe(container, { childList: true });
+      }
+
+      return () => observer.disconnect();
+    } else {
+      // Normal scroll detection for other pages
+      const handleScroll = () => {
+        setScrolled(window.scrollY > 50);
+      };
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
+  }, [isHomePage]);
 
   return (
     <header
       className={`header ${scrolled ? "scrolled" : ""} ${
         isTeamPage ? "team-header" : ""
-      }`}
+      } ${isHomePage && !scrolled ? "home-header-transparent" : ""}`}
     >
       <div className="header-container">
         <div className="logo-wrapper">
@@ -58,8 +105,8 @@ const Header = () => {
                 navigate(tab.path);
               }}
              className={`menu-item ${
-  activeTab === tab.label ? "active" : ""
-} ${isTeamPage && !scrolled ? "menu-white" : "menu-black"}`}
+  isTeamPage && !scrolled ? "menu-white" : "menu-black"
+} ${activeTab === tab.label ? "active" : ""}`}
 
             >
               {tab.label}

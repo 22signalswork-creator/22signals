@@ -62,7 +62,7 @@
 }
 
 .menu-item.active {
-  color: var(--p-color) !important;
+  color: #325FEC !important;
 }
 
 .menu-black {
@@ -184,6 +184,13 @@
 
 .team-header {
   background: transparent;
+}
+
+/* Home page header - transparent when not scrolled */
+.header.home-header-transparent {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
 }
 
 /* ================================
