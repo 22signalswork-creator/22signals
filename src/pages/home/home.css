@@ -300,3 +300,25 @@ color: rgba(222, 225, 230, 1);
   overflow-y: auto;
   height: 100%;
 }
+
+/* Slick Slider Arrow Styles */
+.slick-prev,
+.slick-next {
+  width: 80px !important;
+  height: 80px !important;
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+  color: #325FEC !important;
+}
+
+.slick-prev {
+  left: -60px !important;
+}
+
+.slick-next {
+  right: -60px !important;
+}
