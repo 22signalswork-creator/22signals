@@ -5,6 +5,7 @@ import Tabs from "@/pages/work/components/tabs.tsx";
 import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
 import { projects } from "./components/projectcard.tsx"; 
 import RisingText from "@/transitions/RisingText.tsx";
+import FaqSection from "./components/FaqSection.tsx";
 
 const Work: FC = () => {
   return (
@@ -23,7 +24,9 @@ const Work: FC = () => {
         </p>
       </div>
         <CompanyStatsCounts />
+      
         </div>
+          <FaqSection />
     </>
   );
 };

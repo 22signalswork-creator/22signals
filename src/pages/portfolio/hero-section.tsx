@@ -33,12 +33,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
         {/* Heading section */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left pt-0 md:pt-10">
           <RisingText>
-            <h1 className="h1-large">OUR PORTFOLIO</h1>
+            <h1 className="h1-large">PROVEN EXECUTION.</h1>
           </RisingText>
 
           <div className="flex flex-col md:flex-row md:justify-between md:items-center w-full mt-8 gap-4">
             <AnimatedText className="dark-text text-base md:text-lg max-w-xl" delay={0.5}>
-              A showcase of our finest work across web, mobile, and digital experiences
+              A curated showcase of our finest work across digital infrastructure, creative media, broadcasting, and streamlined operations.
             </AnimatedText>
             <img src={iconimage} alt="icon" className="w-16 h-16 md:w-20 md:h-20 mx-auto md:mx-0" />
           </div>
