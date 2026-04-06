@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import HeroSection from "./hero-section.tsx";
 import "@/pages/work/work.css";
-import Tabs from "@/pages/work/components/tabs.tsx";
+import Tabs from "./components/tabs.tsx";
 import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
 import { projects } from "./components/projectcard.tsx"; 
 import RisingText from "@/transitions/RisingText.tsx";
