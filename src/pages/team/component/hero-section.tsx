@@ -18,15 +18,15 @@ export default function HeroSection() {
             <div className="content-container">
               <div className="service-content">
                 <RisingText>
-                <h2 className="team-title">Behind The Scenes</h2>
+                <h2 className="team-title">The Engine Behind 22 Signals.</h2>
                 </RisingText>
 
                <AnimatedText className="white-text">
-                 A diverse team of creators, thinkers, and innovators dedicated to excellence
+                 A globally integrated network of technologists, creatives, and strategists dedicated to flawless execution.
                 </AnimatedText>
-                <RisingText>
+                {/* <RisingText>
                 <MyButton text="GET STARTED" />
-                </RisingText>
+                </RisingText> */}
               </div>
             </div>
 
