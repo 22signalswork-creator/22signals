@@ -18,8 +18,7 @@ const Header = () => {
 
   const tabs = [
     { label: "Home", path: "/" },
-    { label: "Work", path: "/work" },
-    { label: "Services", path: "/services" },
+    { label: "Services", path: "/work" },
     { label: "Portfolio", path: "/portfolio" },
     { label: "Team", path: "/team" },
     { label: "R&D", path: "/r&d" },
