@@ -8,7 +8,6 @@ import Servicebody from "./components/servicesbody.tsx"
 const Service = () => {
   return (
     <div>
-      <HeroSection />
       <Servicebody/>
     </div>
   );

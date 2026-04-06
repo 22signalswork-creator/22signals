@@ -20,13 +20,10 @@ export default function CreativeServices() {
             </span>
 
             <div className="services-title-wrap">
-              <h1>Services For Creative Marketing Solutions</h1>
+              <h1>Refined Execution.</h1>
               <div>
                 <p className="dark-text">
-                  You never get another chance to make a good first impression.
-                  At American Designers Hub, we use a complete spectrum of UI/UX
-                  services to develop effective strategies to retain and assist
-                  brands.
+                  Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions.
                 </p>
                 <div className="divider"></div>
               </div>
@@ -154,10 +151,7 @@ export default function CreativeServices() {
         </div>
 
         {/* ================= SLIDER ================= */}
-        <Portfolioslider />
-
-        {/* ================= FAQ ================= */}
-        <FaqSection />
+ 
       </div>
     </section>
   );
