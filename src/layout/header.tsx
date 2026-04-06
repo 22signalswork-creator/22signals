@@ -5,11 +5,9 @@ import MyButton from "../components/CustomButton.tsx";
 import "./headerfooter.css";
 import Headericon from "@/assets/headericon.png";
 
-
 const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
-
 
   const [activeTab, setActiveTab] = useState("Home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,71 +27,41 @@ const Header = () => {
   ];
 
   useEffect(() => {
-    if (isHomePage) {
-      // Use MutationObserver to detect when ScrollSlider changes sections
-      const checkScrollSliderPosition = () => {
-        const sections = document.querySelectorAll('.section-container');
-        let currentSectionIndex = -1;
-
-        sections.forEach((section, index) => {
-          const computedStyle = window.getComputedStyle(section as HTMLElement);
-          const opacity = parseFloat(computedStyle.opacity);
-          if (opacity > 0) {
-            currentSectionIndex = index;
-          }
-        });
-
-        // If we're on any section other than the first, consider it scrolled
-        setScrolled(currentSectionIndex > 0);
-      };
-
-      // Check immediately
-      checkScrollSliderPosition();
-
-      // Set up MutationObserver to watch for section changes
-      const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
-          if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
-            checkScrollSliderPosition();
-          }
-        });
-      });
-
-      // Observe all section containers
-      const sections = document.querySelectorAll('.section-container');
-      sections.forEach(section => {
-        observer.observe(section, { attributes: true, attributeFilter: ['style'] });
-      });
-
-      // Also observe for new sections being added
-      const container = document.querySelector('.relative.w-screen.h-screen.overflow-hidden');
-      if (container) {
-        observer.observe(container, { childList: true });
+    // SINCE SCROLLSLIDER IS GONE: Use a simple, fast scroll listener
+    const handleScroll = () => {
+      // Trigger white background after only 10px of scrolling
+      if (window.scrollY > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
       }
+    };
 
-      return () => observer.disconnect();
-    } else {
-      // Normal scroll detection for other pages
-      const handleScroll = () => {
-        setScrolled(window.scrollY > 50);
-      };
-      window.addEventListener("scroll", handleScroll);
-      return () => window.removeEventListener("scroll", handleScroll);
-    }
-  }, [isHomePage]);
+    window.addEventListener("scroll", handleScroll);
+    
+    // Run once on load to check if user refreshed halfway down the page
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []); // Remove isHomePage dependency to make it global
+
+  // Update active tab based on URL
+  useEffect(() => {
+    const currentTab = tabs.find(tab => tab.path === location.pathname);
+    if (currentTab) setActiveTab(currentTab.label);
+  }, [location.pathname]);
 
   return (
     <header
-      className={`header ${scrolled ? "scrolled" : ""} ${
+      className={`header ${scrolled ? "scrolled" : "transparent-bg"} ${
         isTeamPage ? "team-header" : ""
-      } ${isHomePage && !scrolled ? "home-header-transparent" : ""}`}
+      }`}
     >
       <div className="header-container">
         <div className="logo-wrapper">
           <img src={logo} alt="Logo" className="logo" />
         </div>
 
-        {/* Desktop Menu */}
         <nav className="menu desktop-menu">
           {tabs.map((tab) => (
             <a
@@ -101,13 +69,11 @@ const Header = () => {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                setActiveTab(tab.label);
                 navigate(tab.path);
               }}
-             className={`menu-item ${
-  isTeamPage && !scrolled ? "menu-white" : "menu-black"
-} ${activeTab === tab.label ? "active" : ""}`}
-
+              className={`menu-item ${
+                (isHomePage || isTeamPage) && !scrolled ? "menu-black" : "menu-black"
+              } ${activeTab === tab.label ? "active" : ""}`}
             >
               {tab.label}
             </a>
@@ -116,23 +82,19 @@ const Header = () => {
 
         <div className="desktop-button">
           <img src={Headericon} className="w-[44px] h-[44px]" alt="" />
-          <div className="">
-            <MyButton text="GET STARTED" variant="primary" className="header-b" />
-          </div>
+          <MyButton text="GET STARTED" variant="primary" className="header-b" />
         </div>
 
         {/* Mobile Hamburger */}
         <div className="mobile-hamburger">
           <button className="header-b" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {mobileMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            ) : (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              ) : (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            )}
+              )}
+            </svg>
           </button>
         </div>
       </div>
@@ -142,7 +104,6 @@ const Header = () => {
         <div className="mobile-menu-close">
           <button onClick={() => setMobileMenuOpen(false)}>✕</button>
         </div>
-
         <ul className="mobile-menu-list">
           {tabs.map((tab) => (
             <li key={tab.label}>
@@ -150,30 +111,19 @@ const Header = () => {
                 href="#"
                 onClick={(e) => {
                   e.preventDefault();
-                  setActiveTab(tab.label);
                   navigate(tab.path);
                   setMobileMenuOpen(false);
                 }}
-               className={`mobile-menu-item ${
-  activeTab === tab.label ? "active" : ""
-} ${isTeamPage && !scrolled ? "menu-white" : "menu-black"}`}
+                className={`mobile-menu-item ${activeTab === tab.label ? "active" : ""}`}
               >
                 {tab.label}
               </a>
             </li>
           ))}
-
-          <div className="mobile-menu-button">
-            <MyButton />
-          </div>
         </ul>
       </div>
 
-      {/* Overlay */}
-      <div
-        className={`overlay ${mobileMenuOpen ? "visible" : ""}`}
-        onClick={() => setMobileMenuOpen(false)}
-      ></div>
+      <div className={`overlay ${mobileMenuOpen ? "visible" : ""}`} onClick={() => setMobileMenuOpen(false)}></div>
     </header>
   );
 };

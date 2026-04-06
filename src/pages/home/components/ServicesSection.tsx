@@ -27,6 +27,7 @@ import Video from "./video.tsx";
 import RisingText from "@/transitions/RisingText.tsx";
 import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
+import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
 
 const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3];
 
@@ -48,19 +49,9 @@ const ServicesSection = () => {
         <Video />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] items-center gap-8 mb-12">
-        <div>
-          <RisingText>
-          <h1 className="animated-gradient font-thin text-[68px] leading-[1.1] text-center md:text-left">
-            Integrated Solutions Singular Focus.
-          </h1>
-          </RisingText>
-        </div>
+      
 
-        <div className="flex justify-center md:justify-end mt-6 md:mt-0">
-         <CustomButton text="CONTACT US" />
-        </div>
-      </div>
+      <CompanyStatsCounts />
 
       {/* ROW 1: Digital & Creative */}
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1.3fr] gap-10 my-10">
@@ -68,7 +59,7 @@ const ServicesSection = () => {
           <Cardhovereffect>
           <ServiceCard 
             title="Digital Solutions"
-            description="Web dev, app dev, IoT and AI automations"
+            description="High-performance web development, SEO, GEO and intelligent AI systems."
             icon={Framed}
             bgImage={DigitalSolutions}
             bgColorClass="bg-[#325fec]"
@@ -82,7 +73,7 @@ const ServicesSection = () => {
            <Cardhovereffect>
           <ServiceCard 
             title="Creative Solutions"
-            description="Social Media Marketing, PPC Ads, Video Editing, 2D/3D Animations, Modeling, Graphic Designing"
+            description="Social Media Management, motion graphics, and 2D/3D animations."
             icon={CreativeIcon}
             bgImage={Creative}
             titleColorClass="blue-gradient-text"
@@ -98,8 +89,8 @@ const ServicesSection = () => {
         <FadeIn delay={0.1}>
            <Cardhovereffect>
           <ServiceCard 
-            title="Staff Augmentation"
-            description="Back end offices and remote employees"
+            title="Global Manufacturing"
+            description="Optimize your supply chain and reduce product costs by 40-60%."
             icon={Stafficon}
             bgImage={staffbg}
             titleColorClass="blue-gradient-text"
@@ -112,8 +103,8 @@ const ServicesSection = () => {
         <FadeIn delay={0.2}>
            <Cardhovereffect>
           <ServiceCard 
-            title="Broadcasting & Event Execution"
-            description="Broadcasting solutions, remote broadcasting, esports event management"
+            title="Broadcasting & Esports Solutions"
+            description="End-to-end online and offline tournament and broadcast management."
             icon={Broadcastingicon}
             bgImage={broadcastingbg}
             bgColorClass="bg-[#325fec]"
@@ -125,12 +116,12 @@ const ServicesSection = () => {
       </div>
 
       {/* ROW 3: Three Columns */}
-      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2.5fr_1.2fr] gap-10 my-10 mb-20">
+      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2fr_1.2fr] gap-10 my-10 mb-20">
         <FadeIn delay={0.3}>
            <Cardhovereffect>
           <ServiceCard 
             title="Game Development"
-            description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
+            description="2D/3D design, AR/VR, and blockchain gaming with up to 60% savings."
             icon={CreativeIcon}
             titleColorClass="blue-gradient-text"
             buttonVariant="danger"
@@ -141,8 +132,8 @@ const ServicesSection = () => {
         <FadeIn delay={0.4}>
           <Cardhovereffect>
           <ServiceCard 
-            title="Global Manufacturing Solutions"
-            description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
+            title="Employee Outsourcing"
+            description="Access top-tier global talent at a fraction of the cost."
             icon={Framed}
             bgImage={DigitalSolutions}
             bgColorClass="bg-[#325fec]"
@@ -155,8 +146,8 @@ const ServicesSection = () => {
         <FadeIn delay={0.5}>
            <Cardhovereffect>
           <ServiceCard 
-            title="UI/UX Design"
-            description="help you to build website company that is modern, user friendly, good CEO, and Clean design"
+            title="Trading & Investments"
+            description="Coming Soon"
             icon={CreativeIcon}
             titleColorClass="blue-gradient-text"
             buttonVariant="danger"
