@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
 const ScrollLine = () => {
-  const pathRef = useRef(null);
-  const svgRef = useRef(null);
+  const pathRef = useRef<SVGPathElement>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
     const path = pathRef.current;
@@ -10,44 +10,36 @@ const ScrollLine = () => {
     if (!path || !svg) return;
 
     const pathLength = path.getTotalLength();
-    
-    path.style.strokeDasharray = pathLength;
-    // Initial 30% visible (70% offset)
-    path.style.strokeDashoffset = pathLength * 1;
-
-    const scrollContainer = svg.closest(".allow-internal-scroll");
+    path.style.strokeDasharray = `${pathLength}`;
+    path.style.strokeDashoffset = `${pathLength}`;
 
     const handleScroll = () => {
-      if (!scrollContainer) return;
+      const rect = svg.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
 
-      const scrollTop = scrollContainer.scrollTop;
-      
-      const startScroll = 0;   
-      /** * 🔹 SPEED TWEAK: 
-       * Lower number = Faster drawing. 
-       * Reduced from 800 to 500.
+      /**
+       * 🚀 SPEED TWEAKING ZONE
+       * * 1. 'distance' is how far the top of the SVG is from the bottom of the screen.
+       * 2. 'speedMultiplier': Increase this to make it draw faster. 
+       * (e.g., 2.0 means it draws twice as fast as the scroll).
        */
-      const finishScroll = 400; 
-
-      let scrollProgress = (scrollTop - startScroll) / (finishScroll - startScroll);
+      const distance = windowHeight - rect.top;
+      const speedMultiplier = 1.5; // Adjust this: 1.0 is natural, 2.0+ is very fast
+      
+      // Calculate progress based on visible area * multiplier
+      let scrollProgress = (distance / windowHeight) * speedMultiplier;
+      
+      // Clamp between 0 and 1
       scrollProgress = Math.min(Math.max(scrollProgress, 0), 1);
 
-      // Map scroll 0-1 to visual 0.3-1.0
-      const visualProgress = 0.3 + (scrollProgress * 0.7);
-
-      path.style.strokeDashoffset = pathLength * (1 - visualProgress);
+      // Apply to the stroke
+      path.style.strokeDashoffset = `${pathLength * (1 - scrollProgress)}`;
     };
 
-    if (scrollContainer) {
-      scrollContainer.addEventListener("scroll", handleScroll);
-      handleScroll(); 
-    }
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); 
 
-    return () => {
-      if (scrollContainer) {
-        scrollContainer.removeEventListener("scroll", handleScroll);
-      }
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -59,7 +51,7 @@ const ScrollLine = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-full h-auto"
-      style={{ pointerEvents: 'none' }}
+      style={{ pointerEvents: 'none', marginBottom: '50px' }} // Added margin to ensure space to scroll
     >
       <path
         ref={pathRef}
@@ -68,9 +60,8 @@ const ScrollLine = () => {
         strokeWidth="5"
         fill="none"
         strokeLinecap="round"
-        // 🔹 SMOOTHNESS TWEAK: 
-        // Reduced transition time slightly to keep up with the faster speed
-        style={{ transition: 'stroke-dashoffset 0.1s linear' }} 
+        // 🔹 SMOOTHNESS: Keep linear for direct mapping to scroll
+        style={{ transition: 'stroke-dashoffset 0.15s linear' }} 
       />
       <defs>
         <linearGradient
