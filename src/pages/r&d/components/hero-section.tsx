@@ -16,13 +16,13 @@ export default function HeroSection() {
               <div className="service-content">
                 <RisingText>
                   <h1>
-                    Innovation <br></br>Laboratory
+                    The Pulse of Innovation.
                   </h1>
                 </RisingText>
 
                 <AnimatedText className="dark-text">
-                  Pioneering the future of digital experiences through
-                  cutting-edge research and experimentation
+                 Strategic perspectives on AI architecture, marketing, and the future of scalable business operations.
+
                 </AnimatedText>
                 <RisingText>
                   <MyButton text="GET STARTED" />
