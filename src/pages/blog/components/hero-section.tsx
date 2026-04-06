@@ -81,7 +81,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
                 <RisingText>
                 <h1>
-                  Insights & <br /> Perspectives
+                  Industry Insights &
+<br />  Intel.
                 </h1>
                 </RisingText>
                 {/* ===== ANIMATED TEXT ===== */}
@@ -89,8 +90,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
                   ref={textRef}
                   className="hero-text-reveal px-10 md:px-0"
                 >
-                  Thoughts on design, technology, and the future of digital
-                  experiences
+                  Expert perspectives on digital transformation, global supply chains, esports marketing, and the future of scalable business operations.
+
                 </p>
 
                 <div className="flex justify-center">
