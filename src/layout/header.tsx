@@ -5,16 +5,18 @@ import MyButton from "../components/CustomButton.tsx";
 import "./headerfooter.css";
 import Headericon from "@/assets/headericon.png";
 
-const Header = () => {
+// Define the props interface
+interface HeaderProps {
+  theme?: "light" | "dark";
+}
+
+const Header = ({ theme = "dark" }: HeaderProps) => {
   const navigate = useNavigate();
   const location = useLocation();
 
   const [activeTab, setActiveTab] = useState("Home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const isHomePage = location.pathname === "/";
-  const isTeamPage = location.pathname === "/team";
 
   const tabs = [
     { label: "Home", path: "/" },
@@ -26,9 +28,7 @@ const Header = () => {
   ];
 
   useEffect(() => {
-    // SINCE SCROLLSLIDER IS GONE: Use a simple, fast scroll listener
     const handleScroll = () => {
-      // Trigger white background after only 10px of scrolling
       if (window.scrollY > 10) {
         setScrolled(true);
       } else {
@@ -37,28 +37,33 @@ const Header = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    
-    // Run once on load to check if user refreshed halfway down the page
     handleScroll();
-
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []); // Remove isHomePage dependency to make it global
+  }, []);
 
-  // Update active tab based on URL
   useEffect(() => {
-    const currentTab = tabs.find(tab => tab.path === location.pathname);
+    const currentTab = tabs.find((tab) => tab.path === location.pathname);
     if (currentTab) setActiveTab(currentTab.label);
   }, [location.pathname]);
+
+  // Determine the color class based on theme and scroll state
+  // If scrolled, we usually want a standard look (e.g., black text on white bg)
+  // If not scrolled, we use the theme passed via props
+  const getTextColorClass = () => {
+    if (scrolled) return "menu-black"; 
+    return theme === "light" ? "menu-white" : "menu-black";
+  };
 
   return (
     <header
       className={`header ${scrolled ? "scrolled" : "transparent-bg"} ${
-        isTeamPage ? "team-header" : ""
+        theme === "light" ? "theme-light" : "theme-dark"
       }`}
     >
       <div className="header-container">
         <div className="logo-wrapper">
-          <img src={logo} alt="Logo" className="logo" />
+          {/* You can swap logos here if you have a white version */}
+          <img src={logo} alt="Logo" className={`logo ${theme === "light" && !scrolled ? "brightness-0 invert" : ""}`} />
         </div>
 
         <nav className="menu desktop-menu">
@@ -70,9 +75,9 @@ const Header = () => {
                 e.preventDefault();
                 navigate(tab.path);
               }}
-              className={`menu-item ${
-                (isHomePage || isTeamPage) && !scrolled ? "menu-black" : "menu-black"
-              } ${activeTab === tab.label ? "active" : ""}`}
+              className={`menu-item ${getTextColorClass()} ${
+                activeTab === tab.label ? "active" : ""
+              }`}
             >
               {tab.label}
             </a>
@@ -81,12 +86,19 @@ const Header = () => {
 
         <div className="desktop-button">
           <img src={Headericon} className="w-[44px] h-[44px]" alt="" />
-          <MyButton text="GET STARTED" variant="primary" className="header-b" />
+          <MyButton 
+            text="GET STARTED" 
+            variant={theme === "light" && !scrolled ? "secondary" : "primary"} 
+            className="header-b" 
+          />
         </div>
 
         {/* Mobile Hamburger */}
         <div className="mobile-hamburger">
-          <button className="header-b" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+          <button 
+            className={`header-b ${theme === "light" && !scrolled ? "text-white" : "text-black"}`} 
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {mobileMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

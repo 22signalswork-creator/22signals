@@ -266,8 +266,8 @@ body.team-page {
   background: linear-gradient(
     91.16deg,
     #325fec 1.74%,
-    #000000 63.71%,
-    #000000 61.62%,
+    #ffffff 63.71%,
+    #ffffff 61.62%,
     #325fec 102.48%
   );
   background-size: 200% 200%;
@@ -434,4 +434,8 @@ font-size: 16px;
 line-height: 29px;
 letter-spacing: 0%;
 
+}
+
+body {
+  overflow: scroll  !important;
 }
