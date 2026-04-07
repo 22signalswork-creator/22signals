@@ -14,13 +14,13 @@ import bgImage from "@/assets/background.jpeg";
 import RisingText from "@/transitions/RisingText";
 import AnimatedText from "@/transitions/herosectionP.tsx";
 import HomeWordRoller from "./hero-word-roller.tsx";
+import NeonScene from "./NeonGlobe.tsx";
+
 interface HeroSectionProps {
   nextSectionRef: React.RefObject<HTMLDivElement>;
 }
-
 const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
 
-  // Mouse bounce animation
   const mouseSpring = useSpring({
     loop: { reverse: true },
     from: { y: 0 },
@@ -28,7 +28,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
     config: { duration: 800 },
   });
 
-  // Scroll to next section
   const handleScroll = () => {
     if (nextSectionRef.current) {
       nextSectionRef.current.scrollIntoView({ behavior: "smooth" });
@@ -37,73 +36,70 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
 
   return (
     <section
-      className="relative bg-cover bg-center -mt-12 md:-mt-30"
-      style={{ backgroundImage: `url(${bgImage})`, height: '110vh', minHeight: '110vh' }}
+      className="relative bg-white h-screen min-h-screen overflow-visible " 
     >
-      <div className="container pt-32 md:pt-60 relative z-10">
-        <div className="mx-auto flex flex-col items-center">
-          <div className="w-full text-center md:text-left mt-18">
+      {/* FIX 1: Lowered z-index to 0 so it stays behind. 
+         FIX 2: Added pointer-events-none so the "glass pane" doesn't block scrolling.
+         Note: If your NeonGlobe needs mouse movement, the internal canvas usually 
+         handles its own listeners, but the container shouldn't block the page.
+      */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <NeonScene />
+      </div>
 
-            {/* H1 Heading with RisingText */}
-            <RisingText>
-              <h1 className="font-thin leading-[1.1] text-4xl sm:text-5xl md:text-[68px]">
-                <span className="text-transparent animated-gradient">Create.</span>{" "}
-                <HomeWordRoller />
-              </h1>
-            </RisingText>
+      {/* FIX 3: Removed 'display: none' so your content is visible.
+         FIX 4: Added pointer-events-none to the container but 
+         pointer-events-auto to the clickable elements.
+      */}
+      <div 
+        className="container relative z-10 flex flex-col justify-between items-stretch h-full py-20 pointer-events-none" 
+        style={{ justifyContent: 'space-between', alignItems: 'stretch', 'paddingTop': '150px' }} 
+      >
+        {/* Top Section */}
+        <div className="pt-10 md:pt-20">
+          <RisingText>
+            {/* Changed text to black for white background visibility */}
+            <h1 className="font-thin leading-[1.1] text-4xl sm:text-5xl md:text-[68px] text-black">
+              <span className="text-transparent animated-gradient">Create.</span>{" "}
+              <HomeWordRoller />
+            </h1>
+          </RisingText>
+        </div>
 
-            {/* Hero Image */}
-            <div className="w-full bg-[#161922] rounded-2xl md:rounded-[38px] mt-6 md:mt-8 h-[400px] flex items-center justify-center">
-              <img
-                src={heroImage}
-                alt="Hero"
-                className="w-full h-full object-contain rounded-2xl md:rounded-[38px]"
-              />
+        {/* Bottom Section */}
+        <div className="grid grid-cols-[1fr] md:grid-cols-[2fr_1fr_2fr] gap-8 pb-10 items-center">
+          
+          <div className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto">
+            <div className="flex gap-4" style={{ filter: 'brightness(0)' }}>
+              <img src={Instagram} alt="Instagram" className="w-[24px] h-[24px] cursor-pointer" />
+              <img src={whatsapp} alt="WhatsApp" className="w-[24px] h-[24px] cursor-pointer" />
+              <img src={linkedin} alt="LinkedIn" className="w-[24px] h-[24px] cursor-pointer" />
+              <img src={twiter} alt="Twitter" className="w-[24px] h-[24px] cursor-pointer" />
             </div>
+          </div>
 
-            {/* Social + Scroll + Description */}
-            <div className="grid grid-cols-[1fr] md:grid-cols-[2fr_1fr_2fr] gap-8 my-10 md:my-12 items-center">
+          <div className="flex flex-col justify-end items-center h-full pointer-events-auto">
+            <animated.img
+              src={Mouse}
+              alt="Scroll"
+              className="w-[30px] h-[43px] cursor-pointer"
+              style={{ ...mouseSpring, filter: 'brightness(0)' }}
+              onClick={handleScroll}
+            />
+          </div>
 
-              {/* Social Icons */}
-              <div className="flex flex-col justify-end items-center md:items-start gap-4 h-full">
-                <div className="flex gap-4">
-                  <img src={Instagram} alt="Instagram" className="w-[24px] h-[24px]" />
-                  <img src={whatsapp} alt="WhatsApp" className="w-[24px] h-[24px]" />
-                  <img src={linkedin} alt="LinkedIn" className="w-[24px] h-[24px]" />
-                  <img src={twiter} alt="Twitter" className="w-[24px] h-[24px]" />
-                </div>
-              </div>
-
-              {/* Scroll Mouse */}
-              <div className="flex flex-col justify-end items-center h-full">
-                <animated.img
-                  src={Mouse}
-                  alt="Scroll"
-                  className="w-[30px] h-[43px] cursor-pointer"
-                  style={mouseSpring}
-                  onClick={handleScroll}
-                />
-              </div>
-
-              {/* Description Paragraph */}
-              <div className="text-center md:text-left">
-                <AnimatedText
-                  className="dark-text hero-section-desc-text"
-                  delay={0.5}
-                  duration={2.5}
-                >
-                Your one stop solution business solution.
-
-                </AnimatedText>
-              </div>
-
-            </div>
-
+          <div className="text-center md:text-left">
+            <AnimatedText
+              className="text-black hero-section-desc-text"
+              delay={0.5}
+              duration={2.5}
+            >
+              Your one stop solution business solution.
+            </AnimatedText>
           </div>
         </div>
       </div>
     </section>
   );
 };
-
 export default HeroSection;

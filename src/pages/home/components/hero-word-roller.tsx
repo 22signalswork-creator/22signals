@@ -26,7 +26,7 @@ const HomeWordRoller = () => {
             duration: 0.3, 
             ease: [0.23, 1, 0.32, 1] // "Exponential" out ease for a snappy feel
           }}
-          className="bg-clip-text text-transparent bg-[linear-gradient(91.16deg,#325FEC_1.74%,#000000_43.71%,#000000_61.62%,#325FEC_102.48%)] block"
+          className="bg-clip-text text-transparent bg-[linear-gradient(91.16deg,#325FEC_1.74%,#ffffff_43.71%,#ffffff_61.62%,#325FEC_102.48%)] block"
         >
           {words[index]}
         </motion.span>

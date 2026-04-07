@@ -310,3 +310,40 @@ color: rgba(222, 225, 230, 1);
 .slick-next {
   right: -60px !important;
 }
+
+
+
+
+.gooey-wrapper {
+  /* This filter creates the melting effect between children */
+  filter: url('#goo');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.central-ball {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #5e5eff 0%, #0000ff 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(94, 94, 255, 0.6);
+  z-index: 2;
+}
+
+.text-container {
+  position: absolute;
+  display: flex;
+  pointer-events: none;
+}
+
+.letter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  display: inline-block;
+  position: absolute; /* Stack them all in the middle */
+  transform-origin: center;
+}
