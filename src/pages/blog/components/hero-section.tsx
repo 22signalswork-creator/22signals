@@ -44,72 +44,128 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
   };
 
   return (
-    <section className="hero-section">
-      {/* ===== REQUIRED CSS FOR ANIMATION ===== */}
-      <style>{`
-        .hero-text-reveal {
-          background-image: linear-gradient(#000000, #000000);
-          background-repeat: no-repeat;
-          background-size: 0% 100%;
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          display: inline-block;
-        }
-      `}</style>
+<section className="hero-section">
+  <div className="container">
+    <div className="servicebg-wrapper">
+      <div
+        className="servicebg w-[1600px] h-[657px] -mx-[70px] rounded-[50px] flex items-center relative"
+        style={{
+          backgroundImage: `
+            linear-gradient(
+              to top,
+              rgba(50, 95, 236, 0.25) 7%,
+              rgba(50, 95, 236, 0.15) 25%,
+              rgba(50, 95, 236, 0) 52%
+            ),
+            url(${serviceBg})
+          `,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="content-container w-full">
+          <div className=" flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
+            
+            <RisingText>
+              <h1>
+                Industry Insights & <br /> Intel.
+              </h1>
+            </RisingText>
 
-      <div className="container">
-        <div className="servicebg-wrapper">
-          <div
-            className="w-[1600px] h-[657px] -mx-[70px] rounded-[50px] flex items-center relative"
-            style={{
-              backgroundImage: `
-                linear-gradient(
-                  to top,
-                  rgba(50, 95, 236, 0.25) 7%,
-                  rgba(50, 95, 236, 0.15) 25%,
-                  rgba(50, 95, 236, 0) 52%
-                ),
-                url(${serviceBg})
-              `,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <div className="content-container w-full">
-              <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
-                <RisingText>
-                <h1>
-                  Industry Insights &
-<br />  Intel.
-                </h1>
-                </RisingText>
-                {/* ===== ANIMATED TEXT ===== */}
-                <p
-                  ref={textRef}
-                  className="hero-text-reveal px-10 md:px-0"
-                >
-                  Expert perspectives on digital transformation, global supply chains, esports marketing, and the future of scalable business operations.
+            {/* Animated Text */}
+            <p
+              ref={textRef}
+              className="dark-text px-10 md:px-0"
+            >
+              Expert perspectives on digital transformation, global supply
+              chains, esports marketing, and the future of scalable business
+              operations.
+            </p>
 
-                </p>
-
-                <div className="flex justify-center">
-                  <input
-                    type="text"
-                    placeholder="Search Articles......."
-                    className="w-[300px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
-                </div>
-              </div>
+            {/* Search Input */}
+            <div className="flex justify-center">
+              <input
+                type="text"
+                placeholder="Search Articles......."
+                className="w-[230px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
             </div>
+
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      {/* next section anchor */}
-      <div ref={nextSectionRef} />
-    </section>
+  {/* next section anchor */}
+  <div ref={nextSectionRef} />
+</section>
+//     <section className="hero-section">
+//       <style>{`
+//         .hero-text-reveal {
+//           background-image: linear-gradient(#000000, #000000);
+//           background-repeat: no-repeat;
+//           background-size: 0% 100%;
+//           -webkit-background-clip: text;
+//           background-clip: text;
+//           -webkit-text-fill-color: transparent;
+//           display: inline-block;
+//         }
+//       `}</style>
+
+//       <div className="container">
+//         <div className="servicebg-wrapper">
+//           <div
+//             className="w-[1600px] h-[657px] -mx-[70px] rounded-[50px] flex items-center relative"
+//             style={{
+//               backgroundImage: `
+//                 linear-gradient(
+//                   to top,
+//                   rgba(50, 95, 236, 0.25) 7%,
+//                   rgba(50, 95, 236, 0.15) 25%,
+//                   rgba(50, 95, 236, 0) 52%
+//                 ),
+//                 url(${serviceBg})
+//               `,
+//               backgroundSize: "cover",
+//               backgroundPosition: "center",
+//               backgroundRepeat: "no-repeat",
+//             }}
+//           >
+//             <div className="content-container w-full">
+//               <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
+//                 <RisingText>
+//                 <h1>
+//                   Industry Insights &
+// <br />  Intel.
+//                 </h1>
+//                 </RisingText>
+//                 {/* ===== ANIMATED TEXT ===== */}
+//                 <p
+//                   ref={textRef}
+//                   className="hero-text-reveal px-10 md:px-0"
+//                 >
+//                   Expert perspectives on digital transformation, global supply chains, esports marketing, and the future of scalable business operations.
+
+//                 </p>
+
+//                 <div className="flex justify-center">
+//                   <input
+//                     type="text"
+//                     placeholder="Search Articles......."
+//                     className="w-[300px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+//                   />
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* next section anchor */}
+//       <div ref={nextSectionRef} />
+//     </section>
   );
 };
 
