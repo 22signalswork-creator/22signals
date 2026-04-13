@@ -27,6 +27,8 @@ const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
       case "/portfolio":
         return "dark";
       case "/blog":
+        return "dark";
+      case "/team":
         return "light";
       default:
         return "dark"; // Default fallback
