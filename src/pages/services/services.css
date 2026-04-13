@@ -214,20 +214,6 @@
     color: #FFFFFF;
 }
 
-.step-number-wrapper::before {
-    content: "";
-    position: absolute;
-    top: 160%;
-    left: 0%;
-    transform: translate(-48%, -50%);
-    background-image: url('/src/assets/Union.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 323px;
-    /* max-width: 413px; */
-    height: 319px;
-    z-index: 1;
-}
 
 .step h4 {
     margin-left: 96px;
@@ -239,23 +225,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.step .card-heading { 
+    text-align: center;
+    width: 100%;
+}
 
 .step p {
-     margin-left: 96px;
-    max-width: 70%;
-  margin-top: 10px;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
-
+         text-align: center;
+    margin-left: 0;
+    max-width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 
 /* Arrow icon */
 .step-arrow-right {
-  width: 20px;       /* adjust size */
-  height: auto;
-  margin-left: 20px;
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
 }
 
 /* Remove last arrow */

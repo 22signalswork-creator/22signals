@@ -3,7 +3,7 @@ import "../services.css";
 import CustomDesigns from "@/assets/CustomDesigns.png";
 import Portfolioslider from "./portfolioslider.tsx";
 import FaqSection from "./FaqSection"; // NEW IMPORT
-import Arrowright from "@/assets/arrowright.png";
+import Arrowright from "@/assets/image-removebg-preview (4).png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
@@ -112,29 +112,33 @@ export default function CreativeServices() {
                 number: "01",
                 title: "Discovery",
                 desc: "Understanding your vision, goals, and challenges",
+                image: "/src/assets/image-removebg-preview.png",
               },
               {
                 number: "02",
                 title: "Design",
                 desc: "Crafting the visual experience for your product",
+                image: "/src/assets/image-removebg-preview (1).png",
               },
               {
                 number: "03",
                 title: "Development",
                 desc: "Turning designs into functional products",
+                image: "/src/assets/image-removebg-preview (2).png",
               },
               {
                 number: "04",
                 title: "Launch",
                 desc: "Going live and optimizing performance",
+                image: "/src/assets/image-removebg-preview (3).png",
               },
             ].map((step, index, arr) => (
               <div className="step-item" key={index}>
                 <div className="step">
                   <div className="step-number-wrapper">
-                    <span className="step-number">{step.number}</span>
+                    <img src={step.image} alt={step.title} />
                   </div>
-                  <h1 className="card-heading pt-45 pl-23">{step.title}</h1>
+                  <h1 className="card-heading pt-2 pl-2">{step.title}</h1>
                   <p>{step.desc}</p>
                 </div>
                 {index < arr.length - 1 && (
