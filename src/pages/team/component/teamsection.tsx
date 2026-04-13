@@ -5,6 +5,7 @@ import Teammemberline from "@/assets/teammemberline.png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
+import FaPortrait  from "@/assets/Potrait_DaniyalMansur.png";
 
 const values = [
   {
@@ -27,17 +28,17 @@ const values = [
 
 export default function TeamSection() {
   return (
-    <section className="bg-black text-white py-0 md:py-24">
+    <section className="bg-black text-white py-0 md:py-4">
       {/* Top Grid */}
       <FadeIn>
-        <div className="container grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-3 items-start">
+        <div className="container grid grid-cols-1 md:grid-cols-[1fr] gap-3 items-start">
           {/* Left Image */}
           <div className="relative w-full flex justify-center">
             <div className="relative w-full flex flex-col items-end md:items-center">
               <img
-                src={TeamImage}
+                src={FaPortrait}
                 alt="Sarah Chen"
-                className="w-[220px] h-[391px] md:w-[620px] md:h-[891px]"
+                className="w-[220px] h-[391px] md:w-[520px] md:h-[491px]"
               />
 
               <div className="skeleton">
@@ -63,7 +64,7 @@ export default function TeamSection() {
           </div>
 
           {/* Right Text */}
-          <div className="w-full flex flex-col justify-center md:pt-0 pt-20">
+          {/* <div className="w-full flex flex-col justify-center md:pt-0 pt-20">
             <h1 className="h1-large-color py-10 md:py-0">MEET THE TEAM</h1>
 
             <p className="white-text">
@@ -74,7 +75,7 @@ export default function TeamSection() {
               impressions that form enduring connections between brands and
               consumers.
             </p>
-          </div>
+          </div> */}
         </div>
       </FadeIn>
 
