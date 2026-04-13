@@ -1,9 +1,9 @@
 
 :root {
-   --h1-size: 60px;
+   --h1-size: 68px;
   --h1-line: 1.15;
   --p-color: rgba(255, 255, 255, 0.7);
-  --p-size: 14px;
+  --p-size: 16px;
     --h1-gradient: linear-gradient(
     91.16deg,
     #325FEC 0%,       /* start blue */
@@ -438,4 +438,9 @@ letter-spacing: 0%;
 
 body {
   overflow: scroll  !important;
+}
+
+
+.g-hero-paragraph {
+  font-size: 25px !important
 }

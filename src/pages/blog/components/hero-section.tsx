@@ -61,7 +61,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
       <div className="container">
         <div className="servicebg-wrapper">
           <div
-            className="w-[1600px] h-[657px] -mx-[70px] rounded-[50px] flex items-center relative"
+            className="  rounded-[50px] flex items-center relative px-50 py-15"
             style={{
               backgroundImage: `
                 linear-gradient(
@@ -81,14 +81,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
                 <RisingText>
                 <h1>
-                  Industry Insights &
-<br />  Intel.
+                  Industry <br /> Insights & Intel.
                 </h1>
                 </RisingText>
                 {/* ===== ANIMATED TEXT ===== */}
                 <p
                   ref={textRef}
-                  className="hero-text-reveal px-10 md:px-0"
+                  className="hero-text-reveal px-10 md:px-0 g-hero-paragraph"
                 >
                   Expert perspectives on digital transformation, global supply chains, esports marketing, and the future of scalable business operations.
 
@@ -98,7 +97,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
                   <input
                     type="text"
                     placeholder="Search Articles......."
-                    className="w-[300px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-[300px] md:w-[970px] px-5 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
               </div>
