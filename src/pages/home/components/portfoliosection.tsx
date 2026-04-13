@@ -1,7 +1,7 @@
 import React from "react";
 import MyButton from "@/components/CustomButton.js";
 import ProjectCardContent, { projects } from "./projectcard.js"; // <- import component + projects
-import cardbg from "@/assets/cartbg.png";
+import cardbg from "@/assets/BrandMark.png";
 import Portfoliobg from "@/assets/footerbg.png";
 import "../home.css";
 import "@/index.css";
@@ -113,11 +113,11 @@ const PortfolioSection = () => {
   };
 
   return (
-    <div className="relative w-full bg-[#000202] text-white pt-20 allow-internal-scroll">
+    <div className="relative w-full bg-[#000202] text-white pt-2 allow-internal-scroll">
 
   {/* Bottom Section - Testimonials */}
       <div
-        className="relative w-full bg-[#000202] pb-20 mt-12"
+        className="relative w-full bg-[#000202] pb-10 mt-12"
         style={{
           backgroundImage: `url(${Portfoliobg})`,
           backgroundRepeat: "no-repeat",
@@ -132,7 +132,7 @@ const PortfolioSection = () => {
         <img
           src={Colons}
           alt="Right Overlay"
-          className="absolute right-0 top-0 h-[586px] w-[823px] opacity-100 pointer-events-none"
+          className="absolute right-0 top-0 h-[286px] w-[423px] opacity-100 pointer-events-none"
         />
         <img
           src={ShadowR}
@@ -140,9 +140,9 @@ const PortfolioSection = () => {
           className="absolute right-0 top-0 h-full object-contain opacity-100 pointer-events-none"
         />
 
-        <section className="container mx-auto px-4 md:px-8 relative z-10 py-12">
-          <ScrollLineThird />
-          <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400 py-20 mb-8 md:mb-12 text-center md:text-left">
+        <section className="container mx-auto px-4 md:px-8 relative z-10 py-2">
+   
+          <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400 mb-12  text-center md:text-left">
             Proven Results
             <img src={Union} alt="Union" className="ml-2 inline-block" />
           </h2>
@@ -201,9 +201,9 @@ const PortfolioSection = () => {
         />
 
         <section className="container mx-auto px-4 md:px-8 relative z-10 py-12">
-          <div className="flex flex-col md:flex-row justify-between items-center mb-12">
+          <div className="flex flex-col md:flex-row justify-between items-center ">
             
-            <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400  mb-12 md:mb-0 text-center md:text-left">
+            <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400   md:mb-0 text-center md:text-left">
               Featured Projects
               <img src={Union} alt="Union" className="ml-2 inline-block" />
             </h2>

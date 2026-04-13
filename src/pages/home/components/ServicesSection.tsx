@@ -116,7 +116,7 @@ const ServicesSection = () => {
       </div>
 
       {/* ROW 3: Three Columns */}
-      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2fr_1.2fr] gap-10 my-10 mb-20">
+      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2fr_1.2fr] gap-10 my-10 ">
         <FadeIn delay={0.3}>
            <Cardhovereffect>
           <ServiceCard 
@@ -156,7 +156,7 @@ const ServicesSection = () => {
         </FadeIn>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-12">
         <ScrollLineBottom />
         <SliderComponent slides={slides} />
       </div>

@@ -11,6 +11,7 @@ import MyButton from "../components/CustomButton.js";
 import Frame1 from "../assets/Frame1.svg";
 import dashiconemail from "../assets/dashicons_email.png";
 import Frame3 from "../assets/Frame3.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -59,7 +60,13 @@ const Footer = () => {
 <div className="grid gap-12 text-center md:text-left [grid-template-columns:4fr_1fr_1fr_1fr]">            
             {/* Column 1: Logo + Description */}
             <div className="md:col-span-1 pr-60">
-              <img src={Logo} alt="Logo" className="mb-6 mx-auto md:mx-0 h-30 object-contain" />
+             <a href="/">
+  <img
+    src={Logo}
+    alt="Logo"
+    className="mb-6 mx-auto md:mx-0 h-30 object-contain cursor-pointer"
+  />
+</a>
               <p className="text-gray-400 text-sm leading-relaxed mb-8">
                 We offer a comprehensive suite of digital marketing services. From SEO and social media to content creation and PPC, we have the expertise to scale your presence.
               </p>
@@ -78,12 +85,13 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <h4 className="text-blue font-bold uppercase tracking-wider text-sm">Navigation</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
-                <li><a href="#" className="hover:text-[#504CFF] transition-colors">Service</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] transition-colors">Agency</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] transition-colors">Case Study</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] transition-colors">Resource</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] transition-colors">Contact</a></li>
-              </ul>
+  <li><Link to="/work" className="hover:text-[#504CFF] transition-colors">Services</Link></li>
+  <li><Link to="/portfolio" className="hover:text-[#504CFF] transition-colors">Portfolio</Link></li>
+  <li><Link to="/team" className="hover:text-[#504CFF] transition-colors">Team</Link></li>
+  <li><Link to="/r&d" className="hover:text-[#504CFF] transition-colors">R&D</Link></li>
+  <li><Link to="/blog" className="hover:text-[#504CFF] transition-colors">Blog</Link></li>
+  <li><Link to="/contact" className="hover:text-[#504CFF] transition-colors">Contact</Link></li>
+</ul>
             </div>
 
             {/* Column 3: Licence */}

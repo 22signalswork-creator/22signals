@@ -236,3 +236,20 @@
   max-width: 300px;
 }
 }
+
+
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.header-hide {
+  transform: translateY(-100%);
+}
+
+.header-show {
+  transform: translateY(0);
+}

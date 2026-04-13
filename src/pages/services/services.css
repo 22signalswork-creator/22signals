@@ -21,7 +21,7 @@
 /* Background box */
 .servicebg {
   width: 1600px;
-  height: 657px;
+  height: 557px;
 
   /* negative margin to escape container padding */
   margin-left: -70px;
@@ -77,7 +77,7 @@
 ===================== */
 
 .creative-services {
-  padding: 120px 0;
+  padding: 10px 0;
 }
 
 /* Header */

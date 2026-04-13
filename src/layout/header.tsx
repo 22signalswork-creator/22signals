@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import MyButton from "../components/CustomButton.tsx";
 import "./headerfooter.css";
 import Headericon from "@/assets/headericon.png";
 
-// Define the props interface
 interface HeaderProps {
   theme?: "light" | "dark";
 }
@@ -18,6 +17,10 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // SCROLL STATES (unchanged)
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
   const tabs = [
     { label: "Home", path: "/" },
     { label: "Services", path: "/work" },
@@ -27,45 +30,67 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     { label: "BLOG", path: "/blog" },
   ];
 
+  /* =====================
+     SCROLL BEHAVIOR
+  ===================== */
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setScrolled(true);
+      const currentScrollY = window.scrollY;
+
+      setScrolled(currentScrollY > 10);
+
+      if (Math.abs(currentScrollY - lastScrollY) < 5) return;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setShowHeader(false);
       } else {
-        setScrolled(false);
+        setShowHeader(true);
       }
+
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
+  /* =====================
+     ACTIVE TAB
+  ===================== */
   useEffect(() => {
     const currentTab = tabs.find((tab) => tab.path === location.pathname);
     if (currentTab) setActiveTab(currentTab.label);
   }, [location.pathname]);
 
-  // Determine the color class based on theme and scroll state
-  // If scrolled, we usually want a standard look (e.g., black text on white bg)
-  // If not scrolled, we use the theme passed via props
+  /* =====================
+     FIXED TEXT COLOR (FOR ALL PAGES)
+  ===================== */
   const getTextColorClass = () => {
-    if (scrolled) return "menu-black"; 
-    return theme === "light" ? "menu-white" : "menu-black";
+    return "menu-black"; // force same color everywhere
   };
 
   return (
     <header
-      className={`header ${scrolled ? "scrolled" : "transparent-bg"} ${
-        theme === "light" ? "theme-light" : "theme-dark"
-      }`}
+      className={`header 
+        ${scrolled ? "scrolled" : "transparent-bg"} 
+        ${theme === "light" ? "theme-light" : "theme-dark"}
+        ${showHeader ? "header-show" : "header-hide"}
+      `}
     >
       <div className="header-container">
+        
+        {/* LOGO */}
         <div className="logo-wrapper">
-          {/* You can swap logos here if you have a white version */}
-          <img src={logo} alt="Logo" className={`logo ${theme === "light" && !scrolled ? "brightness-0 invert" : ""}`} />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="Logo"
+              className="logo cursor-pointer" // removed invert logic
+            />
+          </Link>
         </div>
 
+        {/* DESKTOP MENU */}
         <nav className="menu desktop-menu">
           {tabs.map((tab) => (
             <a
@@ -84,6 +109,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
           ))}
         </nav>
 
+        {/* RIGHT SIDE */}
         <div className="desktop-button">
           <img src={Headericon} className="w-[44px] h-[44px]" alt="" />
           <MyButton 
@@ -93,7 +119,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
           />
         </div>
 
-        {/* Mobile Hamburger */}
+        {/* MOBILE HAMBURGER */}
         <div className="mobile-hamburger">
           <button 
             className={`header-b ${theme === "light" && !scrolled ? "text-white" : "text-black"}`} 
@@ -110,11 +136,12 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
         </div>
       </div>
 
-      {/* Mobile Sidebar */}
+      {/* MOBILE MENU */}
       <div className={`mobile-menu ${mobileMenuOpen ? "open" : ""}`}>
         <div className="mobile-menu-close">
           <button onClick={() => setMobileMenuOpen(false)}>✕</button>
         </div>
+
         <ul className="mobile-menu-list">
           {tabs.map((tab) => (
             <li key={tab.label}>
@@ -134,7 +161,11 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
         </ul>
       </div>
 
-      <div className={`overlay ${mobileMenuOpen ? "visible" : ""}`} onClick={() => setMobileMenuOpen(false)}></div>
+      {/* OVERLAY */}
+      <div
+        className={`overlay ${mobileMenuOpen ? "visible" : ""}`}
+        onClick={() => setMobileMenuOpen(false)}
+      ></div>
     </header>
   );
 };
