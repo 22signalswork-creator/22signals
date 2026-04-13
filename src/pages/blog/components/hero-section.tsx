@@ -73,6 +73,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               </h1>
             </RisingText>
 
+
             {/* Animated Text */}
             <p
               ref={textRef}
@@ -90,6 +91,50 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
                 placeholder="Search Articles......."
                 className="w-[230px] md:w-[970px] px-4 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
+      <div className="container">
+        <div className="servicebg-wrapper">
+          <div
+            className="  rounded-[50px] flex items-center relative px-50 py-15"
+            style={{
+              backgroundImage: `
+                linear-gradient(
+                  to top,
+                  rgba(50, 95, 236, 0.25) 7%,
+                  rgba(50, 95, 236, 0.15) 25%,
+                  rgba(50, 95, 236, 0) 52%
+                ),
+                url(${serviceBg})
+              `,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div className="content-container w-full">
+              <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
+                <RisingText>
+                <h1>
+                  Industry <br /> Insights & Intel.
+                </h1>
+                </RisingText>
+                {/* ===== ANIMATED TEXT ===== */}
+                <p
+                  ref={textRef}
+                  className="hero-text-reveal px-10 md:px-0 g-hero-paragraph"
+                >
+                  Expert perspectives on digital transformation, global supply chains, esports marketing, and the future of scalable business operations.
+
+                </p>
+
+                <div className="flex justify-center">
+                  <input
+                    type="text"
+                    placeholder="Search Articles......."
+                    className="w-[300px] md:w-[970px] px-5 py-4 bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+              </div>
+
             </div>
 
           </div>
