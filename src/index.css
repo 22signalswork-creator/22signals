@@ -74,6 +74,15 @@ p.dark-text {
   color: var(--p-color);
   font-size: var(--p-size);
 }
+/* redefine and immediately use them */
+.text-blue {
+  color: #325FEC;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 2px !important;
+}
 
 p.white-text {
   --p-color: rgba(243, 243, 243, 0.7);

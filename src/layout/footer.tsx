@@ -56,11 +56,10 @@ const Footer = () => {
       {/* ===== FOOTER CONTENT ===== */}
       <div className="bg-black">
         <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 text-center md:text-left">
-            
+<div className="grid gap-12 text-center md:text-left [grid-template-columns:4fr_1fr_1fr_1fr]">            
             {/* Column 1: Logo + Description */}
-            <div className="md:col-span-1">
-              <img src={Logo} alt="Logo" className="mb-6 mx-auto md:mx-0 h-10 object-contain" />
+            <div className="md:col-span-1 pr-60">
+              <img src={Logo} alt="Logo" className="mb-6 mx-auto md:mx-0 h-30 object-contain" />
               <p className="text-gray-400 text-sm leading-relaxed mb-8">
                 We offer a comprehensive suite of digital marketing services. From SEO and social media to content creation and PPC, we have the expertise to scale your presence.
               </p>
@@ -77,7 +76,7 @@ const Footer = () => {
 
             {/* Column 2: Navigation */}
             <div className="flex flex-col gap-4">
-              <h4 className="text-white font-bold uppercase tracking-wider text-sm">Navigation</h4>
+              <h4 className="text-blue font-bold uppercase tracking-wider text-sm">Navigation</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
                 <li><a href="#" className="hover:text-[#504CFF] transition-colors">Service</a></li>
                 <li><a href="#" className="hover:text-[#504CFF] transition-colors">Agency</a></li>
@@ -89,7 +88,7 @@ const Footer = () => {
 
             {/* Column 3: Licence */}
             <div className="flex flex-col gap-4">
-              <h4 className="text-white font-bold uppercase tracking-wider text-sm">Licence</h4>
+              <h4 className="text-blue font-bold uppercase tracking-wider text-sm">Services</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
                 <li><a href="#" className="hover:text-[#504CFF] transition-colors">Privacy Policy</a></li>
                 <li><a href="#" className="hover:text-[#504CFF] transition-colors">Copyright</a></li>
@@ -99,7 +98,7 @@ const Footer = () => {
 
             {/* Column 4: Contact */}
             <div className="flex flex-col gap-4">
-              <h4 className="text-white font-bold uppercase tracking-wider text-sm">Contact</h4>
+              <h4 className="text-blue font-bold uppercase tracking-wider text-sm">Contact</h4>
               <ul className="space-y-4">
                 <li className="flex items-center justify-center md:justify-start gap-3">
                   <img src={Frame1} alt="" className="w-5 h-5" />
