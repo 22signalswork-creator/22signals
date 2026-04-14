@@ -12,14 +12,19 @@ import Stafficon from "@/assets/staffIcon.png";
 import Broadcastingicon from "@/assets/broadcasticon.png";
 import staffbg from "@/assets/staffbg.png";
 import broadcastingbg from "@/assets/broadcastbg.png";
-import slide1 from "@/assets/Frame68.png";
-import slide2 from "@/assets/Frame69.png";
-import slide8 from "@/assets/Frame76.png";
-import slide3 from "@/assets/Frame70.png";
-import slide4 from "@/assets/Frame71.png";
-import slide5 from "@/assets/Frame72.png";
-import slide6 from "@/assets/Frame73.png";
-import slide7 from "@/assets/Frame74.png";
+import slide1 from "@/assets/home-slider-logos/01_Tencent_Logo_Reverse-type.avif";
+import slide2 from "@/assets/home-slider-logos/0b9273_dcfc3b20a7ba4880b55480727be12b67~mv2.jpg";
+import slide8 from "@/assets/home-slider-logos/422430372_761676925980871_1742382672670991272_n.jpg";
+import slide3 from "@/assets/home-slider-logos/Final Logo.png";
+import slide4 from "@/assets/home-slider-logos/OutlierCreativeAgency_TMLogo_Final_FullLogo-White+Teal.png";
+import slide5 from "@/assets/home-slider-logos/daraz-logo-i8P9fH3b.jpg";
+import slide6 from "@/assets/home-slider-logos/e1d8f3_42c64c8e204843b193a7ed97e5b894cc~mv2.jpg";
+import slide7 from "@/assets/home-slider-logos/garena-logo-0.png";
+import slide13 from "@/assets/home-slider-logos/garena-red-logo-with-symbol-701751694791357ntd4cmq0yy.png";
+import slide9 from "@/assets/home-slider-logos/idU5A-8HdM_logos.png";
+import slide10 from "@/assets/home-slider-logos/images.png";
+import slide11 from "@/assets/home-slider-logos/red-bull-logo-0.png";
+import slide12 from "@/assets/home-slider-logos/xWjBhY0R_400x400.jpg";
 import ScrollLine from "./ScrollLine.js";
 import ScrollLineBottom from "./ScrollLineBottom.js";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
@@ -29,7 +34,7 @@ import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
 
-const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3];
+const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3, , slide13 , slide9 , slide10 , slide11 , slide12];
 
 const ServicesSection = () => {
   return (

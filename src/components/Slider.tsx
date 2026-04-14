@@ -58,8 +58,7 @@ const SliderComponent = ({ slides }) => {
                    max-h-full and max-w-full allow the image to 
                    shrink to fit the slider's column width.
                 */
-                className="max-h-full max-w-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-              />
+className="max-h-full max-w-full object-contain transition-all duration-300"              />
             </div>
           </div>
         ))}
