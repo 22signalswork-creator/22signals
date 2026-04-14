@@ -57,9 +57,9 @@ const Footer = () => {
       {/* ===== FOOTER CONTENT ===== */}
       <div className="bg-black">
         <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16">
-<div className="grid gap-12 text-center md:text-left [grid-template-columns:4fr_1fr_1fr_1fr]">            
+<div className="grid grid-cols-1 md:[grid-template-columns:4fr_1fr_1fr_1fr] gap-12 text-center md:text-left">        
             {/* Column 1: Logo + Description */}
-            <div className="md:col-span-1 pr-60">
+           <div className="w-full md:col-span-1 md:pr-60 text-center md:text-left">
              <a href="/">
   <img
     src={Logo}
