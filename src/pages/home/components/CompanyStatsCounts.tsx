@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "@/pages/home/home.css";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
+import { div } from "framer-motion/client";
 
 // Updated Helper component with Intersection Observer
 const RollingNumber = ({ target, duration = 2000 }) => {
@@ -60,6 +61,7 @@ const CompanyStatsCounts = () => {
   ];
 
   return (
+
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
       {stats.map((stat) => (
         <FadeIn key={stat.id}>

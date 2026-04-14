@@ -28,10 +28,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
       className="relative bg-overlay bg-cover bg-center mt-12 md:-mt-30"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="container pt-30 pb-10 md:pt-60 md:pb-20 relative z-10 px-4 md:px-0">
+      <div className="container pt-30 pb-10 md:pt-60 md:pb-15 relative z-10 px-4 md:px-0">
 
         {/* Heading section */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left pt-0 md:pt-10">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left pt-0 ">
           <RisingText>
             <h1 className="h1-large">PROVEN EXECUTION.</h1>
           </RisingText>

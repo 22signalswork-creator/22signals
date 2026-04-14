@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <h4 className="text-blue font-bold uppercase tracking-wider text-sm">Navigation</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
-  <li><Link to="/work" className="hover:text-[#504CFF] transition-colors">Services</Link></li>
+  <li><Link to="/services" className="hover:text-[#504CFF] transition-colors">Services</Link></li>
   <li><Link to="/portfolio" className="hover:text-[#504CFF] transition-colors">Portfolio</Link></li>
   <li><Link to="/team" className="hover:text-[#504CFF] transition-colors">Team</Link></li>
   <li><Link to="/r&d" className="hover:text-[#504CFF] transition-colors">R&D</Link></li>

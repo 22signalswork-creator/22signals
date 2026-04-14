@@ -38,7 +38,7 @@ export default function TeamSection() {
               <img
                 src={FaPortrait}
                 alt="Sarah Chen"
-                className="w-[220px] h-[391px] md:w-[520px] md:h-[491px]"
+                className="w-[220px] h-[391px] md:w-[450px] md:h-[491px]"
               />
 
               <div className="skeleton">

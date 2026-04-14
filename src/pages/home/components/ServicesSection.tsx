@@ -17,8 +17,8 @@ import slide2 from "@/assets/home-slider-logos/0b9273_dcfc3b20a7ba4880b55480727b
 import slide8 from "@/assets/home-slider-logos/422430372_761676925980871_1742382672670991272_n.jpg";
 import slide3 from "@/assets/home-slider-logos/Final Logo.png";
 import slide4 from "@/assets/home-slider-logos/OutlierCreativeAgency_TMLogo_Final_FullLogo-White+Teal.png";
-import slide5 from "@/assets/home-slider-logos/daraz-logo-i8P9fH3b.jpg";
-import slide6 from "@/assets/home-slider-logos/e1d8f3_42c64c8e204843b193a7ed97e5b894cc~mv2.jpg";
+import slide5 from "@/assets/home-slider-logos/daraz-logo-i8P9fH3b-removebg-preview.png";
+import slide6 from "@/assets/home-slider-logos/e1d8f3_42c64c8e204843b193a7ed97e5b894cc~mv2.png";
 import slide7 from "@/assets/home-slider-logos/garena-logo-0.png";
 import slide13 from "@/assets/home-slider-logos/garena-red-logo-with-symbol-701751694791357ntd4cmq0yy.png";
 import slide9 from "@/assets/home-slider-logos/idU5A-8HdM_logos.png";
@@ -32,7 +32,7 @@ import Video from "./video.tsx";
 import RisingText from "@/transitions/RisingText.tsx";
 import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
-import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
+import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
 
 const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3, , slide13 , slide9 , slide10 , slide11 , slide12];
 

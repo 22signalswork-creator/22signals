@@ -23,7 +23,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
 
   const tabs = [
     { label: "Home", path: "/" },
-    { label: "Services", path: "/work" },
+    { label: "Services", path: "/services" },
     { label: "Portfolio", path: "/portfolio" },
     { label: "Team", path: "/team" },
     { label: "R&D", path: "/r&d" },

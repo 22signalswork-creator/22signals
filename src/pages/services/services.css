@@ -21,7 +21,7 @@
 /* Background box */
 .servicebg {
   width: 1600px;
-  height: 557px;
+  height: 500px;
 
   /* negative margin to escape container padding */
   margin-left: -70px;
@@ -395,6 +395,9 @@
   border-radius: 10px 10px 0px 0px;
   margin-bottom: 16px; /* spacing between items */
   overflow: hidden; /* prevent child overflow */
+  display: flex ;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .faq-question {

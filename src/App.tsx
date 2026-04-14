@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Header from "../src/layout/header.tsx";
 import Footer from "../src/layout/footer.tsx";
 import Home from "./pages/home/home.tsx";
-import Work from "./pages/work/work.tsx";
 import Service from "./pages/services/service.tsx";
 import Portfolio from "./pages/portfolio/portfolio.tsx";
 import Team from "./pages/team/team.tsx";
@@ -61,7 +60,7 @@ export default function App() {
           <LayoutWrapper>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/work" element={<Work />} />
+              <Route path="/work" element={<Service />} />
               <Route path="/services" element={<Service />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/team" element={<Team />} />

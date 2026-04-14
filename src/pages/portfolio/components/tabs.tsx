@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ProjectCardContent, { Project } from "./projectcard.tsx";
 import "../../../pages/home/home.css";
-import "../../work/work.css";
+import "../../services/work.css";
 
 interface TabsProps {
   projects: Project[];

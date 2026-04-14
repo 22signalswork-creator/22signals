@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import HeroSection from "./hero-section.tsx";
-import "@/pages/work/work.css";
+import "@/pages/services/work.css";
 import Tabs from "./components/tabs.tsx";
-import CompanyStatsCounts from "@/pages/work/components/CompanyStatsCounts.tsx";
+import CompanyStatsCounts from "@/pages/services/components/CompanyStatsCounts.tsx";
 import { projects } from "./components/projectcard.tsx"; 
 import RisingText from "@/transitions/RisingText.tsx";
 import FaqSection from "./components/FaqSection.tsx";
