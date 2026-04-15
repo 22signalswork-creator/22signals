@@ -50,7 +50,7 @@ const SliderComponent = ({ slides }) => {
       <Slider {...settings}>
         {slides.map((img, index) => (
           <div key={index} className="outline-none px-2">
-            <div className="flex justify-center items-center h-20 w-full">
+            <div className="flex justify-center items-center h-15 px-4 w-full">
               <img
                 src={img}
                 alt={`Logo ${index + 1}`}
