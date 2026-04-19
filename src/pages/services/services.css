@@ -21,7 +21,7 @@
 /* Background box */
 .servicebg {
   width: 1600px;
-  height: 500px;
+  height: 600px;
 
   /* negative margin to escape container padding */
   margin-left: -70px;
@@ -67,7 +67,7 @@
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
   color: #000;
   align-items: flex-start;
 }
@@ -122,6 +122,8 @@
   background: #ffffff;
   border-radius: 20px;
   padding: 30px;
+  height: stretch;
+  
 }
 
 .service-card h4 {

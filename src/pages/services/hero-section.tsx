@@ -27,7 +27,7 @@ export default function HeroSection() {
                 </AnimatedText>
 
                   <RisingText>
-                <MyButton text="GET STARTED" />
+                <MyButton text="GET STARTED" className="mt-15" />
                 </RisingText>
               </div>
             </div>

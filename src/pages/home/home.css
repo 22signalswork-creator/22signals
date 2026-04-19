@@ -35,7 +35,8 @@
     font-weight: 500;
     display: inline-block;
     border: 1px solid rgba(50, 95, 236, 1);
-    width: 156px;
+   
+    max-width: fit-content;
 }
 
 .testimonial-text{

@@ -24,7 +24,7 @@ const cardsrd = () => {
               <img
                 src={Rdicon}
                 alt=""
-                className="w-[30px] h-[30px] md:w-[78px] md:h-[78px]"
+               className="w-[30px] h-[30px] md:w-[58px] md:h-[48px]"
               />
             </div>
             <p className="dark-text mt-5 md:mt-5">
@@ -43,7 +43,7 @@ const cardsrd = () => {
               <img
                 src={Rdicon}
                 alt=""
-                className="w-[30px] h-[30px] md:w-[78px] md:h-[78px]"
+                className="w-[30px] h-[30px] md:w-[58px] md:h-[48px]"
               />
             </div>
             <p className="dark-text mt-5 md:mt-5">
@@ -62,7 +62,8 @@ const cardsrd = () => {
               <img
                 src={Rdicon}
                 alt=""
-                className="w-[30px] h-[30px] md:w-[78px] md:h-[78px]"
+                className="w-[30px] h-[30px] md:w-[58px] md:h-[48px]"
+
               />
             </div>
             <p className="dark-text mt-5 md:mt-5">
@@ -81,7 +82,7 @@ const cardsrd = () => {
               <img
                 src={Rdicon}
                 alt=""
-                className="w-[30px] h-[30px] md:w-[78px] md:h-[78px]"
+                className="w-[30px] h-[30px] md:w-[58px] md:h-[48px]"
               />
             </div>
             <p className="dark-text mt-5 md:mt-5">

@@ -16,9 +16,9 @@ const Score = () => {
       
       {/* Top Section */}
       <FadeIn>
-        <div className="grid grid-cols-2 gap-4 mb-8 md:grid-cols-2">
+        <div className="grid grid-cols-2 gap-4 mb-28 md:grid-cols-2">
           <div>
-            <h1>Active R&D Impact</h1>
+            <h1>Active R&D <br></br> Impact</h1>
           </div>
           <div className="max-w-[555px] w-full flex ml-auto">
             <p className="dark-text">

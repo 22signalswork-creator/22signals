@@ -46,9 +46,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
   return (
     <section className="hero-section">
       <div className="container">
-        <div className="servicebg-wrapper">
+        <div className="servicebg-wrapper ">
           <div
-            className="servicebg w-[1600px] h-[657px] -mx-[70px] rounded-[50px] flex items-center relative"
+            className="servicebg w-[1600px] h-[657px]  -mx-[70px] rounded-[50px] flex items-center relative"
             style={{
               backgroundImage: `
                 linear-gradient(
@@ -65,7 +65,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
             }}
           >
             <div className="content-container w-full">
-              <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5">
+              <div className="flex flex-col items-center justify-center text-center space-y-6 py-12 gap-5 mb-18">
                 
                 <RisingText>
                   <h1>
@@ -76,7 +76,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
                 {/* Animated Text */}
                 <p
                   ref={textRef}
-                  className="dark-text px-10 md:px-0"
+                  className="dark-text px-10 md:px-0 w-230"
                 >
                   Expert perspectives on digital transformation, global supply
                   chains, esports marketing, and the future of scalable business

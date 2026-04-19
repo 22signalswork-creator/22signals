@@ -20,12 +20,12 @@ export default function HeroSection() {
                   </h1>
                 </RisingText>
 
-                <AnimatedText className="dark-text">
+                <AnimatedText className="dark-text mb-20">
                  Strategic perspectives on AI architecture, marketing, and the future of scalable business operations.
 
                 </AnimatedText>
                 <RisingText>
-                  <MyButton text="GET STARTED" />
+                  <MyButton text="GET STARTED" className="" />
                 </RisingText>
               </div>
             </div>
