@@ -154,6 +154,9 @@ h2.team-title{
 h2.recentproject-title{
   --h2-size: 30px;
 }
+h2.footer-main-text{
+  --h2-size: 68px;
+}
   h2 {
     font-weight: 300;
     line-height: 1.1;

@@ -32,10 +32,10 @@ const Footer = () => {
           />
         </div>
 
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-8 px-6 md:px-12 lg:px-20 py-12 relative z-10">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-[3fr_0.7fr] items-center gap-8 px-6 md:px-12 lg:px-20 py-12 relative z-10">
           {/* Left Side */}
           <div className="text-center md:text-left">
-            <h2 className="recentproject-title flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 text-[28px] sm:text-[32px] md:text-[44px] text-white font-bold leading-tight">
+            <h2 className="footer-main-text  flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 text-[28px] sm:text-[32px] md:text-[44px] ">
               Schedule a call. Let’s connect!
               <img src={Union} alt="Union" className="w-8 h-8 md:w-10 md:h-10 animate-pulse" />
             </h2>
@@ -130,11 +130,11 @@ const Footer = () => {
 
       {/* ===== BOTTOM BAR ===== */}
       <div className="w-full border-t border-[rgba(80,76,255,1)] bg-black">
-        <div className="container mx-auto px-6 md:px-12 lg:px-20 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#DEE1E6]">
           <span>© 2026 22Signals. All rights reserved.</span>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
+            <a href="#" className="text-white transition-colors">Privacy</a>
+            <a href="#" className="text-white transition-colors">Terms</a>
           </div>
         </div>
       </div>
