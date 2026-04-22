@@ -132,7 +132,7 @@ const PortfolioSection = () => {
 
       {/* Top Section - Recent Projects */}
       <div
-        className="relative pt-12"
+        className="relative pt-0"
         style={{
           backgroundImage: `url(${Portfoliobg})`,
           backgroundRepeat: "no-repeat",
@@ -141,9 +141,9 @@ const PortfolioSection = () => {
       >
         <img src={ShadowL} alt="" className="absolute left-0 top-0 h-full object-contain opacity-60 pointer-events-none" />
 
-        <section className="container mx-auto px-4 md:px-8 relative z-10 pb-12">
+        <section className="container mx-auto px-4 md:px-8 relative z-10 pb-6">
           <FadeIn direction="up">
-            <div className="flex flex-col md:flex-row justify-between items-center mb-8">
+            <div className="flex flex-col md:flex-row justify-between items-center mb-2">
               <h2 className="recentproject-title text-2xl md:text-3xl font-light text-blue-400 text-center md:text-left flex items-center">
                 Featured Projects
                 <img src={Union} alt="Union" className="ml-2 inline-block w-4 h-4" />
@@ -158,7 +158,7 @@ const PortfolioSection = () => {
             <Slider {...projectSliderSettings} className="w-full">
               {projects.map((project, idx) => (
                 <div key={idx} className="px-2">
-                  <FadeIn delay={0.2 + idx * 0.2}>
+                  <FadeIn delay={0.1 + idx * 0.2}>
                     <div
                       style={{
                         backgroundImage: `url(${cardbg})`,

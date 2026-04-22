@@ -63,18 +63,7 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
         duration: 0.4,
       })
       
-      // // 7. FADEOUT: Now fade the black container away
-      // .to(scope.current, {
-      //   opacity: 0,
-      //   duration: 0.6,
-      //   ease: "power2.inOut"
-      // })
-
-      // // 8. REMOVAL
-      // .set(scope.current, {
-      //   display: "none"
-      // });
-
+      
     }, scope);
 
     return () => ctx.revert();

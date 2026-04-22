@@ -48,7 +48,7 @@ const ServicesSection = () => {
       
       {/* Video & Title Header */}
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1.7fr] gap-12 items-start mb-80 ">
-        <div className="pt-10">
+        <div className="pt-0">
           <RisingText>
             <h1 className="animated-gradient-black text-transparent text-center md:text-left">
               We translate complex challenges into tangible data driven results.

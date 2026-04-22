@@ -17,16 +17,15 @@ const Home = () => {
   return (
     <>
       {/* <CarromSmartScroll> */}
-        <HeroSection nextSectionRef={nextSectionRef} 
-        scrollNext={handleScrollNext} />
+        <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
         <div ref={nextSectionRef}>
-
+          <ServicesSection />
+        </div>
       
-        <ServicesSection />
-          </div>
         <PortfolioSection />
+        
         {/* The Footer is now the final slide */}
-        <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto">
+        <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto" ref={nextSectionRef}>
           <Footer />
         </section>
       {/* </CarromSmartScroll> */}
