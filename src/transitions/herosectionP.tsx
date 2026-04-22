@@ -42,13 +42,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
     <p
       ref={textRef}
       className={className}
-      style={{
-        backgroundImage: gradientColor,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "0% 100%",
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent",
-      }}
+      style={{color: '#fff'}}
     >
       {children}
     </p>

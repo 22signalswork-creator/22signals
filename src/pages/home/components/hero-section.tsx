@@ -18,8 +18,11 @@ import NeonScene from "./NeonGlobe.tsx";
 
 interface HeroSectionProps {
   nextSectionRef: React.RefObject<HTMLDivElement>;
+
+  scrollNext?: () => void; // This comes from the CarromSmartScroll wrapper
 }
-const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
+
+const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
 
   const mouseSpring = useSpring({
     loop: { reverse: true },
@@ -28,9 +31,16 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
     config: { duration: 800 },
   });
 
+  // const handleScroll = () => {
+  //   if (nextSectionRef.current) {
+  //     nextSectionRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
+
+  // REPLACE your old handleScroll with this:
   const handleScroll = () => {
-    if (nextSectionRef.current) {
-      nextSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    if (scrollNext) {
+      scrollNext(); // This triggers the Carrom glide animation
     }
   };
 
@@ -70,12 +80,16 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
         <div className="grid grid-cols-[1fr] md:grid-cols-[2fr_1fr_2fr] gap-8 pb-10 items-center">
           
           <div className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto">
-            <div className="flex gap-4" style={{ filter: 'brightness(0)' }}>
-              <img src={Instagram} alt="Instagram" className="w-[24px] h-[24px] cursor-pointer" />
-              <img src={whatsapp} alt="WhatsApp" className="w-[24px] h-[24px] cursor-pointer" />
-              <img src={linkedin} alt="LinkedIn" className="w-[24px] h-[24px] cursor-pointer" />
-              <img src={twiter} alt="Twitter" className="w-[24px] h-[24px] cursor-pointer" />
-            </div>
+             <AnimatedText
+              className="text-black hero-section-desc-text"
+              delay={0.5}
+              duration={2.5}
+            >
+              DUBAI &nbsp;|&nbsp; LAHORE &nbsp;|&nbsp; LONDON &nbsp;|&nbsp; NEW YORK
+
+           
+
+            </AnimatedText>
           </div>
 
           <div className="flex flex-col justify-end items-center h-full pointer-events-auto">
@@ -83,12 +97,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               src={Mouse}
               alt="Scroll"
               className="w-[30px] h-[43px] cursor-pointer"
-              style={{ ...mouseSpring, filter: 'brightness(0)' }}
+              style={{ ...mouseSpring, filter: 'brightness(1)' }}
               onClick={handleScroll}
             />
           </div>
 
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-right">
             <AnimatedText
               className="text-black hero-section-desc-text"
               delay={0.5}
@@ -96,6 +110,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
             >
               Your one stop solution business solution.
             </AnimatedText>
+            
           </div>
         </div>
       </div>

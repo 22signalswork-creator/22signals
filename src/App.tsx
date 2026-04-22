@@ -9,13 +9,14 @@ import Team from "./pages/team/team.tsx";
 import Readdetails from "./pages/r&d/r&d.tsx";
 import Blog from "./pages/blog/blog.tsx";
 import Preloader from "./layout/Preloader.tsx";
+import Test from "./pages/test.tsx";
 
 // Define the theme type for better type safety
 type HeaderTheme = "light" | "dark";
 
 const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
-  const isHome = location.pathname === "/";
+  const isHome = location.pathname === "/" || location.pathname === "";
 
   // Logic to determine header color based on route
   const getHeaderTheme = (): HeaderTheme => {
@@ -66,6 +67,7 @@ export default function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/r&d" element={<Readdetails />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/test" element={<Test />} />
             </Routes>
           </LayoutWrapper>
         </Router>
