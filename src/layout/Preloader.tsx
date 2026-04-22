@@ -15,13 +15,13 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
       gsap.set(".central-ball", { scale: 0, opacity: 0 });
       gsap.set(".fluo-letter", { x: 0, opacity: 0, scale: 0.8 });
 
-      // 2. Letters Reveal and Spread
+      // 2. Letters Reveal and Spread (Spacing reduced to 40)
       tl.to(".fluo-letter", {
         opacity: 1,
         duration: 0.4,
       })
       .to(".fluo-letter", {
-        x: (i) => (i - (letters.length - 1) / 2) * 55, 
+        x: (i) => (i - (letters.length - 1) / 2) * 40, 
         scale: 1,
         duration: 1,
         stagger: 0.04,
@@ -48,18 +48,22 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
         ease: "back.out(2)", 
       }, "-=0.1")
 
-      // 5. THE GROWTH: Ball grows larger (8x) and stays for 1 second
+      // 5. THE GROWTH: Ball grows larger (8x) 
       .to(".central-ball", {
         scale: 8, 
         duration: 0.8,
         ease: "power2.out",
       })
-      .to({}, { duration: 0.2 }) // Combined with growth, this is ~1s stay
+      
+      // 6. FADEOUT: Entire component fades to black/transparent
+      .to(scope.current, {
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.inOut"
+      })
 
-      // 6. IMMEDIATE REMOVAL: No fadeout, just gone.
-      // We set display to none and autoAlpha to 0 instantly.
-      .set([scope.current, ".central-ball"], {
-        autoAlpha: 0,
+      // 7. REMOVAL: Clean up from DOM
+      .set(scope.current, {
         display: "none"
       });
 

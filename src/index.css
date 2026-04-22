@@ -1,4 +1,9 @@
-
+/* global.css */
+html, body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+}
 :root {
    --h1-size: 68px;
   --h1-line: 1.15;

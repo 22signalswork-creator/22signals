@@ -38,7 +38,7 @@ const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3, 
 
 const ServicesSection = () => {
   return (
-    <section className="container relative pb-16 px-6 md:px-12 lg:px-20 allow-internal-scroll" style={{ paddingTop: '150px' }}>
+    <section className="container relative pb-16  px-6 md:px-12 lg:px-20 allow-internal-scroll " style={{ paddingTop: '150px', height: "100%" }}>
       <div className="svg-container">
         <ScrollLine />
       </div>
@@ -161,7 +161,7 @@ const ServicesSection = () => {
         </FadeIn>
       </div>
 
-      <div className="mb-12">
+      <div className="">
         <ScrollLineBottom />
         <SliderComponent slides={slides} />
       </div>
