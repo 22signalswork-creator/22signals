@@ -3,15 +3,18 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 
 // Assets
-import DigitalSolutions from "@/assets/digitalsolutions.png";
+import DigitalSolutions from "@/assets/services-images/Digital Solutions.png";
 import Framed from "@/assets/DigitalIcon.png";
 import CustomButton from "@/components/CustomButton.tsx";
 import SliderComponent from "@/components/Slider.tsx";
-import Creative from "@/assets/creative.png";
+import CreativeSolutions from "@/assets/services-images/Creative Solutions.png";
 import CreativeIcon from "@/assets/creativeicon.png";
 import Stafficon from "@/assets/staffIcon.png";
 import Broadcastingicon from "@/assets/broadcasticon.png";
-import staffbg from "@/assets/staffbg.png";
+import GlobalManufacturing from "@/assets/services-images/Global Manufacturing.png";
+import GameDev from "@/assets/services-images/Game dev.png";
+import EmployeeOutsourcing from  "@/assets/services-images/Employee Outsourcing.png"
+import TradeAndInvestments from "@/assets/services-images/Trading and investements.png"
 import broadcastingbg from "@/assets/broadcastbg.png";
 import slide1 from "@/assets/home-slider-logos/01_Tencent_Logo_Reverse-type.avif";
 import slide2 from "@/assets/home-slider-logos/0b9273_dcfc3b20a7ba4880b55480727be12b67~mv2.jpg";
@@ -78,7 +81,8 @@ const ServicesSection = () => {
               description="High-performance web development, SEO, GEO and intelligent AI systems."
               icon={Framed}
               bgImage={DigitalSolutions}
-              bgColorClass="bg-[#325fec]"
+              bgColorClass="bg-[#03091b]"
+              
               bgPosition="right -130px top 45px"
               buttonVariant="secondary"
             />
@@ -91,10 +95,11 @@ const ServicesSection = () => {
               title="Creative Solutions"
               description="Social Media Management, motion graphics, and 2D/3D animations."
               icon={CreativeIcon}
-              bgImage={Creative}
+              bgImage={CreativeSolutions}
               titleColorClass="blue-gradient-text"
               bgPosition="right -50px top 60px"
               buttonVariant="danger"
+              bgColorClass="bg-[#03091b]"
             />
           </Cardhovereffect>
         </FadeIn>
@@ -108,10 +113,11 @@ const ServicesSection = () => {
               title="Global Manufacturing"
               description="Optimize your supply chain and reduce product costs by 40-60%."
               icon={Stafficon}
-              bgImage={staffbg}
+              bgImage={GlobalManufacturing}
               titleColorClass="blue-gradient-text"
-              bgPosition="right -20px top 50px"
+              bgPosition="center"
               buttonVariant="danger"
+               bgColorClass="bg-[#03091b]"
             />
           </Cardhovereffect>
         </FadeIn>
@@ -141,6 +147,9 @@ const ServicesSection = () => {
               icon={CreativeIcon}
               titleColorClass="blue-gradient-text"
               buttonVariant="danger"
+               bgImage={GameDev}
+               bgSize="cover"
+             bgColorClass="bg-[#325fec]"
             />
           </Cardhovereffect>
         </FadeIn>
@@ -151,9 +160,10 @@ const ServicesSection = () => {
               title="Employee Outsourcing"
               description="Access top-tier global talent at a fraction of the cost."
               icon={Framed}
-              bgImage={DigitalSolutions}
+              bgImage={EmployeeOutsourcing}
               bgColorClass="bg-[#325fec]"
-              bgPosition="right -350px top 50px"
+              bgPosition="center"
+              bgSize="cover"
               buttonVariant="secondary"
             />
           </Cardhovereffect>
@@ -167,6 +177,10 @@ const ServicesSection = () => {
               icon={CreativeIcon}
               titleColorClass="blue-gradient-text"
               buttonVariant="danger"
+               bgImage={TradeAndInvestments}
+               bgColorClass="bg-[#325fec]"
+              bgPosition="center"
+              bgSize="cover"
             />
           </Cardhovereffect>
         </FadeIn>
