@@ -51,7 +51,6 @@ const RollingNumber = ({ target, duration = 2000 }) => {
 
   return <span ref={elementRef}>{count}</span>;
 };
-
 const CompanyStatsCounts = () => {
   const stats = [
     { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
@@ -61,10 +60,12 @@ const CompanyStatsCounts = () => {
   ];
 
   return (
-
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      {stats.map((stat) => (
-        <FadeIn key={stat.id}>
+      {stats.map((stat, index) => (
+        <FadeIn 
+          key={stat.id} 
+          delay={index * 0.2} // Card 1: 0s, Card 2: 0.15s, Card 3: 0.3s...
+        >
           <Cardhovereffect>
             <div className="second-card flex flex-col items-center">
               <h1 className="text-4xl font-bold">
@@ -79,5 +80,4 @@ const CompanyStatsCounts = () => {
     </div>
   );
 };
-
 export default CompanyStatsCounts;

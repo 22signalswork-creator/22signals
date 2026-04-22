@@ -15,9 +15,9 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
 
   const [activeTab, setActiveTab] = useState("Home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
-  // Logic states
   const [scrolled, setScrolled] = useState(false);
+
+  // SCROLL STATES (unchanged)
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -37,28 +37,22 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      // 1. TRANSPARENT ONLY AT TOP
-      // If currentScrollY is 0, scrolled is false (transparent). 
-      // If currentScrollY > 0, scrolled is true (background shows).
-      setScrolled(currentScrollY > 0);
+      setScrolled(currentScrollY > 10);
 
-      // 2. HIDE/SHOW LOGIC
-      if (currentScrollY <= 0) {
-        setShowHeader(true);
-      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        // Scrolling down
+      if (Math.abs(currentScrollY - lastScrollY) < 5) return;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 300) {
         setShowHeader(false);
-      } else if (currentScrollY < lastScrollY) {
-        // Scrolling up
+      } else {
         setShowHeader(true);
       }
 
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]); // lastScrollY is required here to keep logic accurate
+  }, [lastScrollY]);
 
   /* =====================
      ACTIVE TAB
@@ -68,8 +62,13 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     if (currentTab) setActiveTab(currentTab.label);
   }, [location.pathname]);
 
+  /* =====================
+     FIXED TEXT COLOR (FOR ALL PAGES)
+  ===================== */
   const getTextColorClass = () => {
-    return "menu-black"; 
+
+     return scrolled ?  "menu-black" :  "menu-white"; // force same color everywhere
+    return theme == "dark" ? "menu-black" : "menu-white"; // force same color everywhere
   };
 
   return (
@@ -85,7 +84,11 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
         {/* LOGO */}
         <div className="logo-wrapper">
           <Link to="/">
-            <img src={logo} alt="Logo" className="logo cursor-pointer" />
+            <img
+              src={logo}
+              alt="Logo"
+              className="logo cursor-pointer" // removed invert logic
+            />
           </Link>
         </div>
 
@@ -140,6 +143,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
         <div className="mobile-menu-close">
           <button onClick={() => setMobileMenuOpen(false)}>✕</button>
         </div>
+
         <ul className="mobile-menu-list">
           {tabs.map((tab) => (
             <li key={tab.label}>
@@ -159,6 +163,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
         </ul>
       </div>
 
+      {/* OVERLAY */}
       <div
         className={`overlay ${mobileMenuOpen ? "visible" : ""}`}
         onClick={() => setMobileMenuOpen(false)}

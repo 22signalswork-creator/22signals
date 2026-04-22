@@ -23,7 +23,7 @@ const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
     switch (location.pathname) {
       case "/":
         return "light";
-      case "/work":
+      case "/services":
       case "/portfolio":
         return "dark";
       case "/blog":

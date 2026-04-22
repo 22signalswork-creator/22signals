@@ -20,7 +20,7 @@ export default function CreativeServices() {
             </span>
 
             <div className="services-title-wrap">
-              <h1>Refined Execution.</h1>
+              <h1>Refined <br/>Execution.</h1>
               <div>
                 <p className="dark-text">
                   Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions.

@@ -97,12 +97,11 @@
 }
 
 .services-title-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: start;
 }
-
 /* Services Grid */
 .services-grid {
   display: grid;

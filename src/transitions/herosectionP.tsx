@@ -42,7 +42,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
     <p
       ref={textRef}
       className={className}
-      style={{color: '#fff'}}
+     
     >
       {children}
     </p>

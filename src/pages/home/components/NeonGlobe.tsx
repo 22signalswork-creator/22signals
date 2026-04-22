@@ -794,7 +794,7 @@ animate();
       <canvas id="spectrum-canvas" ref={specCanvasRef} />
       <div id="cursor-dot" ref={cursorDotRef} />
 
-      <div id="ui" ref={uiRef}>
+      <div id="ui" ref={uiRef} className="hidden">
         <h3>GLOBE CONTROLS</h3>
         <div className="ctrl"><label>Emissive Intensity</label><input ref={emissiveIntRef} type="range" id="emissiveInt" min="0.2" max="4.0" step="0.1" defaultValue="2.0" /></div>
         <div className="ctrl"><label>Fresnel Power</label><input ref={fresPowRef} type="range" id="fresPow" min="1.0" max="10.0" step="0.1" defaultValue="3.5" /></div>

@@ -1,51 +1,65 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface RisingTextProps {
   children: React.ReactNode;
-  delay?: number; // Optional delay before animation
 }
 
-const RisingText: React.FC<RisingTextProps> = ({ children, delay = 0.5 }) => {
+const RisingText: React.FC<RisingTextProps> = ({ children }) => {
   const containerRef = useRef<HTMLSpanElement>(null);
+  const triggerRef = useRef<HTMLSpanElement>(null);
 
-  useEffect(() => {
-    if (containerRef.current) {
-      // Set initial position: down 100%
-      gsap.set(containerRef.current, { y: "100%" });
+  useGSAP(() => {
+    if (!containerRef.current || !triggerRef.current) return;
 
-      // Animate up
-      gsap.to(containerRef.current, {
+    gsap.fromTo(
+      containerRef.current,
+      { 
+        y: "100%", 
+        opacity: 0 
+      },
+      {
         y: "0%",
-        duration: 2,
-        delay: delay,
-        ease: "power4.out",
-      });
-    }
-  }, [delay]);
+        opacity: 1,
+        ease: "none", // Scrubbing feels best with "none" or "power1.out"
+        scrollTrigger: {
+          trigger: triggerRef.current,
+          // "top 90%" means animation starts when the top of the element hits 90% of viewport
+          // "top 60%" means animation ends when the top of the element hits 60% of viewport
+          start: "top 95%", 
+          end: "top 70%",
+          scrub: 1, // Smoothly catches up to the scrollbar (1 second delay for smoothness)
+          toggleActions: "restart pause resume reverse",
+        }
+      }
+    );
+  }, []);
 
   return (
-    <>
-      <style>{`
-        .rising-window-mask {
-          display: inline-block;
-          overflow: hidden;
-          vertical-align: bottom;
-          line-height: 1.3; /* Prevent cutting letters */
-        }
-
-        .rising-reveal-layer {
-          display: inline-block;
-          will-change: transform;
-        }
-      `}</style>
-
-      <span className="rising-window-mask">
-        <span ref={containerRef} className="rising-reveal-layer">
-          {children}
-        </span>
+    <span 
+      ref={triggerRef}
+      className="rising-window-mask" 
+      style={{ 
+        display: 'inline-block', 
+        overflow: 'hidden', 
+        verticalAlign: 'bottom'
+      }}
+    >
+      <span 
+        ref={containerRef} 
+        className="rising-reveal-layer" 
+        style={{ 
+          display: 'inline-block', 
+          willChange: 'transform, opacity'
+        }}
+      >
+        {children}
       </span>
-    </>
+    </span>
   );
 };
 

@@ -9,13 +9,15 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline({ onComplete: () => onComplete() });
+      const tl = gsap.timeline({ 
+        onComplete: () => onComplete() 
+      });
 
       // 1. Initial Setup
       gsap.set(".central-ball", { scale: 0, opacity: 0 });
       gsap.set(".fluo-letter", { x: 0, opacity: 0, scale: 0.8 });
 
-      // 2. Letters Reveal and Spread (Spacing reduced to 40)
+      // 2. Letters Reveal and Spread
       tl.to(".fluo-letter", {
         opacity: 1,
         duration: 0.4,
@@ -48,25 +50,20 @@ const Preloader: React.FC<Props> = ({ onComplete }) => {
         ease: "back.out(2)", 
       }, "-=0.1")
 
-      // 5. THE GROWTH: Ball grows larger (8x) 
+      // 5. THE GROWTH: Ball grows slightly (Reduced size as requested)
       .to(".central-ball", {
-        scale: 8, 
+        scale: 5, 
         duration: 0.8,
         ease: "power2.out",
       })
-      
-      // 6. FADEOUT: Entire component fades to black/transparent
-      .to(scope.current, {
+
+      // 6. INTERNAL FADE: Fade the ball itself first to keep the screen black
+      .to(".central-ball", {
         opacity: 0,
-        duration: 0.6,
-        ease: "power2.inOut"
+        duration: 0.4,
       })
-
-      // 7. REMOVAL: Clean up from DOM
-      .set(scope.current, {
-        display: "none"
-      });
-
+      
+      
     }, scope);
 
     return () => ctx.revert();

@@ -213,10 +213,9 @@ color: rgba(222, 225, 230, 1);
 }
 }
 
-
 .svg-container {
     position: absolute;
-    top: 290px;
+    top: 1250px;
     left: 88px;
     width: 100%;
     max-width: 90%;
@@ -231,14 +230,15 @@ color: rgba(222, 225, 230, 1);
   height: auto;
 }
 
-.second-svg{
-     position: absolute;
-    bottom: -44px;
+.second-svg {
+    position: absolute;
+    bottom: -86px;
     left: 104px;
     width: 89%;
     height: auto;
     pointer-events: none;
     z-index: -1;
+    display: none;
 }
 
  .thirdsvg{

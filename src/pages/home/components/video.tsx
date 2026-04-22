@@ -1,53 +1,89 @@
+import { useState, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import videoplayer from "@/assets/videoplayer.png";
 import videoplay from "@/assets/videoplay.svg";
-import { useState } from "react";
 
+gsap.registerPlugin(ScrollTrigger);
 
 const Video = () => {
   const [open, setOpen] = useState(false);
+  const videoRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
+  useGSAP(() => {
+    if (!videoRef.current || !containerRef.current) return;
 
-  const youtubeUrl = "https://www.youtube.com/embed/VnRC8PyzBT8?autoplay=1";
+    // Initialize MatchMedia
+    let mm = gsap.matchMedia();
+
+    // Desktop view (min-width: 768px)
+    mm.add("(min-width: 768px)", () => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 15%",
+          end: "+=700",
+          scrub: 1,
+          pin: true,
+          pinSpacing: true,
+        },
+      });
+
+      // STEP 1: Down 100px
+      tl.to(videoRef.current, {
+        y: 100,
+        x: 0,
+        scale: 1,
+        duration: 1,
+        ease: "power1.inOut",
+      })
+      
+      // STEP 2: Enlarge and move left
+      .to(videoRef.current, {
+        x: "-22%",
+        y: 120,
+        scale: 1.45,
+        duration: 1,
+        ease: "power2.out",
+      });
+    });
+
+    // Cleanup mm on unmount
+    return () => mm.revert();
+  }, []);
 
   return (
     <>
-      {/* Thumbnail Section */}
-      <div className="w-full m-0 p-0 flex justify-center">
-        <div className="relative w-full max-w-[668px] h-[300px] overflow-hidden rounded-[24px]">
+      <div ref={containerRef} className="w-full flex justify-center items-start overflow-visible">
+        <div 
+          ref={videoRef}
+          className="relative z-50 w-full max-w-[668px] h-[350px] overflow-hidden rounded-[24px] shadow-2xl transition-none"
+        >
           <div
             className="w-full h-full bg-cover bg-center flex items-center justify-center cursor-pointer"
-            style={{
-              backgroundImage: `url(${videoplayer})`,
-            }}
+            style={{ backgroundImage: `url(${videoplayer})` }}
             onClick={() => setOpen(true)}
           >
-            <img
-              src={videoplay}
-              alt="Play Button"
-              className="h-16 pointer-events-none"
-            />
+            <img src={videoplay} alt="Play Button" className="h-16 pointer-events-none" />
           </div>
         </div>
       </div>
 
       {/* Popup Modal */}
       {open && (
-        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center">
-          <div className="relative w-[90%] max-w-[900px] aspect-video bg-black rounded-xl overflow-hidden">
-           <button
-  className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white text-black rounded-full shadow-md hover:bg-gray-200 transition"
-  onClick={() => setOpen(false)}
->
-  ✕
-</button>
-
-
+        <div className="fixed inset-0 z-[1000] bg-black/80 flex items-center justify-center" onClick={() => setOpen(false)}>
+          <div className="relative w-[90%] max-w-[900px] aspect-video bg-black rounded-xl overflow-hidden" onClick={e => e.stopPropagation()}>
+            <button 
+              className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white text-black rounded-full" 
+              onClick={() => setOpen(false)}
+            >
+              ✕
+            </button>
             <iframe
               className="w-full h-full"
-              src={youtubeUrl}
-              title="YouTube video"
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
+              src="https://www.youtube.com/embed/VnRC8PyzBT8?autoplay=1"
               allowFullScreen
             ></iframe>
           </div>
