@@ -81,7 +81,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
           
           <div className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto">
              <AnimatedText
-              className="text-black hero-section-desc-text"
+              className="text-white hero-section-desc-text"
               delay={0.5}
               duration={2.5}
             >
@@ -104,7 +104,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
 
           <div className="text-center md:text-right">
             <AnimatedText
-              className="text-black hero-section-desc-text"
+              className="text-white hero-section-desc-text"
               delay={0.5}
               duration={2.5}
             >

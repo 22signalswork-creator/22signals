@@ -39,24 +39,31 @@ const slides = [slide1, slide2, slide7, slide4, slide6, slide8, slide5, slide3, 
 const ServicesSection = () => {
   return (
     <section className="container relative pb-16  px-6 md:px-12 lg:px-20 allow-internal-scroll " style={{ paddingTop: '150px', height: "100%" }}>
-      <div className="svg-container">
+    
+
+     {/* Container with extra margin at the bottom to accommodate the enlarging video */}
+<div className="grid grid-cols-1 lg:grid-cols-[2fr_1.7fr] gap-12 items-start mb-80 ">
+  <div className="pt-10"> {/* Slight offset to align with video top */}
+    <RisingText>
+      <h1 className="animated-gradient text-transparent text-center md:text-left">
+        We translate complex challenges into tangible data driven results.
+      </h1>
+    </RisingText>
+  </div>
+  
+  <div className="w-full">
+    <Video />
+      
+  </div>
+
+  <div className="svg-container">
         <ScrollLine />
       </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1.7fr] gap-12 items-center mb-20">
-        <div>
-          <RisingText>
-          <h1 className="animated-gradient text-transparent text-center md:text-left">
-            We translate complex challenges into tangible data driven results.
-          </h1>
-          </RisingText>
-        </div>
-        <Video />
-      </div>
-
+</div>
       
-
+        <div >
       <CompanyStatsCounts />
+      </div>
 
       {/* ROW 1: Digital & Creative */}
       <div className="grid grid-cols-1 md:grid-cols-[2fr_1.3fr] gap-10 my-10">

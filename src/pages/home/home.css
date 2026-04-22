@@ -213,10 +213,9 @@ color: rgba(222, 225, 230, 1);
 }
 }
 
-
 .svg-container {
     position: absolute;
-    top: 290px;
+    top: 1250px;
     left: 88px;
     width: 100%;
     max-width: 90%;

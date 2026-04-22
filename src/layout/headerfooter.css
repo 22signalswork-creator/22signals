@@ -3,7 +3,7 @@
 ================================ */
 
 .header {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,7 +13,7 @@
 }
 
 .header.scrolled {
-  background-color: rgba(255, 255, 255, 0.7);
+ background-color: rgb(255 255 255 / 100%);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -239,12 +239,12 @@
 
 
 
-.header {
+/* .header {
   position: sticky;
   top: 0;
   z-index: 1000;
   transition: transform 0.3s ease;
-}
+} */
 
 .header-hide {
   transform: translateY(-100%);

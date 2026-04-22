@@ -10,15 +10,15 @@ const Home = () => {
 
   return (
     <>
-      <CarromSmartScroll>
-      <HeroSection nextSectionRef={homeBodyRef} />
-      <ServicesSection />
-      <PortfolioSection />
-      {/* The Footer is now the final slide */}
-      <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto">
-        <Footer />
-      </section>
-      </CarromSmartScroll>
+      {/* <CarromSmartScroll> */}
+        <HeroSection nextSectionRef={homeBodyRef} />
+        <ServicesSection />
+        <PortfolioSection />
+        {/* The Footer is now the final slide */}
+        <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto">
+          <Footer />
+        </section>
+      {/* </CarromSmartScroll> */}
     </>
   );
 };
