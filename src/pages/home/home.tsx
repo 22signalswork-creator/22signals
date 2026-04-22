@@ -25,7 +25,7 @@ const Home = () => {
         <PortfolioSection />
         
         {/* The Footer is now the final slide */}
-        <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto" ref={nextSectionRef}>
+        <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto" >
           <Footer />
         </section>
       {/* </CarromSmartScroll> */}
