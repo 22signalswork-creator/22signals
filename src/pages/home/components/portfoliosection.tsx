@@ -142,7 +142,7 @@ const PortfolioSection = () => {
 
         <section className="container mx-auto px-4 md:px-8 relative z-10 py-2">
    
-          <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400 mb-12  text-center md:text-left">
+          <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400 mb-2  text-center md:text-left">
             Proven Results
             <img src={Union} alt="Union" className="ml-2 inline-block" />
           </h2>
@@ -200,7 +200,7 @@ const PortfolioSection = () => {
           className="absolute left-0 top-0 h-full object-contain opacity-80 pointer-events-none"
         />
 
-        <section className="container mx-auto px-4 md:px-8 relative z-10 py-12">
+        <section className="container mx-auto px-4 md:px-8 relative z-10 pb-12">
           <div className="flex flex-col md:flex-row justify-between items-center ">
             
             <h2 className="h2.recentproject-title text-2xl md:text-3xl font-light text-blue-400   md:mb-0 text-center md:text-left">
@@ -221,7 +221,7 @@ const PortfolioSection = () => {
                       backgroundPosition: isMobile ? "right -53px top 0" : "right 0 top 0",
                       backgroundRepeat: "no-repeat",
                     }}
-                    className="h-[414px] flex items-center pr-2 md:pr-4"
+                    className=" flex items-center pr-2 md:pr-4"
                   >
                     <ProjectCardContent project={project} />
                   </div>
