@@ -15,34 +15,43 @@ const Video = () => {
   useGSAP(() => {
     if (!videoRef.current || !containerRef.current) return;
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: "top 15%",     // Pins near the top of the viewport
-        end: "+=700",          // Total scroll distance for both steps
-        scrub: 1,              // Smooth tracking
-        pin: true,             // Locks it in place during the sequence
-        pinSpacing: true,      // Reserves space so content doesn't jump
-      },
+    // Initialize MatchMedia
+    let mm = gsap.matchMedia();
+
+    // Desktop view (min-width: 768px)
+    mm.add("(min-width: 768px)", () => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 15%",
+          end: "+=700",
+          scrub: 1,
+          pin: true,
+          pinSpacing: true,
+        },
+      });
+
+      // STEP 1: Down 100px
+      tl.to(videoRef.current, {
+        y: 100,
+        x: 0,
+        scale: 1,
+        duration: 1,
+        ease: "power1.inOut",
+      })
+      
+      // STEP 2: Enlarge and move left
+      .to(videoRef.current, {
+        x: "-22%",
+        y: 120,
+        scale: 1.45,
+        duration: 1,
+        ease: "power2.out",
+      });
     });
 
-    // STEP 1: Go down 100px ONLY
-    tl.to(videoRef.current, {
-      y: 100,
-      x: 0,
-      scale: 1,
-      duration: 1,             // Relative time in the timeline
-      ease: "power1.inOut",
-    })
-    
-    // STEP 2: Enlarge and move left (Starts AFTER Step 1 finishes)
-    .to(videoRef.current, {
-      x: "-22%",
-      y: 120,                  // Stay roughly at the 100px depth (+20px for flair)
-      scale: 1.45,
-      duration: 1,
-      ease: "power2.out",
-    });
+    // Cleanup mm on unmount
+    return () => mm.revert();
   }, []);
 
   return (
@@ -66,7 +75,10 @@ const Video = () => {
       {open && (
         <div className="fixed inset-0 z-[1000] bg-black/80 flex items-center justify-center" onClick={() => setOpen(false)}>
           <div className="relative w-[90%] max-w-[900px] aspect-video bg-black rounded-xl overflow-hidden" onClick={e => e.stopPropagation()}>
-            <button className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white text-black rounded-full" onClick={() => setOpen(false)}>
+            <button 
+              className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white text-black rounded-full" 
+              onClick={() => setOpen(false)}
+            >
               ✕
             </button>
             <iframe

@@ -64,14 +64,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
     config: { duration: 800 },
   });
 
-  // PRIORITY 2: Text Animation Settings
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: { 
-        staggerChildren: 0.3, // Time between each item
-        delayChildren: 1.2    // Wait for globe to finish/be visible before text starts
+        staggerChildren: 0.3, 
+        delayChildren: 1.2    
       }
     }
   };
@@ -90,9 +89,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
       ref={sectionRef}
       className="relative bg-black h-screen min-h-screen overflow-hidden" 
     >
-      {/* PRIORITY 1: NeonGlobe Fades in First */}
+      {/* Globe */}
       <motion.div 
-        initial={{ opacity: 0, scale: 0.9 }}
+        initial={{ opacity: 0, scale: 0.92 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
         className="absolute inset-0 z-0 pointer-events-none"
@@ -100,16 +99,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
         <NeonScene />
       </motion.div>
 
-      {/* TEXT LAYER: Starts after globe is established */}
       <motion.div 
-        className="container relative z-10 flex flex-col justify-between items-stretch h-full py-20 pointer-events-none" 
+        className="container relative z-10 flex flex-col justify-between items-center md:items-stretch h-full py-20 pointer-events-none" 
         style={{ paddingTop: '150px' }}
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        {/* Sequence 1: Main Title */}
-        <motion.div variants={itemVariants} className="pt-10 md:pt-20">
+        <motion.div variants={itemVariants} className="pt-10 md:pt-20 text-center md:text-left w-full">
           <RisingText>
             <h1 className="font-thin leading-[1.1] text-4xl sm:text-5xl md:text-[68px] text-white">
               <span className="text-transparent animated-gradient">Create.</span>{" "}
@@ -118,28 +115,29 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
           </RisingText>
         </motion.div>
 
-        <div className="grid grid-cols-[1fr] md:grid-cols-[2fr_1fr_2fr] gap-8 pb-10 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_2fr] gap-8 pb-10 items-center w-full">
           
-          {/* Sequence 2: Cities */}
-          <motion.div variants={itemVariants} className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto">
-             <AnimatedText className="text-white hero-section-desc-text" delay={0} duration={1.5}>
+          <motion.div variants={itemVariants} className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto order-2 md:order-1">
+             <AnimatedText className="text-white hero-section-desc-text text-center md:text-left" delay={0} duration={1.5}>
               DUBAI &nbsp;|&nbsp; LAHORE &nbsp;|&nbsp; LONDON &nbsp;|&nbsp; NEW YORK
             </AnimatedText>
           </motion.div>
 
-          {/* Sequence 3: Scroll Mouse */}
-          <motion.div variants={itemVariants} className="flex flex-col justify-end items-center h-full pointer-events-auto">
+          {/* MOUSE ICON - Ensured pointer-events-auto allows the click */}
+          <motion.div variants={itemVariants} className="flex flex-col justify-end items-center h-full pointer-events-auto order-1 md:order-2">
             <animated.img
               src={Mouse}
               alt="Scroll"
               className="w-[30px] h-[43px] cursor-pointer"
               style={{ ...mouseSpring }}
-              onClick={() => scrollNext?.()}
+              // Trigger the scroll function passed from parent
+              onClick={() => {
+                if (scrollNext) scrollNext();
+              }}
             />
           </motion.div>
 
-          {/* Sequence 4: Description */}
-          <motion.div variants={itemVariants} className="text-center md:text-right">
+          <motion.div variants={itemVariants} className="text-center md:text-right order-3 pointer-events-auto">
             <AnimatedText className="text-white hero-section-desc-text" delay={0} duration={1.5}>
               Your one stop solution business solution.
             </AnimatedText>
