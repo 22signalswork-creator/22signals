@@ -64,7 +64,7 @@ const CompanyStatsCounts = () => {
       {stats.map((stat, index) => (
         <FadeIn 
           key={stat.id} 
-          delay={index * 0.15} // Card 1: 0s, Card 2: 0.15s, Card 3: 0.3s...
+          delay={index * 0.5} // Card 1: 0s, Card 2: 0.15s, Card 3: 0.3s...
         >
           <Cardhovereffect>
             <div className="second-card flex flex-col items-center">

@@ -301,6 +301,29 @@ body.team-page {
   background-clip: text;
 }
 
+.animated-gradient-black {
+  /* Your original colors, but stretched to 200% width */
+  background: linear-gradient(
+    91.16deg,
+    #325fec 1.74%,
+    #000000 63.71%,
+    #000000 61.62%,
+    #325fec 102.48%
+  );
+  background-size: 200% 200%;
+  
+  /* Applying the animation */
+  animation: moveGradient 3s ease infinite;
+  
+  /* Standard styling for visibility */
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 8px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 @keyframes moveGradient {
   0% {
     background-position: 0% 50%;
