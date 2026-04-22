@@ -18,11 +18,15 @@ export default defineConfig({
   optimizeDeps: {
     // Remove webgl-sdf-generator from here if it was there, 
     // we want the alias to handle it instead
-    exclude: ['webgl-sdf-generator'] 
+    exclude: ['webgl-sdf-generator'] ,
+    include: ['react', 'react-dom', 'react-router'],
   },
   build: {
     commonjsOptions: {
-      include: ['webgl-sdf-generator', 'troika-three-text', 'three']
+       transformMixedEsModules: true,
+      include: ['webgl-sdf-generator', 'troika-three-text', 'three', /node_modules/ ]
     }
   }
+
+  
 })
