@@ -9,9 +9,9 @@ import React from "react";
 
 
 interface HeroSectionProps {
-  nextSectionRef: React.RefObject<HTMLDivElement>;
   scrollNext?: () => void; 
 }
+
 const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   const bgRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLDivElement>(null);

@@ -1,17 +1,67 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "../services.css";
 import CustomDesigns from "@/assets/CustomDesigns.png";
 import Portfolioslider from "./portfolioslider.tsx";
-import FaqSection from "./FaqSection"; // NEW IMPORT
+import FaqSection from "./FaqSection";
 import Arrowright from "@/assets/image-removebg-preview (4).png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
+import React from "react";
 
-export default function CreativeServices() {
+interface ServicesbodyProps {
+  scrollNext?: () => void; 
+}
+
+const Servicebody: React.FC<ServicesbodyProps> = ({ scrollNext }) => {
+    const sectionRef = useRef<HTMLElement>(null);
+      const isScrolling = useRef(false);
+      const touchStartY = useRef(0);
+    
+      useEffect(() => {
+        const handleNext = () => {
+          if (!isScrolling.current && scrollNext) {
+            isScrolling.current = true;
+            scrollNext();
+            setTimeout(() => (isScrolling.current = false), 1500);
+          }
+        };
+    
+        const handleWheel = (e: WheelEvent) => {
+          if (e.deltaY > 0) handleNext();
+        };
+    
+        const handleTouchStart = (e: TouchEvent) => {
+          touchStartY.current = e.touches[0].clientY;
+        };
+    
+        const handleTouchEnd = (e: TouchEvent) => {
+          const touchEndY = e.changedTouches[0].clientY;
+          if (touchStartY.current - touchEndY > 50) {
+            handleNext();
+          }
+        };
+    
+        const element = sectionRef.current;
+        if (element) {
+          element.addEventListener("wheel", handleWheel, { passive: true });
+          element.addEventListener("touchstart", handleTouchStart, { passive: true });
+          element.addEventListener("touchend", handleTouchEnd, { passive: true });
+        }
+    
+        return () => {
+          if (element) {
+            element.removeEventListener("wheel", handleWheel);
+            element.removeEventListener("touchstart", handleTouchStart);
+            element.removeEventListener("touchend", handleTouchEnd);
+          }
+        };
+      }, [scrollNext]);
+
+
   return (
     <>
-    <section className="creative-services pt-30 h-screen min-h-screen">
+    <section className="creative-services pt-30 h-screen min-h-screen" ref={sectionRef}>
       <div className="container ">
         {/* ================= HEADER ================= */}
         <div className="services-header">
@@ -26,9 +76,11 @@ export default function CreativeServices() {
               <h1>Refined <br/>Execution.</h1>
               </RisingText>
               <div>
+                  <RisingText>
                 <p className="dark-text">
                   Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions.
                 </p>
+                </RisingText>
                 <div className="divider"></div>
               </div>
             </div>
@@ -168,3 +220,4 @@ export default function CreativeServices() {
     </>
   );
 }
+export default Servicebody;

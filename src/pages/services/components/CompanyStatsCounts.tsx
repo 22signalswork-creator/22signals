@@ -56,7 +56,11 @@ const RollingNumber = ({ target, duration = 2000 }: RollingNumberProps) => {
   return <span ref={elementRef}>{count}</span>;
 };
 
-const CompanyStatsCounts = () => {
+interface CompanyStatsCountsProps {
+  scrollNext?: () => void;
+}
+
+const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext }) => {
   const stats = [
     { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
     { id: 2, value: 98, suffix: "%", label: "Client Satisfaction" },

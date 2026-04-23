@@ -5,9 +5,10 @@ import "../work.css";
 
 interface TabsProps {
   projects: Project[];
+  scrollNext?: () => void;
 }
 
-const Tabs: React.FC<TabsProps> = ({ projects }) => {
+const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 

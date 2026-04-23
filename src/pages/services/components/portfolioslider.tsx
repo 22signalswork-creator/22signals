@@ -11,7 +11,11 @@ import Cardhovereffect from "@/transitions/cardhovereffect.tsx"
 const CARD_WIDTH = 800;
 const GAP = 30;
 
-export default function Portfolio() {
+interface PortfolioSliderProps {
+  scrollNext?: () => void;
+}
+
+export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
   const sliderRef = useRef<HTMLDivElement | null>(null);
 
   const slide = (dir: number) => {
