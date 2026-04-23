@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "@/index.css";
 import HeroSection from "./hero-section";
 import "./services.css";
@@ -10,10 +10,22 @@ import Portfolioslider from "./components/portfolioslider.tsx";
 import FaqSection from "./components/FaqSection.tsx";
 
 const Service = () => {
+
+  const nextSectionRef = useRef<HTMLDivElement>(null);
+  
+    const handleScrollNext = () => {
+      nextSectionRef.current?.scrollIntoView({ 
+        behavior: "smooth",
+        block: "start" 
+      });
+    };
+    
   return (
     <div>
-      <HeroSection />
-      <Servicebody />
+      <HeroSection  nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
+      <div ref={nextSectionRef}>
+        <Servicebody />
+      </div>
       <Tabs projects={projects} />
       <Portfolioslider />
       <Companystatscounts />

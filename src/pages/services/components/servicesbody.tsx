@@ -10,8 +10,9 @@ import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
 export default function CreativeServices() {
   return (
-    <section className="creative-services">
-      <div className="container">
+    <>
+    <section className="creative-services pt-30 h-screen min-h-screen">
+      <div className="container ">
         {/* ================= HEADER ================= */}
         <div className="services-header">
           <FadeIn>
@@ -20,7 +21,10 @@ export default function CreativeServices() {
             </span>
 
             <div className="services-title-wrap">
+
+              <RisingText>
               <h1>Refined <br/>Execution.</h1>
+              </RisingText>
               <div>
                 <p className="dark-text">
                   Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions.
@@ -90,9 +94,12 @@ export default function CreativeServices() {
             </Cardhovereffect>
           </FadeIn>
         </div>
+        </div>
+        </section>
+        <section className="process-section" >
 
         {/* ================= PROCESS ================= */}
-        <div className="process-section">
+        <div className="container">
           {/* Header */}
           <div className="process-header">
             <RisingText>
@@ -156,7 +163,8 @@ export default function CreativeServices() {
 
         {/* ================= SLIDER ================= */}
  
-      </div>
+     
     </section>
+    </>
   );
 }
