@@ -17,6 +17,49 @@ interface PortfolioSliderProps {
 
 export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
   const sliderRef = useRef<HTMLDivElement | null>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const isScrolling = useRef(false);
+  const touchStartY = useRef(0);
+
+  useEffect(() => {
+    const handleNext = () => {
+      if (!isScrolling.current && scrollNext) {
+        isScrolling.current = true;
+        scrollNext();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY > 0) handleNext();
+    };
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      if (touchStartY.current - touchEndY > 50) {
+        handleNext();
+      }
+    };
+
+    const element = sectionRef.current;
+    if (element) {
+      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("touchstart", handleTouchStart, { passive: true });
+      element.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("wheel", handleWheel);
+        element.removeEventListener("touchstart", handleTouchStart);
+        element.removeEventListener("touchend", handleTouchEnd);
+      }
+    };
+  }, [scrollNext]);
 
   const slide = (dir: number) => {
     if (sliderRef.current) {
@@ -34,7 +77,7 @@ export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
   }, []);
 
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" ref={sectionRef}>
       <div className="portfolio-header">
         <div className="icon-circle" onClick={() => slide(-1)}>
           <img src={Lefticon} alt="prev" />

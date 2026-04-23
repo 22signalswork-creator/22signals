@@ -61,6 +61,50 @@ interface CompanyStatsCountsProps {
 }
 
 const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext }) => {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const isScrolling = useRef(false);
+  const touchStartY = useRef(0);
+
+  useEffect(() => {
+    const handleNext = () => {
+      if (!isScrolling.current && scrollNext) {
+        isScrolling.current = true;
+        scrollNext();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY > 0) handleNext();
+    };
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      if (touchStartY.current - touchEndY > 50) {
+        handleNext();
+      }
+    };
+
+    const element = sectionRef.current;
+    if (element) {
+      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("touchstart", handleTouchStart, { passive: true });
+      element.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("wheel", handleWheel);
+        element.removeEventListener("touchstart", handleTouchStart);
+        element.removeEventListener("touchend", handleTouchEnd);
+      }
+    };
+  }, [scrollNext]);
+
   const stats = [
     { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
     { id: 2, value: 98, suffix: "%", label: "Client Satisfaction" },
@@ -69,7 +113,7 @@ const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext }) =
   ];
 
   return (
-    <div className="container mx-auto px-4  pt-30">
+    <div className="container mx-auto px-4  pt-30" ref={sectionRef}>
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 mb-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold">
