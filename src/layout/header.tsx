@@ -66,9 +66,9 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
      FIXED TEXT COLOR (FOR ALL PAGES)
   ===================== */
   const getTextColorClass = () => {
-
-     return scrolled ?  "menu-black" :  "menu-white"; // force same color everywhere
-    return theme == "dark" ? "menu-black" : "menu-white"; // force same color everywhere
+    var theme_menu = theme == "dark" ? "menu-black" : "menu-white"
+     return scrolled ?  "menu-black" :  theme_menu; // force same color everywhere
+    return theme; // force same color everywhere
   };
 
   return (

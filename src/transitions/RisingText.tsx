@@ -7,9 +7,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 interface RisingTextProps {
   children: React.ReactNode;
+  end: string
 }
 
-const RisingText: React.FC<RisingTextProps> = ({ children }) => {
+const RisingText: React.FC<RisingTextProps> = ({ children, end = 70}) => {
   const containerRef = useRef<HTMLSpanElement>(null);
   const triggerRef = useRef<HTMLSpanElement>(null);
 
@@ -31,7 +32,7 @@ const RisingText: React.FC<RisingTextProps> = ({ children }) => {
           // "top 90%" means animation starts when the top of the element hits 90% of viewport
           // "top 60%" means animation ends when the top of the element hits 60% of viewport
           start: "top 95%", 
-          end: "top 70%",
+          end: `top ${end}%`,
           scrub: 1, // Smoothly catches up to the scrollbar (1 second delay for smoothness)
           toggleActions: "restart pause resume reverse",
         }

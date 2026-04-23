@@ -1,16 +1,67 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import "./services.css";
 import MyButton from "@/components/CustomButton";
 import AnimatedText from "@/transitions/herosectionP.tsx";
 import RisingText from "@/transitions/RisingText";
+import React from "react";
 
-export default function HeroSection() {
+
+interface HeroSectionProps {
+  scrollNext?: () => void; 
+}
+
+const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   const bgRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLDivElement>(null);
   const descRef = useRef<HTMLDivElement>(null);
   const btnRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  const isScrolling = useRef(false);
+  const touchStartY = useRef(0);
+
+  useEffect(() => {
+    const handleNext = () => {
+      if (!isScrolling.current && scrollNext) {
+        isScrolling.current = true;
+        scrollNext();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY > 0) handleNext();
+    };
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      if (touchStartY.current - touchEndY > 50) {
+        handleNext();
+      }
+    };
+
+    const element = sectionRef.current;
+    if (element) {
+      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("touchstart", handleTouchStart, { passive: true });
+      element.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("wheel", handleWheel);
+        element.removeEventListener("touchstart", handleTouchStart);
+        element.removeEventListener("touchend", handleTouchEnd);
+      }
+    };
+  }, [scrollNext]);
+
+
 
   useGSAP(() => {
     const tl = gsap.timeline();
@@ -39,7 +90,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="hero-section">
+    <section className="hero-section h-screen min-h-screen"ref={sectionRef}>
       <div className="container">
         
         {/* Step 1: Background */}
@@ -81,3 +132,5 @@ export default function HeroSection() {
     </section>
   );
 }
+
+export default HeroSection;
