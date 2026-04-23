@@ -9,6 +9,10 @@ import Companystatscounts from "./components/CompanyStatsCounts.tsx";
 import { projects } from "./components/projectcard.tsx";
 import Portfolioslider from "./components/portfolioslider.tsx";
 import FaqSection from "./components/FaqSection.tsx";
+import gsap from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollToPlugin);
 
 const Service = () => {
 
@@ -20,29 +24,65 @@ const Service = () => {
   const statsRef = useRef<HTMLDivElement>(null);
   const faqRef = useRef<HTMLDivElement>(null);
 
-  // Create scroll handlers for each section
+  // Create scroll handlers with GSAP friction scroll
   const handleHeroScrollNext = () => {
-    refinedExecutionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (refinedExecutionRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: refinedExecutionRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
 
   const handleRefinedExecutionScrollNext = () => {
-    processStepsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (processStepsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: processStepsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
 
   const handleProcessStepsScrollNext = () => {
-    tabsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (tabsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: tabsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
 
   const handleTabsScrollNext = () => {
-    portfolioRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (portfolioRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: portfolioRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
 
   const handlePortfolioScrollNext = () => {
-    statsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (statsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: statsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
 
   const handleStatsScrollNext = () => {
-    faqRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (faqRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: faqRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
   };
     
   return (

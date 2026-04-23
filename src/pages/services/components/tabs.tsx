@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import ProjectCardContent, { Project } from "./projectcard.tsx";
 import "../../../pages/home/home.css";
 import "../work.css";
@@ -11,6 +11,49 @@ interface TabsProps {
 const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const isScrolling = useRef(false);
+  const touchStartY = useRef(0);
+
+  useEffect(() => {
+    const handleNext = () => {
+      if (!isScrolling.current && scrollNext) {
+        isScrolling.current = true;
+        scrollNext();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY > 0) handleNext();
+    };
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      if (touchStartY.current - touchEndY > 50) {
+        handleNext();
+      }
+    };
+
+    const element = sectionRef.current;
+    if (element) {
+      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("touchstart", handleTouchStart, { passive: true });
+      element.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("wheel", handleWheel);
+        element.removeEventListener("touchstart", handleTouchStart);
+        element.removeEventListener("touchend", handleTouchEnd);
+      }
+    };
+  }, [scrollNext]);
 
   const tabs = [
     "All",
@@ -33,7 +76,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12" ref={sectionRef}>
 
       {/* Tabs */}
       <div className="tabs flex gap-4 overflow-x-auto scrollbar-hide">
