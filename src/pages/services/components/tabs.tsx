@@ -6,9 +6,10 @@ import "../work.css";
 interface TabsProps {
   projects: Project[];
   scrollNext?: () => void;
+  scrollPrev?: () => void;
 }
 
-const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
+const Tabs: React.FC<TabsProps> = ({ projects, scrollNext, scrollPrev }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -24,8 +25,28 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
       }
     };
 
+    const handlePrev = () => {
+      if (!isScrolling.current && scrollPrev) {
+        isScrolling.current = true;
+        scrollPrev();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
     const handleWheel = (e: WheelEvent) => {
-      if (e.deltaY > 0) handleNext();
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
+      const isAtTop = element.scrollTop < 10;
+
+      if (e.deltaY > 0 && isAtBottom) {
+        e.preventDefault();
+        handleNext();
+      } else if (e.deltaY < 0 && isAtTop) {
+        e.preventDefault();
+        handlePrev();
+      }
     };
 
     const handleTouchStart = (e: TouchEvent) => {
@@ -33,15 +54,23 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
     };
 
     const handleTouchEnd = (e: TouchEvent) => {
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
+      const isAtTop = element.scrollTop < 10;
+
       const touchEndY = e.changedTouches[0].clientY;
-      if (touchStartY.current - touchEndY > 50) {
+      if (touchStartY.current - touchEndY > 50 && isAtBottom) {
         handleNext();
+      } else if (touchEndY - touchStartY.current > 50 && isAtTop) {
+        handlePrev();
       }
     };
 
     const element = sectionRef.current;
     if (element) {
-      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("wheel", handleWheel, { passive: false });
       element.addEventListener("touchstart", handleTouchStart, { passive: true });
       element.addEventListener("touchend", handleTouchEnd, { passive: true });
     }
@@ -53,7 +82,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext }) => {
         element.removeEventListener("touchend", handleTouchEnd);
       }
     };
-  }, [scrollNext]);
+  }, [scrollNext, scrollPrev]);
 
   const tabs = [
     "All",
