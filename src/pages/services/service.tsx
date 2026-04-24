@@ -17,6 +17,7 @@ gsap.registerPlugin(ScrollToPlugin);
 const Service = () => {
 
   // Create refs for each section
+  const heroRef = useRef<HTMLDivElement>(null);
   const refinedExecutionRef = useRef<HTMLDivElement>(null);
   const processStepsRef = useRef<HTMLDivElement>(null);
   const tabsRef = useRef<HTMLDivElement>(null);
@@ -24,7 +25,7 @@ const Service = () => {
   const statsRef = useRef<HTMLDivElement>(null);
   const faqRef = useRef<HTMLDivElement>(null);
 
-  // Create scroll handlers with GSAP friction scroll
+  // Forward scroll handlers
   const handleHeroScrollNext = () => {
     if (refinedExecutionRef.current) {
       gsap.to(window, {
@@ -84,27 +85,88 @@ const Service = () => {
       });
     }
   };
+
+  // Reverse scroll handlers
+  const handleRefinedExecutionScrollPrev = () => {
+    if (heroRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: heroRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
+
+  const handleProcessStepsScrollPrev = () => {
+    if (refinedExecutionRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: refinedExecutionRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
+
+  const handleTabsScrollPrev = () => {
+    if (processStepsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: processStepsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
+
+  const handlePortfolioScrollPrev = () => {
+    if (tabsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: tabsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
+
+  const handleStatsScrollPrev = () => {
+    if (portfolioRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: portfolioRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
+
+  const handleFaqScrollPrev = () => {
+    if (statsRef.current) {
+      gsap.to(window, {
+        scrollTo: { y: statsRef.current, autoKill: false },
+        duration: 1.2,
+        ease: "sine.inOut",
+      });
+    }
+  };
     
   return (
-    <div>
+    <div ref={heroRef}>
       <HeroSection scrollNext={handleHeroScrollNext} />
       <div ref={refinedExecutionRef}>
-        <RefinedExecution scrollNext={handleRefinedExecutionScrollNext} />
+        <RefinedExecution scrollNext={handleRefinedExecutionScrollNext} scrollPrev={handleRefinedExecutionScrollPrev} />
       </div>
       <div ref={processStepsRef}>
-        <ProcessSteps scrollNext={handleProcessStepsScrollNext} />
+        <ProcessSteps scrollNext={handleProcessStepsScrollNext} scrollPrev={handleProcessStepsScrollPrev} />
       </div>
       <div ref={tabsRef}>
-        <Tabs projects={projects} scrollNext={handleTabsScrollNext} />
+        <Tabs projects={projects} scrollNext={handleTabsScrollNext} scrollPrev={handleTabsScrollPrev} />
       </div>
       <div ref={portfolioRef}>
-        <Portfolioslider scrollNext={handlePortfolioScrollNext} />
+        <Portfolioslider scrollNext={handlePortfolioScrollNext} scrollPrev={handlePortfolioScrollPrev} />
       </div>
       <div ref={statsRef}>
-        <Companystatscounts scrollNext={handleStatsScrollNext} />
+        <Companystatscounts scrollNext={handleStatsScrollNext} scrollPrev={handleStatsScrollPrev} />
       </div>
       <div ref={faqRef}>
-        <FaqSection />
+        <FaqSection scrollPrev={handleFaqScrollPrev} />
       </div>
     </div>
   );

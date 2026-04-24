@@ -13,9 +13,10 @@ const GAP = 30;
 
 interface PortfolioSliderProps {
   scrollNext?: () => void;
+  scrollPrev?: () => void;
 }
 
-export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
+export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderProps) {
   const sliderRef = useRef<HTMLDivElement | null>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
   const isScrolling = useRef(false);
@@ -30,8 +31,28 @@ export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
       }
     };
 
+    const handlePrev = () => {
+      if (!isScrolling.current && scrollPrev) {
+        isScrolling.current = true;
+        scrollPrev();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
     const handleWheel = (e: WheelEvent) => {
-      if (e.deltaY > 0) handleNext();
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
+      const isAtTop = element.scrollTop < 10;
+
+      if (e.deltaY > 0 && isAtBottom) {
+        e.preventDefault();
+        handleNext();
+      } else if (e.deltaY < 0 && isAtTop) {
+        e.preventDefault();
+        handlePrev();
+      }
     };
 
     const handleTouchStart = (e: TouchEvent) => {
@@ -39,15 +60,23 @@ export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
     };
 
     const handleTouchEnd = (e: TouchEvent) => {
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
+      const isAtTop = element.scrollTop < 10;
+
       const touchEndY = e.changedTouches[0].clientY;
-      if (touchStartY.current - touchEndY > 50) {
+      if (touchStartY.current - touchEndY > 50 && isAtBottom) {
         handleNext();
+      } else if (touchEndY - touchStartY.current > 50 && isAtTop) {
+        handlePrev();
       }
     };
 
     const element = sectionRef.current;
     if (element) {
-      element.addEventListener("wheel", handleWheel, { passive: true });
+      element.addEventListener("wheel", handleWheel, { passive: false });
       element.addEventListener("touchstart", handleTouchStart, { passive: true });
       element.addEventListener("touchend", handleTouchEnd, { passive: true });
     }
@@ -59,7 +88,7 @@ export default function Portfolio({ scrollNext }: PortfolioSliderProps) {
         element.removeEventListener("touchend", handleTouchEnd);
       }
     };
-  }, [scrollNext]);
+  }, [scrollNext, scrollPrev]);
 
   const slide = (dir: number) => {
     if (sliderRef.current) {

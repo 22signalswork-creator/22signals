@@ -1,11 +1,71 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Faqicon from "@/assets/faqicon.png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
-export default function FaqSection() {
+interface FaqSectionProps {
+  scrollPrev?: () => void;
+}
+
+export default function FaqSection({ scrollPrev }: FaqSectionProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const isScrolling = useRef(false);
+  const touchStartY = useRef(0);
+
+  useEffect(() => {
+    const handlePrev = () => {
+      if (!isScrolling.current && scrollPrev) {
+        isScrolling.current = true;
+        scrollPrev();
+        setTimeout(() => (isScrolling.current = false), 1500);
+      }
+    };
+
+    const handleWheel = (e: WheelEvent) => {
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtTop = element.scrollTop < 10;
+
+      if (e.deltaY < 0 && isAtTop) {
+        e.preventDefault();
+        handlePrev();
+      }
+    };
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      const element = sectionRef.current;
+      if (!element) return;
+
+      const isAtTop = element.scrollTop < 10;
+
+      const touchEndY = e.changedTouches[0].clientY;
+      if (touchEndY - touchStartY.current > 50 && isAtTop) {
+        handlePrev();
+      }
+    };
+
+    const element = sectionRef.current;
+    if (element) {
+      element.addEventListener("wheel", handleWheel, { passive: false });
+      element.addEventListener("touchstart", handleTouchStart, { passive: true });
+      element.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    return () => {
+      if (element) {
+        element.removeEventListener("wheel", handleWheel);
+        element.removeEventListener("touchstart", handleTouchStart);
+        element.removeEventListener("touchend", handleTouchEnd);
+      }
+    };
+  }, [scrollPrev]);
 
   // ✅ Updated FAQ Data (Question + Answer)
   const faqs = [
@@ -42,7 +102,7 @@ export default function FaqSection() {
   ];
 
   return (
-    <section className="container">
+    <section className="container" ref={sectionRef}>
       <div className="faq-section">
         {/* LEFT COLUMN */}
         <div className="faq-text">
