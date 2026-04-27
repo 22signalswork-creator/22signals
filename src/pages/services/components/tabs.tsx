@@ -105,7 +105,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext, scrollPrev }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12" ref={sectionRef}>
+    <div className="container mx-auto px-4 py-12 h-screen overflow-y-auto" ref={sectionRef}>
 
       {/* Tabs */}
       <div className="tabs flex gap-4 overflow-x-auto scrollbar-hide">

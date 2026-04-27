@@ -142,7 +142,7 @@ const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext, scr
   ];
 
   return (
-    <div className="container mx-auto px-4  pt-30" ref={sectionRef}>
+    <div className="container mx-auto px-4 pt-30 h-screen overflow-y-auto" ref={sectionRef}>
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 mb-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold">

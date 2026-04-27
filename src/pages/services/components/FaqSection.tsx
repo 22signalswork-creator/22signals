@@ -102,7 +102,7 @@ export default function FaqSection({ scrollPrev }: FaqSectionProps) {
   ];
 
   return (
-    <section className="container" ref={sectionRef}>
+    <section className="container h-screen overflow-y-auto" ref={sectionRef}>
       <div className="faq-section">
         {/* LEFT COLUMN */}
         <div className="faq-text">

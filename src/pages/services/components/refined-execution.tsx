@@ -138,7 +138,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
   }, []);
 
   return (
-    <section className="creative-services h-screen min-h-screen flex items-center justify-center" ref={sectionRef}>
+    <section className="creative-services h-screen min-h-screen flex items-center justify-center overflow-y-auto" ref={sectionRef}>
       <div className="container">
         {/* ================= HEADER ================= */}
         <div className="services-header" ref={headerRef}>

@@ -106,7 +106,7 @@ export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderPro
   }, []);
 
   return (
-    <div className="portfolio-section" ref={sectionRef}>
+    <div className="portfolio-section h-screen overflow-y-auto" ref={sectionRef}>
       <div className="portfolio-header">
         <div className="icon-circle" onClick={() => slide(-1)}>
           <img src={Lefticon} alt="prev" />

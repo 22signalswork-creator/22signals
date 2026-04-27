@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Header from "../src/layout/header.tsx";
 import Footer from "../src/layout/footer.tsx";
@@ -17,6 +17,11 @@ type HeaderTheme = "light" | "dark";
 const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const isHome = location.pathname === "/" || location.pathname === "";
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   // Logic to determine header color based on route
   const getHeaderTheme = (): HeaderTheme => {
