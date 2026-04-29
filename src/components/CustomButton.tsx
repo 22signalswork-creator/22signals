@@ -10,9 +10,9 @@ const VARIANTS = {
     hoverBg: "#fff",        // Hover state (Solid Light)
     flair: "#fff",          // Moving Flair Color
     textDefault: "#ffffff",    // Default Text Color
-    textHover: "#000",      // Hover Text Color (Dark Blue)
+    textHover: "#325FEC",      // Hover Text Color (Dark Blue)
     borderDefault: "rgba(50, 95, 236, 0.5)",
-    borderHover: "#000",    // Hover Border Color (Dark)
+    borderHover: "unset",    // Hover Border Color (Dark)
   },
   secondary: {
     initialBg: "#466fee",
@@ -24,11 +24,15 @@ const VARIANTS = {
     borderHover: "#fff",    
   },
   white: {
-    initialBg: "rgba(255, 255, 255, 0.1)",
-    hoverBg: "rgba(255, 255, 255, 0.2)",
-    flair: "#ffffff",
-    text: "#000000",
-    border: "rgba(255, 255, 255, 0.5)",
+  
+
+    initialBg: "#fff",
+    hoverBg: "#191919",
+    flair: "#191919",
+    textDefault: "#191919",    // Default Text Color
+    textHover: "#000",      // Hover Text Color (Dark Blue)
+    borderDefault: "#191919",
+    borderHover: "none", 
   },
   danger: {
     initialBg: "#191919",
@@ -84,11 +88,11 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
 
       // 2. BUTTON ZOOM & TEXT/BORDER COLOR CHANGE
       gsap.to(btn, { 
-        scale: 1.05, 
+        scale: 1, 
         borderColor: config.borderHover,
         color: config.textHover, // Text Dark ho jayega
-        duration: 0.6, 
-        ease: "power2.out" 
+        duration: 0.2, 
+        ease: "power2.inout" 
       });
     };
 
@@ -142,7 +146,7 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
         style={{
           width: "350%",
           aspectRatio: "1/1",
-          backgroundColor: config.flair, // Your #dadada color
+          backgroundColor: config.flair, // Your color
           left: 0,
           top: 0,
           zIndex: 1,
@@ -150,7 +154,7 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
       ></span>
 
       {/* Label Content */}
-    {/* Label Content */}
+      {/* Label Content */}
       <span ref={labelRef} className="relative z-10 flex items-center gap-3 font-semibold uppercase tracking-wider pointer-events-none">
         {text}
         <img
@@ -159,7 +163,7 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
           className="btn-icon h-4 w-4 transition-all duration-300"
           style={{
             // Default state: White icon
-            filter: "brightness(0) invert(1)" 
+            filter: variant == 'white' ? "brightness(1) invert(1)" : "brightness(0) invert(1)" 
           }}
         />
       </span>

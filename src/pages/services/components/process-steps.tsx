@@ -5,6 +5,8 @@ import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 
 const ProcessSteps: React.FC = () => {
+   const getStaggerDelay = (index: number) => index * 0.15;
+
   return (
     <section className="process-section py-24 flex items-center justify-center">
       <div className="container items-center">
@@ -50,6 +52,7 @@ const ProcessSteps: React.FC = () => {
                 image: "/src/assets/image-removebg-preview (3).png",
               },
             ].map((step, index, arr) => (
+               <FadeIn delay={getStaggerDelay(index)}>
               <div className="step-item" key={index}>
                 <div className="step">
                   <div className="step-number-wrapper">
@@ -66,6 +69,7 @@ const ProcessSteps: React.FC = () => {
                   />
                 )}
               </div>
+              </FadeIn>
             ))}
           </div>
         </FadeIn>

@@ -6,16 +6,19 @@ import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
 const RefinedExecution: React.FC = () => {
+  const getStaggerDelay = (index: number) => index * 0.15;
+
   return (
-    <section className="creative-services py-24 flex items-center justify-center">
+    <section className="creative-services mt-25  flex items-center justify-center">
       <div className="container">
         {/* ================= HEADER ================= */}
         <FadeIn>
           <div className="services-header">
+            {/* <RisingText end="0%">
             <span className="services-badge-secondry">
               Creative Marketing Solutions
             </span>
-
+            </RisingText> */}
             <div className="services-title-wrap">
               <RisingText end="80%">
                 <h1>Refined <br/>Execution.</h1>
@@ -34,7 +37,7 @@ const RefinedExecution: React.FC = () => {
 
         {/* ================= SERVICES ================= */}
         <div className="services-grid">
-          <FadeIn delay={0}>
+           <FadeIn delay={getStaggerDelay(0)}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -48,7 +51,7 @@ const RefinedExecution: React.FC = () => {
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn delay={0.1}>
+          <FadeIn delay={getStaggerDelay(1)}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -62,7 +65,7 @@ const RefinedExecution: React.FC = () => {
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn delay={0.2}>
+          <FadeIn delay={getStaggerDelay(2)}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -76,7 +79,7 @@ const RefinedExecution: React.FC = () => {
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn delay={0.3}>
+          <FadeIn delay={getStaggerDelay(3)}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />

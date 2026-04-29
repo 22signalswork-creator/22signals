@@ -98,7 +98,7 @@ const ServicesSection = () => {
               bgImage={CreativeSolutions}
               titleColorClass="blue-gradient-text"
               bgPosition="right -50px top 60px"
-              buttonVariant="danger"
+              buttonVariant="white"
               bgColorClass="bg-[#03091b]"
             />
           </Cardhovereffect>
