@@ -103,15 +103,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
                 {/* Step 2: Title */}
                 <div ref={titleRef}>
                   <RisingText>
-                    <h1>Creative Marketing Solutions</h1>
+                    <h1>Architecting the Future of Business.</h1>
                   </RisingText>
                 </div>
 
                 {/* Step 3: Description */}
                 <div ref={descRef}>
                   <AnimatedText className="dark-text text-base md:text-lg max-w-xl">
-                    We help businesses grow, launch products, and build enduring
-                    relationships with their communities.
+                    We bridge the gap between ambitious ideas and execution.
                   </AnimatedText>
                 </div>
 

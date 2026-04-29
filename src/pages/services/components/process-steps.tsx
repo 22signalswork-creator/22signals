@@ -158,25 +158,25 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
                 number: "01",
                 title: "Discovery",
                 desc: "Understanding your vision, goals, and challenges",
-                image: "/assets/image-removebg-preview.png",
+                image: "/src/assets/image-removebg-preview.png",
               },
               {
                 number: "02",
                 title: "Design",
                 desc: "Crafting the visual experience for your product",
-                image: "/assets/image-removebg-preview (1).png",
+                image: "/src/assets/image-removebg-preview (1).png",
               },
               {
                 number: "03",
                 title: "Development",
                 desc: "Turning designs into functional products",
-                image: "/assets/image-removebg-preview (2).png",
+                image: "/src/assets/image-removebg-preview (2).png",
               },
               {
                 number: "04",
                 title: "Launch",
                 desc: "Going live and optimizing performance",
-                image: "/assets/image-removebg-preview (3).png",
+                image: "/src/assets/image-removebg-preview (3).png",
               },
             ].map((step, index, arr) => (
               <div className="step-item" key={index}>
