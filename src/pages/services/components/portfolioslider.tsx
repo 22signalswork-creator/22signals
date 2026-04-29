@@ -119,7 +119,7 @@ export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderPro
         </div>
       </div>
 
-      <p className="dark-text flex justify-center text-center w-[930px] mx-auto pb-20">
+      <p className="dark-text flex justify-center text-center max-w-full md:w-[930px] mx-auto pb-20 px-4">
         Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.
       </p>
 

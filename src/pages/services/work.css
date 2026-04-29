@@ -180,10 +180,10 @@ h3 {
 }
 
 .card-description {
-  font-family: 'Aeonik-regular', sans-serif;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
-  line-height: 1.5;
+    font-family: 'Aeonik-regular', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .card-description b {
@@ -222,17 +222,46 @@ h3 {
   }
 }
 
-@media (max-width: 480px) {
-  .featured-heading { font-size: 48px; line-height: 1.1; }
-  .sub-heading { font-size: 32px; }
-  .cards-heading, h3 { font-size: 30px; }
-  .tab { width: auto;  padding: 8px 16px; font-size: 14px;
-  min-width: 110px; }
-  .tabs { gap: 8px; padding: 10px; }
-  .card, .middle-card { padding: 16px; gap: 12px; }
+@media (max-width: 640px) {
+  .featured-heading { font-size: 56px; line-height: 1.1; }
+  .sub-heading { font-size: 36px; line-height: 1.1; }
+  .cards-heading, h3 { font-size: 26px; }
+  
+  .tab { width: auto; padding: 8px 14px; font-size: 13px; min-width: 100px; }
+  .tabs { gap: 6px; padding: 8px; }
+  .card, .middle-card { padding: 18px; gap: 12px; }
+  
   .second-card {
     align-items: center;
     text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+  
+  .card-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-heading { font-size: 42px; line-height: 1.1; }
+  .sub-heading { font-size: 28px; line-height: 1.1; }
+  .cards-heading, h3 { font-size: 22px; }
+  
+  .tab { width: auto; padding: 6px 12px; font-size: 12px; min-width: 90px; }
+  .tabs { gap: 4px; padding: 6px; }
+  .card, .middle-card { padding: 14px; gap: 10px; }
+  .card p { font-size: 14px; }
+  
+  .second-card {
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    height: auto;
+  }
+  
+  .card-description {
+    font-size: 14px;
   }
 }
 
