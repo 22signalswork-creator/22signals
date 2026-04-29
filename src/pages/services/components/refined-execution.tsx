@@ -1,148 +1,17 @@
-import { useRef, useEffect } from "react";
+import React from "react";
 import "../services.css";
 import CustomDesigns from "@/assets/CustomDesigns.png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
-import React from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
-interface RefinedExecutionProps {
-  scrollNext?: () => void;
-  scrollPrev?: () => void; 
-}
-
-const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollPrev }) => {
-  const sectionRef = useRef<HTMLElement>(null);
-  const headerRef = useRef<HTMLDivElement>(null);
-  const gridRef = useRef<HTMLDivElement>(null);
-  const isScrolling = useRef(false);
-  const touchStartY = useRef(0);
-
-  useEffect(() => {
-    const handleNext = () => {
-      if (!isScrolling.current && scrollNext) {
-        isScrolling.current = true;
-        scrollNext();
-        setTimeout(() => (isScrolling.current = false), 900);
-      }
-    };
-
-    const handlePrev = () => {
-      if (!isScrolling.current && scrollPrev) {
-        isScrolling.current = true;
-        scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 900);
-      }
-    };
-
-    const handleWheel = (e: WheelEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
-      const isAtTop = element.scrollTop < 10;
-
-      if (e.deltaY > 0 && isAtBottom) {
-        e.preventDefault();
-        handleNext();
-      } else if (e.deltaY < 0 && isAtTop) {
-        e.preventDefault();
-        handlePrev();
-      }
-    };
-
-    const handleTouchStart = (e: TouchEvent) => {
-      touchStartY.current = e.touches[0].clientY;
-    };
-
-    const handleTouchEnd = (e: TouchEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
-      const isAtTop = element.scrollTop < 10;
-
-      const touchEndY = e.changedTouches[0].clientY;
-      if (touchStartY.current - touchEndY > 50 && isAtBottom) {
-        handleNext();
-      } else if (touchEndY - touchStartY.current > 50 && isAtTop) {
-        handlePrev();
-      }
-    };
-
-    const element = sectionRef.current;
-    if (element) {
-      element.addEventListener("wheel", handleWheel, { passive: false });
-      element.addEventListener("touchstart", handleTouchStart, { passive: true });
-      element.addEventListener("touchend", handleTouchEnd, { passive: true });
-    }
-
-    return () => {
-      if (element) {
-        element.removeEventListener("wheel", handleWheel);
-        element.removeEventListener("touchstart", handleTouchStart);
-        element.removeEventListener("touchend", handleTouchEnd);
-      }
-    };
-  }, [scrollNext, scrollPrev]);
-
-  // Scroll-dependent GSAP animation
-  useEffect(() => {
-    const header = headerRef.current;
-    const grid = gridRef.current;
-
-    if (header && grid) {
-      // Header animation
-      gsap.fromTo(
-        header,
-        { opacity: 0, y: 80 },
-        {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: header,
-            start: "top 90%",
-            end: "top 40%",
-            scrub: 1.5,
-            markers: false,
-          },
-        }
-      );
-
-      // Grid animation
-      gsap.fromTo(
-        grid,
-        { opacity: 0, y: 80 },
-        {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: grid,
-            start: "top 90%",
-            end: "top 40%",
-            scrub: 1.5,
-            markers: false,
-          },
-        }
-      );
-    }
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
-
+const RefinedExecution: React.FC = () => {
   return (
-    <section className="creative-services py-24 flex items-center justify-center overflow-y-auto" ref={sectionRef}>
+    <section className="creative-services py-24 flex items-center justify-center">
       <div className="container">
         {/* ================= HEADER ================= */}
-        <div className="services-header" ref={headerRef}>
-          <FadeIn>
+        <FadeIn>
+          <div className="services-header">
             <span className="services-badge-secondry">
               Creative Marketing Solutions
             </span>
@@ -160,12 +29,12 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
                 <div className="divider"></div>
               </div>
             </div>
-          </FadeIn>
-        </div>
+          </div>
+        </FadeIn>
 
         {/* ================= SERVICES ================= */}
-        <div className="services-grid" ref={gridRef}>
-          <FadeIn>
+        <div className="services-grid">
+          <FadeIn delay={0}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -179,7 +48,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn>
+          <FadeIn delay={0.1}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -193,7 +62,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn>
+          <FadeIn delay={0.2}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />
@@ -207,7 +76,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
               </div>
             </Cardhovereffect>
           </FadeIn>
-          <FadeIn>
+          <FadeIn delay={0.3}>
             <Cardhovereffect>
               <div className="service-card">
                 <img src={CustomDesigns} alt="" />

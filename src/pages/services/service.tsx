@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "@/index.css";
 import HeroSection from "./hero-section";
 import "./services.css";
@@ -9,165 +9,17 @@ import Companystatscounts from "./components/CompanyStatsCounts.tsx";
 import { projects } from "./components/projectcard.tsx";
 import Portfolioslider from "./components/portfolioslider.tsx";
 import FaqSection from "./components/FaqSection.tsx";
-import gsap from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-
-gsap.registerPlugin(ScrollToPlugin);
 
 const Service = () => {
-
-  // Create refs for each section
-  const heroRef = useRef<HTMLDivElement>(null);
-  const refinedExecutionRef = useRef<HTMLDivElement>(null);
-  const processStepsRef = useRef<HTMLDivElement>(null);
-  const tabsRef = useRef<HTMLDivElement>(null);
-  const portfolioRef = useRef<HTMLDivElement>(null);
-  const statsRef = useRef<HTMLDivElement>(null);
-  const faqRef = useRef<HTMLDivElement>(null);
-
-  // Forward scroll handlers
-  const handleHeroScrollNext = () => {
-    if (refinedExecutionRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: refinedExecutionRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleRefinedExecutionScrollNext = () => {
-    if (processStepsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: processStepsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleProcessStepsScrollNext = () => {
-    if (tabsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: tabsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleTabsScrollNext = () => {
-    if (portfolioRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: portfolioRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handlePortfolioScrollNext = () => {
-    if (statsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: statsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleStatsScrollNext = () => {
-    if (faqRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: faqRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  // Reverse scroll handlers
-  const handleRefinedExecutionScrollPrev = () => {
-    if (heroRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: heroRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleProcessStepsScrollPrev = () => {
-    if (refinedExecutionRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: refinedExecutionRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleTabsScrollPrev = () => {
-    if (processStepsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: processStepsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handlePortfolioScrollPrev = () => {
-    if (tabsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: tabsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleStatsScrollPrev = () => {
-    if (portfolioRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: portfolioRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-
-  const handleFaqScrollPrev = () => {
-    if (statsRef.current) {
-      gsap.to(window, {
-        scrollTo: { y: statsRef.current, autoKill: false },
-        duration: 0.8,
-        ease: "power3.out",
-      });
-    }
-  };
-    
   return (
-    <div ref={heroRef}>
-      <HeroSection scrollNext={handleHeroScrollNext} />
-      <div ref={refinedExecutionRef}>
-        <RefinedExecution scrollNext={handleRefinedExecutionScrollNext} scrollPrev={handleRefinedExecutionScrollPrev} />
-      </div>
-      <div ref={processStepsRef}>
-        <ProcessSteps scrollNext={handleProcessStepsScrollNext} scrollPrev={handleProcessStepsScrollPrev} />
-      </div>
-      <div ref={tabsRef}>
-        <Tabs projects={projects} scrollNext={handleTabsScrollNext} scrollPrev={handleTabsScrollPrev} />
-      </div>
-      <div ref={portfolioRef}>
-        <Portfolioslider scrollNext={handlePortfolioScrollNext} scrollPrev={handlePortfolioScrollPrev} />
-      </div>
-      <div ref={statsRef}>
-        <Companystatscounts scrollNext={handleStatsScrollNext} scrollPrev={handleStatsScrollPrev} />
-      </div>
-      <div ref={faqRef}>
-        <FaqSection scrollPrev={handleFaqScrollPrev} />
-      </div>
+    <div>
+      <HeroSection />
+      <RefinedExecution />
+      <ProcessSteps />
+      <Tabs projects={projects} />
+      <Portfolioslider />
+      <Companystatscounts />
+      <FaqSection />
     </div>
   );
 };

@@ -67,6 +67,10 @@
     margin-right: 0;
     border-radius: 20px;
   }
+  .hero-section {
+  
+    padding: 100px 0px 100px 0px;
+}
 }
 
 @media (max-width: 480px) {
@@ -153,7 +157,27 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  
+}
+
+@media (max-width: 1200px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
 
 .divider {
@@ -168,7 +192,20 @@
   border-radius: 20px;
   padding: 30px;
   height: stretch;
-  
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 16px;
+    border-radius: 14px;
+  }
 }
 
 .service-card h4 {
@@ -943,8 +980,8 @@
   }
 
   .container, .content-container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .process-section {

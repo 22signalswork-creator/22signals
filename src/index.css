@@ -223,16 +223,16 @@ h2.recentproject-title{
   --h2-size: 25px;
 }
 
-  h1 {
-    font-size: 45px;
+ h1 {
+    font-size: 35px;
     line-height: var(--h1-line);
-  }
+}
   h2 {
-    font-size: 45px;
+    font-size: 30px;
     padding: 19px 0px;
   }
   h3{
-    line-height: 50px;
+    line-height: 25px;
     width: 100%;
   }
 p.dark-text {
@@ -377,6 +377,12 @@ button {
   opacity: 0.9;
 }
 
+@media (max-width: 640px) {
+  button {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+  }
+}
 button.gray {
   background-color: #191919;
  

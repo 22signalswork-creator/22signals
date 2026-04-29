@@ -100,8 +100,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
       </motion.div>
 
       <motion.div 
-        className="container relative z-10 flex flex-col justify-between items-center md:items-stretch h-full py-20 pointer-events-none" 
-        style={{ paddingTop: '150px' }}
+        className=" relative z-10 flex flex-col justify-between items-center md:items-stretch h-full py-20 pointer-events-none home-hero-section" 
+        
         variants={containerVariants}
         initial="hidden"
         animate="visible"

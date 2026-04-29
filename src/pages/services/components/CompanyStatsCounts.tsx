@@ -56,84 +56,7 @@ const RollingNumber = ({ target, duration = 2000 }: RollingNumberProps) => {
   return <span ref={elementRef}>{count}</span>;
 };
 
-interface CompanyStatsCountsProps {
-  scrollNext?: () => void;
-  scrollPrev?: () => void;
-}
-
-const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext, scrollPrev }) => {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const isScrolling = useRef(false);
-  const touchStartY = useRef(0);
-
-  useEffect(() => {
-    const handleNext = () => {
-      if (!isScrolling.current && scrollNext) {
-        isScrolling.current = true;
-        scrollNext();
-        setTimeout(() => (isScrolling.current = false), 900);
-      }
-    };
-
-    const handlePrev = () => {
-      if (!isScrolling.current && scrollPrev) {
-        isScrolling.current = true;
-        scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 900);
-      }
-    };
-
-    const handleWheel = (e: WheelEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
-      const isAtTop = element.scrollTop < 10;
-
-      if (e.deltaY > 0 && isAtBottom) {
-        e.preventDefault();
-        handleNext();
-      } else if (e.deltaY < 0 && isAtTop) {
-        e.preventDefault();
-        handlePrev();
-      }
-    };
-
-    const handleTouchStart = (e: TouchEvent) => {
-      touchStartY.current = e.touches[0].clientY;
-    };
-
-    const handleTouchEnd = (e: TouchEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtBottom = element.scrollHeight - element.scrollTop - element.clientHeight < 10;
-      const isAtTop = element.scrollTop < 10;
-
-      const touchEndY = e.changedTouches[0].clientY;
-      if (touchStartY.current - touchEndY > 50 && isAtBottom) {
-        handleNext();
-      } else if (touchEndY - touchStartY.current > 50 && isAtTop) {
-        handlePrev();
-      }
-    };
-
-    const element = sectionRef.current;
-    if (element) {
-      element.addEventListener("wheel", handleWheel, { passive: false });
-      element.addEventListener("touchstart", handleTouchStart, { passive: true });
-      element.addEventListener("touchend", handleTouchEnd, { passive: true });
-    }
-
-    return () => {
-      if (element) {
-        element.removeEventListener("wheel", handleWheel);
-        element.removeEventListener("touchstart", handleTouchStart);
-        element.removeEventListener("touchend", handleTouchEnd);
-      }
-    };
-  }, [scrollNext, scrollPrev]);
-
+const CompanyStatsCounts: React.FC = () => {
   const stats = [
     { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
     { id: 2, value: 98, suffix: "%", label: "Client Satisfaction" },
@@ -142,23 +65,25 @@ const CompanyStatsCounts: React.FC<CompanyStatsCountsProps> = ({ scrollNext, scr
   ];
 
   return (
-    <div className="container mx-auto px-4 py-24 overflow-y-auto" ref={sectionRef}>
-      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 mb-10 items-center">
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            Our Successfully <br /> Growth
-          </h1>
+    <div className="container mx-auto px-4 py-24">
+      <FadeIn>
+        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6 mb-10 items-center">
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold">
+              Our Successfully <br /> Growth
+            </h1>
+          </div>
+          <div>
+            <p className="dark-text text-base md:text-lg">
+              You never get another chance to make a good first impression. At American Designers Hub, we use a complete spectrum.
+            </p>
+          </div>
         </div>
-        <div>
-          <p className="dark-text text-base md:text-lg">
-            You never get another chance to make a good first impression. At American Designers Hub, we use a complete spectrum.
-          </p>
-        </div>
-      </div>
+      </FadeIn>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {stats.map((stat) => (
-          <FadeIn key={stat.id}>
+          <FadeIn key={stat.id} delay={stat.id * 0.1}>
             <Cardhovereffect>
               <div className="second-card flex flex-col items-center">
                 <h1 className="text-4xl font-bold">

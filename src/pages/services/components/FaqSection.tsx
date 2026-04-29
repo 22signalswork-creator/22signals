@@ -1,71 +1,10 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import Faqicon from "@/assets/faqicon.png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
-import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 
-interface FaqSectionProps {
-  scrollPrev?: () => void;
-}
-
-export default function FaqSection({ scrollPrev }: FaqSectionProps) {
+export default function FaqSection() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const isScrolling = useRef(false);
-  const touchStartY = useRef(0);
-
-  useEffect(() => {
-    const handlePrev = () => {
-      if (!isScrolling.current && scrollPrev) {
-        isScrolling.current = true;
-        scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 900);
-      }
-    };
-
-    const handleWheel = (e: WheelEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtTop = element.scrollTop < 10;
-
-      if (e.deltaY < 0 && isAtTop) {
-        e.preventDefault();
-        handlePrev();
-      }
-    };
-
-    const handleTouchStart = (e: TouchEvent) => {
-      touchStartY.current = e.touches[0].clientY;
-    };
-
-    const handleTouchEnd = (e: TouchEvent) => {
-      const element = sectionRef.current;
-      if (!element) return;
-
-      const isAtTop = element.scrollTop < 10;
-
-      const touchEndY = e.changedTouches[0].clientY;
-      if (touchEndY - touchStartY.current > 50 && isAtTop) {
-        handlePrev();
-      }
-    };
-
-    const element = sectionRef.current;
-    if (element) {
-      element.addEventListener("wheel", handleWheel, { passive: false });
-      element.addEventListener("touchstart", handleTouchStart, { passive: true });
-      element.addEventListener("touchend", handleTouchEnd, { passive: true });
-    }
-
-    return () => {
-      if (element) {
-        element.removeEventListener("wheel", handleWheel);
-        element.removeEventListener("touchstart", handleTouchStart);
-        element.removeEventListener("touchend", handleTouchEnd);
-      }
-    };
-  }, [scrollPrev]);
 
   // ✅ Updated FAQ Data (Question + Answer)
   const faqs = [
@@ -102,62 +41,64 @@ export default function FaqSection({ scrollPrev }: FaqSectionProps) {
   ];
 
   return (
-    <section className="container py-24 overflow-y-auto" ref={sectionRef}>
-      <div className="faq-section">
-        {/* LEFT COLUMN */}
-        <div className="faq-text">
-          <RisingText>
-            <div>
-              <span className="services-badge">
-                ANSWERS AT YOUR FINGERTIPS
-              </span>
-
-              <h1>
-                Frequently <br /> Asked <br /> Questions
-              </h1>
-            </div>
-
-            <span className="faq-subtext">
-              Still Have Questions? Chat With Us
-            </span>
-          </RisingText>
-        </div>
-
-        {/* RIGHT COLUMN */}
-        <div className="faq-list">
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className={`faq-item ${openFaq === index ? "open" : ""}`}
-              onClick={() =>
-                setOpenFaq(openFaq === index ? null : index)
-              }
-            >
-              <div className="faq-question">
-                <span>{faq.question}</span>
-
-                <span className="faq-icon">
-                  {openFaq === index ? (
-                    "−"
-                  ) : (
-                    <img
-                      src={Faqicon}
-                      alt="FAQ Icon"
-                      className="faq-icon-img"
-                    />
-                  )}
+    <section className="container py-24">
+      <FadeIn>
+        <div className="faq-section">
+          {/* LEFT COLUMN */}
+          <div className="faq-text">
+            <RisingText>
+              <div>
+                <span className="services-badge">
+                  ANSWERS AT YOUR FINGERTIPS
                 </span>
+
+                <h1>
+                  Frequently <br /> Asked <br /> Questions
+                </h1>
               </div>
 
-              {openFaq === index && (
-                <div className="faq-answer">
-                  <p>{faq.answer}</p>
+              <span className="faq-subtext">
+                Still Have Questions? Chat With Us
+              </span>
+            </RisingText>
+          </div>
+
+          {/* RIGHT COLUMN */}
+          <div className="faq-list">
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className={`faq-item ${openFaq === index ? "open" : ""}`}
+                onClick={() =>
+                  setOpenFaq(openFaq === index ? null : index)
+                }
+              >
+                <div className="faq-question">
+                  <span>{faq.question}</span>
+
+                  <span className="faq-icon">
+                    {openFaq === index ? (
+                      "−"
+                    ) : (
+                      <img
+                        src={Faqicon}
+                        alt="FAQ Icon"
+                        className="faq-icon-img"
+                      />
+                    )}
+                  </span>
                 </div>
-              )}
-            </div>
-          ))}
+
+                {openFaq === index && (
+                  <div className="faq-answer">
+                    <p>{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </FadeIn>
     </section>
   );
 }

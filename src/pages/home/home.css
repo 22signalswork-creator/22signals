@@ -1,3 +1,11 @@
+.home-hero-section {
+  padding: 150px 136px 50px !important;
+}
+@media screen {
+  .home-hero-section{
+    padding: 100px 50px 50px;
+  }
+}
 .portfolio-border{
      border-top-left-radius: 70px;   
   border-top-right-radius: 70px;  
