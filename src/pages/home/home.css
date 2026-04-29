@@ -4,13 +4,13 @@
 }
 
 .glass-card {
-  position: relative;
-  border-radius: 24px;
-  background-origin: border-box;
-  background-clip: border-box;
-  backdrop-filter: blur(36.8px);
-  background-color: rgba(128, 128, 128, 0.158);
-  overflow: hidden;
+    position: relative;
+    border-radius: 24px;
+    background-origin: border-box;
+    background-clip: border-box;
+    backdrop-filter: blur(36.8px);
+    background-color: rgb(255 255 255);
+    overflow: hidden;
 }
 
 .glass-card-2 {
