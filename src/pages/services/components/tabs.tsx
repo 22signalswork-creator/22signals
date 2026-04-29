@@ -21,7 +21,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext, scrollPrev }) => {
       if (!isScrolling.current && scrollNext) {
         isScrolling.current = true;
         scrollNext();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -29,7 +29,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext, scrollPrev }) => {
       if (!isScrolling.current && scrollPrev) {
         isScrolling.current = true;
         scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -105,7 +105,7 @@ const Tabs: React.FC<TabsProps> = ({ projects, scrollNext, scrollPrev }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12 h-screen overflow-y-auto" ref={sectionRef}>
+    <div className="container mx-auto px-4 py-12 overflow-y-auto max-h-screen" ref={sectionRef}>
 
       {/* Tabs */}
       <div className="tabs flex gap-4 overflow-x-auto scrollbar-hide">

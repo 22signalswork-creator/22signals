@@ -27,7 +27,7 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
       if (!isScrolling.current && scrollNext) {
         isScrolling.current = true;
         scrollNext();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -35,7 +35,7 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
       if (!isScrolling.current && scrollPrev) {
         isScrolling.current = true;
         scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -99,15 +99,15 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
       // Header animation
       gsap.fromTo(
         header,
-        { opacity: 0, y: 100 },
+        { opacity: 0, y: 80 },
         {
           opacity: 1,
           y: 0,
           scrollTrigger: {
             trigger: header,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 40%",
+            scrub: 1.5,
             markers: false,
           },
         }
@@ -116,15 +116,15 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
       // Steps animation
       gsap.fromTo(
         steps,
-        { opacity: 0, y: 100 },
+        { opacity: 0, y: 80 },
         {
           opacity: 1,
           y: 0,
           scrollTrigger: {
             trigger: steps,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 40%",
+            scrub: 1.5,
             markers: false,
           },
         }
@@ -137,7 +137,7 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
   }, []);
 
   return (
-    <section className="process-section h-screen min-h-screen flex items-center justify-center overflow-y-auto" ref={sectionRef}>
+    <section className="process-section py-24 flex items-center justify-center overflow-y-auto" ref={sectionRef}>
       <div className="container items-center">
         {/* ================= HEADER ================= */}
         <div className="process-header" ref={headerRef}>
@@ -152,39 +152,39 @@ const ProcessSteps: React.FC<ProcessStepsProps> = ({ scrollNext, scrollPrev }) =
           </p>
         </div>
         <FadeIn>
-          <div className="process-steps" ref={stepsRef}>
+          <div className="process-steps mt-5" ref={stepsRef}>
             {[
               {
                 number: "01",
                 title: "Discovery",
-                desc: "Understanding your vision, goals, and challenges",
+                desc: "We analyze your bottlenecks.",
                 image: "/src/assets/image-removebg-preview.png",
               },
               {
                 number: "02",
-                title: "Design",
-                desc: "Crafting the visual experience for your product",
+                title: "Strategy",
+                desc: "We curate a specialized strategy.",
                 image: "/src/assets/image-removebg-preview (1).png",
               },
               {
                 number: "03",
-                title: "Development",
-                desc: "Turning designs into functional products",
+                title: "Execution",
+                desc: "Rapid sprints with weekly reporting",
                 image: "/src/assets/image-removebg-preview (2).png",
               },
               {
                 number: "04",
-                title: "Launch",
-                desc: "Going live and optimizing performance",
+                title: "Scale",
+                desc: "Scale your applications",
                 image: "/src/assets/image-removebg-preview (3).png",
               },
             ].map((step, index, arr) => (
               <div className="step-item" key={index}>
                 <div className="step">
                   <div className="step-number-wrapper">
-                    <img src={step.image} alt={step.title} />
+                    <img src={step.image} alt={step.title} style={{width: "80px"}}/>
                   </div>
-                  <h1 className="card-heading pt-2 pl-2">{step.title}</h1>
+                  <h2 className="card-heading pt-2 pl-2  animated-gradient-black" style={{fontSize: "30px"}}>{step.title}</h2>
                   <p>{step.desc}</p>
                 </div>
                 {index < arr.length - 1 && (

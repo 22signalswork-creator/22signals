@@ -28,7 +28,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
       if (!isScrolling.current && scrollNext) {
         isScrolling.current = true;
         scrollNext();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -36,7 +36,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
       if (!isScrolling.current && scrollPrev) {
         isScrolling.current = true;
         scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -100,15 +100,15 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
       // Header animation
       gsap.fromTo(
         header,
-        { opacity: 0, y: 100 },
+        { opacity: 0, y: 80 },
         {
           opacity: 1,
           y: 0,
           scrollTrigger: {
             trigger: header,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 40%",
+            scrub: 1.5,
             markers: false,
           },
         }
@@ -117,15 +117,15 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
       // Grid animation
       gsap.fromTo(
         grid,
-        { opacity: 0, y: 100 },
+        { opacity: 0, y: 80 },
         {
           opacity: 1,
           y: 0,
           scrollTrigger: {
             trigger: grid,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 40%",
+            scrub: 1.5,
             markers: false,
           },
         }
@@ -138,7 +138,7 @@ const RefinedExecution: React.FC<RefinedExecutionProps> = ({ scrollNext, scrollP
   }, []);
 
   return (
-    <section className="creative-services h-screen min-h-screen flex items-center justify-center overflow-y-auto" ref={sectionRef}>
+    <section className="creative-services py-24 flex items-center justify-center overflow-y-auto" ref={sectionRef}>
       <div className="container">
         {/* ================= HEADER ================= */}
         <div className="services-header" ref={headerRef}>

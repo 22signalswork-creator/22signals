@@ -23,7 +23,7 @@ const Servicebody: React.FC<ServicesbodyProps> = ({ scrollNext }) => {
           if (!isScrolling.current && scrollNext) {
             isScrolling.current = true;
             scrollNext();
-            setTimeout(() => (isScrolling.current = false), 1500);
+            setTimeout(() => (isScrolling.current = false), 900);
           }
         };
     
@@ -61,7 +61,7 @@ const Servicebody: React.FC<ServicesbodyProps> = ({ scrollNext }) => {
 
   return (
     <>
-    <section className="creative-services pt-30 h-screen min-h-screen" ref={sectionRef}>
+    <section className="creative-services py-24" ref={sectionRef}>
       <div className="container ">
         {/* ================= HEADER ================= */}
         <div className="services-header">

@@ -1,7 +1,6 @@
 /* global.css */
 html, body {
-  scroll-snap-type: y mandatory;
-  
+  scroll-behavior: smooth;
   height: 100%;
 }
 :root {

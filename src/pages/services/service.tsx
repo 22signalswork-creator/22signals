@@ -30,8 +30,8 @@ const Service = () => {
     if (refinedExecutionRef.current) {
       gsap.to(window, {
         scrollTo: { y: refinedExecutionRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -40,8 +40,8 @@ const Service = () => {
     if (processStepsRef.current) {
       gsap.to(window, {
         scrollTo: { y: processStepsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -50,8 +50,8 @@ const Service = () => {
     if (tabsRef.current) {
       gsap.to(window, {
         scrollTo: { y: tabsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -60,8 +60,8 @@ const Service = () => {
     if (portfolioRef.current) {
       gsap.to(window, {
         scrollTo: { y: portfolioRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -70,8 +70,8 @@ const Service = () => {
     if (statsRef.current) {
       gsap.to(window, {
         scrollTo: { y: statsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -80,8 +80,8 @@ const Service = () => {
     if (faqRef.current) {
       gsap.to(window, {
         scrollTo: { y: faqRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -91,8 +91,8 @@ const Service = () => {
     if (heroRef.current) {
       gsap.to(window, {
         scrollTo: { y: heroRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -101,8 +101,8 @@ const Service = () => {
     if (refinedExecutionRef.current) {
       gsap.to(window, {
         scrollTo: { y: refinedExecutionRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -111,8 +111,8 @@ const Service = () => {
     if (processStepsRef.current) {
       gsap.to(window, {
         scrollTo: { y: processStepsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -121,8 +121,8 @@ const Service = () => {
     if (tabsRef.current) {
       gsap.to(window, {
         scrollTo: { y: tabsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -131,8 +131,8 @@ const Service = () => {
     if (portfolioRef.current) {
       gsap.to(window, {
         scrollTo: { y: portfolioRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };
@@ -141,8 +141,8 @@ const Service = () => {
     if (statsRef.current) {
       gsap.to(window, {
         scrollTo: { y: statsRef.current, autoKill: false },
-        duration: 1.2,
-        ease: "sine.inOut",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
   };

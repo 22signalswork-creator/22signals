@@ -19,7 +19,7 @@ export default function FaqSection({ scrollPrev }: FaqSectionProps) {
       if (!isScrolling.current && scrollPrev) {
         isScrolling.current = true;
         scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -102,7 +102,7 @@ export default function FaqSection({ scrollPrev }: FaqSectionProps) {
   ];
 
   return (
-    <section className="container h-screen overflow-y-auto" ref={sectionRef}>
+    <section className="container py-24 overflow-y-auto" ref={sectionRef}>
       <div className="faq-section">
         {/* LEFT COLUMN */}
         <div className="faq-text">

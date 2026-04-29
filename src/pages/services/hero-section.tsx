@@ -26,7 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
       if (!isScrolling.current && scrollNext) {
         isScrolling.current = true;
         scrollNext();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -90,7 +90,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   }, []);
 
   return (
-    <section className="hero-section h-screen min-h-screen"ref={sectionRef}>
+    <section className="hero-section py-24" ref={sectionRef}>
       <div className="container">
         
         {/* Step 1: Background */}

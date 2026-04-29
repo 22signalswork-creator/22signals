@@ -27,7 +27,7 @@ export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderPro
       if (!isScrolling.current && scrollNext) {
         isScrolling.current = true;
         scrollNext();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -35,7 +35,7 @@ export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderPro
       if (!isScrolling.current && scrollPrev) {
         isScrolling.current = true;
         scrollPrev();
-        setTimeout(() => (isScrolling.current = false), 1500);
+        setTimeout(() => (isScrolling.current = false), 900);
       }
     };
 
@@ -106,7 +106,7 @@ export default function Portfolio({ scrollNext, scrollPrev }: PortfolioSliderPro
   }, []);
 
   return (
-    <div className="portfolio-section h-screen overflow-y-auto" ref={sectionRef}>
+    <div className="portfolio-section py-24 overflow-y-auto" ref={sectionRef}>
       <div className="portfolio-header">
         <div className="icon-circle" onClick={() => slide(-1)}>
           <img src={Lefticon} alt="prev" />
