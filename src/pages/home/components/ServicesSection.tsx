@@ -84,7 +84,7 @@ const ServicesSection = () => {
               bgColorClass="bg-[#03091b]"
               
               bgPosition="right -130px top 45px"
-              buttonVariant="secondary"
+              buttonVariant="white"
             />
           </Cardhovereffect>
         </FadeIn>
@@ -116,7 +116,7 @@ const ServicesSection = () => {
               bgImage={GlobalManufacturing}
               titleColorClass="blue-gradient-text"
               bgPosition="center"
-              buttonVariant="danger"
+              buttonVariant="white"
                bgColorClass="bg-[#03091b]"
             />
           </Cardhovereffect>
@@ -146,7 +146,7 @@ const ServicesSection = () => {
               description="2D/3D design, AR/VR, and blockchain gaming with up to 60% savings."
               icon={CreativeIcon}
               titleColorClass="blue-gradient-text"
-              buttonVariant="danger"
+              buttonVariant="white"
                bgImage={GameDev}
                bgSize="cover"
              bgColorClass="bg-[#325fec]"
@@ -164,7 +164,7 @@ const ServicesSection = () => {
               bgColorClass="bg-[#325fec]"
               bgPosition="center"
               bgSize="cover"
-              buttonVariant="secondary"
+              buttonVariant="white"
             />
           </Cardhovereffect>
         </FadeIn>
@@ -176,7 +176,7 @@ const ServicesSection = () => {
               description="Coming Soon"
               icon={CreativeIcon}
               titleColorClass="blue-gradient-text"
-              buttonVariant="danger"
+              buttonVariant="white"
                bgImage={TradeAndInvestments}
                bgColorClass="bg-[#325fec]"
               bgPosition="center"

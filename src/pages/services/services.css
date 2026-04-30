@@ -343,9 +343,7 @@
    PORTFOLIO SLIDER (NO CONFLICT)
    ========================================================= */
 
-.portfolio-section {
-  margin-top: 140px;
-}
+
 
 .portfolio-header {
   display: flex;
@@ -989,9 +987,6 @@
     margin-top: 80px;
   }
 
-  .portfolio-section {
-    margin-top: 100px;
-  }
 
   .divider {
     margin: 30px 0;

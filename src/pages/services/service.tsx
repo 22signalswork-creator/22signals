@@ -14,9 +14,10 @@ const Service = () => {
   return (
     <div>
       <HeroSection />
+      <Tabs projects={projects} />
       <RefinedExecution />
       <ProcessSteps />
-      <Tabs projects={projects} />
+      
       <Portfolioslider />
       <Companystatscounts />
       <FaqSection />

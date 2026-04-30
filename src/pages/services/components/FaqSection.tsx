@@ -41,7 +41,7 @@ export default function FaqSection() {
   ];
 
   return (
-    <section className="container py-24">
+    <section className="container">
       <FadeIn>
         <div className="faq-section">
           {/* LEFT COLUMN */}

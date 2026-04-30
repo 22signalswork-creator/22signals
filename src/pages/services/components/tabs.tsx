@@ -11,7 +11,8 @@ interface TabsProps {
 const Tabs: React.FC<TabsProps> = ({ projects }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-
+  // Helper to ensure each card follows the last one perfectly
+  const getStaggerDelay = (index: number) => index * 0.15;
   const tabs = [
     "All",
     "Digital & AI",
@@ -33,7 +34,7 @@ const Tabs: React.FC<TabsProps> = ({ projects }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12 max-h-screen">
+    <div className="container mx-auto px-4 py-12 ">
 
       {/* Tabs */}
       <div className="tabs flex gap-4 overflow-x-auto scrollbar-hide">

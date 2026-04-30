@@ -29,7 +29,7 @@ export default function Portfolio() {
   }, []);
 
   return (
-    <div className="portfolio-section py-24">
+    <div className="portfolio-section py-24 ">
       <FadeIn>
         <div className="portfolio-header">
           <div className="icon-circle" onClick={() => slide(-1)}>

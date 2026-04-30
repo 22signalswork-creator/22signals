@@ -27,12 +27,12 @@ const VARIANTS = {
   
 
     initialBg: "#fff",
-    hoverBg: "#191919",
-    flair: "#191919",
+    hoverBg: "#ccc",
+    flair: "#ccc",
     textDefault: "#191919",    // Default Text Color
-    textHover: "#000",      // Hover Text Color (Dark Blue)
-    borderDefault: "#191919",
-    borderHover: "none", 
+    textHover: "#ffffff",      // Hover Text Color (Dark Blue)
+    borderDefault: "#ffffff",
+    borderHover: "unset"
   },
   danger: {
     initialBg: "#191919",
