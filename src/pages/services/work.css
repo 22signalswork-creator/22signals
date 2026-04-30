@@ -112,17 +112,29 @@ h3 {
 
 .tabs {
   display: flex;
+  align-items: center;
   gap: 12px;
   background: #fff;
   border-radius: 45px;
   padding: 14px;
   height: 64px;
+}
 
+.tabs-scroll {
+  flex: 1;
   /* MOBILE FIX: prevent wrapping and enable horizontal scroll */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
   flex-wrap: nowrap; /* force single row */
   scroll-behavior: smooth; /* smooth scrolling */
+}
+/* Hide scrollbar (optional) */
+.tabs-scroll::-webkit-scrollbar {
+  display: none;
+}
+.tabs-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
 }
 /* Hide scrollbar (optional) */
 .tabs::-webkit-scrollbar {
@@ -159,8 +171,28 @@ h3 {
   background: #325fec;
   color: white;
 }
-.tab.active:hover {
-  color: white !important;
+.chevron-button {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(50, 95, 236, 0.1);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #325fec;
+    font-size: 26px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    max-width: 32px !important;
+    padding: 0;
+    line-height: 1;
+}
+
+.chevron-button:hover {
+  background: rgba(50, 95, 236, 0.2);
 }
 
 /* =========================

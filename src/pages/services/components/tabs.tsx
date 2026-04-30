@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import ProjectCardContent, { Project } from "./projectcard.tsx";
 import "../../../pages/home/home.css";
 import "../work.css";
+import "../services.css";
 import FadeIn from "@/transitions/FadeIn";
 
 interface TabsProps {
@@ -11,6 +12,7 @@ interface TabsProps {
 const Tabs: React.FC<TabsProps> = ({ projects }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const tabsRef = useRef<HTMLDivElement>(null);
   // Helper to ensure each card follows the last one perfectly
   const getStaggerDelay = (index: number) => index * 0.15;
   const tabs = [
@@ -23,6 +25,18 @@ const Tabs: React.FC<TabsProps> = ({ projects }) => {
     "Game Development",
     "Trading & Investments (Coming Soon)"
   ];
+
+  const scrollLeft = () => {
+    if (tabsRef.current) {
+      tabsRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRight = () => {
+    if (tabsRef.current) {
+      tabsRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+  };
 
   const filteredProjects =
     activeTab === "All"
@@ -37,19 +51,35 @@ const Tabs: React.FC<TabsProps> = ({ projects }) => {
     <div className="container mx-auto px-4 py-12 ">
 
       {/* Tabs */}
-      <div className="tabs flex gap-4 overflow-x-auto scrollbar-hide">
-        {tabs.map((tab) => (
-          <button
-            key={tab}
-            className={`tab ${activeTab === tab ? "active" : ""}`}
-            onClick={() => {
-              setActiveTab(tab);
-              setSelectedProject(null);
-            }}
+      <div className="tabs-container">
+        <div className="tabs">
+          <button 
+            className="chevron-button"
+            onClick={scrollLeft}
           >
-            {tab}
+            ‹
           </button>
-        ))}
+          <div ref={tabsRef} className="tabs-scroll flex gap-4 overflow-x-auto scrollbar-hide">
+            {tabs.map((tab) => (
+              <button
+                key={tab}
+                className={`tab ${activeTab === tab ? "active" : ""}`}
+                onClick={() => {
+                  setActiveTab(tab);
+                  setSelectedProject(null);
+                }}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+          <button 
+            className="chevron-button"
+            onClick={scrollRight}
+          >
+            ›
+          </button>
+        </div>
       </div>
 
       {/* ===================== */}
