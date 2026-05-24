@@ -1,0 +1,792 @@
+/* ================================
+   HEADER BASE (DESKTOP)
+================================ */
+
+.header {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0 136px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+  /* No-op now that header is not sticky */
+  background-color: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1.5rem 0; /* no left/right padding */
+  align-items: center;
+}
+
+/* ================================
+   LOGO
+================================ */
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 62px;
+  width: auto;
+  max-width: 300px;
+}
+
+/* ================================
+   DESKTOP MENU
+================================ */
+
+.menu.desktop-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-item {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-item.active {
+  color: #325FEC !important;
+}
+
+.menu-black {
+  color: #000000 !important;
+}
+
+.menu-white {
+  color: #ffffff !important;
+}
+
+.menu-item:hover {
+  opacity: 0.8;
+  color: #325fec !important;
+  font-weight: bold;
+  
+}
+
+/* ================================
+   DESKTOP BUTTON
+================================ */
+
+.desktop-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+/* ================================
+   MOBILE HAMBURGER
+================================ */
+
+.mobile-hamburger {
+  display: none;
+  justify-content: flex-end;
+}
+
+/* ================================
+   MOBILE MENU — premium dark glassmorphic drawer
+   Slides in from right with framer-motion (handled in TSX), this CSS
+   only owns the look-and-feel: backdrop blur overlay, dark gradient
+   panel with a glowing accent ribbon down the left edge, sharp
+   typography, and animated chevrons.
+================================ */
+
+/* Dim + blur the page behind the drawer */
+.mobile-menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: radial-gradient(
+    ellipse at 80% 20%,
+    rgba(50, 95, 236, 0.12) 0%,
+    rgba(0, 0, 0, 0.6) 60%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* The drawer itself */
+.mobile-menu-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100dvh;
+  height: 100vh;
+  width: min(86vw, 380px);
+  z-index: 95;
+  background:
+    linear-gradient(160deg, #0a0f24 0%, #050810 55%, #0a0f24 100%);
+  border-left: 1px solid rgba(80, 140, 255, 0.18);
+  box-shadow:
+    -32px 0 80px -24px rgba(0, 0, 0, 0.85),
+    inset 1px 0 0 rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Glowing accent ribbon down the left edge of the drawer */
+.mobile-menu-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(80, 140, 255, 0) 0%,
+    rgba(80, 140, 255, 0.7) 25%,
+    rgba(50, 95, 236, 0.95) 50%,
+    rgba(80, 140, 255, 0.7) 75%,
+    rgba(80, 140, 255, 0) 100%
+  );
+  filter: blur(0.5px);
+  pointer-events: none;
+}
+
+/* Soft floating orbs for atmosphere */
+.mobile-menu-drawer::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -100px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(50, 95, 236, 0.28) 0%,
+    rgba(50, 95, 236, 0) 70%
+  );
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+.mobile-menu-drawer::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: -60px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(80, 140, 255, 0.18) 0%,
+    rgba(80, 140, 255, 0) 70%
+  );
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+/* Header row: logo + close button */
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem 0.75rem;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-menu-logo-link {
+  display: inline-block;
+}
+
+.mobile-menu-logo {
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(0 0 12px rgba(80, 140, 255, 0.35));
+}
+
+.mobile-menu-close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:active {
+  background: rgba(80, 140, 255, 0.22);
+  border-color: rgba(80, 140, 255, 0.6);
+  color: #ffffff !important;
+  transform: rotate(90deg);
+}
+
+/* Nav list */
+.mobile-menu-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1rem 1rem;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-menu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.95rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92) !important;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: background-color 0.25s ease, border-color 0.25s ease,
+    color 0.25s ease, padding-left 0.25s ease;
+  position: relative;
+}
+
+.mobile-menu-item:hover,
+.mobile-menu-item:focus-visible,
+.mobile-menu-item:active {
+  background: rgba(80, 140, 255, 0.18) !important;
+  border-color: rgba(80, 140, 255, 0.5) !important;
+  color: #ffffff !important;
+  padding-left: 1.2rem;
+  outline: none;
+}
+
+.mobile-menu-item.active {
+  color: #ffffff !important;
+  background: linear-gradient(
+    90deg,
+    rgba(50, 95, 236, 0.28) 0%,
+    rgba(50, 95, 236, 0.1) 100%
+  ) !important;
+  border-color: rgba(80, 140, 255, 0.5) !important;
+}
+
+.mobile-menu-item.active::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 12%;
+  height: 76%;
+  width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #325fec 0%, #93b8ff 100%);
+  box-shadow: 0 0 12px rgba(80, 140, 255, 0.55);
+}
+
+.mobile-menu-arrow {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.35);
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.mobile-menu-item:hover .mobile-menu-arrow,
+.mobile-menu-item.active .mobile-menu-arrow {
+  color: #93b8ff;
+  transform: translateX(4px);
+}
+
+/* Trigger button for an expandable Services / Portfolio mobile entry */
+.mobile-menu-trigger {
+  font-family: inherit;
+}
+
+.mobile-menu-caret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 11px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.mobile-menu-caret.open {
+  transform: rotate(180deg);
+  background: rgba(80, 140, 255, 0.2);
+  border-color: rgba(80, 140, 255, 0.5);
+  color: #ffffff;
+}
+
+/* Indented sub-list under an expanded mobile menu group */
+.mobile-submenu {
+  list-style: none;
+  margin: 0.25rem 0 0.5rem 0.5rem;
+  padding: 0.25rem 0 0.25rem 0.85rem;
+  border-left: 1px solid rgba(80, 140, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow: hidden;
+}
+
+.mobile-submenu-item {
+  display: block;
+  padding: 0.55rem 0.6rem;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: color 0.18s ease, padding-left 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.mobile-submenu-item:hover,
+.mobile-submenu-item:focus-visible {
+  color: #ffffff;
+  padding-left: 0.85rem;
+  background: rgba(80, 140, 255, 0.06);
+}
+
+.mobile-submenu-all {
+  color: #93b8ff !important;
+  font-weight: 600;
+}
+
+/* Footer: CTA button + tagline */
+.mobile-menu-footer {
+  position: relative;
+  z-index: 1;
+  padding: 0.5rem 1.5rem 1.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 0.5rem;
+}
+
+.mobile-menu-cta {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0.95rem 1.25rem;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #325fec 0%, #4d6ef0 60%, #325fec 100%);
+  border: 1px solid rgba(120, 160, 255, 0.55);
+  border-radius: 999px;
+  box-shadow:
+    0 12px 32px -10px rgba(50, 95, 236, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 1rem;
+}
+
+.mobile-menu-cta:hover,
+.mobile-menu-cta:active {
+  transform: translateY(-2px);
+  box-shadow:
+    0 16px 40px -10px rgba(50, 95, 236, 0.85),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.mobile-menu-cta-arrow {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mobile-menu-tagline {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+}
+
+/* Animated hamburger button (3 lines that morph into an X) */
+.mobile-hamburger-btn {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  cursor: pointer;
+  padding: 0;
+  color: #ffffff;
+  transition: border-color 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.mobile-hamburger-btn.text-white {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.22) !important;
+}
+
+.mobile-hamburger-btn.text-black {
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.22) !important;
+}
+
+.mobile-hamburger-btn:hover {
+  background: rgba(80, 140, 255, 0.12);
+  border-color: rgba(80, 140, 255, 0.5);
+}
+
+.hamburger-line {
+  display: block;
+  width: 18px;
+  height: 1.6px;
+  background: currentColor;
+  border-radius: 2px;
+  transform-origin: center;
+  transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1),
+    opacity 0.25s ease, width 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.hamburger-line.line-2 {
+  width: 12px;
+  align-self: flex-end;
+  margin-right: 8px;
+}
+
+.mobile-hamburger-btn:hover .hamburger-line.line-2 {
+  width: 18px;
+  margin-right: 0;
+  align-self: center;
+}
+
+.mobile-hamburger-btn.is-open .hamburger-line.line-1 {
+  transform: translateY(6.6px) rotate(45deg);
+}
+
+.mobile-hamburger-btn.is-open .hamburger-line.line-2 {
+  opacity: 0;
+  width: 18px;
+}
+
+.mobile-hamburger-btn.is-open .hamburger-line.line-3 {
+  transform: translateY(-6.6px) rotate(-45deg);
+}
+
+/* ================================
+   OVERLAY
+================================ */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+  z-index: 40;
+}
+
+.overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ================================
+   OPTIONAL PAGE STYLES
+================================ */
+
+.team-header {
+  background: transparent;
+}
+
+/* Home page header - transparent when not scrolled */
+.header.home-header-transparent {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 60px;
+  }
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 640px) {
+  .header {
+    padding: 0 16px;
+    position: fixed !important;  /* mobile: sticky always */
+    top: 0 !important;
+    left: 0;
+    background-color: #000000 !important;
+    backdrop-filter: none !important;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  }
+
+  /* On the homepage hero specifically:
+     start transparent, then a dark background appears on scroll. */
+  .header.is-home.transparent-bg {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+  }
+  .header.is-home.scrolled {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .menu.desktop-menu {
+    display: none;
+  }
+
+  .desktop-button {
+    display: none;
+  }
+
+  .mobile-hamburger {
+    display: flex;
+  }
+  .logo {
+  height: 42px;
+  width: auto;
+  max-width: 300px;
+}
+}
+
+
+
+/* .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+} */
+
+.header-hide {
+  /* Disabled — header is no longer sticky/fixed */
+  transform: none;
+}
+
+.header-show {
+  transform: none;
+}
+
+
+/* ================================
+   MOBILE: force black header always
+   (overrides every transparent state)
+================================ */
+@media (max-width: 640px) {
+  body .header,
+  body .header.scrolled,
+  body .header.is-home,
+  body .header.is-home.scrolled,
+  body .header.is-home.transparent-bg,
+  body .header.transparent-bg,
+  body .header.home-header-transparent,
+  body .header.theme-light,
+  body .header.theme-dark,
+  body .team-header {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+  }
+}
+
+/* ================================
+   HEADER DROPDOWNS — Services + Portfolio
+================================ */
+.header-dropdown-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+/* The clickable trigger (services / portfolio) — inline-flex keeps the
+   label and the caret glued together on the SAME line at every screen
+   width. Without this, narrow grid columns will push the caret to a
+   new line below the word. */
+.header-dropdown-wrap > .menu-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  /* Position context for the invisible bridge below */
+  position: relative;
+}
+
+/* Invisible bridge that fills the visual gap between the trigger and the
+   dropdown panel. Without this, moving the cursor from the trigger toward
+   the dropdown takes it through the 12px empty band and the hover state
+   collapses, making the dropdown disappear mid-motion. */
+.header-dropdown-wrap > .menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  /* Slightly taller than the dropdown's actual offset so there is overlap. */
+  height: 18px;
+  /* Only "active" once the dropdown is open so it doesn't intercept other
+     pointer events while idle. */
+  pointer-events: none;
+}
+.header-dropdown-wrap.is-open > .menu-item::after {
+  pointer-events: auto;
+}
+
+.header-dropdown-caret {
+  display: inline-block;
+  font-size: 9px;
+  line-height: 1;
+  opacity: 0.65;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  /* Stop the caret from being treated as text that can wrap */
+  flex-shrink: 0;
+}
+
+.header-dropdown-wrap.is-open .header-dropdown-caret {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.header-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  min-width: 240px;
+  background: rgba(8, 14, 30, 0.97);
+  border: 1px solid rgba(80, 140, 255, 0.25);
+  border-radius: 14px;
+  padding: 8px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.22s ease, visibility 0.18s;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+/* Bridge the visual gap from the dropdown side too — the menu's own
+   hit-box is extended upward to meet the trigger. */
+.header-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -18px;
+  height: 18px;
+  /* transparent but still intercepts mouse events while open */
+}
+
+/* Open state is now driven by React (.is-open) instead of :hover, so we
+   keep tight control over close-on-click and close-on-navigation. */
+.header-dropdown-wrap.is-open .header-dropdown-menu,
+.header-dropdown-wrap:focus-within .header-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.header-dropdown-item {
+  display: block;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
+}
+
+.header-dropdown-item:hover {
+  background: rgba(80, 140, 255, 0.12);
+  color: #ffffff;
+  padding-left: 18px;
+}
+
+.header-dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 6px 8px;
+}
+
+.header-dropdown-all {
+  color: rgba(147, 184, 255, 0.95) !important;
+  font-weight: 500;
+}
+
+/* Hide dropdowns on mobile — mobile menu shows everything as a flat list */
+@media (max-width: 1024px) {
+  .header-dropdown-menu {
+    display: none;
+  }
+  .header-dropdown-caret {
+    display: none;
+  }
+}

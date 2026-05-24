@@ -1,0 +1,428 @@
+.home-hero-section {
+  padding: 150px 136px 50px !important;
+}
+@media screen {
+  .home-hero-section{
+    padding: 100px 50px 50px;
+  }
+}
+.hero-section-desc-text {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.85);
+}
+@media (max-width: 768px) {
+  .hero-section-desc-text {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+}
+.portfolio-border{
+     border-top-left-radius: 70px;   
+  border-top-right-radius: 70px;  
+}
+
+.glass-card {
+    position: relative;
+    border-radius: 24px;
+    background-origin: border-box;
+    background-clip: border-box;
+    backdrop-filter: blur(36.8px);
+    background-color: rgb(255 255 255);
+    overflow: hidden;
+}
+
+.glass-card-2 {
+  position: relative;
+  border-radius: 24px;
+  background-origin: border-box;
+  background-clip: border-box;
+  backdrop-filter: blur(10px);
+  background-color: rgb(0 0 0 / 41%);
+  overflow: hidden;
+}
+
+.badge {
+  
+    top: 34px;
+    left: 24px;
+    background-color: rgba(31, 41, 55, 0.7);
+    padding: 7px 20px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    border: 1px solid rgba(50, 95, 236, 1);
+   
+    max-width: fit-content;
+}
+
+.testimonial-text{
+  line-height: 24px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.testimonial-text-role{
+  font-size: 12px;
+  color: #ffffff; 
+}
+
+
+.text-content {
+  font-weight: 400;
+  font-style: normal;         
+  font-size: 16px;
+  line-height: 45px;
+  letter-spacing: -0.02em;     
+  color: rgba(155, 155, 156, 1);              
+}
+
+.text-contents{
+  font-weight: 400;
+  font-style: normal;         
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.02em;     
+  color: rgba(155, 155, 156, 1);              
+}
+.text-content li{
+  cursor: pointer;
+  font-size: 15px;
+}
+.menu-heading{
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color:rgba(50, 95, 236, 1);
+}
+
+.contact-text{
+  font-size: 15px;
+  color: rgba(155, 155, 156, 1);
+}
+.contact-location{
+  font-size: 15px;
+  color: rgba(155, 155, 156, 1);
+  line-height: 25px;
+}
+
+.bottom-bar span{
+font-family: PP Mori, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+color: rgba(222, 225, 230, 1);
+}
+
+/* Mobile view: badge above title */
+@media (max-width: 768px) {
+  .badge {
+    position: static;          /* remove absolute */
+    display: block;            /* block to stack */
+    margin-bottom: 0.25rem;    /* spacing below badge */
+    text-align: left;
+     max-width: 50%;
+  }
+
+}
+
+
+.floating-img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-224%);
+  transition: transform 0.3s ease;
+}
+
+/* Mobile: adjust for smaller screens */
+@media (max-width: 768px) {
+  .floating-img {
+    transform: translateY(-400%);
+  }
+}
+
+
+.gradient-border {
+  position: relative;
+  border-radius: 18px;
+  z-index: 1;
+}
+
+/* Gradient border layer */
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  padding: 1.5px; /* border thickness */
+  background: linear-gradient(
+    135deg,
+    #4f7cff 0%,
+    rgba(79, 124, 255, 0.6) 30%,
+    rgba(79, 124, 255, 0.15) 55%,
+    transparent 75%
+  );
+
+  /* This creates the border cut-out */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+.testimonial-border {
+  position: relative;
+}
+
+.testimonial-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 3;
+
+  /* premium even border */
+ background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.9) 0%,
+    rgba(255,255,255,0.4) 12%,
+    rgba(255,255,255,0.15) 36%,
+    transparent 75%
+  );
+
+  /* PERFECT stroke thickness everywhere */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  padding: 1.5px;
+}
+
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+ .digital-bg {
+    background-size: 101%;
+    background-position: right -148px top 205px !important;
+}
+.creative-solutions{
+   background-size: 101%;
+  background-position: right -96px top 160px !important;
+}
+.staff-bg{
+   background-size: 101%;
+  background-position: right 0px top 144px !important;
+}
+.broafcatingbg{
+   background-size: 101%;
+  background-position: right -2px top 171px !important;
+}
+}
+
+.svg-container {
+    position: absolute;
+    top: 1250px;
+    left: 88px;
+    width: 100%;
+    max-width: 90%;
+    pointer-events: none;
+    overflow: visible;
+    z-index: -1;
+}
+
+.svg-container svg {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1743 / 742;
+}
+
+.second-svg {
+    position: absolute;
+    bottom: -86px;
+    left: 104px;
+    width: 89%;
+    height: auto;
+    pointer-events: none;
+    z-index: -1;
+    display: none;
+}
+
+ .thirdsvg{
+        position: absolute;
+    top: -200px;
+    left: 88px;
+    width: 90%;
+    height: auto;
+    pointer-events: none;
+    z-index: -10;
+}
+
+@media (max-width: 768px) {
+  .second-svg,
+  .svg-container,
+  .thirdsvg {
+    display: none;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+ *  Featured Projects card — compact mobile rendering.
+ *
+ *  The card lives in a 1-slide carousel on phones, but the image used to
+ *  fill almost the whole viewport. Cap the heights and tighten typography
+ *  so users can scan multiple projects without an exhausting scroll.
+ * ────────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .glass-card.gradient-border {
+    padding: 1rem 1rem 1.1rem !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+  .glass-card.gradient-border h2.recentproject-title {
+    --h2-size: 20px;
+    padding: 4px 0 !important;
+    line-height: 1.15;
+  }
+  .glass-card.gradient-border p {
+    font-size: 12px !important;
+    line-height: 1.45 !important;
+  }
+  .glass-card.gradient-border .badge {
+    padding: 4px 10px !important;
+    font-size: 10px !important;
+  }
+  /* Smaller hero image so the card height drops a lot. */
+  .glass-card.gradient-border img[alt]:not(.floating-img):not([alt="Union"]) {
+    max-height: 140px;
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Floating arrow image was sized w-13 h-13 (non-standard); rein it in. */
+  .glass-card.gradient-border .absolute.top-6.right-2 {
+    width: 32px !important;
+    height: 32px !important;
+  }
+}
+
+/* The container for all sections */
+.slider-main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Individual section wrapper */
+.section-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden; /* GSAP toggles this to 'visible' when active */
+  overflow: hidden;
+}
+
+/* The element that actually moves up/down */
+.inner-content {
+  width: 100%;
+  height: 100%;
+  will-change: transform; /* Optimizes GPU for the sliding animation */
+}
+
+/* If a section has internal scrolling (not recommended for this effect) */
+/* .allow-internal-scroll {
+  overflow-y: auto;
+  height: 100%;
+} */
+
+/* Slick Slider Arrow Styles */
+.slick-prev,
+.slick-next {
+  width: 80px !important;
+  height: 80px !important;
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+  color: #325FEC !important;
+}
+
+.slick-prev {
+  left: -60px !important;
+}
+
+.slick-next {
+  right: -60px !important;
+}
+
+
+
+
+.gooey-wrapper {
+  /* This filter creates the melting effect between children */
+  filter: url('#goo');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* ============================================
+   Services-section hero headline:
+   On wide screens (≥ 1100px) we force a 2-line layout (each phrase
+   on its own line, no internal wrapping). On narrower screens we
+   let the line flow normally so nothing overflows. This replaces
+   the old `whitespace: nowrap` which broke 16:10 laptops.
+============================================ */
+.services-hero-line {
+  display: inline;
+  white-space: normal;
+}
+@media (min-width: 1100px) {
+  .services-hero-line {
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+.central-ball {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #5e5eff 0%, #0000ff 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(94, 94, 255, 0.6);
+  z-index: 2;
+}
+
+.text-container {
+  position: absolute;
+  display: flex;
+  pointer-events: none;
+}
+
+.letter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  display: inline-block;
+  position: absolute; /* Stack them all in the middle */
+  transform-origin: center;
+}

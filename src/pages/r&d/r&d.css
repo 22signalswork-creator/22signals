@@ -1,0 +1,87 @@
+.ridimge1 {
+  width: 100%;
+  max-width: 787px;
+  height: auto;
+  aspect-ratio: 787 / 279;
+  border-radius: 24px;
+  border: 1px solid;
+
+  border-image-source: linear-gradient(260.61deg,#325fec 0%,rgba(50,95,236,0) 100.81%);
+  backdrop-filter: blur(74.8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progress-card{
+    border: 1px solid #BCBCBC;
+    border-radius: 20px;
+    background: #0000000D;
+    padding: 30px;
+}
+
+
+.progressbar{
+    background: linear-gradient(91.16deg, #325FEC 1.74%, #000000 43.71%, #000000 61.62%, #325FEC 102.48%);
+}
+.iteam-title{
+    background: linear-gradient(91.16deg, #325FEC 1.74%, #000000 43.71%, #000000 61.62%, #325FEC 102.48%);
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;  /* for Firefox */
+  color: transparent;
+}
+
+.iteam-percent{
+    background: linear-gradient(91.16deg, #325FEC 1.74%, #000000 43.71%, #000000 61.62%, #325FEC 102.48%);
+font-weight: 400;
+font-size: 35px;
+line-height: 75px;
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;  /* for Firefox */
+  color: transparent;
+}
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .cardsrd-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ridimge1 {
+    max-width: 100%;
+  }
+
+}
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 640px) {
+    .ridimge1 {
+  width: 100%;
+  height: 150px;
+  aspect-ratio: 787 / 279;
+  border-radius: 24px;
+}
+  .cardsrd-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ridimge1 {
+    aspect-ratio: 16 / 9;
+  }
+
+  .cardsrd-grid > div {
+    padding: 10px;
+  }
+}

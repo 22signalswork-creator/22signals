@@ -1,0 +1,889 @@
+/* global.css */
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+:root {
+  --h1-size: 68px;
+  --h1-line: 1.15;
+  --p-color: rgba(255, 255, 255, 0.7);
+  --p-size: 16px;
+  --h1-gradient: linear-gradient(91.16deg,
+      #325FEC 0%,
+      /* start blue */
+      #000000 40%,
+      /* black starts */
+      #000000 60%,
+      /* black ends */
+      #325FEC 100%
+      /* end blue */
+    );
+  --h2-size: 68px;
+  --button-color-: rgba(50, 95, 236, 1);
+  --button-padding-: 19px 43px;
+}
+
+@font-face {
+  font-family: 'Aeonik-regular';
+  src: url('/src/assets/fonts/aeoniktrial-regular.otf') format('opentype');
+
+}
+
+@font-face {
+  font-family: 'Aeonik-medium';
+  src: url('/src/assets/fonts/aeoniktrial-medium.otf') format('opentype');
+
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 100%;
+}
+
+/* #root {
+  display: flex;
+  justify-content: center;
+} */
+
+
+/* This is the container that holds your Scaler */
+.zoom-lock-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  /* Keeps site pinned to left if using top-left origin */
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* The actual div that gets the 'scale()' transform */
+.scaler-content {
+  /* width is set dynamically in React (1440px), but we ensure it's a block */
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+  /* Performance optimization for GSAP and scaling */
+}
+
+p,
+a,
+li,
+button {
+  font-family: 'Aeonik-regular' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Aeonik-medium' !important;
+  letter-spacing: 0 !important;
+}
+
+p {
+  color: var(--p-color);
+  font-size: var(--p-size);
+  line-height: 1.33;
+  font-weight: 400;
+}
+
+/* redefine and immediately use them */
+p.dark-text {
+  --p-color: rgba(0, 0, 0, 0.7);
+  --p-size: 25px;
+  color: var(--p-color);
+  font-size: var(--p-size);
+}
+
+/* redefine and immediately use them */
+.text-blue {
+  color: #325FEC;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 2px !important;
+}
+
+p.white-text {
+  --p-color: rgba(243, 243, 243, 0.7);
+  --p-size: 25px;
+  color: var(--p-color);
+  font-size: var(--p-size);
+}
+
+
+p.blog-text {
+  --p-color: rgba(0, 0, 0, 0.7);
+  --p-size: 20px;
+  color: var(--p-color);
+  font-size: var(--p-size);
+}
+
+.h1-large {
+  --h1-size: 130px;
+  --h1-line: 1.1;
+}
+
+.h1-large-color {
+  --h1-size: 160px;
+  --h1-line: 1.1;
+  --h1-gradient: linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #325FEC 102.48%);
+  ;
+}
+
+h1.card-heading {
+  --h1-size: 45px;
+  --h1-line: 1.1;
+}
+
+h1.tab-card-heading {
+  --h1-size: 40px;
+  --h1-line: 1.1;
+}
+
+h1.progress-bar {
+  --h1-size: 35px;
+  --h1-line: 1.1;
+}
+
+h1.teamcard-title {
+  --h1-size: 35px;
+  --h1-line: 1.1;
+  --h1-gradient: linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #325FEC 102.48%);
+  text-align: left;
+}
+
+h1 {
+  font-weight: 300 !important;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+
+  background: var(--h1-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* for Firefox */
+  color: transparent;
+
+  margin: 0;
+  display: inline-block;
+  /* ensures gradient fits text width */
+}
+
+h2.team-title {
+  --h2-size: 68px;
+}
+
+
+h2.recentproject-title {
+  --h2-size: 30px;
+  background: none !important;
+  background-image: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #1a3392 !important;
+  color: #1a3392 !important;
+  font-weight: 500 !important;
+}
+
+h2.footer-main-text {
+  --h2-size: 68px;
+}
+
+h2 {
+  font-weight: 300;
+  line-height: 1.1;
+  background: linear-gradient(91.16deg,
+      #325FEC 1.74%,
+      #FFFFFF 43.71%,
+      #FFFFFF 61.62%,
+      #325FEC 102.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: var(--h2-size);
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  background: linear-gradient(91.16deg, #BFBFBF 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #BFBFBF 102.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient-text {
+  background: linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #325FEC 102.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1400px){
+  .container, header {
+    padding: 0 50px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .container, header {
+    padding: 0 10px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 48px;
+    /* Tablet */
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  /* Default h1/h2/h3 size on mobile when no other size is given.
+     Components using inline `style={{fontSize: 'clamp(...)'}}` will
+     correctly override these (inline wins over no-!important rules). */
+  h1 {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 1.18;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 1.22;
+  }
+
+  button.header-b {
+    padding: 5px 30px;
+    background: #325fec;
+  }
+
+  h1.card-heading {
+    --h1-size: 25px;
+    --h1-line: 1.1;
+  }
+
+  h1.progress-bar {
+    --h1-size: 25px;
+    --h1-line: 1.5;
+    text-align: center;
+  }
+
+  .h1-large {
+    --h1-size: 60px;
+    --h1-line: 1.1;
+  }
+
+  h2.recentproject-title {
+    --h2-size: 25px;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: var(--h1-line);
+  }
+
+  h2 {
+    font-size: 30px;
+    padding: 19px 0px;
+  }
+
+  h3 {
+    line-height: 25px;
+    width: 100%;
+  }
+
+  p.dark-text {
+    --p-size: 18px;
+  }
+
+  p.white-text {
+    --p-size: 18px;
+  }
+
+  .h1-large-color {
+    font-size: 45px;
+  }
+
+  P {
+    width: 100%;
+  }
+}
+
+
+html {
+  max-width: 1928px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  font-family: 'Aeonik-regular', sans-serif;
+  font-weight: lighter;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #f0f1fa;
+}
+
+body.team-page {
+  background-color: #000000;
+}
+
+.animated-gradient {
+  /* Your original colors, but stretched to 200% width */
+  background: linear-gradient(91.16deg,
+      #325fec 1.74%,
+      #ffffff 63.71%,
+      #ffffff 61.62%,
+      #325fec 102.48%);
+  background-size: 200% 200%;
+
+  /* Applying the animation */
+  animation: moveGradient 3s ease infinite;
+
+  /* Standard styling for visibility */
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 8px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.animated-gradient-black {
+  /* Your original colors, but stretched to 200% width */
+  background: linear-gradient(91.16deg,
+      #325fec 1.74%,
+      #000000 63.71%,
+      #000000 61.62%,
+      #325fec 102.48%);
+  background-size: 200% 200%;
+
+  /* Applying the animation */
+  animation: moveGradient 3s ease infinite;
+
+  /* Standard styling for visibility */
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 8px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    /* Use percentage to fit screen */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .container {
+    width: 95%;
+    /* Almost full width */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+button {
+  display: inline-flex;
+  /* shrink-wrap to content */
+  cursor: pointer;
+  font-family: Aeonik, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 100%;
+  background-color: var(--button-color-);
+  color: rgba(239, 239, 239, 1);
+  padding: var(--button-padding-);
+  border-radius: 50px;
+  gap: 10px;
+  width: auto;
+  /* important: do not stretch */
+  box-sizing: border-box;
+  /* keep padding inside */
+  opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+  button {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+  }
+}
+
+button.gray {
+  background-color: #191919;
+
+}
+
+button.header-b {
+  padding: 12px 30px;
+  background: #325fec;
+}
+
+button.white-opacity {
+  background-color: #466fee;
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+/* Ripple + GSAP setup */
+.gsap-btn {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-content {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .btn-flair {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transform: scale(0);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+
+.btn-flair::before {
+  content: "";
+  position: absolute;
+  width: 180%;
+  aspect-ratio: 1 / 1;
+  background: var(--button-color, #000c77); 
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.btn-flair:hover {
+  color: #fff;
+} */
+
+
+/* Blue button default */
+button {
+  background-color: var(--button-color-);
+  color: #fff;
+}
+
+/* Gray button default */
+button.gray {
+  background-color: #191919;
+  color: #fff;
+}
+
+
+
+
+.services-badge-secondry {
+  font-size: 14px;
+  padding: 7px 26px !important;
+  display: inline-block;
+  border-radius: 24px;
+  color: #000000b2;
+  font-weight: 500;
+
+  border: 2px solid transparent;
+  /* border thickness */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image:
+    linear-gradient(#f0f1fa, #f0f1fa),
+    /* inner background white */
+    linear-gradient(164deg, #504CFF 26.9%, rgba(80, 76, 255, 0) 99.52%);
+  /* gradient border */
+}
+
+
+.footer-text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0%;
+
+}
+
+
+.g-hero-paragraph {
+  font-size: 25px !important
+}
+
+
+
+
+/* ================================
+   SECTION TRANSITIONS — soft diffuse fades between
+   black/dark and white/light sections instead of
+   hard horizontal lines.
+
+   Tall (220px) multi-stop gradients so the transition is
+   a long, gentle diffuse — not a hard 80px bar like the
+   first version. The receiving section gets the overlay
+   on its TOP edge (`-from-`), positioned with negative
+   inset so it overlaps slightly into the section above.
+================================ */
+
+.section-fade-to-white::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px 0;
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.15) 35%,
+    rgba(255, 255, 255, 0.55) 65%,
+    rgba(255, 255, 255, 0.92) 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section-fade-to-black::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px 0;
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.15) 35%,
+    rgba(0, 0, 0, 0.55) 65%,
+    rgba(0, 0, 0, 0.92) 88%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section-fade-from-white::before {
+  content: "";
+  position: absolute;
+  inset: -1px 0 auto 0;
+  height: 220px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.15) 35%,
+    rgba(255, 255, 255, 0.55) 65%,
+    rgba(255, 255, 255, 0.92) 88%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section-fade-from-black::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: clamp(220px, 35vh, 560px);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.08) 25%,
+    rgba(0, 0, 0, 0.28) 50%,
+    rgba(0, 0, 0, 0.6) 75%,
+    rgba(0, 0, 0, 0.88) 92%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Keep the diffuse subtle on small phones — at full height it would
+   eat half the visible content. Per user request: hide entirely on
+   mobile so the transition is just a clean section boundary. */
+@media (max-width: 640px) {
+  .section-fade-to-white::after,
+  .section-fade-from-white::before,
+  .section-fade-to-black::after,
+  .section-fade-from-black::before {
+    display: none !important;
+  }
+}
+
+/* ================================
+   GLOBAL MOBILE HEADER OFFSET
+   The header is `position: absolute` over the page. On home + hero pages
+   that's fine because the hero has its own full-height layout. On inner
+   pages (blog post, project detail, etc.) the page content can start at
+   y=0 and gets hidden behind the header. Push every <main> down by the
+   header height on mobile so the first heading is always visible.
+   Pages whose first child is a full-bleed hero (.hero-section, the home
+   hero with its own NeonGlobe) opt out automatically. */
+@media (max-width: 768px) {
+  main > :first-child:not(.hero-section):not(section[class*="h-screen"]) {
+    padding-top: 80px;
+  }
+}
+
+/* ================================
+   MOBILE COMPACTNESS — tighten section spacing
+   so more fits on the mobile viewport.
+================================ */
+@media (max-width: 640px) {
+  /* Halve the giant top/bottom padding on home sections */
+  .container.relative {
+    padding-top: 40px !important;
+  }
+
+  /* Tighten margin-bottom on the giant 50vh+ blocks — applies to any
+     element, not just <section>, since the home page uses these on
+     <div> wrappers around the video / stats blocks. */
+  [class*="mb-32"]:not(.no-mobile-compact) { margin-bottom: 1.5rem !important; }
+  [class*="mb-48"]:not(.no-mobile-compact) { margin-bottom: 2rem !important; }
+  [class*="mb-56"]:not(.no-mobile-compact) { margin-bottom: 2rem !important; }
+  [class*="mb-40"]:not(.no-mobile-compact) { margin-bottom: 1.75rem !important; }
+  [class*="mt-32"]:not(.no-mobile-compact) { margin-top: 1.5rem !important; }
+  [class*="mt-40"]:not(.no-mobile-compact) { margin-top: 1.75rem !important; }
+  [class*="mt-48"]:not(.no-mobile-compact) { margin-top: 2rem !important; }
+  [class*="mt-56"]:not(.no-mobile-compact) { margin-top: 2rem !important; }
+
+  /* Reduce huge gap classes between sections */
+  [class*="mt-24"] { margin-top: 1.5rem !important; }
+  [class*="mb-24"] { margin-bottom: 1.5rem !important; }
+  [class*="py-24"] { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  [class*="py-28"] { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  [class*="pt-24"] { padding-top: 2rem !important; }
+  [class*="pb-24"] { padding-bottom: 2rem !important; }
+  [class*="pt-28"] { padding-top: 2rem !important; }
+  [class*="pb-28"] { padding-bottom: 2rem !important; }
+
+  /* Generic over-padding fixers — keep more sections visible per scroll */
+  [class*="py-20"] { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+  [class*="pt-20"] { padding-top: 1.5rem !important; }
+  [class*="pb-20"] { padding-bottom: 1.5rem !important; }
+  [class*="py-16"] { padding-top: 1.25rem !important; padding-bottom: 1.25rem !important; }
+  [class*="pt-16"] { padding-top: 1.25rem !important; }
+  [class*="pb-16"] { padding-bottom: 1.25rem !important; }
+  [class*="py-12"] { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+  [class*="pt-12"] { padding-top: 1rem !important; }
+  [class*="pb-12"] { padding-bottom: 1rem !important; }
+  [class*="py-10"] { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+  [class*="mt-16"] { margin-top: 1.25rem !important; }
+  [class*="mb-16"] { margin-bottom: 1.25rem !important; }
+  [class*="mt-12"] { margin-top: 1rem !important; }
+  [class*="mb-12"] { margin-bottom: 1rem !important; }
+  [class*="mt-10"] { margin-top: 1rem !important; }
+  [class*="mb-10"] { margin-bottom: 1rem !important; }
+  [class*="mt-14"] { margin-top: 1.25rem !important; }
+  [class*="mb-14"] { margin-bottom: 1.25rem !important; }
+  [class*="gap-10"] { gap: 1rem !important; }
+  [class*="gap-12"] { gap: 1.25rem !important; }
+  [class*="gap-14"] { gap: 1.5rem !important; }
+  [class*="gap-16"] { gap: 1.75rem !important; }
+
+  /* Push hero content down so the heading clears the absolute-positioned
+     header (~80px tall) on mobile. Otherwise "Create. Lead." renders
+     partially behind the logo + hamburger row. */
+  .home-hero-section {
+    padding-top: 5rem !important;
+  }
+
+  /* Stats cards — hard cap mobile height so each tile is compact */
+  .stats-card-compact {
+    height: 140px !important;
+    min-height: 140px !important;
+    padding: 14px 10px !important;
+    gap: 6px !important;
+  }
+}
+
+/* Stats card compact — apply on every breakpoint as a baseline so
+   stat tiles never grow obscenely tall. */
+.stats-card-compact {
+  height: 180px !important;
+  min-height: 0 !important;
+  padding: 24px 16px !important;
+  gap: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media (max-width: 640px) {
+  .stats-card-compact {
+    height: 130px !important;
+    padding: 14px 10px !important;
+    gap: 4px !important;
+  }
+  .stats-card-compact h1 {
+    font-size: 26px !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+  }
+  .stats-card-compact p {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+  }
+}
+
+/* ================================
+   14-INCH / 16:10 LAPTOP OPTIMIZATION
+   1280×800, 1440×900, 1366×768 typical resolutions.
+   Compress vertical paddings so hero + first section fit
+   in one viewport, not the typical 2-screen scroll.
+================================ */
+@media (min-width: 1024px) and (max-width: 1500px) and (max-height: 900px) {
+  /* Slightly compress huge top paddings on the services section */
+  .pt-60 { padding-top: 9rem !important; } /* was 15rem */
+  .pt-44 { padding-top: 7rem !important; }
+  .py-28 { padding-top: 4rem !important; padding-bottom: 4rem !important; }
+  .py-24 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  .py-20 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  .pb-24 { padding-bottom: 3.5rem !important; }
+  /* Hero top-padding values — ensure they clear the absolute-positioned
+     header (~80px). Detail pages (services, portfolio, blog post, etc.)
+     use one of these classes for their first section. */
+  .pt-36 { padding-top: 6.5rem !important; }
+  .pt-32 { padding-top: 6rem !important; }
+  .pt-28 { padding-top: 5.5rem !important; }
+  .pt-24 { padding-top: 5rem !important; }
+  .pt-20 { padding-top: 4.5rem !important; }
+
+  /* Bring the home hero a bit tighter so the first scroll feels efficient */
+  .home-hero-section { padding-top: 4rem; padding-bottom: 4rem; }
+}
+
+/* ================================
+   16:10 ASPECT-RATIO OPTIMIZATION  (NEW)
+   Targets the actual 16:10 screen shape (1280×800, 1440×900,
+   1680×1050, 1920×1200, 2560×1600). The previous block keyed on
+   height alone which missed taller 16:10 screens like 1920×1200.
+   Uses CSS `aspect-ratio` media feature where supported.
+================================ */
+@media (min-aspect-ratio: 16/10) and (max-aspect-ratio: 16/9) and (min-width: 1024px) {
+  /* Tighten huge vertical paddings so the hero + next section fit
+     cleanly above the fold on 16:10 displays. */
+  .pt-60 { padding-top: 8rem !important; }
+  .pt-44 { padding-top: 6rem !important; }
+  .pt-40 { padding-top: 5.5rem !important; }
+  .py-32 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+  .py-28 { padding-top: 4.25rem !important; padding-bottom: 4.25rem !important; }
+  .py-24 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  .md\:py-28 { padding-top: 4.25rem !important; padding-bottom: 4.25rem !important; }
+  .md\:py-24 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  .md\:pt-40 { padding-top: 5.5rem !important; }
+  .md\:pt-36 { padding-top: 5rem !important; }
+
+  /* Section margins */
+  .md\:mb-48 { margin-bottom: 6rem !important; }
+  .md\:mb-32 { margin-bottom: 4rem !important; }
+  .md\:mt-40 { margin-top: 5rem !important; }
+  .md\:mt-32 { margin-top: 4rem !important; }
+  .md\:mt-28 { margin-top: 3.5rem !important; }
+  .md\:mt-20 { margin-top: 2.5rem !important; }
+
+  /* Containers — keep generous side gutters but not so wide they shrink
+     content into a narrow column on small 16:10 laptops */
+  .container {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+
+  /* Hero / section heading sizing — clamp huge h1s on smaller 16:10s
+     so they don't fill the entire viewport */
+  h1.h1-large { --h1-size: 96px; }
+  .h1-large-color { font-size: 100px; }
+}
+
+/* On larger 16:10 screens (≥1600px wide) keep proportions roomier */
+@media (min-aspect-ratio: 16/10) and (max-aspect-ratio: 16/9) and (min-width: 1600px) {
+  .container { padding-left: 120px; padding-right: 120px; }
+  h1.h1-large { --h1-size: 120px; }
+  .h1-large-color { font-size: 140px; }
+}
+
+/* ================================
+   16:9 + ULTRAWIDE (≥ 16:9 ratio)
+   Keep things from looking lost in the middle on wide monitors.
+================================ */
+@media (min-aspect-ratio: 16/9) and (min-width: 1600px) {
+  .container { max-width: 1620px; }
+}
+@media (min-aspect-ratio: 21/9) and (min-width: 1900px) {
+  .container { max-width: 1720px; }
+}
+
+/* ================================
+   GENERAL DESKTOP HEIGHT COMPRESSION
+   Any viewport shorter than 820px gets the same tightening so
+   13"/14" 16:10 laptops never need three screens to read one section.
+================================ */
+@media (min-width: 1024px) and (max-height: 820px) {
+  .home-hero-section { padding-top: 3rem; padding-bottom: 3rem; }
+  section.hero-section { padding-top: 4rem; padding-bottom: 4rem; }
+  .pt-32 { padding-top: 5rem !important; }
+  .pt-28 { padding-top: 4.5rem !important; }
+  .pt-24 { padding-top: 4rem !important; }
+  .py-28 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  .py-24 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+}
