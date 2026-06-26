@@ -1,5 +1,6 @@
 import React from "react";
-import TestimonialsSection from "./TestimonialsSection";
+// TEMP: testimonials are hidden site-wide. Restore the import + render below to bring them back.
+// import TestimonialsSection from "./TestimonialsSection";
 import FeaturedProjectsSection from "./FeaturedProjectsSection";
 
 interface Props {
@@ -24,13 +25,19 @@ interface Props {
  */
 const PreCtaSections: React.FC<Props> = ({
   testimonialsOnly = false,
-  testimonialsTitle,
+  // testimonialsTitle is unused while testimonials are hidden; kept for API stability.
+  testimonialsTitle: _testimonialsTitle,
   featuredTitle,
 }) => {
+  // TEMP: testimonials hidden site-wide. When a page asked for testimonials
+  // only (e.g. the Team page), there is nothing left to render, so render
+  // nothing rather than an empty styled block.
+  if (testimonialsOnly) return null;
+
   return (
     <div className="relative w-full bg-[#000202] text-white allow-internal-scroll overflow-hidden">
-      <TestimonialsSection title={testimonialsTitle} />
-      {!testimonialsOnly && <FeaturedProjectsSection title={featuredTitle} />}
+      {/* TEMP: testimonials hidden. Restore: <TestimonialsSection title={testimonialsTitle} /> */}
+      <FeaturedProjectsSection title={featuredTitle} />
     </div>
   );
 };

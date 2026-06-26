@@ -24,6 +24,9 @@ import FadeIn from "@/transitions/FadeIn.tsx";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 import { useCMS } from "@/hooks/useCMS";
 
+// TEMP: testimonials are hidden site-wide. Flip back to `true` to restore.
+const SHOW_TESTIMONIALS = false;
+
 interface Testimonial {
   id?: number | string;
   name: string;
@@ -149,6 +152,7 @@ const PortfolioSection = () => {
   return (
     <div className="relative w-full bg-[#000202] text-white pt-2 allow-internal-scroll overflow-hidden">
       {/* === PROVEN RESULTS FIRST (per brief) === */}
+      {SHOW_TESTIMONIALS && (
       <div
         className="relative w-full bg-[#000202] pb-16 pt-12"
         style={{
@@ -202,6 +206,7 @@ const PortfolioSection = () => {
           </div>
         </section>
       </div>
+      )}
 
       {/* === FEATURED PROJECTS (one-liner with arrows; bg uses 22 Signals logo) === */}
       <div
