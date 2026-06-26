@@ -1,12 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useSpring,
-  type Variants,
-} from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import Framed from "@/assets/DigitalIcon.png";
 import CreativeIcon from "@/assets/creativeicon.png";
 import Stafficon from "@/assets/staffIcon.png";
@@ -15,7 +9,8 @@ import SliderComponent from "@/components/Slider.tsx";
 
 import ScrollLineBottom from "./ScrollLineBottom.js";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
-import Video from "./video.tsx";
+// NOTE: the video reel showcase is removed for now (no reel available yet).
+// `./video.tsx` is kept in the repo so it can be restored later.
 import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
@@ -194,70 +189,13 @@ const fadeUp: Variants = {
   },
 };
 
+// VideoShowcase — the reel/video showcase has been removed (no reel available
+// yet). All showcase chrome (the "Watch our showcase" eyebrow, the giant "022"
+// reel numeral, the scroll cue, the decorative rule, the <Video/> frame and the
+// vertical connector) is gone; only the headline remains.
 const VideoShowcase: React.FC = () => {
-  const sectionRef = useRef<HTMLDivElement>(null);
-
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end start"],
-  });
-  const progress = useSpring(scrollYProgress, {
-    stiffness: 90,
-    damping: 22,
-    mass: 0.4,
-  });
-
-  const orbAY = useTransform(progress, [0, 1], ["-30%", "40%"]);
-  const orbBY = useTransform(progress, [0, 1], ["35%", "-25%"]);
-  const numeralY = useTransform(progress, [0, 1], ["10%", "-25%"]);
-  const numeralX = useTransform(progress, [0, 1], ["-3%", "5%"]);
-  const numeralScale = useTransform(progress, [0, 0.4, 1], [0.7, 1.05, 1.15]);
-  const numeralOpacity = useTransform(
-    progress,
-    [0, 0.2, 0.8, 1],
-    [0, 0.08, 0.06, 0]
-  );
-
-  const connectorScale = useTransform(progress, [0.45, 0.85], [0, 1]);
-  const ruleScaleX = useTransform(progress, [0, 0.3], [0, 1]);
-
   return (
-    // overflow-hidden lives HERE now (not on the section) so orbs are clipped
-    // within the showcase, but the line below can still bleed to viewport edges.
-    <div
-      ref={sectionRef}
-      className="relative w-full overflow-hidden"
-    >
-      {/* Huge faded reel numeral */}
-      <motion.div
-        aria-hidden
-        initial={{ opacity: 0, scale: 0.7 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, margin: "-15%" }}
-        transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-        className="pointer-events-none select-none absolute inset-x-0 top-[14%] flex justify-center z-0"
-      >
-        <motion.span
-          style={{
-            y: numeralY,
-            x: numeralX,
-            scale: numeralScale,
-            opacity: numeralOpacity,
-            fontSize: "clamp(200px, 30vw, 520px)",
-            color: "transparent",
-            WebkitTextStroke: "1px rgba(50,95,236,0.45)",
-            letterSpacing: "-0.04em",
-            display: "inline-block",
-          }}
-          className="font-thin leading-[0.85] tracking-tighter"
-        >
-          022
-        </motion.span>
-      </motion.div>
-
-      {/* Ambient orbs removed — was causing a soft blue glow behind the headline */}
-
-      {/* FOREGROUND */}
+    <div className="relative w-full overflow-hidden">
       <motion.div
         variants={containerStagger}
         initial="hidden"
@@ -265,74 +203,6 @@ const VideoShowcase: React.FC = () => {
         viewport={{ once: true, amount: 0.15 }}
         className="relative z-10"
       >
-        {/* Eyebrow row */}
-        <div className="flex items-center justify-between gap-4 mb-8 md:mb-12">
-          <motion.div variants={fadeUp} className="flex items-center gap-3">
-            <span
-              className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-[10px] tracking-[0.32em] uppercase"
-              style={{
-                border: "1px solid rgba(50,95,236,0.4)",
-                color: "rgba(50,95,236,0.95)",
-                background: "rgba(50,95,236,0.04)",
-                backdropFilter: "blur(6px)",
-              }}
-            >
-              <motion.span
-                aria-hidden
-                animate={{ scale: [1, 1.4, 1], opacity: [0.7, 1, 0.7] }}
-                transition={{
-                  duration: 1.8,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-                className="inline-block w-1.5 h-1.5 rounded-full"
-                style={{ background: "#325FEC" }}
-              />
-              Watch our showcase
-            </span>
-            <span
-              className="hidden md:inline text-[10px] tracking-[0.32em] uppercase"
-              style={{ color: "rgba(10,21,48,0.45)" }}
-            >
-              Reel 022 / 2024
-            </span>
-          </motion.div>
-
-          <motion.div
-            variants={fadeUp}
-            className="hidden md:flex items-center gap-2 text-[10px] tracking-[0.32em] uppercase"
-            style={{ color: "rgba(10,21,48,0.55)" }}
-          >
-            <span>scroll</span>
-            <motion.span
-              animate={{ y: [0, 6, 0] }}
-              transition={{
-                duration: 1.6,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-              className="inline-block"
-            >
-              ↓
-            </motion.span>
-          </motion.div>
-        </div>
-
-        {/* Decorative rule */}
-        <motion.div
-          style={{ scaleX: ruleScaleX, transformOrigin: "left center" }}
-          className="relative h-px w-full mb-12 md:mb-16"
-          aria-hidden
-        >
-          <div
-            className="w-full h-full"
-            style={{
-              background:
-                "linear-gradient(90deg, rgba(50,95,236,0) 0%, rgba(50,95,236,0.55) 25%, rgba(10,21,48,0.5) 60%, rgba(50,95,236,0) 100%)",
-            }}
-          />
-        </motion.div>
-
         {/* HEADLINE */}
         <motion.div variants={fadeUp} style={{ textAlign: "center" }}>
           <h1
@@ -354,44 +224,6 @@ const VideoShowcase: React.FC = () => {
             </span>
           </h1>
         </motion.div>
-
-        {/* Lead paragraph removed per request */}
-
-        {/* Video frame */}
-        <motion.div variants={fadeUp} className="mt-12 md:mt-16 relative">
-          <div className="relative z-10">
-            <Video />
-          </div>
-        </motion.div>
-
-        {/* Vertical connector */}
-        <div className="relative flex justify-center mt-10 md:mt-12">
-          <motion.div
-            style={{ scaleY: connectorScale, transformOrigin: "top center" }}
-            className="w-px h-20 md:h-28"
-            aria-hidden
-          >
-            <div
-              className="w-full h-full"
-              style={{
-                background:
-                  "linear-gradient(180deg, #325FEC 0%, #325FEC 60%, rgba(50,95,236,0) 100%)",
-              }}
-            />
-          </motion.div>
-          <motion.div
-            aria-hidden
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-5%" }}
-            transition={{ duration: 0.4, delay: 0.4 }}
-            className="absolute left-1/2 -translate-x-1/2 bottom-0 w-2 h-2 rounded-full"
-            style={{
-              background: "#325FEC",
-              boxShadow: "0 0 0 6px rgba(50,95,236,0.15)",
-            }}
-          />
-        </div>
       </motion.div>
     </div>
   );
