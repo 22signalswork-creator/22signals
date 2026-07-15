@@ -15,6 +15,8 @@ import Readdetails from "./pages/r&d/r&d.tsx";
 import Blog from "./pages/blog/blog.tsx";
 import Contact from "./pages/contact/contact.tsx";
 import ThankYou from "./pages/thank-you/thank-you.tsx";
+import PrivacyPolicy from "./pages/legal/PrivacyPolicy.tsx";
+import TermsOfService from "./pages/legal/TermsOfService.tsx";
 import Preloader from "./layout/Preloader.tsx";
 import Test from "./pages/test.tsx";
 import ProjectDetailPagesAdmin from "./admin/pages/ProjectDetailPagesAdmin";
@@ -86,6 +88,8 @@ const PublicLayout = ({ children }: { children: React.ReactNode }) => {
         return "light";
       case "/contact":
       case "/thank-you":
+      case "/privacy-policy":
+      case "/terms-of-service":
         return "light";
       default:
         return "dark";
@@ -172,6 +176,8 @@ const AppShell = ({
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/test" element={<Test />} />
           <Route path="/portfolio/:slug" element={<ProjectDetailPage />} />
         </Routes>

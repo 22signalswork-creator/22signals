@@ -172,9 +172,9 @@ const Footer = () => {
             <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Legal</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
-                <li><a href="#" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Copyright</a></li>
-                <li><a href="#" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Email Address</a></li>
+                <li><Link to="/privacy-policy" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Privacy Policy</Link></li>
+                <li><Link to="/terms-of-service" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Terms of Service</Link></li>
+                <li><a href={`mailto:${email}`} className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">{email}</a></li>
               </ul>
             </motion.div>
 
@@ -212,8 +212,8 @@ const Footer = () => {
         <div className="container mx-auto px-6 md:px-12 lg:px-20 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-4 text-xs text-gray-500 text-left">
           <span>© {year} 22Signals. All rights reserved.</span>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
+            <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
+            <Link to="/terms-of-service" className="hover:text-white transition-colors">Terms</Link>
           </div>
         </div>
       </motion.div>
