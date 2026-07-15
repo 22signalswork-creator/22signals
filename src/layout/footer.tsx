@@ -25,9 +25,9 @@ interface Setting {
 
 // Defaults — used until rows are inserted into `site_settings`
 const FALLBACK_SETTINGS: Setting[] = [
-  { key: "phone", value: "(406) 555-0120" },
-  { key: "email", value: "Hey@22signals.com" },
-  { key: "address", value: "2972 Westheimer Rd. Santa Ana, Illinois 85486" },
+  { key: "phone", value: "+44 7944 603108" },
+  { key: "email", value: "contact@22signals.com" },
+  { key: "address", value: "120 G, 8 G Block, DHA Phase 8 Ex Park View, Lahore, Pakistan" },
   { key: "copyright_year", value: "2026" },
 ];
 
@@ -42,9 +42,9 @@ const Footer = () => {
   const get = (key: string, fallback = "") =>
     settings.find((s) => s.key === key)?.value ?? fallback;
 
-  const phone = get("phone", "(406) 555-0120");
-  const email = get("email", "Hey@22signals.com");
-  const address = get("address", "2972 Westheimer Rd. Santa Ana, Illinois 85486");
+  const phone = get("phone", "+44 7944 603108");
+  const email = get("email", "contact@22signals.com");
+  const address = get("address", "120 G, 8 G Block, DHA Phase 8 Ex Park View, Lahore, Pakistan");
   const year = get("copyright_year", "2026");
 
   const containerVariants = {
@@ -210,7 +210,7 @@ const Footer = () => {
         className="w-full border-t border-[rgba(80,76,255,1)] bg-black"
       >
         <div className="container mx-auto px-6 md:px-12 lg:px-20 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-4 text-xs text-gray-500 text-left">
-          <span>© {year} 22Signals. All rights reserved.</span>
+          <span>© {year} 22 Signals. All rights reserved.</span>
           <div className="flex gap-8">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
             <Link to="/terms-of-service" className="hover:text-white transition-colors">Terms</Link>
