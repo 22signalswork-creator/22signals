@@ -48,6 +48,19 @@ const extractYouTubeId = (url: string): string | null => {
 const isDirectVideoFile = (url: string): boolean =>
   /\.(mp4|webm|mov|m4v|ogg)(\?.*)?$/i.test(url.trim());
 
+/* Year shown on the reel's overlay labels. Derived from the clock rather than
+ * hardcoded so it can't go stale the way the old "2024" literals did.
+ * Exported so the showcase eyebrow in ServicesSection stays in step. */
+export const REEL_YEAR = new Date().getFullYear();
+
+/** Seconds → "mm:ss". Returns "" when the duration isn't known yet. */
+const formatDuration = (secs: number): string => {
+  if (!Number.isFinite(secs) || secs <= 0) return "";
+  const m = Math.floor(secs / 60);
+  const s = Math.floor(secs % 60);
+  return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+};
+
 /* ── Cross-vendor fullscreen helpers ───────────────────────────────── */
 
 type FsDocument = Document & {
@@ -174,6 +187,14 @@ const Video: React.FC = () => {
   const [tilt, setTilt] = useState({ rx: 0, ry: 0 });
   const [playOffset, setPlayOffset] = useState({ x: 0, y: 0 });
 
+  // Real runtime, read off the file's metadata once it loads.
+  const [duration, setDuration] = useState(0);
+
+  // Gate the download until the frame is near the viewport. The reel is a
+  // multi-megabyte file served from Supabase Storage, so eagerly fetching it
+  // for visitors who never scroll this far burns egress for nothing.
+  const [hasEnteredView, setHasEnteredView] = useState(false);
+
   useEffect(() => {
     let cancelled = false;
     supabase
@@ -194,6 +215,30 @@ const Video: React.FC = () => {
     const t = setTimeout(() => setIntroVisible(false), 1500);
     return () => clearTimeout(t);
   }, []);
+
+  useEffect(() => {
+    if (hasEnteredView) return;
+    const el = frameRef.current;
+    if (!el) return;
+    // No observer (old browsers, SSR shims) → just load it.
+    if (typeof IntersectionObserver === "undefined") {
+      setHasEnteredView(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setHasEnteredView(true);
+          io.disconnect();
+        }
+      },
+      // Start fetching slightly before the frame scrolls in, so the reel is
+      // ready by the time it's actually on screen.
+      { rootMargin: "300px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [hasEnteredView]);
 
   const sendInlineCommand = useCallback(
     (cmd: "playVideo" | "pauseVideo") => {
@@ -273,6 +318,10 @@ const Video: React.FC = () => {
     extractYouTubeId(videoUrl) ?? (videoUrl ? null : FALLBACK_YOUTUBE_ID);
   const directFile = isDirectVideoFile(videoUrl) ? videoUrl : null;
 
+  // Only known for direct files — the YouTube embed doesn't expose it, so the
+  // label is dropped entirely rather than showing an invented runtime.
+  const durationLabel = formatDuration(duration);
+
   const ytInlineSrc =
     youTubeId &&
     `https://www.youtube-nocookie.com/embed/${youTubeId}` +
@@ -341,13 +390,16 @@ const Video: React.FC = () => {
                   ? "absolute inset-0 w-full h-full object-contain"
                   : "absolute inset-0 w-full h-full object-cover pointer-events-none"
               }
-              src={directFile}
+              src={hasEnteredView ? directFile : undefined}
               autoPlay
               muted={!isFullscreen}
               loop={!isFullscreen}
               controls={isFullscreen}
               playsInline
-              preload="auto"
+              preload="none"
+              onLoadedMetadata={(e) =>
+                setDuration(e.currentTarget.duration)
+              }
             />
           ) : ytInlineSrc ? (
             <iframe
@@ -455,7 +507,7 @@ const Video: React.FC = () => {
                     className="inline-block w-1.5 h-1.5 rounded-full"
                     style={{ background: "#ff3d3d" }}
                   />
-                  Live · 2024
+                  Live · {REEL_YEAR}
                 </span>
               </motion.div>
 
@@ -514,28 +566,29 @@ const Video: React.FC = () => {
                     textShadow: "0 2px 8px rgba(0,0,0,0.4)",
                   }}
                 >
-                  Reel 022 · Showcase 2024
+                  Reel 022 · Showcase {REEL_YEAR}
                 </span>
               </motion.div>
 
-              {/* BOTTOM-RIGHT label */}
-              <motion.div
-                initial={{ opacity: 0, x: 16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute bottom-4 right-4 md:bottom-5 md:right-5 z-10 pointer-events-none"
-              >
-                <span
-                  className="inline-flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase"
-                  style={{
-                    color: "rgba(255,255,255,0.85)",
-                    textShadow: "0 2px 8px rgba(0,0,0,0.4)",
-                  }}
+              {/* BOTTOM-RIGHT label — real runtime, once metadata has loaded */}
+              {durationLabel && (
+                <motion.div
+                  initial={{ opacity: 0, x: 16 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                  className="absolute bottom-4 right-4 md:bottom-5 md:right-5 z-10 pointer-events-none"
                 >
-                  02:15
-                </span>
-              </motion.div>
+                  <span
+                    className="inline-flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase"
+                    style={{
+                      color: "rgba(255,255,255,0.85)",
+                      textShadow: "0 2px 8px rgba(0,0,0,0.4)",
+                    }}
+                  >
+                    {durationLabel}
+                  </span>
+                </motion.div>
+              )}
 
               {/* Centered play button — appears on hover, magnetic + rotating ring */}
               <AnimatePresence>

@@ -23,11 +23,19 @@ interface Setting {
   type?: string;
 }
 
-// Defaults — used until rows are inserted into `site_settings`
+// Contact details hidden temporarily — the company is remote, so there is no
+// office address to publish. Flip these back to `true` to show the rows again;
+// they render whatever `site_settings` holds for those keys.
+const SHOW_PHONE = false;
+const SHOW_ADDRESS = false;
+
+// Defaults — used until rows are inserted into `site_settings`.
+// Phone and address are intentionally blank rather than hardcoded: the
+// literals would otherwise ship in the public JS bundle even while hidden.
 const FALLBACK_SETTINGS: Setting[] = [
-  { key: "phone", value: "+44 7944 603108" },
+  { key: "phone", value: "" },
   { key: "email", value: "contact@22signals.com" },
-  { key: "address", value: "120 G, 8 G Block, DHA Phase 8 Ex Park View, Lahore, Pakistan" },
+  { key: "address", value: "" },
   { key: "copyright_year", value: "2026" },
 ];
 
@@ -42,9 +50,9 @@ const Footer = () => {
   const get = (key: string, fallback = "") =>
     settings.find((s) => s.key === key)?.value ?? fallback;
 
-  const phone = get("phone", "+44 7944 603108");
+  const phone = get("phone");
   const email = get("email", "contact@22signals.com");
-  const address = get("address", "120 G, 8 G Block, DHA Phase 8 Ex Park View, Lahore, Pakistan");
+  const address = get("address");
   const year = get("copyright_year", "2026");
 
   const containerVariants = {
@@ -182,20 +190,24 @@ const Footer = () => {
             <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Contact</h4>
               <ul className="space-y-4">
-                <li className="flex items-center justify-start gap-3 group">
-                  <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-400 text-sm">{phone}</span>
-                </li>
+                {SHOW_PHONE && (
+                  <li className="flex items-center justify-start gap-3 group">
+                    <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                    <span className="text-gray-400 text-sm">{phone}</span>
+                  </li>
+                )}
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   <span className="text-gray-400 text-sm">{email}</span>
                 </li>
-                <li className="flex items-start justify-start gap-3 group">
-                  <img src={Frame3} alt="" className="w-6 h-6 mt-1 group-hover:rotate-12 transition-transform" />
-                  <span className="text-gray-400 text-sm max-w-[260px]">
-                    {address}
-                  </span>
-                </li>
+                {SHOW_ADDRESS && (
+                  <li className="flex items-start justify-start gap-3 group">
+                    <img src={Frame3} alt="" className="w-6 h-6 mt-1 group-hover:rotate-12 transition-transform" />
+                    <span className="text-gray-400 text-sm max-w-[260px]">
+                      {address}
+                    </span>
+                  </li>
+                )}
               </ul>
             </motion.div>
           </div>

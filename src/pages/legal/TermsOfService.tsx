@@ -137,8 +137,6 @@ const TermsOfService: React.FC = () => {
           22 Signals
           <br />
           Email: <a className="text-[#6B92FF] hover:underline" href="mailto:contact@22signals.com">contact@22signals.com</a>
-          <br />
-          Address: 120 G, 8 G Block, DHA Phase 8 Ex Park View, Lahore, Pakistan
         </p>
       </LegalSection>
     </LegalLayout>

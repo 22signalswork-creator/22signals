@@ -15,7 +15,7 @@ import SliderComponent from "@/components/Slider.tsx";
 
 import ScrollLineBottom from "./ScrollLineBottom.js";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
-import Video from "./video.tsx";
+import Video, { REEL_YEAR } from "./video.tsx";
 import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
@@ -294,7 +294,7 @@ const VideoShowcase: React.FC = () => {
               className="hidden md:inline text-[10px] tracking-[0.32em] uppercase"
               style={{ color: "rgba(10,21,48,0.45)" }}
             >
-              Reel 022 / 2024
+              Reel 022 / {REEL_YEAR}
             </span>
           </motion.div>
 

@@ -9,20 +9,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- **Homepage:** removed the video reel showcase from the services hero. There
-  is no reel available yet, so the embedded template video and all of its
-  surrounding chrome have been removed, leaving only the headline
-  _"We translate complex challenges into tangible data driven results."_
-  Removed elements:
-  - the `<Video/>` reel frame
-  - the "Watch our showcase" / "Reel 022 / 2024" eyebrow row
-  - the giant faded "022" reel numeral
-  - the "scroll ↓" cue
-  - the decorative rule above the headline
-  - the vertical connector below the reel
+- **Homepage:** restored the video reel showcase in the services hero, now that
+  a reel is available. The `<Video/>` frame, the "Watch our showcase" eyebrow,
+  the giant "022" reel numeral, the scroll cue, the decorative rule and the
+  vertical connector are all back. The reel source is driven by the
+  `home_video_url` row in `site_settings` (Admin → Site Settings), which
+  accepts either a YouTube link or a direct `.mp4` URL.
 
-  The `src/pages/home/components/video.tsx` component is kept in the repo (no
-  longer imported) so the reel can be restored once a video is available.
+- **Reel loads lazily.** The `<video>` element now uses `preload="none"` and
+  only receives its `src` once an `IntersectionObserver` reports the frame is
+  within 300px of the viewport. The reel is a multi-megabyte file served from
+  Supabase Storage, and the previous `preload="auto"` fetched all of it on
+  page load even for visitors who never scrolled that far.
+
+- **Reel overlay labels no longer hardcoded.** "Live · 2024" and
+  "Reel 022 · Showcase 2024" now derive their year from the clock via the
+  exported `REEL_YEAR`, and the runtime badge reads the real duration from the
+  video's metadata instead of a fixed "02:15" — it is hidden entirely for
+  YouTube sources, which don't expose a duration.
+
+### Hidden (temporary)
+
+- **Phone number and office address removed site-wide.** The company is
+  remote, so there is no office address to publish.
+  - Footer contact column now shows only the email address, behind
+    `SHOW_PHONE` / `SHOW_ADDRESS` flags in `src/layout/footer.tsx`. Their
+    hardcoded fallbacks are blanked too, so the literals no longer ship in
+    the public JS bundle — flipping a flag renders whatever `site_settings`
+    holds for that key.
+  - The "Contact us" blocks on the Privacy Policy and Terms of Service pages
+    now list the company name and email only.
+  - Governing law and the registered-entity references ("registered in
+    Lahore, Pakistan", "courts of Lahore, Pakistan") are deliberately kept —
+    those are jurisdiction clauses, not a mailing address.
+
+  The `phone` and `address` rows still exist in `site_settings` and remain
+  publicly readable through the anon key. Clear them from Admin → Site
+  Settings if the values should be gone entirely.
 
 ### Hidden (temporary)
 
