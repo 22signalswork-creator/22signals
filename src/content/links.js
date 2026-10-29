@@ -43,7 +43,12 @@ export function linkBlocks(page, manifest) {
     if (r) add(`Cities we serve in ${REGION_LABELS[r]}`, CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
   if (page.kind === "locations-index") {
-    for (const r of ["us", "uk", "uae", "pk"])
+    add("Regions", [
+      { path: "/united-states", label: "United States" },
+      { path: "/united-kingdom", label: "United Kingdom" },
+      { path: "/uae", label: "UAE" },
+    ]);
+    for (const r of ["us", "uk", "uae"])
       add(REGION_LABELS[r], CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
   if (page.kind === "industry") add("Services", SERVICES.slice(0, 12).map((s) => ({ path: s.path, label: s.label })));

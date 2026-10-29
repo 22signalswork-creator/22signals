@@ -132,7 +132,7 @@ const RDResearchDetailPage: React.FC = () => {
     <>
       {/* HERO */}
       <section
-        className="relative pt-28 md:pt-36 pb-16 overflow-hidden"
+        className="relative pt-40 md:pt-48 pb-16 overflow-hidden"
         style={{
           background:
             "linear-gradient(135deg, #050A18 0%, #0E1628 55%, #1a3392 130%)",

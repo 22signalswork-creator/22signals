@@ -19,9 +19,9 @@ const gen = (p) => { if (!byPath.has(p.path)) byPath.set(p.path, p); };
 gen({
   path: "/locations", kind: "locations-index", region: "global",
   title: "Locations: Where 22 Signals Works | 22 Signals",
-  description: "22 Signals works with companies across the United States, the United Kingdom, the UAE and Pakistan. Find services in your city.",
+  description: "22 Signals works with companies across the United States, the United Kingdom and the UAE. Find the services and team for your region.",
   eyebrow: "Locations", h1: "Where we work",
-  intro: `Our head office is in London and we work with companies in ${CITIES.length} cities across the United States, the United Kingdom, the UAE and Pakistan. Every city has the same model: one accountable lead, specialist teams behind them and dates agreed in writing.`,
+  intro: "We work with companies across the United States, the United Kingdom and the UAE, with one accountable lead, specialist teams behind them and dates agreed in writing.",
   sections: [], faqs: [], related: [],
 });
 gen({

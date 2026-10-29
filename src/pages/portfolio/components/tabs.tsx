@@ -12,7 +12,7 @@ import "../../services/work.css";
  * empty or unreachable, so the site keeps working during migration.
  */
 
-interface DetailRow {
+export interface DetailRow {
   slug: string;
   client_name: string;
   card_text: string | null;
@@ -50,6 +50,22 @@ const TABS = [
   "Game Development",
   "Trading & Investments (Coming Soon)",
 ];
+
+/** Active portfolio entries (the real case studies), in sort order. */
+export function usePortfolioRows(): DetailRow[] {
+  const [rows, setRows] = useState<DetailRow[]>([]);
+  useEffect(() => {
+    supabase
+      .from("project_detail_pages")
+      .select("slug, client_name, card_text, category, cover_image, tags, sort_order")
+      .eq("is_active", true)
+      .order("sort_order", { ascending: true })
+      .then(({ data }) => {
+        if (data) setRows(data as DetailRow[]);
+      });
+  }, []);
+  return rows;
+}
 
 const Tabs: React.FC<TabsProps> = ({ projects: fallback = [] }) => {
   const [activeTab, setActiveTab] = useState<string>("All");
@@ -200,107 +216,63 @@ const TagChip: React.FC<{ label: string }> = ({ label }) => (
   </span>
 );
 
-const DetailCard: React.FC<{ row: DetailRow }> = ({ row }) => {
+export const DetailCard: React.FC<{ row: DetailRow }> = ({ row }) => {
   const tags = parseTags(row.tags);
 
+  // Image in its own framed area on top, text below: nothing overlaps.
   return (
-  <Link
-    to={`/portfolio/${row.slug}`}
-    className="block group no-underline"
-    style={{ textDecoration: "none" }}
-  >
-    {/* Desktop */}
-    <div
-      className="glass-card rounded-2xl relative overflow-hidden my-4 min-h-[307px] h-auto md:h-[307px] w-full md:mr-4 p-4 md:p-6 grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-4 md:gap-6 items-center hidden md:grid transition-transform duration-300 group-hover:-translate-y-1"
-      style={{ background: gradientBg }}
+    <Link
+      to={`/portfolio/${row.slug}`}
+      className="block group no-underline my-4 h-[calc(100%-2rem)]"
+      style={{ textDecoration: "none" }}
     >
-      {row.cover_image && (
-        <div
-          className="absolute bottom-0 md:left-auto md:translate-x-6 md:right-0 z-0 pointer-events-none"
-          style={{
-            backgroundImage: `url(${row.cover_image})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center bottom",
-            backgroundSize: "contain",
-            width: "100%",
-            maxWidth: "400px",
-            height: "200px",
-          }}
-        />
-      )}
-
-      <div className="flex flex-col justify-between h-full relative z-10">
-        <div className="flex flex-col gap-3 sm:gap-4 md:gap-[20px] pt-2 md:pt-[10px]">
-          {row.category && <span className="badge">{row.category}</span>}
-          <h2 className="recentproject-title">{row.client_name}</h2>
-          {tags.length > 0 && (
-            <div className="flex flex-wrap gap-1.5">
-              {tags.slice(0, 4).map((t) => (
-                <TagChip key={t} label={t} />
-              ))}
-            </div>
-          )}
-        </div>
-        {row.card_text && (
-          <p className="mt-2 sm:mt-3 md:mt-2">{row.card_text}</p>
-        )}
-      </div>
-
-      <div className="flex flex-col items-end justify-start space-y-2 md:space-y-4 relative z-10">
-        <div
-          className="flex items-center justify-center w-12 h-12 rounded-full transition-transform duration-300 group-hover:rotate-45"
-          style={{
-            background: "rgba(255,255,255,0.10)",
-            border: "1px solid rgba(255,255,255,0.20)",
-            color: "#ffffff",
-            fontSize: "18px",
-          }}
-        >
-          ↗
-        </div>
-      </div>
-    </div>
-
-    {/* Mobile */}
-    <div className="block md:hidden">
       <div
-        className="glass-card rounded-2xl relative overflow-hidden my-4 px-4 pt-6 flex flex-col gap-3"
+        className="glass-card rounded-2xl relative overflow-hidden h-full flex flex-col p-4 md:p-5 transition-transform duration-300 group-hover:-translate-y-1"
         style={{ background: gradientBg }}
       >
-        <div className="flex flex-col gap-2">
-          {row.category && <span className="badge">{row.category}</span>}
-          <h2 className="recentproject-title">{row.client_name}</h2>
-          {tags.length > 0 && (
-            <div className="flex flex-wrap gap-1.5">
-              {tags.slice(0, 4).map((t) => (
-                <TagChip key={t} label={t} />
-              ))}
-            </div>
+        <div className="relative rounded-xl overflow-hidden" style={{ aspectRatio: "16 / 9", background: "#0b1222", border: "1px solid rgba(80,140,255,0.2)" }}>
+          {row.cover_image ? (
+            <img
+              src={row.cover_image}
+              alt={`${row.client_name}: work by 22 Signals`}
+              loading="lazy"
+              className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
+            />
+          ) : (
+            <div
+              className="w-full h-full"
+              style={{ background: "radial-gradient(circle at 30% 30%, rgba(80,140,255,0.35), transparent 55%), radial-gradient(circle at 70% 70%, rgba(50,95,236,0.3), transparent 55%)" }}
+            />
           )}
-          {row.card_text && <p className="mt-1">{row.card_text}</p>}
           <div
-            className="absolute top-6 right-2 w-10 h-10 flex items-center justify-center rounded-full"
-            style={{
-              background: "rgba(255,255,255,0.10)",
-              border: "1px solid rgba(255,255,255,0.20)",
-              color: "#ffffff",
-            }}
+            className="absolute top-3 right-3 flex items-center justify-center w-11 h-11 rounded-full transition-transform duration-300 group-hover:rotate-45"
+            style={{ background: "rgba(5,10,24,0.65)", border: "1px solid rgba(255,255,255,0.25)", color: "#ffffff", fontSize: "18px", backdropFilter: "blur(6px)" }}
           >
             ↗
           </div>
         </div>
-        {row.cover_image && (
-          <div className="relative flex justify-center mt-2">
-            <img
-              src={row.cover_image}
-              alt={row.client_name}
-              className="w-full max-w-[500px] h-auto object-contain"
-            />
+
+        <div className="flex flex-col gap-3 pt-5 px-1 md:px-2 pb-2 flex-grow">
+          <div className="flex flex-wrap items-center gap-2">
+            {row.category && <span className="badge">{row.category}</span>}
+            {tags.slice(0, 3).map((t) => (
+              <TagChip key={t} label={t} />
+            ))}
           </div>
-        )}
+          <h2 className="recentproject-title" style={{ margin: 0 }}>
+            {row.client_name}
+          </h2>
+          {row.card_text && (
+            <p className="line-clamp-3" style={{ margin: 0, fontSize: "16px", lineHeight: 1.5, color: "rgba(255,255,255,0.72)" }}>
+              {row.card_text}
+            </p>
+          )}
+          <span className="mt-auto pt-2 text-[11px] tracking-[0.25em] uppercase" style={{ color: "#93b8ff" }}>
+            View case study →
+          </span>
+        </div>
       </div>
-    </div>
-  </Link>
+    </Link>
   );
 };
 

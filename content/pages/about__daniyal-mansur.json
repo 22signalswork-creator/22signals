@@ -3,64 +3,40 @@
   "kind": "person",
   "region": "global",
   "title": "Daniyal Mansur, Founder and CEO of 22 Signals",
-  "description": "Daniyal Mansur is the founder and CEO of 22 Signals, a global business solutions company based in London, working across AI, technology and growth.",
+  "description": "Daniyal Mansur is the founder and CEO of 22 Signals, a global business solutions company, helping ambitious companies lead the next era of business.",
   "eyebrow": "Founder and CEO",
   "h1": "Daniyal Mansur",
-  "intro": "Daniyal Mansur is the founder and CEO of 22 Signals, a global business solutions company based in London. He sets the company's direction, works directly with clients on what to build first, and still builds some of 22 Signals' AI tools himself.",
+  "intro": "I've always been obsessed with how technology shapes the way the world works. I founded 22 Signals to help ambitious companies lead the next era of business, whether they are just starting out or have been around for decades.",
   "sections": [
     {
-      "id": "facts",
-      "h": "In short",
-      "list": [
-        "17|Age he started his first company",
-        "1M|Followers built at Salt Esports",
-        "20,000+|Attendees at Galaxy Racer 2024",
-        "Distinction|MSc Business Analytics, Queen Mary University of London"
-      ]
-    },
-    {
-      "h": "What he does at 22 Signals",
+      "h": "Why I built 22 Signals",
       "p": [
-        "Daniyal leads 22 Signals from London. He spends most of his time with clients, working out which problem is worth solving first and what it will take, then hands the work to the specialist teams with one accountable lead and dates in writing.",
-        "He still builds some of the company's AI tools himself. It keeps him close to what the team actually delivers, and it means the advice clients get on AI comes from someone who has shipped it."
+        "Most businesses already know what they should change. What holds them back is the gap between the plan and the people who have to deliver it.",
+        "That gap is why 22 Signals exists. We bring data and AI, digital, cloud and creative under one team, so a company can rethink how it operates, gets found and grows with one team instead of ten. So far that is 30+ companies served and 30+ custom AI tools and systems built."
       ]
     },
     {
-      "h": "Where he started",
+      "h": "AI is a way of operating, not a feature",
       "p": [
-        "He launched Salt Esports in 2019, at 17, and grew it to a million followers, with brand partnerships with brands such as Red Bull, Unilever and Daraz. In 2022 Salt became the first team from Pakistan at the Commonwealth Esports Championships.",
-        "Building a brand and an audience from nothing taught him the marketing side of a business: what makes people pay attention, and what makes them stay."
+        "The next era of business won't be won by the companies that buy the most AI tools. It will be won by the ones that redesign how work actually gets done, then use AI to run it. That starts with the process, not the tool: find the work your team repeats every day, fix how it flows, then automate it and measure what changed."
       ]
     },
     {
-      "h": "Running things live",
+      "h": "Discipline under pressure",
       "p": [
-        "He went on to help run large live events for brands including Tencent and Garena, among them Galaxy Racer 2024, which drew more than 20,000 attendees.",
-        "Live events have one rule: the start time never moves. That habit carried straight into 22 Signals, where every date agreed with a client goes in writing."
+        "Outside of 22 Signals I trade financial markets. Reading data, managing risk and staying calm under volatility is the same discipline I bring to every company I work with: make the decision the data supports, size the risk, and hold to the plan when things get noisy."
       ]
     },
     {
-      "h": "Why data matters to him",
+      "h": "Where it started",
       "p": [
-        "Daniyal holds an MSc in Business Analytics with Distinction from Queen Mary University of London, and a BBA from the Lahore School of Economics. On the MSc he led a process-mining project on how orders turn into cash.",
-        "It shaped how 22 Signals works: look at how a business actually runs, with real data, before deciding what to build."
-      ]
-    },
-    {
-      "id": "timeline",
-      "h": "Timeline",
-      "list": [
-        "2019|Starts Salt Esports at 17",
-        "2022|Salt is the first team from Pakistan at the Commonwealth Esports Championships",
-        "2024|Helps run Galaxy Racer and other large live events",
-        "2026|MSc Business Analytics with Distinction, Queen Mary University of London",
-        "Today|Leads 22 Signals from London"
+        "At 17 I launched Salt Esports, which made me the youngest founder in the Punjab IT Board's National Expansion Plan. It threw me into the deep end of high-stakes execution early. I back that hands-on experience with a Master's in Business Analytics from Queen Mary University of London."
       ]
     },
     {
       "h": "Talk to Daniyal",
       "p": [
-        "Book a 15-minute call with the 22 Signals team, or connect with Daniyal on LinkedIn."
+        "Book a 15-minute call with the 22 Signals team, or connect with me on LinkedIn."
       ]
     }
   ],

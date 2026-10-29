@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MyButton from "@/components/CustomButton.js";
-import ProjectCardContent, {
-  FALLBACK_PROJECTS,
-  type Project,
-} from "./projectcard.tsx";
 import Logo22 from "@/assets/22signals-logo.png";
 import Portfoliobg from "@/assets/footerbg.png";
 import "../home.css";
@@ -20,6 +16,7 @@ import test3 from "@/assets/test3.jpg";
 import test5 from "@/assets/test5.jpg";
 
 import Slider from "react-slick";
+import { DetailCard, usePortfolioRows } from "@/pages/portfolio/components/tabs";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 import { useCMS } from "@/hooks/useCMS";
@@ -107,11 +104,8 @@ const PortfolioSection = () => {
     fallback: FALLBACK_TESTIMONIALS,
   });
 
-  const { data: projects } = useCMS<Project>("projects", {
-    filter: { is_featured: true },
-    orderBy: "sort_order",
-    fallback: FALLBACK_PROJECTS,
-  });
+  // The real case studies from the portfolio, so names, images and links always match.
+  const projects = usePortfolioRows();
 
   const projectSliderSettings = {
     dots: false,
@@ -122,7 +116,7 @@ const PortfolioSection = () => {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 768, settings: { slidesToShow: 1 } },
@@ -242,15 +236,15 @@ const PortfolioSection = () => {
           </FadeIn>
 
           <div className="relative">
-            <Slider {...projectSliderSettings} className="w-full">
-              {projects.map((project, idx) => (
-                <div key={project.id ?? idx} className="px-2">
-                  <FadeIn delay={0.1 + idx * 0.2}>
-                    <ProjectCardContent project={project} />
-                  </FadeIn>
+            {projects.length > 0 && (
+            <Slider {...projectSliderSettings} className="w-full featured-slider">
+              {projects.map((row) => (
+                <div key={row.slug} className="px-2 h-full">
+                  <DetailCard row={row} />
                 </div>
               ))}
             </Slider>
+            )}
           </div>
         </section>
       </div>

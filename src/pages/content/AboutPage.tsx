@@ -137,19 +137,23 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
               WHO WE ARE
             </h2>
           </RisingText>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mt-8 md:mt-10">
-            <FadeIn delay={0.1}>
-              <p className="leading-relaxed" style={{ fontSize: "clamp(18px, 1.6vw, 24px)", color: "rgba(255,255,255,0.88)" }}>
-                {page.intro}
-              </p>
-            </FadeIn>
-            <FadeIn delay={0.15}>
-              <div className="flex flex-col gap-4">
-                {(who?.p || []).map((t, i) => (
-                  <Para key={i}>{t}</Para>
-                ))}
-              </div>
-            </FadeIn>
+          <FadeIn delay={0.1}>
+            <p className="leading-snug mt-8 md:mt-12 max-w-5xl" style={{ fontSize: "clamp(22px, 2.3vw, 36px)", color: "rgba(255,255,255,0.92)", fontWeight: 300 }}>
+              {page.intro}
+            </p>
+          </FadeIn>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-14 md:mt-20">
+            {(who?.list || []).map((item, i) => {
+              const v = titled(item);
+              return (
+                <FadeIn key={i} delay={0.1 + i * 0.06}>
+                  <div className="border-t border-white/20 pt-6">
+                    <div className="text-blue-300 text-[11px] tracking-[0.3em] uppercase mb-4">{v.title}</div>
+                    <Para>{v.desc}</Para>
+                  </div>
+                </FadeIn>
+              );
+            })}
           </div>
         </div>
 

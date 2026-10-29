@@ -80,6 +80,7 @@ const ProjectDetailPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
   const [activeSection, setActiveSection] = useState(0);
+  const [lightbox, setLightbox] = useState<string | null>(null);
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
   const [otherProjects, setOtherProjects] = useState<OtherProject[]>([]);
 
@@ -188,14 +189,40 @@ const ProjectDetailPage: React.FC = () => {
   );
   const hasCover = !!data.cover_image && data.cover_image.trim().length > 0;
   const hasMockups = mockups.length > 0;
+  const rawTags = (data as unknown as { tags?: unknown }).tags;
+  const tags: string[] = Array.isArray(rawTags)
+    ? (rawTags as string[])
+    : typeof rawTags === "string"
+      ? (() => {
+          try {
+            const x = JSON.parse(rawTags);
+            return Array.isArray(x) ? x : rawTags.split(",");
+          } catch {
+            return rawTags.split(",");
+          }
+        })()
+      : [];
+  const whatWeDid = tags.map((t) => String(t).trim()).filter(Boolean);
 
   return (
     <>
+      {lightbox && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Image preview"
+          onClick={() => setLightbox(null)}
+          className="fixed inset-0 z-[9999] flex items-center justify-center p-4 md:p-10 cursor-zoom-out"
+          style={{ background: "rgba(2,4,13,0.92)", backdropFilter: "blur(6px)" }}
+        >
+          <img src={lightbox} alt="" className="max-w-full max-h-full rounded-xl" style={{ boxShadow: "0 40px 120px rgba(0,0,0,0.6)" }} />
+        </div>
+      )}
       {/* ============================================== */}
       {/* HERO                                           */}
       {/* ============================================== */}
       <section
-        className="relative pt-28 md:pt-36 pb-20 md:pb-24 overflow-hidden"
+        className="relative pt-40 md:pt-48 pb-20 md:pb-24 overflow-hidden"
         style={{
           background:
             "linear-gradient(135deg, #050A18 0%, #0E1628 55%, #1a3392 130%)",
@@ -322,6 +349,23 @@ const ProjectDetailPage: React.FC = () => {
                 </FadeIn>
               )}
 
+              {whatWeDid.length > 0 && (
+                <FadeIn delay={0.22}>
+                  <div className="flex flex-wrap items-center gap-2 mt-7">
+                    <span className="text-[10px] tracking-[0.3em] uppercase text-blue-200/60 mr-2">What we did</span>
+                    {whatWeDid.map((t) => (
+                      <span
+                        key={t}
+                        className="px-3 py-1.5 rounded-full text-[12px] text-blue-100"
+                        style={{ background: "rgba(80,140,255,0.10)", border: "1px solid rgba(80,140,255,0.3)" }}
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </FadeIn>
+              )}
+
               {data.live_url && (
                 <FadeIn delay={0.25}>
                   <a
@@ -347,7 +391,7 @@ const ProjectDetailPage: React.FC = () => {
             {/* Cover image card (desktop) — graceful fallback if missing */}
             <FadeIn delay={0.25}>
               <div
-                className="hidden lg:block w-[340px] aspect-[4/3] rounded-2xl overflow-hidden relative"
+                className="hidden lg:block w-[480px] aspect-[16/10] rounded-2xl overflow-hidden relative browser-frame"
                 style={{
                   background: hasCover
                     ? "transparent"
@@ -359,8 +403,8 @@ const ProjectDetailPage: React.FC = () => {
                 {hasCover ? (
                   <img
                     src={data.cover_image as string}
-                    alt={data.client_name}
-                    className="w-full h-full object-cover"
+                    alt={`${data.client_name}: work by 22 Signals`}
+                    className="w-full h-full object-cover object-top"
                   />
                 ) : (
                   // No cover image — abstract glow instead so it doesn't look broken
@@ -403,47 +447,37 @@ const ProjectDetailPage: React.FC = () => {
               <div className="flex items-center gap-3 mb-8">
                 <div className="h-[2px] w-10 rounded-full bg-blue-400" />
                 <span className="text-blue-300 text-[10px] tracking-[0.3em] uppercase font-medium">
-                  Mockups · {mockups.length} {mockups.length === 1 ? "image" : "images"}
+                  The work
                 </span>
               </div>
             </FadeIn>
 
-            {/* Layout adapts to count: 1 = single big, 2 = pair, 3 = triplet, 4 = grid */}
-            <div
-              className={
-                mockups.length === 1
-                  ? "grid grid-cols-1 gap-5"
-                  : mockups.length === 2
-                  ? "grid grid-cols-1 md:grid-cols-2 gap-5"
-                  : mockups.length === 3
-                  ? "grid grid-cols-1 md:grid-cols-3 gap-5"
-                  : "grid grid-cols-1 md:grid-cols-2 gap-5"
-              }
-            >
+            {/* First image full width, the rest in two columns; each in a browser frame. Click to enlarge. */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {mockups.map((src, i) => (
-                <motion.div
+                <motion.button
+                  type="button"
                   key={i}
+                  onClick={() => setLightbox(src)}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.2 }}
-                  transition={{
-                    duration: 0.5,
-                    delay: i * 0.08,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                  className="rounded-2xl overflow-hidden group"
-                  style={{
-                    background: "rgba(255,255,255,0.02)",
-                    border: "1px solid rgba(80,140,255,0.18)",
-                    aspectRatio: mockups.length === 1 ? "16 / 9" : "4 / 3",
-                  }}
+                  viewport={{ once: true, amount: 0.15 }}
+                  transition={{ duration: 0.5, delay: (i % 2) * 0.08, ease: [0.22, 1, 0.36, 1] }}
+                  className={`browser-frame group text-left p-0 rounded-2xl overflow-hidden ${i === 0 ? "md:col-span-2" : ""}`}
+                  aria-label={`Open ${data.client_name} image ${i + 1} full size`}
                 >
-                  <img
-                    src={src}
-                    alt={`${data.client_name} mockup ${i + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-                  />
-                </motion.div>
+                  <span className="browser-bar" aria-hidden>
+                    <i /><i /><i />
+                  </span>
+                  <span className="block overflow-hidden" style={{ aspectRatio: i === 0 ? "16 / 8" : "16 / 10" }}>
+                    <img
+                      src={src}
+                      alt={`${data.client_name}: work by 22 Signals, image ${i + 1}`}
+                      loading="lazy"
+                      className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.02]"
+                    />
+                  </span>
+                </motion.button>
               ))}
             </div>
           </div>
@@ -525,14 +559,7 @@ const ProjectDetailPage: React.FC = () => {
                                 {p}
                               </p>
                             ))
-                          ) : (
-                            <p
-                              className="text-base md:text-[17px] leading-relaxed italic"
-                              style={{ color: "rgba(10,21,48,0.5)" }}
-                            >
-                              (Section content coming soon.)
-                            </p>
-                          )}
+                          ) : null}
                         </div>
                       </div>
                     </FadeIn>
@@ -540,12 +567,7 @@ const ProjectDetailPage: React.FC = () => {
                 );
               })}
 
-              {sections.length === 0 && (
-                <div className="text-black/50 text-base italic">
-                  This case study doesn't have detailed chapters yet — check
-                  back soon.
-                </div>
-              )}
+
             </div>
 
             {/* Sticky sidebar */}

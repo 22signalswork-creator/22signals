@@ -2,16 +2,12 @@ import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import MyButton from "@/components/CustomButton";
 import { useNavigate } from "react-router-dom";
-import ProjectCardContent, {
-  FALLBACK_PROJECTS,
-  type Project,
-} from "@/pages/home/components/projectcard";
+import { DetailCard, usePortfolioRows } from "@/pages/portfolio/components/tabs";
 import Logo22 from "@/assets/22signals-logo.png";
 import Portfoliobg from "@/assets/footerbg.png";
 import Union from "@/assets/Union.svg";
 import ShadowL from "@/assets/ShadowL.png";
 import FadeIn from "@/transitions/FadeIn";
-import { useCMS } from "@/hooks/useCMS";
 
 interface Props {
   title?: string;
@@ -38,11 +34,8 @@ const FeaturedProjectsSection: React.FC<Props> = ({ title = "Featured Projects" 
     return () => window.removeEventListener("resize", onResize);
   }, []);
 
-  const { data: projects } = useCMS<Project>("projects", {
-    filter: { is_featured: true },
-    orderBy: "sort_order",
-    fallback: FALLBACK_PROJECTS,
-  });
+  // The real case studies from the portfolio, so names, images and links always match.
+  const projects = usePortfolioRows();
 
   const settings = {
     dots: false,
@@ -53,7 +46,7 @@ const FeaturedProjectsSection: React.FC<Props> = ({ title = "Featured Projects" 
     arrows: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 768, settings: { slidesToShow: 1 } },
@@ -96,15 +89,15 @@ const FeaturedProjectsSection: React.FC<Props> = ({ title = "Featured Projects" 
         </FadeIn>
 
         <div className="relative">
-          <Slider {...settings} className="w-full">
-            {projects.map((project, idx) => (
-              <div key={project.id ?? idx} className="px-2">
-                <FadeIn delay={0.1 + idx * 0.2}>
-                  <ProjectCardContent project={project} />
-                </FadeIn>
+          {projects.length > 0 && (
+          <Slider {...settings} className="w-full featured-slider">
+            {projects.map((row) => (
+              <div key={row.slug} className="px-2 h-full">
+                <DetailCard row={row} />
               </div>
             ))}
           </Slider>
+          )}
         </div>
       </section>
     </div>

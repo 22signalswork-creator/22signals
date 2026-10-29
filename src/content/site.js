@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://www.22signals.com",
   tagline: "Ambitious ideas, executed.",
   description:
-    "22 Signals is a global business solutions company based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across four regions.",
+    "22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across four regions.",
   short:
     "We do the tech, the marketing and the execution for ambitious businesses, so they don't have to hire a whole team for it.",
   email: "business@22signals.com",
@@ -130,7 +130,7 @@ export const PAGES = [
     eyebrow: "Business solutions company",
     h1: "Ambitious ideas, executed.",
     intro:
-      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company based in London, with one accountable lead and specialist teams across four regions.",
+      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company, with one accountable lead and specialist teams across four regions.",
     sections: [
       {
         h: "One team instead of ten.",
@@ -1012,20 +1012,20 @@ export const PAGES = [
     kind: "about",
     title: "About 22 Signals: Business Solutions Company, London",
     description:
-      "22 Signals is a global business solutions company based in London. We build intelligent systems for businesses, then grow them and execute with them.",
+      "22 Signals is a global business solutions company. We build intelligent systems for businesses, then grow them and execute with them.",
     eyebrow: "Who we are",
     h1: "The Engine Behind 22 Signals.",
-    subtitle: "A global business solutions company based in London, built for the next era of business.",
+    subtitle: "Built for the next era of business.",
     intro:
-      "22 Signals is a global business solutions company based in London. We build the intelligent systems a business runs on, then we grow it and execute with it: AI, cloud, data, websites and apps, marketing, video and the launches that tie them together.",
+      "22 Signals is a global business solutions company. We build the intelligent systems a business runs on, then we grow it and execute with it: AI, cloud, data, websites and apps, marketing, video and the launches that tie them together.",
     sections: [
       {
         id: "who",
         h: "Who we are.",
-        p: [
-          "Most businesses don't need another supplier. They need the capability they don't have in-house, run by someone who owns the result. That is what 22 Signals is: one team with the strategists, engineers, marketers and creatives to take an idea from a plan to a working system, and then grow it.",
-          "We work mainly with established companies that are ready to move off the old way of working: manual processes, scattered data, slow systems and marketing nobody can measure. Founders and startups come to us too, usually to build and launch something new without hiring a whole team first.",
-          "We started in live events and esports, where the start time never moves and the audience is watching. That is still how we run every project: one accountable lead, specialist teams behind them, and every date in writing.",
+        list: [
+          "Why we exist: most businesses don't need another supplier. They need capability they don't have in-house, run by someone who owns the result. We are one team of strategists, engineers, marketers and creatives that takes an idea from a plan to a working system, then grows it.",
+          "Who we work with: businesses ready to move off manual processes, scattered data and marketing nobody can measure, and founders building something new without hiring a whole team first.",
+          "Where we started: live events and esports, where the start time never moves and the audience is watching. We still run every project that way, with one accountable lead and every date in writing.",
         ],
       },
       {
@@ -1038,7 +1038,7 @@ export const PAGES = [
           "Slow infrastructure: systems that are slow, insecure or cost too much. We fix the cloud underneath and keep it running.",
           "Missing capability: plans bigger than the team that has to deliver them. Our specialist teams fill the gap without a hiring round.",
           "Hard to find: customers can't find you in Google, in AI answers or on social. We fix search, content, social and ads so they do.",
-          "Too many suppliers: nobody owns the result. One accountable lead runs everything under one team.",
+          "Too many suppliers: nobody owns the result. One lead runs everything under one team.",
           "Slipping launches: dates that move because nobody owned them. Every date we agree goes in writing.",
           "Ideas without execution: an ambitious idea and no team to build it. We plan it, build it and grow it with you.",
         ],
@@ -1072,10 +1072,9 @@ export const PAGES = [
       },
       {
         id: "with",
-        h: "Who we work with.",
+        h: "Where we work.",
         p: [
-          "Established companies first, then founders and startups. Most of our clients are in healthcare and wellness, fashion and beauty, technology and AI, law and professional services, gaming and entertainment, and real estate.",
-          "Our head office is in London, and we work with companies across the United States, the United Kingdom and the UAE.",
+          "Across the United States, the United Kingdom and the UAE, in healthcare and wellness, fashion and beauty, technology and AI, law and professional services, gaming and entertainment, and real estate.",
         ],
       },
       {
@@ -1088,7 +1087,7 @@ export const PAGES = [
         h: "What we stand for.",
         p: ["The rules every project runs on, whoever is on the team."],
         list: [
-          "One owner: every result has one accountable lead, so nothing falls between suppliers.",
+          "One accountable lead: one person owns your result from the first call to launch, so nothing falls between suppliers.",
           "Dates in writing: we agree the dates up front and hold ourselves to them.",
           "Build, then grow: we don't stop at the plan. We build it, then we help it grow.",
           "Plain answers: if something isn't worth doing, we say so on the first call.",
@@ -1097,7 +1096,7 @@ export const PAGES = [
       {
         id: "founder",
         h: "Meet the founder.",
-        p: ["Daniyal Mansur, Founder and CEO, leads 22 Signals from London."],
+        p: ["Daniyal Mansur is the Founder and CEO of 22 Signals."],
       },
     ],
     faqs: [],
@@ -1112,7 +1111,7 @@ export const PAGES = [
     eyebrow: "Founder",
     h1: "Daniyal Mansur",
     intro:
-      "Daniyal Mansur is the founder and CEO of 22 Signals, a global business solutions company based in London. He wins clients, sets direction and runs operations, and still builds some of the company's AI tools himself. He holds an MSc in Business Analytics from Queen Mary University of London.",
+      "Daniyal Mansur is the founder and CEO of 22 Signals, a global business solutions company. He wins clients, sets direction and runs operations, and still builds some of the company's AI tools himself. He holds an MSc in Business Analytics from Queen Mary University of London.",
     sections: [
       {
         h: "Background",

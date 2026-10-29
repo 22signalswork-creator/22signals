@@ -83,7 +83,7 @@ const FounderPage: React.FC<{ page: FounderData }> = ({ page }) => {
   const talk = page.sections.find((s) => s.h === "Talk to Daniyal");
 
   return (
-    <section className="relative bg-black text-white overflow-hidden pt-32 md:pt-40 pb-20 md:pb-28">
+    <section className="relative bg-black text-white overflow-hidden pt-40 md:pt-48 pb-20 md:pb-28">
       <div
         className="absolute inset-0 opacity-[0.05] pointer-events-none"
         style={{
@@ -185,21 +185,55 @@ const FounderPage: React.FC<{ page: FounderData }> = ({ page }) => {
           </div>
         )}
 
-        {/* Story: heading left, text right (team page layout) */}
-        <div className="flex flex-col gap-16 md:gap-20 mt-20 md:mt-28">
-          {story.map((s) => (
-            <FadeIn key={s.h}>
-              <div className="grid grid-cols-1 md:grid-cols-[1fr_1.4fr] gap-6 md:gap-12 items-start">
-                <h2 style={{ fontSize: "clamp(28px, 3.2vw, 48px)", lineHeight: 1.1 }}>{s.h}</h2>
-                <div className="flex flex-col gap-4">
-                  {(s.p || []).map((t, i) => (
-                    <p key={i} className="leading-relaxed" style={{ fontSize: "clamp(15px, 1.15vw, 18px)", color: "rgba(255,255,255,0.75)" }}>
-                      {t}
-                    </p>
-                  ))}
+        {/* Story: one readable column, like an article */}
+        <div className="max-w-3xl mx-auto mt-20 md:mt-28 flex flex-col gap-14">
+          {story.map((s, idx) => (
+            <React.Fragment key={s.h}>
+              <FadeIn>
+                <div>
+                  <h2
+                    className="mb-5"
+                    style={{
+                      fontSize: "clamp(24px, 2.2vw, 34px)",
+                      lineHeight: 1.2,
+                      fontWeight: 400,
+                      padding: 0,
+                      color: "#ffffff",
+                      WebkitTextFillColor: "#ffffff",
+                      background: "none",
+                    }}
+                  >
+                    {s.h}
+                  </h2>
+                  <div className="flex flex-col gap-5">
+                    {(s.p || []).map((t, i) => (
+                      <p key={i} className="leading-relaxed" style={{ fontSize: "clamp(16px, 1.2vw, 19px)", color: "rgba(255,255,255,0.78)" }}>
+                        {t}
+                      </p>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </FadeIn>
+              </FadeIn>
+              {idx === 0 && (
+                <FadeIn>
+                  <blockquote className="m-0 pl-6 md:pl-8 border-l-2 border-[#325FEC]">
+                    <p
+                      style={{
+                        fontSize: "clamp(24px, 2.6vw, 40px)",
+                        lineHeight: 1.25,
+                        fontWeight: 300,
+                        background: "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #93b8ff 102.48%)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        margin: 0,
+                      }}
+                    >
+                      "The companies that win don't always have the best idea. They're the ones that execute faster and adapt before everyone else does."
+                    </p>
+                  </blockquote>
+                </FadeIn>
+              )}
+            </React.Fragment>
           ))}
         </div>
 

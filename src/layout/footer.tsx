@@ -174,7 +174,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                22 Signals is a global business solutions company based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them.
+                22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them.
               </p>
               <FooterNewsletter />
               <ul className="flex gap-4 justify-start">

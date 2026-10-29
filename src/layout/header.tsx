@@ -33,6 +33,19 @@ const PORTFOLIO_SUBMENU: { label: string; path: string }[] = [
   { label: "Manufacturing", path: "/portfolio?cat=Manufacturing" },
 ];
 
+const LOCATIONS_SUBMENU: { label: string; path: string }[] = [
+  { label: "United States", path: "/united-states" },
+  { label: "United Kingdom", path: "/united-kingdom" },
+  { label: "UAE", path: "/uae" },
+  { label: "All locations", path: "/locations" },
+];
+
+// Tabs whose dropdown is a list of { label, path } links.
+const LINK_SUBMENUS: Record<string, { label: string; path: string }[]> = {
+  Portfolio: PORTFOLIO_SUBMENU,
+  Locations: LOCATIONS_SUBMENU,
+};
+
 const Header = ({ theme = "dark" }: HeaderProps) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -261,17 +274,18 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                 </div>
               );
             }
-            if (tab.label === "Portfolio") {
-              const isOpen = openDropdown === "Portfolio";
+            if (LINK_SUBMENUS[tab.label]) {
+              const isOpen = openDropdown === tab.label;
+              const submenu = LINK_SUBMENUS[tab.label];
               return (
                 <div
                   key={tab.label}
                   className={`header-dropdown-wrap ${isOpen ? "is-open" : ""}`}
-                  onMouseEnter={() => openDropdownNow("Portfolio")}
+                  onMouseEnter={() => openDropdownNow(tab.label)}
                   onMouseLeave={scheduleClose}
                 >
                   <a
-                    href="/portfolio"
+                    href={tab.path}
                     onClick={(e) => {
                       e.preventDefault();
                       closeDropdown();
@@ -287,7 +301,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     <span className="header-dropdown-caret" aria-hidden>▾</span>
                   </a>
                   <div className="header-dropdown-menu">
-                    {PORTFOLIO_SUBMENU.map((p) => (
+                    {submenu.map((p) => (
                       <a
                         key={p.label}
                         href={p.path}
@@ -457,14 +471,15 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                       </motion.li>
                     );
                   }
-                  if (tab.label === "Portfolio") {
-                    const expanded = mobileExpanded === "Portfolio";
+                  if (LINK_SUBMENUS[tab.label]) {
+                    const expanded = mobileExpanded === tab.label;
+                    const submenu = LINK_SUBMENUS[tab.label];
                     return (
                       <motion.li key={tab.label} variants={itemVariants}>
                         <button
                           type="button"
                           onClick={() =>
-                            setMobileExpanded(expanded ? null : "Portfolio")
+                            setMobileExpanded(expanded ? null : tab.label)
                           }
                           className={`mobile-menu-item mobile-menu-trigger ${
                             activeTab === tab.label ? "active" : ""
@@ -483,7 +498,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                               exit={{ opacity: 0, height: 0 }}
                               transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }}
                             >
-                              {PORTFOLIO_SUBMENU.map((p) => (
+                              {submenu.map((p) => (
                                 <li key={p.label}>
                                   <a
                                     href={p.path}

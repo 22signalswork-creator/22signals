@@ -209,7 +209,7 @@ const DetailPage: React.FC<{
     <>
       {/* HERO */}
       <section
-        className="relative pt-28 md:pt-36 pb-24 md:pb-32 overflow-hidden"
+        className="relative pt-40 md:pt-48 pb-24 md:pb-32 overflow-hidden"
         style={{ background: "linear-gradient(135deg, #050A18 0%, #0E1628 55%, #1a3392 130%)" }}
       >
         <div
@@ -275,8 +275,10 @@ const DetailPage: React.FC<{
 
               <RisingText end="80%">
                 <h1
-                  className="text-4xl md:text-[60px] leading-[1.04] mb-6 font-medium"
+                  className="text-4xl md:text-[60px] leading-[1.04] font-medium"
                   style={{
+                    display: "block",
+                    marginBottom: "28px",
                     color: "#ffffff",
                     background: "none",
                     WebkitTextFillColor: "#ffffff",
@@ -320,23 +322,6 @@ const DetailPage: React.FC<{
                   }}
                 >
                   {visualFor(page.path)}
-                </div>
-                <div
-                  className="flex flex-col gap-4 p-6 rounded-2xl"
-                  style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(80,140,255,0.18)", backdropFilter: "blur(12px)" }}
-                >
-                  <div className="flex items-baseline justify-between gap-6 pb-3 border-b border-white/10">
-                    <span className="text-[10px] tracking-[0.3em] uppercase text-blue-300/80">Sections</span>
-                    <span className="text-2xl text-white font-medium tabular-nums">{pad(sections.length)}</span>
-                  </div>
-                  <div className="flex items-baseline justify-between gap-6 pb-3 border-b border-white/10">
-                    <span className="text-[10px] tracking-[0.3em] uppercase text-blue-300/80">Questions answered</span>
-                    <span className="text-2xl text-white font-medium tabular-nums">{pad(faqs.length)}</span>
-                  </div>
-                  <div className="flex items-baseline justify-between gap-6">
-                    <span className="text-[10px] tracking-[0.3em] uppercase text-blue-300/80">Accountable lead</span>
-                    <span className="text-2xl text-white font-medium tabular-nums">01</span>
-                  </div>
                 </div>
               </div>
             </FadeIn>
@@ -403,8 +388,8 @@ const DetailPage: React.FC<{
                           </span>
                         </div>
                         <h2
-                          className="text-3xl md:text-[44px] leading-[1.1] mb-5 max-w-3xl"
-                          style={{ color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
+                          className="text-3xl md:text-[44px] leading-[1.1] max-w-3xl"
+                          style={{ marginBottom: "20px", padding: 0, color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
                         >
                           {section.h}
                         </h2>

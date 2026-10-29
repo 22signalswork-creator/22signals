@@ -82,11 +82,11 @@ const CompanyStatsCounts: React.FC = () => {
           <FadeIn key={stat.id} delay={(typeof stat.id === "number" ? stat.id : 1) * 0.1}>
             <Cardhovereffect>
               <div className="second-card flex flex-col items-center justify-center text-center stats-card-compact">
-                <p className="text-2xl md:text-4xl font-bold">
+                <div className="stat-number">
                   {stat.prefix || ""}
                   <RollingNumber target={stat.value} />
                   {stat.suffix}
-                </p>
+                </div>
                 <p className="dark-text text-xs md:text-base">{stat.label}</p>
               </div>
             </Cardhovereffect>

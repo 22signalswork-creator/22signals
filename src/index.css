@@ -962,3 +962,51 @@ h3.teamcard-title {
 }
 @media (max-width: 1024px) { h3.teamcard-title { font-size: 30px; } }
 @media (max-width: 640px) { h3.teamcard-title { font-size: 26px; } }
+
+/* Stat tile numbers: styled like the original h1 numbers (they were h1s; now one h1 per page) */
+.stats-card-compact .stat-number {
+  font-weight: 300;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+  background: var(--h1-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+@media (max-width: 1024px) { .stats-card-compact .stat-number { font-size: 48px; } }
+@media (max-width: 640px) { .stats-card-compact .stat-number { font-size: 26px !important; line-height: 1 !important; } }
+
+/* Portfolio: screenshots shown in a simple browser frame */
+.browser-frame {
+  background: #0b1222 !important;
+  border: 1px solid rgba(80, 140, 255, 0.22) !important;
+  box-shadow: 0 30px 60px -30px rgba(50, 95, 236, 0.45);
+  padding: 0 !important;
+  display: block;
+  width: 100%;
+  cursor: zoom-in;
+  border-radius: 16px;
+}
+.browser-frame .browser-bar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 30px;
+  padding: 0 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(80, 140, 255, 0.15);
+}
+.browser-frame .browser-bar i {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: rgba(147, 184, 255, 0.35);
+  display: inline-block;
+}
+
+/* Featured project sliders: equal-height slides */
+.featured-slider .slick-track { display: flex !important; }
+.featured-slider .slick-slide { height: auto !important; }
+.featured-slider .slick-slide > div { height: 100%; }

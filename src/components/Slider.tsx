@@ -1,4 +1,13 @@
 import React, { useMemo } from "react";
+import CROPPED from "@/content/cropped-logos.json";
+
+// The CMS logo files are 1024x1024 squares with the logo in a thin strip in the
+// middle. Tightly cropped copies live in /public/logos; use them when we have one.
+const CROPPED_SET = new Set<string>(CROPPED as string[]);
+const cropped = (url: string) => {
+  const name = (url.split("/").pop() || "").replace(/\.[a-z0-9]+$/i, "");
+  return CROPPED_SET.has(name) ? `/logos/${name}.webp` : url;
+};
 
 /**
  * Three-row infinite logo marquee — alternating directions.
@@ -82,7 +91,7 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
   slides,
   secondsPerLogo = 4,
 }) => {
-  const rows = useMemo(() => splitIntoRows(slides ?? []), [slides]);
+  const rows = useMemo(() => splitIntoRows((slides ?? []).map(cropped)), [slides]);
   const tracks = useMemo(() => rows.map(buildTrack), [rows]);
 
   // Speed scales with row length so a sparse row doesn't fly past too fast.
@@ -144,12 +153,12 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
           display: flex;
           align-items: center;
           justify-content: center;
-          height: 95px;
-          width: 240px;
-          padding: 0 18px;
+          height: 72px;
+          width: 190px;
+          padding: 0 22px;
         }
         .logos-img {
-          max-height: 80px;
+          max-height: 44px;
           max-width: 100%;
           object-fit: contain;
           user-select: none;
@@ -169,12 +178,12 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
             gap: 8px;
           }
           .logos-cell {
-            height: 115px;
-            width: 290px;
-            padding: 0 24px;
+            height: 84px;
+            width: 230px;
+            padding: 0 28px;
           }
           .logos-img {
-            max-height: 100px;
+            max-height: 52px;
           }
         }
 
@@ -187,12 +196,12 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
             gap: 10px;
           }
           .logos-cell {
-            height: 140px;
-            width: 360px;
-            padding: 0 32px;
+            height: 100px;
+            width: 280px;
+            padding: 0 36px;
           }
           .logos-img {
-            max-height: 125px;
+            max-height: 64px;
           }
         }
 
@@ -201,12 +210,12 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
             gap: 12px;
           }
           .logos-cell {
-            width: 400px;
-            height: 155px;
-            padding: 0 38px;
+            width: 310px;
+            height: 110px;
+            padding: 0 40px;
           }
           .logos-img {
-            max-height: 140px;
+            max-height: 72px;
           }
         }
 
