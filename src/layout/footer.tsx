@@ -169,6 +169,9 @@ const Footer = () => {
                 {[
                   ["Services", "/services"],
                   ["Portfolio", "/portfolio"],
+                  ["Locations", "/locations"],
+                  ["Case studies", "/case-studies"],
+                  ["Insights", "/insights"],
                   ["About", "/about"],
                   ["How we work", "/how-we-work"],
                   ["For agencies", "/partners"],

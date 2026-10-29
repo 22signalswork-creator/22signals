@@ -19,8 +19,8 @@ import TermsOfService from "./pages/legal/TermsOfService.tsx";
 import Preloader from "./layout/Preloader.tsx";
 import ContentPage from "./pages/content/ContentPage";
 import { useHead } from "./content/useHead";
-// @ts-ignore - plain JS content module
-import { PAGES } from "./content/site.js";
+import MANIFEST from "./content/generated/manifest.json";
+const PAGES = MANIFEST as { path: string }[];
 import { Navigate } from "react-router-dom";
 import ProjectDetailPagesAdmin from "./admin/pages/ProjectDetailPagesAdmin";
 import ProjectDetailPage from "./pages/portfolio/ProjectDetailPage";

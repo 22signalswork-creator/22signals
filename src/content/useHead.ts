@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 // @ts-ignore - plain JS content module shared with the prerender script
-import { PAGES, CMS_ROUTES, SITE } from "@/content/site.js";
+import { CMS_ROUTES, SITE } from "@/content/site.js";
+import PAGES from "@/content/generated/manifest.json";
 
 type Meta = { path: string; title: string; description: string; noindex?: boolean };
 

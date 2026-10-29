@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import FadeIn from "@/transitions/FadeIn";
 // @ts-ignore - plain JS content module shared with the prerender script
 import { PAGES, SERVICES, INDUSTRIES, MARKETS, SITE, CTA } from "@/content/site.js";
+// @ts-ignore - plain JS helper shared with the prerender script
+import { linkBlocks } from "@/content/links.js";
+import MANIFEST from "@/content/generated/manifest.json";
 
 type Section = { id?: string; h: string; p?: string[]; list?: string[] };
 type Faq = { q: string; a: string };
@@ -18,13 +21,51 @@ type Page = {
 };
 type NavItem = { path: string; label: string; blurb?: string };
 
+type ManifestItem = { path: string; file: string; kind: string; eyebrow?: string; h1?: string };
 const ALL_LINKS: NavItem[] = [...SERVICES, ...INDUSTRIES, ...MARKETS];
 const labelFor = (path: string) => {
   const hit = ALL_LINKS.find((l) => l.path === path);
   if (hit) return hit.label;
-  const page = (PAGES as Page[]).find((p) => p.path === path);
-  return page ? page.eyebrow : path;
+  const m = (MANIFEST as ManifestItem[]).find((p) => p.path === path);
+  return m ? m.eyebrow || m.h1 || path : path;
 };
+
+/** Page data: prerendered JSON embedded in the HTML on first load, otherwise fetched. */
+function usePage(current: string): Page | null {
+  const local = (PAGES as Page[]).find((p) => p.path === current) || null;
+  const initial = (): Page | null => {
+    if (typeof document !== "undefined") {
+      const el = document.getElementById("page-data");
+      if (el) {
+        try {
+          const d = JSON.parse(el.textContent || "null");
+          if (d && d.path === current) return d;
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+    return null;
+  };
+  const [page, setPage] = useState<Page | null>(initial);
+  useEffect(() => {
+    if (page && page.path === current) return;
+    const m = (MANIFEST as ManifestItem[]).find((p) => p.path === current);
+    if (!m) {
+      setPage(local);
+      return;
+    }
+    let cancelled = false;
+    fetch(`/content/${m.file}.json`)
+      .then((r) => r.json())
+      .then((d) => !cancelled && setPage(d))
+      .catch(() => !cancelled && setPage(local));
+    return () => {
+      cancelled = true;
+    };
+  }, [current]);
+  return page && page.path === current ? page : null;
+}
 
 const gradient: React.CSSProperties = {
   background: "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #325FEC 102.48%)",
@@ -59,9 +100,10 @@ const CardGrid: React.FC<{ title: string; items: NavItem[] }> = ({ title, items 
 const ContentPage: React.FC<{ path?: string }> = ({ path }) => {
   const location = useLocation();
   const current = path || location.pathname.replace(/\/$/, "") || "/";
-  const page = (PAGES as Page[]).find((p) => p.path === current);
+  const page = usePage(current);
 
-  if (!page) return null;
+  if (!page) return <div className="bg-[#000202] min-h-screen" />;
+  const blocks = linkBlocks(page, MANIFEST) as { title: string; items: NavItem[] }[];
 
   return (
     <div className="bg-[#000202] min-h-screen pt-32 pb-24 px-6 relative overflow-hidden text-white">
@@ -70,7 +112,7 @@ const ContentPage: React.FC<{ path?: string }> = ({ path }) => {
         style={{ background: "radial-gradient(circle at 50% 0%, rgba(50,95,236,0.18) 0%, transparent 55%)" }}
       />
       <div className="container relative z-10">
-        <article className="max-w-3xl mx-auto">
+        <article className="content-page max-w-3xl mx-auto">
           <FadeIn>
             <p className="text-[#6B92FF] text-sm tracking-[0.2em] uppercase mb-4">{page.eyebrow}</p>
             <h1 className="text-4xl md:text-[56px] leading-[1.05] mb-8" style={gradient}>
@@ -126,6 +168,10 @@ const ContentPage: React.FC<{ path?: string }> = ({ path }) => {
               </FadeIn>
             ))}
           </div>
+
+          {blocks.map((b) => (
+            <CardGrid key={b.title} title={b.title} items={b.items} />
+          ))}
 
           {page.faqs.length > 0 && (
             <section className="mt-16">

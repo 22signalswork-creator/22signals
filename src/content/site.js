@@ -37,14 +37,59 @@ export const SERVICES = [
   { path: "/services/ai-consulting", label: "AI Consulting", blurb: "Find where AI pays off, plan it safely, then build it." },
   { path: "/services/business-optimization", label: "Business Optimization", blurb: "Map how work runs, remove the waste, automate what repeats." },
   { path: "/services/business-intelligence", label: "Business Intelligence", blurb: "Data in one place, KPIs that matter and dashboards leaders read." },
+  { path: "/services/power-bi-consulting", label: "Power BI Consulting", blurb: "Power BI dashboards, data models and reporting that stay current." },
+  { path: "/services/data-engineering", label: "Data Engineering", blurb: "Pipelines, warehouses and integrations your reporting can trust." },
   { path: "/services/ai-automation", label: "AI and Automation", blurb: "Custom AI tools and automations that take a business off the old way of working." },
-  { path: "/services/cloud", label: "Cloud and Data", blurb: "Infrastructure, migrations, DevOps and data systems that stay fast and keep costs in check." },
-  { path: "/services/web-app-development", label: "Web and App Development", blurb: "Sites, portals and apps built to rank, convert and last." },
+  { path: "/services/custom-ai-development", label: "Custom AI Development", blurb: "AI agents and AI features built on your data, with guardrails." },
+  { path: "/services/whatsapp-automation", label: "WhatsApp Automation", blurb: "WhatsApp replies, bookings and lead capture, connected to your CRM." },
+  { path: "/services/cloud", label: "Cloud Consulting", blurb: "Cloud architecture, security and operations on AWS, Google Cloud and Azure." },
+  { path: "/services/cloud-migration", label: "Cloud Migration", blurb: "Move servers, apps and data to the cloud with minimal downtime." },
+  { path: "/services/devops-consulting", label: "DevOps Consulting", blurb: "CI/CD, infrastructure as code and releases that don't break." },
+  { path: "/services/web-app-development", label: "Web Development", blurb: "Sites, portals and e-commerce built to rank, convert and last." },
+  { path: "/services/app-development", label: "App Development", blurb: "iOS, Android and web apps, from MVP to app store launch." },
   { path: "/services/seo-geo", label: "SEO and GEO", blurb: "Show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers." },
   { path: "/services/paid-media", label: "Paid Media", blurb: "Google, Meta, LinkedIn and TikTok campaigns tied to leads you can count." },
-  { path: "/services/video-motion", label: "Video, AI Video, Animation and 3D", blurb: "Reels, brand films, AI video, 2D and 3D animation, 3D renders and live broadcast." },
+  { path: "/services/video-motion", label: "Video and Motion Graphics", blurb: "Reels, brand films, motion graphics and live broadcast." },
+  { path: "/services/ai-video-production", label: "AI Video Production", blurb: "AI presenters, AI ad variations and AI-generated scenes, clearly labeled." },
+  { path: "/services/3d-animation", label: "2D and 3D Animation", blurb: "Animated explainers, product and technical animation." },
+  { path: "/services/3d-rendering", label: "3D Rendering", blurb: "Photoreal product, packaging, campaign and interior renders." },
   { path: "/services/more", label: "More We Do", blurb: "Managed teams, live events, game development and product sourcing." },
 ];
+
+// The 10 services that have a page in every city: city slug -> global page.
+export const CITY_SERVICES = [
+  { slug: "ai-consulting", label: "AI Consulting", global: "/services/ai-consulting" },
+  { slug: "ai-automation", label: "AI Automation", global: "/services/ai-automation" },
+  { slug: "business-intelligence", label: "Business Intelligence and Data Analytics", global: "/services/business-intelligence" },
+  { slug: "cloud-consulting", label: "Cloud Consulting", global: "/services/cloud" },
+  { slug: "web-development", label: "Web Development", global: "/services/web-app-development" },
+  { slug: "app-development", label: "App Development", global: "/services/app-development" },
+  { slug: "seo-geo", label: "SEO and GEO", global: "/services/seo-geo" },
+  { slug: "paid-media", label: "Paid Media", global: "/services/paid-media" },
+  { slug: "video-animation", label: "Video, Animation and AI Video", global: "/services/video-motion" },
+  { slug: "3d-rendering", label: "3D Rendering", global: "/services/3d-rendering" },
+];
+
+export const CITIES = [
+  { slug: "new-york", name: "New York", region: "us", state: "New York" },
+  { slug: "los-angeles", name: "Los Angeles", region: "us", state: "California" },
+  { slug: "san-francisco", name: "San Francisco", region: "us", state: "California" },
+  { slug: "dallas", name: "Dallas", region: "us", state: "Texas" },
+  { slug: "houston", name: "Houston", region: "us", state: "Texas" },
+  { slug: "austin", name: "Austin", region: "us", state: "Texas" },
+  { slug: "chicago", name: "Chicago", region: "us", state: "Illinois" },
+  { slug: "miami", name: "Miami", region: "us", state: "Florida" },
+  { slug: "london", name: "London", region: "uk" },
+  { slug: "manchester", name: "Manchester", region: "uk" },
+  { slug: "birmingham", name: "Birmingham", region: "uk" },
+  { slug: "dubai", name: "Dubai", region: "uae" },
+  { slug: "abu-dhabi", name: "Abu Dhabi", region: "uae" },
+  { slug: "lahore", name: "Lahore", region: "pk" },
+  { slug: "karachi", name: "Karachi", region: "pk" },
+  { slug: "islamabad", name: "Islamabad", region: "pk" },
+];
+export const REGION_LABELS = { us: "United States", uk: "United Kingdom", uae: "United Arab Emirates", pk: "Pakistan" };
+
 
 export const INDUSTRIES = [
   { path: "/industries/healthcare", label: "Healthcare and Wellness" },
@@ -52,12 +97,14 @@ export const INDUSTRIES = [
   { path: "/industries/technology-ai", label: "Technology and AI Companies" },
   { path: "/industries/professional-services", label: "Law Firms and Professional Services" },
   { path: "/industries/gaming-entertainment", label: "Gaming, Esports and Entertainment" },
+  { path: "/industries/real-estate", label: "Real Estate" },
 ];
 
 export const MARKETS = [
   { path: "/united-states", label: "United States" },
   { path: "/united-kingdom", label: "United Kingdom" },
   { path: "/uae", label: "UAE" },
+  { path: "/pakistan", label: "Pakistan" },
 ];
 
 const CTA = {
@@ -1115,10 +1162,9 @@ export const CMS_ROUTES = [
   },
   {
     path: "/r&d",
-    title: "R&D | 22 Signals",
-    description: "What 22 Signals is researching and building.",
-    h1: "R&D",
-    noindex: true,
+    title: "R&D: What 22 Signals Is Researching | 22 Signals",
+    description: "22 Signals R&D: the AI, interface and automation research we run before it reaches client work, from multi-agent workflows to voice-first navigation.",
+    h1: "The Pulse of Innovation.",
   },
   {
     path: "/privacy-policy",

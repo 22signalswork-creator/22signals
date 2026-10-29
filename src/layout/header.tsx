@@ -79,7 +79,9 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     { label: "Home", path: "/" },
     { label: "Services", path: "/services" },
     { label: "Portfolio", path: "/portfolio" },
+    { label: "Locations", path: "/locations" },
     { label: "About", path: "/about" },
+    { label: "R&D", path: "/r&d" },
     { label: "Blog", path: "/blog" },
     { label: "Contact", path: "/contact" },
   ];
@@ -101,8 +103,11 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
 
   /* Active tab from current route */
   useEffect(() => {
-    const cur = tabs.find((t) => t.path === location.pathname);
-    if (cur) setActiveTab(cur.label);
+    const path = location.pathname;
+    const cur =
+      tabs.find((t) => t.path === path) ||
+      tabs.find((t) => t.path !== "/" && path.startsWith(t.path + "/"));
+    setActiveTab(cur ? cur.label : "");
     // Close any open desktop dropdown when route changes — fixes the bug
     // where clicking an item navigates but leaves the panel open over the
     // newly-loaded page.

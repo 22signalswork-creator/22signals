@@ -36,3 +36,5 @@ build
 *.njsproj
 *.sln
 *.sw?
+src/content/generated/pages.json
+public/content/

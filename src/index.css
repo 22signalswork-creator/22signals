@@ -887,3 +887,15 @@ button.gray {
   .py-28 { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
   .py-24 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
 }
+
+
+/* Content pages (services, locations, industries, guides): keep the gradient
+   heading style but at a reading size, so long pages scan well. */
+.content-page h2 {
+  --h2-size: clamp(28px, 3.2vw, 40px);
+  margin-bottom: 1rem;
+}
+.content-page details h3 {
+  font-size: clamp(18px, 1.6vw, 22px);
+  line-height: 1.35;
+}
