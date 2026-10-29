@@ -94,7 +94,7 @@
     },
     {
       "q": "Can you automate work inside Microsoft 365, which most New York firms use?",
-      "a": "Yes. Many of our New York workflows run in Outlook, Teams, SharePoint and Excel, using Power Automate, Azure services or direct API connections. We also work in Google Workspace, Salesforce, HubSpot and most practice management systems. The aim is that staff keep working in the tools they already know."
+      "a": "Yes. Many of our New York workflows run in Outlook, Teams, SharePoint and Excel, using Azure services or direct API connections. We also work in Google Workspace, Salesforce, HubSpot and most practice management systems. The aim is that staff keep working in the tools they already know."
     },
     {
       "q": "How do you keep automations within the New York SHIELD Act?",

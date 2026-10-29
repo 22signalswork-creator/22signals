@@ -57,7 +57,7 @@
     {
       "h": "Tools we work with",
       "p": [
-        "We use what you already have wherever possible: Microsoft 365, Google Workspace, HubSpot, Salesforce, Pipedrive, Slack, Teams, QuickBooks, Xero, Airtable and your industry systems. For orchestration we work with Zapier, Make, n8n and Power Automate, and we write custom code when a workflow outgrows them. AI steps run on the major model providers, including OpenAI, Anthropic and Google, chosen per task for quality, cost and data handling. For messaging we build on the WhatsApp Business Platform."
+        "We use what you already have wherever possible: Microsoft 365, Google Workspace, HubSpot, Salesforce, Pipedrive, Slack, Teams, QuickBooks, Xero, Airtable and your industry systems. For orchestration we use established automation platforms where they fit, and we write custom code when a workflow outgrows them. AI steps run on the major model providers, including OpenAI, Anthropic and Google, chosen per task for quality, cost and data handling. For messaging we build on the WhatsApp Business Platform."
       ]
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you use off-the-shelf tools or build custom?",
-      "a": "Both. We use tools such as Zapier, Make, n8n or Power Automate where they fit, and write custom code where they don't. AI steps run on the major model providers. Then we connect everything to the systems your team already uses, so people keep working where they are comfortable rather than learning a new app."
+      "a": "Both. We use established automation platforms where they fit, and write custom code where they don't. AI steps run on the major model providers. Then we connect everything to the systems your team already uses, so people keep working where they are comfortable rather than learning a new app."
     },
     {
       "q": "Is it safe to let AI talk to our customers?",

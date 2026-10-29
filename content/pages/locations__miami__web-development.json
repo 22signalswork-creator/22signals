@@ -24,7 +24,7 @@
       "list": [
         "New websites and full redesigns, from sitemap and copy to launch",
         "Migrations that keep rankings: every old URL mapped and redirected, checked after launch",
-        "Content management on WordPress, Webflow or a headless CMS, so your team can edit pages",
+        "Content management on WordPress or a headless CMS, so your team can edit pages",
         "E-commerce on Shopify or WooCommerce, with payments, shipping and tax set up properly",
         "Client portals with logins, documents and payments",
         "Accessibility work to WCAG standards, tested with real assistive tools",
@@ -118,7 +118,7 @@
     },
     {
       "q": "Which platform should a Miami developer use for a pre-construction site?",
-      "a": "WordPress or Webflow suits most pre-construction sites, because the sales team can update availability and pages without a developer. If you need live unit availability linked to a sales system, we connect it through an API. We recommend a platform during planning and explain the trade-offs."
+      "a": "WordPress suits most pre-construction sites, because the sales team can update availability and pages without a developer. If you need live unit availability linked to a sales system, we connect it through an API. We recommend a platform during planning and explain the trade-offs."
     },
     {
       "q": "Do you look after the site after launch?",

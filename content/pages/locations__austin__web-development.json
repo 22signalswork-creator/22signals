@@ -98,7 +98,7 @@
   "faqs": [
     {
       "q": "How long does a new website take for an Austin company?",
-      "a": "A focused marketing site usually takes eight to twelve weeks from planning to launch. Larger sites with migrations, portals or e-commerce take longer and are phased. The biggest variable is usually content and approvals, so we agree dates in writing at the planning stage and show you what we need from your team, and when."
+      "a": "It depends on the number of pages, features and integrations. Larger sites with migrations, portals or e-commerce are phased. The biggest variable is usually content and approvals, so we agree dates in writing at the planning stage and show you what we need from your team, and when."
     },
     {
       "q": "Will we lose our Google rankings if we redesign?",
@@ -106,7 +106,7 @@
     },
     {
       "q": "Which platform do you build on?",
-      "a": "It depends on who will run the site. WordPress suits teams that want a familiar editor and many plugins. Webflow suits marketing teams who want design control. Custom builds suit portals, complex integrations or high traffic. We recommend the simplest platform that meets your needs and that your team can actually maintain."
+      "a": "It depends on who will run the site. WordPress suits teams that want a familiar editor and many plugins. A headless CMS suits marketing teams who want more design control. Custom builds suit portals, complex integrations or high traffic. We recommend the simplest platform that meets your needs and that your team can actually maintain."
     },
     {
       "q": "Do you meet Austin clients in person during a website project?",

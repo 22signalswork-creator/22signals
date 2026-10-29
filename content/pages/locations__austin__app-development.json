@@ -95,7 +95,7 @@
   "faqs": [
     {
       "q": "How long does it take to build an app for an Austin business?",
-      "a": "A focused first release usually takes three to five months, including design, build, testing and app store review. Internal tools can be quicker; apps with complex integrations take longer. We agree a release date in writing after planning, and you get a working build to test every two weeks, so progress is never a mystery."
+      "a": "It depends on the features, the integrations and app store review, and internal tools are usually simpler to ship than apps with complex integrations. We agree a release date in writing after planning, and you get a working build to test every two weeks, so progress is never a mystery."
     },
     {
       "q": "Should we build native or cross-platform?",
@@ -107,7 +107,7 @@
     },
     {
       "q": "Who owns the code?",
-      "a": "You do. The code lives in your repository, the app store accounts are in your name, and you get documentation for the architecture and deployment. If you later hire an in-house team, they can pick it up without starting again. We are happy to help with that handover."
+      "a": "We agree at the start, in writing, who owns the code, the app store accounts and the cloud setup, and you always have access to what we build and run for you. You also get documentation for the architecture and deployment. If you later hire an in-house team, they can pick it up without starting again. We are happy to help with that handover."
     },
     {
       "q": "Can you add AI features to our app?",

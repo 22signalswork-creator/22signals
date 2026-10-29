@@ -25,7 +25,7 @@
       "list": [
         "Websites and redesigns: fast, accessible sites built around how your buyers decide.",
         "Migrations that keep rankings: page-by-page redirect maps, preserved content and checks after launch, so years of search history are not thrown away.",
-        "CMS set-up: WordPress, Webflow or a headless CMS that your marketing team can update without a developer.",
+        "CMS set-up: WordPress or a headless CMS that your marketing team can update without a developer.",
         "E-commerce: Shopify, WooCommerce or custom checkouts with stock, delivery and payment integrations.",
         "Client portals: secure areas for documents, updates and payments.",
         "Website care and security: updates, backups, uptime monitoring and fixes on an agreed plan."
@@ -104,7 +104,7 @@
     },
     {
       "q": "Which platform do you recommend?",
-      "a": "It depends on who will edit the site and what it needs to do. WordPress suits content-heavy sites and teams used to it. Shopify suits most online shops. Webflow and headless CMS options suit design-led sites. We recommend based on your team, integrations and long-term costs."
+      "a": "It depends on who will edit the site and what it needs to do. WordPress suits content-heavy sites and teams used to it. Shopify suits most online shops. Headless CMS options suit design-led sites. We recommend based on your team, integrations and long-term costs."
     },
     {
       "q": "Can you build a client portal for our firm?",

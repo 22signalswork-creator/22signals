@@ -7,7 +7,7 @@
   "service": "business-intelligence",
   "serviceType": "Business intelligence and data analytics consulting",
   "title": "Business Intelligence in Dallas, TX | 22 Signals",
-  "description": "Business intelligence and data analytics for Dallas companies: one set of KPIs, clean pipelines and Power BI or Looker dashboards leadership trusts.",
+  "description": "Business intelligence and data analytics for Dallas companies: one set of KPIs, clean pipelines and Power BI or Looker Studio dashboards leadership trusts.",
   "eyebrow": "Business Intelligence and Data Analytics in Dallas",
   "h1": "Business intelligence and data analytics for Dallas companies",
   "intro": "Our business intelligence and data analytics consulting gives Dallas leadership teams one version of the numbers. We agree the KPIs, connect the systems that hold your data, build dashboards in Power BI, Looker Studio or Tableau, and automate the reports people now assemble by hand. It suits finance, real estate, logistics, retail and healthcare operators across DFW.",
@@ -48,7 +48,7 @@
       "h": "How we build it",
       "p": [
         "Talk: a short call to understand the decisions the numbers need to support. Plan: we interview the people who own each number, list every source system, and write a KPI dictionary and a scope with dates. Build: we set up the pipelines and warehouse, model the data, and build the first dashboards with your team reviewing each one. Grow: we add sources, automate the remaining reports and train your people to change dashboards themselves.",
-        "We usually ship one useful dashboard early, so leadership sees progress within the first weeks rather than at the end."
+        "We usually ship one useful dashboard early, so leadership sees progress early rather than at the end."
       ]
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "q": "How long before we see the first dashboard?",
-      "a": "Usually within the first few weeks. We pick one high-value dashboard, often the weekly leadership view, and ship it while the wider pipeline work continues. The full scope depends on how many systems are involved and how clean the data is. Your Signal Lead puts the dates in writing."
+      "a": "Early in the project. We pick one high-value dashboard, often the weekly leadership view, and ship it while the wider pipeline work continues. The full scope depends on how many systems are involved and how clean the data is. Your Signal Lead puts the dates in writing."
     },
     {
       "q": "We have data in several systems after an acquisition. Can you combine it?",

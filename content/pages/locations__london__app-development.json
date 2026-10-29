@@ -25,7 +25,7 @@
         "Native and cross-platform apps for iOS and Android, usually in React Native or Flutter, native Swift or Kotlin when the app needs it",
         "Web apps and SaaS products with accounts, roles, billing and admin panels",
         "MVPs that test one clear idea with real users before you fund the full product",
-        "Payments with Stripe, Apple Pay and Google Pay, including Strong Customer Authentication",
+        "Card payments, Apple Pay and Google Pay, including Strong Customer Authentication",
         "APIs and integrations with your CRM, booking, stock or banking systems",
         "App Store and Google Play submission, store listings and review responses",
         "Support after launch: crash monitoring, updates for new OS versions and new features in planned releases"
@@ -125,7 +125,7 @@
     },
     {
       "q": "Who owns the app and code?",
-      "a": "You do. The code repository, developer accounts, app store listings and cloud accounts are set up in your name or transferred to you. If you later bring development in-house, your team inherits documented code, a clear release process and a handover period, so nothing depends on us staying involved."
+      "a": "We agree at the start, in writing, who owns the code repository, developer accounts, app store listings and cloud accounts, and you always have access to what we build and run for you. If you later bring development in-house, your team inherits documented code, a clear release process and a handover period, so nothing depends on us staying involved."
     },
     {
       "q": "How much does it cost to run an app after launch?",

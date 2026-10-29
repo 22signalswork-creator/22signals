@@ -33,7 +33,7 @@
       "h": "Redesigns and migrations that keep your rankings",
       "p": [
         "The most expensive website mistake is a redesign that wipes out years of search traffic. It usually happens because old URLs vanish without redirects, pages that ranked get merged or cut, and the new site launches without anyone comparing it to the old one.",
-        "We map every old URL to a new one, keep the content that ranks, redirect the rest and check the new build against the old site before launch. After launch we watch search data for 90 days and fix anything that drops. The same care applies when you change platform, for example from an old custom build to WordPress, or merge two domains into one."
+        "We map every old URL to a new one, keep the content that ranks, redirect the rest and check the new build against the old site before launch. After launch we monitor rankings and errors and fix anything that drops. The same care applies when you change platform, for example from an old custom build to WordPress, or merge two domains into one."
       ]
     },
     {
@@ -70,7 +70,7 @@
         "Talk: we look at your current site, your search data, your competitors and what the site must achieve for the business.",
         "Plan: sitemap, page plan, platform choice, integrations, redirect map and launch date, all in writing.",
         "Build: design, content, development and testing on a staging site you can review page by page.",
-        "Grow: launch, 90 days of search monitoring, then care, content and conversion work to keep improving results."
+        "Grow: launch, search and error monitoring, then care, content and conversion work to keep improving results."
       ]
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "q": "Can you redesign our site without losing rankings?",
-      "a": "Yes. We map every old URL to a new one, keep the content that ranks, redirect the rest and compare the new build with the old site before launch. After launch we monitor search data for 90 days and fix anything that drops, so the redesign protects the traffic you have already earned."
+      "a": "Yes. We map every old URL to a new one, keep the content that ranks, redirect the rest and compare the new build with the old site before launch. After launch we keep monitoring search data and errors and fix anything that drops, so the redesign protects the traffic you have already earned."
     },
     {
       "q": "Which platform should our website use?",

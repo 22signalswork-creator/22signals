@@ -112,7 +112,7 @@
     },
     {
       "q": "Who owns the code and the app store accounts?",
-      "a": "You do. The code lives in your repository, the apps are published under your own Apple and Google developer accounts, and the cloud accounts are in your name. We document the setup so another team could take over if you ever wanted, which is how it should be."
+      "a": "We agree at the start, in writing, who owns the accounts, code and data, and you always have access to what we build and run for you. We document the setup so another team could take over if you ever wanted, which is how it should be."
     },
     {
       "q": "Can you take over an app another company built?",

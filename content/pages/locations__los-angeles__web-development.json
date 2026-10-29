@@ -25,7 +25,7 @@
       "list": [
         "New websites and full redesigns",
         "Platform migrations that keep your rankings and redirects intact",
-        "Content management on WordPress, Webflow, Shopify or a headless CMS",
+        "Content management on WordPress, Shopify or a headless CMS",
         "Ecommerce stores, product drops and subscription checkouts",
         "Client portals with logins, documents and payments",
         "Multi-language sites, including English and Spanish versions",
@@ -114,8 +114,8 @@
       "a": "We monitor speed, errors, rankings and conversions closely in the first weeks. After that, most clients keep us on for website care, which covers updates, backups, security monitoring and small changes, and many add SEO or paid media so the new site keeps earning traffic."
     },
     {
-      "q": "Which platform should we use: WordPress, Webflow or Shopify?",
-      "a": "Shopify suits most brands that sell products online. WordPress fits content-heavy sites, clinics and law firms that need many pages and plugins. Webflow suits design-led marketing sites edited by a small team. We recommend in writing, with the trade-offs. It is one of the most important early calls in web development. Los Angeles teams that choose for their editors, not their developers, keep their sites current for longer."
+      "q": "Which platform should we use: WordPress, Shopify or a custom build?",
+      "a": "Shopify suits most brands that sell products online. WordPress fits content-heavy sites, clinics and law firms that need many pages and plugins. A custom build with Next.js suits design-led marketing sites that need more than a theme allows. We recommend in writing, with the trade-offs. It is one of the most important early calls in web development. Los Angeles teams that choose for their editors, not their developers, keep their sites current for longer."
     }
   ],
   "related": [

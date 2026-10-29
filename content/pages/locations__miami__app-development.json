@@ -51,7 +51,7 @@
       "h": "Payments across the Americas",
       "p": [
         "Many Miami apps serve customers well beyond Florida. A buyer in Mexico may want to pay with OXXO, a customer in Brazil with Pix, and a US user with Apple Pay. Card fees, currency conversion and failed payments add up quickly when you sell across borders.",
-        "We set up payment providers such as Stripe so local methods appear where they matter, prices show in the right currency, and receipts and emails go out in the user's language. For subscriptions we follow Apple and Google rules on in-app purchases from the start, which avoids rejections at launch."
+        "We set up payment providers so local methods appear where they matter, prices show in the right currency, and receipts and emails go out in the user's language. For subscriptions we follow Apple and Google rules on in-app purchases from the start, which avoids rejections at launch."
       ]
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "q": "How long does it take to launch an app?",
-      "a": "A focused first version often takes a few months, depending on features, integrations and design. Apple and Google reviews add time at the end. We set the timeline in planning, share test builds throughout, and put every date in writing so launch day is not a surprise."
+      "a": "It depends on features, integrations and design. Apple and Google reviews add time at the end. We set the timeline in planning, share test builds throughout, and put every date in writing so launch day is not a surprise."
     }
   ],
   "related": [

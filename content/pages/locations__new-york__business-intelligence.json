@@ -112,7 +112,7 @@
     },
     {
       "q": "Will our team be able to run it without you?",
-      "a": "Yes, if you want that. You own the warehouse, the dashboards and every login. We train your staff, write a short runbook for the pipelines, and hand over the KPI dictionary. Some clients keep us on to maintain and extend it; others run it themselves."
+      "a": "Yes, if you want that. Ownership of the warehouse, dashboards and logins is agreed in writing at the start, and you always have access to them. We train your staff, write a short runbook for the pipelines, and hand over the KPI dictionary. Some clients keep us on to maintain and extend it; others run it themselves."
     }
   ],
   "related": [

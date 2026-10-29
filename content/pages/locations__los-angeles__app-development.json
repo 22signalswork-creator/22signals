@@ -100,7 +100,7 @@
     },
     {
       "q": "How long does app development take?",
-      "a": "A focused first version often takes a few months from design to store launch, depending on features and integrations. Larger products take longer. We agree a dated plan at the start, show a working build every two weeks and report against the dates, so there are no surprises near launch."
+      "a": "From design to store launch, it depends on features and integrations. Larger products take longer. We agree a dated plan at the start, show a working build every two weeks and report against the dates, so there are no surprises near launch."
     },
     {
       "q": "Can you build a HIPAA-ready app for a Los Angeles clinic?",
@@ -112,7 +112,7 @@
     },
     {
       "q": "Who owns the code and the app store accounts?",
-      "a": "You do. Apps are published under your own developer accounts, the code lives in your repository and we hand over documentation. If you later want to bring development in-house, your team can pick it up without starting again."
+      "a": "We agree at the start, in writing, who owns the code and the developer accounts, and you always have access to what we build. We also hand over documentation. If you later want to bring development in-house, your team can pick it up without starting again."
     },
     {
       "q": "What should the first version of our app include?",

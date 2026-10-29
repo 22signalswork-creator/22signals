@@ -109,7 +109,7 @@
     },
     {
       "q": "Do you handle the App Store and Google Play launch?",
-      "a": "Yes. We prepare store listings in Arabic and English, screenshots, privacy disclosures and review submissions, and we handle rejections if they happen. After launch we monitor crashes and reviews and release fixes. Your organisation owns the developer accounts."
+      "a": "Yes. We prepare store listings in Arabic and English, screenshots, privacy disclosures and review submissions, and we handle rejections if they happen. After launch we monitor crashes and reviews and release fixes. Who holds the developer accounts is agreed in writing at the start."
     },
     {
       "q": "How long does it take to build an app?",
@@ -117,7 +117,7 @@
     },
     {
       "q": "Who owns the code?",
-      "a": "You do. The code, designs and developer accounts belong to your organisation, and we document the app so another team could maintain it. We would rather keep your business because the work is good than because you are locked in."
+      "a": "We agree it in writing before the build starts, covering the code, designs and developer accounts, and you always have access to what we build for you. We document the app so another team could maintain it. We would rather keep your business because the work is good than because you are locked in."
     }
   ],
   "related": [

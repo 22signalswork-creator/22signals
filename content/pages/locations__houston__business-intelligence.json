@@ -23,7 +23,7 @@
       "h": "What the engagement covers",
       "list": [
         "Data strategy and KPI design: agreeing what each number means, who owns it and how often it updates.",
-        "Data warehouse and pipelines: getting source data into BigQuery, Snowflake, Azure or Databricks on a schedule, with history kept.",
+        "Data warehouse and pipelines: getting source data into BigQuery or Azure on a schedule, with history kept.",
         "Dashboards in Power BI, Looker Studio or Tableau, designed for the person reading them, from a CFO to a shift supervisor.",
         "Automated reporting: the board pack, the weekly ops review and the monthly client report produced without copy and paste.",
         "Forecasting: demand, production, staffing or cash, using methods you can explain to a lender or a board.",
@@ -103,7 +103,7 @@
     },
     {
       "q": "How long does a BI project take?",
-      "a": "A first set of dashboards from two or three sources usually takes six to ten weeks, including KPI agreement and testing. Larger programs that bring in many systems or acquired companies run in phases, each with its own dates in writing. You see working dashboards early rather than waiting for a big reveal."
+      "a": "For a first set of dashboards from two or three sources, it depends on KPI agreement, data access and testing. Larger programs that bring in many systems or acquired companies run in phases, each with its own dates in writing. You see working dashboards early rather than waiting for a big reveal."
     },
     {
       "q": "Do you work with Houston clients in person?",

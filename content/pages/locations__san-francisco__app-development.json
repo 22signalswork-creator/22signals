@@ -26,7 +26,7 @@
         "iOS and Android apps, native or cross-platform with React Native or Flutter, chosen by what the app must do.",
         "Web apps and SaaS products, from a first version with paying users to a rebuild of a product that outgrew its prototype.",
         "MVPs for new product lines inside established companies.",
-        "Payments and subscriptions through Stripe and the app stores.",
+        "Payments and subscriptions through a payment provider and the app stores.",
         "APIs and integrations with your existing platform, CRM or data warehouse.",
         "AI features inside the app: search, summaries, assistants and recommendations, with evaluation before release.",
         "App store launch, release management and ongoing support."
@@ -96,7 +96,7 @@
     },
     {
       "q": "Who owns the code?",
-      "a": "You do. Code lives in your repository, apps publish under your developer accounts, and cloud resources run in your accounts. We document the architecture and the release process so your engineers can take over at any point, and we never hold accounts or credentials hostage."
+      "a": "We agree that in writing at the start, covering the code, developer accounts and cloud resources, and you always have access to what we build and run for you. We document the architecture and the release process so your engineers can take over at any point, and we never hold accounts or credentials hostage."
     },
     {
       "q": "Can you add AI features to our existing app?",

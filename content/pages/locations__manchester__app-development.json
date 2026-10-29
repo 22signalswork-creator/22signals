@@ -17,7 +17,7 @@
       "p": [
         "The usual story: a Manchester company decides it needs an app, writes a feature list as long as a menu, gets three quotes that differ by a factor of four, and picks the middle one. Eighteen months later the app is half built, the original developer has moved on, and nobody can say whether customers even wanted it.",
         "We start somewhere else. What job does the app do for the user, what is the smallest version that does it, and how will you know it is working? Answer those, and the build becomes far more predictable.",
-        "In practice, the real need for a Manchester company is often narrower than the first brief: a staff app that replaces a paper process, or a customer app that does one thing better than the website. Starting there gets something useful into people's hands within months, and the feature list can grow from evidence rather than guesswork."
+        "In practice, the real need for a Manchester company is often narrower than the first brief: a staff app that replaces a paper process, or a customer app that does one thing better than the website. Starting there gets something useful into people's hands sooner, and the feature list can grow from evidence rather than guesswork."
       ]
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "q": "Who owns the app and the code?",
-      "a": "You do. The code repository, app store accounts, cloud hosting and design files are set up in your business's name. That way you are never locked in, and another team could pick it up if you ever needed them to."
+      "a": "We agree that in writing before the build starts, covering the code repository, app store accounts, cloud hosting and design files, and you always have access to what we build and run for you. We document it so another team could pick it up if you ever needed them to."
     },
     {
       "q": "What happens after the app is in the stores?",

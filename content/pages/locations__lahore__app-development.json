@@ -107,7 +107,7 @@
     },
     {
       "q": "How long does it take to build an app?",
-      "a": "A focused MVP often takes a few months; a larger product with several user roles and integrations takes longer. We split features into launch and later, give dated milestones in writing and put a working test build in your hands every two weeks."
+      "a": "A focused MVP is quicker; a larger product with several user roles and integrations takes longer. We split features into launch and later, give dated milestones in writing and put a working test build in your hands every two weeks."
     },
     {
       "q": "Is your app development company Lahore-based?",
@@ -115,7 +115,7 @@
     },
     {
       "q": "Who owns the code and the app store accounts?",
-      "a": "You do. The app store accounts are created in your company's name and the code lives in a repository you own. That way you can bring development in-house or change partners later without losing anything. We document the set-up as we go, so a new developer can pick it up without guesswork."
+      "a": "We agree it in writing before work starts, covering the code, the repository and the app store accounts, and you always have access to what we build for you. That way you can bring development in-house or change partners later without losing anything. We document the set-up as we go, so a new developer can pick it up without guesswork."
     }
   ],
   "related": [

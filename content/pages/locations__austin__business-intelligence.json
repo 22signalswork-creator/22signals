@@ -7,7 +7,7 @@
   "service": "business-intelligence",
   "serviceType": "Business intelligence and data analytics consulting",
   "title": "Business Intelligence Consulting in Austin | 22 Signals",
-  "description": "Business intelligence consulting for Austin SaaS, hardware and healthcare companies: KPIs, pipelines and Power BI or Looker dashboards your leadership trusts.",
+  "description": "Business intelligence consulting for Austin SaaS, hardware and healthcare firms: KPIs, pipelines and Power BI or Looker Studio dashboards leaders trust.",
   "eyebrow": "Business Intelligence and Data Analytics in Austin",
   "h1": "Business intelligence consulting for Austin companies that have outgrown spreadsheets",
   "intro": "Our business intelligence and data analytics consulting helps Austin companies agree on the numbers that matter, connect the systems that hold them, and build dashboards people open every week. We design KPIs, pipelines and reports in Power BI, Looker Studio or Tableau, then automate the reporting, working remotely from London on Central Time hours.",
@@ -99,11 +99,11 @@
   "faqs": [
     {
       "q": "How long does a business intelligence project take for an Austin company?",
-      "a": "A focused first phase, with KPI definitions, a warehouse, two or three core sources and a leadership dashboard, usually takes six to ten weeks. Larger programs are phased so you see working dashboards early. The dates are agreed and written down in the planning stage, after we have seen your systems."
+      "a": "A focused first phase covers KPI definitions, a warehouse, two or three core sources and a leadership dashboard, and its length depends on your systems and data. Larger programs are phased so you see working dashboards early. The dates are agreed and written down in the planning stage, after we have seen your systems."
     },
     {
       "q": "Do we need a data warehouse, or can dashboards connect directly?",
-      "a": "For one or two sources, direct connections can work. Once you are combining CRM, billing, product and finance data, a warehouse such as BigQuery, Snowflake or Azure is usually worth it, because it keeps logic in one place and dashboards fast. We recommend the simplest setup that will still hold up as you grow."
+      "a": "For one or two sources, direct connections can work. Once you are combining CRM, billing, product and finance data, a warehouse such as BigQuery or Azure is usually worth it, because it keeps logic in one place and dashboards fast. We recommend the simplest setup that will still hold up as you grow."
     },
     {
       "q": "Can you work with our existing Power BI reports?",

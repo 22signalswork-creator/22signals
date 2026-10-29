@@ -25,7 +25,7 @@
       "list": [
         "Company websites and redesigns, built for speed and search from the first wireframe",
         "Migrations to a new platform or domain that keep the rankings you have earned",
-        "Content management on WordPress, Webflow or a headless CMS, so your team can edit without a developer",
+        "Content management on WordPress or a headless CMS, so your team can edit without a developer",
         "E-commerce on Shopify or WooCommerce, with UK VAT, delivery and returns set up properly",
         "Client portals with secure logins, document exchange and online payments",
         "Website care: updates, security monitoring, backups and small changes each month"
@@ -52,7 +52,7 @@
     {
       "h": "How a project runs: Talk, Plan, Build, Grow",
       "p": [
-        "Talk: a short call about what the site needs to achieve and what is holding the current one back. Plan: a written scope with a sitemap, content plan, technical choices and, for redesigns, a full URL map so nothing that ranks is lost. Build: design, development and content, shown to you in stages on a staging site. Grow: launch, then 90 days of watching search data, fixing anything that dips and improving the pages that bring enquiries.",
+        "Talk: a short call about what the site needs to achieve and what is holding the current one back. Plan: a written scope with a sitemap, content plan, technical choices and, for redesigns, a full URL map so nothing that ranks is lost. Build: design, development and content, shown to you in stages on a staging site. Grow: launch, then we watch search data, fix anything that dips and improve the pages that bring enquiries.",
         "Every date goes in writing, including the launch date, and your Signal Lead owns all of them."
       ]
     },
@@ -103,7 +103,7 @@
   "faqs": [
     {
       "q": "Can you redesign our site without losing Google rankings?",
-      "a": "Yes. We crawl the current site, map every URL that ranks or has links to its new address, keep the content that performs, set up redirects and test them before launch. For 90 days afterwards we watch Search Console and fix anything that drops. Most rankings carry over when migrations are planned this carefully."
+      "a": "Yes. We crawl the current site, map every URL that ranks or has links to its new address, keep the content that performs, set up redirects and test them before launch. After launch we watch Search Console and fix anything that drops. Most rankings carry over when migrations are planned this carefully."
     },
     {
       "q": "Do you meet clients in person in London?",
@@ -111,7 +111,7 @@
     },
     {
       "q": "Which platform should a London business use?",
-      "a": "It depends on who will edit the site and what it must do. WordPress suits content-heavy firms and gives the most flexibility. Webflow suits design-led brands with simpler needs. Shopify is our default for e-commerce. Portals and complex features are often custom. We recommend after scoping, and you own whatever we build."
+      "a": "It depends on who will edit the site and what it must do. WordPress suits content-heavy firms and gives the most flexibility. Design-led brands with simpler needs often do well on a lean WordPress theme. Shopify is our default for e-commerce. Portals and complex features are often custom. We recommend after scoping, and agree in writing who owns the site, code and accounts."
     },
     {
       "q": "Will the website meet accessibility standards?",
@@ -123,7 +123,7 @@
     },
     {
       "q": "Do you look after websites after launch?",
-      "a": "Yes. Website care covers updates, security monitoring, backups, uptime checks and small content changes each month, with one lead to call. We have cleaned up compromised law-firm websites, so we take patching seriously. You can also take the site in-house at any point; you own everything."
+      "a": "Yes. Website care covers updates, security monitoring, backups, uptime checks and small content changes each month, with one lead to call. We have cleaned up compromised law-firm websites, so we take patching seriously. You always have access to what we build and run for you, so taking the site in-house later is straightforward."
     },
     {
       "q": "How long does a London website project take?",

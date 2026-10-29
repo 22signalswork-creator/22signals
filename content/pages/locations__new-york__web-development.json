@@ -10,7 +10,7 @@
   "description": "A web development company for New York firms: redesigns that keep rankings, accessible builds, client portals and e-commerce, with care after launch.",
   "eyebrow": "Web Development in New York",
   "h1": "A web development company for New York firms that cannot afford a bad relaunch",
-  "intro": "22 Signals is a web development company New York firms hire for redesigns, migrations that keep search rankings, accessible builds, client portals and e-commerce. We plan the content and SEO before design starts, build on WordPress, Webflow, Shopify or a custom stack, and look after security and updates once the site is live.",
+  "intro": "22 Signals is a web development company New York firms hire for redesigns, migrations that keep search rankings, accessible builds, client portals and e-commerce. We plan the content and SEO before design starts, build on WordPress, Shopify or a custom stack, and look after security and updates once the site is live.",
   "sections": [
     {
       "h": "What goes wrong with New York website projects",
@@ -25,7 +25,7 @@
       "list": [
         "Company websites and full redesigns for professional services, healthcare, real estate and consumer brands",
         "Migrations between platforms that keep URLs, redirects, metadata and rankings intact",
-        "Content management on WordPress, Webflow or a headless CMS that your team can edit without a developer",
+        "Content management on WordPress or a headless CMS that your team can edit without a developer",
         "E-commerce on Shopify or custom builds, including limited product drops, gift cards and subscriptions",
         "Client portals with secure login, document sharing and online payments",
         "Website care: updates, backups, uptime monitoring, security hardening and small changes each month"
@@ -95,8 +95,8 @@
       "a": "We build to WCAG 2.2 AA, the standard courts and regulators most often point to, and test with automated tools and a screen reader before launch. No developer can promise you will never be sued, but a properly built accessible site removes the easy findings that most demand letters rely on."
     },
     {
-      "q": "Which platform do you recommend: WordPress, Webflow or Shopify?",
-      "a": "WordPress suits content-heavy sites with many practice or service pages and lots of editors. Webflow suits marketing sites that need strong design and simple editing. Shopify is our default for e-commerce. For portals and complex logic we build custom. We choose after seeing your content, team and integrations."
+      "q": "Which platform do you recommend: WordPress, Shopify or custom?",
+      "a": "WordPress suits content-heavy sites with many practice or service pages and lots of editors. A headless CMS with Next.js suits marketing sites that need strong design and simple editing. Shopify is our default for e-commerce. For portals and complex logic we build custom. We choose after seeing your content, team and integrations."
     },
     {
       "q": "Do you meet clients in New York?",

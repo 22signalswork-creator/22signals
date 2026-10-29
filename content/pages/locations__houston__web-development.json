@@ -22,7 +22,7 @@
     {
       "h": "What we build",
       "list": [
-        "New websites and full redesigns on WordPress, Webflow, headless CMS setups or custom code, chosen to suit who will edit the site.",
+        "New websites and full redesigns on WordPress, headless CMS setups or custom code, chosen to suit who will edit the site.",
         "Migrations from old platforms that keep URLs, redirects and search rankings intact.",
         "Content management that lets your marketing team update pages without calling a developer.",
         "E-commerce for distributors and retailers, including trade pricing and account logins.",
@@ -111,7 +111,7 @@
     },
     {
       "q": "Which platform should our website use?",
-      "a": "It depends on who will edit it and what it must do. WordPress suits teams that want flexibility and lots of content. Webflow suits design-led sites with a small marketing team. Custom builds make sense for portals or complex integrations. We recommend after seeing your content, your team and your plans."
+      "a": "It depends on who will edit it and what it must do. WordPress suits teams that want flexibility and lots of content. A lean WordPress build with a visual editor suits design-led sites with a small marketing team. Custom builds make sense for portals or complex integrations. We recommend after seeing your content, your team and your plans."
     },
     {
       "q": "Can our medical practice take patient forms online safely?",
@@ -119,7 +119,7 @@
     },
     {
       "q": "How long does a new website take?",
-      "a": "A typical site for an established Houston company takes eight to fourteen weeks from kickoff to launch, depending on pages, languages and integrations. Content is usually the slowest part, so we start writing early. Every milestone date is agreed in writing at the plan stage, and we tell you as soon as anything threatens it."
+      "a": "For an established Houston company, it depends on pages, languages and integrations. Content is usually the slowest part, so we start writing early. Every milestone date is agreed in writing at the plan stage, and we tell you as soon as anything threatens it."
     }
   ],
   "related": ["/locations/houston", "/services/web-app-development", "/locations/houston/seo-geo", "/locations/houston/app-development", "/locations/austin/web-development"],

@@ -105,7 +105,7 @@
     },
     {
       "q": "How long does it take to build an app?",
-      "a": "A focused first version usually takes three to five months, depending on platforms, offline needs and integrations. Simple internal tools can be faster. We agree the scope for version one and the launch date in writing, then add features in later releases based on real usage rather than guesses."
+      "a": "It depends on platforms, offline needs and integrations, and simple internal tools are quicker than customer apps. We agree the scope for version one and the launch date in writing, then add features in later releases based on real usage rather than guesses."
     },
     {
       "q": "Can you build a HIPAA-compliant patient app?",
@@ -113,7 +113,7 @@
     },
     {
       "q": "Will we own the code?",
-      "a": "Yes. You own the source code, designs and app store listings. We set up the repositories and developer accounts in your company's name from day one, so you are never locked in. If you later bring development in-house, we hand over documentation and help your team take it on."
+      "a": "We agree ownership of the source code, designs, repositories, developer accounts and app store listings in writing at the start, and you always have access to what we build, so you are never locked in. If you later bring development in-house, we hand over documentation and help your team take it on."
     }
   ],
   "related": ["/locations/houston", "/services/app-development", "/locations/houston/web-development", "/services/custom-ai-development", "/locations/dallas/app-development"],

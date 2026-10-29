@@ -100,7 +100,7 @@
     },
     {
       "q": "How long does it take to launch a first version?",
-      "a": "A tightly scoped first version often takes a few months, including design, testing and app store review. Apps with many integrations, payments or compliance needs take longer. We agree the release plan in writing at the start, and you get installable test builds throughout, so there are no surprises at the end."
+      "a": "It depends on how tightly the first version is scoped, plus design, testing and app store review. Apps with many integrations, payments or compliance needs take longer. We agree the release plan in writing at the start, and you get installable test builds throughout, so there are no surprises at the end."
     },
     {
       "q": "Do you build apps for Dallas startups?",
@@ -116,7 +116,7 @@
     },
     {
       "q": "Who owns the code and the app store accounts?",
-      "a": "You do. Apps are published under your own Apple and Google developer accounts, and the code sits in a repository you own. If you later move support in-house or to another team, everything they need is already in your hands, along with our documentation."
+      "a": "We agree it in writing at the start, covering the code, the repository and the Apple and Google developer accounts, and you always have access to what we build. If you later move support in-house or to another team, our documentation goes with it."
     }
   ],
   "related": [

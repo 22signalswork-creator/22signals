@@ -98,7 +98,7 @@
     },
     {
       "q": "Can you work with our engineering team rather than replace it?",
-      "a": "Yes. Most of our Bay Area AI consulting clients have strong engineers who are busy shipping the core product. We take the evaluation sets, data plumbing and governance they have no time for, and hand everything back documented, in your repository and your cloud account."
+      "a": "Yes. Most of our Bay Area AI consulting clients have strong engineers who are busy shipping the core product. We take the evaluation sets, data plumbing and governance they have no time for, and hand everything back documented, with ownership of the code and accounts agreed in writing at the start."
     },
     {
       "q": "Which AI models and providers do you work with?",

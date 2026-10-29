@@ -117,7 +117,7 @@
     },
     {
       "q": "How long does a first automation take to build?",
-      "a": "A single well-defined workflow, such as reading invoices into your accounting tool, can often be live within a few weeks; workflows that touch many systems take longer. We agree the date in writing before we start. We also run it beside the manual process first, which is standard in our AI automation. Los Angeles teams see it working on real cases before anyone switches over."
+      "a": "A single well-defined workflow, such as reading invoices into your accounting tool, is quicker than workflows that touch many systems. We agree the date in writing before we start. We also run it beside the manual process first, which is standard in our AI automation. Los Angeles teams see it working on real cases before anyone switches over."
     }
   ],
   "related": [

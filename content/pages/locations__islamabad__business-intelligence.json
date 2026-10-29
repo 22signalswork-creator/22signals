@@ -55,7 +55,7 @@
     {
       "h": "Power BI, Looker Studio or Tableau?",
       "p": [
-        "Power BI usually fits organisations already on Microsoft 365, which includes many government-linked bodies, development organisations and larger companies in the capital. Looker Studio suits teams living in Google Workspace and startups that need something quick. Tableau makes sense where it is already licensed. Underneath, the warehouse might be BigQuery, Snowflake, Azure or a database on your own servers.",
+        "Power BI usually fits organisations already on Microsoft 365, which includes many government-linked bodies, development organisations and larger companies in the capital. Looker Studio suits teams living in Google Workspace and startups that need something quick. Tableau makes sense where it is already licensed. Underneath, the warehouse might be BigQuery, Azure or a database on your own servers.",
         "Where public sector data is involved, the hosting choice follows the federal Cloud First Policy's data classes. For business intelligence, Islamabad teams are best served by the tool their people will actually open, not the one with the longest feature list."
       ]
     },

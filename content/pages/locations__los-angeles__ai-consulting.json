@@ -105,7 +105,7 @@
     },
     {
       "q": "How long does an AI roadmap take?",
-      "a": "A readiness review and ranked use-case list usually takes a few weeks, depending on how many teams we interview and how easy the data is to reach. The pilot follows. We agree the dates at the start and put them in writing, and the Signal Lead reports against them every week."
+      "a": "A readiness review and ranked use-case list take 5 to 7 days. The pilot follows and typically ships 3 to 4 times faster than the usual market timeline. We agree the dates at the start and put them in writing, and the Signal Lead reports against them every week."
     },
     {
       "q": "Should we build our own AI tool or buy one?",

@@ -55,7 +55,7 @@
       "h": "How an engagement runs: Talk, Plan, Build, Grow",
       "list": [
         "Talk: a short call to understand your business and whether AI consulting is the right first step.",
-        "Plan: two to four weeks of interviews, systems review and use-case ranking, ending in a written roadmap.",
+        "Plan: 5 to 7 days of interviews, systems review and use-case ranking, ending in a written roadmap.",
         "Build: a pilot on your data, with clear success measures agreed before we start.",
         "Grow: if the pilot works, we roll it out, train the team and move to the next use case on the list."
       ]
@@ -97,7 +97,7 @@
     },
     {
       "q": "How long does AI consulting take before we see something working?",
-      "a": "A typical discovery and roadmap takes two to four weeks. A first pilot usually follows within a few weeks after that, depending on how easy your data is to reach. We agree dates in writing at the planning stage, so you know when the pilot will be in front of real users before any build begins."
+      "a": "Discovery and a roadmap take 5 to 7 days. A first pilot typically ships 3 to 4 times faster than the usual market timeline, though how easy your data is to reach still matters. We agree dates in writing at the planning stage, so you know when the pilot will be in front of real users before any build begins."
     },
     {
       "q": "How does the Texas Responsible Artificial Intelligence Governance Act affect us?",

@@ -24,7 +24,7 @@
       "h": "What business intelligence San Francisco teams get from us",
       "list": [
         "Data strategy and KPI design: a written metric dictionary that finance and product both sign.",
-        "A warehouse and pipelines on BigQuery, Snowflake or Azure, fed from your product database, billing, CRM and ad platforms.",
+        "A warehouse and pipelines on BigQuery or Azure, fed from your product database, billing, CRM and ad platforms.",
         "Dashboards in Power BI, Looker Studio or Tableau, built for the people who read them, not for the analyst who made them.",
         "Automated reporting: the weekly metrics email and the monthly board pack produced without copy and paste.",
         "Forecasting for revenue, cash and usage, with the assumptions visible.",
@@ -93,8 +93,8 @@
       "a": "Yes. Board packs are one of the most common requests we get in business intelligence. San Francisco companies with venture investors need ARR, retention, burn and runway reported the same way every month. We automate the data behind the pack, so finance reviews it rather than rebuilds it."
     },
     {
-      "q": "Do you work with Snowflake or BigQuery?",
-      "a": "Both, plus Azure and Databricks. If you already have a warehouse, we build on it. If not, we recommend one based on your cloud, your data volumes and who will maintain it. We also review warehouse costs, because query bills can grow quietly once dashboards refresh every few minutes."
+      "q": "Which data warehouses do you work with?",
+      "a": "Mostly BigQuery and Azure. If you already have a warehouse, we build on it. If not, we recommend one based on your cloud, your data volumes and who will maintain it. We also review warehouse costs, because query bills can grow quietly once dashboards refresh every few minutes."
     },
     {
       "q": "How do you handle CCPA deletion requests in analytics data?",

@@ -22,12 +22,12 @@
     {
       "h": "What our AI consulting includes",
       "list": [
-        "AI readiness review: your data, systems, people and the rules you work under, checked in two to four weeks.",
+        "AI readiness review: your data, systems, people and the rules you work under, checked in 5 to 7 days.",
         "Use-case discovery ranked by value and effort, built from interviews with the people who do the work, not only the executives.",
         "An AI roadmap with owners, budgets to run, and dates written down.",
         "Tool and vendor selection, including a build versus buy call on each use case and a look at what your current Microsoft, SAP or Salesforce licenses already include.",
         "AI policy and governance: what staff can paste into which tools, how outputs are checked, and how data privacy is handled.",
-        "Pilot builds that prove or kill a use case in weeks, with a clear pass mark agreed before work starts.",
+        "Pilot builds that prove or kill a use case, typically 3 to 4 times faster than the usual market timeline, with a clear pass mark agreed before work starts.",
         "Team training so the people using the tools know their limits as well as their strengths."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "h": "Proof from our AI work",
       "p": [
-        "We have shipped more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. That matters for AI consulting: Houston clients get advice drawn from what we have had to make work in production, not from vendor briefings. When we tell a Houston operations director that a use case will take six weeks and need clean data from two systems, it is because we have built something like it before."
+        "We have shipped more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. That matters for AI consulting: Houston clients get advice drawn from what we have had to make work in production, not from vendor briefings. When we tell a Houston operations director that a use case needs clean data from two systems and give a date for it, it is because we have built something like it before."
       ]
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "q": "How long does an AI readiness review take?",
-      "a": "Usually two to four weeks for a mid-sized Houston company, depending on how many departments and systems are in scope. You get a written readiness score, a ranked list of use cases, a roadmap with owners and dates, and a recommendation on which pilot to run first. Larger multi-site operators take longer because there are more people to interview."
+      "a": "It takes 5 to 7 days for a mid-sized Houston company. You get a written readiness score, a ranked list of use cases, a roadmap with owners and dates, and a recommendation on which pilot to run first. For larger multi-site operators with more people to interview, we agree the dates in writing after the first call."
     },
     {
       "q": "Do you only advise, or do you also build?",

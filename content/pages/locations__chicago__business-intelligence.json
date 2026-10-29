@@ -7,7 +7,7 @@
   "service": "business-intelligence",
   "serviceType": "Business intelligence and data analytics consulting",
   "title": "Data Analytics Consulting in Chicago, IL | 22 Signals",
-  "description": "Data analytics consulting for Chicago firms: KPI design, pipelines and Power BI or Looker dashboards for manufacturing, freight, insurance and food brands.",
+  "description": "Data analytics consulting for Chicago firms: KPI design, pipelines and Power BI or Looker Studio dashboards for manufacturing, freight, insurance and food.",
   "eyebrow": "Business Intelligence and Data Analytics in Chicago",
   "h1": "Data analytics consulting for Chicago companies",
   "intro": "Our data analytics consulting gives Chicago companies one version of the numbers. We design the KPIs, connect the ERP, TMS, CRM and finance data, and build dashboards in Power BI, Looker Studio or Tableau. It is for established manufacturers, logistics firms, insurers, food brands and professional services firms tired of arguing about whose spreadsheet is right.",
@@ -108,7 +108,7 @@
     },
     {
       "q": "How long before we see the first dashboard?",
-      "a": "Usually a few weeks after the plan is agreed, depending on access to source systems. We start with the reports your leadership uses most, often a weekly operations or margin view, and add more once the numbers match what finance expects. Dates are set and written down at the planning stage."
+      "a": "That depends mostly on access to source systems, and we give you the date once the plan is agreed. We start with the reports your leadership uses most, often a weekly operations or margin view, and add more once the numbers match what finance expects. Dates are set and written down at the planning stage."
     },
     {
       "q": "How do you protect personal data in reports?",

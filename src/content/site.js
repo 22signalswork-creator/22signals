@@ -109,7 +109,7 @@ export const MARKETS = [
 
 const CTA = {
   heading: "Book a 15-minute call.",
-  text: "A fit check, not a pitch. A few questions, an honest answer, and if there's a fit, your first motion graphics reel is on us. Not every call ends in a proposal.",
+  text: "A fit check, not a pitch. A few questions, an honest answer, and if your business qualifies, your first motion graphics reel is on us. Not every call ends in a proposal.",
   button: "Book 15 minutes",
 };
 
@@ -356,7 +356,7 @@ export const PAGES = [
       },
       {
         q: "Which BI tools do you work with?",
-        a: "Power BI, Looker Studio and Tableau for reporting, and cloud data warehouses such as BigQuery, Snowflake and Azure for storage. We recommend what fits your stack and budget.",
+        a: "Power BI, Looker Studio and Tableau for reporting, and cloud data warehouses such as BigQuery and Azure for storage. We recommend what fits your stack and budget.",
       },
     ],
     related: ["/services/cloud", "/services/ai-consulting", "/services/business-optimization"],
@@ -371,7 +371,7 @@ export const PAGES = [
     eyebrow: "AI and Automation",
     h1: "Custom AI tools and automations.",
     intro:
-      "22 Signals builds custom AI tools, automations and internal software that take repetitive work off a team and make the business smarter: intake and booking, reporting, research, content operations, sales follow-up and data analysis. We scope a build in days, ship it, and measure what changed.",
+      "22 Signals builds custom AI tools, automations and internal software that take repetitive work off a team and make the business smarter: intake and booking, reporting, research, content operations, sales follow-up and data analysis. We scope a build, agree the dates in writing, ship it, and measure what changed.",
     sections: [
       { h: "Proof", p: [PROOF.ai] },
       {
@@ -492,7 +492,7 @@ export const PAGES = [
     faqs: [
       {
         q: "Can you redesign our site without losing rankings?",
-        a: "Yes. We map every old URL to a new one, keep the content that ranks, redirect the rest and monitor search data for 90 days after launch.",
+        a: "Yes. We map every old URL to a new one, keep the content that ranks, redirect the rest and monitor rankings and errors after launch.",
       },
       {
         q: "Do you maintain sites after launch?",
@@ -540,7 +540,7 @@ export const PAGES = [
       },
       {
         q: "How long does SEO and GEO take to work?",
-        a: "Fixes to how you're described can show within weeks once pages are recrawled. Ranking and being recommended for competitive searches usually takes three to six months.",
+        a: "Fixes to how you're described show once pages are recrawled. Ranking and being recommended for competitive searches takes longer, depending on your site and how crowded your market is. We agree milestones in writing and report what moved every month.",
       },
       {
         q: "Can you guarantee ChatGPT will recommend us?",
@@ -601,11 +601,11 @@ export const PAGES = [
     serviceType: "Video production, motion graphics and 3D animation",
     title: "Video Production, AI Video, Animation and 3D Renders | 22 Signals",
     description:
-      "Video production, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for ambitious brands. Your first motion graphics reel is on us.",
+      "Video production, AI video, motion graphics, animation and photoreal 3D renders. Qualifying businesses get their first motion graphics reel on us.",
     eyebrow: "Video, AI Video, Animation and 3D",
     h1: "Video, animation and 3D that stops the scroll.",
     intro:
-      "22 Signals produces video, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call, and if there's a fit, your first motion graphics reel is on us.",
+      "22 Signals produces video, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call, and if your business qualifies, your first motion graphics reel is on us.",
     sections: [
       {
         h: "What we make",
@@ -822,7 +822,7 @@ export const PAGES = [
       },
       {
         q: "Can we change our domain without losing rankings?",
-        a: "Yes, with a full redirect map, content parity, updated directory listings and 90 days of monitoring after launch.",
+        a: "Yes, with a full redirect map, content parity, updated directory listings, and monitoring of rankings and errors after launch.",
       },
     ],
     related: ["/services/seo-geo", "/services/web-app-development", "/partners"],
@@ -1122,7 +1122,7 @@ export const PAGES = [
       },
       {
         q: "What happens on the 15-minute call?",
-        a: "Four or five questions, an honest fit verdict, and if there's a fit, a brief for your motion graphics reel, which is on us.",
+        a: "Four or five questions, an honest fit verdict, and if your business qualifies, a brief for your motion graphics reel, which is on us.",
       },
     ],
     related: ["/about", "/how-we-work", "/contact"],

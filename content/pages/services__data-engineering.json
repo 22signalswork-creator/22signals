@@ -4,10 +4,10 @@
   "region": "global",
   "serviceType": "Data engineering",
   "title": "Data Engineering Services and Data Pipelines | 22 Signals",
-  "description": "Data engineering services: ETL and ELT pipelines, warehouses and lakehouses on BigQuery, Snowflake, Azure or Databricks, with tests, monitoring and APIs.",
+  "description": "Data engineering services: ETL and ELT pipelines, warehouses and lakehouses on BigQuery, Azure or AWS, with tests, monitoring and APIs.",
   "eyebrow": "Data Engineering",
   "h1": "Data engineering services that give your data one reliable home",
-  "intro": "22 Signals delivers data engineering services for companies whose data is spread across too many tools. We build ETL and ELT pipelines, set up warehouses and lakehouses on BigQuery, Snowflake, Azure or Databricks, add tests, orchestration and monitoring, and connect the APIs your systems need, so reporting, automation and AI all run on the same trusted data.",
+  "intro": "22 Signals delivers data engineering services for companies whose data is spread across too many tools. We build ETL and ELT pipelines, set up warehouses and lakehouses on BigQuery, Azure or AWS, add tests, orchestration and monitoring, and connect the APIs your systems need, so reporting, automation and AI all run on the same trusted data.",
   "sections": [
     {
       "h": "The problem: data glued together by exports and scripts",
@@ -20,8 +20,8 @@
       "h": "What our data engineering services include",
       "list": [
         "Pipelines (ETL and ELT) from SaaS tools, databases, files, APIs and event streams",
-        "Warehouses and lakehouses on BigQuery, Snowflake, Azure, Microsoft Fabric or Databricks",
-        "Transformation and modeling with version-controlled SQL, typically in dbt",
+        "Warehouses and lakehouses on BigQuery, Azure, Microsoft Fabric or AWS",
+        "Transformation and modeling with version-controlled SQL, reviewed before release",
         "Data quality tests, freshness checks and alerts when something breaks",
         "Orchestration and scheduling so jobs run in the right order and recover from failures",
         "APIs and integrations, including sending clean data back into your CRM and other tools",
@@ -32,21 +32,21 @@
     {
       "h": "Pipelines: getting data in reliably",
       "p": [
-        "For common SaaS sources we usually start with a managed connector service such as Fivetran or Airbyte, because maintaining connectors for APIs that change every few months is rarely a good use of your money. Where no connector exists, or the volume or cost does not make sense, we write custom ingestion in Python against the source API or database.",
+        "For common SaaS sources we usually start with a managed connector service, because maintaining connectors for APIs that change every few months is rarely a good use of your money. Where no connector exists, or the volume or cost does not make sense, we write custom ingestion in Python against the source API or database.",
         "Most modern stacks use ELT: load raw data into the warehouse first, then transform it there. That keeps an untouched copy of what arrived, which makes problems easier to trace. For databases that change constantly we use change data capture, so only new and updated rows move, and for time-sensitive events we can stream data rather than batch it."
       ]
     },
     {
       "h": "Choosing a warehouse or lakehouse",
       "p": [
-        "There is no single right platform, and we have no reason to push one. BigQuery suits companies on Google Cloud or heavy users of Google Ads and GA4. Snowflake works well across clouds and is strong when several teams share data. Azure and Microsoft Fabric fit companies already on Microsoft 365 and Power BI. Databricks makes sense when data science and machine learning are a large part of the plan, or when you are working with large volumes of files and semi-structured data.",
+        "There is no single right platform, and we have no reason to push one. BigQuery suits companies on Google Cloud or heavy users of Google Ads and GA4. AWS suits companies whose systems and teams already run there. Azure and Microsoft Fabric fit companies already on Microsoft 365 and Power BI. A lakehouse makes sense when data science and machine learning are a large part of the plan, or when you are working with large volumes of files and semi-structured data.",
         "We compare the options against your existing cloud, your reporting tools, expected data volumes, the skills of your team and how each platform charges for storage and compute. Then we recommend one, with the reasons written down."
       ]
     },
     {
       "h": "Transformation and modeling",
       "p": [
-        "Raw data is rarely ready to use. We organize the warehouse in layers: raw tables as they arrived, staging tables that clean and standardize them, and business-ready tables for customers, orders, revenue, campaigns and whatever else your reporting needs. Each layer is written as SQL in a tool such as dbt, kept in version control, reviewed before changes go live, and documented so analysts know what each table means.",
+        "Raw data is rarely ready to use. We organize the warehouse in layers: raw tables as they arrived, staging tables that clean and standardize them, and business-ready tables for customers, orders, revenue, campaigns and whatever else your reporting needs. Each layer is written as SQL, kept in version control, reviewed before changes go live, and documented so analysts know what each table means.",
         "This is where business rules get settled once. How a customer is counted, when revenue is recognized, which order statuses count as complete. Getting those rules into code rather than into individual spreadsheets is what makes numbers match across every report."
       ]
     },
@@ -54,7 +54,7 @@
       "h": "Quality, orchestration and monitoring",
       "p": [
         "Pipelines fail quietly unless you build them not to. We add tests on every important table: no unexpected nulls, no duplicate keys, values within sensible ranges, totals that reconcile with the source system. Freshness checks flag when a source stops sending data.",
-        "Jobs are scheduled and ordered with an orchestrator such as Airflow, Dagster or the native tools in your cloud, so a transformation never runs on half-loaded data and a failed step retries before it alerts someone. Alerts go to a named owner, with a short runbook for the common failures."
+        "Jobs are scheduled and ordered with an orchestrator, often the native scheduling tools in your cloud, so a transformation never runs on half-loaded data and a failed step retries before it alerts someone. Alerts go to a named owner, with a short runbook for the common failures."
       ]
     },
     {
@@ -100,7 +100,7 @@
   "faqs": [
     {
       "q": "What do data engineering services include?",
-      "a": "Data engineering services cover moving data from source systems into a central warehouse or lakehouse, cleaning and modeling it, testing its quality, scheduling and monitoring the jobs, and connecting it to the tools that use it. Our work spans ETL and ELT pipelines, BigQuery, Snowflake, Azure and Databricks platforms, dbt modeling, orchestration and APIs."
+      "a": "Data engineering services cover moving data from source systems into a central warehouse or lakehouse, cleaning and modeling it, testing its quality, scheduling and monitoring the jobs, and connecting it to the tools that use it. Our work spans ETL and ELT pipelines, BigQuery, Azure and AWS platforms, SQL modeling, orchestration and APIs."
     },
     {
       "q": "What is the difference between ETL and ELT?",
@@ -108,7 +108,7 @@
     },
     {
       "q": "Which data platform should we choose?",
-      "a": "It depends on the cloud you already use, your reporting tools, data volumes and team skills. BigQuery fits Google-heavy companies, Snowflake suits multi-cloud and data sharing, Azure and Fabric fit Microsoft shops, and Databricks suits heavy data science or file-based data. We compare them against your situation and recommend one with written reasons."
+      "a": "It depends on the cloud you already use, your reporting tools, data volumes and team skills. BigQuery fits Google-heavy companies, Azure and Fabric fit Microsoft shops, AWS suits teams already running there, and a lakehouse suits heavy data science or file-based data. We compare them against your situation and recommend one with written reasons."
     },
     {
       "q": "Can you work with our existing data team?",
@@ -136,6 +136,11 @@
   ],
   "keywords": {
     "primary": "data engineering services",
-    "secondary": ["data engineering consulting", "data pipeline development", "etl services", "data warehouse consulting", "snowflake consulting", "databricks consulting"]
+    "secondary": [
+      "data engineering consulting",
+      "data pipeline development",
+      "etl services",
+      "data warehouse consulting"
+    ]
   }
 }

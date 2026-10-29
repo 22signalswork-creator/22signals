@@ -114,7 +114,7 @@
     },
     {
       "q": "How quickly can the first automation go live?",
-      "a": "A single well-defined workflow often goes live within a few weeks, including a period running alongside the manual process. Larger jobs with many systems or exceptions take longer. Your Signal Lead gives you dates in writing once we have mapped the workflow, and reports against them each week."
+      "a": "A single well-defined workflow goes live after a period running alongside the manual process. Larger jobs with many systems or exceptions take longer. Your Signal Lead gives you dates in writing once we have mapped the workflow, and reports against them each week."
     },
     {
       "q": "What happens when the automation gets something wrong?",

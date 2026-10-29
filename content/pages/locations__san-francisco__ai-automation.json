@@ -110,7 +110,7 @@
     },
     {
       "q": "Can you maintain the automations after launch?",
-      "a": "Yes. Many clients keep us on monthly to watch alerts, adjust prompts when the model provider changes something, and add new steps. Others take a full handover with documentation and a recorded walkthrough. Either way, the flows live in accounts you own."
+      "a": "Yes. Many clients keep us on monthly to watch alerts, adjust prompts when the model provider changes something, and add new steps. Others take a full handover with documentation and a recorded walkthrough. Either way, account ownership is agreed in writing up front, and you always have access to the flows we run for you."
     }
   ],
   "related": [

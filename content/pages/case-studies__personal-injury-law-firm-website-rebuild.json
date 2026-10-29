@@ -6,12 +6,12 @@
   "description": "Law firm website case study: a rebuild, a fixed design-to-development handoff, a malware cleanup and monthly content for a women-led Bay Area injury firm.",
   "eyebrow": "Case study: law firms",
   "h1": "Law firm website case study: rebuilding and running the site for a Bay Area injury firm",
-  "intro": "This law firm website case study covers a women-led personal injury firm with three Bay Area offices. We managed the first phase of its website rebuild, documented what went wrong in the design-to-development handoff and fixed the process, cleaned up a malware infection, and now run the live site and its monthly blog.",
+  "intro": "This law firm website case study covers a women-led personal injury firm in the Bay Area. We managed the first phase of its website rebuild, documented what went wrong in the design-to-development handoff and fixed the process, cleaned up a malware infection, and now run the live site and its monthly blog.",
   "sections": [
     {
       "h": "The client and the problem",
       "p": [
-        "The client is a women-led personal injury law firm with three offices in the San Francisco Bay Area. Its website is where injured people decide whether to call, so it has to be fast, accurate, secure and always online.",
+        "The client is a women-led personal injury law firm in the San Francisco Bay Area. Its website is where injured people decide whether to call, so it has to be fast, accurate, secure and always online.",
         "The firm needed a rebuilt site and someone to run it properly afterwards: security, updates, content and search, handled by people who understand the rules a law firm's website has to follow."
       ]
     },

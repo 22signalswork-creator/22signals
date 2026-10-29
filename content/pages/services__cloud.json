@@ -58,7 +58,7 @@
       "h": "Cost reviews and managed cloud operations",
       "p": [
         "A cost review reads your bill line by line and matches it to what the business actually uses. Typical findings are servers sized for a peak that never came, test environments running all weekend, storage nobody reads, data transfer that better caching would avoid, and steady workloads still on on-demand pricing when a commitment plan would charge less. You get a ranked list of changes with the expected saving and the risk of each.",
-        "Setting up a clean environment is half the job. The other half is keeping it clean. With managed cloud operations we handle patching, scaling, backups, certificate renewals, access reviews and incident response, and send a short monthly report on uptime, spend and changes. You keep full ownership of the accounts and the documentation, so you are never locked in."
+        "Setting up a clean environment is half the job. The other half is keeping it clean. With managed cloud operations we handle patching, scaling, backups, certificate renewals, access reviews and incident response, and send a short monthly report on uptime, spend and changes. Who owns the accounts and documentation is agreed in writing at the start, and you always have access to them, so you are never locked in."
       ]
     },
     {

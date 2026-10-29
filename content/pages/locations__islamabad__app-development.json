@@ -120,7 +120,7 @@
     },
     {
       "q": "Who owns the code and the app store accounts?",
-      "a": "You do. Apps are published under your own Google Play and Apple developer accounts, the code lives in a repository your organisation owns, and we hand over documentation. That way you can bring development in-house or change supplier later without starting again."
+      "a": "We agree that in writing at the start, covering the code, the repository and the Google Play and Apple developer accounts, and you always have access to what we build and run for you. We also hand over documentation, so you can bring development in-house or change supplier later without starting again."
     },
     {
       "q": "Do you work with National Incubation Center startups?",

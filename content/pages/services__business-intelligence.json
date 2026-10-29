@@ -37,7 +37,7 @@
     {
       "h": "The data foundation: warehouse, pipelines and quality",
       "p": [
-        "Reliable dashboards need a reliable source. We set up a cloud data warehouse, usually BigQuery, Snowflake, Azure SQL or Microsoft Fabric depending on what you already run, and build pipelines that load data from each system on a schedule. Raw data is kept as it arrived, then cleaned and modeled into tables that match the metric definitions.",
+        "Reliable dashboards need a reliable source. We set up a cloud data warehouse, usually BigQuery, Azure SQL or Microsoft Fabric depending on what you already run, and build pipelines that load data from each system on a schedule. Raw data is kept as it arrived, then cleaned and modeled into tables that match the metric definitions.",
         "Quality checks run on every load: row counts, missing values, duplicates, and totals reconciled against the source system. When a check fails, the right person gets an alert before the Monday report goes out, not after someone spots a strange number in a board pack."
       ]
     },
@@ -104,7 +104,7 @@
     },
     {
       "q": "Which BI tools do you work with?",
-      "a": "Power BI, Looker Studio and Tableau for dashboards and reporting, and cloud warehouses such as BigQuery, Snowflake, Azure SQL and Microsoft Fabric for storage. We recommend based on the systems and licenses you already have, how many people need access and how complex your data model is, rather than pushing one platform."
+      "a": "Power BI, Looker Studio and Tableau for dashboards and reporting, and cloud warehouses such as BigQuery, Azure SQL and Microsoft Fabric for storage. We recommend based on the systems and licenses you already have, how many people need access and how complex your data model is, rather than pushing one platform."
     },
     {
       "q": "What is the difference between business intelligence and data analytics?",
@@ -116,7 +116,7 @@
     },
     {
       "q": "How long does a BI project take?",
-      "a": "A first set of executive dashboards from a handful of sources usually takes a few weeks, depending on data quality and how quickly KPI definitions are agreed. Larger rollouts with many departments run in stages. We agree each stage and date in writing, and leadership sees working dashboards early rather than at the end."
+      "a": "For a first set of executive dashboards from a handful of sources, it depends on data quality and how quickly KPI definitions are agreed. Larger rollouts with many departments run in stages. We agree each stage and date in writing, and leadership sees working dashboards early rather than at the end."
     },
     {
       "q": "Can you fix our existing dashboards instead of starting again?",

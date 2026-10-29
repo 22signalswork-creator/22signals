@@ -120,8 +120,8 @@
       "a": "Most tools with an API or email access: Microsoft 365, Google Workspace, HubSpot, Salesforce, Xero, Shopify, practice and case management systems, property CRMs, booking platforms and plain spreadsheets. If a system has no API, we look at exports, inbox rules or a supported connector before suggesting anything heavier."
     },
     {
-      "q": "Is it better to use Zapier or a custom build?",
-      "a": "For simple, low-volume steps, platforms like Zapier or Make are often the right call, and we use them. Custom code makes sense when the logic is complex, volumes are high, or data must stay inside your own cloud. We explain the trade-off for your case, including what each option costs to run."
+      "q": "Is it better to use an off-the-shelf automation tool or a custom build?",
+      "a": "For simple, low-volume steps, an off-the-shelf automation platform is often the right call. Custom code makes sense when the logic is complex, volumes are high, or data must stay inside your own cloud. We explain the trade-off for your case, including what each option costs to run."
     },
     {
       "q": "What happens if the automation makes a mistake?",

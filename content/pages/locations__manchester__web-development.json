@@ -22,7 +22,7 @@
     {
       "h": "What we build",
       "list": [
-        "Company websites and full redesigns on WordPress, Webflow or a custom stack where it is justified.",
+        "Company websites and full redesigns on WordPress, Shopify or a custom stack where it is justified.",
         "Website migrations with redirect maps and ranking checks, so you keep the search traffic you have earned.",
         "Content management that your marketing team can use without calling a developer.",
         "E-commerce on Shopify, WooCommerce or custom builds, with product feeds for Google and Meta.",
@@ -104,7 +104,7 @@
     },
     {
       "q": "Do you build on WordPress or Shopify?",
-      "a": "Both, and others. WordPress suits content-led company websites, Shopify suits most online shops, and Webflow suits marketing teams that want visual control. We build custom when a project genuinely needs it, such as a portal or complex integration. We recommend the platform based on your team and goals, not habit."
+      "a": "Both. WordPress suits content-led company websites and Shopify suits most online shops. We build custom when a project genuinely needs it, such as a portal or complex integration. We recommend the platform based on your team and goals, not habit."
     },
     {
       "q": "Can you meet us in Manchester during the project?",
@@ -124,7 +124,7 @@
     },
     {
       "q": "Who owns the website when it is finished?",
-      "a": "You do. The domain, hosting accounts, design files and code belong to your business, and we set them up in your name from the start. If you ever move to another supplier, everything they need is already yours."
+      "a": "We agree it in writing at the start, covering the domain, hosting accounts, design files and code, and you always have access to what we build and run for you. If you ever move to another supplier, we hand over what was agreed."
     }
   ],
   "related": [

@@ -99,7 +99,7 @@
     },
     {
       "q": "Is our business data safe with automations?",
-      "a": "We keep data in your own accounts where possible, give each automation access only to what it needs and log what it does. That follows the Prevention of Electronic Crimes Act 2016 and the direction of Pakistan's draft data protection bill. You own every account and can switch anything off at any time."
+      "a": "We keep data in your own accounts where possible, give each automation access only to what it needs and log what it does. That follows the Prevention of Electronic Crimes Act 2016 and the direction of Pakistan's draft data protection bill. Who owns each account is agreed in writing at the start, and you can see and switch off anything we run for you."
     },
     {
       "q": "Do you need to visit our premises in Lahore to automate a process?",
@@ -111,7 +111,7 @@
     },
     {
       "q": "How long before an automation is live?",
-      "a": "A single focused workflow, such as enquiry intake or a daily report, is often live within a few weeks. Larger jobs with several systems take longer and are released in stages. We agree the dates in writing before we start and report every week against them."
+      "a": "A single focused workflow, such as enquiry intake or a daily report, is the quickest to put live. Larger jobs with several systems take longer and are released in stages. We agree the dates in writing before we start and report every week against them."
     }
   ],
   "related": [

@@ -120,7 +120,7 @@
     },
     {
       "q": "How long does a Power BI project take?",
-      "a": "A first set of dashboards on a well-modeled dataset from a few sources usually takes a few weeks. Larger projects with many sources, complex security or a Fabric platform run in stages. We agree the stages and dates in writing before starting, and you see working reports early rather than at the end."
+      "a": "A first set of dashboards on a well-modeled dataset from a few sources is the quickest case. Larger projects with many sources, complex security or a Fabric platform run in stages. We agree the stages and dates in writing before starting, and you see working reports early rather than at the end."
     },
     {
       "q": "How much does Power BI consulting cost?",

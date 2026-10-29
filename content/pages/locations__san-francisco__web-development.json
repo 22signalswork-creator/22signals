@@ -22,7 +22,7 @@
     {
       "h": "What web development San Francisco clients get from us",
       "list": [
-        "Marketing sites and redesigns on Webflow, WordPress or a headless CMS with Next.js, chosen for who will edit it.",
+        "Marketing sites and redesigns on WordPress or a headless CMS with Next.js, chosen for who will edit it.",
         "Migrations that keep rankings: URL maps, redirects, metadata carried across, and checks after launch.",
         "Product, solution and comparison pages written answer-first, so they work for Google and AI assistants.",
         "Client portals with logins, document sharing and payments.",
@@ -85,8 +85,8 @@
   ],
   "faqs": [
     {
-      "q": "Webflow or WordPress for a San Francisco SaaS company?",
-      "a": "It depends on who edits the site and what it needs to connect to. Webflow suits marketing teams that want visual control. WordPress suits content-heavy sites and teams that need many plugins. A headless CMS with Next.js suits companies with engineers who want the site in their own stack. We recommend one after seeing your team and your content plan."
+      "q": "Which CMS suits a San Francisco SaaS company?",
+      "a": "It depends on who edits the site and what it needs to connect to. WordPress suits content-heavy sites and teams that need many plugins. A headless CMS with Next.js suits companies with engineers who want the site in their own stack. We recommend one after seeing your team and your content plan."
     },
     {
       "q": "Will a redesign hurt our Google rankings?",
@@ -126,7 +126,6 @@
     "secondary": [
       "web design san francisco",
       "website redesign bay area",
-      "webflow agency san francisco",
       "web developer san francisco"
     ]
   }

@@ -25,7 +25,7 @@
         "Lead routing that reads an inquiry, detects the language, scores it and sends it to the right agent within minutes",
         "Document reading for invoices, contracts, packing lists and intake forms, with results written straight into your systems",
         "Email and inbox triage that sorts, tags and drafts replies for a person to approve",
-        "Workflow automation across email, CRM and spreadsheets, using tools such as Make, Zapier, n8n or custom code",
+        "Workflow automation across email, CRM and spreadsheets, using off-the-shelf connectors or custom code",
         "Internal tools and dashboards so managers see the queue without asking around",
         "Research and reporting systems that pull market, competitor or listing data into a weekly summary",
         "AI assistants on your website or chat channels that hand off to a human with the full conversation attached"
@@ -100,7 +100,7 @@
     },
     {
       "q": "Can you automate work in tools we already use?",
-      "a": "Usually, yes. Most CRMs, accounting tools, booking systems and shared inboxes have APIs, and we connect them with tools such as Make, Zapier, n8n or custom code. Where a tool has no API, we look for exports or other safe routes before suggesting a change of system."
+      "a": "Usually, yes. Most CRMs, accounting tools, booking systems and shared inboxes have APIs, and we connect them with off-the-shelf connectors or custom code. Where a tool has no API, we look for exports or other safe routes before suggesting a change of system."
     },
     {
       "q": "Will AI automation replace our staff?",
