@@ -1,0 +1,121 @@
+{
+  "path": "/locations/houston/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Houston, TX | 22 Signals",
+  "description": "App development for Houston companies: field apps that work offline at plants and well sites, patient and customer apps, web apps and SaaS products.",
+  "eyebrow": "App Development in Houston",
+  "h1": "App development for Houston companies",
+  "intro": "We design and build iOS, Android and web apps for established Houston companies: inspection and field apps that keep working with no signal, customer and patient apps, internal tools and SaaS products. Our app development Houston clients rely on covers the full path from first scope to app store launch and ongoing support.",
+  "sections": [
+    {
+      "h": "When a spreadsheet or a paper form is not enough",
+      "p": [
+        "In Houston, a lot of important work still happens on clipboards. Inspectors walking a tank farm in Pasadena record readings on paper and type them up later. Crews on a pipeline right of way take photos on personal phones and text them to a supervisor. Truck drivers waiting at a container terminal call dispatch to ask where to go next. Patients at a specialist clinic fill in the same history form at every visit.",
+        "Each of these is a case for an app, but only if it is built for the conditions. A field app that needs signal is useless inside a refinery unit or out on a lease road. A patient app that is hard to log into will be abandoned in a week. Good app development, Houston or anywhere else, starts with where and how the app will really be used."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Native and cross-platform iOS and Android apps, usually in React Native or Flutter, or Swift and Kotlin where the hardware demands it.",
+        "Web apps and SaaS products, including multi-tenant platforms with roles and billing.",
+        "MVPs for new product lines inside established companies, built to test demand before a big budget is committed.",
+        "Payments, subscriptions and invoicing inside apps.",
+        "APIs and integrations with ERP, CRM, EHR, maintenance and dispatch systems.",
+        "App store launch, review handling and ongoing support with updates for new operating system releases."
+      ]
+    },
+    {
+      "h": "Apps that suit Houston industries",
+      "list": [
+        "Energy and petrochemicals: inspection, permit-to-work and maintenance apps that store data offline and sync when back in range, built to run on the intrinsically safe phones and tablets many plants require.",
+        "Pipelines and field services: job dispatch, time capture, photo evidence with GPS and time stamps, and digital field tickets signed by the customer on site.",
+        "Port and trucking businesses: driver apps for appointments, pickup numbers and delivery proof, designed for drivers moving between terminals, yards and warehouses.",
+        "Healthcare around the Texas Medical Center: patient check-in, appointment and reminder apps and remote monitoring companions, with HIPAA controls and clinician dashboards.",
+        "Aerospace and engineering firms near Clear Lake: internal tools for test tracking, configuration records and document sign-off.",
+        "Real estate and home services across Greater Houston: booking, quoting and customer portals that work as well on a phone as on a desktop."
+      ]
+    },
+    {
+      "h": "Built for the realities of the Gulf Coast",
+      "p": [
+        "We design Houston field apps for heat, glare, gloves and poor coverage. That means large touch targets, high-contrast screens readable in direct sun, offline storage with conflict handling when two people edit the same record, and photo compression that does not choke a weak connection. For apps used during storm response, we add simple status updates and check-ins that work over the thinnest signal.",
+        "On data, we keep only what the app needs. Consumer apps follow the Texas Data Privacy and Security Act: clear notices, consent for sensitive data such as precise location or health details, and a way for users to request or delete their data. Healthcare apps add HIPAA safeguards and business associate agreements with every service that handles patient information."
+      ]
+    },
+    {
+      "h": "From idea to app store: our process",
+      "list": [
+        "Talk: we meet the people who will use the app, ideally while they do the job, and write down what it must and must not do.",
+        "Plan: user flows, screens, technical design and a release plan with dates in writing.",
+        "Build: two-week cycles with a working build you can install on your own phone at the end of each one.",
+        "Grow: launch, crash and usage monitoring, then improvements based on what users actually do."
+      ]
+    },
+    {
+      "h": "Our track record",
+      "p": [
+        "We have worked with more than 30 companies across four regions, on everything from client portals to AI products. For app work, the most useful thing that experience gives us is judgment about scope: what to leave out of version one so it ships, and what must be there or users will not trust it."
+      ]
+    },
+    {
+      "h": "Remote delivery across Central Time",
+      "p": [
+        "We build apps for Houston companies remotely from London, with meeting hours that overlap Central Time. London is six hours ahead. Sprint reviews and user testing sessions run in your morning, and a new test build is often ready when your day starts. Your Signal Lead owns the delivery and is the one person you call. For field research, such as riding along with a crew or watching a clinic front desk, we arrange an on-site visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors for an app",
+      "p": [
+        "Cost depends on scope. For app development, Houston projects mostly vary with:"
+      ],
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Offline needs and how complex syncing is.",
+        "Number and difficulty of integrations with existing systems.",
+        "Compliance needs such as HIPAA or customer security reviews.",
+        "Special hardware, such as intrinsically safe devices, barcode scanners or Bluetooth sensors.",
+        "Ongoing support, hosting and new feature work after launch."
+      ]
+    },
+    {
+      "h": "Why build with 22 Signals",
+      "p": [
+        "We do not hand over an app and walk away. The same team can connect it to your data, add AI features such as photo checks or document reading, host it in the cloud and, for customer apps, market it with video, search and paid campaigns. That breadth is rare in app development. Houston clients get one accountable lead from the first sketch to the thousandth user. Related services include web development, custom AI development, cloud consulting and AI automation in Houston."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can your apps work without mobile signal at a plant or well site?",
+      "a": "Yes. We build offline-first, so the app stores everything on the device and syncs when it reconnects, with rules for what happens if two people changed the same record. This is standard on our field apps for Houston energy and industrial clients, where coverage inside units and on remote leases is unreliable."
+    },
+    {
+      "q": "Do you build for intrinsically safe devices?",
+      "a": "Yes. Many plants and some field sites require phones and tablets certified for hazardous areas. These devices often run standard Android, but with different screens, buttons and performance. We test on the models your sites use and design the interface around gloves, glare and limited processing power."
+    },
+    {
+      "q": "Do you meet Houston clients in person?",
+      "a": "We work remotely from London, with sprint reviews in your morning. For user research it often helps to see the work first hand, so we arrange visits to sites, yards or clinics when the project needs it. You will always have test builds to try on your own phone, wherever you are."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "A focused first version usually takes three to five months, depending on platforms, offline needs and integrations. Simple internal tools can be faster. We agree the scope for version one and the launch date in writing, then add features in later releases based on real usage rather than guesses."
+    },
+    {
+      "q": "Can you build a HIPAA-compliant patient app?",
+      "a": "Yes. We use hosting and services that support HIPAA and sign business associate agreements, encrypt data on the device and in transit, add strong login and session controls, and log access. We also keep analytics tools away from health data. Texas HB 300 adds training and disclosure duties on your side, which we help you plan for."
+    },
+    {
+      "q": "Will we own the code?",
+      "a": "Yes. You own the source code, designs and app store listings. We set up the repositories and developer accounts in your company's name from day one, so you are never locked in. If you later bring development in-house, we hand over documentation and help your team take it on."
+    }
+  ],
+  "related": ["/locations/houston", "/services/app-development", "/locations/houston/web-development", "/services/custom-ai-development", "/locations/dallas/app-development"],
+  "keywords": { "primary": "app development houston", "secondary": ["mobile app development houston", "app developers houston", "houston app development company", "field service app development"] }
+}

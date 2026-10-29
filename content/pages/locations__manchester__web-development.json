@@ -1,0 +1,146 @@
+{
+  "path": "/locations/manchester/web-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company Manchester | 22 Signals",
+  "description": "A web development company Manchester firms use for redesigns, e-commerce, client portals and migrations that keep rankings. Built, secured and looked after.",
+  "eyebrow": "Web Development in Manchester",
+  "h1": "Web development company Manchester firms hire for sites that earn their keep",
+  "intro": "We design and build websites, online shops and client portals for established Manchester companies, and we look after them once they are live. That includes redesigns, CMS builds, e-commerce, migrations that protect your Google rankings, and ongoing care and security. The aim is a site that brings in enquiries and sales, not just one that looks new.",
+  "sections": [
+    {
+      "h": "Why most redesigns disappoint",
+      "p": [
+        "A Manchester business spends months on a new website. It launches, everyone likes the look, and three months later enquiries are down. Usually the cause is not the design. Old pages were deleted without redirects, page speed got worse with heavy imagery, the forms stopped feeding the CRM, or the content that used to rank was rewritten out of existence.",
+        "We treat a website as a sales system with a design on top. Before we touch the look, we record what currently ranks, converts and connects, and we make sure the new site keeps all of it."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites and full redesigns on WordPress, Webflow or a custom stack where it is justified.",
+        "Website migrations with redirect maps and ranking checks, so you keep the search traffic you have earned.",
+        "Content management that your marketing team can use without calling a developer.",
+        "E-commerce on Shopify, WooCommerce or custom builds, with product feeds for Google and Meta.",
+        "Client portals with logins, document sharing and payments.",
+        "Website care: updates, backups, uptime monitoring and security hardening."
+      ]
+    },
+    {
+      "h": "Built for Manchester's sectors",
+      "p": [
+        "A Spinningfields law firm, a Northern Quarter fashion label and a Trafford Park manufacturer need very different websites. Some examples:"
+      ],
+      "list": [
+        "Fashion and beauty e-commerce: fast product pages, size and colour variants that do not break, clean checkout and imagery that loads quickly on a phone.",
+        "Professional and financial services: clear service pages, team profiles, secure client areas and enquiry forms that route to the right partner.",
+        "Manufacturing and engineering: technical product catalogues, spec sheet downloads, distributor finders and quote request forms.",
+        "Media and creative businesses around MediaCityUK: showreels and portfolios that load quickly and still rank.",
+        "Health, wellness and clinics: booking integration, clear treatment pages and the extra care that health information needs."
+      ]
+    },
+    {
+      "h": "UK rules your website has to meet",
+      "p": [
+        "A UK website has legal duties that a template rarely handles well. Cookie banners must ask for consent before non-essential tracking, under PECR and UK GDPR, and the ICO has made cookie compliance a public priority. Privacy notices must match what the site actually collects. Online shops must follow consumer rules on pricing, delivery and cancellation rights. Accessibility matters too: building to WCAG standards helps disabled visitors and supports your duties under the Equality Act 2010.",
+        "We build these in from the first wireframe rather than bolting them on at launch, and we hand you a short record of what was done."
+      ]
+    },
+    {
+      "h": "Choosing a web development company: Manchester buyers' checklist",
+      "list": [
+        "Ask how they protect rankings during a migration, and ask for the redirect plan before launch.",
+        "Check who owns the hosting, domain and code at the end. With us, you do.",
+        "Ask how the site connects to your CRM, booking system or stock system.",
+        "Ask what happens after launch: who updates plugins, watches uptime and fixes security issues.",
+        "Ask for dates in writing, including what they need from you and when."
+      ]
+    },
+    {
+      "h": "Proof: a portal, not a brochure",
+      "p": [
+        "For a US law firm we built a client portal where clients securely access their documents and make payments, alongside the firm's public website. It replaced a stream of emailed attachments and chased invoices with one login. It suits Manchester's professional firms well, and it is the kind of build that needs development, security and design working together."
+      ]
+    },
+    {
+      "h": "How the build works with a London team",
+      "p": [
+        "We work from our London head office and do not have a Manchester office or staff. Website projects run well remotely: weekly calls, a staging site you can click through at any time, and a shared list of feedback and decisions. Manchester runs on London time, so reviews happen during your normal working day.",
+        "If you want to sit down in person for the kick-off or the launch review, your Signal Lead comes up to Manchester when the project needs it."
+      ],
+      "list": [
+        "Talk: a 15-minute call, then a review of your current site, analytics and search data.",
+        "Plan: sitemap, content plan, redirect map and dated milestones in writing.",
+        "Build: design, development and content on a staging site you can see as it grows.",
+        "Grow: launch checks, ranking monitoring, care plan and conversion improvements."
+      ]
+    },
+    {
+      "h": "What affects the cost of a website",
+      "list": [
+        "Number of page templates and how much content needs writing or moving.",
+        "E-commerce scale: products, variants, integrations with stock and finance systems.",
+        "Portals, logins, payments and other custom features.",
+        "Migration complexity and how much search traffic is at stake.",
+        "Design depth, photography, video or 3D product imagery.",
+        "Ongoing care, hosting and security needs."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Most of the time a website is only as good as what happens around it: the SEO, the ads, the CRM, the content. We do all of that, so the same team that builds your site can grow traffic to it, under one Signal Lead. If you are comparing a web development company, Manchester agencies included, ask who is still accountable six months after launch. Related pages: SEO and GEO, app development, paid media and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a new website hurt our Google rankings?",
+      "a": "It should not, if the migration is planned properly. We record every page that ranks or brings traffic, map each old URL to its new home with permanent redirects, keep the content that performs, and check rankings and errors daily after launch. Most ranking drops after a redesign come from skipping these steps."
+    },
+    {
+      "q": "Do you build on WordPress or Shopify?",
+      "a": "Both, and others. WordPress suits content-led company websites, Shopify suits most online shops, and Webflow suits marketing teams that want visual control. We build custom when a project genuinely needs it, such as a portal or complex integration. We recommend the platform based on your team and goals, not habit."
+    },
+    {
+      "q": "Can you meet us in Manchester during the project?",
+      "a": "Yes, when the project needs it. Kick-off workshops and launch reviews are good moments to meet in person, and your Signal Lead travels up from London for them. Day to day, the project runs through calls, a staging site and written updates during UK working hours."
+    },
+    {
+      "q": "Is our cookie banner compliant?",
+      "a": "Many are not. Under PECR and UK GDPR, non-essential cookies such as analytics and advertising tags should not load until the visitor agrees, and rejecting should be as easy as accepting. We audit what your site loads, set up a proper consent tool and connect it to Google's consent settings so your reporting still works."
+    },
+    {
+      "q": "Do you look after websites after launch?",
+      "a": "Yes. Our care plans cover software and plugin updates, backups, uptime monitoring, security checks and small content changes. We have cleaned up hacked law-firm websites, so we take security seriously. You get a monthly note on what was done and anything we recommend."
+    },
+    {
+      "q": "How long does a website rebuild take?",
+      "a": "It depends on the number of templates, the amount of content and the integrations involved. A straightforward company site is much quicker than a large shop or portal. We give you a dated plan before work begins, including the points where we need content or decisions from your team."
+    },
+    {
+      "q": "Who owns the website when it is finished?",
+      "a": "You do. The domain, hosting accounts, design files and code belong to your business, and we set them up in your name from the start. If you ever move to another supplier, everything they need is already yours."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/web-app-development",
+    "/locations/manchester/seo-geo",
+    "/locations/manchester/app-development",
+    "/locations/birmingham/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "web development company manchester",
+    "secondary": [
+      "web developers manchester",
+      "website design manchester",
+      "ecommerce web development manchester"
+    ]
+  }
+}

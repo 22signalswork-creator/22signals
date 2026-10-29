@@ -1,0 +1,153 @@
+{
+  "path": "/services/business-optimization",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "Business process optimization consulting",
+  "title": "Business Process Optimization Consulting | 22 Signals",
+  "description": "Business process optimization consulting: map how work really runs, cut the delays and manual steps, automate what repeats and measure the result.",
+  "eyebrow": "Business Optimization Consulting",
+  "h1": "Business process optimization consulting with the build included",
+  "intro": "22 Signals offers business process optimization consulting for established companies that have outgrown the way they work. We map how work actually moves through your teams and tools, find the delays, duplication and manual steps that cost time and money, then fix them with clearer ownership, fewer systems, automation and dashboards that prove the change worked.",
+  "sections": [
+    {
+      "h": "Signs your processes are costing you more than you think",
+      "p": [
+        "Growth hides process problems for a while. Then the same issues show up everywhere at once, and the usual answer is to hire another coordinator to hold things together. Before you do, look for these patterns."
+      ],
+      "list": [
+        "The same data is typed into two or three systems by hand",
+        "Approvals wait in someone's inbox, and work stops when that person is away",
+        "Monday starts with somebody building last week's report in a spreadsheet",
+        "Three tools do roughly the same job, and each team prefers a different one",
+        "Only one person knows how a critical task really works",
+        "Customers chase you for updates that should have reached them automatically",
+        "Errors are found by the client, not by your own checks"
+      ]
+    },
+    {
+      "h": "What the engagement includes",
+      "list": [
+        "Process mapping across sales, operations, finance, delivery and customer service",
+        "Bottleneck, cost and time analysis for each process, with a baseline we can measure against",
+        "Operating model and roles: who owns each step, who approves, who is told",
+        "Systems review and consolidation, so tools stop overlapping and data has one home",
+        "Workflow automation, with AI only where it does a job better than a simple rule",
+        "KPIs and dashboards that track the improvement after we leave",
+        "Written procedures and training, so the new way of working survives staff changes"
+      ]
+    },
+    {
+      "h": "How we map a process",
+      "p": [
+        "We start with the people doing the work, not the org chart. Short interviews tell us what each step is meant to look like. Sitting with the team for a few real cases shows what actually happens, including the workarounds nobody wrote down. System data, such as ticket timestamps, CRM stage changes and email volumes, fills in the timing.",
+        "The output is a current-state map for each process, showing every step, hand-off, wait and system, with the time and cost attached. From there we draw the future state together with your managers, so the redesign is something they own rather than something handed to them."
+      ]
+    },
+    {
+      "h": "Where the waste usually hides",
+      "p": [
+        "In most businesses the work itself is fast. The time goes in the gaps between steps. A task waits two days for an approval that takes two minutes. A file gets passed between three people because nobody is sure who owns it. Information is re-entered because two systems were never connected. Work gets redone because the first version lacked a detail that a form could have required.",
+        "We measure touch time (when someone is working on the task) against total time (from start to finish). The difference between them is usually where the biggest gains sit, and it often costs less to fix than anything involving new software.",
+        "The pattern looks different by industry. In a clinic it is intake forms re-typed into the practice system and reminders sent by hand. In a law firm it is document requests chased by email and status updates written one client at a time. In retail and e-commerce it is stock, orders and returns reconciled across a store platform, a warehouse sheet and the accounts. In a services firm it is proposals, timesheets and invoices that never quite match."
+      ]
+    },
+    {
+      "h": "Operating model and ownership",
+      "p": [
+        "Many process problems are really ownership problems. We set out who is responsible, who approves and who needs to know for each key step, then set approval limits so routine decisions stop climbing to the top of the business. Where a role is overloaded, we show the numbers so you can decide whether to reassign work, automate it or hire.",
+        "We also look at meetings and reporting lines. A weekly status meeting that exists only because nobody trusts the system is a symptom, and it usually disappears once the data is visible on a shared dashboard."
+      ]
+    },
+    {
+      "h": "Fewer systems, then automation",
+      "p": [
+        "Automating a messy process just produces mess faster, so we simplify first. That often means retiring overlapping tools, agreeing one source of truth for customers, jobs and invoices, and connecting the systems that remain.",
+        "Then we automate the steps that repeat: routing, reminders, document generation, status updates, data sync between your CRM, finance and project tools, and reporting. AI earns a place where judgment on unstructured inputs is needed, such as reading incoming emails, sorting documents or drafting replies, always with a person checking anything that reaches a client."
+      ]
+    },
+    {
+      "h": "Proof: replacing an email chain with a client portal",
+      "p": [
+        "For a US law firm, documents and payments were moving between staff and clients by email, which meant chasing, version confusion and manual payment follow-up. We built a client portal where clients upload documents, see what is still needed and pay in one place, and the firm's team works from a single view instead of searching inboxes.",
+        "It is a typical example of how we work: the biggest change came from redesigning the hand-off between the firm and its clients, then building the tool that made the new process the easy option."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a fit call, then agreement on which processes matter most and what success looks like in numbers",
+        "Plan: current-state maps, baseline measures, future-state design and a prioritized change plan with dates in writing",
+        "Build: system changes, integrations, automations, procedures and dashboards, delivered in phases so each one pays back before the next",
+        "Grow: track the KPIs, adjust what isn't working and move on to the next process on the list"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. The cost of business process optimization consulting depends on scope, which we confirm in writing after a first conversation."
+      ],
+      "list": [
+        "How many processes and departments are in scope",
+        "How many systems need to be reviewed, retired or connected",
+        "Whether we only design the change or also build the automations and dashboards",
+        "Data quality in the systems that remain",
+        "How much documentation and training the new processes need"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Most consultants hand over a report and leave the change to you. We hand over a business that runs differently, because the team that recommends the change is the team that makes it. One Signal Lead owns the engagement, with specialists in AI and automation, cloud and data, web development and reporting behind them. We have managed more than $1.5 million in projects, and every date we agree goes in writing.",
+        "Related services that often follow: AI consulting to plan wider AI adoption, AI automation for the builds, business intelligence for reporting, and data engineering when the numbers need a proper home."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is business process optimization?",
+      "a": "It is the work of finding where time and money leak out of the way a business operates, through manual steps, waiting, duplicated effort or disconnected tools, and redesigning those processes so they run faster, cost less and produce fewer errors. Good business process optimization consulting also puts the change in place and measures it, rather than stopping at recommendations."
+    },
+    {
+      "q": "Which processes should we optimize first?",
+      "a": "Start where volume and pain meet: a process that runs many times a week, involves several people or systems, and causes visible problems such as delays, errors or customer complaints. Order-to-cash, client onboarding, intake, scheduling and month-end reporting are common first choices. We rank candidates by value and effort before anything else."
+    },
+    {
+      "q": "How do you measure the result?",
+      "a": "We agree the measures before we start, such as hours spent per case, total turnaround time, error rate, cost per transaction or the number of hand-offs. We record a baseline from real data, then track the same measures on a dashboard after the change, so the improvement is visible to leadership and not just a claim in a report."
+    },
+    {
+      "q": "Do we need new software to optimize our processes?",
+      "a": "Often not. Many of the biggest gains come from clearer ownership, fewer approval steps, better forms and connecting tools you already pay for. When new software does make sense, we say so, compare options, and recommend building custom only when nothing on the market fits the way you need to work."
+    },
+    {
+      "q": "How is this different from traditional management consulting?",
+      "a": "Traditional management consulting usually ends with a strategy document and a set of recommendations. Our work goes further down: we map individual processes step by step, then change the systems, automations, procedures and dashboards ourselves. You get fewer slides and more working changes, with one Signal Lead accountable for whether the agreed measures actually improve."
+    },
+    {
+      "q": "Will our team accept the changes?",
+      "a": "They are more likely to when they helped design them. We interview the people who do the work, map the process with them and build the future state with their managers. We also write short procedures and train each team, and we roll changes out in phases so nobody has to relearn everything at once."
+    },
+    {
+      "q": "How long does a process optimization project take?",
+      "a": "Mapping and redesigning one or two core processes usually takes a few weeks, and the build follows in phases. Company-wide programs covering several departments take longer. We agree each phase and its date in writing, and we aim for each phase to show a measurable result before the next one starts."
+    }
+  ],
+  "related": [
+    "/services/ai-automation",
+    "/services/ai-consulting",
+    "/services/business-intelligence",
+    "/services/data-engineering",
+    "/services/web-app-development"
+  ],
+  "keywords": {
+    "primary": "business process optimization consulting",
+    "secondary": [
+      "business process optimization",
+      "process improvement consulting",
+      "business process consulting",
+      "operations consulting",
+      "workflow optimization",
+      "business optimization consulting"
+    ]
+  }
+}

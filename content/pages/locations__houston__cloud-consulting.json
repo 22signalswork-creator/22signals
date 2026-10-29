@@ -1,0 +1,124 @@
+{
+  "path": "/locations/houston/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Houston, TX | 22 Signals",
+  "description": "Cloud consulting for Houston companies on AWS, Azure and Google Cloud: storm-ready architecture, tighter access control, monitoring and lower monthly bills.",
+  "eyebrow": "Cloud Consulting in Houston",
+  "h1": "Cloud consulting for Houston companies",
+  "intro": "22 Signals provides cloud consulting Houston companies can rely on through hurricane season and audit season alike. We design and run AWS, Azure and Google Cloud setups with proper security, access control and monitoring, and we review costs so you stop paying for servers nobody uses. Built for established firms in energy, healthcare, logistics and engineering.",
+  "sections": [
+    {
+      "h": "What goes wrong with cloud in Houston firms",
+      "p": [
+        "Many Houston companies moved to the cloud in a hurry: during a merger, after a server room flooded, or when remote work arrived overnight. The result is often an AWS or Azure account that grew without a plan. Admin rights are shared. Nobody is sure which resources belong to which project. Backups exist, but nobody has tested a restore. The monthly bill climbs and finance cannot tell whether it should.",
+        "The weather adds a local edge. Hurricane Harvey in 2017 and Hurricane Beryl in 2024 left offices and homes across the region without power or access for days, and Winter Storm Uri in 2021 took down large parts of the Texas grid. A Houston business that still runs critical systems from a closet in Westchase or Greenway Plaza, or that keeps every workload in one cloud location, is carrying risk it may not have priced in. Good cloud consulting, Houston teams tell us, starts with that honest look."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Architecture on AWS, Google Cloud and Azure, designed around how your applications and people actually work.",
+        "Security and access control: single sign-on, least-privilege roles, multi-factor authentication and removal of shared admin accounts.",
+        "Monitoring and alerting so problems are found by a dashboard, not by a customer.",
+        "Backup and disaster recovery designs with restores tested on a schedule.",
+        "Cost reviews that find idle resources, oversized machines and missing reservations or savings plans.",
+        "Managed cloud operations if you would rather we run it day to day."
+      ]
+    },
+    {
+      "h": "Choosing regions and providers from Texas",
+      "p": [
+        "Location still matters in the cloud. Microsoft's South Central US region sits in San Antonio, Google Cloud runs a region in Dallas, and AWS offers a Local Zone in Houston for workloads that need very low latency, alongside its main regions in Ohio and Virginia. For most Houston businesses, the right answer is to run in one primary region and keep recovery copies in another, far enough away that the same storm cannot hit both.",
+        "We also look at what you already pay for. Many energy and engineering firms hold Microsoft enterprise agreements, which tilts the maths toward Azure. Others have data teams on BigQuery or AWS. We recommend the provider that fits your contracts, skills and applications, not the one with the best partner incentive."
+      ]
+    },
+    {
+      "h": "Cloud work for Houston's main industries",
+      "list": [
+        "Energy and oil and gas: separating corporate IT from operational technology, securing remote access to field and plant systems, and storing seismic and well data in tiers so archives cost less.",
+        "Petrochemical and industrial firms: segmented networks between plant and cloud, with clear rules on what plant data can leave site.",
+        "Texas Medical Center providers and health tech: HIPAA-eligible services only, business associate agreements with each provider, encryption everywhere and audit logs kept.",
+        "Port and logistics companies: tracking and customer portals that stay up during peak season and storm events.",
+        "Aerospace contractors near Clear Lake: environments that respect export-control and customer security requirements, often on government cloud regions where contracts demand it.",
+        "Engineering and construction: large drawing and model files shared quickly between Houston and project sites, without consumer file-sharing tools."
+      ]
+    },
+    {
+      "h": "Security and Texas privacy rules",
+      "p": [
+        "Most cloud breaches come from misconfiguration, not clever attacks: storage left public, old keys still active, or an ex-employee who still has access. We fix those first. We also map where personal data sits, because the Texas Data Privacy and Security Act expects you to protect it with reasonable security practices and to answer consumer requests about it. For health data, we design to HIPAA and Texas HB 300 and keep records your compliance team can show an auditor."
+      ]
+    },
+    {
+      "h": "Our approach: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a review call, then read-only access to your cloud accounts so we can see what is really there.",
+        "Plan: a findings report ranked by risk and cost, with a fix plan and dates in writing.",
+        "Build: fixes applied in stages, with change windows agreed so operations are not disrupted.",
+        "Grow: ongoing monitoring, monthly cost reviews and new environments as the business adds projects."
+      ]
+    },
+    {
+      "h": "Security work we have done",
+      "p": [
+        "We have cleaned up compromised law-firm websites: removing malicious code, closing the holes that let attackers in, rotating every credential and putting monitoring in place so the next attempt is caught early. The lesson carries over to any cloud account we touch. We assume something has been missed until the logs prove otherwise."
+      ]
+    },
+    {
+      "h": "Remote cloud consulting from London",
+      "p": [
+        "We work with Houston companies remotely from London, with meeting hours that overlap Central Time. We are six hours ahead, which suits cloud work: maintenance windows that would mean a late night for your staff can fall inside our working day. Your Signal Lead is accountable for the engagement, with specialist cloud engineers behind them. If a project needs someone at your site, for example to audit a server room before a migration, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": ["We price on scope, never by the hour. For cloud consulting, Houston engagements usually turn on five things:"],
+      "list": [
+        "How many cloud accounts, subscriptions or projects you run.",
+        "Whether workloads are mostly modern services or older servers lifted as they were.",
+        "Compliance needs such as HIPAA, export control or customer security questionnaires.",
+        "Recovery targets: how much data you can afford to lose and how fast you need to be back.",
+        "Whether you want a one-off review or ongoing managed operations."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals",
+      "p": [
+        "We are not a hosting reseller. With our cloud consulting, Houston firms get advice that is tied to what runs on top: the data warehouse, the AI tools, the client portal and the website. One team covers all of it, so the person fixing your cloud also understands why the business needs it. Related: cloud migration, DevOps consulting, data engineering and AI consulting for Houston companies."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud provider is best for a Houston business?",
+      "a": "There is no single best. Azure often suits firms already on Microsoft enterprise agreements, common in Houston energy and engineering. AWS has the broadest set of services and a Local Zone in Houston. Google Cloud is strong for data and analytics. We compare them against your applications, contracts and team skills, then recommend one primary provider."
+    },
+    {
+      "q": "How do we keep systems running through a hurricane?",
+      "a": "Move critical systems out of local server rooms, run them in a cloud region away from the Gulf Coast, and keep recovery copies in a second region. Then test the failover before June, not during a storm. We also plan for staff losing power at home, so access works from phones and backup connections."
+    },
+    {
+      "q": "Can you reduce our monthly cloud bill?",
+      "a": "Usually. Common savings come from shutting down idle resources, resizing oversized machines, moving old data to lower-cost storage tiers and committing to reserved capacity for steady workloads. We report what we find with an estimate for each item, so your finance team can see exactly where the money goes before anything changes."
+    },
+    {
+      "q": "Do you work with Houston companies on site?",
+      "a": "Most cloud consulting is done remotely from London, with live sessions during your morning and maintenance during our daytime, which is your night. When a project needs it, such as a server room audit or a workshop with IT and operations, we arrange an on-site visit. We do not keep an office in Houston."
+    },
+    {
+      "q": "Is the cloud safe for HIPAA data?",
+      "a": "Yes, when it is set up correctly. AWS, Azure and Google Cloud all offer HIPAA-eligible services and will sign a business associate agreement. The responsibility for configuration stays with you: encryption, access control, logging and backups. We build those controls and document them, keeping Texas HB 300 in view as well."
+    },
+    {
+      "q": "Can you secure remote access to plant or field systems?",
+      "a": "Yes, carefully. We separate operational technology networks from corporate IT and the cloud, use secure gateways instead of open remote desktop connections, and limit who can reach what. Changes near live plant systems are planned with your operations and safety teams, and nothing goes live without their sign-off."
+    }
+  ],
+  "related": ["/locations/houston", "/services/cloud", "/services/cloud-migration", "/services/devops-consulting", "/locations/dallas/cloud-consulting", "/locations/texas"],
+  "keywords": { "primary": "cloud consulting houston", "secondary": ["cloud consulting services houston", "aws consulting houston", "azure consultant houston", "cloud security houston"] }
+}

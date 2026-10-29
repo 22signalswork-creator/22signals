@@ -186,7 +186,7 @@ function chrome(main) {
 <p><strong>Industries:</strong> ${INDUSTRIES.map((s) => link([s.label, s.path])).join(" · ")}</p>
 <p><strong>Locations:</strong> ${CITIES.map((c) => link([c.name, `/locations/${c.slug}`])).join(" · ")}</p>
 <p><strong>Markets:</strong> ${MARKETS.map((s) => link([s.label, s.path])).join(" · ")} · <a href="/partners">For agencies</a></p>
-<p>22 Signals, London, United Kingdom · <a href="mailto:${SITE.email}">${SITE.email}</a> · <a href="tel:${SITE.phoneHref}">${SITE.phone}</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-service">Terms</a></p>
+<p>22 Signals, London, United Kingdom · <a href="mailto:${SITE.email}">${SITE.email}</a> · <a href="tel:${SITE.phoneHref}">${SITE.phone}</a> · <a href="https://wa.me/447944603108">WhatsApp</a> · <a href="mailto:daniyal@22signals.com">daniyal@22signals.com</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-service">Terms</a></p>
 </footer></div>`;
 }
 
@@ -403,7 +403,7 @@ fs.writeFileSync(
 
 > ${SITE.description} Not affiliated with 2Signals of Tampa, Florida.
 
-Head office: London. Contact: ${SITE.email}, ${SITE.phone}. Markets: United States, United Kingdom, UAE.
+Head office: London. Contact: ${SITE.email}, daniyal@22signals.com, ${SITE.phone} (also WhatsApp). Book a call: ${SITE.booking}. Markets: United States, United Kingdom, UAE.
 
 ## Services
 ${lines(SERVICES.map((s) => s.path))}

@@ -1,0 +1,138 @@
+{
+  "path": "/services/go-to-market",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "Go-to-market strategy consulting",
+  "title": "Go-to-Market Strategy Consulting | 22 Signals",
+  "description": "Go-to-market strategy consulting for companies entering a new market or launching a product: research, positioning, pricing, then we run the launch.",
+  "eyebrow": "Strategy and Go-to-Market",
+  "h1": "Go-to-market strategy consulting that ends in a launch, not a deck",
+  "intro": "22 Signals provides go-to-market strategy consulting for established companies opening a new market, product line or customer segment. We research who will buy, set positioning, messaging and pricing, write the launch plan by channel, and set up the outbound and CRM behind it. Then the same team runs the launch.",
+  "sections": [
+    {
+      "h": "Why so many launch plans stall after sign-off",
+      "p": [
+        "The plan is usually fine. The trouble starts on the Monday after it is approved. The strategy firm has left, the website agency was never in the room, the ads freelancer reads the positioning for the first time in a brief, and sales is still pitching the old story. Each group makes reasonable choices on its own, and the launch drifts.",
+        "Pricing is often the weakest part. It gets set by copying the nearest competitor or by adding a margin to cost, then nobody tests it. Launch dates slip because the website, the content, the campaigns and the sales materials depend on four different suppliers who each have their own calendar.",
+        "We built our offer around closing that gap. The people who research the market and write the plan are the people who build the pages, produce the video, set up the campaigns and load the CRM."
+      ]
+    },
+    {
+      "h": "What the engagement includes",
+      "list": [
+        "Market and competitor research: who buys, how they buy, who they compare you with and what they already pay",
+        "Ideal customer profile and buying committee: titles, triggers, objections and the words buyers use",
+        "Positioning and messaging: one clear statement of why you, tested against real competitor pages and sales calls",
+        "Pricing strategy: model, tiers, packaging and the reasoning behind each number, with a way to test it",
+        "Business, operating and marketing plans, written so a board, an investor or a new hire can follow them",
+        "Launch plan by channel: search, paid media, social, video, partners, events and outbound, each with an owner and a date",
+        "Outbound and CRM setup: target lists, sending domains, sequences, pipeline stages and hand-off rules",
+        "Partnerships and distribution: who already sells to your buyer and what a deal with them should look like"
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "p": [
+        "We work mainly with established companies of 5 to 500 staff. Good fits include a UK or Gulf company preparing to sell into the United States, a US company opening in the UK or the UAE, a business adding a product line that needs its own buyer and story, or a team whose last launch underperformed and wants to know why.",
+        "We also work with founders taking a first product to market. The process is the same, with less history to research and more weight on early customer interviews and pricing tests."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call to check fit, then a working session on the market, the product, the numbers you need to hit and what has been tried before",
+        "Plan: research, customer and sales interviews, positioning, pricing and the channel plan, delivered as a written plan with dates agreed in writing",
+        "Build: the assets the plan calls for, such as website pages, sales decks, explainer video, ad creative, outbound sequences and CRM pipelines",
+        "Grow: we run the launch with you, read the early numbers weekly and change the channel mix based on what buyers actually respond to"
+      ]
+    },
+    {
+      "h": "What you hold at the end of the planning phase",
+      "p": [
+        "A plan you can act on the next morning. That means a customer profile with named target accounts or segments, a positioning statement and message map for each buyer, a pricing model with the logic written down, a channel plan that shows what runs first and why, and a launch calendar with an owner against every task.",
+        "We also set the measures for the first 90 days: the leading signals that tell you the launch is working (replies, demos booked, qualified pipeline, search visibility) before revenue catches up. If a measure is missing from your current reporting, we say how we will capture it."
+      ]
+    },
+    {
+      "h": "Proof: from a device on paper to a full market plan",
+      "p": [
+        "One engagement was a US neurotech device that needed to go from a promising product to a business that could sell. We wrote the business plan, the operating plan and the marketing plan together: who buys, through which clinics and partners, at what price, with what message, and in what order the work happens.",
+        "Writing those three documents as one piece matters. A marketing plan that ignores operating capacity, or a business plan that assumes a sales motion nobody has costed, is a common reason a launch looks good on paper and stalls in month two."
+      ]
+    },
+    {
+      "h": "Outbound and CRM: the part of launch most plans skip",
+      "p": [
+        "Many go-to-market plans say outbound and stop there. We set it up properly: clean target lists, separate sending domains warmed before the first campaign, sequences written in the buyer's language, reply handling, and a CRM where every stage has an entry rule and an owner. Leads from ads, search and events land in the same pipeline, so you can compare channels honestly.",
+        "We built a complete outbound sales engine for 22 Signals itself before offering this to anyone else. The mistakes we made on our own pipeline are the ones we now design out for clients."
+      ]
+    },
+    {
+      "h": "Launch dates that hold",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events. The lesson from live work is simple: the date doesn't move, so everything else has to. We plan launches the same way, working back from the date, naming the dependencies, and flagging any slip the day we see it rather than at the review meeting."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices because two launches rarely need the same work. The cost depends on scope, and we put the scope and dates in writing before anything starts."
+      ],
+      "list": [
+        "How many markets, products and buyer types the plan covers",
+        "Research depth: desk research only, or customer interviews, competitor teardown and pricing surveys",
+        "Whether we only plan, or also build the assets and run the launch",
+        "How many channels go live at launch and how much creative each one needs",
+        "What already exists: brand, website, CRM data, past campaign results and sales collateral"
+      ]
+    },
+    {
+      "h": "Why companies choose 22 Signals for a launch",
+      "p": [
+        "One Signal Lead owns the plan and its execution, with specialist teams behind them. Few firms can cover the strategy, the data and AI work, the marketing, and the video, animation and 3D production a launch needs, so the story in the plan is the story on every page, ad and sales call.",
+        "Related work we often run alongside a launch: paid media across Google, Meta, LinkedIn and TikTok; SEO and generative engine optimization so the new offer shows up in ChatGPT, Claude, Gemini and Google AI Overview answers; web development for launch pages; video production; and business intelligence so the launch numbers are reported in one place."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does go-to-market strategy consulting include?",
+      "a": "It covers who will buy, what to say to them, what to charge and which channels to use first. Our engagements include market and competitor research, positioning, messaging, pricing, a launch plan by channel, outbound and CRM setup, and partnerships. We can then build the assets and run the launch with the same team."
+    },
+    {
+      "q": "How long does it take to build a go-to-market plan?",
+      "a": "A plan for one product in one market usually takes a few weeks, depending mostly on how many customer interviews and pricing tests the market needs. Plans covering several regions or buyer types take longer. Whatever the scope, we agree the delivery date in writing before we start, and build work can begin as soon as the plan is approved."
+    },
+    {
+      "q": "What is the difference between a go-to-market strategy and a marketing plan?",
+      "a": "A marketing plan says how you will promote the product. A go-to-market strategy decides the earlier questions: which buyers to target, how you are positioned against alternatives, how you price and package, which sales motion fits, and which partners carry the product. The marketing plan is one part of it, alongside sales, pricing and operations."
+    },
+    {
+      "q": "Can you help a UK or UAE company enter the US market?",
+      "a": "Yes. The United States is our first market, and we plan US entry for companies based elsewhere. We research US buyers and competitors directly, adjust positioning and pricing for US expectations, and plan meeting hours around Eastern, Central and Pacific time. We run this remotely from our head office in London, with on-site visits when the project needs them."
+    },
+    {
+      "q": "How do you decide pricing for a new product or market?",
+      "a": "We combine three inputs: what buyers pay today for the closest alternatives, what interviews and surveys say about willingness to pay, and what your margins and sales costs require. From that we propose a model, tiers and packaging, with the reasoning written down. We also design a test, such as a pilot price or a limited offer, so the number gets checked against real buyers early."
+    },
+    {
+      "q": "Do you only write the plan, or run the launch too?",
+      "a": "Both, and you can choose. Some clients take the plan to their own team. Most ask us to build what it calls for, such as pages, video, ads, outbound and CRM, and to run the first months of the launch. Because the same Signal Lead owns both, nothing gets lost between strategy and execution."
+    },
+    {
+      "q": "How much does go-to-market strategy consulting cost?",
+      "a": "It depends on scope. The main factors are the number of markets and products, how much primary research is needed, whether we also build and run the launch, and how many channels go live at once. We send a written scope with dates after the first call, so you know exactly what is included before you commit."
+    }
+  ],
+  "related": [
+    "/services/paid-media",
+    "/services/seo-geo",
+    "/services/video-motion",
+    "/services/web-app-development",
+    "/services/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "go to market strategy consulting",
+    "secondary": ["go-to-market strategy", "gtm consulting", "go to market consultant", "product launch strategy", "market entry strategy", "pricing strategy consulting"]
+  }
+}

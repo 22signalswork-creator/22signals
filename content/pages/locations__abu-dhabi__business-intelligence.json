@@ -1,0 +1,140 @@
+{
+  "path": "/locations/abu-dhabi/business-intelligence",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consultancy",
+  "title": "Business Intelligence in Abu Dhabi | 22 Signals",
+  "description": "Business intelligence for Abu Dhabi organisations: KPI design, Power BI and Looker Studio dashboards, bilingual reports and UAE-hosted data where required.",
+  "eyebrow": "Business Intelligence in Abu Dhabi",
+  "h1": "Business intelligence and data analytics for Abu Dhabi organisations",
+  "intro": "We help Abu Dhabi organisations turn scattered spreadsheets, ERP exports and CRM data into dashboards leadership trusts. That covers KPI design, data pipelines, Power BI, Looker Studio or Tableau reports, automated board packs and forecasting, built for companies reporting to demanding shareholders, government clients or regulators, with data kept in the UAE where it needs to be.",
+  "sections": [
+    {
+      "h": "The reporting problem we usually find",
+      "p": [
+        "Many companies in the capital report upwards to someone strict: a government client with a set KPI template, a parent group, a board with sovereign or institutional investors, or a regulator. The numbers exist, but they live in an ERP, a CRM, finance spreadsheets and a few email inboxes. Each month a small team rebuilds the same pack by hand, and two departments still quote different figures for the same thing.",
+        "Good business intelligence, Abu Dhabi included, is less about prettier charts and more about one agreed version of each number. That is where we start."
+      ]
+    },
+    {
+      "h": "What is included",
+      "list": [
+        "Data strategy and KPI design: what to measure, how each figure is defined, who owns it",
+        "Data warehouse and pipelines that pull from ERP, CRM, finance and operations systems",
+        "Dashboards in Power BI, Looker Studio or Tableau, chosen to fit your existing licences",
+        "Automated reporting: monthly packs and client KPI reports generated on schedule",
+        "Forecasting for revenue, demand, staffing or cash",
+        "Data quality checks so errors are caught before the board sees them",
+        "Arabic and English labels where reports go to bilingual audiences"
+      ]
+    },
+    {
+      "h": "Sectors and the numbers they care about",
+      "p": [
+        "Energy and industrial service companies track asset uptime, maintenance backlog, safety indicators and contract performance against client service levels. Investment and family offices want portfolio views across holdings that each report in a different format. Hospital groups and clinics watch patient volumes, waiting times, insurance claim rejections and staff utilisation, with clinical data handled under the federal health data law.",
+        "Schools and training providers report enrolment, attendance and outcomes, often to the Department of Education and Knowledge. Hotels, attractions and tour operators connected to Saadiyat and Yas Island follow occupancy, booking channels and seasonal demand, which swings hard between the cooler months and the summer."
+      ]
+    },
+    {
+      "h": "Good first projects",
+      "p": [
+        "A first project should replace something people already do by hand every month. Common starting points: the monthly management pack, the KPI report a government or corporate client demands, a sales pipeline view combining CRM and finance, or a single operations dashboard for a site manager.",
+        "Each takes a few data sources, has a clear owner and shows its value the first time the report arrives on schedule without anyone staying late. Once that works, wider business intelligence across Abu Dhabi subsidiaries or departments is a much easier conversation."
+      ]
+    },
+    {
+      "h": "Where your data sits",
+      "p": [
+        "Reporting often pulls personal data: employees, patients, customers. Mainland companies process it under the UAE PDPL, and ADGM firms under the ADGM Data Protection Regulations 2021. Health data generally has to stay in the UAE unless an exemption applies.",
+        "So we decide hosting early. AWS and Microsoft Azure both run UAE regions, and Microsoft's analytics capacity can typically be placed in a UAE region too. We also design row-level security, so a department head sees their own figures and not the whole payroll."
+      ]
+    },
+    {
+      "h": "How we run a BI project: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we interview the people who use the reports and the people who make them. Plan: we agree the KPI definitions and a data model, with dates written down for each dashboard. Build: pipelines first, then dashboards, tested against the figures in your last manual pack so differences are explained, not hidden. Grow: we add data sources, train your team and keep the reports accurate as systems change.",
+        "Your Signal Lead keeps one list of open questions and decisions, so the definition of revenue or headcount is settled once and stays settled."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and the same lesson comes up every time: reporting projects succeed when definitions are agreed before anyone opens Power BI. That is why the first deliverable on our side is a KPI dictionary, not a dashboard."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "BI work suits remote delivery. We connect to your systems through secure access you control, run workshops over video and send drafts for review in the shared hours. Abu Dhabi is 4 hours ahead of London in winter and 3 in summer, and both cities now take Saturday and Sunday off, so the working week lines up.",
+        "For a leadership session to agree KPIs or a training day for report owners, we come to Abu Dhabi when the project needs it. We have no office in the UAE and we will not pretend otherwise."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "list": [
+        "Number and condition of data sources, especially older ERP systems",
+        "How many dashboards and audiences, and whether they need Arabic",
+        "Data residency and the hosting it requires",
+        "Security model: row-level access, departments, subsidiaries",
+        "Forecasting or modelling beyond standard reporting",
+        "Training and ongoing support"
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Power BI consulting goes deeper into data modelling, DAX and governance. Data engineering builds the pipelines and warehouses behind the dashboards. Cloud consulting covers the UAE hosting, and AI automation can produce the commentary that goes alongside each monthly pack."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does business intelligence in Abu Dhabi typically cover?",
+      "a": "For business intelligence, Abu Dhabi organisations usually need KPI definitions, a data model that combines ERP, CRM and finance data, dashboards for leadership and automated reports for clients or regulators. We also plan hosting around UAE data rules and add Arabic labels where a report goes to bilingual readers."
+    },
+    {
+      "q": "Power BI, Looker Studio or Tableau: which should we use?",
+      "a": "Usually the one that fits your existing licences and skills. Many organisations here already run Microsoft 365, which makes Power BI the natural choice. Looker Studio suits Google-based marketing data, and Tableau suits teams already invested in it. We recommend based on your setup, not a partnership."
+    },
+    {
+      "q": "Can our reporting data stay in the UAE?",
+      "a": "Yes, in most cases. AWS and Microsoft Azure both operate UAE cloud regions, and Microsoft analytics capacity can be placed in a UAE region. We design pipelines and storage so personal and health data stays in the country where your licence or the health data law requires it."
+    },
+    {
+      "q": "Can dashboards be in Arabic?",
+      "a": "Yes. We build bilingual labels, titles and notes, and test right-to-left layout where the tool supports it. Many organisations keep the data model in English and show Arabic to readers who prefer it. We agree the approach at the planning stage so the reports read well in both languages."
+    },
+    {
+      "q": "Can you build the KPI reports a government client asks for?",
+      "a": "Yes. Contractors and suppliers often have to report to an entity in a fixed template. We automate that report from your systems so it is produced on time each period with the same definitions, and we keep a record of how every figure is calculated in case it is questioned."
+    },
+    {
+      "q": "How do you work with a team in Abu Dhabi?",
+      "a": "Remotely from London in the shared working hours, with secure access you grant and revoke. Workshops, reviews and training run over video. When an in-person KPI session or training day would help, we travel to Abu Dhabi for it as part of the agreed plan."
+    },
+    {
+      "q": "Why work with a London team on business intelligence for Abu Dhabi?",
+      "a": "You get one accountable lead and a team that covers data, cloud, AI and reporting together, so the person who designs the dashboards also answers for the pipelines behind them. Our business intelligence Abu Dhabi clients also gain a team used to UK, US and Gulf reporting standards."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/abu-dhabi/cloud-consulting",
+    "/locations/dubai/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence abu dhabi",
+    "secondary": [
+      "data analytics abu dhabi",
+      "power bi consultant abu dhabi",
+      "bi consultancy uae",
+      "dashboard development abu dhabi"
+    ]
+  }
+}

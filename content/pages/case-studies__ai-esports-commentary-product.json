@@ -1,0 +1,94 @@
+{
+ "path": "/case-studies/ai-esports-commentary-product",
+ "kind": "case-study",
+ "region": "uae",
+ "title": "AI Esports Commentary Case Study | 22 Signals",
+ "description": "AI esports commentary case study: the technical architecture and partner pitch for an AI caster in development, plus SEO aimed at Dubai and the wider UAE.",
+ "eyebrow": "Case study: gaming and esports",
+ "h1": "AI esports commentary case study: designing an AI caster for live esports",
+ "intro": "This AI esports commentary case study covers an esports company competing for attention in Dubai and the UAE. We designed the technical architecture for an AI caster, a product that commentates live esports matches, and built a 26-slide partner pitch deck. Alongside it, we audited the company's website for search in the UAE. The product is still in development.",
+ "sections": [
+  {
+   "h": "The client and the problem",
+   "p": [
+    "The client is an esports company. Every live match needs commentary. The company wanted to explore an AI caster: a system that follows a match and produces commentary that viewers would want to listen to.",
+    "That idea raises hard questions quickly. How does the system know what is happening in the game? How fast does it need to respond? How do you keep it accurate, on brand and safe to broadcast? And how do you explain all of that to a potential partner in one meeting?"
+   ]
+  },
+  {
+   "h": "What we did",
+   "list": [
+    "Designed a detailed technical architecture for the AI caster.",
+    "Produced a 26-slide internal partnership pitch deck, in the company's own brand colours.",
+    "Ran an SEO audit of the company's website, built from a full crawl.",
+    "Set the SEO target market as the UAE, with Dubai as the focus."
+   ]
+  },
+  {
+   "h": "The architecture work",
+   "p": [
+    "An AI commentary product is not one model. It is a chain: taking in what is happening in the match, deciding what is worth saying, writing the line, turning it into speech, and getting it on air while the moment still matters. Each link has its own trade-offs between speed, accuracy and cost.",
+    "Our architecture sets out that chain in detail, so the company and any partner can see how the product would work, where the difficult parts are, and what needs to be built first. Writing it down before building is what lets a product like this be costed and scheduled honestly."
+   ]
+  },
+  {
+   "h": "The partner pitch",
+   "p": [
+    "A product in development often needs a partner to reach the market: a tournament organiser, a broadcaster or a platform. We built a 26-slide pitch deck in the company's brand colours that explains the product, the technical approach and the case for working together, in a form the company can take into partner meetings."
+   ]
+  },
+  {
+   "h": "Search in Dubai and the UAE",
+   "p": [
+    "Alongside the product work, we audited the company's website for search, with the UAE and Dubai as the market to compete in. The audit came from a full crawl of the site and set out the technical and content issues standing between the company and the searches it wants to win in that market."
+   ]
+  },
+  {
+   "h": "How we ran it",
+   "p": [
+    "One Signal Lead held both strands, product and search, with AI engineers and SEO specialists behind them. Running both through one lead meant the story told in the pitch deck and the story told on the website stayed consistent.",
+    "Live esports also shapes how we work. A broadcast has a start time, and the date does not move. We plan technical work with the same discipline."
+   ]
+  },
+  {
+   "h": "What changed",
+   "p": [
+    "The company now has a documented architecture for its AI caster, a partner-ready pitch deck and a clear SEO audit for its target market. The AI caster is still in development, so there are no audience or revenue figures to share, and we will not suggest otherwise."
+   ]
+  },
+  {
+   "h": "What other esports companies can take from this AI esports commentary case study",
+   "list": [
+    "Document the architecture before writing code, so the product can be costed and scheduled.",
+    "Be clear with partners about what is built and what is still in development.",
+    "Keep the product story and the website story consistent; partners will read both.",
+    "Choose the search market you want to win, here Dubai and the UAE, and audit against it."
+   ]
+  },
+  {
+   "h": "Services used",
+   "p": [
+    "Custom AI Development for the architecture, Strategy and Go-to-Market for the partner pitch, and SEO and GEO for the UAE search audit. If you are building an AI product for live entertainment, book a 15-minute call."
+   ]
+  }
+ ],
+ "related": [
+  "/services/custom-ai-development",
+  "/services/go-to-market",
+  "/services/seo-geo",
+  "/industries/gaming-entertainment",
+  "/uae"
+ ],
+ "keywords": {
+  "primary": "ai esports commentary",
+  "secondary": [
+   "ai caster esports",
+   "ai shoutcaster",
+   "esports seo dubai",
+   "ai product architecture"
+  ]
+ },
+ "author": "Daniyal Mansur",
+ "datePublished": "2026-10-29",
+ "faqs": []
+}

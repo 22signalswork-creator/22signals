@@ -1,0 +1,132 @@
+{
+  "path": "/industries/gaming-entertainment",
+  "kind": "industry",
+  "region": "global",
+  "title": "Gaming and Esports: Events, Broadcast and Growth | 22 Signals",
+  "description": "Live events and broadcast, game development, AI products, video and growth for gaming and esports brands, publishers and entertainment companies.",
+  "eyebrow": "Gaming, Esports and Entertainment",
+  "h1": "Live events, games and growth for gaming and esports brands",
+  "intro": "22 Signals works with gaming and esports organizations, publishers, studios and entertainment brands. We run tournaments and live broadcasts, build games and interactive experiences, produce the highlights and content around them, and run the marketing and partnerships that bring in players, viewers and sponsors. We are also building an AI commentary product for live esports.",
+  "sections": [
+    {
+      "h": "Where the future lands first",
+      "p": [
+        "Gaming audiences adopt new formats before anyone else: live streaming, virtual goods, creator-led launches, AI characters. Brands in this space need partners who can keep up technically and creatively at the same time, and who understand that a live show has no second take.",
+        "Most agencies do one part. A production company handles the stream, a studio builds the game, someone else runs social, and the sponsor deck is made the night before. We cover all of it with one team that has worked live. If your next date is fixed and public, that is the kind of work we are set up for."
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "list": [
+        "Esports organizations, leagues and tournament operators",
+        "Game studios and publishers preparing a launch or a new season",
+        "Gaming hardware, peripherals and energy drink brands running activations",
+        "Entertainment companies, venues and creators producing live shows",
+        "Brands outside gaming that want to reach players credibly"
+      ]
+    },
+    {
+      "h": "Live events and broadcast",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events. The lesson from every one of them is the same: the date does not move. Venues, talent, sponsors and viewers are all booked to that moment, so every task is planned backwards from it and rehearsed before doors open.",
+        "That covers tournament operations, show running, production design, multi-camera and in-game observer feeds, casters and hosts, overlays and graphics, and the stream itself across Twitch, YouTube and other platforms. We bring the same discipline to every other deadline we work to."
+      ]
+    },
+    {
+      "h": "What we do for gaming and esports brands",
+      "list": [
+        "Tournaments, live events and broadcast production, from online qualifiers to stage finals",
+        "Game development and interactive experiences, including branded games and activations",
+        "Highlights, reels, trailers and motion graphics, cut fast while the moment still matters",
+        "Managed video editing teams that keep a channel publishing every week",
+        "3D characters, environments and renders for trailers, merchandise and store pages",
+        "Websites, apps and community platforms for teams, leagues and games",
+        "Paid media on YouTube, TikTok, Meta and Reddit, plus search and SEO for game and event pages",
+        "Sponsorship decks, partnership strategy and activation plans"
+      ]
+    },
+    {
+      "h": "AI commentary for live esports",
+      "p": [
+        "We are building an AI commentary product for live esports. The idea is simple to describe and hard to do: commentary that follows the match in real time, explains what is happening for viewers who are new to the game, and can run in several languages or on matches that would never get a human caster.",
+        "It is in development, not on sale yet. We mention it because the work behind it (real-time game data, low-latency voice, guardrails on what an AI says live on air) is what we bring to other gaming and entertainment AI projects, such as interactive characters, automated highlight detection or support assistants for player communities."
+      ]
+    },
+    {
+      "h": "Content that keeps a channel alive",
+      "p": [
+        "Esports and gaming brands live or die on publishing rhythm. We run a managed video editing team for a US client, and the same model works for teams and creators: a steady pipeline of edits, shorts, thumbnails and recaps, reviewed against your style guide and delivered on a fixed schedule.",
+        "Around the content we handle the rest of growth: channel strategy, paid promotion of trailers and events, landing pages for tickets and sign-ups, and tracking that shows which posts actually bring players or viewers."
+      ]
+    },
+    {
+      "h": "Game development and interactive work",
+      "p": [
+        "Our game development work ranges from small branded games and web-based experiences to prototypes for studios testing an idea. We combine developers with our 3D and animation team, so art, motion and code are planned together rather than handed between suppliers.",
+        "For brands, an interactive piece often works better than an ad: a playable activation at an event, a mini-game tied to a product launch or a leaderboard campaign that runs alongside a tournament."
+      ]
+    },
+    {
+      "h": "Getting found before and after the event",
+      "p": [
+        "Players and fans search for schedules, brackets, ticket pages, patch notes and team rosters, and more of them now ask an AI assistant instead. Many gaming and esports sites lose that traffic because event pages go up late, disappear after the final or live inside a social post that search engines barely read.",
+        "We build event and game pages that stay live and get updated: clear schedules, results, rosters and FAQs written to answer the question directly, so they show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers. Past events become an archive that keeps bringing in fans and gives sponsors proof of reach."
+      ]
+    },
+    {
+      "h": "How we work with gaming and entertainment teams",
+      "p": [
+        "We follow four steps: Talk, Plan, Build, Grow. For events, the plan is a run of show and production schedule worked back from the live date. For games and content, it is a release plan with milestones. One Signal Lead owns the whole thing, and every date we agree goes in writing.",
+        "Cost depends on scope: the number and size of events, broadcast complexity and platforms, the volume of content each month, game scope and platforms, and whether we run paid media and partnerships."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you run and broadcast an esports tournament for us?",
+      "a": "Yes. We have run and broadcast more than 20 large-scale live events. We handle tournament operations, production, casters and hosts, graphics and the stream itself, from online qualifiers to stage finals. Everything is planned backwards from the live date and rehearsed before the event."
+    },
+    {
+      "q": "Is your AI esports commentary product available?",
+      "a": "Not yet. It is in development. We describe it on this page because the technical work behind it, such as real-time game data, low-latency voice and guardrails for live output, carries over to other AI projects we build for gaming and entertainment companies today."
+    },
+    {
+      "q": "Do you develop games?",
+      "a": "Yes, mainly branded games, interactive experiences and prototypes, with art, animation and code produced by one team. For larger titles we can support a studio with trailers, 3D assets, store pages, community platforms and launch marketing rather than building the full game."
+    },
+    {
+      "q": "Can you manage our video editing every week?",
+      "a": "Yes. We run a managed video editing team for a US client, and we set up the same model for teams, creators and publishers: a fixed weekly volume of edits, shorts, thumbnails and recaps, reviewed against your style guide and delivered on schedule."
+    },
+    {
+      "q": "Do you help with sponsorships and brand partnerships?",
+      "a": "Yes. We build sponsorship decks and partnership strategies, plan activations that sponsors can measure, and produce the content and reporting sponsors want afterwards. For non-gaming brands, we help design activations that feel native to players rather than pasted on."
+    },
+    {
+      "q": "Do you work with entertainment brands outside gaming?",
+      "a": "Yes. Live shows, venues, creators and media brands need the same mix we bring to gaming and esports: production that hits a live date, a steady flow of edited content, websites and ticket pages that convert, and paid media to fill seats or grow an audience. One lead runs all of it."
+    },
+    {
+      "q": "What does an event or gaming project cost?",
+      "a": "It depends on scope. The main factors are event size and format, broadcast complexity and platforms, how much content you need, game scope, and whether we run paid media and partnerships. We send a written plan with dates after a 15-minute call."
+    }
+  ],
+  "related": [
+    "/services/video-motion",
+    "/services/more",
+    "/services/3d-animation",
+    "/services/custom-ai-development",
+    "/services/paid-media",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "gaming and esports",
+    "secondary": [
+      "esports event production",
+      "esports broadcast company",
+      "gaming marketing agency",
+      "branded game development",
+      "ai esports commentary"
+    ]
+  }
+}

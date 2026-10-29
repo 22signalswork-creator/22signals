@@ -1,0 +1,141 @@
+{
+  "path": "/locations/dallas/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in Dallas: Google, Meta, LinkedIn Ads | 22 Signals",
+  "description": "Paid media for Dallas companies: Google, Meta, LinkedIn and TikTok ads with in-house creative, landing pages and call tracking tied to real leads.",
+  "eyebrow": "Paid Media in Dallas",
+  "h1": "Paid media for Dallas companies that judge ads by leads, not clicks",
+  "intro": "We run paid media for established Dallas companies across Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. Our team makes the creative and landing pages in-house, sets up conversion and call tracking, and connects it all to your CRM, so you see which ads produce customers. It suits law firms, practices, property firms, retailers and B2B sellers across DFW.",
+  "sections": [
+    {
+      "h": "Where Dallas ad budgets leak",
+      "p": [
+        "Dallas is an expensive market to advertise in. Legal, medical, home services and real estate keywords attract national advertisers as well as local ones, so every wasted click costs real money. The usual leaks are easy to spot once you look: campaigns targeting the whole metro when the business serves six suburbs, landing pages that load slowly on a phone, and calls that nobody tracks, so the account optimizes for form fills that never turn into clients.",
+        "The paid media Dallas companies need starts with measurement. Until each ad can be traced to a lead and then to revenue, more budget only makes the leak bigger."
+      ]
+    },
+    {
+      "h": "Channels and what we run on them",
+      "list": [
+        "Google Search: intent-driven campaigns with tight keyword control and negative lists.",
+        "Performance Max and Shopping for retail and e-commerce brands with product feeds.",
+        "YouTube: video ads for awareness and remarketing, made by our own video team.",
+        "Meta (Facebook and Instagram): lead generation, local awareness and retargeting.",
+        "LinkedIn: account and job-title targeting for B2B sellers.",
+        "TikTok: short-form creative for consumer brands reaching younger buyers.",
+        "Landing pages, conversion tracking, call tracking and CRM connection on every account."
+      ],
+      "p": [
+        "We choose channels by where your buyers spend time, so the paid media Dallas plan for a law firm looks nothing like one for a Plano retailer."
+      ]
+    },
+    {
+      "h": "Paid media by Dallas industry",
+      "list": [
+        "Law firms: high-cost Google Search terms where call tracking and intake speed decide profit. Texas lawyer ads also have to follow the state's advertising rules, which include filing many ads with the State Bar of Texas, so we build review time into the schedule.",
+        "Healthcare, dental and aesthetics practices: booking-focused campaigns that follow Google and Meta healthcare policies and avoid sending patient data into ad platforms.",
+        "Real estate and multifamily: lease-up and listing campaigns under the housing ad rules on Meta and Google, which limit how audiences can be targeted.",
+        "Retail and consumer brands in Plano and Dallas: Performance Max, Meta and TikTok with creative refreshed often enough to stay out of ad fatigue.",
+        "B2B sellers targeting the corporate campuses of Las Colinas, Legacy West and Downtown: LinkedIn campaigns aimed at named accounts and job titles, backed by content worth downloading."
+      ]
+    },
+    {
+      "h": "Targeting a metro this size",
+      "p": [
+        "Dallas-Fort Worth is big enough that targeting choices matter as much as bids. We set location targeting by the ZIP codes and suburbs you actually serve, adjust bids by area and time of day based on lead quality, and run Spanish-language campaigns where your buyers search in Spanish, which is common for DFW legal, healthcare and home services.",
+        "We also separate brand searches from new-customer searches, so you know how much growth the ads create rather than how many existing customers clicked an ad on their way to you."
+      ]
+    },
+    {
+      "h": "Tracking under Texas privacy law",
+      "p": [
+        "The Texas Data Privacy and Security Act gives Texans the right to opt out of targeted advertising, and covered businesses have to honor browser-level opt-out signals. That affects remarketing lists, pixels and the customer data you upload to ad platforms. We set up consent handling, server-side and first-party conversion tracking, and audience uploads that respect opt-outs, so measurement stays solid without cutting corners. Your counsel confirms how the law applies to your business."
+      ]
+    },
+    {
+      "h": "How we run an account",
+      "p": [
+        "Talk: a 15-minute fit check. Plan: we audit the existing accounts, tracking and landing pages, then write a channel plan, budget split and testing schedule with dates. Build: we fix tracking first, then rebuild campaigns, make the creative and launch new landing pages. Grow: weekly optimization, monthly reporting on cost per lead and cost per client, and new creative tests every month.",
+        "One example of the approach: a site rebuild, SEO and Google Ads for a beauty salon, run by one team so the ads sent people to pages built to convert them."
+      ]
+    },
+    {
+      "h": "Running Dallas campaigns from London",
+      "p": [
+        "We manage Dallas ad accounts remotely from London, with meeting hours that overlap Central Time. Being six hours ahead helps: we review overnight performance and adjust bids and budgets before most Dallas businesses open, and the weekly call sits in your morning.",
+        "You keep ownership of every ad account and see the same dashboards we do. If a creative shoot or a planning workshop in Dallas helps the campaign, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "Our management fees are scoped per account, and your media spend is paid to the platforms directly. What shapes the plan we propose:"
+      ],
+      "list": [
+        "Number of channels and campaigns.",
+        "How much creative you need each month: static, video or both.",
+        "Landing page builds and testing.",
+        "Tracking and CRM setup work.",
+        "Review steps such as legal or medical approval."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Many agencies buy media and outsource the rest. We make the video, the motion graphics, the 3D renders and the landing pages ourselves, and we run SEO and GEO alongside the ads, so paid and organic support each other. Related services for Dallas companies: SEO and GEO, video production, and web development for the pages ads point to."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should a Dallas company spend on ads?",
+      "a": "It depends on your market and how much a new client is worth. A Dallas law firm and a Plano retailer need very different budgets. We size the starting budget from search volume, likely cost per click and your conversion rate, then adjust once real lead data comes in. Media spend goes to the platforms directly."
+    },
+    {
+      "q": "Do you track phone calls from ads?",
+      "a": "Yes. For law firms, practices and service businesses in Dallas, many of the best leads call rather than fill in a form. We set up call tracking by campaign and keyword, record which calls become clients in your CRM, and feed that back so the platforms optimize for real customers."
+    },
+    {
+      "q": "Can you run Spanish-language ads in DFW?",
+      "a": "Yes. We build separate Spanish campaigns with their own keywords, ad copy and landing pages, written properly rather than translated word for word. For many Dallas-Fort Worth businesses in legal, healthcare and home services, Spanish searches bring in leads that competitors are missing."
+    },
+    {
+      "q": "How does Texas privacy law affect our ad targeting?",
+      "a": "The Texas Data Privacy and Security Act lets people opt out of targeted advertising and requires covered businesses to honor browser opt-out signals. We build consent handling into your tracking, use first-party conversion data, and keep audience uploads in line with opt-outs. Your counsel confirms how the law applies to you."
+    },
+    {
+      "q": "Do you make the ad creative too?",
+      "a": "Yes. Our in-house team produces static ads, short videos, motion graphics and 3D product renders, so creative testing does not wait on another agency. For Dallas retail and real estate clients that means new variations every month, which keeps costs down as audiences get tired of old ads."
+    },
+    {
+      "q": "Do you meet Dallas clients in person?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and ad management runs well that way. When a creative shoot or a strategy workshop in Dallas would help, we plan that visit when the project needs it."
+    },
+    {
+      "q": "Who owns the ad accounts?",
+      "a": "You do. Campaigns run in ad accounts owned by your business, and we work with admin access you grant. If we ever part ways, the accounts, the data and the history stay with you, so the next team does not start from zero."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/paid-media",
+    "/locations/dallas/seo-geo",
+    "/locations/dallas/video-animation",
+    "/locations/houston/paid-media",
+    "/locations/austin/paid-media"
+  ],
+  "keywords": {
+    "primary": "paid media dallas",
+    "secondary": [
+      "ppc agency dallas",
+      "google ads management dallas",
+      "facebook ads agency dallas",
+      "linkedin ads dallas"
+    ]
+  }
+}

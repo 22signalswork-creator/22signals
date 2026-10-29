@@ -1,0 +1,144 @@
+{
+  "region": "pk",
+  "city": "Islamabad",
+  "citySlug": "islamabad",
+  "path": "/locations/islamabad/web-development",
+  "kind": "location-service",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Islamabad | Sites and Portals | 22 Signals",
+  "description": "Web development for Islamabad organisations: bilingual English and Urdu sites, portals and redesigns that keep rankings, built secure and fast on mobile.",
+  "eyebrow": "Web Development in Islamabad",
+  "h1": "Web development for Islamabad organisations that get checked before every meeting",
+  "intro": "22 Signals builds websites, portals and redesigns for Islamabad organisations: think tanks, NGOs, universities, hospitals, developers and software exporters. We write and design in English and Urdu, keep your search rankings through any migration, load fast on Pakistani mobile networks and lock the site down against the attacks that hit capital-city sites.",
+  "sections": [
+    {
+      "h": "Your website is read by more than customers",
+      "p": [
+        "In Islamabad, the people who read your website are often not buying anything that day. A procurement officer checks it before shortlisting you. A donor's programme manager looks for your annual reports. A diplomat's staff confirms who runs your organisation before a meeting. An overseas client of your software house wants to see real work before signing. Each of them decides something about you in a minute or two.",
+        "That changes what counts as good web development. Islamabad visitors expect clear ownership and leadership pages, downloadable reports that actually open, accurate contact routes, and an English version that reads like it was written in English, not translated from a brochure."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "New websites and redesigns, planned around what each visitor type needs to find",
+        "Migrations that keep your search rankings, with every old address redirected",
+        "Content management on WordPress or a headless CMS your staff can update",
+        "E-commerce for retailers and brands selling across Pakistan",
+        "Client and member portals with logins, documents and payments",
+        "Website care: updates, backups, uptime monitoring and security fixes"
+      ]
+    },
+    {
+      "h": "English and Urdu on the same site",
+      "p": [
+        "Many Islamabad audiences read in both languages, and some public-facing organisations are expected to publish in both. Urdu needs more than a translation plugin. It reads right to left, it looks right only in a proper Nastaliq font, and its line height and spacing differ from English. We build separate language versions with their own addresses, tell search engines which version is which, and have a person check every Urdu page.",
+        "Where a full Urdu site is not needed, we add Urdu summaries or downloads on the pages that matter most, such as admissions, patient information or complaint procedures."
+      ]
+    },
+    {
+      "h": "Web development Islamabad sectors ask us for",
+      "list": [
+        "Think tanks, NGOs and international organisations: publication libraries with search, filters by theme and year, and reports that load on a phone",
+        "Universities, colleges and schools: admissions sections with deadlines, merit lists and fee information that can be updated without a developer",
+        "Hospitals and clinics: doctor directories, timings, departments and appointment requests",
+        "Real estate developers: project sites that show approval status, payment plans and progress photos for schemes around the Expressway and Gulberg Greens",
+        "Software exporters: portfolio and case pages written for overseas buyers, with the right time zone on the contact page",
+        "Suppliers bidding for public and donor contracts: company profiles, capability statements and accessible pages that procurement teams can check quickly"
+      ]
+    },
+    {
+      "h": "Security for sites that attract attention",
+      "p": [
+        "Websites of organisations in the capital draw more attempted attacks than most, and a defaced homepage is a bad look before a donor meeting. We have carried out security clean-ups of compromised law-firm websites: removing malicious code, closing the hole it came through, rotating every password and putting monitoring in place so the next attempt is caught early.",
+        "Every site we build or take over gets the same basics: updated software, limited admin accounts with two-step sign-in, a firewall, daily off-site backups and a tested restore. If something does go wrong, the Prevention of Electronic Crimes Act 2016 gives you a legal route to report it, and we provide the logs your report needs."
+      ]
+    },
+    {
+      "h": "Fast on the networks your visitors use",
+      "p": [
+        "Most Islamabad visitors arrive on a phone, often on mobile data that slows down at peak hours. We keep pages light, compress images properly, avoid heavy scripts and test on mid-range Android phones over real mobile connections, not just office Wi-Fi in a London meeting room. Fast pages also rank better and convert more of the visitors you already have."
+      ]
+    },
+    {
+      "h": "How a website project runs",
+      "list": [
+        "Talk: who visits, what they need and what the current site gets wrong",
+        "Plan: a sitemap, content plan, redirect map and launch date, all agreed in writing",
+        "Build: design, development and content, reviewed on a staging site your team can click through",
+        "Grow: launch, monitoring, website care and improvements based on real visitor behaviour, owned by your Signal Lead"
+      ]
+    },
+    {
+      "h": "Working with us from Islamabad",
+      "p": [
+        "We work with Islamabad and Rawalpindi organisations remotely from our head office in London. Reviews happen on video calls in the Islamabad afternoon: 11:00 London is 16:00 PKT in winter and 15:00 PKT in summer. Feedback goes straight onto the staging site as comments, so nothing gets lost in a WhatsApp thread.",
+        "If a content workshop or a training session for your editors would work better in person, we plan a visit to Islamabad when the project needs it."
+      ]
+    },
+    {
+      "h": "What sets the cost of a website",
+      "p": [
+        "We do not publish prices for web development. Islamabad projects range from a ten-page profile site to a bilingual portal, and cost follows:"
+      ],
+      "list": [
+        "The number of page types and templates",
+        "Whether the site needs English and Urdu versions",
+        "Migration of existing content and rankings",
+        "Portals, logins, payments or integrations with other systems",
+        "Who writes the content: you, us or both",
+        "The level of website care after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "A lot of the web development Islamabad organisations pay for ends at launch day. We also run the search, ads, video and AI tools that make the site work after launch, so the same team that builds it keeps it earning. If that sounds useful, see our SEO services for Islamabad, app development, and cloud consulting for hosting decisions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build on WordPress?",
+      "a": "Often, because it is familiar to many Islamabad teams and easy to hand over. For larger sites, portals or very high traffic we sometimes use a headless CMS with a faster front end. We choose based on who will edit the site, how much traffic it gets and what it must connect to, and we explain the trade-off before you decide."
+    },
+    {
+      "q": "Can you redesign our site without losing Google rankings?",
+      "a": "Yes, if the migration is planned properly. We record every existing address and its traffic, map each one to its new home, carry over titles and content that rank, and redirect the rest. After launch we watch Search Console daily for errors and fix them quickly. Most ranking losses after a redesign come from skipping these steps."
+    },
+    {
+      "q": "Can you build an Urdu version of our website?",
+      "a": "Yes. We build Urdu pages with right-to-left layout and a proper Nastaliq font, with their own addresses so search engines treat them as a separate language version. Translation is checked by a person, not left to a machine. We can do a full Urdu site or Urdu versions of the most important pages only."
+    },
+    {
+      "q": "Can our website be hosted in Pakistan?",
+      "a": "Yes, if your audience, contracts or data rules point that way. Many sites do well on international hosting with a content delivery network, which keeps them fast in Pakistan. Where public sector rules or sensitive data apply, we use local hosting. We explain the choice in terms of speed, security and compliance."
+    },
+    {
+      "q": "Can you take over a site another agency built?",
+      "a": "Yes. We start with an audit of the code, plugins, hosting and access, then fix anything urgent such as outdated software or shared passwords. You keep full ownership of the domain, hosting and code. We document everything as we go so you are never locked in to us either."
+    },
+    {
+      "q": "Do you meet clients in Islamabad?",
+      "a": "Our meetings are mainly video calls in the Islamabad afternoon, which overlap comfortably with London working hours. We do not have an office in Islamabad. When a workshop or training session would genuinely be better face to face, we arrange a visit when the project needs it and agree the dates in writing."
+    }
+  ],
+  "related": [
+    "/locations/islamabad",
+    "/services/web-app-development",
+    "/locations/islamabad/seo-geo",
+    "/locations/islamabad/app-development",
+    "/locations/lahore/web-development",
+    "/locations/karachi/web-development"
+  ],
+  "keywords": {
+    "primary": "web development islamabad",
+    "secondary": [
+      "website development islamabad",
+      "web design islamabad",
+      "urdu website development",
+      "website redesign pakistan"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "path": "/locations/dubai/paid-media",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media Agency for Dubai Brands | 22 Signals",
+  "description": "A paid media agency for Dubai brands: Google, Meta, LinkedIn and TikTok ads with in-house creative, WhatsApp lead tracking and reporting tied to revenue.",
+  "eyebrow": "Paid Media in Dubai",
+  "h1": "A paid media agency for Dubai brands that count leads, not clicks",
+  "intro": "We plan, create and run Google, Meta, LinkedIn and TikTok campaigns for established Dubai companies, with creative made in-house and every lead tracked from the ad to WhatsApp, the call or the form, then into your CRM. You see what each campaign earned, not just how many people saw it.",
+  "sections": [
+    {
+      "h": "Where Dubai ad budgets leak",
+      "p": [
+        "Dubai is an expensive place to buy attention. Property, clinics, hospitality and retail all compete for the same residents and visitors, and the cost of a click rises sharply around launches and festivals. Yet many accounts we review still optimise for the lowest-cost form fill, send traffic to a slow generic homepage, and lose track of the customer the moment they tap the WhatsApp button.",
+        "The result is a dashboard full of leads and a sales team saying none of them are real. Fixing that starts with tracking, not with a bigger budget."
+      ]
+    },
+    {
+      "h": "What we run",
+      "list": [
+        "Google Search and Performance Max for people already looking for what you sell.",
+        "YouTube for launches, brand films and remarketing.",
+        "Meta, across Facebook and Instagram, for property, beauty, hospitality and retail audiences.",
+        "LinkedIn for B2B buyers in DIFC, Business Bay and the free zones.",
+        "TikTok for younger audiences and products that look good in motion.",
+        "Landing pages built for each campaign, fast on mobile and clear in English and Arabic where needed.",
+        "Conversion and call tracking, WhatsApp click tracking and CRM connection, so spend links to revenue."
+      ]
+    },
+    {
+      "h": "Creative made for Dubai audiences",
+      "p": [
+        "Our creative team makes the ads in-house: short video, motion graphics, statics, 3D product shots and renders. For Dubai that usually means planning several versions at once, for residents and tourists, for different nationalities and for English and Arabic placements, with Arabic copy supplied or approved by you.",
+        "It also means respecting the calendar. Ramadan changes when people browse and what tone works. The Dubai Shopping Festival, the summer slowdown and the busy winter season each need their own plan, and we schedule creative well before each one."
+      ]
+    },
+    {
+      "h": "Rules that shape Dubai campaigns",
+      "list": [
+        "Property ads: Dubai Land Department rules require an advertising permit for property listings and promotions, and we build the permit details into creative and landing pages from the start.",
+        "Clinics and aesthetics: Dubai Health Authority standards for medical advertising on social media restrict misleading claims and edited before and after images, so we write and design within them and have your medical team approve.",
+        "Personal data: lead forms collect personal data, so the UAE PDPL applies, and DIFC firms follow the DIFC Data Protection Law. We keep consent and privacy notices in place on every form.",
+        "Platform policies: financial products, health claims and alcohol each carry extra restrictions on Meta, Google and TikTok in the UAE."
+      ]
+    },
+    {
+      "h": "WhatsApp ads and the follow-up",
+      "p": [
+        "Click-to-WhatsApp ads often suit Dubai buyers better than forms, because they match how people already contact businesses. They only work if someone replies quickly and the result is recorded. We set up the tracking so each conversation is tagged with the campaign that started it, and we can connect an AI first reply that qualifies the lead and books a callback, with your team taking over from there."
+      ]
+    },
+    {
+      "h": "How a paid media engagement runs",
+      "list": [
+        "Talk: your margins, sales cycle, current accounts and what a good lead is worth.",
+        "Plan: channel mix, audiences, creative plan, tracking setup and monthly budget split, in writing.",
+        "Build: tracking first, then landing pages and creative, then launch.",
+        "Grow: weekly optimisation, monthly reporting on revenue and cost per qualified lead, and fresh creative before fatigue sets in."
+      ]
+    },
+    {
+      "h": "An example of the work",
+      "p": [
+        "For a beauty salon we rebuilt the website, set up SEO and ran Google Ads, with call and booking tracking in place from day one, so the owner could see which searches filled the appointment book. Clinics and salons in Dubai buy in a similar way: high intent, local, and decided on a phone within minutes."
+      ]
+    },
+    {
+      "h": "Running Dubai campaigns from London",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. Ad accounts are managed online, and Gulf Standard Time being four hours ahead of London in winter, three in summer, lets us review overnight results and adjust budgets before the Dubai working day is half over. For shoots we cannot do remotely, we agree the plan with you at scoping."
+      ]
+    },
+    {
+      "h": "Questions to ask before you hire",
+      "p": [
+        "Before you sign with any paid media agency, Dubai-based or not, ask these five questions. The answers tell you quickly whether the agency is measuring what matters to your business."
+      ],
+      "list": [
+        "Will I own the ad accounts, the pixel and the data if we part ways?",
+        "How will you track WhatsApp conversations and phone calls, not just forms?",
+        "Who makes the creative, and how often will it be refreshed?",
+        "How do you handle Dubai Land Department or Dubai Health Authority rules in my category?",
+        "What will the monthly report show: revenue and qualified leads, or impressions and clicks?"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Your ad budget, which you pay to the platforms directly.",
+        "Number of channels, campaigns and audiences we manage.",
+        "How much new creative is needed each month, and in how many languages.",
+        "Landing page builds and tracking setup.",
+        "Depth of CRM integration and reporting."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "A typical paid media agency Dubai brands hire buys media and hands creative to someone else. We make the ads, build the landing pages, run the accounts and connect the leads to your CRM, all under one accountable lead. Related services include SEO and generative engine optimisation, video and animation, and WhatsApp automation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which platforms work best for Dubai businesses?",
+      "a": "It depends on what you sell. Google Search works for high-intent services like clinics, movers and B2B. Meta suits property, beauty, hospitality and retail. LinkedIn reaches finance and professional buyers. TikTok fits products that look good in motion. Most Dubai clients run two or three channels and fund the ones that bring qualified leads."
+    },
+    {
+      "q": "Can you run Arabic ads?",
+      "a": "Yes. We plan and build Arabic placements alongside English ones, with right-to-left layouts in landing pages and creative. Arabic copy is supplied by you or a translator you approve, since we do not claim in-house Arabic copywriters. We then test which language and message performs best for each audience."
+    },
+    {
+      "q": "How do you track WhatsApp leads from ads?",
+      "a": "We use click-to-WhatsApp ad formats and tracked click-to-chat buttons on landing pages, tag each conversation with its campaign, and log it in your CRM. Where sales close later, we record the outcome against the original campaign so reports show revenue, not just conversations started."
+    },
+    {
+      "q": "What does a paid media agency in Dubai charge?",
+      "a": "We do not publish prices, because fees depend on channels, creative volume, languages and reporting depth. Your media budget is separate and paid directly to the platforms. Any paid media agency Dubai companies talk to should show exactly what part of the spend goes to media and what goes to management."
+    },
+    {
+      "q": "Do you handle Dubai property ad permits?",
+      "a": "We build the required Dubai Land Department advertising permit details into your property ads and landing pages, and we will not run listings without them. Getting the permit itself is the responsibility of the licensed developer or broker, and we work from the permit information you provide."
+    },
+    {
+      "q": "Do you meet Dubai clients in person?",
+      "a": "Most work runs remotely from London, with weekly or monthly calls in hours that overlap Gulf Standard Time. When a launch planning session or a content shoot in Dubai needs us there, we plan a visit and include it in the scope."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/paid-media",
+    "/locations/dubai/seo-geo",
+    "/locations/dubai/video-animation",
+    "/locations/abu-dhabi/paid-media",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media agency dubai",
+    "secondary": [
+      "google ads agency dubai",
+      "ppc agency dubai",
+      "meta ads agency dubai",
+      "digital marketing agency dubai"
+    ]
+  }
+}

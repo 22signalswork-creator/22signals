@@ -1,0 +1,132 @@
+{
+  "path": "/locations/new-york/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in New York | 22 Signals",
+  "description": "AI automation for New York companies: inbox triage, document handling, CRM updates and reports built into the tools you use, with a person signing off.",
+  "eyebrow": "AI Automation in New York",
+  "h1": "AI automation for New York teams buried in repeat work",
+  "intro": "22 Signals builds AI automation New York companies can rely on: workflows that read the inbox, pull data from documents, update the CRM, draft the report and hand anything unusual to a person. It runs inside Microsoft 365, Google Workspace, Salesforce or HubSpot, so your team gets hours back without learning a new system.",
+  "sections": [
+    {
+      "h": "Where the hours go in New York back offices",
+      "p": [
+        "Walk through any mid-sized office between Union Square and Wall Street and you will find skilled people doing clerical work. A property manager copies tenant requests from email into a spreadsheet. A paralegal renames scanned PDFs and keys dates into a docketing system. An account coordinator at a fashion label rebuilds the same weekly sell-through report by hand. A compliance analyst at a lender chases screenshots for the annual NYDFS certification due each April.",
+        "None of this needs a new platform. It needs the steps written down, the rules made explicit, and a set of automations that do the dull part while a person checks the result. That is the AI automation New York operations leaders usually ask us for once they see the time it costs."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Inbox triage: sort, tag and route inbound email and web forms, with draft replies for a person to approve",
+        "Document intake: pull names, dates, amounts and clauses from leases, invoices, medical records requests and contracts",
+        "CRM and spreadsheet updates: keep Salesforce, HubSpot or a shared sheet current without copy and paste",
+        "Research and reporting systems: weekly summaries of markets, competitors, press or portfolio data, delivered before the morning meeting",
+        "Internal tools and dashboards for the jobs that live in someone's head today",
+        "AI assistants that answer staff or customer questions from your own material, then hand off to a named person when they are unsure"
+      ]
+    },
+    {
+      "h": "Examples from New York industries",
+      "list": [
+        "Commercial real estate in Midtown and Hudson Yards: tenant request routing, lease date tracking and broker inquiry replies",
+        "Residential brokerages and property managers: showing requests, application document checks and renewal reminders",
+        "Lenders, insurers and fintech firms: evidence collection for Part 500 controls, KYC document checks and complaint logging",
+        "Media and agencies around Madison Avenue: rights and usage tracking, talent paperwork and campaign status digests",
+        "Fashion and beauty brands: purchase order matching, retailer chargeback checks and product data clean-up",
+        "Clinics and specialty practices: referral intake, insurance verification prep and appointment reminders, kept inside HIPAA limits"
+      ]
+    },
+    {
+      "h": "A person stays in charge",
+      "p": [
+        "Every workflow we build has a hand-off point. If the model is unsure, if the amount is above a threshold, or if the message mentions a complaint, a lawsuit or a health issue, it stops and goes to a named person with the context attached. Every action is logged, so you can see what the automation did, when, and why.",
+        "This matters more in New York than most places. The SHIELD Act expects reasonable safeguards for residents' private information, and the state's breach notification law now gives you 30 days to tell affected residents after a breach is discovered. We design automations to touch the least personal data the job needs, keep it inside systems you already control, and record where it went."
+      ]
+    },
+    {
+      "h": "How we build it: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: we sit in on the work, usually by screen share, and time each step",
+        "Plan: we pick the two or three workflows with the most hours behind them and agree the dates in writing",
+        "Build: we connect the tools, write the rules and test on last month's real cases before anything goes live",
+        "Grow: we watch the logs, tune the edge cases and add the next workflow once the first one has earned trust"
+      ]
+    },
+    {
+      "h": "Proof: the system we built for ourselves",
+      "p": [
+        "We run our own business on what we sell. We built a complete outbound sales engine for 22 Signals: research on target companies, list building, personalized first drafts, sending, reply sorting and CRM updates, with a person approving what goes out. It is the same pattern we use for clients. Automate the steps, keep judgment with people, and measure the hours saved."
+      ]
+    },
+    {
+      "h": "Built across the gap between London and New York",
+      "p": [
+        "We work with New York companies remotely from London, and the time difference helps with automation work. New York is five hours behind London for most of the year. You can describe a broken step at 16:00 Eastern, and our team can fix and test it before your 9:00 start. Live changes are scheduled for hours when your team is offline, so nobody's queue breaks mid-morning.",
+        "Weekly check-ins sit in your morning, our afternoon. When a process is easier to understand on the floor, for example a mailroom or a front desk, we visit New York when the project needs it."
+      ]
+    },
+    {
+      "h": "What shapes the cost of an automation project",
+      "list": [
+        "How many workflows, and how many steps and exceptions each one has",
+        "Which systems we connect to, and whether they have usable APIs",
+        "How much personal, financial or health data the workflow touches",
+        "The volume of items per day and how fast they must be handled",
+        "Whether you want us to run and monitor the automations after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We are not a single-tool shop. Because the same team covers AI, cloud and data, plus marketing, video and 3D, an automation can reach across the business: a lead from a paid campaign is enriched, scored, routed and followed up without anyone retyping it. If you need a strategy first, see AI consulting. If you need a product feature rather than an internal workflow, see custom AI development. If the problem is reporting, start with business intelligence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is AI automation, in plain terms?",
+      "a": "It is software that does repeat office tasks for you, with AI handling the parts that need reading or judgment, such as understanding an email or pulling a date from a lease. Unlike older automation, it copes with messy inputs. A person still approves anything risky, and every action is logged."
+    },
+    {
+      "q": "Can you automate work inside Microsoft 365, which most New York firms use?",
+      "a": "Yes. Many of our New York workflows run in Outlook, Teams, SharePoint and Excel, using Power Automate, Azure services or direct API connections. We also work in Google Workspace, Salesforce, HubSpot and most practice management systems. The aim is that staff keep working in the tools they already know."
+    },
+    {
+      "q": "How do you keep automations within the New York SHIELD Act?",
+      "a": "We limit the personal data each workflow touches, keep it in systems you control, restrict who can see the logs, and document every data flow. That record supports the reasonable safeguards the SHIELD Act expects and makes a breach response faster. Your counsel signs off on the design before it goes live."
+    },
+    {
+      "q": "Do automations replace staff?",
+      "a": "In our projects they mostly replace tasks, not people. The usual result is that skilled staff stop doing clerical work and spend the time on clients, deals or patients. Where a role is mainly data entry, we say so early so you can plan honestly."
+    },
+    {
+      "q": "Can you meet our team in New York?",
+      "a": "We work remotely from London, and most automation projects run well on screen shares because the work lives on screens. If seeing a process in person would save time, such as a front desk or a document room, we can visit when the project needs it."
+    },
+    {
+      "q": "What happens when an automation makes a mistake?",
+      "a": "It is built to stop rather than guess. Low-confidence items go to a person, every action is logged so errors can be traced and reversed, and we test on real past cases before launch. After go-live we review the logs with you and tighten the rules where mistakes cluster."
+    },
+    {
+      "q": "How much does AI automation cost for a New York company?",
+      "a": "Cost depends on the number of workflows, how many systems they connect, the data involved and whether we run them after launch. We do not publish prices because two similar-sounding projects can differ a lot. A 15-minute call is enough for us to say which factors apply to you."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/ai-automation",
+    "/locations/new-york/ai-consulting",
+    "/locations/new-york/business-intelligence",
+    "/services/custom-ai-development",
+    "/locations/chicago/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation new york",
+    "secondary": ["ai automation agency new york", "workflow automation nyc", "business process automation new york", "ai automation company nyc"]
+  }
+}

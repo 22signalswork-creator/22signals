@@ -1,0 +1,144 @@
+{
+  "path": "/locations/chicago/3d-rendering",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in Chicago, IL: Product and Packaging | 22 Signals",
+  "description": "3D rendering for Chicago manufacturers, food brands and developers: photoreal product, packaging, booth and interior visuals, made from CAD or sketches.",
+  "eyebrow": "3D Rendering in Chicago",
+  "h1": "3D rendering for Chicago products, packaging and spaces",
+  "intro": "We provide 3D rendering for Chicago companies that need photoreal visuals before, or instead of, a photo shoot: product renders, packaging, campaign images, trade show booths, interiors and 3D models for web and ads. It suits manufacturers, food and consumer brands, furniture and fixture makers, and real estate teams who want images ready for sales, retail and launch dates.",
+  "sections": [
+    {
+      "h": "Why renders beat photo shoots more often than you think",
+      "p": [
+        "A photo shoot needs the finished product, a studio, a stylist and the right weather for anything outdoors, which in Chicago rules out a good part of the year. A render needs a CAD file or a good set of reference photos. Once the model exists, you can show every color, size and pack variant, from any angle, and update it when the label changes.",
+        "That is the case for 3D rendering. Chicago food brands, equipment makers and consumer goods companies often sell with renders first: retailer presentations, distributor catalogs, e-commerce listings and trade show graphics, often months before production starts."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Photoreal product renders for e-commerce, catalogs and sales decks.",
+        "Packaging renders: boxes, bags, cans, bottles and shelf mock-ups for retailer pitches.",
+        "Campaign visuals: hero images and lifestyle scenes for ads and launches.",
+        "Exploded views and cutaways that show how industrial products are built.",
+        "Interior and architectural visualization for offices, showrooms, restaurants and residential projects.",
+        "Trade show booth visuals, so you can sign off a stand design before it is built.",
+        "3D models for websites, product configurators and ads."
+      ]
+    },
+    {
+      "h": "Chicago work we are set up for",
+      "list": [
+        "Food and beverage brands around Fulton Market and the West Loop: packaging renders for retail sell-in and new flavor launches, before a single unit is printed.",
+        "Industrial manufacturers across the suburbs: machinery, components and assemblies rendered from CAD, with cutaways that show what a photo cannot.",
+        "Furniture, fixtures and building products: showroom-ready images in every finish, useful for the design trade that gathers at the Merchandise Mart.",
+        "Exhibitors at McCormick Place: booth concepts rendered in advance, plus product hero images for the show graphics.",
+        "Real estate and hospitality teams: interiors for office conversions in the Loop, restaurant concepts, and residential projects in River North and the West Loop.",
+        "Consumer goods and health products: e-commerce image sets that match across a whole range."
+      ]
+    },
+    {
+      "h": "From CAD to final image",
+      "list": [
+        "Talk: what the renders are for, where they will appear and what files you have.",
+        "Plan: shot list, angles, materials, lighting style and a written schedule.",
+        "Build: modeling, materials, lighting and rendering, with clay previews before the final images.",
+        "Grow: new angles, variants and animations as your range changes, reusing the same models."
+      ]
+    },
+    {
+      "h": "Accuracy you can sell from",
+      "p": [
+        "A render used in a retailer pitch or a catalog has to be right. We match colors to your brand values, check dimensions against your drawings, and get labels and regulatory panel layouts from your design team rather than guessing. Every render goes through review rounds on a shared link, and your team signs off before anything is final.",
+        "If you use renders on pack or in ads, the usual advertising rules still apply: the product has to look like the product. We keep renders honest to what will actually ship."
+      ]
+    },
+    {
+      "h": "What good 3D rendering, Chicago style, looks like in a line review",
+      "p": [
+        "Retail line reviews and distributor meetings are where renders earn their money. A buyer at a grocery chain sees your new pack on a virtual shelf next to the competition. A distributor rep scrolls through every finish of a fixture on a tablet. An engineer at a trade show rotates a 3D model of a pump to see the inlet.",
+        "In each case the images need to load fast, look consistent across the range and match what will ship. We set a lighting and camera standard for your whole catalog, so a render made next year sits cleanly beside one made this year."
+      ]
+    },
+    {
+      "h": "One team for the render and what comes after",
+      "p": [
+        "Most rendering studios hand you images and stop there. We cover AI, cloud and data, marketing, and video, animation and 3D in one team, so the same models can become a product animation, a paid social campaign, an e-commerce page or a configurator on your site. Over $1.5 million in projects managed has taught us that the handoffs between vendors are where launches slip. With one Signal Lead, there are fewer handoffs."
+      ]
+    },
+    {
+      "h": "Working with us from Chicago",
+      "p": [
+        "We deliver 3D rendering. Chicago clients work with us remotely from London, and no one needs to ship samples unless a material is hard to match from photos. Reviews run on video in the Chicago morning, our afternoon, and revisions can be turned around between reviews. For trade show deadlines and retail line reviews, we plan backwards from the date and write the schedule down."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of products, variants and angles.",
+        "Starting point: clean CAD files, rough sketches or only photos.",
+        "Complexity of materials, such as glass, liquids, fabrics or brushed metal.",
+        "Lifestyle scenes versus plain studio backgrounds.",
+        "Animation or interactive 3D on top of still images."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Renders often feed straight into video and animation, paid media creative and web development for product pages. If the launch also needs the plan and messaging, our go-to-market service covers that."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What files do you need for 3D rendering?",
+      "a": "CAD files such as STEP or SolidWorks exports give the most accurate result, and most Chicago manufacturers already have them. If you do not, we can model from technical drawings, sketches or a set of reference photos with measurements. For packaging we need the dieline and the artwork files from your design team."
+    },
+    {
+      "q": "Can renders replace product photography?",
+      "a": "Often, yes, especially for e-commerce, catalogs, packaging pitches and products that do not exist yet. Renders let you show every variant without a shoot. For lifestyle images with people, some brands still mix in photography. We help you decide where renders do the job and where a real shoot is still worth it."
+    },
+    {
+      "q": "Do you render trade show booths for McCormick Place?",
+      "a": "Yes. We render booth concepts so you can review the layout, graphics and product placement before the stand is built, and we produce the product hero images that go on the booth graphics. Show dates do not move, so we plan backwards from the show and agree the schedule in writing."
+    },
+    {
+      "q": "Do you need to visit our site in Chicago?",
+      "a": "Usually not. Rendering works from files and photos, so the whole job runs remotely from London, with reviews on video in the Chicago morning. If a material is hard to judge from photos, you can ship a sample. For interiors, measured drawings and photos of the space are normally enough."
+    },
+    {
+      "q": "Can the same 3D models be used for animation?",
+      "a": "Yes, and that is one of the main reasons to start with renders. Once a product is modeled, we can animate it for explainers, trade show loops and ads, or put it on your website as an interactive 3D view. Our video and animation team works from the same files."
+    },
+    {
+      "q": "Can you do architectural renders for Chicago real estate?",
+      "a": "Yes. We produce interior and exterior visualization for offices, showrooms, restaurants and residential projects, from floor plans and design references. For Chicago developers and landlords repositioning older office buildings, renders help pre-lease or pre-sell space before the fit-out is finished."
+    },
+    {
+      "q": "How many renders do we need for a product launch?",
+      "a": "Fewer than most brands expect. A typical launch set is a hero image, a few angles, a detail or cutaway shot and one lifestyle scene, plus variants. For 3D rendering, Chicago food and consumer brands also add shelf and case-pack views for retail buyers. We plan the set around where each image will appear, so nothing is made that nobody uses."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/3d-rendering",
+    "/locations/chicago/video-animation",
+    "/services/3d-animation",
+    "/locations/chicago/paid-media",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "3d rendering chicago",
+    "secondary": [
+      "3d rendering services chicago",
+      "product rendering chicago",
+      "packaging renders",
+      "architectural visualization chicago"
+    ]
+  }
+}

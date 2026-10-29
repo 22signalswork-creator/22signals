@@ -899,3 +899,7 @@ button.gray {
   font-size: clamp(18px, 1.6vw, 22px);
   line-height: 1.35;
 }
+
+/* Contact page: section headings at form size, not hero size */
+.contact-page h2 { --h2-size: clamp(24px, 2.4vw, 32px); line-height: 1.2; }
+.contact-page aside h2 { --h2-size: 20px; }

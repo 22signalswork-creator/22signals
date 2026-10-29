@@ -1,0 +1,143 @@
+{
+  "path": "/locations/abu-dhabi/seo-geo",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimisation",
+  "title": "SEO and GEO in Abu Dhabi | 22 Signals",
+  "description": "SEO and GEO for Abu Dhabi organisations: Arabic and English search, Google Business Profile, answer-first pages and monthly reports tied to real enquiries.",
+  "eyebrow": "SEO and GEO in Abu Dhabi",
+  "h1": "SEO and GEO for Abu Dhabi organisations, in Arabic and English",
+  "intro": "We run SEO and GEO for Abu Dhabi organisations so they rank in Google and show up in ChatGPT, Claude, Gemini and Google AI Overview answers. The work covers technical fixes, local search and Google Business Profile, Arabic and English content, how your business is described across the web, and monthly reporting tied to enquiries rather than vanity numbers.",
+  "sections": [
+    {
+      "h": "How people in the capital search",
+      "p": [
+        "Search in the city happens in two languages, often in the same session. Someone may type a clinic name in English, then search for a symptom in Arabic, then ask an AI assistant which practice on Al Reem Island takes their insurance. Visitors search from abroad before they land. Procurement teams search for a supplier's name to check it looks established.",
+        "Most competitors only optimise one language and treat the other as a translation. That leaves room for organisations that take both seriously. Effective SEO, Abu Dhabi included, means separate keyword research, pages and metadata for Arabic and English, with hreflang tags so Google shows the right version."
+      ]
+    },
+    {
+      "h": "What is included",
+      "list": [
+        "Technical SEO: crawl errors, speed, indexing, structured data and bilingual site structure",
+        "Local SEO and Google Business Profile for each branch, with correct categories, hours and photos",
+        "Content in Arabic and English, written for how each audience actually searches",
+        "Answer-first pages that state clearly what you do, for whom and where",
+        "How your business is described across directories, maps and review sites",
+        "Outside mentions in relevant publications and associations",
+        "Monthly reporting on rankings, traffic, calls, forms and WhatsApp clicks"
+      ]
+    },
+    {
+      "h": "Generative engine optimisation, in plain words",
+      "p": [
+        "Generative engine optimisation (GEO) is the work of making sure AI assistants describe your organisation correctly and mention it when people ask relevant questions. The assistants build answers from what is written about you on your site and elsewhere, so consistency matters. If your website, Google profile and directory listings disagree on what you do or where you are, the answer gets vague or wrong.",
+        "We write pages that answer real questions directly, add structured data, fix inconsistent descriptions across the web and earn mentions from sources assistants trust. We then test the questions your customers ask in ChatGPT, Claude, Gemini and Google AI Overview, and track whether you appear."
+      ]
+    },
+    {
+      "h": "Abu Dhabi sectors and what they search for",
+      "p": [
+        "Clinics and dental practices compete on searches like specialist plus area, from Khalifa City to Al Reem to Mohammed Bin Zayed City, and on insurance questions. Private schools and nurseries are searched by curriculum and neighbourhood, mostly by parents in the months before admissions open.",
+        "Hotels, tour operators, galleries and restaurants around Saadiyat, Yas Island and the Corniche need visibility with people still planning their trip from abroad. B2B firms serving the energy sector, and advisory firms in ADGM, rarely get much search volume, but the few searches they get come from people with real budgets. For them, being described correctly in AI answers and ranking for their own name and services is the priority."
+      ]
+    },
+    {
+      "h": "Problems we usually fix first",
+      "list": [
+        "Arabic pages that exist but are blocked from Google or missing hreflang",
+        "Branches with duplicate or unverified Google Business Profiles",
+        "Different phone numbers, names or addresses across directories",
+        "Service pages that never say which areas of the emirate you cover",
+        "Old pages from a past redesign returning errors instead of redirecting",
+        "No page that plainly answers what you do, for whom and at what stage"
+      ]
+    },
+    {
+      "h": "WhatsApp, calls and real leads",
+      "p": [
+        "In the UAE many customers skip the contact form and tap a WhatsApp button or call. If you only count form fills, SEO looks weaker than it is. We track WhatsApp clicks, calls from Google Business Profile and website calls alongside forms, so the monthly report shows the enquiries search actually brought in.",
+        "Tracking respects consent rules under the UAE PDPL, and we keep the setup simple enough that your team understands every number."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: your services, branches, best customers and where enquiries come from today. Plan: an audit of your site, Google profiles and AI answers, then a prioritised plan in writing with dates. Build: technical fixes, page improvements, new content in both languages and listing clean-up. Grow: monthly content, mentions, Google Business Profile updates and reporting, adjusted to what is working."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers. We have also run a 35-question, five-AI-engine search audit for a US aesthetics practice, the same method we use to test AI answers for clinics here."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "SEO, Abu Dhabi or anywhere else, is delivered remotely, so being in London makes no difference to results. Strategy calls fall in the Abu Dhabi afternoon, since Gulf Standard Time runs 4 hours ahead of London in winter and 3 in summer. Arabic content is written or reviewed by native speakers. If a branch photo shoot or a content workshop needs people on site, we come to Abu Dhabi when the project needs it. We have no office in the UAE."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Number of languages, branches and Google Business Profiles",
+        "Site size and the amount of technical work needed first",
+        "Monthly content volume in Arabic and English",
+        "Competition in your category and area",
+        "Whether outside mentions and digital PR are included"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does SEO in Abu Dhabi involve that is different?",
+      "a": "Good SEO, Abu Dhabi style, is bilingual from the start: separate Arabic and English keyword research, pages and metadata, with hreflang so Google serves the right one. Local search covers each district where you have a branch, and reporting has to include WhatsApp clicks and calls because many customers never fill in a form."
+    },
+    {
+      "q": "What is GEO, and do we need it?",
+      "a": "It means making sure assistants such as ChatGPT, Claude and Gemini describe your organisation accurately and mention it for relevant questions. If your customers research with an assistant before they call, it matters. It builds on the same foundations as search engine optimisation, so we run the two together."
+    },
+    {
+      "q": "Should our site be in Arabic, English or both?",
+      "a": "Usually both, with each language built properly rather than auto-translated. Some sectors lean one way: B2B and international firms skew English, while healthcare, education and government-facing services need strong Arabic. We look at search demand in each language for your services before recommending."
+    },
+    {
+      "q": "How long does SEO take to work?",
+      "a": "Technical fixes and Google Business Profile changes can show results within weeks. Ranking for competitive terms takes months of steady content and mentions. We set expectations per keyword group in the plan and report monthly on what moved, so you can judge progress on real enquiries, not promises."
+    },
+    {
+      "q": "Can you help with multiple branches across the emirate?",
+      "a": "Yes. Each branch gets its own Google Business Profile, a location page on your site and consistent details across directories. That is how clinics, schools and retailers with several sites rank in each district rather than only for the main address."
+    },
+    {
+      "q": "Do you guarantee first-page rankings?",
+      "a": "No, and be wary of anyone who does. Nobody controls Google or the AI assistants. Our SEO for Abu Dhabi clients is measured on what we can show: technical issues fixed, pages ranking, answers mentioning you and enquiries coming in. We report all of it monthly."
+    },
+    {
+      "q": "Do you work with Abu Dhabi clients remotely?",
+      "a": "Yes. All SEO and GEO work is done remotely from London, with calls in the shared working hours and native-speaker Arabic content. When an on-site shoot or workshop helps, we travel for it as part of the agreed plan. Any SEO Abu Dhabi organisations commission from us comes with one Signal Lead accountable."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/seo-geo",
+    "/locations/abu-dhabi/web-development",
+    "/locations/abu-dhabi/paid-media",
+    "/locations/dubai/seo-geo",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "seo abu dhabi",
+    "secondary": [
+      "seo agency abu dhabi",
+      "seo company abu dhabi",
+      "arabic seo",
+      "generative engine optimisation uae",
+      "local seo abu dhabi"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "path": "/locations/chicago/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Data Analytics Consulting in Chicago, IL | 22 Signals",
+  "description": "Data analytics consulting for Chicago firms: KPI design, pipelines and Power BI or Looker dashboards for manufacturing, freight, insurance and food brands.",
+  "eyebrow": "Business Intelligence and Data Analytics in Chicago",
+  "h1": "Data analytics consulting for Chicago companies",
+  "intro": "Our data analytics consulting gives Chicago companies one version of the numbers. We design the KPIs, connect the ERP, TMS, CRM and finance data, and build dashboards in Power BI, Looker Studio or Tableau. It is for established manufacturers, logistics firms, insurers, food brands and professional services firms tired of arguing about whose spreadsheet is right.",
+  "sections": [
+    {
+      "h": "Three spreadsheets, three answers",
+      "p": [
+        "The Monday meeting at a lot of Chicago firms starts the same way. Finance has one margin number. Operations has another. Sales has a third, pulled from the CRM on Friday. Twenty minutes go on reconciling before anyone talks about the business.",
+        "That is not a dashboard problem. It is a definitions and plumbing problem: what counts as a shipped order, which cost goes against which lane or product line, and where each number really comes from. That is the order we work in for data analytics consulting. Chicago firms that get it right fix the definitions first, then the pipes, then the charts."
+      ]
+    },
+    {
+      "h": "What the work covers",
+      "list": [
+        "Data strategy and KPI design: a short list of measures your leadership agrees on, with written definitions.",
+        "Warehouse and pipelines: getting ERP, TMS, WMS, CRM and accounting data into one place on a schedule.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who use them, from the CFO to the shift supervisor.",
+        "Automated reporting: the weekly pack built and sent without anyone exporting a CSV.",
+        "Forecasting: demand, cash and capacity models that are simple enough to explain.",
+        "Data quality checks so bad records are caught before they reach a board slide."
+      ]
+    },
+    {
+      "h": "What Chicago industries measure",
+      "p": [
+        "The dashboards we build look different in each sector. A few Chicago examples:"
+      ],
+      "list": [
+        "Manufacturing: OEE, scrap and rework by line, on-time delivery and quote win rates, for plants from the Clearing district to Elk Grove Village.",
+        "Logistics and freight: margin by lane and customer, carrier scorecards, dwell time, and on-time pickup across truck, rail and intermodal moves. The Chicago rail network makes multimodal reporting a real need, not a nice extra.",
+        "Insurance: claims cycle time, loss ratios by segment and agent production reports.",
+        "Trading and financial services: desk and client reporting, plus operational metrics, built inside the access controls your compliance team sets.",
+        "Food and consumer goods: sell-through by retailer and distributor, trade spend, and promotion results for brands in Fulton Market and the West Loop.",
+        "Professional services: utilization, realization and matter profitability for Loop law and accounting firms."
+      ]
+    },
+    {
+      "h": "How we run it: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: we meet the people who own each number and list every source system.",
+        "Plan: we agree the KPI definitions, the data model and the first three dashboards, with dates.",
+        "Build: pipelines first, then the model, then the reports, tested against figures your finance team already trusts.",
+        "Grow: training, then new reports as questions come up, and regular data quality reviews."
+      ]
+    },
+    {
+      "h": "Questions to ask about data analytics consulting: Chicago edition",
+      "p": [
+        "Before you hire anyone for data analytics consulting, Chicago finance and operations leaders should press on a few points. Who writes the KPI definitions, and who signs them off? Will the data model survive your next acquisition or ERP upgrade? Who fixes a broken pipeline at 7am on a Monday before the leadership meeting? And will your own analysts be able to change a report without calling the consultant back?",
+        "Our answers are simple. Your leaders sign the definitions. We document the model. Monitoring tells us when a load fails. And we train your team so the dashboards stay yours."
+      ]
+    },
+    {
+      "h": "Data rules in Illinois",
+      "p": [
+        "Analytics projects copy data into new places, so the security of those places matters. The Illinois Personal Information Protection Act expects reasonable security for personal information and sets breach notice duties, including notice to the Illinois Attorney General when more than 500 Illinois residents are affected. We keep personal fields out of the warehouse unless a report needs them, mask what we can, and use row-level security so people only see their own region, client or desk.",
+        "If you store timekeeping data from biometric clocks, that is BIPA territory. We keep raw biometric data out of reporting entirely and work only with the hours and shifts that come out of the system."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed over $1.5 million in projects, and most of them depended on reporting someone could trust. Our own monthly SEO reports for clients follow the same rules we bring to your dashboards: agreed definitions, automated data pulls and no hand-edited numbers."
+      ]
+    },
+    {
+      "h": "Working with us from Chicago",
+      "p": [
+        "We deliver data analytics consulting. Chicago clients work with us remotely from London. Your morning on Central Time is our afternoon, so the workshops on definitions and the dashboard reviews happen live, and the pipeline work continues after your day ends. Six hours is the usual gap; for a few weeks a year, when the US and UK change their clocks on different dates, it is five.",
+        "You get one Signal Lead who owns the plan and the dates. Data engineers and report builders sit behind them. If a kick-off with your leadership team in Chicago would help, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "The number of source systems, and whether they have APIs or only exports.",
+        "How messy the historical data is.",
+        "The number of dashboards, audiences and security rules.",
+        "Choice of platform and whether you already hold licenses.",
+        "Whether you want ongoing support or a handover to your own team."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Most Chicago clients on Microsoft 365 end up on Power BI, and we cover that in depth on our Power BI consulting page. Bigger pipelines sit under data engineering. AI automation often follows, because clean data is what makes automated reporting and AI tools work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Chicago companies on Power BI?",
+      "a": "Yes, often. Many Chicago firms already pay for Microsoft 365, which makes Power BI the natural choice. We build the data model, write the DAX, connect ERP, CRM and finance sources, and set row-level security. If you use Looker Studio or Tableau instead, we work in those. We recommend the platform that fits your licenses and team."
+    },
+    {
+      "q": "Can you connect our ERP and TMS data?",
+      "a": "In most cases, yes. We connect common ERP, TMS, WMS and accounting systems through their APIs, database access or scheduled exports. For a Chicago logistics or manufacturing firm that usually means one model that joins orders, shipments and costs, so margin by customer or lane finally comes from a single source."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "Usually a few weeks after the plan is agreed, depending on access to source systems. We start with the reports your leadership uses most, often a weekly operations or margin view, and add more once the numbers match what finance expects. Dates are set and written down at the planning stage."
+    },
+    {
+      "q": "How do you protect personal data in reports?",
+      "a": "We keep personal information out of the warehouse unless a report truly needs it, mask or aggregate where possible, and apply row-level security. That supports the reasonable security duty in the Illinois Personal Information Protection Act. For healthcare clients we also follow HIPAA rules on who can see patient data."
+    },
+    {
+      "q": "Do you meet in person in Chicago?",
+      "a": "Mostly we work on video from London, during the Chicago morning. Definition workshops and dashboard reviews work well that way. When a project benefits from a day in the room, for example a kick-off with several department heads, we plan a visit to Chicago. We do not have a Chicago office."
+    },
+    {
+      "q": "Can you forecast demand for a food or consumer brand?",
+      "a": "Yes. We build forecasts from your own shipments, distributor and retailer data, and promotion calendars, and we keep the models simple enough for your team to explain. For a Chicago food brand the first win is often a reliable sell-through view by retailer, which then feeds a demand forecast."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/chicago/ai-automation",
+    "/locations/chicago/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "data analytics consulting chicago",
+    "secondary": [
+      "business intelligence consulting chicago",
+      "power bi consultant chicago",
+      "data analytics company chicago",
+      "bi consulting illinois"
+    ]
+  }
+}

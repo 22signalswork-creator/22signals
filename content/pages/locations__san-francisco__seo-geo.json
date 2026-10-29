@@ -1,0 +1,128 @@
+{
+  "path": "/locations/san-francisco/seo-geo",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimization",
+  "title": "SEO and GEO in San Francisco, CA | 22 Signals",
+  "description": "SEO for San Francisco companies that want to show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers. Monthly work, plain reports.",
+  "eyebrow": "SEO and GEO in San Francisco",
+  "h1": "SEO for San Francisco companies, in Google and in AI answers",
+  "intro": "We run SEO for San Francisco companies that want to be found twice: in Google results and in the answers people get from ChatGPT, Claude, Gemini and Google AI Overviews. That means technical fixes, pages that answer buyer questions directly, accurate descriptions of your business across the web, and a monthly report that says what moved and why.",
+  "sections": [
+    {
+      "h": "Your buyers ask an assistant before they search",
+      "p": [
+        "Plenty of Bay Area buyers work at the companies that build AI assistants, and they use them at work. A head of operations in SoMa looking for a vendor may well ask Claude or ChatGPT for a shortlist before typing anything into Google, and a patient choosing a clinic in the Marina may read an AI Overview and never scroll further. If those answers describe your company wrongly, or leave it out, the lead never reaches your site.",
+        "That is why our work covers generative engine optimization, or GEO, as well as classic search. The two overlap more than most people think: clear pages, consistent facts about your business and mentions on sites the models trust help in both places.",
+        "Technical buyers also check your documentation, changelog and comparison pages before they ever speak to sales. Those pages are often the ones assistants quote, so we treat them as search assets rather than an afterthought owned by nobody."
+      ]
+    },
+    {
+      "h": "What our monthly SEO work includes",
+      "list": [
+        "Technical fixes: crawling, indexing, speed, structured data and site architecture.",
+        "Local search and Google Business Profile for firms that serve clients in specific neighborhoods or across the Bay.",
+        "Content: answer-first pages built around the questions your buyers ask, written by people who check the facts.",
+        "How your business is described across the web: directories, review sites, partner pages and profiles kept consistent.",
+        "Outside mentions on publications and sites your buyers already read.",
+        "Checks on how ChatGPT, Claude, Gemini and Google AI Overviews describe you, run on a fixed question set.",
+        "A monthly report in plain words: what we did, what moved, what is next."
+      ]
+    },
+    {
+      "h": "Proof from a Bay Area law firm",
+      "p": [
+        "We run monthly SEO and content for a Bay Area personal injury law firm, with every statute and filing deadline checked before a page is published. Injury law is a crowded search market in California, and a wrong deadline on a page is worse than no page at all. Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers, and that firm is one of them."
+      ]
+    },
+    {
+      "h": "Industries that hire us for SEO: San Francisco and the Bay",
+      "list": [
+        "SaaS and AI companies: comparison pages, integration pages, use-case pages and help content that bring in buyers, not just readers.",
+        "Law firms and professional services in the Financial District: practice-area pages that rank and stay accurate.",
+        "Clinics, dental and aesthetics practices across the city: local search, profiles and reviews handled properly.",
+        "Biotech and health tech: pages that explain the science plainly for investors, partners and candidates.",
+        "Consumer and real estate brands on the Peninsula and in the East Bay that sell through search."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we learn what a good lead looks like and which searches and questions matter. Plan: a full audit of your site, your competitors and the AI answers in your category, then a written plan with dates. Build: technical fixes first, then new and rewritten pages, then outside mentions. Grow: monthly reporting and adjustments, with a quarterly look at whether the plan still fits.",
+        "The AI answer checks deserve a word. We write a fixed list of questions your buyers would ask, such as which firms handle a certain kind of case in the city or which tools solve a certain problem, and run them across the main assistants each month. You see which ones name you, which name competitors, and what each says about you."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. SEO suits the eight-hour gap. Drafts go out during our day and are waiting for your review in the morning, and the monthly report call sits in the Pacific morning. Local search work, such as profile updates and review responses, does not need anyone on the ground. If a content day with your experts needs us in person, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost of SEO",
+      "list": [
+        "How competitive your searches are; injury law and SaaS categories are hard.",
+        "The size and technical state of your site.",
+        "How many pages need writing or rewriting each month.",
+        "Local search across one location or many.",
+        "How much outside mention work your category needs."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "One accountable lead owns your search results and reports to you directly. Because we also build websites, run paid media and make video, fixes that would wait months elsewhere ship in the same sprint as the SEO. San Francisco companies that want the whole picture often add web development, paid media and video production to their search work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is generative engine optimization?",
+      "a": "It is the work of making sure AI assistants such as ChatGPT, Claude, Gemini and Google AI Overviews describe your business correctly and include it when people ask for options. It overlaps with classic search work: clear pages, consistent business facts and outside mentions. We track it with a fixed set of buyer questions checked every month."
+    },
+    {
+      "q": "Do you do local SEO for San Francisco businesses?",
+      "a": "Yes. For firms and clinics that serve specific parts of the city or the wider Bay Area, we manage Google Business Profile, local citations, reviews and neighborhood or service-area pages. We keep your name, address and phone details consistent everywhere, which also helps AI assistants describe you accurately."
+    },
+    {
+      "q": "Can you promise first place in Google?",
+      "a": "No, and anyone who does is guessing. Search engines and AI assistants change how they rank and answer. What we commit to is the work, the dates and honest reporting, including when something has not moved and what we will change."
+    },
+    {
+      "q": "How do you write SEO content for law firms?",
+      "a": "Carefully. Every statute, deadline and procedure on a page is checked against the source before publishing, and the firm reviews it. In California that includes details such as filing deadlines for injury claims. Pages also respect the State Bar's advertising rules, so nothing promises results or misstates experience."
+    },
+    {
+      "q": "Do you need to be in San Francisco to do our SEO?",
+      "a": "No. Search work runs on data, documents and calls, so we work remotely from London with teams across four regions. Monthly reviews sit in the Pacific morning. When interviewing your experts for content works better face to face, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How long before we see results?",
+      "a": "Technical fixes can show up within weeks. New content and outside mentions usually take months, and competitive categories take longer. We set expectations in the written plan, report monthly against them, and tell you plainly if something is not working so we can change course."
+    },
+    {
+      "q": "How much should we budget for SEO? San Francisco quotes vary a lot.",
+      "a": "They do, because scope varies. Cost depends on how competitive your searches are, the size of your site, how much content you need each month and whether you need local search. We do not publish prices. After a 15-minute call we send a written scope with the monthly cost."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/seo-geo",
+    "/locations/san-francisco/web-development",
+    "/locations/san-francisco/paid-media",
+    "/locations/los-angeles/seo-geo",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "seo san francisco",
+    "secondary": [
+      "seo agency san francisco",
+      "generative engine optimization san francisco",
+      "local seo san francisco",
+      "b2b saas seo bay area"
+    ]
+  }
+}

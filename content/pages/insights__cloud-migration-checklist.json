@@ -1,0 +1,172 @@
+{
+  "path": "/insights/cloud-migration-checklist",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "Cloud Migration Checklist: Plan, Move, Verify | 22 Signals",
+  "description": "A practical cloud migration checklist: inventory, migration approach, target design, runbook, testing, cutover day and the clean-up work after the move.",
+  "eyebrow": "Guide: cloud migration",
+  "h1": "Cloud migration checklist: every step from inventory to cutover",
+  "intro": "A cloud migration checklist covers four stages: assess what you run and what depends on what, plan the target setup and the order of moves, migrate with tested backups and a rollback plan, then verify, cut over and tune running costs. Most migration trouble we see traces back to a skipped inventory or a missing rollback plan.",
+  "sections": [
+    {
+      "h": "Why are you migrating, and what counts as success?",
+      "p": [
+        "This cloud migration checklist follows the order we use on real projects, and it starts before any server moves. Write the reason down first. Common ones: a hardware refresh you do not want to pay for, a data center contract ending, shared hosting that keeps going down, a need to grow without buying servers, or a security and compliance gap the current setup cannot close.",
+        "Then turn the reason into measures you can check after the move: uptime, page or application response times, monthly running cost, recovery time after a failure, the time it takes to release a change. Without these, nobody can say whether the migration worked, and every later decision becomes an argument."
+      ],
+      "list": [
+        "Business reason for the migration, agreed by leadership.",
+        "Three to five success measures with current baselines recorded.",
+        "A named owner on the business side and a named technical lead.",
+        "Budget for the migration itself and a target for monthly running cost afterward."
+      ]
+    },
+    {
+      "h": "Stage 1: what goes into the assessment and inventory?",
+      "p": [
+        "If you follow only one part of this cloud migration checklist, make it this one. The inventory is the step teams most want to rush and most regret rushing. Every server, application, database, scheduled job and integration needs to be on the list, along with what it talks to."
+      ],
+      "list": [
+        "List every server, virtual machine and hosted service, with operating system, size and current utilization.",
+        "List every application and who owns it, uses it and supports it.",
+        "Map dependencies: which applications call which databases, APIs, file shares and third-party services.",
+        "Find hidden jobs: cron tasks, scheduled scripts, overnight exports and email relays that nobody remembers until they stop.",
+        "Record data volumes, growth rates and how much downtime each system can tolerate.",
+        "Note licensing terms, since some software licenses do not transfer to cloud servers on the same terms.",
+        "Capture hard-coded IP addresses, hostnames and certificates that will change.",
+        "Rate each workload by business importance and technical risk."
+      ]
+    },
+    {
+      "h": "Stage 2: which migration approach fits each workload?",
+      "p": [
+        "Not everything should move the same way, and some things should not move at all. AWS describes seven common strategies, and the same ideas apply on Google Cloud and Azure:"
+      ],
+      "list": [
+        "Retire: switch off what nobody uses. Inventories regularly turn up systems that can simply go.",
+        "Retain: keep some workloads where they are for now, with a reason and a date to revisit.",
+        "Rehost: lift and shift a server as it is. Fastest, but carries old inefficiencies with it.",
+        "Relocate: move a virtualized environment to the cloud with minimal change to its setup.",
+        "Repurchase: replace an application with a hosted product, for example moving a self-run mail server to a hosted service.",
+        "Replatform: make modest changes on the way, such as moving a database onto a managed database service.",
+        "Refactor: redesign an application to use cloud services properly. Slowest and most expensive, worth it only where the payoff is clear."
+      ]
+    },
+    {
+      "h": "Stage 3: what must the target environment include?",
+      "list": [
+        "Account and project structure, with separate environments for production, staging and development.",
+        "Identity and access: single sign-on, multi-factor authentication, least-privilege roles and no shared admin logins.",
+        "Network design: private subnets, firewalls or security groups, VPN or private links to any remaining on-site systems.",
+        "Region choice, based on where your users are and any data residency rules you must follow.",
+        "Encryption at rest and in transit, with a plan for managing keys and certificates.",
+        "Backups with a defined retention period, plus a tested restore, not just a backup job that reports success.",
+        "Monitoring, logging and alerting set up before the first workload moves.",
+        "Cost controls: budgets, alerts and tags on every resource so spend can be traced to an owner.",
+        "Infrastructure as code, so environments can be rebuilt consistently rather than configured by hand."
+      ]
+    },
+    {
+      "h": "Stage 4: what belongs in the migration plan and runbook?",
+      "list": [
+        "Migration waves: start with low-risk workloads to prove the process, then move critical systems once it works.",
+        "A runbook for each wave, listing every step, its owner and the expected time it takes.",
+        "Downtime windows agreed with the business and communicated to staff and, where needed, clients.",
+        "Data sync approach: a one-off copy for small systems, continuous replication for systems that cannot stop for long.",
+        "DNS changes planned in advance, with record lifetimes (TTL) lowered days before cutover so changes spread quickly.",
+        "Clear rollback criteria: the specific conditions under which you stop and switch back, decided before the day.",
+        "A rollback procedure that has been rehearsed, not just written.",
+        "A contact list and escalation path for the cutover window, including vendors and hosting providers."
+      ]
+    },
+    {
+      "h": "Stage 5: how should you test before cutover?",
+      "list": [
+        "Functional tests: every key user journey and business process works in the new environment.",
+        "Integration tests: payments, email, CRM syncs, single sign-on and third-party APIs all connect correctly.",
+        "Data checks: row counts, totals and spot checks match between old and new systems.",
+        "Performance tests under realistic load, compared against the baselines you recorded in the first step.",
+        "Security checks: open ports, public storage buckets, admin access and secrets in code.",
+        "A full restore from backup in the new environment, timed.",
+        "A rehearsal of the cutover itself, ideally on a copy of production, with the rollback step included."
+      ]
+    },
+    {
+      "h": "Stage 6: what happens on cutover day?",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events, and cutover day deserves the same discipline: the date does not move, so the rehearsal does the work. By the time the window opens, every step should be familiar."
+      ],
+      "list": [
+        "Freeze changes to the old system at the agreed time.",
+        "Run the final data sync and confirm the checks pass.",
+        "Switch DNS or traffic routing to the new environment.",
+        "Run the smoke tests from the runbook and confirm each one with its owner.",
+        "Watch monitoring closely for errors, slow responses and failed jobs.",
+        "Make the go or rollback decision against the criteria you set in advance, not on instinct.",
+        "Tell staff and clients the outcome, and how to report problems."
+      ]
+    },
+    {
+      "h": "Stage 7: what should you do after the move?",
+      "list": [
+        "Keep the old environment available, read-only, for an agreed period before switching it off.",
+        "Right-size servers and databases once you have a few weeks of real usage data.",
+        "Review commitment discounts (reserved capacity or savings plans) for steady workloads.",
+        "Remove test resources, unused storage and orphaned snapshots that quietly add to the bill.",
+        "Update documentation, diagrams and access lists to match the new setup.",
+        "Check the success measures against the baselines and report the results to the business owner.",
+        "Decommission old hardware and cancel old hosting or data center contracts on time."
+      ]
+    },
+    {
+      "h": "Which compliance and data rules should you check?",
+      "p": [
+        "Rules depend on your industry and where your users are, so confirm the details with your legal or compliance advisers. The common questions are the same everywhere: where data will be stored, who can access it, how it is encrypted, how long it is kept and how incidents are reported.",
+        "A few examples. US healthcare organizations handling protected health information under HIPAA need a business associate agreement with their cloud provider. Companies processing personal data of people in the UK or EU must account for UK GDPR or GDPR, including rules on international transfers. Businesses in the UAE should check the Personal Data Protection Law (Federal Decree-Law No. 45 of 2021) and any data residency expectations from their regulator or clients. Pick regions and providers with those answers in hand, not after the move."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the first step in a cloud migration checklist?",
+      "a": "Defining why you are migrating and how you will measure success, followed straight away by a full inventory of servers, applications, data and dependencies. Without the reason, decisions have no anchor. Without the inventory, hidden jobs and integrations break after cutover. Both take less time than fixing the problems they prevent."
+    },
+    {
+      "q": "How long does a cloud migration take?",
+      "a": "It depends on the number of workloads, how tangled their dependencies are and how much change you make on the way. Moving a handful of servers as they are can be quick. Replatforming databases or refactoring applications takes much longer. A proper assessment is the only honest way to set a timeline, so treat any earlier estimate as a guess."
+    },
+    {
+      "q": "How do you migrate to the cloud with minimal downtime?",
+      "a": "Replicate data continuously to the new environment, lower DNS record lifetimes days in advance, rehearse the cutover on a copy of production, and switch traffic during an agreed low-use window. With replication in place, the final switch can be short. A rehearsed rollback plan matters just as much, because it lets you reverse quickly if checks fail."
+    },
+    {
+      "q": "Should we lift and shift or refactor?",
+      "a": "Usually a mix. Lift and shift is fastest and suits stable workloads you plan to keep as they are, but it carries over old inefficiencies. Refactoring costs more and takes longer, so save it for applications where cloud services clearly cut running costs or solve real scaling problems. Decide per workload, not for the whole estate at once."
+    },
+    {
+      "q": "What are the biggest cloud migration risks?",
+      "a": "Missed dependencies, untested backups, unclear rollback criteria and costs that climb after the move. Security gaps are another, such as public storage or overly broad admin access. Each risk maps to a step on the checklist: inventory, restore test, runbook, cost tagging and access review. Skipping steps is what turns risks into incidents."
+    },
+    {
+      "q": "How do you keep cloud costs under control after migrating?",
+      "a": "Tag every resource with an owner, set budgets and alerts from day one, right-size servers once you have a few weeks of usage data, and review commitment discounts for steady workloads. Clean up test resources and old snapshots regularly. A monthly cost review with the business owner keeps spending visible instead of a surprise at quarter end."
+    },
+    {
+      "q": "Do we need outside help for a cloud migration?",
+      "a": "Not always. Small, simple moves can be handled by a capable internal team. Outside help is worth it when the estate is large, systems are critical, the team has not migrated before, or compliance rules apply. 22 Signals runs assessments, migration plans, cutovers and post-migration tuning on AWS, Google Cloud and Azure."
+    }
+  ],
+  "related": [
+    "/services/cloud-migration",
+    "/services/cloud",
+    "/services/devops-consulting",
+    "/services/data-engineering",
+    "/services/web-app-development"
+  ],
+  "keywords": {
+    "primary": "cloud migration checklist",
+    "secondary": ["cloud migration plan", "cloud migration steps", "cloud cutover checklist", "lift and shift", "minimal downtime migration"]
+  }
+}

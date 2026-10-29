@@ -1,0 +1,135 @@
+{
+  "path": "/locations/dubai/web-development",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company for Dubai Brands | 22 Signals",
+  "description": "A web development company for Dubai brands: English and Arabic sites with right-to-left support, e-commerce, portals and redesigns that keep your rankings.",
+  "eyebrow": "Web Development in Dubai",
+  "h1": "A web development company for Dubai brands that need more than a pretty homepage",
+  "intro": "We design and build websites, online stores and client portals for established Dubai companies. That includes English and Arabic sites with right-to-left support, fast mobile pages, WhatsApp built into every enquiry path, local payment options and redesigns that protect the search rankings you already have. One accountable lead runs it from brief to launch.",
+  "sections": [
+    {
+      "h": "What Dubai visitors expect from a website",
+      "p": [
+        "Your visitors in Dubai are mostly on a phone, often on the move, and used to apps from Careem to Noon that load instantly. Many will want to message you on WhatsApp rather than fill in a form. Some will read in English, some in Arabic, and plenty arrive from abroad: overseas property investors, tourists planning a stay, GCC shoppers comparing prices.",
+        "A site that looks impressive on a designer's monitor but loads slowly on mobile data, hides the WhatsApp button or mirrors badly in Arabic loses those people quickly. A web development company Dubai brands can rely on builds for the visitor they actually have, and that is where we start."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites and full redesigns, written and structured to rank.",
+        "Migrations from old platforms that keep your URLs, rankings and tracking intact.",
+        "Content management on WordPress, Webflow or a headless CMS, so your team can edit without a developer.",
+        "E-commerce on Shopify or WooCommerce, with local payment gateways and buy now, pay later options where they fit.",
+        "Client portals with log-ins, documents and payments.",
+        "Website care: updates, security monitoring, backups and fixes after launch.",
+        "Landing pages for campaigns and launches, built to load fast and track every lead."
+      ]
+    },
+    {
+      "h": "English and Arabic, built properly",
+      "p": [
+        "We build English and Arabic sites with right-to-left support, which is more than flipping the text direction. Navigation, icons, forms, number formats, date pickers and image crops all need checking in both directions. Search needs its own setup too: separate URLs for each language, hreflang tags so Google shows the right version, and Arabic page titles written for how people search.",
+        "We do not claim in-house Arabic copywriters. Arabic copy comes from you or from a translator you approve, and we make sure it displays and performs as well as the English."
+      ]
+    },
+    {
+      "h": "Sites we build for Dubai sectors",
+      "list": [
+        "Property developers: a site per project or phase, floor plans, payment plan tables, brochure downloads and lead forms that feed your CRM and your sales team's WhatsApp.",
+        "Brokerages: listings pulled from your CRM feed, area guides for neighbourhoods like Dubai Hills or Jumeirah Village Circle, and agent profiles.",
+        "Hotels and restaurants: booking engine and reservation integrations, menus that are easy to update, and offer pages for the season.",
+        "Retail and fashion brands: stores selling across the UAE and the Gulf, with delivery zones, VAT shown correctly and returns that make sense.",
+        "Clinics and aesthetics practices: treatment pages written within Dubai Health Authority advertising standards, practitioner profiles and online booking.",
+        "B2B firms in Business Bay or DMCC: lead-generation sites for trading, logistics and professional services companies."
+      ]
+    },
+    {
+      "h": "Privacy, cookies and security",
+      "p": [
+        "A website collects personal data from the first form it shows, so the UAE PDPL applies to most onshore Dubai sites, and DIFC firms follow the DIFC Data Protection Law. We set up a clear privacy notice structure, a cookie consent banner that actually controls the tracking, and forms that store only what you need. We also harden hosting and logins, because compromised sites cost far more to fix than to protect."
+      ]
+    },
+    {
+      "h": "How a web project runs",
+      "list": [
+        "Talk: goals, audience, languages, integrations and what the current site does well.",
+        "Plan: sitemap, page structure, content plan, redirect map and a launch date, all in writing.",
+        "Build: design, development and testing on real phones in both languages.",
+        "Grow: after launch we watch speed, rankings and enquiries, and keep improving the pages that matter."
+      ]
+    },
+    {
+      "h": "Proof from our web work",
+      "p": [
+        "We have cleaned up and secured compromised law-firm websites, removing malware, closing the holes that let it in and getting search engines to treat them as safe again. That experience shapes every site we build: security is part of the build, not an extra you remember after an incident."
+      ]
+    },
+    {
+      "h": "Working with us from Dubai",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. Design reviews and testing run over video and shared staging links, with meeting times that suit Gulf Standard Time, four hours ahead of London in winter and three in summer. If a brand workshop or a photo day in Dubai would make the site better, we plan it into the scope."
+      ]
+    },
+    {
+      "h": "What decides the cost of a website",
+      "p": ["We do not publish prices, because two Dubai sites with the same page count can differ hugely in integrations and languages. These are the factors that set the scope:"],
+      "list": [
+        "Number of pages and templates, and whether we write the content.",
+        "One language or two, and how much Arabic content there is.",
+        "Integrations: CRM, booking engine, payment gateway, property feeds.",
+        "E-commerce scale: number of products, delivery rules and markets.",
+        "Ongoing care and security after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for your next site",
+      "p": [
+        "Ask what separates the web development company Dubai brands stay with from the ones they replace, and the answer is usually what happens after launch. Our sites are built by the same team that runs your SEO, paid media and video, so the site is designed to rank, convert and carry your campaigns from the first day. You do not have to brief a separate agency to fix what the first one missed. Related services include app development, search (SEO and generative engine optimisation) and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you build an English and Arabic website?",
+      "a": "Yes. We build English and Arabic sites with right-to-left support, separate URLs for each language and hreflang tags so search engines serve the right version. Layouts, forms and navigation are tested in both directions. Arabic copy is supplied by you or a translator you approve, since we do not claim in-house Arabic copywriters."
+    },
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "It should not, if it is planned properly. We crawl your current site, map every URL that earns traffic or links, set up redirects, keep tracking in place and check rankings closely after launch. Most ranking losses after redesigns come from skipped redirects, so we treat the redirect map as a launch requirement."
+    },
+    {
+      "q": "Do you integrate WhatsApp into the website?",
+      "a": "Yes, and for most Dubai businesses we recommend it on every key page. We add click-to-chat buttons with pre-filled messages that tell your team which page the visitor came from, track those clicks as conversions, and can connect them to WhatsApp automation so enquiries reach your CRM."
+    },
+    {
+      "q": "Which payment gateways do you work with?",
+      "a": "We integrate the payment gateways your bank or business already uses, including common UAE options, along with card payments, Apple Pay and buy now, pay later services where they suit your products. We choose based on fees, settlement times, your platform and the checkout experience your customers expect."
+    },
+    {
+      "q": "How long does a new website take?",
+      "a": "Any honest web development company Dubai clients speak to will say it depends on content. A focused company site often takes several weeks, while a bilingual e-commerce store or portal takes longer. Content readiness and approvals are usually the biggest factors. With us, you get a written timeline at the start, with dates for design sign-off, content, testing and launch."
+    },
+    {
+      "q": "Do you meet clients in Dubai?",
+      "a": "Most of our web work runs remotely from London over video and shared staging sites, during hours that overlap Gulf Standard Time. When an in-person workshop or a photo shoot in Dubai would genuinely improve the result, we plan a visit and include it in the scope."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/web-app-development",
+    "/locations/dubai/app-development",
+    "/locations/dubai/seo-geo",
+    "/locations/abu-dhabi/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "web development company dubai",
+    "secondary": ["website development company dubai", "web design company dubai", "arabic website development dubai", "web design dubai"]
+  }
+}

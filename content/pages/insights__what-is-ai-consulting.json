@@ -1,0 +1,145 @@
+{
+  "path": "/insights/what-is-ai-consulting",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "What Is AI Consulting? Scope, Process, Outcomes | 22 Signals",
+  "description": "What is AI consulting? What AI consultants do, what an engagement includes, how long it takes, and how to tell whether your business needs one yet.",
+  "eyebrow": "Guide: AI consulting",
+  "h1": "What is AI consulting? A plain guide for business owners",
+  "intro": "AI consulting is expert help to decide where artificial intelligence will save time or money in your business, then put it to work safely. A good engagement reviews how you operate, ranks possible uses by value and effort, picks the tools, sets rules for data and ships a pilot your staff actually use.",
+  "sections": [
+    {
+      "h": "What does an AI consultant actually do?",
+      "p": [
+        "People who ask what is AI consulting usually want to know what they would be paying someone to do. An AI consultant sits between your business and a crowded market of models, tools and vendors. The job is to work out which parts of your operation would get faster, less costly or more accurate with AI, and which would not. That means time with the people who do the work: the intake team, the finance lead, the sales manager, the person who builds the weekly report by hand every Friday.",
+        "From there, the consultant turns observations into decisions. Which processes to automate first. Whether to buy a tool or build something custom. What data the system will touch, and who is allowed to see it. What success looks like in numbers you already track. A good consultant also tells you where AI is the wrong answer, because a cleaner spreadsheet or a better form often fixes the problem for less.",
+        "The most useful consultants can also build. Advice that stops at a slide deck tends to stall, because the hard questions only appear when real data meets a real workflow."
+      ]
+    },
+    {
+      "h": "What does an AI consulting engagement include?",
+      "p": [
+        "Scopes vary, but most serious engagements are built from the same seven pieces. You may not need all of them, and an honest firm will say which ones you can skip."
+      ],
+      "list": [
+        "Readiness review: how your data, systems, people and processes are set up today, and what would block a project.",
+        "Use-case discovery: a long list of places AI could help, ranked by value to the business and effort to deliver.",
+        "Roadmap: the order to tackle the top use cases, with an owner, a date and a budget line for each.",
+        "Tool and vendor selection: build versus buy, which model providers and platforms fit, and what each costs to run month to month.",
+        "Policy and governance: written rules on which tools staff may use, what data can go into them and how outputs get checked.",
+        "Pilot build: one use case built and put in front of real users, so you learn from live work rather than a demo.",
+        "Training: short, role-specific sessions so the team uses the new tools properly and knows when not to trust them."
+      ]
+    },
+    {
+      "h": "How is AI consulting different from buying software or hiring a developer?",
+      "p": [
+        "A software vendor sells its own product and will, understandably, find reasons it fits your problem. A consultant should be neutral about tools. The first question is what the business needs; the tool comes second.",
+        "Consulting also differs from hiring a developer. A developer builds what you specify. A consultant helps you decide what to specify, including the parts nobody thinks about until launch week: permissions, data retention, error handling, the human review step, and what happens when the model gives a confident wrong answer to a client.",
+        "Most companies end up needing both, in sequence: consulting to pick the right problem and approach, then a build team to deliver it. When one team does both, less gets lost in the handover."
+      ]
+    },
+    {
+      "h": "What happens during a typical engagement?",
+      "p": [
+        "At 22 Signals we run every engagement in four stages, with one accountable lead (the Signal Lead) and every agreed date in writing. Other firms use different labels, but the shape is usually similar."
+      ],
+      "list": [
+        "Talk: interviews with the people who run the processes in question, plus a look at the systems and data behind them.",
+        "Plan: the ranked use-case list, the roadmap, the build-or-buy calls and the governance rules, signed off by the business owner.",
+        "Build: the first pilot, built against real data with real users, with guardrails and a human hand-off wherever the stakes are high.",
+        "Grow: measure the pilot against the agreed numbers, fix what users report, then move to the next item on the roadmap."
+      ]
+    },
+    {
+      "h": "What is AI consulting used for in practice?",
+      "p": [
+        "AI earns its keep on work that is repetitive, text-heavy and rule-guided: tasks where a person reads something, makes a judgment against known rules, then types something else. Examples we see across industries:"
+      ],
+      "list": [
+        "Law firms and professional services: sorting new inquiries, summarizing case documents, drafting first-pass letters for a lawyer to review.",
+        "Clinics and wellness businesses: answering routine patient questions, booking and rebooking, preparing intake notes before an appointment.",
+        "Fashion, beauty and retail: product descriptions at volume, customer service replies, stock and sales reports written in plain language.",
+        "Technology and SaaS companies: support ticket triage, search across internal documents, AI features inside the product itself.",
+        "Real estate: lead qualification, listing copy, first checks on contracts and tenancy paperwork."
+      ]
+    },
+    {
+      "h": "What have we learned from building AI systems?",
+      "p": [
+        "We have delivered more than 30 AI builds (custom tools, systems and automations) for businesses that used to run the old way. The pattern is consistent. The wins come from narrow, well-defined jobs with a clear owner, not from a general instruction to use AI more.",
+        "The second lesson is that adoption decides the outcome. A tool that saves two hours a day is worth nothing if staff route around it. That is why training and a feedback loop belong in the scope from day one, not as an afterthought once the pilot is live."
+      ]
+    },
+    {
+      "h": "When do you not need an AI consultant?",
+      "p": [
+        "If you already know the exact task, a tool exists off the shelf and the data involved is low risk, you may not need consulting at all. Setting up a meeting note-taker or a writing assistant for a small team is a configuration job, not a strategy project.",
+        "You also do not need a consultant if the underlying process is broken. AI applied to a messy process produces a faster mess. Fix the process first, sometimes with plain automation and no AI at all, then revisit.",
+        "Consulting pays for itself in the middle ground: several possible use cases, sensitive data, more than one system involved, and a leadership team that needs a clear order of priorities before committing budget."
+      ]
+    },
+    {
+      "h": "What should you prepare before an engagement starts?",
+      "list": [
+        "A short list of the processes that frustrate you most, with a rough count of the hours each one takes per week.",
+        "Access to the systems involved, or at least exports and screenshots: CRM, shared inbox, finance software, document storage.",
+        "A named owner on your side who can make decisions and get people into interviews.",
+        "Your current data obligations: client confidentiality terms, privacy law that applies to you, anything your insurers or regulators require.",
+        "An honest budget range, so the plan matches what you can fund this year rather than an ideal you cannot."
+      ]
+    },
+    {
+      "h": "How do you measure whether it worked?",
+      "p": [
+        "Agree the measures before anything gets built. The useful ones are numbers you already track or can start tracking easily: hours spent on a task each week, response time to new inquiries, error rates in documents, the share of tickets resolved without escalation.",
+        "Then measure the pilot against those numbers with real users, for long enough to see a pattern. If a use case does not move its number, stop it and move on. A roadmap is a list of bets, and part of good consulting is ending the ones that do not pay."
+      ]
+    },
+    {
+      "h": "What does AI consulting cost?",
+      "p": [
+        "Cost depends on scope: how many processes are in play, how messy the data is, how many systems need connecting, how sensitive the information is, and whether the engagement stops at a roadmap or includes a pilot build. Our guide to how much AI consulting costs walks through each factor and the common engagement models, from a short readiness review to a monthly retainer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is AI consulting in simple terms?",
+      "a": "AI consulting is expert help deciding where AI should be used in your business and then putting it to work. A consultant studies how you operate, ranks the possible uses by value and effort, picks tools, writes the rules for safe use and usually builds a first pilot. The goal is a measurable change in time, cost or accuracy, not a report that sits in a drawer."
+    },
+    {
+      "q": "Is AI consulting only for large companies?",
+      "a": "No. Established companies with 5 to 500 staff often get the most from it, because a few well-chosen automations change how the whole team works. Smaller firms usually need a tighter scope: a readiness review, two or three ranked use cases and one pilot, rather than a long program with steering committees and quarterly reviews."
+    },
+    {
+      "q": "How long does an AI consulting engagement take?",
+      "a": "A readiness review and roadmap usually take a few weeks. A pilot adds more time, depending on how many systems it touches and how clean the data is. Support after launch is often monthly. Any firm that commits to a timeline before it has seen your data and processes is guessing, so ask how they arrived at the dates."
+    },
+    {
+      "q": "Do AI consultants build the solution too?",
+      "a": "Some do and some do not. Strategy-only firms hand over a roadmap and leave the build to someone else, which adds a handover and a second learning curve. Firms that also build can take a use case from discovery to a working pilot with the same people. Ask which model a firm follows before you sign anything."
+    },
+    {
+      "q": "What is the difference between AI consulting and AI automation?",
+      "a": "AI consulting decides what to do: which processes, which tools, which rules and in what order. AI automation is the delivery: building the workflows, assistants and integrations that do the work. Many projects start with consulting and move into automation once the roadmap is agreed and the first use case is chosen."
+    },
+    {
+      "q": "Is it safe to put company data into AI tools?",
+      "a": "It can be, with the right setup. Many business plans of the major AI tools offer controls over data retention and model training, and custom builds can keep data inside your own cloud account. A consultant should write a usage policy covering approved tools, what data may go into them, and who checks outputs before they reach a client."
+    }
+  ],
+  "related": [
+    "/services/ai-consulting",
+    "/services/ai-automation",
+    "/services/custom-ai-development",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/insights/ai-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "what is ai consulting",
+    "secondary": ["ai consulting meaning", "what does an ai consultant do", "ai consulting services explained", "ai readiness review"]
+  }
+}

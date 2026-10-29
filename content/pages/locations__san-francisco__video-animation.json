@@ -1,0 +1,135 @@
+{
+  "path": "/locations/san-francisco/video-animation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "video-animation",
+  "serviceType": "Video production, animation and AI video",
+  "title": "Video Production in San Francisco: Animation, AI Video",
+  "description": "Video production for San Francisco companies: launch films, product demos, motion graphics, 2D and 3D animation and clearly labeled AI video, made by one team.",
+  "eyebrow": "Video Production, Animation and AI Video in San Francisco",
+  "h1": "Video production, animation and AI video for San Francisco companies",
+  "intro": "We make video for San Francisco companies: product launch films, software demos, motion graphics explainers, 2D and 3D animation, short-form social video and AI video that is clearly labeled and checked by a person. One team plans, scripts, animates and edits, so a launch gets every format it needs without juggling three studios.",
+  "sections": [
+    {
+      "h": "Software is hard to film",
+      "p": [
+        "A lot of what Bay Area companies sell has no physical form. A data platform, an AI agent or a security product looks like a screen of text when you point a camera at it. Biotech is harder still: the product may be a molecule, and the story is a mechanism that happens inside a cell.",
+        "That is why so much of the video production San Francisco companies buy is really animation and motion design. We turn the product into something people can follow in 60 seconds: interface shots cleaned up and animated, diagrams that move, and a script that says what the buyer gets, not what the architecture is.",
+        "The other common gap is volume. A launch needs a hero film, a demo, a dozen social cuts, ad versions and a recording of the keynote, and most teams only budget for the first one. We plan the whole set from the same script and footage, so the smaller pieces take far less effort than starting each from scratch."
+      ]
+    },
+    {
+      "h": "What we make",
+      "list": [
+        "Launch films and brand films for funding announcements, product releases and conference keynotes.",
+        "Product demos and walkthroughs built from your interface, with motion graphics to explain what happens under the hood.",
+        "2D and 3D animated explainers, including technical and scientific animation for biotech and medical devices.",
+        "Short-form video and reels for LinkedIn, Instagram, TikTok and YouTube Shorts.",
+        "AI video: AI presenters for translated versions, AI ad variations and AI-generated backgrounds, always labeled and reviewed.",
+        "Managed editing teams for companies that publish video every week.",
+        "Live broadcast for events, launches and tournaments."
+      ]
+    },
+    {
+      "h": "Who we make video for in the Bay Area",
+      "list": [
+        "SaaS and AI companies in SoMa: launch films, demo libraries and the clips sales teams send after a first call.",
+        "Biotech and medtech in Mission Bay and South San Francisco: mechanism-of-action animation for investors, partners and conferences.",
+        "Hardware companies on the Peninsula and in the South Bay: product films and animated cutaways before the first production run.",
+        "Fintech and professional services in the Financial District: explainers that make a complex offer clear without breaking compliance rules.",
+        "Consumer brands across the Bay: social video built for each platform."
+      ]
+    },
+    {
+      "h": "AI video, done honestly",
+      "p": [
+        "AI video is useful for some jobs: a presenter speaking twelve languages, thirty versions of an ad hook to test, or a background that would cost a day of location filming. It is wrong for others, such as fake customer testimonials, which we do not make. Every AI element we produce is labeled and checked by a person before release.",
+        "California is ahead of most states on this. The California AI Transparency Act places disclosure duties on large generative AI providers, and state law protects performers from unauthorized digital replicas. We get written consent from anyone whose face or voice is used, and we keep a record of what was generated and with which tools."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we learn who the video is for, where it will run and what the viewer should do next. Plan: script, storyboard or style frames, format list and a written delivery date. Build: production, animation and editing, with two review rounds on a shared link. Grow: cut-downs for each platform, captions, thumbnails, and, if you run ads, new versions based on what performs."
+      ]
+    },
+    {
+      "h": "Built around dates that do not move",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events, and the lesson from every one is that the date does not move. We plan video the same way. If your launch is tied to a conference at Moscone Center or a funding announcement, we work back from that day and agree every milestone in writing."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Animation and editing suit the gap: you leave comments on a cut in the afternoon, and the revised version is usually waiting the next morning. Review calls sit in the Pacific morning. When a project needs live filming in the Bay Area, we plan the shoot and travel when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Length and number of videos and cut-downs.",
+        "Live-action filming, animation, or both.",
+        "2D motion graphics versus 3D animation.",
+        "Script writing, voiceover, music and translations.",
+        "AI video elements and the review they need.",
+        "Review rounds and delivery timelines."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Most studios can shoot a good film. Where we differ is everything around it: the same team can build the landing page, render the hardware in 3D, run the paid campaign and report on what the video did. One accountable lead keeps it on schedule. Clients often pair video with 3D rendering, paid media and web development."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you make a product demo video for our SaaS platform?",
+      "a": "Yes. We record your interface, clean it up, remove sensitive data and animate it with motion graphics so viewers can follow each step. A voiceover or on-screen text explains what the buyer gains. We usually deliver a main demo plus short clips for sales emails and social posts."
+    },
+    {
+      "q": "Do you make scientific and medical animation for biotech?",
+      "a": "Yes. We make 2D and 3D animation of mechanisms of action, devices and procedures for investor decks, partner meetings and conferences. Your scientific team reviews the storyboard and each draft for accuracy before anything is final. Claims shown in the video are checked against what your regulatory team allows."
+    },
+    {
+      "q": "Do you film in San Francisco?",
+      "a": "When a project needs live filming, we plan the shoot in the Bay Area and arrange crew and travel for it. Many projects need no filming at all: animation, screen-based demos and AI video are produced remotely from London with teams across four regions, and reviewed on calls in the Pacific morning."
+    },
+    {
+      "q": "Is AI video safe to use for our brand?",
+      "a": "It can be, if it is used for the right jobs and labeled. We use it for translated presenters, ad variations and backgrounds, never for fake testimonials or people who have not agreed. Every AI element is reviewed by a person, and we get written consent for any face or voice we use."
+    },
+    {
+      "q": "How long does a launch video take?",
+      "a": "It depends on length, style and whether filming is involved. A motion graphics explainer moves faster than a live-action brand film with a 3D sequence. We work back from your launch date and put every milestone, from script to final delivery, in writing at the start."
+    },
+    {
+      "q": "Why use a London team for video production? San Francisco has plenty of studios.",
+      "a": "It does, and many are excellent at filming. We are useful when the video is part of something bigger: a product launch that also needs a website, 3D renders, ads and reporting. One accountable lead runs all of it, and animation and editing move forward overnight while your team is offline."
+    },
+    {
+      "q": "Can you provide an ongoing editing team?",
+      "a": "Yes. We run managed editing teams for companies that publish every week, covering podcasts, webinars, founder clips and social cuts. You send footage, we return edited videos to an agreed schedule, and one lead manages quality and deadlines."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/video-motion",
+    "/services/ai-video-production",
+    "/services/3d-animation",
+    "/locations/san-francisco/3d-rendering",
+    "/locations/los-angeles/video-animation"
+  ],
+  "keywords": {
+    "primary": "video production san francisco",
+    "secondary": [
+      "animation studio san francisco",
+      "explainer video san francisco",
+      "saas demo video production",
+      "motion graphics bay area"
+    ]
+  }
+}

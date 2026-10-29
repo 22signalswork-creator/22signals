@@ -1,0 +1,141 @@
+{
+  "path": "/locations/miami/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company in Miami, FL | 22 Signals",
+  "description": "An app development company for Miami businesses: iOS, Android and web apps for residents, guests, patients and traders, built, launched and supported.",
+  "eyebrow": "App Development in Miami",
+  "h1": "An app development company for Miami businesses with real users waiting",
+  "intro": "22 Signals is an app development company Miami businesses hire to build iOS, Android and web apps that customers keep using. We plan, design, build and launch apps for condo residents, hotel guests, patients, shippers and fintech users, with payments, bilingual screens and app store approval handled. After launch, the same team supports and grows the app.",
+  "sections": [
+    {
+      "h": "The problem: apps that launch and then go quiet",
+      "p": [
+        "Most failed apps do not fail on code. They fail because nobody decided what the app is for, who opens it twice a week, and what it replaces. A Miami developer commissions a resident app that duplicates the building manager's email. A hotel group builds a guest app nobody downloads because the same thing works in the browser. A fintech launches without thinking about Spanish-speaking users or app store rules for financial products.",
+        "Choosing an app development company Miami founders and operators can trust starts with that question: what will people do in this app that they cannot do more easily somewhere else? We answer it before anyone writes code, and sometimes the answer is a web app, not a store app."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "Product planning: users, core tasks, the smallest version worth launching, and what success looks like",
+        "UX and interface design, tested with real users before development",
+        "iOS and Android apps, usually with React Native or Flutter so one codebase serves both",
+        "Web apps and SaaS products with accounts, roles and billing",
+        "MVPs for new products that need to prove demand before a bigger build",
+        "Payments, subscriptions and in-app purchases, set up to meet store rules",
+        "APIs and integrations with your CRM, booking, property or accounting systems",
+        "App store launch, listings in English and Spanish, and ongoing support"
+      ]
+    },
+    {
+      "h": "Apps that make sense for Miami industries",
+      "list": [
+        "Condo developers and property managers: resident apps for amenity booking, guest access, package alerts and building notices, which also help sell the next tower",
+        "Hospitality groups: guest apps for loyalty members and repeat visitors, connected to your booking and point-of-sale systems",
+        "Trade and logistics firms in Doral and around the airport: driver apps, proof-of-delivery photos and shipment tracking for importers across Latin America",
+        "Finance, crypto and fintech teams in Brickell: account apps with identity checks, strong login security and audit trails",
+        "Healthcare and aesthetics practices: patient apps for bookings, aftercare instructions and secure messaging, built with HIPAA in mind",
+        "Fashion and beauty brands: loyalty and shopping apps that tie into Shopify and reward repeat customers",
+        "Event and nightlife operators: ticketing, table bookings and guest lists for Miami Music Week, Art Basel parties and weekend crowds, with check-in at the door"
+      ],
+      "p": [
+        "Miami's best app ideas usually come from businesses with a large base of repeat customers: residents in a new Edgewater tower, guests who return to Miami Beach every winter, patients who need aftercare, importers checking a shipment twice a day. These are the apps most likely to earn a place on a Miami customer's phone."
+      ]
+    },
+    {
+      "h": "Payments across the Americas",
+      "p": [
+        "Many Miami apps serve customers well beyond Florida. A buyer in Mexico may want to pay with OXXO, a customer in Brazil with Pix, and a US user with Apple Pay. Card fees, currency conversion and failed payments add up quickly when you sell across borders.",
+        "We set up payment providers such as Stripe so local methods appear where they matter, prices show in the right currency, and receipts and emails go out in the user's language. For subscriptions we follow Apple and Google rules on in-app purchases from the start, which avoids rejections at launch."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a call to understand the idea, the users and the business case.",
+        "Plan: we write the feature list, design the key screens, choose the tech and set launch dates in writing.",
+        "Build: development in short cycles, with a test version on your phone every couple of weeks so you see progress, not reports.",
+        "Grow: launch, app store optimization, analytics, fixes and new features based on how people actually use it."
+      ]
+    },
+    {
+      "h": "Privacy, security and app store rules",
+      "p": [
+        "Apple and Google both review privacy labels, data collection and financial features closely. We document what data the app collects, why, and where it is stored, so your privacy label is accurate and the review goes smoothly.",
+        "In Florida, the Information Protection Act requires breach notice within 30 days, and the Digital Bill of Rights has rules for selling sensitive data such as health or location information. We keep sensitive data out of the app where possible, encrypt what remains, and log access."
+      ]
+    },
+    {
+      "h": "An example of what we build",
+      "p": [
+        "For a US law firm we built a client portal with document sharing and payments, so clients could upload files, see progress and pay without calling the office. Portals like this are the backbone of many apps we build: secure logins, documents, payments and notifications, done properly."
+      ]
+    },
+    {
+      "h": "Working with a London team from Miami",
+      "p": [
+        "We work remotely from London, five hours ahead of Miami. Sprint reviews and design sessions happen in your morning, and new test builds are often on your phone before lunch. Every release date goes in writing.",
+        "Your Signal Lead runs the project day to day and is the person you talk to. Designers, mobile developers and QA testers work behind them. If a workshop with your team would help, we arrange it when the project needs it. As an app development company Miami clients work with from another continent, we put extra care into written updates, so nothing depends on catching someone on a call."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of platforms: iOS, Android, web or all three",
+        "Number of features and user roles",
+        "Payments, subscriptions and identity checks",
+        "Integrations with your existing systems",
+        "Languages supported at launch",
+        "Support, hosting and new features after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I choose an app development company in Miami?",
+      "a": "Ask to see how they decide what to build, not just their portfolio. A good partner will challenge features, suggest a smaller first version and explain how the app gets users after launch. Check who will be accountable day to day, and whether they support the app after release."
+    },
+    {
+      "q": "Should we build a native app or a web app?",
+      "a": "If people will use it often, need push notifications, or use the camera or location, a store app makes sense. If use is occasional, a web app is usually faster to build and easier to find. We recommend one during planning, and many projects start as a web app."
+    },
+    {
+      "q": "Can the app work in English and Spanish?",
+      "a": "Yes. We build language support in from the start, so every screen, notification and email can switch between English and Spanish, and Portuguese if you serve Brazil. App store listings are written in each language too, which helps people find the app in their own searches."
+    },
+    {
+      "q": "Do you work with Miami companies in person?",
+      "a": "We deliver remotely from London, with sprint reviews in your Miami morning and test builds sent to your phone. Most app projects run well this way. For a discovery workshop or a launch event, we plan a visit when the project needs it and agree the dates in writing."
+    },
+    {
+      "q": "Can you take over an app another company built?",
+      "a": "Usually, yes. We start with a code and infrastructure review, list the risks and fixes in order, and get access to the stores, servers and accounts sorted. Then we agree whether to keep improving the current app or rebuild parts of it."
+    },
+    {
+      "q": "How long does it take to launch an app?",
+      "a": "A focused first version often takes a few months, depending on features, integrations and design. Apple and Google reviews add time at the end. We set the timeline in planning, share test builds throughout, and put every date in writing so launch day is not a surprise."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/app-development",
+    "/locations/miami/web-development",
+    "/locations/miami/cloud-consulting",
+    "/industries/technology-ai",
+    "/locations/austin/app-development"
+  ],
+  "keywords": {
+    "primary": "app development company miami",
+    "secondary": [
+      "app developers miami",
+      "mobile app development miami",
+      "miami app developer",
+      "ios app development miami"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "path": "/locations/new-york",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "title": "AI and Digital Consulting in New York | 22 Signals",
+  "description": "AI and digital consulting for New York companies: AI, cloud, data, web, apps, SEO, ads, video and 3D from one accountable team, working in your morning hours.",
+  "eyebrow": "22 Signals in New York",
+  "h1": "AI and digital consulting for New York companies, with one accountable lead",
+  "intro": "22 Signals provides the AI and digital consulting New York companies use when they want one team instead of ten suppliers: AI, cloud, data, websites, apps, SEO, paid media, video and 3D. A single Signal Lead owns your project from London, meetings land in your morning, and every date we agree is written down.",
+  "sections": [
+    {
+      "h": "Why New York companies hire one team",
+      "p": [
+        "A typical mid-sized company in Manhattan or Brooklyn has an IT provider, a web agency, an SEO freelancer, a media buyer, a video studio and now an AI consultant. Each is competent. None of them owns the outcome, so the CFO ends up project managing six invoices and the CMO spends Monday mornings reconciling six reports.",
+        "We cover AI, cloud and data, marketing, and video, animation and 3D in one team. That is the gap we fill for established businesses with 5 to 500 staff: one brief, one plan, one person to call. It is the kind of AI and digital consulting New York firms rarely find in one place."
+      ]
+    },
+    {
+      "h": "Our services in New York",
+      "list": [
+        "AI consulting: a ranked list of AI uses, a roadmap and governance that fits NYDFS Part 500 and the city's rules on AI in hiring, then pilots your staff can test",
+        "AI automation: workflows that clear inboxes, read leases and invoices, and update the CRM, with a person approving anything risky",
+        "Business intelligence and data analytics: one checked set of numbers in Power BI, Looker Studio or Tableau, refreshed before the 9:00 meeting",
+        "Cloud consulting: AWS, Azure and Google Cloud set up so auditors can follow it, with monitoring that reaches a person while Manhattan sleeps",
+        "Web development: redesigns that keep rankings, sites built to WCAG 2.2 AA in a state that sees heavy accessibility litigation, and client portals",
+        "App development: iOS, Android and web apps for fintech, real estate, healthcare and retail, scoped in writing before a line of code",
+        "SEO and GEO: search across the five boroughs, plus how ChatGPT, Claude, Gemini and Google AI Overview answers describe your business",
+        "Paid media (Google, Meta, LinkedIn, TikTok ads): campaigns tracked to signed clients and revenue, with creative made in-house",
+        "Video production, animation and AI video: reels, explainers and editing teams, with AI performers labeled under New York's disclosure law",
+        "3D rendering: interiors and amenity floors for buildings still going up, plus product and packaging images for launches"
+      ]
+    },
+    {
+      "h": "Industries we work with across the city",
+      "p": [
+        "Financial services and insurance in Midtown, Hudson Yards and the Financial District. Media, publishing and advertising. Fashion and beauty, from the Garment District to SoHo. Hospitals, specialty practices and aesthetics clinics. Residential and commercial real estate. Law firms and professional services. Technology and SaaS companies around the Flatiron District and in Brooklyn. Each brings its own regulators, buyers and calendar, and our plans start from those rather than from a template."
+      ]
+    },
+    {
+      "h": "The rules we plan around",
+      "list": [
+        "The SHIELD Act: reasonable safeguards for private information about New York residents, plus a 30-day deadline to notify affected residents after a breach",
+        "NYDFS Part 500: cybersecurity rules for banks, insurers and other licensed firms, fully in force since November 2025",
+        "Local Law 144: independent bias audits and candidate notices for automated hiring tools used for jobs in the city",
+        "The synthetic performer law: conspicuous disclosure of AI-generated people in ads, in effect since June 2026",
+        "Attorney advertising and healthcare ad rules for law firms and clinics"
+      ]
+    },
+    {
+      "h": "How we work with New York from London",
+      "p": [
+        "We work with New York companies remotely from our head office in London, with specialist teams across four regions, and we have worked with more than 30 companies across them. New York runs five hours behind London for most of the year (four for a few weeks in spring and autumn, when the clocks change on different dates). Calls between 9:00 and 13:00 Eastern sit inside our working day, and work you hand over in the afternoon often comes back by the next morning.",
+        "We have no office or staff in the city, and we will not pretend otherwise. When a workshop, a site visit or a launch needs us in the room, we come to New York when the project needs it."
+      ]
+    },
+    {
+      "h": "Results so far",
+      "p": [
+        "Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers. The work behind it is the same mix we offer here: technical fixes, accurate pages, consistent listings and steady monthly effort."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "p": [
+        "Every engagement follows the same four steps. We talk to understand the business and the people doing the work. We plan, with priorities, scope and dates in writing. We build, showing progress early and often. Then we grow it: measure, improve and add the next piece, or hand it over cleanly. The first step is a short fit check, not a pitch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in New York?",
+      "a": "No. Our head office is in London and our specialist teams work across four regions. We serve New York companies remotely, with calls in your morning and written schedules, and we travel to the city when a project needs someone in the room."
+    },
+    {
+      "q": "What kinds of New York companies do you work with?",
+      "a": "Mostly established businesses with 5 to 500 staff in finance, media, fashion and beauty, healthcare, real estate, law and technology. We also work with founders and startups, but our process is built for companies with existing customers, data and teams."
+    },
+    {
+      "q": "Can one team really cover AI, cloud, marketing and video?",
+      "a": "Yes, because each area has its own specialists, and one Signal Lead coordinates them for you. You get one plan and one point of contact, while the people doing the cloud work, the ad campaigns and the animation are each experts in that field."
+    },
+    {
+      "q": "How do you handle the time difference with New York?",
+      "a": "London is usually five hours ahead, so your morning overlaps our afternoon. We hold calls then, keep written updates for everything else, and use the gap so that work requested late in your day is often ready when you start the next one."
+    },
+    {
+      "q": "How much do your services cost?",
+      "a": "It depends on scope: the services involved, the size of the work and whether we run things after launch. We do not publish prices. A 15-minute call is usually enough to tell you which factors apply and what a sensible first step looks like."
+    }
+  ],
+  "related": [
+    "/united-states",
+    "/locations/new-york/ai-consulting",
+    "/locations/new-york/cloud-consulting",
+    "/locations/new-york/web-development",
+    "/locations/new-york/seo-geo",
+    "/locations/new-york/3d-rendering"
+  ],
+  "keywords": {
+    "primary": "ai and digital consulting new york",
+    "secondary": ["ai consulting new york", "digital agency new york", "cloud consulting new york", "new york business solutions company"]
+  }
+}

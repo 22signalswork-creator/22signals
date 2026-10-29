@@ -2,17 +2,31 @@ import React, { useState } from "react";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import CustomButton from "@/components/CustomButton";
+import { subscribe } from "@/lib/newsletter";
 
 const Newsletter: React.FC = () => {
   const [email, setEmail] = useState("");
+  const [trap, setTrap] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = () => {
-    if (email && /\S+@\S+\.\S+/.test(email)) {
+  const handleSubmit = async () => {
+    if (busy) return;
+    setError(null);
+    if (trap) {
       setSubmitted(true);
-      setEmail("");
-      setTimeout(() => setSubmitted(false), 3500);
+      return;
     }
+    setBusy(true);
+    const r = await subscribe(email, "blog");
+    setBusy(false);
+    if (!r.ok) {
+      setError(r.error || null);
+      return;
+    }
+    setSubmitted(true);
+    setEmail("");
   };
 
   return (
@@ -42,24 +56,37 @@ const Newsletter: React.FC = () => {
                 </h2>
               </RisingText>
               <p className="text-white/65 text-base md:text-lg mt-5 max-w-2xl mx-auto">
-                Get the latest insights on tech infrastructure, esports marketing,
-                and efficient business scaling delivered directly to your inbox.
+                Practical notes on AI, cloud, data and search from the 22 Signals
+                team, sent to your inbox.
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-2xl mx-auto">
                 <input
+                  type="text"
+                  name="fax_number"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  value={trap}
+                  onChange={(e) => setTrap(e.target.value)}
+                  style={{ position: "absolute", left: "-10000px", width: 1, height: 1 }}
+                />
+                <input
                   type="email"
+                  aria-label="Email address"
+                  onKeyDown={(e) => { if (e.key === "Enter") handleSubmit(); }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email..."
                   className="w-full sm:flex-1 px-6 py-4 bg-white/[0.06] border border-white/15 rounded-full text-white placeholder:text-white/40 focus:outline-none focus:border-blue-400 transition-colors"
                 />
-                <CustomButton text="SUBSCRIBE" variant="primary" onClick={handleSubmit} />
+                <CustomButton text={busy ? "..." : "SUBSCRIBE"} variant="primary" onClick={handleSubmit} />
               </div>
 
+              {error && <p className="text-red-300 mt-5 text-sm" role="alert">{error}</p>}
               {submitted && (
                 <p className="text-blue-300 mt-5 text-sm">
-                  Thanks — you're on the list. ✓
+                  Thanks, you're on the list.
                 </p>
               )}
             </div>

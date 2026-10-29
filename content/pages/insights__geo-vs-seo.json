@@ -1,0 +1,141 @@
+{
+  "path": "/insights/geo-vs-seo",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "GEO vs SEO: What Changes When AI Answers First | 22 Signals",
+  "description": "GEO vs SEO explained: how generative engine optimization differs from search engine optimization, what they share, and how to measure both honestly.",
+  "eyebrow": "Guide: search and AI answers",
+  "h1": "GEO vs SEO: what changes when AI answers first",
+  "intro": "GEO vs SEO comes down to where you want to appear. Search engine optimization works to get your pages ranked in Google and Bing results. Generative engine optimization works to get your business named and described correctly in answers from ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews. Most of the groundwork is shared, and nobody can guarantee an AI mention.",
+  "sections": [
+    {
+      "h": "What is the difference between GEO and SEO?",
+      "p": [
+        "Search engine optimization is the work of earning a place in a list of results. The buyer sees ten links, compares, and clicks. Success is a ranking, then a visit, then an inquiry.",
+        "Generative engine optimization is the work of being part of the answer itself. The buyer asks an assistant a question, such as which firms handle a certain type of case in their city, and gets a written reply that may name a few businesses and explain why. Success is being mentioned, being described accurately, and, where the assistant shows sources, having your pages among them.",
+        "So the comparison in GEO vs SEO is less a rivalry and more a change in the final step. In both cases the assistant or the search engine has to find, understand and trust what you publish. What differs is the format of the result and how you measure it."
+      ]
+    },
+    {
+      "h": "How do AI assistants decide what to say about a business?",
+      "p": [
+        "Answers draw on two broad sources. The first is what a model learned during training, which reflects the public web at a point in time. The second is live retrieval: several assistants search the web while answering, read a handful of pages, and write a reply from them. Perplexity and ChatGPT's search feature show the pages they used, and Google says its AI Overviews link to pages that are indexed and eligible to appear in Search with a snippet.",
+        "That has a practical consequence. If your site is hard to crawl, vague about what you do, or contradicted by older listings elsewhere, an assistant has little to work with or gets mixed signals. If your pages state clearly what you offer, for whom and where, and other reputable sites say the same, the assistant has consistent material to draw from."
+      ]
+    },
+    {
+      "h": "What do SEO and GEO have in common?",
+      "p": [
+        "More than most vendors admit. Google's own guidance says there are no additional requirements or special optimizations needed to appear in AI Overviews beyond its normal Search guidance. The shared foundation looks like this:"
+      ],
+      "list": [
+        "Crawlable, indexable pages with fast load times and clean technical setup.",
+        "Clear page titles, headings and descriptions that say what each page covers.",
+        "Content that answers the questions buyers actually ask, written by people who know the subject.",
+        "Accurate business details: name, services, locations and contact information that match everywhere.",
+        "Mentions and links from reputable outside sources: industry directories, reviews, press and partner sites.",
+        "Pages kept up to date, with dates and facts that are current."
+      ]
+    },
+    {
+      "h": "What does GEO add on top of SEO?",
+      "p": [
+        "The extra work is mostly about clarity and consistency, so a model can describe you correctly in a sentence or two."
+      ],
+      "list": [
+        "Answer-first pages: open each key page with a direct, quotable answer in the first few lines, then the detail.",
+        "One consistent description: the same plain statement of what you do, for whom and where, on your site, profiles, directories and social accounts.",
+        "Specific facts over adjectives: services, locations, industries served and verifiable proof, rather than claims of being the best.",
+        "Question-style headings and FAQs that match how people phrase prompts.",
+        "Structured data that labels your organization, services, people and FAQs.",
+        "Outside mentions in the places assistants tend to read: comparison lists, reputable directories, reviews and industry publications.",
+        "Crawler access: check that robots.txt and firewall rules are not blocking the crawlers AI search tools use, such as OAI-SearchBot and PerplexityBot, unless you have chosen to block them."
+      ]
+    },
+    {
+      "h": "GEO vs SEO: how is success measured?",
+      "p": [
+        "Measuring search rankings is mature. Tools track positions, impressions and clicks, and Google Search Console reports what Google sees. Measuring AI answers is newer and noisier. Answers vary from one run to the next, by user, by location and by how a question is phrased.",
+        "The honest method is a fixed set of prompts that real buyers would type, run across several assistants on a regular schedule. For each answer, record whether your business is mentioned, whether the description is accurate, which competitors appear and which sources are shown. Over several months, that log shows direction even though no single answer is reliable on its own. We used this method for a 35-question review across five AI engines for a US aesthetics practice, tracking mentions, descriptions and sources side by side."
+      ]
+    },
+    {
+      "h": "Why can no one guarantee a mention in AI answers?",
+      "p": [
+        "Because nobody outside the AI companies controls how answers are generated. Models change, retrieval changes, and the same prompt can produce different answers an hour apart. Any provider that promises placement in ChatGPT, Claude, Gemini, Perplexity or Google AI Overviews is promising something they cannot deliver.",
+        "What a good provider can do is improve the inputs: make your site easier to read and quote, make your description consistent across the web, earn credible outside mentions, and measure the results honestly. Those inputs raise the odds. They do not set the outcome."
+      ]
+    },
+    {
+      "h": "Does GEO replace SEO?",
+      "p": [
+        "No. The GEO vs SEO debate often assumes one replaces the other, and the evidence points the opposite way. Google search is still a major source of visits for most businesses we work with, and several assistants retrieve pages from search indexes when they answer. Strong rankings and strong presence in AI answers tend to travel together, because both reward the same clarity and credibility.",
+        "We see that in our own client work at 22 Signals. Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers. That came from doing the shared groundwork well, then adding the answer-first and consistency work on top, not from treating GEO as a separate trick."
+      ]
+    },
+    {
+      "h": "A practical 90-day plan covering both",
+      "list": [
+        "Weeks 1 to 2: fix technical basics (indexing, speed, broken pages, crawler access) and write one plain description of the business.",
+        "Weeks 2 to 4: update the description on your site, Google Business Profile, directories and social profiles so they match.",
+        "Weeks 3 to 6: rewrite your top service pages answer-first, with question headings, specific facts and FAQs.",
+        "Weeks 4 to 8: add structured data for your organization, services and FAQs, and check it validates.",
+        "Weeks 6 to 12: earn outside mentions in reputable directories, comparison lists, industry publications and reviews.",
+        "Every month: run the same prompt set across ChatGPT, Claude, Gemini, Perplexity and Google, and log the results alongside your search rankings."
+      ]
+    },
+    {
+      "h": "Which GEO myths should you ignore?",
+      "list": [
+        "Repeating keywords over and over makes AI mention you. It reads badly to people and does nothing useful for models.",
+        "You need a separate site for AI. The same pages serve both, if they are clear and well structured.",
+        "Paid placement in AI answers is available from agencies. It is not something any outside agency controls.",
+        "Because answers vary, nothing can be measured. A consistent prompt set tracked over months shows real direction.",
+        "Traditional search no longer matters. Rankings and AI answers draw on overlapping signals, and for most businesses Google search is still a major source of visits."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "GEO vs SEO: are they the same thing?",
+      "a": "No, but they overlap heavily. SEO aims for rankings in search results; GEO aims for accurate mentions in answers from ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews. Both depend on crawlable pages, clear content, accurate business details and credible outside mentions. GEO adds answer-first writing, a consistent description across the web and a different way of measuring results."
+    },
+    {
+      "q": "Which matters more for a business right now, GEO or SEO?",
+      "a": "Start with SEO foundations, because they serve both. Google search is still a major source of visits for most businesses, and AI assistants that search the web draw on many of the same pages. Once technical health, service pages and business listings are solid, add the GEO layer: answer-first rewrites, a consistent description, outside mentions and a monthly prompt log."
+    },
+    {
+      "q": "Can anyone guarantee my business will appear in ChatGPT answers?",
+      "a": "No. Nobody outside OpenAI controls ChatGPT's answers, and the same applies to Claude, Gemini, Perplexity and Google AI Overviews. Answers change as models and retrieval change, and vary by prompt and user. A credible provider improves the inputs and measures results honestly. Treat any promise of certain placement as a reason to walk away."
+    },
+    {
+      "q": "How do I check whether AI assistants mention my business?",
+      "a": "Write ten to thirty questions a real buyer would ask, such as who offers your service in your city or for your industry. Run them in ChatGPT, Claude, Gemini, Perplexity and Google each month. Record whether you appear, whether the description is right, which competitors appear and which sources are shown. Trends over months matter more than any one answer."
+    },
+    {
+      "q": "Do I need to block or allow AI crawlers?",
+      "a": "It is a business choice. If you want to appear in AI search answers, make sure robots.txt and firewall rules allow the crawlers those tools use for search, such as OAI-SearchBot and PerplexityBot. Some companies block crawlers used for model training while allowing search crawlers. Review the setting deliberately rather than leaving it to a default."
+    },
+    {
+      "q": "How long does generative engine optimization take to show results?",
+      "a": "Usually months rather than weeks. Fixing your own site and listings is quick, but assistants need time to recrawl pages, and outside mentions take time to earn. Training data also updates on the AI companies' schedules, not yours. Track a fixed prompt set monthly and expect gradual movement, with search rankings often improving first."
+    },
+    {
+      "q": "Does structured data help with AI answers?",
+      "a": "It helps machines read your pages, which supports both search and AI answers, though no AI company has promised that schema alone earns a mention. Mark up your organization, services, people and FAQs accurately, make sure it matches the visible page, and validate it. Treat it as one part of making your business easy to describe."
+    }
+  ],
+  "related": [
+    "/services/seo-geo",
+    "/services/web-app-development",
+    "/services/paid-media",
+    "/industries/professional-services",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "geo vs seo",
+    "secondary": ["generative engine optimization vs seo", "what is geo", "ai search optimization", "seo for ai answers", "generative engine optimization"]
+  }
+}

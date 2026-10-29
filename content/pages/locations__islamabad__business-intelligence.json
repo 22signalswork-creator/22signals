@@ -1,0 +1,148 @@
+{
+  "region": "pk",
+  "city": "Islamabad",
+  "citySlug": "islamabad",
+  "path": "/locations/islamabad/business-intelligence",
+  "kind": "location-service",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Islamabad: Dashboards | 22 Signals",
+  "description": "Business intelligence for Islamabad programmes, hospitals, universities and exporters: one source of truth, dashboards in Power BI or Looker Studio.",
+  "eyebrow": "Business Intelligence and Data Analytics in Islamabad",
+  "h1": "Business intelligence and data analytics for Islamabad organisations",
+  "intro": "Business intelligence from 22 Signals gives Islamabad organisations one version of the numbers: indicators for donor-funded programmes, admissions and fee recovery for universities, patient flow for hospitals, margins for software exporters. We design the measures that matter, build the pipelines and dashboards in Power BI, Looker Studio or Tableau, and automate the monthly report.",
+  "sections": [
+    {
+      "h": "When every report starts with a spreadsheet hunt",
+      "p": [
+        "Ask an Islamabad finance or programme team how the monthly report gets made and the answer is usually the same. Someone downloads exports from three systems, pastes them into a master workbook, fixes the columns that changed, emails it for checking and gets back two versions with different totals. The report lands a week late, and the meeting spends its first half arguing about which number is right.",
+        "Business intelligence fixes the plumbing behind that report. Data is pulled from each system automatically, cleaned the same way every time and stored in one place. Dashboards read from that one place, so the board, the donor and the operations team all see the same figure. The point is not prettier charts. It is fewer arguments and faster decisions."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "Data strategy and KPI design: which numbers matter, how each is defined and who owns it",
+        "Data warehouse and pipelines that bring your systems into one place",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who will read them",
+        "Automated reporting: the monthly pack, the donor update or the board summary, produced on schedule",
+        "Forecasting for revenue, enrolment, demand or cash, with the assumptions written down",
+        "Data quality checks that flag missing or odd values before they reach a report"
+      ]
+    },
+    {
+      "h": "Business intelligence Islamabad sectors ask us for",
+      "p": [
+        "The capital's mix of buyers means the dashboards differ more here than in a city dominated by one industry. Typical requests:"
+      ],
+      "list": [
+        "Development programmes: indicators tracked against logframe targets, by district and broken down by gender and age, ready for the donor's reporting template",
+        "Telecoms and technology firms: customer, ticket and usage data at volumes that need a proper warehouse rather than a spreadsheet",
+        "Software and IT exporters: project margin, team utilisation and revenue per client, with the effect of the rupee and dollar rate shown separately",
+        "Hospitals, labs and clinics: outpatient waiting times, bed use, test turnaround and referrals",
+        "Universities and schools: the admissions funnel from enquiry to enrolment, fee recovery and results by programme",
+        "Real estate developers: bookings, instalment recovery and overdue accounts by project and phase",
+        "Government-linked bodies: budget releases against spend across the year"
+      ]
+    },
+    {
+      "h": "Reporting around the July to June year",
+      "p": [
+        "Pakistan's fiscal year runs from 1 July to 30 June, and the federal budget arrives in June. Many Islamabad organisations also report to donors or parent companies on a calendar year, or to an overseas client on its own quarters. A good BI setup lets you switch the reporting period without rebuilding anything, so the same data answers the ministry, the donor and the head office.",
+        "We also build in the dates that matter locally: Ramadan and Eid shifts in activity, the admissions cycle, and the June rush when budgets close."
+      ]
+    },
+    {
+      "h": "Power BI, Looker Studio or Tableau?",
+      "p": [
+        "Power BI usually fits organisations already on Microsoft 365, which includes many government-linked bodies, development organisations and larger companies in the capital. Looker Studio suits teams living in Google Workspace and startups that need something quick. Tableau makes sense where it is already licensed. Underneath, the warehouse might be BigQuery, Snowflake, Azure or a database on your own servers.",
+        "Where public sector data is involved, the hosting choice follows the federal Cloud First Policy's data classes. For business intelligence, Islamabad teams are best served by the tool their people will actually open, not the one with the longest feature list."
+      ]
+    },
+    {
+      "h": "How a BI project runs",
+      "list": [
+        "Talk: we hear which decisions are being made on bad or late numbers, and agree whether BI is the right fix",
+        "Plan: KPI definitions, a list of data sources and a build order, with dates in writing",
+        "Build: pipelines and the first dashboard, checked line by line against the figures your finance or programme team trusts",
+        "Grow: more sources, more dashboards and forecasting, reviewed monthly with your Signal Lead"
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed over $1.5 million in projects. Running that much work taught us what a status report actually needs: one number per question, a date beside it and a named owner. Those are the same rules we apply when we design business intelligence. Islamabad clients get dashboards built on them, not on whatever columns happen to be in the export."
+      ]
+    },
+    {
+      "h": "Working with us from Islamabad",
+      "p": [
+        "We work with Islamabad and Rawalpindi organisations remotely from our head office in London. Access to your systems is set up through named accounts with read-only rights where possible, and data never travels as file attachments on WhatsApp. Reviews happen on screen-share, scheduled for the Islamabad afternoon when your team is at its desks: 14:00 London is 19:00 PKT in winter, so most clients prefer 10:00 or 11:00 London, which is mid-afternoon in Pakistan.",
+        "We can label dashboards in English or Urdu, and we train the people who will maintain them. If a workshop with your team in Islamabad would help, we plan it when the project needs it."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "p": [
+        "We do not publish prices for business intelligence. Islamabad projects vary from one finance dashboard to a full programme data system. Cost depends on:"
+      ],
+      "list": [
+        "How many data sources need connecting, and how clean they are",
+        "How many dashboards and reports you need, and for how many audiences",
+        "Whether you need a warehouse, or the data can be modelled directly",
+        "Hosting rules for your data, including any Cloud First Policy class",
+        "Forecasting and data quality work on top of reporting",
+        "Training and ongoing support after handover"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Our data people sit in the same team as our AI, cloud and marketing specialists. When your dashboard shows where enquiries come from, the people who run your ads and website can act on it the same week, whether you are an Islamabad hospital, a university or a software house. Related reading: our Power BI consulting, data engineering for larger pipelines, and AI consulting for Islamabad organisations ready to put their data to work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we use Power BI or Looker Studio?",
+      "a": "If your organisation runs on Microsoft 365, Power BI is usually the better fit, with strong data modelling and row-level security. If you live in Google Workspace and need something quick, Looker Studio works well. We look at who will read the dashboards, what licences you already hold and what your IT team can support, then recommend one."
+    },
+    {
+      "q": "Can a dashboard produce our donor report?",
+      "a": "Often, yes. If the donor uses a fixed template, we map each indicator in the template to a defined measure in your data, so the numbers fill in automatically. Narrative sections still need a person, but the tables, charts and disaggregations come straight from the dashboard, which removes most of the end-of-quarter copying."
+    },
+    {
+      "q": "Will our data leave Pakistan?",
+      "a": "Only if you agree that it should. Some organisations are happy with a global cloud region; others, especially public bodies following the Cloud First Policy or anyone with sensitive personal records, need data hosted in Pakistan or on their own servers. We design the setup around that decision and write down where each dataset lives."
+    },
+    {
+      "q": "Can you work with data in Urdu?",
+      "a": "Yes. Names, addresses and open text fields in Urdu script can be stored, cleaned and reported on, and dashboard labels can be in Urdu or English. The fiddly part is usually matching the same name spelled differently across systems, so we build matching rules and review them with your team."
+    },
+    {
+      "q": "Do you work with Rawalpindi organisations too?",
+      "a": "Yes. Many of our Islamabad conversations involve operations on both sides of the twin city: a hospital with a Rawalpindi branch, a developer with projects on the GT Road side, a school group with campuses in both. A dashboard can show each site separately and together without any extra effort from your staff."
+    },
+    {
+      "q": "How soon do we see a first dashboard?",
+      "a": "That depends on how quickly we get access to your data and how messy it is. We agree a first dashboard as an early milestone in the plan, usually the one that answers your most expensive question, and put the date in writing. Data access is the most common cause of delay, so we ask for it on day one."
+    }
+  ],
+  "related": [
+    "/locations/islamabad",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/lahore/business-intelligence",
+    "/locations/karachi/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence islamabad",
+    "secondary": [
+      "data analytics islamabad",
+      "power bi consultant islamabad",
+      "bi consultancy pakistan",
+      "dashboard development islamabad"
+    ]
+  }
+}

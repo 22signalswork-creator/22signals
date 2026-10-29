@@ -1,0 +1,127 @@
+{
+  "path": "/locations/houston/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence Consulting Houston | 22 Signals",
+  "description": "Business intelligence consulting for Houston companies: one set of numbers from ERP, field and clinical data, in Power BI, Looker Studio or Tableau dashboards.",
+  "eyebrow": "Business Intelligence in Houston",
+  "h1": "Business intelligence consulting for Houston companies",
+  "intro": "With our business intelligence consulting, Houston leadership teams get one trusted set of numbers. We design the KPIs, connect ERP, CRM, field and historian data into a warehouse, and build Power BI, Looker Studio or Tableau dashboards that refresh on their own. Built for established firms in energy, healthcare, logistics and engineering.",
+  "sections": [
+    {
+      "h": "Three versions of the truth",
+      "p": [
+        "Ask a typical Houston operator for last month's lifting cost per barrel and you will get three answers: one from finance, one from operations and one from the spreadsheet a production engineer maintains on the side. The same happens in a hospital group comparing clinic throughput, or a freight company trying to work out which customers actually make money once detention and demurrage are counted.",
+        "The data exists. It sits in SAP, in a production accounting package, in a PI historian, in an EHR, in a transport management system and in hundreds of Excel files on SharePoint. What is missing is a single model that everyone agrees on, refreshed automatically, with definitions written down. That is what business intelligence consulting, Houston or anywhere else, should deliver, and it is the gap we close."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Data strategy and KPI design: agreeing what each number means, who owns it and how often it updates.",
+        "Data warehouse and pipelines: getting source data into BigQuery, Snowflake, Azure or Databricks on a schedule, with history kept.",
+        "Dashboards in Power BI, Looker Studio or Tableau, designed for the person reading them, from a CFO to a shift supervisor.",
+        "Automated reporting: the board pack, the weekly ops review and the monthly client report produced without copy and paste.",
+        "Forecasting: demand, production, staffing or cash, using methods you can explain to a lender or a board.",
+        "Data quality checks that catch missing or odd values before they reach a dashboard."
+      ]
+    },
+    {
+      "h": "Dashboards Houston industries actually use",
+      "list": [
+        "Upstream operators: production versus forecast by well and lease, lease operating expense, downtime causes, and regulatory volumes reconciled to what was reported.",
+        "Midstream and pipeline companies: throughput, nominations versus actuals, and maintenance backlog across compressor and pump stations.",
+        "Refining and petrochemical plants along the Ship Channel: unit performance, energy use, turnaround cost tracking and safety leading indicators in one place.",
+        "Healthcare groups in and around the Texas Medical Center: patient access, no-show rates, payer mix and denial trends, with role-based access so staff see only what they should.",
+        "Port and logistics businesses: container dwell, on-time delivery, cost to serve and margin by customer and lane.",
+        "Engineering and construction firms: earned value, change orders, utilization and cash by project, across offices in Houston and elsewhere."
+      ]
+    },
+    {
+      "h": "Why the Houston market needs a different approach",
+      "p": [
+        "Search for business intelligence consulting Houston firms offer and you mostly find template pages and directories. Few of them talk about the data Houston companies actually hold. Operational technology data from SCADA systems and historians behaves differently from sales data: it is high volume, time stamped to the second and often messy after sensor faults. Joining it to financial data needs care, or every dashboard inherits the noise.",
+        "Houston firms also tend to have long system histories. Many run an ERP that is fifteen years old next to a cloud CRM bought last year, plus acquisitions that brought their own systems. Good business intelligence consulting for Houston companies starts with an honest map of that estate before anyone opens Power BI."
+      ]
+    },
+    {
+      "h": "Data privacy and access control",
+      "p": [
+        "Dashboards spread data widely, so access rules matter. We set up row-level security so a clinic manager sees their clinic, a regional VP sees their region and contractors see nothing they should not. For healthcare clients, protected health information is minimized or removed before it reaches reporting layers, in line with HIPAA and Texas HB 300. For consumer data, we check processing against the Texas Data Privacy and Security Act and keep a record of what each dataset contains."
+      ]
+    },
+    {
+      "h": "Our process",
+      "list": [
+        "Talk: interviews with the people who make decisions from the numbers, and a tour of where the data lives.",
+        "Plan: KPI definitions, a data model, a build order and dates, all in writing.",
+        "Build: pipelines first, then dashboards, released in small batches so people use them early.",
+        "Grow: training, adoption tracking, new data sources and forecasting once the basics are trusted."
+      ]
+    },
+    {
+      "h": "How we run projects",
+      "p": [
+        "We have managed over $1.5 million in projects, and the habit that matters most in data work is the boring one: every date agreed goes in writing, and every change to scope is written down before work starts. Data projects slip when definitions shift halfway through. We fix definitions early and hold them."
+      ]
+    },
+    {
+      "h": "Working with a London team from Houston",
+      "p": [
+        "We work with Houston companies remotely, with our day overlapping yours. London is six hours ahead of Central Time, so a 10:00 review in Houston is 16:00 in London. Overnight data loads and fixes often happen while Houston sleeps, which means the dashboard is fresh at the start of your day. Your Signal Lead runs the project and is your single point of contact, backed by specialists across four regions. On-site sessions in Houston happen when the project needs them, such as a kickoff with finance and operations together."
+      ]
+    },
+    {
+      "h": "What affects cost",
+      "list": [
+        "Number of source systems and how easy they are to connect.",
+        "Whether you already have a warehouse or need one built.",
+        "How many dashboards, audiences and access levels are needed.",
+        "Data quality: clean, documented sources cost less than a decade of spreadsheets.",
+        "Ongoing support, training and the volume of new requests each month."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We do the data and we also act on it. The team that builds your dashboards can automate the processes behind them, add AI forecasting, and, for growth-focused clients, connect marketing spend to revenue. Related services for Houston clients include Power BI consulting, data engineering, AI automation and cloud consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which BI tool should a Houston company use?",
+      "a": "If you already run Microsoft 365 and Azure, Power BI is usually the right call, and it is what many Houston energy and engineering firms use. Looker Studio suits teams on Google Cloud, and Tableau fits where it is already licensed. We recommend based on your current stack and who will maintain the reports."
+    },
+    {
+      "q": "Can you connect historian and SCADA data to our dashboards?",
+      "a": "Yes. We bring time-series data from historians such as AVEVA PI into a warehouse at a sensible level of detail, usually hourly or daily summaries for business reporting. Raw high-frequency data stays in the historian. That keeps dashboards fast while letting engineers drill down when they need to."
+    },
+    {
+      "q": "How long does a BI project take?",
+      "a": "A first set of dashboards from two or three sources usually takes six to ten weeks, including KPI agreement and testing. Larger programs that bring in many systems or acquired companies run in phases, each with its own dates in writing. You see working dashboards early rather than waiting for a big reveal."
+    },
+    {
+      "q": "Do you work with Houston clients in person?",
+      "a": "We work remotely from London, with meetings in your morning when our working days overlap. For kickoff workshops or training sessions, an on-site visit can be arranged when the project needs it. We do not have a Houston office, but most BI work happens on screen anyway, and our overnight hours suit data loads."
+    },
+    {
+      "q": "How do you keep healthcare data compliant in reporting?",
+      "a": "We keep protected health information out of dashboards unless it is needed, and use row-level security when it is. Vendors handling it sign business associate agreements, and access is logged. We design with HIPAA and Texas HB 300 in mind and work with your compliance lead on anything that needs a formal decision."
+    },
+    {
+      "q": "Can you take over dashboards another firm built?",
+      "a": "Often, yes. We start with a review of the existing model, data sources and refresh schedule, then tell you what can stay, what needs fixing and what should be rebuilt. Many inherited Power BI files have logic buried in hundreds of measures, so the review alone often clears up why numbers disagree."
+    },
+    {
+      "q": "Do you offer forecasting as well as reporting?",
+      "a": "Yes, once the historical data is trusted. Common Houston examples are production and decline forecasts, patient volume by clinic, freight demand by lane and cash flow by project. We use methods your finance team can explain, and we show the range of likely outcomes, not a single number dressed up as certainty."
+    }
+  ],
+  "related": ["/locations/houston", "/services/business-intelligence", "/services/power-bi-consulting", "/services/data-engineering", "/locations/dallas/business-intelligence", "/locations/houston/cloud-consulting"],
+  "keywords": { "primary": "business intelligence consulting houston", "secondary": ["bi consulting houston", "power bi consulting houston", "data analytics consulting houston", "houston data analytics"] }
+}

@@ -1,0 +1,128 @@
+{
+  "path": "/industries/healthcare",
+  "kind": "industry",
+  "region": "global",
+  "title": "Healthcare Marketing and AI Solutions | 22 Signals",
+  "description": "Healthcare marketing and AI solutions for clinics, aesthetics, dental, health tech and neurotech: patient booking, search, AI intake, video and 3D.",
+  "eyebrow": "Healthcare and Wellness",
+  "h1": "Healthcare marketing and AI solutions for clinics and health tech",
+  "intro": "22 Signals provides healthcare marketing and AI solutions for clinics, aesthetics and dental practices, health tech and neurotech companies. We build patient booking and AI that answers inquiries out of hours, get practices found in Google and in AI answers, and produce video and 3D animation that explains a treatment or a device clearly.",
+  "sections": [
+    {
+      "h": "Why healthcare growth stalls",
+      "p": [
+        "Most practices we speak to have the same three problems. Inquiries arrive at 10pm on Instagram and nobody answers until the next afternoon. The website was built five years ago and nobody on staff owns it. And patients now ask ChatGPT, Claude, Gemini or Google's AI Overview which clinic to visit, and the answer names a competitor.",
+        "Health tech and device companies have a different version of the problem. The product works, but the story is hard to tell: clinicians want evidence, patients want plain words, and investors want a market plan. Each audience needs its own material, and most teams do not have the people to make it.",
+        "We fix both with one team. The same group that builds your booking flow also writes your treatment pages, runs your ads and makes the video that explains what you do."
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "list": [
+        "Private clinics and multi-site medical groups",
+        "Aesthetics and med spa practices",
+        "Dental practices and dental groups",
+        "Wellness, physiotherapy and longevity brands",
+        "Health tech and digital health companies",
+        "Neurotech and medical device companies preparing a launch"
+      ]
+    },
+    {
+      "h": "What our healthcare marketing and AI solutions include",
+      "list": [
+        "Search audits that test how AI assistants answer patient questions about your treatments and your area",
+        "SEO and generative engine optimization so your treatment pages show up in ChatGPT, Claude, Gemini and Google AI Overview answers",
+        "Websites with online booking, intake forms and clear consent wording",
+        "AI that replies to inquiries on your site, WhatsApp or social channels and books appointments, with a hand-off to your front desk",
+        "Paid media on Google and Meta that follows each platform's healthcare advertising rules",
+        "Business, operating and marketing plans for devices and health products going to market",
+        "Video, motion graphics and 2D and 3D animation for treatments, devices and patient education",
+        "Dashboards that show bookings, no-shows and cost per new patient in one place"
+      ]
+    },
+    {
+      "h": "Patient booking and AI intake",
+      "p": [
+        "The fastest gain for most clinics is answering every inquiry within minutes, at any hour. We build assistants that answer common questions (prices you publish, opening hours, what to expect at a first visit), collect the details your team needs and offer real slots from your booking system.",
+        "These assistants never diagnose and never give medical advice. Anything clinical, urgent or unclear goes straight to a person, and we set the rules for that hand-off with your clinical lead before launch. Conversations sync to your CRM or practice software so nothing is typed twice."
+      ]
+    },
+    {
+      "h": "Search and AI answers for clinics",
+      "p": [
+        "For one US aesthetics practice we ran a 35-question audit across five AI engines: the questions patients actually ask, such as which clinic is best for a given treatment nearby, or what a procedure involves. The results showed exactly where the practice was named, where it was missing and which outside sources the engines trusted instead.",
+        "That audit becomes the plan. We rewrite treatment pages so they answer the question in the first lines, tidy how the practice is described across directories and review sites, fix Google Business Profile, and build the outside mentions that assistants draw on. Monthly reporting shows rankings, inquiries and where the practice appears in AI answers."
+      ]
+    },
+    {
+      "h": "Taking a health device to market",
+      "p": [
+        "We wrote the business, operating and marketing plan to take a US neurotech device to market: who buys it first, how clinics and patients find it, what the launch sequence looks like by channel, and what the company needs in place to support it.",
+        "That work sits inside our Strategy and Go-to-Market service, and it connects directly to the build. Once the plan is agreed, the same team makes the website, the clinician materials and the explainer content, so the launch matches the plan."
+      ]
+    },
+    {
+      "h": "Video and 3D animation for treatments and devices",
+      "p": [
+        "A treatment or a device is often easier to show than to describe. Our animation team produces 2D and 3D animation, product and technical animation and animated explainers, and our video team makes short-form clips for social and longer patient education pieces.",
+        "Medical animation needs care. Every script is reviewed by your clinicians before production starts, and we check anatomy and device behavior against the references your team provides. We also offer AI video, such as AI presenters for multilingual patient guides, labeled clearly and reviewed by a person."
+      ]
+    },
+    {
+      "h": "Accuracy, privacy and compliance",
+      "p": [
+        "Health content has to be right. Clinical claims are checked against sources and approved by your team before anything is published, and we avoid outcome promises and before-and-after claims that platforms or regulators would object to.",
+        "Patient data needs the same care. For US providers we plan around HIPAA: we keep protected health information out of tools that will not sign a business associate agreement, and we limit what each system can see. For UK clinics we work to UK GDPR and the Data Protection Act 2018. Your compliance lead keeps the final say."
+      ]
+    },
+    {
+      "h": "How an engagement runs",
+      "p": [
+        "We work in four steps: Talk, Plan, Build, Grow. A short call to understand the practice, a written plan with dates, the build, then monthly growth work. One accountable lead, the Signal Lead, runs your account, and every date we agree goes in writing. If it sounds like a fit, book a 15-minute call and we will tell you honestly whether we can help.",
+        "Cost depends on scope: the number of sites and locations, how many systems the booking or intake flow touches, how much content and animation you need, and whether we run paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do clinics show up in ChatGPT and Google AI Overviews?",
+      "a": "Clear treatment pages and consistent outside sources. Assistants read a clinic's website, but they lean heavily on reviews, directories, health listings and local news. Clinics that are described the same way everywhere, well reviewed, and have pages that answer patient questions directly get named more often. We audit where you stand first, then fix the gaps in order of impact."
+    },
+    {
+      "q": "Can an AI assistant book appointments for our clinic safely?",
+      "a": "Yes, within clear limits. It answers routine questions, collects details and offers real slots from your booking system. It never diagnoses or gives medical advice, and anything clinical, urgent or unclear is passed to a person. We agree those hand-off rules with your clinical lead before launch and review conversations in the first weeks."
+    },
+    {
+      "q": "Do you work with HIPAA requirements?",
+      "a": "Yes. We design systems so protected health information only goes to vendors that will sign a business associate agreement, and we limit access to what each tool needs. We are not a law firm, so your compliance lead or counsel signs off on the setup, but we document what data flows where so that review is quick."
+    },
+    {
+      "q": "Can you produce 3D animation of a medical device or procedure?",
+      "a": "Yes, 2D and 3D animation is part of our studio work, including product and technical animation. For medical subjects your clinicians review the script and storyboard before production, and we check anatomy and device behavior against the references you provide. The result can be used for patient education, sales teams, investors or conference screens."
+    },
+    {
+      "q": "Do you work with dental and aesthetics practices, or only larger groups?",
+      "a": "Both. A single-site aesthetics or dental clinic usually wants more booked appointments from search and social. We also work with multi-site groups that need consistent local SEO across locations, shared booking flows and dashboards that compare sites. The plan is sized to the practice."
+    },
+    {
+      "q": "Can you help a health tech or neurotech company plan its launch?",
+      "a": "Yes. We have written the business, operating and marketing plan for a US neurotech device going to market. That covers who buys first, channels, launch sequence and what the company needs in place. We can then build the website, clinician materials and explainer content so the launch follows the plan."
+    },
+    {
+      "q": "What does healthcare marketing with 22 Signals cost?",
+      "a": "It depends on scope. The main factors are the number of locations, how many systems the booking or AI intake connects to, the volume of content and animation, and whether we run paid media each month. After a 15-minute call we send a written scope with dates so you can compare it properly."
+    }
+  ],
+  "related": [
+    "/services/ai-automation",
+    "/services/seo-geo",
+    "/services/3d-animation",
+    "/services/whatsapp-automation",
+    "/services/go-to-market",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "healthcare marketing and ai solutions",
+    "secondary": ["ai for clinics", "healthcare marketing agency", "aesthetics clinic marketing", "dental practice marketing", "medical animation", "health tech go-to-market"]
+  }
+}

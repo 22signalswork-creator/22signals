@@ -1,0 +1,133 @@
+{
+  "path": "/locations/dubai/business-intelligence",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Data Analytics Company for Dubai Firms | 22 Signals",
+  "description": "Business intelligence and data analytics for Dubai firms: one set of numbers across branches, projects and warehouses, in Power BI, Looker Studio or Tableau.",
+  "eyebrow": "Business Intelligence in Dubai",
+  "h1": "A data analytics company for Dubai firms that run on spreadsheets",
+  "intro": "We are a business intelligence and data analytics partner for established Dubai companies. We pull figures from your POS, ERP, CRM and booking systems into one model, build dashboards in Power BI, Looker Studio or Tableau, and automate the reports managers wait for, so decisions rest on numbers everyone agrees on.",
+  "sections": [
+    {
+      "h": "Ten versions of the truth",
+      "p": [
+        "A typical Dubai business grows by adding: another mall unit, another project phase, another warehouse in a free zone, another sales channel on a marketplace. Each addition brings its own system. Finance closes the month in one tool, sales tracks deals in another, operations lives in spreadsheets, and the weekly management meeting starts with an argument about whose number is right.",
+        "Business intelligence fixes that by agreeing what each figure means, pulling it automatically from the source, and showing it the same way to everyone who needs it."
+      ]
+    },
+    {
+      "h": "What a Dubai BI engagement includes",
+      "list": [
+        "Data strategy and KPI design: which ten or fifteen figures actually run the business, with plain definitions.",
+        "Pipelines and a data warehouse that collect data from each source on a schedule.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who read them.",
+        "Automated reporting by email or chat, so the Sunday spreadsheet job disappears.",
+        "Forecasting for sales, stock, occupancy or collections.",
+        "Data quality checks that catch missing branches, duplicate customers and currency mix-ups early."
+      ]
+    },
+    {
+      "h": "Dashboards Dubai sectors ask us for",
+      "list": [
+        "Property developers: unit sales by project and phase, payment plan collections against schedule, broker performance and lead source quality.",
+        "Hotels and restaurant groups: occupancy, average daily rate and revenue per available room by property, covers and spend per head by outlet, and review scores alongside them.",
+        "Retail and e-commerce: sell-through by mall and by marketplace, stock cover, returns and the real margin after delivery and payment fees.",
+        "Trading and logistics firms around Jebel Ali: shipments in transit, landed cost per product, warehouse stock and overdue receivables by customer.",
+        "Clinics: bookings, no-show rates, treatment mix and revenue per practitioner, with patient data kept out of view where it is not needed."
+      ]
+    },
+    {
+      "h": "Multi-currency, VAT and the details that trip reports up",
+      "p": [
+        "Dubai reporting has quirks that generic dashboards miss. Many companies buy in USD or EUR and sell in AED, so we set currency rules once and apply them everywhere. VAT at 5 percent and the corporate tax regime mean finance wants figures both with and without tax, by entity, and sometimes split between a mainland company and a free zone company in the same group.",
+        "Calendars matter too. Ramadan, Eid, the Dubai Shopping Festival and the summer slowdown move results every year, and the dates shift. We build comparisons that line up like for like periods, so a quiet week is not mistaken for a bad one."
+      ]
+    },
+    {
+      "h": "Where your data is stored",
+      "p": [
+        "Dashboards often hold customer and employee details, so the UAE PDPL, Federal Decree-Law No. 45 of 2021, applies to onshore companies, and DIFC firms work under the DIFC Data Protection Law. We use row-level security so a branch manager sees their branch only, keep personal data out of reports that do not need it, and can host the warehouse in a UAE cloud region on Azure or AWS where your policy asks for it.",
+        "Clinics need extra care. UAE federal rules on health data limit where patient records may be stored, so for healthcare clients we keep clinical detail in the source system and bring only the operational figures, such as bookings and revenue by service, into the BI model."
+      ]
+    },
+    {
+      "h": "How we run it",
+      "list": [
+        "Talk: we sit with finance, sales and operations to list the questions they answer by hand today.",
+        "Plan: KPI definitions, a source map and a dashboard sketch that you sign off before we connect anything.",
+        "Build: pipelines, the model and the first dashboards, tested against figures your finance team trusts.",
+        "Grow: we add sources, forecasts and alerts once people are using the first version every week."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed over $1.5 million in projects, and reporting is the first thing we build for our own engagements: every client sees their numbers in one place. The same habits, clear definitions and dates in writing, carry into the BI work we do for Dubai companies."
+      ]
+    },
+    {
+      "h": "Working with a London data team from Dubai",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. Data work suits remote delivery well: discovery sessions run on video during the hours Gulf Standard Time and London share, and you see dashboards evolve in the tool itself rather than in slides. GST is four hours ahead of London in winter and three in summer. If a workshop with your finance team in person would save weeks of back and forth, we write a visit into the scope."
+      ]
+    },
+    {
+      "h": "Hiring a data analytics company? Dubai cost factors",
+      "list": [
+        "How many source systems and entities we connect.",
+        "How clean the data is, and how much history you want loaded.",
+        "Which BI tool you use or prefer, and licence costs on your side.",
+        "Hosting requirements, including UAE data residency.",
+        "Number of dashboards, users and automated reports."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals",
+      "p": [
+        "When firms here go looking for a data analytics company, Dubai's market mostly offers two choices: a dashboard vendor or a large consultancy. We sit in between: senior enough to design the KPIs with your leadership, hands-on enough to build the pipelines. And because we also run marketing, we connect ad spend and website data to revenue, which most BI partners leave out. Related services: Power BI consulting, data engineering and AI automation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a data analytics company do for a Dubai business?",
+      "a": "It turns scattered figures into reliable reporting. We define the KPIs, connect your systems, build a warehouse and dashboards, and automate regular reports. Any data analytics company Dubai groups hire should also handle multi-currency rules, VAT views and mainland versus free zone entities, so the numbers match what finance reports."
+    },
+    {
+      "q": "Do you work with Power BI?",
+      "a": "Yes. Power BI is the most common choice among the Dubai companies we speak to because many already use Microsoft 365. We also build in Looker Studio and Tableau. We recommend a tool based on your existing licences, your data sources and who will maintain the dashboards after we hand over."
+    },
+    {
+      "q": "Can our data stay in the UAE?",
+      "a": "Usually, yes. Both Microsoft Azure and AWS run cloud regions in the UAE, so the warehouse and pipelines can be hosted there. Some SaaS tools store data abroad, so we check each source and tell you where data will sit before we build. We follow the UAE PDPL or the DIFC regime as applicable."
+    },
+    {
+      "q": "We have several branches and entities. Can you combine them?",
+      "a": "Yes, that is the most common request we get from Dubai groups. We map each branch, entity and currency, agree how figures roll up, and build views by outlet, mall, project or company. Managers see their own area through row-level security, while leadership sees the group picture."
+    },
+    {
+      "q": "How long does a first dashboard take?",
+      "a": "A first management dashboard connected to two or three sources often takes a few weeks, depending on data quality and access. Larger warehouse projects take longer. We set the dates at the start and put them in writing, with a working version for you to test early rather than a single reveal at the end."
+    },
+    {
+      "q": "Do you meet clients in Dubai?",
+      "a": "We work from London with meeting hours that overlap Gulf Standard Time every weekday, and most BI work runs well on video. Where an in-person workshop with finance or operations would genuinely speed things up, we plan a visit to Dubai as part of the scope. We do not keep an office there."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/dubai/cloud-consulting",
+    "/locations/abu-dhabi/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "data analytics company dubai",
+    "secondary": ["data analytics companies in dubai", "business intelligence consulting dubai", "power bi consultant dubai", "data analytics dubai"]
+  }
+}

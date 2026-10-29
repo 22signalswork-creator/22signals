@@ -1,0 +1,130 @@
+{
+  "path": "/locations/houston/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Houston, TX | 22 Signals",
+  "description": "AI consulting for established Houston companies in energy, healthcare and logistics: find where AI pays off, plan it safely, then build it.",
+  "eyebrow": "AI Consulting in Houston",
+  "h1": "AI consulting for Houston companies",
+  "intro": "22 Signals offers AI consulting Houston companies can act on, with a clear answer on where AI saves real hours, what it will cost to run, and how to roll it out without exposing field data, patient records or contract terms. We review your operations, rank use cases by value and effort, then build the pilots that earn their place.",
+  "sections": [
+    {
+      "h": "Why AI projects stall in Houston operations",
+      "p": [
+        "Most Houston firms we speak to already have AI somewhere. A geologist pastes well reports into a chatbot. A plant engineer asks it to summarize a turnaround punch list. A billing team uses it to draft payer appeals. None of it is planned, none of it is logged, and nobody can say whether it is saving time or creating risk.",
+        "The other half of the problem is noise. Vendors pitch predictive maintenance, digital twins and agents in the same week. Leadership in the Energy Corridor or Downtown wants a straight answer: which three things should we do this year, what will they cost to run, and who owns them once they are live. That is the real job of AI consulting. Houston executives need a ranked list they can act on by next quarter, not a slide deck about the future."
+      ]
+    },
+    {
+      "h": "What our AI consulting includes",
+      "list": [
+        "AI readiness review: your data, systems, people and the rules you work under, checked in two to four weeks.",
+        "Use-case discovery ranked by value and effort, built from interviews with the people who do the work, not only the executives.",
+        "An AI roadmap with owners, budgets to run, and dates written down.",
+        "Tool and vendor selection, including a build versus buy call on each use case and a look at what your current Microsoft, SAP or Salesforce licenses already include.",
+        "AI policy and governance: what staff can paste into which tools, how outputs are checked, and how data privacy is handled.",
+        "Pilot builds that prove or kill a use case in weeks, with a clear pass mark agreed before work starts.",
+        "Team training so the people using the tools know their limits as well as their strengths."
+      ]
+    },
+    {
+      "h": "Where AI earns its keep in Houston industries",
+      "p": [
+        "Houston's economy is not one industry, so the use cases differ by sector. These are the patterns we look for first."
+      ],
+      "list": [
+        "Upstream and midstream energy: searching decades of well files, daily drilling reports and land contracts in plain English; drafting regulatory filings for the Railroad Commission of Texas from structured data; flagging anomalies in production data before the morning call.",
+        "Refining and petrochemicals along the Ship Channel: turning maintenance logs and work orders into early warnings, summarizing management of change records, and helping process safety teams find past incidents that match a new one.",
+        "Port of Houston logistics and freight: reading bills of lading, customs paperwork and carrier emails so dispatchers stop retyping them, and answering where-is-my-container questions without a phone call.",
+        "Texas Medical Center providers and health tech: prior authorization drafting, coding support and clinical document search, always with a clinician in the loop and HIPAA rules applied from day one.",
+        "Aerospace suppliers near NASA Johnson Space Center and Clear Lake: requirement tracing across long specification documents and faster first drafts of test reports.",
+        "Engineering and construction firms: bid and RFP response drafting from past proposals, and clash or change-order summaries for project managers."
+      ]
+    },
+    {
+      "h": "Texas privacy law, HIPAA and AI governance",
+      "p": [
+        "Any AI plan for a Houston company has to start with the rules. The Texas Data Privacy and Security Act has applied since July 2024 and is enforced by the Texas Attorney General. If an AI use case profiles consumers or processes sensitive data, you will usually need a data protection assessment on file. We write that into the roadmap rather than discovering it at launch.",
+        "Texas also passed the Responsible Artificial Intelligence Governance Act, in force since January 2026, which bans certain AI uses and adds disclosure duties in some settings, including parts of healthcare. Medical work carries HIPAA plus Texas's own medical records law, HB 300, which reaches further than HIPAA in who it covers. In practice that means business associate agreements with every AI vendor that touches patient data, and a clear policy on what never leaves your systems. We are not your lawyers, so we flag the questions and work alongside your counsel."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call to understand your business, then interviews with the teams who would use AI day to day.",
+        "Plan: the readiness review, ranked use cases and roadmap, with every date agreed in writing.",
+        "Build: one or two pilots, measured against the pass mark you signed off on.",
+        "Grow: roll the winners out to more teams, retire the losers, and review the roadmap each quarter."
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have shipped more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. That matters for AI consulting: Houston clients get advice drawn from what we have had to make work in production, not from vendor briefings. When we tell a Houston operations director that a use case will take six weeks and need clean data from two systems, it is because we have built something like it before."
+      ]
+    },
+    {
+      "h": "Working with us from Houston",
+      "p": [
+        "We work with Houston companies remotely from London, with meeting hours that overlap Central Time. London is six hours ahead, so your morning is our afternoon: a 9:00 call in Houston is 15:00 for us, and our team often runs into the London evening to cover your working day. Workshops happen over video, and an on-site visit to your office in Uptown, the Energy Corridor or Downtown can be arranged when the project needs it.",
+        "Every engagement has one Signal Lead, the person accountable for your project, with specialist teams behind them across four regions. You get one inbox and one name, not a rotating cast."
+      ]
+    },
+    {
+      "h": "What AI consulting costs",
+      "p": [
+        "Cost depends on scope. For AI consulting, Houston projects vary most with:"
+      ],
+      "list": [
+        "How many departments and sites are in the review.",
+        "The state of your data: one clean ERP or ten spreadsheets and a historian nobody owns.",
+        "Whether regulated data, such as patient records or export-controlled aerospace files, is involved.",
+        "How many pilots you want built, and how deeply they connect to live systems.",
+        "Training needs, from a single leadership session to rollout across field crews."
+      ]
+    },
+    {
+      "h": "Why Houston firms choose 22 Signals",
+      "p": [
+        "We are not only consultants. The same team that writes your AI roadmap can build the tools, move the data to the cloud, and then market the result with video and search if that is part of the plan. Few firms cover AI, cloud and data alongside marketing and 3D work. For AI consulting, Houston companies that want one accountable partner instead of five vendors get exactly that.",
+        "If you want to test the fit first, book a 15-minute call. It is a fit check, not a pitch. Related services include AI automation, custom AI development, business intelligence and cloud consulting, all available to Houston clients."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Houston companies in person?",
+      "a": "Mostly remotely, and it works well for this kind of project. We run interviews and workshops over video during your morning, which is our afternoon in London. When a project needs it, such as a site walk at a plant or a leadership workshop in your office, we arrange an on-site visit. We do not have an office in Houston and will not pretend otherwise."
+    },
+    {
+      "q": "How do you handle Texas data privacy law in AI projects?",
+      "a": "We treat the Texas Data Privacy and Security Act as a design input. Each use case is checked for personal or sensitive data, profiling and sale of data. Where an assessment is needed, we draft the facts for your counsel. We also choose tools that let you keep data out of model training and hold it in the United States when that matters to you."
+    },
+    {
+      "q": "Can AI be used safely with patient data from Texas Medical Center clinics?",
+      "a": "Yes, with the right setup. Any vendor that touches protected health information needs a business associate agreement, access must be logged, and outputs that affect care need a clinician to check them. Texas HB 300 adds training and disclosure duties beyond HIPAA. We build those controls in from the first pilot rather than after a near miss."
+    },
+    {
+      "q": "What AI use cases work best for oil and gas companies?",
+      "a": "The quickest wins are usually document search and drafting: well files, land contracts, regulatory filings and daily reports. Anomaly detection on production or equipment data comes next, but it depends on clean historian data. Fully autonomous decisions on live operations are rarely the right first step. We rank each idea by value, effort and safety risk before anyone spends money."
+    },
+    {
+      "q": "How long does an AI readiness review take?",
+      "a": "Usually two to four weeks for a mid-sized Houston company, depending on how many departments and systems are in scope. You get a written readiness score, a ranked list of use cases, a roadmap with owners and dates, and a recommendation on which pilot to run first. Larger multi-site operators take longer because there are more people to interview."
+    },
+    {
+      "q": "Do you only advise, or do you also build?",
+      "a": "We do both. Many consultants stop at the roadmap. We build pilots, custom AI tools and automations, connect them to your systems, and run them if you want us to. That keeps the advice honest, because we have to live with what we recommend. You can also take the roadmap to another builder; it is yours."
+    },
+    {
+      "q": "Which AI tools and vendors do you recommend?",
+      "a": "It depends on what you already run. Many Houston firms are deep in Microsoft, so Copilot and Azure OpenAI are often the starting point. Others suit Google Cloud, AWS Bedrock or a specialist vendor. We have no reseller deals pushing us toward one platform, so the build versus buy call is based on your data, budget and risk."
+    }
+  ],
+  "related": ["/locations/houston", "/services/ai-consulting", "/locations/houston/ai-automation", "/locations/dallas/ai-consulting", "/locations/texas", "/industries/healthcare"],
+  "keywords": { "primary": "ai consulting houston", "secondary": ["ai consultant houston", "ai consulting firm houston", "houston ai strategy", "ai consulting texas"] }
+}

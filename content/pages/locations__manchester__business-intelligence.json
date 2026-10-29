@@ -1,0 +1,139 @@
+{
+  "path": "/locations/manchester/business-intelligence",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consultancy",
+  "title": "Business Intelligence Consultancy Manchester | 22 Signals",
+  "description": "Business intelligence consultancy Manchester firms use to get one trusted set of numbers: KPI design, data pipelines and Power BI or Looker Studio dashboards.",
+  "eyebrow": "Business Intelligence and Data Analytics in Manchester",
+  "h1": "Business intelligence consultancy Manchester leadership teams can trust",
+  "intro": "We help established Manchester companies turn scattered data into one set of numbers everyone agrees on. Our business intelligence and data analytics work covers KPI design, data pipelines and warehouses, dashboards in Power BI, Looker Studio or Tableau, automated reporting and forecasting, so directors make decisions from live figures instead of last month's spreadsheet.",
+  "sections": [
+    {
+      "h": "Three versions of the truth",
+      "p": [
+        "A common scene in a Manchester board meeting: sales has one revenue figure from the CRM, finance has another from Xero or Sage, and operations has a third from a spreadsheet someone updates on Mondays. The first twenty minutes go on arguing about which is right. The decisions wait.",
+        "The fix is rarely a prettier chart. It is agreeing what each number means, connecting the systems that hold it, and checking the data before anyone sees it. Dashboards come last.",
+        "We see this in retailers reconciling Shopify against the warehouse, in professional firms comparing practice management data with the accounts, and in manufacturers whose ERP and production spreadsheets never quite agree. The pattern is the same; the systems differ."
+      ]
+    },
+    {
+      "h": "What the work includes",
+      "list": [
+        "Data strategy and KPI design: the handful of measures that actually run the business, defined in writing.",
+        "Data warehouse and pipelines that pull from your CRM, finance, e-commerce, ERP and marketing tools.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who will open them every day.",
+        "Automated reporting that lands in inboxes on schedule without anyone building it by hand.",
+        "Forecasting for sales, stock and cash, with the assumptions shown.",
+        "Data quality checks so a broken feed is caught before a director quotes the wrong number."
+      ]
+    },
+    {
+      "h": "Business intelligence consultancy Manchester sectors need",
+      "p": [
+        "What a good dashboard shows depends entirely on the business. Manchester's economy gives us very different briefs:"
+      ],
+      "list": [
+        "Online fashion and beauty retailers: margin by product after returns, paid media cost per order, stock cover by size and colour.",
+        "Spinningfields professional and financial services firms: fee earner utilisation, work in progress, debtor days and client profitability.",
+        "Manufacturers and distributors in Trafford Park and the wider city region: order book, on-time delivery, scrap and machine downtime.",
+        "Media and production companies around MediaCityUK: project budgets against actuals, freelancer costs and delivery dates.",
+        "Health, life sciences and university spin-outs along the Oxford Road Corridor: grant spend, trial recruitment and operational reporting, with tighter controls on sensitive data."
+      ]
+    },
+    {
+      "h": "Data protection built into the design",
+      "p": [
+        "Dashboards often expose personal data that was safely tucked away inside one system. Under UK GDPR and the Data Protection Act 2018, people should see only what they need. We use row-level security so a regional manager sees their region and nothing else, keep personal data out of reports where totals will do, and host the warehouse in a UK cloud region when that matters to you.",
+        "The ICO, based just outside Manchester in Wilmslow, expects organisations to know what personal data they hold and why. A properly documented data model makes answering that question much easier."
+      ]
+    },
+    {
+      "h": "Our process",
+      "list": [
+        "Talk: a 15-minute call, then interviews with the people who use the numbers and the people who produce them.",
+        "Plan: KPI definitions, a data map of every source, and a dated build plan.",
+        "Build: pipelines first, then the model, then dashboards reviewed with real users every week or two.",
+        "Grow: training, new reports as questions change, and monitoring of every data feed."
+      ]
+    },
+    {
+      "h": "Proof of delivery",
+      "p": [
+        "We have managed over $1.5 million in projects across our client work. Reporting on that much delivery, across many teams and four regions, is a BI problem in its own right, and we run our own operations on the same kind of dashboards and KPI discipline we build for clients."
+      ]
+    },
+    {
+      "h": "How we work with Manchester clients",
+      "p": [
+        "We work from our London head office and do not have a Manchester office. BI projects run comfortably over video calls: we need access to your systems, a few hours of your team's time each week and someone who can answer what a field in the CRM really means. Manchester shares London's time zone, so working days line up exactly.",
+        "For KPI workshops, where getting the directors in one room saves weeks of email, your Signal Lead comes to Manchester in person when the project needs it. London to Manchester is about two hours by train."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "How many data sources need connecting and how messy they are.",
+        "Number of dashboards, audiences and security rules.",
+        "Whether you already have a warehouse or need one built.",
+        "Licensing choices, such as Power BI Pro, Premium Per User or Fabric capacity, which you pay to Microsoft directly.",
+        "Ongoing support, new reports and training after launch."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals",
+      "p": [
+        "Most BI suppliers stop at the dashboard. Because we also run marketing, websites and AI work, we can connect what your ads, website and sales team do to the revenue figures, and act on what the dashboards show. One Signal Lead owns the whole thing. If you are comparing business intelligence consultancy, Manchester options included, ask each supplier who defines the KPIs and who fixes a feed when it breaks. Related pages: Power BI consulting, data engineering, AI automation and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Power BI or something else?",
+      "a": "Mostly Power BI, because many Manchester firms already pay for Microsoft 365, but we also build in Looker Studio and Tableau. We recommend the tool based on what you already own, who needs access and your budget, not on a partnership. If you have dashboards already, we can rebuild or tidy them rather than start again."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "That depends on how many data sources are involved and how clean they are. We usually aim to put a first working dashboard on real data in front of you early, then improve it in short cycles. The dated plan we agree at the start shows exactly when each report should arrive."
+    },
+    {
+      "q": "Can you combine data from our CRM, finance system and online shop?",
+      "a": "Yes, that is the core of the work. We connect sources such as HubSpot, Salesforce, Xero, Sage, Shopify, Google Analytics and ad platforms into one model, so a single dashboard can show marketing spend, orders, margin and cash together. Where a system has no direct connector we use exports or APIs."
+    },
+    {
+      "q": "Will our dashboards comply with UK GDPR?",
+      "a": "We design them to. That means limiting personal data to what each user needs, using row-level security, keeping data in UK hosting where required and documenting where every field comes from. Your data protection lead gets that documentation to review against ICO guidance before launch."
+    },
+    {
+      "q": "What happens to our existing Excel reports?",
+      "a": "We do not throw them away on day one. We study them first, because they show what your team actually needs to see. Then we rebuild the useful ones on automated data, retire the ones nobody opens, and keep a short overlap period so finance can check the new figures match before the old spreadsheet is switched off."
+    },
+    {
+      "q": "Do you come to Manchester for workshops?",
+      "a": "When the project needs it, yes. KPI definition workshops with the leadership team are often quicker in person, and your Signal Lead travels up from London for them. Everyday building and reviews run remotely in normal UK working hours, which keeps the project moving between visits."
+    },
+    {
+      "q": "We are a small finance team. Is BI worth it for us?",
+      "a": "Often it is most valuable for small teams, because automated reporting gives back the days spent building spreadsheets each month. We scale the project to the business: sometimes that is one well-built dashboard and a scheduled report, not a large data warehouse."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/locations/manchester/ai-automation",
+    "/locations/london/business-intelligence",
+    "/locations/manchester/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "business intelligence consultancy manchester",
+    "secondary": [
+      "data analytics consultancy manchester",
+      "power bi consultancy manchester",
+      "bi consultant manchester"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "path": "/locations/chicago/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Chicago, IL | 22 Signals",
+  "description": "Web development for Chicago firms: redesigns, migrations that keep rankings, client portals and e-commerce for law firms, manufacturers and food brands.",
+  "eyebrow": "Web Development in Chicago",
+  "h1": "Web development for Chicago firms that have outgrown their site",
+  "intro": "We do web development for established Chicago companies whose website no longer matches the business: redesigns, CMS rebuilds, migrations that keep your Google rankings, e-commerce and secure client portals. Typical clients are Loop law and accounting firms, suburban manufacturers, distributors and food brands. You get a faster site that brings in inquiries, built and looked after by one team.",
+  "sections": [
+    {
+      "h": "The site was fine in 2017",
+      "p": [
+        "Plenty of Chicago companies run on a website built for a different version of the business. The product catalog lives in PDFs. The careers page lists roles filled two years ago. The CMS needs a plugin update nobody dares to run. Meanwhile buyers check the site before every call, and so do the AI assistants they ask for recommendations.",
+        "A rebuild is the obvious answer, but the risk is real: a careless relaunch can wipe out rankings that took years to earn. Good web development. Chicago firms need a rebuild that protects what already works and fixes what does not."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Website rebuilds and redesigns with clear service pages, fast load times and accessible design.",
+        "Migrations that keep rankings: URL mapping, redirects, metadata and content carried across, then checked after launch.",
+        "CMS setups your marketing team can actually edit, on WordPress or a headless CMS.",
+        "E-commerce for brands and distributors, including B2B ordering and account pricing.",
+        "Client portals with secure logins, document sharing and payments.",
+        "Website care and security: updates, backups, uptime monitoring and fixes."
+      ]
+    },
+    {
+      "h": "Chicago sites we know how to build",
+      "list": [
+        "Law firms in the Loop and River North: practice area pages written for real searches, attorney profiles, intake forms that route to the right team, and client portals.",
+        "Manufacturers and industrial suppliers: product catalogs with specs and drawings, RFQ forms that feed your CRM, and distributor locators across the Midwest.",
+        "Food and consumer brands around Fulton Market: brand sites, recipe and product pages, store locators and direct-to-consumer shops.",
+        "Logistics and freight firms: quote request flows, shipment tracking pages and carrier sign-up portals.",
+        "Healthcare practices and health tech: appointment booking, patient forms and HIPAA-aware handling of anything a patient submits.",
+        "Accounting, consulting and insurance firms: credibility, clear services and lead capture for the suburbs as well as downtown."
+      ]
+    },
+    {
+      "h": "Choosing a partner for web development: Chicago red flags",
+      "p": [
+        "We hear the same stories from Chicago firms that had a bad rebuild. Avoid them by watching for a few warning signs when you compare quotes for web development. Chicago buyers should be wary of:"
+      ],
+      "list": [
+        "No plan for redirects, or a shrug when you ask what happens to your current rankings.",
+        "A design presented before anyone has asked what your sales team needs from the site.",
+        "A proprietary CMS that only the agency can edit.",
+        "No mention of security updates, backups or who looks after the site after launch.",
+        "Accounts, domains and hosting set up in the agency's name instead of yours."
+      ]
+    },
+    {
+      "h": "Proof: a client portal for a US law firm",
+      "p": [
+        "We built a client portal for a US law firm where clients log in, see their documents and pay invoices in one place. The firm's staff stopped emailing files back and forth, and clients stopped calling to ask for copies. Chicago firms with heavy document traffic, in law, accounting or insurance, are a natural fit for the same approach."
+      ]
+    },
+    {
+      "h": "Forms, data and Illinois law",
+      "p": [
+        "Every contact form, portal and checkout collects personal information, and the Illinois Personal Information Protection Act expects reasonable security for it. We use encrypted connections, store only what you need, restrict admin access and keep software patched, because outdated plugins are the usual way small business sites in Chicago and everywhere else get hacked.",
+        "If your site or portal would use face matching for ID checks or voice features, BIPA applies, and we plan written consent and retention rules before launch or recommend a different approach."
+      ]
+    },
+    {
+      "h": "How it works",
+      "list": [
+        "Talk: we review your current site, analytics and rankings, and agree goals for the new one.",
+        "Plan: sitemap, content plan, URL mapping and a written timeline.",
+        "Build: design, development and content, with reviews at each stage on a staging site.",
+        "Grow: launch, post-launch ranking checks, and ongoing care, SEO and improvements."
+      ]
+    },
+    {
+      "h": "Working with a London team",
+      "p": [
+        "We handle web development. Chicago clients work with us remotely from London. Design reviews happen in your morning, which is our afternoon, and build work carries on at our end between reviews, so each review has something new to look at. Launches are scheduled for low-traffic hours on Central Time.",
+        "One Signal Lead runs the project and owns the timeline. If a workshop in Chicago with your partners or leadership would speed up sign-off, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "Number of pages and templates, and how much content needs writing.",
+        "Migration complexity: how many URLs and how much ranking value is at stake.",
+        "Integrations with your CRM, ERP, practice management or payment systems.",
+        "E-commerce or portal features.",
+        "Ongoing care and support after launch."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Most site rebuilds pair with SEO and GEO so the new pages show up in Google and in AI answers. Paid media brings traffic while organic grows. For apps your customers or staff install, see app development."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a new website hurt our Google rankings?",
+      "a": "Not if the migration is handled properly. We map every old URL to a new one, set redirects, carry over titles and content that rank, and check rankings and errors after launch. Most ranking drops after a Chicago site relaunch come from skipped redirects or deleted pages, and both are preventable."
+    },
+    {
+      "q": "Do you build websites for Chicago law firms?",
+      "a": "Yes. Law firms are one of our most experienced sectors. We build practice area pages, attorney profiles and intake forms, plus secure client portals with documents and payments. We also handle security for law firm sites, including clean-ups after a site has been compromised, which is more common than most firms think."
+    },
+    {
+      "q": "Can you build B2B ordering for a Chicago distributor?",
+      "a": "Yes. We build B2B shops with customer accounts, account-specific pricing, quick reorder and quote requests, connected to your ERP or inventory system where possible. For Chicago distributors serving the Midwest, that usually means fewer phone and email orders for your inside sales team to key in by hand."
+    },
+    {
+      "q": "Which CMS do you use?",
+      "a": "Mostly WordPress for marketing sites, because it is widely known and easy for teams to edit, and a headless CMS when a site needs more speed or custom features. We recommend based on who will edit the site and what it must connect to. Either way, your team gets training and full access."
+    },
+    {
+      "q": "Do you meet Chicago clients in person?",
+      "a": "We work remotely from London and hold reviews on video during the Chicago morning. That covers almost every web project. If a kick-off or content workshop with your leadership would help, we plan a visit to Chicago when the project needs it. We do not have a Chicago office or local staff."
+    },
+    {
+      "q": "Do you look after the site after launch?",
+      "a": "Yes. Website care covers updates, backups, uptime and security monitoring, small changes and performance checks. Outdated plugins and weak passwords are the most common way sites get hacked, so regular care matters as much as the build. Many clients also keep us on for SEO and content."
+    },
+    {
+      "q": "How long does a website rebuild take?",
+      "a": "It depends on the number of pages, the content and the integrations. A focused marketing site takes less time than a large catalog or a site with a client portal. For web development, Chicago firms with partner or board sign-off should plan time for approvals as well as the build. We agree the timeline and review dates in writing at the planning stage."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/web-app-development",
+    "/locations/chicago/seo-geo",
+    "/locations/chicago/app-development",
+    "/locations/chicago/paid-media",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development chicago",
+    "secondary": [
+      "web development company chicago",
+      "website design chicago",
+      "chicago web developer",
+      "law firm website chicago"
+    ]
+  }
+}

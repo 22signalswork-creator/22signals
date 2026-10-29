@@ -1,0 +1,133 @@
+{
+  "path": "/locations/san-francisco/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence in San Francisco, CA | 22 Signals",
+  "description": "Business intelligence and data analytics for San Francisco companies: one set of numbers for the board, finance and product, built on data you trust.",
+  "eyebrow": "Business Intelligence and Data Analytics in San Francisco",
+  "h1": "Business intelligence and data analytics for San Francisco companies",
+  "intro": "We give San Francisco companies one version of their numbers. We design the metrics, connect product, billing, CRM and finance data into a warehouse, and build dashboards and reports that finance, the board and the product team all trust. It suits SaaS, AI, fintech and health companies that have outgrown spreadsheets and arguments about whose figure is right.",
+  "sections": [
+    {
+      "h": "The problem: three dashboards, three different answers",
+      "p": [
+        "A familiar Monday in SoMa: the chief executive quotes ARR from the billing tool, finance has a different figure in its model, and the product team's dashboard shows a third. Each is right by its own definition. Nobody wrote the definitions down, so every board meeting starts with a reconciliation.",
+        "AI companies have a newer version of the same problem. Gross margin now depends on model inference costs that sit in a cloud bill, not in the finance system, so the margin story you tell investors may be weeks out of date. Business intelligence work fixes the plumbing and the definitions together.",
+        "Further from SoMa the details change but the pattern holds. A Mission Bay biotech tracks program spend in one tool and milestones in another. A Financial District consultancy knows its revenue but not which clients are profitable. The fix starts with agreeing what each number means."
+      ]
+    },
+    {
+      "h": "What business intelligence San Francisco teams get from us",
+      "list": [
+        "Data strategy and KPI design: a written metric dictionary that finance and product both sign.",
+        "A warehouse and pipelines on BigQuery, Snowflake or Azure, fed from your product database, billing, CRM and ad platforms.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who read them, not for the analyst who made them.",
+        "Automated reporting: the weekly metrics email and the monthly board pack produced without copy and paste.",
+        "Forecasting for revenue, cash and usage, with the assumptions visible.",
+        "Data quality checks that flag a broken feed before a wrong number reaches a meeting."
+      ]
+    },
+    {
+      "h": "Metrics Bay Area companies ask for most",
+      "list": [
+        "SaaS: recurring revenue movement, net revenue retention, logo churn, payback on acquisition cost and pipeline coverage.",
+        "AI products: usage per account, inference cost per customer, and gross margin by plan.",
+        "Fintech: transaction volumes, loss rates, funnel conversion and reconciliation between ledger and processor.",
+        "Biotech and health: program spend against budget, operational data from clinics and labs, and grant or milestone tracking.",
+        "Professional services in the Financial District: utilization, realization, matter or project profitability and aged receivables."
+      ]
+    },
+    {
+      "h": "How it runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we interview the people who make decisions from the numbers and list the questions they cannot answer today. Plan: we write the metric definitions and the data sources for each, and agree dates in writing. Build: pipelines first, then the model, then the dashboards, tested against figures your finance lead already trusts. Grow: we add new sources and reports as you need them, and train your team to change dashboards without us."
+      ]
+    },
+    {
+      "h": "Privacy rules reach the warehouse too",
+      "p": [
+        "Under California's privacy law, a deletion request does not stop at your app. If the customer's data sits in your warehouse, your reporting copies and your marketing tools, the request has to reach those as well. We design pipelines so personal data is kept to what reporting needs, tagged where it lives, and removable when a request comes in. For health data we keep identifiable records out of general dashboards, with the Confidentiality of Medical Information Act in mind."
+      ]
+    },
+    {
+      "h": "A track record built on reporting",
+      "p": [
+        "We have managed over $1.5 million in projects, and every one of them ran on a weekly report the client could check. That habit shapes how we build business intelligence for San Francisco clients: every dashboard has an owner, a definition for every number and a date when it was last checked."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Data work fits the eight-hour gap: pipeline runs, data checks and dashboard changes happen during our day, so fresh numbers are waiting when the city starts work. Reviews happen on a weekly call in the Pacific morning. On-site visits happen when the project needs them, for example a board pack workshop."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "The number of data sources and how messy they are.",
+        "Whether a warehouse already exists or needs building.",
+        "How many dashboards and audiences: board, finance, sales, product.",
+        "Forecasting depth and how often it updates.",
+        "Training and ongoing support after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "One accountable lead owns the numbers project from metric definitions to the last dashboard. Because we also run cloud and marketing work, we can connect ad spend to pipeline and product usage without three vendors arguing over access. Clients who need deeper Microsoft work use our Power BI consulting; those with heavy data volumes add data engineering, and our cloud consulting team keeps the warehouse bill in check.",
+        "The business intelligence San Francisco clients hire us for usually starts small: one dashboard the leadership team opens every Monday. Once that is trusted, the rest follows."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which BI tool should a San Francisco SaaS company use?",
+      "a": "It depends on what you already run. Teams on Google Workspace and BigQuery often start with Looker Studio. Microsoft shops, and finance teams living in Excel, usually suit Power BI. Tableau fits where analysts already know it. We recommend one after seeing your data and your users, and we are not paid by any vendor."
+    },
+    {
+      "q": "Can you build our board reporting for investors?",
+      "a": "Yes. Board packs are one of the most common requests we get in business intelligence. San Francisco companies with venture investors need ARR, retention, burn and runway reported the same way every month. We automate the data behind the pack, so finance reviews it rather than rebuilds it."
+    },
+    {
+      "q": "Do you work with Snowflake or BigQuery?",
+      "a": "Both, plus Azure and Databricks. If you already have a warehouse, we build on it. If not, we recommend one based on your cloud, your data volumes and who will maintain it. We also review warehouse costs, because query bills can grow quietly once dashboards refresh every few minutes."
+    },
+    {
+      "q": "How do you handle CCPA deletion requests in analytics data?",
+      "a": "We keep personal data in reporting to what is needed, tag the tables that hold it, and build a deletion step that runs across the warehouse and downstream copies. Most dashboards work on aggregated data, so a deletion rarely breaks them. Your privacy lead gets documentation of where each kind of personal data lives."
+    },
+    {
+      "q": "Do you meet clients in San Francisco?",
+      "a": "We work remotely from London with teams across four regions and hold live sessions in the Pacific morning, which is late afternoon in London. For a metrics workshop with your leadership team, we can plan a visit when the project needs it. Most BI projects run well by video and shared documents."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "It depends on how many sources need connecting and how clean they are. We usually ship one useful dashboard early on a small set of sources, then widen it. The dates go in the written scope, and the Signal Lead flags any risk to them as soon as it appears."
+    },
+    {
+      "q": "Can our team maintain the dashboards after you finish?",
+      "a": "Yes, that is the goal. We document every metric and data source, train the people who will edit dashboards, and hand over all accounts. Some clients keep us on a monthly plan for new sources and changes, and others run it in house after the handover."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/san-francisco/cloud-consulting",
+    "/locations/los-angeles/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence san francisco",
+    "secondary": [
+      "data analytics consulting san francisco",
+      "bi consultant bay area",
+      "power bi consultant san francisco",
+      "saas metrics dashboard"
+    ]
+  }
+}

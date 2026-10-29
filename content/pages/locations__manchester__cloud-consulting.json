@@ -1,0 +1,135 @@
+{
+  "path": "/locations/manchester/cloud-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consultancy",
+  "title": "Cloud Consultancy Manchester: AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consultancy Manchester firms use for AWS, Azure and Google Cloud: secure architecture, UK hosting, monitoring and cost reviews that cut wasted spend.",
+  "eyebrow": "Cloud Consulting in Manchester",
+  "h1": "Cloud consultancy Manchester businesses can run on with confidence",
+  "intro": "Our cloud consultancy designs, secures and runs AWS, Azure and Google Cloud environments for established Manchester companies. We review what you have, fix security and access, set up monitoring, cut wasted spend and keep data in UK regions where it needs to be. You get a cloud setup that is documented, watched and owned by someone.",
+  "sections": [
+    {
+      "h": "When the cloud bill and the risk both creep up",
+      "p": [
+        "Many Manchester firms moved to the cloud in a hurry: a developer set up an AWS account for the website, finance went onto Azure with Microsoft 365, and a product team spun up Google Cloud for a project that has since ended. Years later, nobody is sure what is still running, who has admin rights or why the monthly bill keeps rising.",
+        "That is when an outside cloud review pays for itself. Old servers get switched off, forgotten accounts get closed, and the setup that stays is properly secured.",
+        "Reviews like this commonly turn up the same three issues: admin rights shared between too many people, backups that have never been tested, and resources that were built for a peak and never scaled back down."
+      ]
+    },
+    {
+      "h": "What our cloud consultancy includes",
+      "list": [
+        "Architecture on AWS, Google Cloud and Azure, designed around how your applications really behave.",
+        "Security and access control: least-privilege roles, multi-factor sign-in, secrets management and logging.",
+        "Monitoring and alerting so problems are seen before customers notice them.",
+        "Cost reviews: idle resources, oversized machines, storage nobody reads and reserved capacity worth buying.",
+        "Managed cloud operations if you want us to keep running it after the review.",
+        "Migration and DevOps support when the review shows something should move or be automated."
+      ]
+    },
+    {
+      "h": "UK data residency and regulation",
+      "p": [
+        "All three major providers have UK regions: AWS and Google Cloud both run regions in London, and Microsoft Azure has UK South and UK West. For Manchester firms handling client files, patient information or financial records, keeping data in those regions is often the simplest way to meet contracts and client expectations.",
+        "Location is only part of it. UK GDPR and the Data Protection Act 2018 require appropriate security for personal data, and the ICO, whose head office is in Wilmslow just south of Manchester, can take action after a breach caused by weak controls. We document the controls in place so you can show your clients, auditors and insurers what protects their data. If you are working towards Cyber Essentials, we can help prepare the cloud side."
+      ]
+    },
+    {
+      "h": "Cloud consultancy Manchester industries need",
+      "list": [
+        "Fashion and e-commerce brands: sites and order systems that must stay up during sales peaks and drops, with costs that fall back afterwards.",
+        "Spinningfields law and financial firms: tight access control, audit logs and data kept in the UK for client and regulator confidence.",
+        "SaaS and tech companies across Greater Manchester's tech scene: scalable architecture, separate environments and cost per customer they can understand.",
+        "Media and production businesses around MediaCityUK in Salford: large file storage, transfer and archive that does not cost a fortune.",
+        "Health and life sciences organisations on the Oxford Road Corridor: secure environments for sensitive data and research workloads."
+      ]
+    },
+    {
+      "h": "How a cloud engagement runs",
+      "list": [
+        "Talk: a 15-minute fit check, then read-only access to your accounts.",
+        "Plan: a written findings report covering security gaps, savings and risks, ranked by urgency, with dates for each fix.",
+        "Build: we make the changes, test them and document every decision.",
+        "Grow: ongoing monitoring, monthly cost reviews and changes as your applications grow."
+      ]
+    },
+    {
+      "h": "Proof from security work",
+      "p": [
+        "Part of our background is cleaning up after things have gone wrong. We have carried out security clean-ups of compromised law-firm websites: finding how attackers got in, removing what they left behind, closing the gaps and setting up monitoring so it does not happen again. That experience shapes how we design cloud environments from the start."
+      ]
+    },
+    {
+      "h": "Serving Manchester from London",
+      "p": [
+        "Our head office is in London; we have no office or staff in Manchester. Cloud work is almost entirely remote by nature, so it makes little practical difference where the engineers sit. Manchester keeps London time, so your team and ours share the same hours for calls, change windows and incident response planning. If a review needs a session with your board or an on-site look at existing kit, your Signal Lead travels to Manchester when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many cloud accounts, providers and environments you run.",
+        "The size and complexity of your applications and data.",
+        "Whether you need a one-off review or ongoing managed operations.",
+        "Security and compliance requirements from clients, insurers or regulators.",
+        "How much documentation and training your team wants."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Cloud specialists often stop at infrastructure, and marketing agencies rarely touch it. We do both, so the website, apps, data pipelines and AI tools that sit on your cloud are built by the same company that runs it, under one Signal Lead. When you choose a cloud consultancy, Manchester firms included, the useful question is who owns the whole stack once it is live. With us, the answer is one person. Related pages: cloud migration, DevOps consulting, data engineering and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud provider is best for a Manchester business?",
+      "a": "It depends on what you already use and what you are building. Firms deep in Microsoft 365 often find Azure easiest to manage; many web and SaaS teams prefer AWS; data-heavy teams may favour Google Cloud. All three offer UK regions. We recommend based on your systems and skills, not a reseller margin."
+    },
+    {
+      "q": "Can you keep our data in the UK?",
+      "a": "Yes. AWS and Google Cloud have London regions and Azure has UK South and UK West. We configure storage, databases and backups to stay in those regions, and check that logging and third-party services do not quietly copy data elsewhere. We document the setup for your clients and auditors."
+    },
+    {
+      "q": "How much can a cloud cost review save?",
+      "a": "We will not quote a number before we have looked, because it depends on how the environment has grown. Common savings come from switching off idle resources, right-sizing machines, tidying storage and buying reserved capacity for steady workloads. The findings report shows each saving and the effort to achieve it."
+    },
+    {
+      "q": "We still run servers in a Manchester office. Should they move?",
+      "a": "Not always. Some workloads, such as an old line-of-business system or a file server used by a small team, are fine where they are for now. We look at age, risk, cost and what the hardware supports, then recommend move, replace or keep, with the reasoning written down. If moving makes sense, our cloud migration service plans it with minimal downtime."
+    },
+    {
+      "q": "Do you need to be on site in Manchester?",
+      "a": "Rarely. Cloud consultancy is done through secure remote access, so almost all work happens from London during UK hours. We come to Manchester when the project needs it, for example a board briefing on security findings or a review of on-premises servers before a move."
+    },
+    {
+      "q": "Can you help after a security incident?",
+      "a": "Yes. We have cleaned up compromised websites and closed the gaps attackers used. For a live incident we help contain it, preserve evidence and restore service, and we advise on whether you may need to report a personal data breach to the ICO within 72 hours. Legal advice on reporting should come from your solicitor."
+    },
+    {
+      "q": "Do you offer ongoing managed cloud support?",
+      "a": "Yes. After a review, clients can keep us on to run monitoring, patching, backups, cost reviews and changes. We agree the scope and response expectations in writing, and your Signal Lead reports each month on what changed, what it cost and what we recommend next."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/london/cloud-consulting",
+    "/locations/manchester/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consultancy manchester",
+    "secondary": [
+      "cloud consulting manchester",
+      "aws consultant manchester",
+      "azure consultancy manchester"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "path": "/services/ai-automation",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "AI automation services",
+  "title": "AI Automation Services: Custom AI Tools | 22 Signals",
+  "description": "AI automation services for established companies: custom AI tools, workflow automation across email, CRM and spreadsheets, and assistants with human hand-off.",
+  "eyebrow": "AI and Automation",
+  "h1": "AI automation services that take repetitive work off your team",
+  "intro": "22 Signals delivers AI automation services for companies whose people spend hours on copy, paste and follow-up. We build custom AI tools, automate workflows across email, CRM and spreadsheets, create internal tools and reporting systems, and set up AI assistants that hand off to a person when it matters. We scope each build, ship it, and measure what changed.",
+  "sections": [
+    {
+      "h": "The work nobody was hired to do",
+      "p": [
+        "Every growing company has a layer of work that sits between its tools. An inquiry arrives by email and someone types it into the CRM. A form is submitted and someone copies it into a spreadsheet, then sends a confirmation by hand. Each Friday a manager pulls numbers from four systems to build a report that is out of date by Monday.",
+        "None of these tasks is hard. Together they eat a large share of skilled people's weeks, they cause errors that customers notice, and they are the reason a team feels stretched long before it is actually at capacity. This is the work we automate first.",
+        "The fix is not always AI. Sometimes it is a form that captures the right details the first time, or two systems connected so data only gets entered once. We start with the simplest change that removes the manual step, and bring in AI where a person would otherwise have to read, interpret or write something before the work can move on."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read, sort, summarize and draft from emails, documents and forms",
+        "Workflow automation across email, CRM, spreadsheets, calendars, accounting and project tools",
+        "AI assistants on your website or WhatsApp that answer questions, qualify leads and book appointments, then hand off to a person",
+        "Internal tools and dashboards for operations, finance and sales teams",
+        "Research and reporting systems that gather data and produce a written summary on a schedule",
+        "Document handling: intake, classification, data extraction and filing",
+        "Sales follow-up: lead research, personalized first drafts and reminders inside your CRM"
+      ]
+    },
+    {
+      "h": "Examples by team",
+      "list": [
+        "Sales: new leads researched and scored as they arrive, with a draft reply waiting for the rep to approve",
+        "Customer service: common questions answered at any hour, with anything unusual routed to the right person and the full conversation attached",
+        "Operations: intake forms checked for missing information, jobs created in the project tool and the client told what happens next",
+        "Finance: invoices read, matched against orders and flagged when the numbers don't agree",
+        "Marketing: content briefs, product descriptions and campaign reports produced from your own data, reviewed by an editor",
+        "Leadership: a weekly summary that pulls the numbers from every system and explains what moved"
+      ]
+    },
+    {
+      "h": "How we decide what to automate",
+      "p": [
+        "We look at three things for each task: how often it runs, how long it takes, and what an error costs. A task that runs fifty times a day and takes three minutes is often a better first build than one that runs monthly and takes a day.",
+        "Then we decide what kind of automation fits. If the task follows clear rules, a plain workflow is faster, costs less to run and is easier to trust than AI. AI earns its place when the input is messy, such as unstructured text in emails, scanned documents or varied customer questions, and judgment is needed to sort or draft. Most good builds combine both."
+      ]
+    },
+    {
+      "h": "The last 20 percent: making automation dependable",
+      "p": [
+        "Anyone can build a demo. The part that matters is making a system reliable enough for a business to run on. That means handling edge cases, setting permissions so the tool can only touch what it should, logging every action, and adding a human approval step wherever an output reaches a client or moves money.",
+        "We test AI steps against real examples from your business before launch, track how often a person has to correct them, and set clear fallbacks for when the AI is unsure. Someone on our side answers for the system after it goes live. That is the part we are good at."
+      ]
+    },
+    {
+      "h": "Tools we work with",
+      "p": [
+        "We use what you already have wherever possible: Microsoft 365, Google Workspace, HubSpot, Salesforce, Pipedrive, Slack, Teams, QuickBooks, Xero, Airtable and your industry systems. For orchestration we work with Zapier, Make, n8n and Power Automate, and we write custom code when a workflow outgrows them. AI steps run on the major model providers, including OpenAI, Anthropic and Google, chosen per task for quality, cost and data handling. For messaging we build on the WhatsApp Business Platform."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a fit call, then a session with the people doing the work to list the tasks that repeat",
+        "Plan: rank the tasks, choose the first builds, record a baseline of time and errors, and agree dates in writing",
+        "Build: ship the first automation quickly on real work, with testing, permissions and human approval steps in place",
+        "Grow: measure the change against the baseline, fix what people trip over, then move to the next build on the list"
+      ]
+    },
+    {
+      "h": "Proof from our own business and our clients",
+      "p": [
+        "We have delivered more than 30 AI builds for businesses that used to run the old way, covering custom AI tools, internal systems and automations. We also run our own company on what we sell: we built a complete outbound sales engine for 22 Signals, covering list building, research, sending and CRM updates, before building similar systems for anyone else.",
+        "One Signal Lead runs each engagement, with specialists in AI, cloud and data behind them, and marketing and video specialists when a build touches customers. When an automation needs a bigger foundation, the same team moves into custom AI development, data engineering or business optimization."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. The cost of AI automation services depends on scope, confirmed in writing after the first call. Software and AI usage fees from vendors sit apart from our work."
+      ],
+      "list": [
+        "How many workflows and systems are involved",
+        "Whether ready-made connectors exist or custom integration is needed",
+        "How much AI judgment the task needs and how much testing that requires",
+        "Security, privacy and approval requirements",
+        "Volume of work the automation will handle each day",
+        "Support, monitoring and changes after launch"
+      ]
+    },
+    {
+      "h": "Cities we serve for AI automation",
+      "p": [
+        "We meet London clients at our head office there, and deliver automation remotely for companies in New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami in the United States; Manchester and Birmingham in the United Kingdom; Dubai and Abu Dhabi in the UAE; and Lahore, Karachi and Islamabad in Pakistan. We keep meeting hours that overlap each city's working day and travel on site when a project needs it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are AI automation services?",
+      "a": "AI automation services combine workflow automation with AI to take repetitive work off a team. Rules-based steps move data between tools, and AI handles the parts that need judgment, such as reading emails, sorting documents or drafting replies. At 22 Signals we scope, build, test and support these systems, with human approval wherever it matters."
+    },
+    {
+      "q": "What can AI automate in a business?",
+      "a": "Common first builds are replying to inquiries out of hours, booking and reminders, lead research and follow-up, invoice and document handling, data entry between systems, and weekly reporting. The best first build is usually the task your team repeats most and likes least, because the saved time is visible quickly."
+    },
+    {
+      "q": "Do you use off-the-shelf tools or build custom?",
+      "a": "Both. We use tools such as Zapier, Make, n8n or Power Automate where they fit, and write custom code where they don't. AI steps run on the major model providers. Then we connect everything to the systems your team already uses, so people keep working where they are comfortable rather than learning a new app."
+    },
+    {
+      "q": "Is it safe to let AI talk to our customers?",
+      "a": "It is safe when it is designed with limits. Our assistants answer from approved information only, say clearly that they are automated, hand off to a person for anything sensitive or unclear, and log every conversation for review. We test them against real questions before launch and keep monitoring how often a person has to step in."
+    },
+    {
+      "q": "How long does an AI automation build take?",
+      "a": "It depends on scope. A focused automation between a few tools can go live quickly, while larger internal systems are planned in phases. Every phase gets a date in writing before we start, and we aim to put the first build into real use early so you see the result before committing to more."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "In our experience it mostly changes what people spend their time on. The copy, paste and chasing goes, and the same people handle more clients, respond faster and spend more time on work that needs their judgment. Where a role changes significantly, we help you plan the transition and train the team on the new tools."
+    },
+    {
+      "q": "How much do AI automation services cost?",
+      "a": "It depends on how many workflows and systems are involved, how much AI judgment the task needs, integration work, security requirements and the support you want after launch. Vendor software and AI usage fees are separate. We don't publish prices; after a short call we send a written scope with dates."
+    }
+  ],
+  "related": [
+    "/services/custom-ai-development",
+    "/services/whatsapp-automation",
+    "/services/ai-consulting",
+    "/services/business-optimization",
+    "/services/data-engineering"
+  ],
+  "keywords": {
+    "primary": "ai automation services",
+    "secondary": [
+      "ai automation agency",
+      "ai workflow automation",
+      "business process automation",
+      "ai automation consulting",
+      "custom ai tools",
+      "ai agents for business"
+    ]
+  }
+}

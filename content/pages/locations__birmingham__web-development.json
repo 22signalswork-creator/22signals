@@ -1,0 +1,139 @@
+{
+  "path": "/locations/birmingham/web-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company Birmingham | 22 Signals",
+  "description": "Web development for Birmingham businesses: rebuilds and migrations that keep rankings, e-commerce, client portals and website care. One lead, dates in writing.",
+  "eyebrow": "Web Development in Birmingham",
+  "h1": "Web development company Birmingham firms hire for sites that rank, convert and last",
+  "intro": "We design and build websites, e-commerce stores and client portals for established Birmingham businesses. That includes redesigns, platform migrations that keep your Google rankings, content management your team can use, and ongoing care and security. Manufacturers, professional firms, clinics and retailers get a site that brings in enquiries and keeps working long after launch.",
+  "sections": [
+    {
+      "h": "When the website stops pulling its weight",
+      "p": [
+        "We hear the same story from Birmingham companies again and again. The site was built five or more years ago by someone who has since moved on. Nobody internally can change more than the news page. It is slow on a phone, the contact form occasionally goes nowhere, and a competitor half your size looks more established online.",
+        "For a business that wins work through reputation, that is a real cost. Buyers check your site before they call, procurement teams check it before they shortlist, and search engines and AI assistants read it to decide whether to recommend you.",
+        "The fix is not always a full rebuild. Sometimes a faster theme, rewritten service pages and a working enquiry route are enough. We tell you which, after looking at your analytics and how leads actually arrive."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Websites and redesigns: fast, accessible sites built around how your buyers decide.",
+        "Migrations that keep rankings: page-by-page redirect maps, preserved content and checks after launch, so years of search history are not thrown away.",
+        "CMS set-up: WordPress, Webflow or a headless CMS that your marketing team can update without a developer.",
+        "E-commerce: Shopify, WooCommerce or custom checkouts with stock, delivery and payment integrations.",
+        "Client portals: secure areas for documents, updates and payments.",
+        "Website care and security: updates, backups, uptime monitoring and fixes on an agreed plan."
+      ]
+    },
+    {
+      "h": "Websites for Birmingham's industries",
+      "list": [
+        "Manufacturers and automotive suppliers: capability pages, accreditations, technical spec sheets and an enquiry route that captures drawings and quantities, so sales gets a usable lead instead of a vague email.",
+        "Law, accountancy and financial firms in the Colmore Business District: practice-area pages that answer real client questions, clear team profiles and, for solicitors, the pricing information and SRA badge the transparency rules require.",
+        "Clinics in and around the Edgbaston Medical Quarter: treatment pages, online booking and practitioner profiles that build trust before the first appointment.",
+        "Logistics and distribution: service and coverage pages, quote request tools and customer log-ins for tracking and documents.",
+        "Jewellery Quarter makers and independent retailers: product pages with strong photography or 3D renders, commission enquiry forms and online sales."
+      ]
+    },
+    {
+      "h": "Built for UK rules: data, cookies and accessibility",
+      "p": [
+        "A website collects personal data from the first form. We set it up for UK GDPR and the Data Protection Act 2018 from the start: a clear privacy notice, forms that only ask for what you need, and data sent to systems you control. Cookie banners follow PECR and ICO guidance, which means analytics and advertising cookies stay off until a visitor agrees.",
+        "We build to WCAG accessibility standards as a default. It helps people using screen readers and keyboards, it reduces risk under the Equality Act, and it tends to make sites faster and clearer for everyone."
+      ]
+    },
+    {
+      "h": "From first call to launch",
+      "list": [
+        "Talk: we look at your current site, analytics and enquiries, and talk to the people who handle leads.",
+        "Plan: a written sitemap, content plan, redirect map and timeline with every date in writing.",
+        "Build: design, then development on a staging site you can review at any time.",
+        "Grow: launch, post-launch checks on rankings and forms, then care, SEO and conversion improvements."
+      ]
+    },
+    {
+      "h": "Work we can point to",
+      "p": [
+        "One recent build was a client portal with documents and payments for a US law firm, where clients log in to see their case files and pay securely. We also clean up compromised law-firm websites, removing malware, closing the hole it came through and putting monitoring in place so it does not happen again. Both are the kind of high-trust work Birmingham's professional firms need."
+      ]
+    },
+    {
+      "h": "A web development company Birmingham clients work with from London",
+      "p": [
+        "We do not have an office in Birmingham. Our head office is in London and we work with Birmingham businesses remotely, in the same time zone, through video calls, a shared staging site and a weekly written update. For a kick-off workshop with your directors, or a content and photography day at your premises, we come to Birmingham when the project needs it. It is about 80 minutes by train from Euston to New Street.",
+        "Throughout the project you have one Signal Lead, who owns the plan, the dates and the launch."
+      ]
+    },
+    {
+      "h": "What affects the cost of a website",
+      "list": [
+        "Number of pages and templates, and how much content needs writing.",
+        "Platform choice and licences.",
+        "E-commerce, booking, portals or other custom features.",
+        "Integrations with your CRM, ERP, practice management or booking system.",
+        "Migration complexity and how many URLs need redirecting.",
+        "Photography, video or 3D renders.",
+        "Ongoing care and support."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals",
+      "p": [
+        "A typical web development company Birmingham businesses hire builds the site and hands it over. We can also do the SEO, the paid ads, the product renders, the video and the AI tools that sit behind the site, because they are all in one team. That means a site planned with search, ads and content in mind from day one, under one lead. Related: SEO and GEO, paid media and 3D rendering in Birmingham."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I choose a web development company Birmingham businesses can rely on?",
+      "a": "Look for a written scope, a redirect plan if you have an existing site, examples of work similar to yours, clarity on who owns the site and hosting, and a support plan after launch. Ask who you will deal with day to day. With us, it is one Signal Lead throughout."
+    },
+    {
+      "q": "Will a new website lose our Google rankings?",
+      "a": "It should not, if the migration is planned. We map every existing URL to its new home, keep the content that ranks, redirect properly, and check rankings, indexing and forms after launch. Most ranking losses come from skipped redirects and deleted pages, which is exactly what the plan prevents."
+    },
+    {
+      "q": "Do you meet Birmingham clients in person?",
+      "a": "Yes, when the project needs it, usually for the kick-off workshop or a content and photography day. Day-to-day work runs remotely from our London head office in the same time zone, with a staging site you can review at any time and weekly written updates."
+    },
+    {
+      "q": "Which platform do you recommend?",
+      "a": "It depends on who will edit the site and what it needs to do. WordPress suits content-heavy sites and teams used to it. Shopify suits most online shops. Webflow and headless CMS options suit design-led sites. We recommend based on your team, integrations and long-term costs."
+    },
+    {
+      "q": "Can you build a client portal for our firm?",
+      "a": "Yes. We have built a client portal with documents and payments for a US law firm. For Birmingham firms, we design portals around UK GDPR, with secure log-ins, role-based access, audit trails and hosting in the UK where your clients expect it."
+    },
+    {
+      "q": "Do you look after the site after launch?",
+      "a": "Yes, if you want us to. Website care covers updates, backups, uptime and security monitoring, and small changes. We also run SEO and conversion improvements for clients who want the site to keep growing enquiries, not just stay online."
+    },
+    {
+      "q": "How long does a website project take?",
+      "a": "It depends on the number of pages, the features and how quickly content and approvals come together. A focused rebuild is much quicker than an e-commerce site with integrations. Every date goes in the written scope before work starts, so you know when each stage lands."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/web-app-development",
+    "/locations/birmingham/seo-geo",
+    "/locations/birmingham/app-development",
+    "/locations/birmingham/3d-rendering",
+    "/locations/london/web-development"
+  ],
+  "keywords": {
+    "primary": "web development company birmingham",
+    "secondary": [
+      "web design birmingham",
+      "website developers birmingham",
+      "ecommerce web development birmingham",
+      "web development west midlands"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "path": "/locations/san-francisco/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in San Francisco: Google, Meta, LinkedIn",
+  "description": "Paid media for San Francisco companies: Google, Meta, LinkedIn and TikTok ads with in-house creative, tracking tied to pipeline, and CCPA-aware setup.",
+  "eyebrow": "Paid Media in San Francisco",
+  "h1": "Paid media for San Francisco companies: Google, Meta, LinkedIn and TikTok ads",
+  "intro": "We run paid media for San Francisco companies on Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. We make the creative in-house, build the landing pages, connect tracking to your CRM, and report on pipeline and revenue rather than clicks. Every setup respects California privacy rules on ad tracking and data sharing.",
+  "sections": [
+    {
+      "h": "Clicks are expensive here, so waste hurts",
+      "p": [
+        "Bay Area buyers are some of the most heavily targeted people on the internet. Every SaaS company wants the same VPs on LinkedIn, and search terms for software, legal and medical services attract bidders from across the country. In that market a campaign that reports form fills but cannot say which ones became pipeline is burning money.",
+        "The fix is not a cleverer bidding trick. It is measuring the right thing, cutting what does not convert into revenue, and giving the platforms better creative and better signals.",
+        "We usually start with an audit of your current accounts. Most paid media San Francisco companies run has the same three gaps: conversions counted on form fills rather than qualified leads, creative that has not changed in months, and budget spread across too many campaigns for the platforms to learn from."
+      ]
+    },
+    {
+      "h": "What our paid media San Francisco clients get",
+      "list": [
+        "Google Search and Performance Max for buyers already looking for what you sell.",
+        "LinkedIn for B2B: account lists, job-title targeting and lead forms that sync to your CRM.",
+        "Meta and TikTok for consumer brands, apps and clinics, with creative built for each feed.",
+        "YouTube for product demos and brand films that need more than six seconds.",
+        "Creative made in-house: static, motion and video, tested in rounds.",
+        "Landing pages built for one audience and one action.",
+        "Conversion and call tracking connected to HubSpot, Salesforce or your own CRM, so spend is judged against deals."
+      ]
+    },
+    {
+      "h": "Ad tracking and California privacy law",
+      "p": [
+        "The CCPA treats sharing personal data for cross-context behavioral advertising as something consumers can opt out of. That means your site needs a working opt-out, and ad pixels have to respect it, including the Global Privacy Control signal from browsers. Tracking pixels and session tools have also been the subject of lawsuits under the California Invasion of Privacy Act.",
+        "We set up consent so platform tags fire only when they should, use server-side and offline conversion uploads where they fit, and document every tag. Health clients get extra care, since ad platforms restrict health targeting and medical privacy law applies."
+      ]
+    },
+    {
+      "h": "Who we run ads for in the Bay Area",
+      "list": [
+        "SaaS and AI companies in SoMa selling to mid-market and enterprise buyers through LinkedIn and Google.",
+        "Fintech brands in the Financial District, where ad copy and offers need compliance review.",
+        "Clinics, dental and aesthetics practices across San Francisco and the Peninsula looking for booked appointments.",
+        "Law firms whose ads must follow the State Bar of California's advertising rules.",
+        "Consumer brands and app companies using Meta, TikTok and YouTube to reach buyers nationwide."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we agree what a qualified lead or sale is worth and how it gets recorded. Plan: channels, budgets by channel, audiences, creative concepts and a written launch date. Build: tracking first, then landing pages and creative, then campaigns. Grow: weekly optimization, creative refreshed in rounds, and a monthly review of cost per qualified lead and pipeline by channel."
+      ]
+    },
+    {
+      "h": "Creative is where most accounts improve",
+      "p": [
+        "Targeting options are now similar for everyone, so the ad itself does most of the work. We run a managed video editing team for a US client, and the same editors and motion designers make ads for our paid media accounts. That lets us test new hooks and formats every few weeks instead of waiting on an outside studio.",
+        "Each round tests one idea at a time, such as a new opening line, a different product shot or a customer problem stated in their own words, so the results tell you something you can use in the next round and in your sales deck."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Campaign checks happen during our day, which is the San Francisco night and early morning, so overnight overspend or a broken landing page gets caught before your team is online. Weekly calls sit in the Pacific morning. On-site visits happen when the project needs them, such as a creative shoot."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of platforms and campaigns.",
+        "How much creative you need each month, and in which formats.",
+        "Landing pages and tracking work at the start.",
+        "CRM integration and offline conversion setup.",
+        "Your ad budget is separate and paid to the platforms directly."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for paid media",
+      "p": [
+        "One accountable lead owns spend, creative and reporting. Because the same team builds websites and makes video, landing pages and new ads do not wait on another agency's queue. Search terms that convert in ads feed the SEO content plan, and pages that rank lower the cost of the ads that point to them. That joined-up view is the point of how we run paid media. San Francisco buyers see your ads, your search results and your AI answers as one impression, so we plan them together."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ad platform is best for a San Francisco B2B SaaS company?",
+      "a": "Usually Google Search for buyers already looking, plus LinkedIn for reaching named accounts and job titles. LinkedIn costs more per click but reaches the decision makers other platforms miss. YouTube helps with demos and retargeting. We pick the mix based on deal size, sales cycle and how many accounts you are after."
+    },
+    {
+      "q": "Do you make the ad creative?",
+      "a": "Yes. Our designers, editors and motion designers make static, video and motion ads in-house, and we test them in rounds. For bigger moments we can produce a full brand film or 3D product renders. You approve every ad before it runs."
+    },
+    {
+      "q": "How do you measure results?",
+      "a": "Against pipeline and revenue where we can. We connect ad platforms to your CRM so each lead's source is recorded, then send qualified leads and closed deals back to the platforms as conversions. Monthly reports show cost per qualified lead and pipeline by channel, not just clicks and impressions."
+    },
+    {
+      "q": "How do you handle CCPA opt-outs for advertising?",
+      "a": "We set up a consent tool that honors browser opt-out signals and your site's opt-out link, and configure ad tags to respect them. Where suitable, we use server-side tracking and offline conversion uploads with data your counsel has approved. Every tag is documented so your privacy policy stays accurate."
+    },
+    {
+      "q": "Can you run ads for our law firm or clinic?",
+      "a": "Yes. Legal ads must follow the State Bar of California's advertising rules, so we avoid promised outcomes and check every claim. Health and clinic ads face platform restrictions on targeting and medical privacy rules. We plan campaigns within both, and you sign off on copy before launch."
+    },
+    {
+      "q": "Do you work with San Francisco clients in person?",
+      "a": "We work remotely from London with teams across four regions. Campaign management, reporting and creative reviews all run well online, and weekly calls sit in the Pacific morning. For a shoot or a planning workshop in the Bay Area, we plan a visit when the project needs it."
+    },
+    {
+      "q": "Is there a minimum ad budget?",
+      "a": "There is no fixed minimum, but budget needs to match the goal. Competitive categories in the Bay Area need enough spend for the platforms to learn. On the first call we tell you honestly whether your budget can reach your goal, and if it cannot, we say so before you spend anything."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/paid-media",
+    "/locations/san-francisco/seo-geo",
+    "/locations/san-francisco/video-animation",
+    "/locations/los-angeles/paid-media",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "paid media san francisco",
+    "secondary": [
+      "ppc agency san francisco",
+      "linkedin ads agency san francisco",
+      "google ads management bay area",
+      "paid social agency san francisco"
+    ]
+  }
+}

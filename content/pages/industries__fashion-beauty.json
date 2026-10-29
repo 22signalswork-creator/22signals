@@ -1,0 +1,131 @@
+{
+  "path": "/industries/fashion-beauty",
+  "kind": "industry",
+  "region": "global",
+  "title": "Fashion and Beauty Marketing and Sourcing | 22 Signals",
+  "description": "Fashion and beauty marketing for brands, salons and retailers: online stores, reels, paid social, local SEO, AI booking and sourcing through partner factories.",
+  "eyebrow": "Fashion, Beauty and Retail",
+  "h1": "Fashion and beauty marketing, from the next collection to the next customer",
+  "intro": "22 Signals handles fashion and beauty marketing for clothing labels, beauty brands, salons and retailers. We build the online store, make the reels and product video, run paid social and search, set up AI that answers customers and books appointments, and source the next collection through partner factories. One team, from the product to the customer.",
+  "sections": [
+    {
+      "h": "The problem: too many suppliers, not enough sales",
+      "p": [
+        "A typical fashion or beauty brand works with a web developer, a content freelancer, an ads agency, a photographer and a factory contact, none of whom talk to each other. The ads team wants new creative every week. The store converts badly on mobile. The factory misses a sample date and the launch slips, but the ad spend was already booked.",
+        "We take those pieces and run them as one plan. The person who books your shoot knows when stock lands, and the team writing your ads knows which products have margin."
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "list": [
+        "Clothing, modest wear and accessories labels selling direct online",
+        "Skincare, haircare, cosmetics and fragrance brands",
+        "Hair, beauty and nail salons, from single sites to small chains",
+        "Retailers with physical stores who want more online sales",
+        "E-commerce brands moving from marketplaces to their own store"
+      ]
+    },
+    {
+      "h": "What fashion and beauty marketing with us includes",
+      "list": [
+        "Online stores on Shopify, WooCommerce or a custom build, plus booking sites for salons",
+        "Reels, product video and motion graphics made in volume, so ads and organic posts stay fresh",
+        "3D product renders and packaging visuals for launches before samples exist",
+        "Paid social on Meta and TikTok and Google Shopping, with creative made in-house",
+        "Local SEO and Google Business Profile for salons and stores",
+        "Answer-first product and category pages that show up in ChatGPT, Claude, Gemini and Google AI Overview answers",
+        "AI and WhatsApp assistants that answer sizing, stock and delivery questions and book appointments",
+        "Product sourcing, sampling and production through partner factories"
+      ]
+    },
+    {
+      "h": "Content at the pace social media needs",
+      "p": [
+        "Paid social eats creative. A product ad that worked last month gets tired after a few weeks, and most brands cannot shoot fast enough to replace it. Our video team produces short-form reels, try-ons, unboxings and motion edits on a weekly rhythm, and our 3D team can render a new colorway or bottle before the factory has made one.",
+        "We also use AI video for ad variations: new hooks, backgrounds and formats from footage you already own. Every AI piece is labeled where platforms require it and reviewed by a person before it runs."
+      ]
+    },
+    {
+      "h": "Salons: bookings from search and messages",
+      "p": [
+        "For a beauty salon in Lahore we rebuilt the website, set up SEO and ran Google Ads. The work was simple and specific: service pages that match how people search for treatments, a Google Business Profile that is complete and active, and ads that send people to book rather than to a home page.",
+        "Most salon inquiries arrive as messages. We set up assistants on WhatsApp, Instagram and the website that answer price and availability questions, offer slots and pass anything unusual to the front desk. Reminders help cut no-shows, and every booking lands in one calendar."
+      ]
+    },
+    {
+      "h": "Product sourcing through partner factories",
+      "p": [
+        "Few agencies can help with the product itself. We source, sample and produce through partner factories for apparel, accessories, packaging and some beauty products. You approve every sample before a production run, and we agree quantities, quality checks and shipping dates in writing.",
+        "Because the same team runs your marketing, the launch plan follows the real production schedule. Ads go live when stock is ready, not before."
+      ]
+    },
+    {
+      "h": "Knowing what actually sells",
+      "p": [
+        "Retail decisions are often made on gut feel because the numbers live in five places: the store, Meta, Google, the marketplace account and a stock spreadsheet. We connect them into one dashboard that shows sales, margin and return on ad spend by product, so you can see which lines deserve more budget and which should be cleared.",
+        "The same data feeds the next order. When a style sells through quickly, you know before the season ends, and we can plan a reorder or a new colorway with the factory while demand is still there. When a product sits, we change the creative, the price test or the audience before writing it off."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers. For retail brands, that means category pages and product guides that answer the question a shopper typed, plus consistent descriptions across marketplaces, review sites and press."
+      ]
+    },
+    {
+      "h": "How we work with brands",
+      "p": [
+        "Every brand gets one accountable lead, the Signal Lead, who runs the plan across store, content, ads and sourcing. We follow four steps: Talk, Plan, Build, Grow. The plan lists every deliverable and every date in writing, and monthly reports show sales, return on ad spend and what we are changing next.",
+        "Cost depends on scope: how many products and markets you sell in, the volume of content each month, the ad channels we run, whether you need a new store and whether sourcing is part of the work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you help a clothing brand with both marketing and manufacturing?",
+      "a": "Yes. We run the store, the ads and the content, and we can source and produce the next collection through partner factories. One lead manages both, so launch dates follow real production dates. You approve samples before any production run, and quantities, quality checks and shipping dates are agreed in writing."
+    },
+    {
+      "q": "Which platforms do you build online stores on?",
+      "a": "Usually Shopify or WooCommerce, with custom builds when a brand needs something those platforms handle badly, such as complex bundles or made-to-order flows. We also migrate stores between platforms while keeping product URLs, reviews and search rankings intact, and we connect the store to your ads, email and inventory tools."
+    },
+    {
+      "q": "How much video content can you produce each month?",
+      "a": "It depends on the plan, but we are set up for volume: weekly reels, product clips, try-ons and motion edits for paid and organic social. We combine shoots, edits of footage you already own, 3D renders and AI ad variations, so you are not limited by how often you can book a studio."
+    },
+    {
+      "q": "Do you work with salons, or only product brands?",
+      "a": "Both. For salons we focus on bookings: a fast website with clear service pages, local SEO and Google Business Profile, Google Ads that send people straight to booking, and WhatsApp or Instagram assistants that answer questions and fill the diary. We have done this work for a beauty salon in Lahore."
+    },
+    {
+      "q": "Should we sell on marketplaces or only on our own store?",
+      "a": "Usually both, with different jobs. Marketplaces bring shoppers who are already searching, while your own store keeps the margin and the customer data. We help you decide which products go where, keep pricing and descriptions consistent across channels, and use ads and email to move repeat buyers to your own store over time."
+    },
+    {
+      "q": "Can AI handle customer service for an online store?",
+      "a": "For routine questions, yes. An assistant can answer sizing, stock, delivery and returns questions using your own policies and product data, and track orders. Complaints, refunds outside policy and anything unusual go to a person. We test it on your real customer questions before it goes live."
+    },
+    {
+      "q": "What does fashion and beauty marketing cost?",
+      "a": "It depends on scope. The main factors are the number of products and markets, how much content you need each month, the ad channels we run, whether you need a new store, and whether sourcing is included. We send a written scope with dates after a 15-minute call."
+    }
+  ],
+  "related": [
+    "/services/video-motion",
+    "/services/paid-media",
+    "/services/more",
+    "/services/3d-rendering",
+    "/services/whatsapp-automation",
+    "/locations/lahore"
+  ],
+  "keywords": {
+    "primary": "fashion and beauty marketing",
+    "secondary": [
+      "beauty brand marketing agency",
+      "fashion ecommerce agency",
+      "salon marketing",
+      "clothing manufacturing and marketing",
+      "beauty product video"
+    ]
+  }
+}

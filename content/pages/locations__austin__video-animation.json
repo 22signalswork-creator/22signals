@@ -1,0 +1,143 @@
+{
+  "path": "/locations/austin/video-animation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "video-animation",
+  "serviceType": "Video production, animation and AI video",
+  "title": "Video Production and Animation in Austin | 22 Signals",
+  "description": "Video production, animation and AI video for Austin brands: reels, explainers, product and technical animation, managed editing teams and live broadcast.",
+  "eyebrow": "Video Production, Animation and AI Video in Austin",
+  "h1": "Video production, animation and AI video for Austin companies",
+  "intro": "22 Signals handles video production, animation and AI video for Austin companies that need a steady flow of content, not one expensive film a year. We edit short-form video and reels, make explainers and motion graphics, animate products and technical processes in 2D and 3D, run managed editing teams and produce live broadcasts. Remote from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "The content problem in a city full of creators",
+      "p": [
+        "Austin has a deep pool of filmmakers, musicians and content creators, and that raises the bar for every brand posting video here. Audiences have seen good work. A software company's product video sits in the same feed as a local band's tour clip and a creator who edits better than most agencies.",
+        "Most companies do not struggle to film. They struggle with everything after: editing a backlog of footage, turning one webinar into twenty clips, explaining a complicated product without a talking head, and keeping up a weekly schedule. That is where we fit."
+      ]
+    },
+    {
+      "h": "What we make",
+      "list": [
+        "Short-form video and reels for Instagram, TikTok, YouTube Shorts and LinkedIn.",
+        "Brand films and product videos, edited from your footage or footage we arrange.",
+        "Motion graphics and animated explainers for products that are hard to film.",
+        "2D and 3D animation, including technical and product animation.",
+        "AI video: AI presenters, ad variations and generated scenes, labeled clearly and reviewed by a person.",
+        "Managed editing teams that work through your backlog on a weekly rhythm.",
+        "Live broadcast for events, launches and tournaments."
+      ]
+    },
+    {
+      "h": "Video by Austin industry",
+      "list": [
+        "Software and AI companies: product walkthroughs, feature launch clips, animated explainers and customer story edits that sales teams can actually send.",
+        "Semiconductor and hardware firms: 3D animation showing how a component, tool or process works at a scale no camera can reach, for trade shows, investor decks and sales calls.",
+        "Healthcare and wellness groups: patient education animation and short clinic videos that answer common questions, reviewed by your clinical team.",
+        "Music, film and entertainment: lyric videos, visualizers, tour recap edits and festival content turned around quickly while the moment still matters.",
+        "Firms working with state agencies and public bodies: clear explainers on programs and services, with captions and accessible formats."
+      ]
+    },
+    {
+      "h": "Filming in Austin: how it works",
+      "p": [
+        "If you searched for video production, Austin has excellent local crews, and we will not pretend to be one: we do not keep a camera crew in Austin. For most clients that does not matter, because the work they need is editing, animation and motion graphics built from existing footage, screen recordings, product files or nothing at all. When a project does need new filming, we plan the shoot with you, arrange a crew for that day when the project needs it, and handle direction and the edit remotely. Many Austin clients already have someone who can shoot well, and we turn their footage into finished work."
+      ]
+    },
+    {
+      "h": "Animation when filming is not an option",
+      "p": [
+        "Some of the most useful video for Austin companies cannot be filmed. A chip process, a cloud architecture, a medical procedure or a product that does not exist yet all need animation. Our 2D and 3D teams build these from your engineering files, sketches or descriptions, and the same assets can be reused for 3D renders, ads and your website."
+      ]
+    },
+    {
+      "h": "One shoot, a month of content",
+      "p": [
+        "The simplest way to get more out of video production: Austin teams we work with often start from one recording, such as a customer webinar, a conference talk or an afternoon in the lab, and plan a month of material from it. We cut a long version for YouTube and the website, short clips for LinkedIn and Instagram, quote cards and captioned versions for sales emails, all in one batch and released to a calendar you approve."
+      ]
+    },
+    {
+      "h": "How a video project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about where the video will be used and what it needs to achieve.",
+        "Plan: script or storyboard, style frames, formats and a delivery schedule in writing.",
+        "Build: production and editing with review rounds at agreed points.",
+        "Grow: cut-downs for each platform, performance review and the next batch of content."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events, and the lesson from every one is that the date does not move. We apply that to every content calendar. That reliability is what we bring to video production. Austin clients get it whether the job is one launch film or a weekly flow of reels."
+      ]
+    },
+    {
+      "h": "Working with our video team from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Footage comes to us through shared storage. Our teams edit while Austin is offline, so you often review a first cut the morning after you send the files. Feedback is left on the video itself, time-stamped, so nothing gets lost in email. It is the same setup we use for the managed video editing team we run for a US client."
+      ]
+    },
+    {
+      "h": "What affects the cost of video production, animation and AI video",
+      "list": [
+        "Length, number of videos and number of platform versions.",
+        "Live action, animation or a mix, and 2D versus 3D.",
+        "Whether filming is needed and how complex it is.",
+        "Turnaround time and number of review rounds.",
+        "Music licensing, voiceover and AI presenter use."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We are one of very few teams where the people making your video also run your ads, your SEO and your website. That means videos are cut for the channels they will run on, tested against real results and reused across the business. One Signal Lead keeps the calendar and the quality on track."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have a film crew in Austin?",
+      "a": "No. We do not keep a crew in Austin. Most of our video work for Austin companies is editing, animation and motion graphics, which do not need one. When a project needs new footage, we plan the shoot and arrange a crew for that day when the project needs it, then direct and edit remotely."
+    },
+    {
+      "q": "Can you edit the footage our team already shoots?",
+      "a": "Yes, and this is one of the most common ways we work. You send raw footage, screen recordings or webinar files through shared storage, and we return finished videos, cut-downs and captions for each platform. A managed editing setup works well for companies producing content every week."
+    },
+    {
+      "q": "How do you use AI video, and is it labeled?",
+      "a": "We use AI for presenters, ad variations and generated scenes or backgrounds where it saves time without misleading anyone. Every AI-generated element is labeled clearly and reviewed by a person before it is published. We do not create AI likenesses of real people without their written permission."
+    },
+    {
+      "q": "Can you animate technical products for semiconductor or hardware companies?",
+      "a": "Yes. We build 2D and 3D animation from CAD files, diagrams or engineering descriptions to show how a component, tool or process works. Your engineers review each stage for accuracy. The same 3D assets can then be reused for renders, trade show screens, ads and product pages."
+    },
+    {
+      "q": "How fast can you turn around festival or event content?",
+      "a": "For agreed events we can often plan same-day or next-day edits, because our teams work while Austin sleeps. The key is planning: we agree formats, templates and approval contacts before the event, so footage can be edited the moment it arrives. Turnaround times are written into the plan."
+    },
+    {
+      "q": "Do you produce live broadcasts?",
+      "a": "Yes. We have run and broadcast more than 20 large-scale live events, including tournaments. For a live broadcast in Austin we plan the run of show, graphics, streaming setup and on-site needs with you, and arrange people on the ground for the event when the project needs it."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/video-motion",
+    "/services/ai-video-production",
+    "/services/3d-animation",
+    "/locations/austin/3d-rendering",
+    "/industries/gaming-entertainment"
+  ],
+  "keywords": {
+    "primary": "video production austin",
+    "secondary": [
+      "animation studio austin",
+      "explainer video austin",
+      "motion graphics austin tx",
+      "ai video production austin"
+    ]
+  }
+}

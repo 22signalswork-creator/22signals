@@ -1,0 +1,133 @@
+{
+  "path": "/locations/austin/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company in Austin, TX | 22 Signals",
+  "description": "An app development company for Austin businesses: iOS, Android and web apps, internal tools and SaaS products, from first version to launch and support.",
+  "eyebrow": "App Development in Austin",
+  "h1": "The app development company Austin teams call when an app has a real job to do",
+  "intro": "22 Signals is an app development company that builds iOS, Android and web apps for Austin businesses: customer apps, internal tools for field and operations teams, and SaaS products. We scope the first version tightly, handle payments, APIs and app store launch, and support the app afterwards. Delivered remotely from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "Start with the job the app has to do",
+      "p": [
+        "Plenty of apps get built because a competitor has one. In Austin, where so many people work in software, the bar is high: your customers and staff use well-made apps every day and notice quickly when yours is slow or confusing.",
+        "So we start with the job. A field technician needs to log a service visit with photos in under a minute. A patient needs to rebook without calling. A buyer needs to reorder parts from a phone on a production floor. When the job is clear, the first version gets smaller, faster to build and much more likely to be used."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "iOS and Android apps, native or cross-platform depending on the need.",
+        "Web apps and SaaS products, including admin areas and customer dashboards.",
+        "Internal tools for operations, field service, inspections and inventory.",
+        "Minimum viable products for new lines of business or new ventures.",
+        "Payments, subscriptions and in-app purchases.",
+        "APIs and integrations with your CRM, ERP, booking or practice systems.",
+        "App store submission, launch and ongoing support."
+      ]
+    },
+    {
+      "h": "Apps for Austin's industries",
+      "list": [
+        "Established software companies: companion mobile apps for an existing web platform, or a second product built alongside the core team without pulling engineers off the roadmap.",
+        "Hardware, semiconductor and equipment suppliers: apps for installers and service engineers, inspection checklists, parts ordering and device setup over Bluetooth.",
+        "Contractors working with Texas state agencies: field data collection apps with offline mode and accessible design for inspectors and caseworkers.",
+        "Healthcare and wellness groups around Austin and Round Rock: booking, reminders, secure messaging and patient education, with health data handled under HIPAA and Texas law.",
+        "Music, events and hospitality: ticketing companions, schedules, venue maps and push alerts that cope with a surge of users in festival weeks."
+      ]
+    },
+    {
+      "h": "Founders and scale-ups",
+      "p": [
+        "We also work with Austin founders building a first product, usually once there is a clear customer and a budget for the stage they are at. We will push back on scope. A first version that does one thing well and reaches real users in weeks teaches you more than a large build that launches next year. We would rather talk you out of a feature than build something nobody opens twice, and we will tell you if the idea needs customer interviews before it needs code."
+      ]
+    },
+    {
+      "h": "How an app project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about the users, the job and what success looks like.",
+        "Plan: user flows, a clickable prototype, technical design, the first release scope and a launch date in writing.",
+        "Build: two-week cycles with a working build you can install and test each time.",
+        "Grow: app store launch, analytics, fixes and the next release based on what users actually do."
+      ]
+    },
+    {
+      "h": "What we are building now",
+      "p": [
+        "One product in development is an AI commentary system for live esports, which has to keep up with fast gameplay in real time. Building for live use teaches the lesson every launch day teaches: the date does not move. We bring that discipline about launch dates to app development. Austin clients get a release plan that holds."
+      ]
+    },
+    {
+      "h": "Data, privacy and security",
+      "p": [
+        "Apps collect a lot of personal data, often more than the owner realizes. Under the Texas Data Privacy and Security Act, Texas residents have rights to access and delete their data, and sensitive data needs consent. We design what the app collects, where it is stored and how deletion requests are handled before the first screen is coded. Security testing is part of every release."
+      ]
+    },
+    {
+      "h": "Building an app with us from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Sprint reviews and planning take place in your morning. Because London is six hours ahead and our specialist teams span four regions, a bug reported at the end of your day is often fixed in a test build by the time you are back.",
+        "When the app has to be tested in the field, for example on a production floor or at a clinic, we plan a visit for that stage when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Platforms: iOS, Android, web or all three.",
+        "Number of screens, user roles and features in the first release.",
+        "Integrations with existing systems and any hardware connections.",
+        "Payments, compliance and security requirements.",
+        "Support and new releases after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals as your app development company",
+      "p": [
+        "Austin has no shortage of developers. What is rarer is an app development company that also plans the launch, makes the app store video, runs the paid campaigns and builds the data reporting behind it. We do all of that with one Signal Lead, so the app is built with its first users and its launch in mind. If you are comparing every app development company Austin has to offer, ask each one who runs the launch, who owns the code and what happens in month two."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to build an app for an Austin business?",
+      "a": "A focused first release usually takes three to five months, including design, build, testing and app store review. Internal tools can be quicker; apps with complex integrations take longer. We agree a release date in writing after planning, and you get a working build to test every two weeks, so progress is never a mystery."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "Cross-platform frameworks such as React Native or Flutter suit most business apps, because one codebase covers iOS and Android. Native makes sense when the app relies heavily on device hardware, demanding graphics or the newest platform features. We recommend based on your features, budget and who will maintain the app later."
+    },
+    {
+      "q": "Do you work in person with Austin clients?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and most app projects run well that way with prototypes, test builds and recorded demos. If the app needs testing in a physical setting, such as a clinic, warehouse or production floor in the Austin area, we plan a visit for that stage when the project needs it."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. The code lives in your repository, the app store accounts are in your name, and you get documentation for the architecture and deployment. If you later hire an in-house team, they can pick it up without starting again. We are happy to help with that handover."
+    },
+    {
+      "q": "Can you add AI features to our app?",
+      "a": "Yes, when they solve a real problem. Common examples are search over your own documents, smart form filling, summaries and support assistants with hand-off to a person. We test AI features against real cases before release and add guardrails so the app does not invent answers or expose data it should not."
+    },
+    {
+      "q": "How do you handle health data in a patient app?",
+      "a": "We design for HIPAA and Texas privacy requirements from the start: collect only what is needed, encrypt it, control access, keep audit logs and use hosting and vendors that will sign the right agreements. Your compliance lead or counsel reviews the design, and we document data flows so that review is straightforward."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/app-development",
+    "/locations/austin/web-development",
+    "/locations/houston/app-development",
+    "/services/custom-ai-development",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "app development company austin",
+    "secondary": ["austin app developers", "mobile app development austin", "ios app developer austin tx", "saas development austin"]
+  }
+}

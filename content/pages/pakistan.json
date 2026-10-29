@@ -1,0 +1,117 @@
+{
+  "path": "/pakistan",
+  "kind": "market",
+  "region": "pk",
+  "areaServed": "PK",
+  "title": "Digital and AI Company for Pakistan Businesses | 22 Signals",
+  "description": "22 Signals is a global business solutions company based in London, working with businesses in Lahore, Karachi and Islamabad on AI, automation, web and SEO.",
+  "eyebrow": "Pakistan",
+  "h1": "AI and digital work for businesses in Pakistan, held to a written plan",
+  "intro": "22 Signals is a global business solutions company based in London. If you are looking for an AI company in Pakistan that also covers WhatsApp automation, cloud, websites and apps, SEO, paid media and video, we work with businesses in Lahore, Karachi and Islamabad, helping established companies answer customers faster, get found online and sell beyond Pakistan.",
+  "sections": [
+    {
+      "h": "What Pakistani businesses hire us for",
+      "list": [
+        "WhatsApp Business API flows that answer customers, take orders and book appointments, with a hand-off to your staff",
+        "AI tools and workflow automation for sales, customer service, finance and reporting",
+        "Websites, online stores and apps, including Urdu and English versions",
+        "Local SEO, Google Business Profile and pages that show up in ChatGPT, Claude, Gemini and Google AI Overview answers",
+        "Paid media on Meta, Google, YouTube and TikTok, with creative made in-house",
+        "Cloud setup, security reviews and cost control on AWS, Google Cloud and Azure",
+        "Dashboards in Power BI or Looker Studio that bring sales, stock and finance into one view",
+        "Go-to-market plans for exporters and service firms selling to the US, UK and UAE"
+      ],
+      "p": [
+        "If you are comparing options for an AI company in Pakistan, the difference with us is range: the AI, the systems around it and the marketing that brings customers in are handled by one team. Typical work includes:"
+      ]
+    },
+    {
+      "h": "Lahore, Karachi and Islamabad",
+      "p": [
+        "Each city has its own page, because the work differs."
+      ],
+      "list": [
+        "Lahore: textile and apparel exporters, fashion and beauty brands, restaurants, private schools and software houses, many based around Gulberg and DHA, where the focus is often e-commerce, social content and WhatsApp sales",
+        "Karachi: banks, insurers, logistics and import firms and consumer goods companies along I.I. Chundrigar Road and Shahrah-e-Faisal, where data, reporting and customer service automation tend to come first",
+        "Islamabad: telecoms, technology startups, development organisations and firms that work with government, from the Blue Area to the companies around the National Incubation Center, where projects often involve cloud, data and careful handling of sensitive information"
+      ]
+    },
+    {
+      "h": "WhatsApp first, in Urdu and English",
+      "p": [
+        "In Pakistan, customers message before they call, and WhatsApp is where most of those messages arrive. A business that replies in two hours usually loses to one that replies in two minutes. We build assistants on the official WhatsApp Business API that answer common questions, share catalogues and prices you approve, take orders or bookings and pass anything unusual to a person.",
+        "Search behaviour mixes languages. People type in English, in Urdu script and in Roman Urdu, sometimes in the same query. We plan content and ads around how your customers actually search, and set up assistants that can reply in the language the customer used."
+      ]
+    },
+    {
+      "h": "Rules we plan around",
+      "p": [
+        "We design systems with Pakistan's legal framework in mind: the Prevention of Electronic Crimes Act 2016, telecoms and online content rules from the Pakistan Telecommunication Authority, SECP requirements for listed and regulated companies, and State Bank of Pakistan rules for banks, payment providers and fintechs. Pakistan's Personal Data Protection Bill is still in draft, so we follow good practice now: collect only the data you need, control who can see it and keep a record of where it goes.",
+        "For businesses that also serve customers in the UK or EU, we apply UK GDPR standards to those customers' data. Your legal adviser keeps the final say on compliance."
+      ]
+    },
+    {
+      "h": "How we work with Pakistan from London",
+      "p": [
+        "We work with Pakistani businesses remotely from our head office in London. Pakistan Standard Time is five hours ahead of London in winter and four in summer, so a London morning overlaps a Pakistan afternoon, and we hold calls, reviews and workshops in that window.",
+        "Every engagement has one accountable lead, the Signal Lead, and a written plan with every date agreed. Updates arrive weekly in writing, and you see work in progress on a shared board rather than waiting for a final reveal. In-person sessions happen when the project needs them."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "For a beauty salon in Lahore we rebuilt the website, set up SEO and ran Google Ads, so people searching for treatments could find the salon and book directly. It is a small example of how we work: specific pages for the services people search for, a complete Google Business Profile and ads that lead to a booking rather than a home page."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Plenty of firms call themselves an AI company in Pakistan, and many of them are good. What we add is one team that covers AI, cloud and data, marketing, and video, animation and 3D, run from London with clients across four regions. That helps most when a Pakistani business wants to sell to buyers in the US, UK or UAE, because we already work in those markets.",
+        "Cost depends on scope: how many systems we connect, the volume of content and ads each month, whether you need a new website or app, and which markets you sell in."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Pakistan?",
+      "a": "No. Our head office is in London and we work with businesses in Lahore, Karachi and Islamabad remotely. Pakistan is five hours ahead of London in winter and four in summer, so our working days overlap well. Meetings happen on video calls, and we arrange in-person sessions when a project needs one."
+    },
+    {
+      "q": "Can you set up WhatsApp automation for my business?",
+      "a": "Yes. We build flows on the official WhatsApp Business API that answer common questions, share catalogues and prices, take orders or bookings and hand complex conversations to your staff. Messages sync with your CRM or order system, and broadcast campaigns follow WhatsApp's policies so your number stays in good standing."
+    },
+    {
+      "q": "Do you build websites and content in Urdu?",
+      "a": "Yes. We build sites and content in English, Urdu or both, and plan search content around how customers actually type, including Roman Urdu. Assistants on WhatsApp and the website can reply in the language the customer writes in."
+    },
+    {
+      "q": "Can you help a Pakistani company sell to the US, UK or UAE?",
+      "a": "Yes, and this is where we are most useful. We work with clients in all three markets, so we can position your offer for those buyers, build the website and content they expect, set up outbound and paid campaigns and handle the time zones."
+    },
+    {
+      "q": "How do you handle data privacy in Pakistan?",
+      "a": "We follow the Prevention of Electronic Crimes Act 2016 and sector rules from the PTA, SECP and State Bank of Pakistan where they apply. Because the Personal Data Protection Bill is still in draft, we apply good practice now: minimal data collection, access controls and records of where data goes."
+    },
+    {
+      "q": "What does working with 22 Signals cost?",
+      "a": "It depends on scope. The main factors are the systems we connect, monthly content and ad volume, whether you need a new website or app, and the markets you target. After a 15-minute call we send a written scope with dates."
+    }
+  ],
+  "related": [
+    "/locations/lahore",
+    "/locations/karachi",
+    "/locations/islamabad",
+    "/services/whatsapp-automation",
+    "/services/ai-automation",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "ai company in pakistan",
+    "secondary": [
+      "digital agency pakistan",
+      "whatsapp automation pakistan",
+      "ai consultancy pakistan",
+      "web development company pakistan"
+    ]
+  }
+}

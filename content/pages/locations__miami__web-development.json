@@ -1,0 +1,145 @@
+{
+  "path": "/locations/miami/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Miami, FL | 22 Signals",
+  "description": "Web development for Miami companies: bilingual English and Spanish sites, redesigns that keep your rankings, online stores, client portals and ongoing care.",
+  "eyebrow": "Web Development in Miami",
+  "h1": "Web development for Miami businesses that sell in two languages",
+  "intro": "We handle web development for established Miami companies: new sites and redesigns, migrations that keep your Google rankings, online stores, client portals and ongoing care. Every build is planned for English and Spanish visitors, loads fast on a phone, and meets accessibility standards. Developers, hotels, clinics, trade firms and fashion brands use us to turn their website into a working sales channel.",
+  "sections": [
+    {
+      "h": "The problem: a nice-looking site that does not sell",
+      "p": [
+        "Plenty of Miami websites look polished and still underperform. The Spanish version is a plugin translation nobody checked. The inquiry form emails one person who is on vacation. A redesign two years ago wiped out half the Google traffic because nobody redirected the old pages. And the site has never been tested with a screen reader, in a state where accessibility lawsuits over websites are common.",
+        "Web development Miami companies can rely on fixes those basics first. Then it makes the site do its job: bring in inquiries, bookings or sales, and pass them to the right person."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "New websites and full redesigns, from sitemap and copy to launch",
+        "Migrations that keep rankings: every old URL mapped and redirected, checked after launch",
+        "Content management on WordPress, Webflow or a headless CMS, so your team can edit pages",
+        "E-commerce on Shopify or WooCommerce, with payments, shipping and tax set up properly",
+        "Client portals with logins, documents and payments",
+        "Accessibility work to WCAG standards, tested with real assistive tools",
+        "Website care: updates, backups, uptime monitoring and security checks every month"
+      ]
+    },
+    {
+      "h": "Built for English and Spanish from day one",
+      "p": [
+        "Miami is a bilingual city, and many of its buyers live in Latin America. A Spanish page that reads like a machine translation tells a buyer in Buenos Aires or Caracas that you do not really serve them.",
+        "We plan both languages in the sitemap, use separate URLs for each with the correct hreflang tags so Google shows the right version, and treat Spanish copy as its own writing job. Forms, confirmation emails and WhatsApp buttons work in both languages too. Portuguese can be added for Brazilian buyers when it makes commercial sense."
+      ]
+    },
+    {
+      "h": "What Miami industries need from a website",
+      "list": [
+        "Real estate developers: pre-construction sites with floor plans, availability by unit, 3D views and a reservation inquiry that reaches sales within minutes",
+        "Brokerages: listing search, agent pages and neighborhood guides for Brickell, Coral Gables, Edgewater and the beaches",
+        "Hotels and restaurant groups: fast pages that pass guests to the booking engine or reservation system without friction",
+        "Trade and logistics companies: quote request forms, shipment tracking and customer portals for importers across Latin America",
+        "Clinics and aesthetics practices: treatment pages, before-and-after galleries with proper consent, and booking that respects patient privacy",
+        "Fashion and beauty brands: Shopify stores that load quickly on mobile and connect to Instagram and TikTok shopping"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we learn what the site needs to achieve and how you measure it today.",
+        "Plan: sitemap, page plan, redirect map, tech choice and launch date, all agreed in writing.",
+        "Build: design, copy, development and testing on phones, browsers and assistive tools, with a staging site you can review at any time.",
+        "Grow: after launch we track inquiries and rankings, fix what slows people down, and keep the site updated and secure."
+      ]
+    },
+    {
+      "h": "Speed for visual, phone-first audiences",
+      "p": [
+        "Miami brands sell on looks: waterfront renderings, hotel suites, before-and-after results, runway shots. Those images are heavy, and many of your visitors arrive on a phone, sometimes on a mobile connection in another country. A gallery that takes six seconds to load loses the buyer before the first photo appears.",
+        "Good web development Miami brands can be proud of keeps the visuals and the speed. We compress and resize images automatically, lazy-load galleries, serve video from a proper host and keep scripts to what the page needs. We check Core Web Vitals before launch and every month after. The web development Miami property and hospitality clients need is judged on that first tap, so we test it on mid-range phones, not just a designer's laptop."
+      ]
+    },
+    {
+      "h": "Accessibility and privacy, handled",
+      "p": [
+        "Website accessibility claims under the Americans with Disabilities Act are a real risk for Florida businesses. We build to WCAG guidelines, test with keyboard and screen readers, and fix issues on existing sites before they turn into a letter from a lawyer.",
+        "On privacy, we set up cookie consent, clear privacy notices and secure forms. The Florida Information Protection Act requires breach notice within 30 days, so we keep plugins patched and logins locked down as part of monthly care."
+      ]
+    },
+    {
+      "h": "An example of our web work",
+      "p": [
+        "For a beauty salon we rebuilt the website, set up SEO and ran Google Ads, so the new site launched with traffic already arriving and bookings tracked from the first week. It is a small version of what Miami beauty and aesthetics brands need: a site, search and ads planned together, not by three different vendors."
+      ]
+    },
+    {
+      "h": "How we work with Miami clients",
+      "p": [
+        "We work remotely from our head office in London, which runs five hours ahead of Miami. Design reviews happen in your morning, and changes made in London are on the staging site when you start your day. Every milestone and launch date goes in writing.",
+        "Your Signal Lead owns the project from first call to launch and after. If your team wants a working session in person, we arrange one when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We scope every web development Miami project before quoting. The cost depends on:"
+      ],
+      "list": [
+        "Number of pages, templates and languages",
+        "Whether we write the copy or you supply it",
+        "E-commerce, portals, bookings or other integrations",
+        "Migration size and the number of URLs to redirect",
+        "Ongoing care, hosting and support after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build bilingual English and Spanish websites?",
+      "a": "Yes, and we plan both from the start. Each language gets its own URLs and hreflang tags, so Google shows the right version, and Spanish copy is written as its own job rather than run through a translator. Forms, emails and chat buttons work in both languages too."
+    },
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "It should not if the migration is done properly. We crawl your current site, map every old URL to a new one, keep the content that ranks, set up redirects and check everything after launch. Most traffic losses after a redesign come from skipping those steps."
+    },
+    {
+      "q": "Can you make our site accessible to avoid ADA claims?",
+      "a": "We build and fix sites to WCAG guidelines and test with keyboards and screen readers, which removes the common issues these claims cite. We cannot promise no one will ever send a demand letter, but a properly accessible site puts you in a much stronger position."
+    },
+    {
+      "q": "Do you work with Miami companies in person?",
+      "a": "We deliver remotely from London, five hours ahead of Miami, with reviews in your morning and a staging site you can check any time. Most web projects run smoothly this way. If a kick-off or content workshop would work better in person, we plan a visit when the project needs it."
+    },
+    {
+      "q": "Which platform should a Miami developer use for a pre-construction site?",
+      "a": "WordPress or Webflow suits most pre-construction sites, because the sales team can update availability and pages without a developer. If you need live unit availability linked to a sales system, we connect it through an API. We recommend a platform during planning and explain the trade-offs."
+    },
+    {
+      "q": "Do you look after the site after launch?",
+      "a": "Yes. Website care covers updates, backups, uptime monitoring, security checks and small changes each month. Your Signal Lead stays your contact, so there is no hand-off to a support queue that does not know your site."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/web-app-development",
+    "/locations/miami/seo-geo",
+    "/locations/miami/app-development",
+    "/industries/fashion-beauty",
+    "/locations/los-angeles/web-development"
+  ],
+  "keywords": {
+    "primary": "web development miami",
+    "secondary": [
+      "web design miami",
+      "website development company miami",
+      "bilingual website miami",
+      "web developer miami"
+    ]
+  }
+}

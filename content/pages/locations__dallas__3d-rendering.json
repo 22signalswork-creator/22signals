@@ -1,0 +1,153 @@
+{
+  "path": "/locations/dallas/3d-rendering",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in Dallas, TX | 22 Signals",
+  "description": "3D rendering for Dallas developers, brokers and brands: photoreal product, packaging, interior and architectural visuals made from your plans or CAD.",
+  "eyebrow": "3D Rendering in Dallas",
+  "h1": "3D rendering for Dallas developers, brokers and product brands",
+  "intro": "We create photoreal 3D renders for Dallas companies that need to show something before it exists or before it is worth photographing. Architectural and interior visuals for developers and brokers, product and packaging renders for retail brands, and 3D models for websites and ads. We work from your plans, CAD files or samples, remotely and to agreed dates.",
+  "sections": [
+    {
+      "h": "Selling what is not built yet",
+      "p": [
+        "Dallas never seems to stop building. Mixed-use projects rise in Uptown and Frisco, office buildings are repositioned Downtown, industrial parks go up along the southern corridors, and new apartment communities lease up across the suburbs. Every one of those has the same sales problem: buyers and tenants are asked to commit before there is anything to walk through.",
+        "The 3D rendering Dallas developers and brokers rely on closes that gap. A good render shows the light in the lobby, the view from the twelfth floor and the finish on the kitchen counters, months before the drywall goes up."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Exterior architectural renders for planning, investor decks, marketing and site signage.",
+        "Interior visualization: lobbies, amenity spaces, model units and fit-out options.",
+        "Photoreal product renders for e-commerce, catalogs and sales sheets.",
+        "Packaging renders for new lines and retailer presentations before printing.",
+        "Campaign visuals that put products in scenes too costly or slow to photograph.",
+        "3D models for websites and ads, including rotating product views."
+      ]
+    },
+    {
+      "h": "3D work for Dallas industries",
+      "list": [
+        "Real estate developers and multifamily operators: pre-leasing renders, amenity visuals and floor plan views that brokers can use from day one.",
+        "Commercial brokers and landlords in Downtown and Uptown: before-and-after visuals for repositioned office space and spec suites.",
+        "Industrial and logistics developers: renders of distribution buildings, truck courts and office frontage for buildings near DFW Airport, the inland port or Alliance.",
+        "Retail, restaurant and consumer brands headquartered in Plano and Dallas: product, packaging and display renders for launches and retailer pitches.",
+        "Healthcare and medical device companies: clean, accurate renders of devices and clinic interiors for sales and investor material.",
+        "Telecom and technology hardware makers: product renders and exploded views that explain what is inside."
+      ]
+    },
+    {
+      "h": "How we work from your files",
+      "p": [
+        "Talk: a short call about what the renders are for and where they will appear. Plan: you send what you have (architectural plans, Revit or SketchUp models, CAD files, product samples or photos, finish schedules), and we agree the camera angles, the number of views and the dates. Build: we model, light and texture the scene, then send draft views for comments before final rendering. Grow: once the base model exists, new angles, seasonal versions, animations and ad formats cost far less time to produce.",
+        "Every review round happens on shared images you can mark up, so feedback is specific rather than a long email."
+      ]
+    },
+    {
+      "h": "Accuracy you can stand behind",
+      "p": [
+        "Marketing renders for property carry weight. Buyers and tenants make decisions on them, so we build from the real drawings and finish schedules, and we flag anywhere the design is not yet decided rather than guessing. Where a render shows an option rather than a committed design, we suggest a clear note on the image.",
+        "For products, we match colors and materials to physical samples or your brand standards, so a render on your website matches what arrives at the customer's door."
+      ]
+    },
+    {
+      "h": "Where Dallas clients use the renders",
+      "p": [
+        "We plan each set of views around where it will be seen, because a construction fence banner and a product page need very different framing."
+      ],
+      "list": [
+        "Investor decks and offering memorandums for development and acquisition deals.",
+        "Zoning and planning presentations where neighbors and officials need to picture the finished project.",
+        "Construction fence banners and leasing center displays on Dallas job sites.",
+        "Leasing websites, listing platforms and broker email campaigns.",
+        "Retailer line reviews and sell sheets for consumer brands pitching national buyers.",
+        "E-commerce product pages, marketplace listings and paid social ads."
+      ]
+    },
+    {
+      "h": "One team for renders, video and campaigns",
+      "p": [
+        "Most render studios hand over images and stop there. We have worked with more than 30 companies across four regions, and our team also covers video, animation, websites and paid media. So the same 3D model of a Frisco apartment community can become a fly-through video, a set of Meta ads, a hero image on the leasing website and a brochure, without passing files between three vendors."
+      ]
+    },
+    {
+      "h": "Remote 3D rendering for Dallas projects",
+      "p": [
+        "Dallas clients work with us remotely from London, with meeting hours that overlap Central Time. Dallas is six hours behind London, so comments you send at the end of your day are often worked on overnight and revised views are ready by your next morning. That rhythm helps a lot when a broker needs images for a pitch later in the week.",
+        "Files move through a secure shared folder. If a site visit in Dallas would help us capture context or materials, we plan it when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "We price per project after seeing your files. What moves a quote:"
+      ],
+      "list": [
+        "Number of views and their resolution.",
+        "How complete your plans or CAD files are.",
+        "Interior detail, furnishing and landscaping.",
+        "Exterior context, such as surrounding buildings and skyline.",
+        "Animation or 3D web models on top of still images.",
+        "Turnaround time."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "3D work rarely stands alone. Dallas clients often pair it with video production and animation for fly-throughs and product films, paid media to put the visuals in front of buyers, and web development for leasing or product pages that show them off."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What files do you need to start a rendering project?",
+      "a": "Whatever you have. Architectural plans and elevations, Revit, SketchUp or CAD models, finish schedules and mood boards all help for property. For products, CAD files are ideal, but physical samples or detailed photos and measurements work too. We tell you after a first look whether anything is missing."
+    },
+    {
+      "q": "Do you render multifamily and commercial projects in Dallas?",
+      "a": "Yes. We produce exterior and interior renders for apartment communities, mixed-use projects, office repositioning and industrial buildings across Dallas-Fort Worth. Developers use them for investor decks and pre-leasing, and brokers use them in listings and pitches before construction is complete."
+    },
+    {
+      "q": "How long does a set of renders take?",
+      "a": "A small set of product renders from good CAD files can be quick. Architectural sets with interiors, landscaping and surrounding context take longer, mostly because of modeling and review rounds. We agree dates in writing at the start, and the time difference with Dallas means revisions often progress overnight."
+    },
+    {
+      "q": "Can you turn our renders into video or animation?",
+      "a": "Yes. Once the 3D model exists, we can produce fly-throughs, rotating product views and short animated clips for social and ads. Because our video team works with the same files, there is no rebuild and no hand-off to another studio."
+    },
+    {
+      "q": "Can you produce 3D rendering Dallas retail brands can use online?",
+      "a": "Yes. We render products and packaging on clean backgrounds for product pages and marketplaces, and in styled scenes for ads and social. A single accurate model can produce every color variant and angle you need, which is often quicker than reshooting each time a line changes."
+    },
+    {
+      "q": "Do you visit Dallas sites?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and most rendering work only needs your files. If seeing the site, the neighborhood or the material samples in person would make the renders more accurate, we plan a visit to Dallas when the project needs it."
+    },
+    {
+      "q": "Who owns the renders and the 3D models?",
+      "a": "You own the final images for the uses agreed in the scope, which normally covers marketing, sales and investor material. If you also want the source 3D files, for example to reuse with other vendors, we include that in the scope from the start."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/dallas/video-animation",
+    "/locations/houston/3d-rendering",
+    "/locations/texas"
+  ],
+  "keywords": {
+    "primary": "3d rendering dallas",
+    "secondary": [
+      "3d rendering services dallas",
+      "architectural rendering dallas",
+      "product rendering dallas",
+      "3d visualization dallas"
+    ]
+  }
+}

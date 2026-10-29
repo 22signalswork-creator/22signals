@@ -1,0 +1,129 @@
+{
+  "path": "/locations/new-york/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company for New York | 22 Signals",
+  "description": "An app development company for New York businesses: iOS, Android and web apps, MVPs, payments and app store launch, scoped in writing and supported after.",
+  "eyebrow": "App Development in New York",
+  "h1": "An app development company for New York businesses with a real product to ship",
+  "intro": "22 Signals is an app development company New York businesses use to build iOS and Android apps, web apps and SaaS products. We scope the first version tightly, design it with your users, build payments and APIs, take it through App Store and Google Play review, and support it after launch, with one Signal Lead answering for the whole thing.",
+  "sections": [
+    {
+      "h": "Why New York app projects run over",
+      "p": [
+        "The usual story goes like this. A company in Midtown or the Flatiron District decides it needs an app: a client app for a wealth manager, a resident app for a building portfolio, a booking app for a group of clinics. A studio quotes a number, the scope grows in every meeting, the release date slips twice, and the first version ships with features nobody uses while the one thing customers asked for is still on the list.",
+        "Most of that is avoidable. The fix is deciding what version one must do, writing it down, and saying no to the rest until real users have tried it. Any app development company New York teams hire should push back on scope, not just accept it. In practice the first version usually ends up much smaller than the original wish list, and the cut features wait in a written backlog with a reason next to each one."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Native iOS and Android apps, or cross-platform apps in React Native or Flutter when one codebase makes sense",
+        "Web apps and SaaS products with accounts, roles, billing and admin tools",
+        "MVPs: the smallest version that proves the idea with paying or active users",
+        "Payments: Stripe, Apple Pay, Google Pay, subscriptions and in-app purchases within store rules",
+        "APIs and integrations with CRMs, property systems, EHRs, banking providers and your own back office",
+        "App Store and Google Play launch, then support, crash monitoring and regular releases"
+      ]
+    },
+    {
+      "h": "Apps we see New York companies asking for",
+      "list": [
+        "Wealth and fintech: client dashboards, document vaults and onboarding flows, built knowing that virtual currency businesses need an NYDFS license and that Part 500 controls apply to licensed firms",
+        "Real estate: resident apps for rent payment, maintenance requests, amenity booking and package alerts",
+        "Healthcare: patient booking, intake and secure messaging, built on HIPAA-eligible services with business associate agreements in place",
+        "Media and publishing: subscription apps with paywalls, offline reading and push notifications that respect opt-in",
+        "Fashion and retail: drop apps, loyalty programs and fast mobile checkout",
+        "Professional services: client portals on mobile with signing and secure file sharing"
+      ]
+    },
+    {
+      "h": "Security, privacy and store rules",
+      "p": [
+        "An app holds more personal data than most websites: names, locations, payment details, sometimes health or financial records. The SHIELD Act asks any business holding private information about New York residents to keep reasonable safeguards, and the state's breach law sets a 30-day deadline to notify affected residents. So we encrypt data in transit and at rest, keep secrets off the device, log access, and collect only what the feature needs.",
+        "Apple and Google both review apps before release and reject them for privacy labels that do not match the code, payment flows that bypass in-app purchase rules, or missing account deletion. We plan for those rules at the design stage so review is a formality, not a setback."
+      ]
+    },
+    {
+      "h": "Proof: over $1.5 million in projects managed",
+      "p": [
+        "We have managed over $1.5 million in projects, and the lesson that carries across all of them is simple: the budget holds when the scope is written down and every change is priced before it is built. On app work that means a signed list of screens and features for version one, a backlog for everything else, and a demo of working software every two weeks so you never wait months to see progress."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: who the users are, what they need to do, and what success looks like in numbers",
+        "Plan: user flows, a clickable prototype, the technical design and a written scope with dates",
+        "Build: two-week cycles with a demo at the end of each, test builds on your phone throughout",
+        "Grow: store launch, analytics, crash reporting, user feedback and the next release"
+      ]
+    },
+    {
+      "h": "Building your app from London for a New York team",
+      "p": [
+        "We work with New York companies remotely from London. Eastern Time is five hours behind London for most of the year, so sprint reviews and demos sit in your morning, and bugs your testers report in the afternoon are often fixed in the next morning's build. App work is remote by nature: test builds arrive through TestFlight and Google Play testing tracks, and designs live in shared files.",
+        "For user research with customers in the city or a launch workshop, we come to New York when the project needs it."
+      ]
+    },
+    {
+      "h": "What app development costs depends on",
+      "list": [
+        "Platforms: iOS, Android, web, or all three",
+        "Number of screens, user roles and admin features",
+        "Integrations with payment, banking, health or property systems",
+        "Security and compliance needs, such as HIPAA or Part 500",
+        "Design depth, from clean standard components to fully custom",
+        "Support and release schedule after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "An app is only useful if people download it and keep using it. Many app studios stop at the store launch. Because we also run paid media, SEO, video and 3D, the same team that builds your app can make the store screenshots and preview video, run the install campaigns and build the landing page. If the app needs AI features, our custom AI development team builds them in. Related: web development, custom AI development, cloud consulting and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we build a native app or a cross-platform app?",
+      "a": "Cross-platform frameworks like React Native or Flutter suit most business apps and cost less to maintain, because one codebase serves iOS and Android. Native makes sense when you need heavy device features, top performance or very platform-specific design. We recommend after seeing your feature list, not before."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "It depends on scope. A focused MVP is far quicker than a full product with payments, roles and integrations. We give you dates in writing after the planning stage, once screens and features are agreed, and show working software every two weeks so you can see progress against them."
+    },
+    {
+      "q": "Do you build fintech or crypto apps for New York companies?",
+      "a": "We build fintech front ends, onboarding and dashboards, and we design with New York rules in mind. Virtual currency businesses serving New York need an NYDFS license, and licensed firms must meet Part 500 cybersecurity controls. Licensing is your legal team's job; we make sure the app supports the controls they commit to."
+    },
+    {
+      "q": "Will we own the code?",
+      "a": "Yes. You own the source code, the app store accounts, the cloud accounts and the designs. We work in repositories and accounts under your company's name from day one, so there is nothing to transfer at the end and no lock-in if you later move the work in-house."
+    },
+    {
+      "q": "Can we meet the team in New York?",
+      "a": "We are based in London and work remotely, with demos and reviews in your morning. If user interviews with your New York customers or a launch workshop would help, we can come to the city when the project needs it, agreed in writing during planning."
+    },
+    {
+      "q": "What does app development cost for a New York company?",
+      "a": "Cost depends on platforms, number of screens and roles, integrations, compliance and support. We do not publish prices because those factors swing the total widely. After a 15-minute call and a short scoping session, we send a written estimate tied to a written feature list."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/app-development",
+    "/locations/new-york/web-development",
+    "/services/custom-ai-development",
+    "/locations/new-york/cloud-consulting",
+    "/locations/miami/app-development"
+  ],
+  "keywords": {
+    "primary": "app development company new york",
+    "secondary": ["app developers nyc", "mobile app development new york", "ios app development nyc", "fintech app development new york"]
+  }
+}

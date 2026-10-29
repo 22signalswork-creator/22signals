@@ -1,0 +1,134 @@
+{
+  "path": "/locations/miami/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Miami, FL | 22 Signals",
+  "description": "AI automation for Miami brokerages, freight firms, clinics and hotels: fewer manual hand-offs, faster bilingual replies, and a CRM that stays up to date.",
+  "eyebrow": "AI Automation in Miami",
+  "h1": "AI automation for Miami teams buried in manual work",
+  "intro": "We build AI automation for established Miami businesses: tools that route leads, read documents, draft replies in English and Spanish, and keep your CRM and spreadsheets in sync. Brokerages, freight forwarders, clinics and hotel groups use it to cut the copy-and-paste work their staff do every day, with a person stepping in whenever judgment is needed.",
+  "sections": [
+    {
+      "h": "The problem: good staff doing robot work",
+      "p": [
+        "Walk through the back office of a busy Miami company and you see the same thing. A leasing coordinator copies inquiries from the website, Zillow and WhatsApp into a CRM by hand. A freight forwarder in Doral retypes shipment details from PDFs into a quote sheet. A med spa receptionist answers the same twelve questions about pricing and downtime, half of them in Spanish, before lunch.",
+        "None of that needs a new hire. It needs the work to move between systems on its own, with AI handling the reading, sorting and first drafts. That is what AI automation Miami companies ask us for: fewer hand-offs, faster replies, and staff freed for the work that actually needs them."
+      ]
+    },
+    {
+      "h": "What we build: AI automation Miami teams can put to work",
+      "list": [
+        "Lead routing that reads an inquiry, detects the language, scores it and sends it to the right agent within minutes",
+        "Document reading for invoices, contracts, packing lists and intake forms, with results written straight into your systems",
+        "Email and inbox triage that sorts, tags and drafts replies for a person to approve",
+        "Workflow automation across email, CRM and spreadsheets, using tools such as Make, Zapier, n8n or custom code",
+        "Internal tools and dashboards so managers see the queue without asking around",
+        "Research and reporting systems that pull market, competitor or listing data into a weekly summary",
+        "AI assistants on your website or chat channels that hand off to a human with the full conversation attached"
+      ]
+    },
+    {
+      "h": "Automations that fit how Miami works",
+      "p": [
+        "Miami's economy leans on a few sectors with very particular workloads. Here is where automation tends to earn its keep fastest."
+      ],
+      "list": [
+        "Real estate brokerages and developers: pre-construction inquiries from overseas buyers routed by language and budget, with follow-up sequences that do not go quiet over a weekend",
+        "Trade and logistics firms near Miami International Airport: quote requests parsed from email, rates checked against your tables, and a draft quote ready for review",
+        "Hospitality groups on Miami Beach and in Downtown: group booking requests collected into one sheet, review replies drafted, and staff schedules flagged during peak weeks",
+        "Clinics and aesthetics practices in Coral Gables and beyond: consult requests captured, pre-visit forms chased, and appointment reminders sent in the patient's language",
+        "Brickell finance and fintech teams: onboarding documents checked for completeness and missing items requested automatically, with sensitive data kept inside approved tools",
+        "Fashion and beauty brands: order and returns questions answered, influencer outreach tracked, and stock alerts sent to the right person"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we start with the one process that annoys your team most. A 15-minute call is usually enough to tell whether automation is the right fix.",
+        "Plan: we map the process step by step, note every system it touches, and agree what the automation will and will not do. Dates go in writing.",
+        "Build: we build, test on real examples from your inbox or files, and run the new flow alongside the old one until the results match.",
+        "Grow: once one flow is stable we add the next, and we watch error logs so problems are caught before your customers notice."
+      ]
+    },
+    {
+      "h": "Bilingual by design, with humans in the loop",
+      "p": [
+        "In Miami, an automation that only works in English only works for part of your customers. We design every customer-facing flow to handle English, Spanish and the mix of both that people actually type. Portuguese can be added for Brazilian buyers where it matters.",
+        "Every step in our AI automation, Miami or elsewhere, has a clear hand-off rule. Anything that touches pricing, medical advice, legal terms or an unhappy customer goes to a person with the full history attached. Staff stay in charge; the system just does the sorting and drafting."
+      ]
+    },
+    {
+      "h": "Data, privacy and Florida rules",
+      "p": [
+        "Automations move data between systems, so we treat access carefully. We use the least access each tool needs, keep logs of what was sent where, and avoid sending patient, investor or payment data to tools that are not approved for it.",
+        "Florida's Information Protection Act requires most businesses to notify affected people within 30 days of a breach, and the Florida Digital Bill of Rights adds rules for companies that sell sensitive data. Texting customers also brings consent rules under the Florida Telephone Solicitation Act. We build consent capture into the flow and leave the legal sign-off to your counsel."
+      ]
+    },
+    {
+      "h": "An example of what we build",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself: prospect research, list building, personalized emails, follow-ups and CRM updates running as one system, with a person reviewing what goes out. It is the same kind of joined-up automation we build for clients, and we run it every day, so we know where these systems break."
+      ]
+    },
+    {
+      "h": "Working with a London team from Miami",
+      "p": [
+        "We deliver our AI automation Miami projects remotely from London. Miami is five hours behind, so when your day starts at 9am, our team has already put in a morning's work. Live calls sit comfortably in the Miami morning, and automation changes are deployed outside your busiest hours.",
+        "One Signal Lead owns the project and is the person you message. If your operations team wants a walkthrough in person, we arrange a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "p": ["We price AI automation for Miami clients by scope, not by the hour, so the figure depends on these factors."],
+      "list": [
+        "How many processes and systems the automation connects",
+        "Whether your tools have usable APIs or need workarounds",
+        "The volume of messages, documents or records each month",
+        "How many languages and hand-off rules are involved",
+        "Ongoing monitoring and support after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best first automation for a Miami real estate brokerage?",
+      "a": "Lead capture and routing. Inquiries arrive from your website, portals, Instagram and WhatsApp, often in Spanish, and slow replies lose buyers. An automation that collects them in one place, detects the language, assigns an agent and starts a follow-up sequence usually pays for itself quickly and is easy to measure."
+    },
+    {
+      "q": "Can you automate work in tools we already use?",
+      "a": "Usually, yes. Most CRMs, accounting tools, booking systems and shared inboxes have APIs, and we connect them with tools such as Make, Zapier, n8n or custom code. Where a tool has no API, we look for exports or other safe routes before suggesting a change of system."
+    },
+    {
+      "q": "Will AI automation replace our staff?",
+      "a": "That is not how we design it. The aim is to remove copy-and-paste work and slow replies so your people spend their time on clients, deals and problems. Every flow has a person in charge of approvals and exceptions, and staff can see exactly what the system did and why."
+    },
+    {
+      "q": "Do your automations work in Spanish?",
+      "a": "Yes. Customer-facing flows handle English, Spanish and mixed messages, which is how many Miami customers write. We test with real examples from your inbox before launch and set rules so anything sensitive or unclear goes to a person who speaks the customer's language."
+    },
+    {
+      "q": "How do you handle the time difference between London and Miami?",
+      "a": "London is five hours ahead of Miami. We schedule live calls in your morning, when both teams are working, and use the hours before Miami wakes up to build and test. Changes go live outside your busiest hours, and your Signal Lead sends a written update so nothing waits on a call."
+    },
+    {
+      "q": "What happens if an automation breaks?",
+      "a": "We set up alerts so failed runs are flagged to us and to the person who owns the process. Most issues come from a changed form, login or API, and we fix them as part of ongoing support. Nothing is left silently failing in the background."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/miami/ai-consulting",
+    "/locations/miami/business-intelligence",
+    "/locations/chicago/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation miami",
+    "secondary": ["business automation miami", "workflow automation miami", "ai automation agency miami", "automation consultant miami"]
+  }
+}

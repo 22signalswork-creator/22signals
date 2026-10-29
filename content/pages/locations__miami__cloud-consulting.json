@@ -1,0 +1,134 @@
+{
+  "path": "/locations/miami/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Miami, FL | 22 Signals",
+  "description": "Cloud consulting for Miami companies on AWS, Google Cloud and Azure: storm-ready backups, tighter security for fintech and clinics, and lower monthly bills.",
+  "eyebrow": "Cloud Consulting in Miami",
+  "h1": "Cloud consulting for Miami companies that cannot afford downtime",
+  "intro": "Our cloud consulting helps established Miami companies run on AWS, Google Cloud or Azure with less risk and a smaller bill. We design the architecture, lock down access, set up monitoring and backups that survive hurricane season, and review costs every quarter. Fintech firms, clinics, logistics operators and property groups use us to keep systems up and auditors satisfied.",
+  "sections": [
+    {
+      "h": "The problem: cloud set up in a hurry, then left alone",
+      "p": [
+        "A lot of Miami companies moved to the cloud quickly. A developer launched a sales portal for a new tower, a freight forwarder put its tracking system on AWS, a clinic group moved records into a cloud app. It worked, so nobody looked again. Two years later the bill has crept up, five former contractors still have admin access, and backups sit in the same region as everything else.",
+        "Good cloud consulting, Miami or anywhere, is mostly about the boring work that stops bad days: who can get in, what happens when something fails, and what you are paying for. We do that work properly and write it down so your team understands it.",
+        "When companies search for cloud consulting Miami providers, they usually want one of three things: a lower bill, a security fix before an audit, or a plan for storm season. Most need all three, and they are connected. The same review that finds wasted spend usually finds the open doors too."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "Architecture design and review on AWS, Google Cloud or Azure",
+        "Security and access control: single sign-on, least-privilege roles, and removal of old accounts and keys",
+        "Monitoring and alerting so problems reach a person before they reach your customers",
+        "Backup and disaster recovery plans, tested rather than assumed",
+        "Cost reviews that find idle servers, oversized databases and forgotten storage",
+        "Managed cloud operations: patching, updates and on-call support after launch",
+        "Plain-language documentation of what runs where and why"
+      ]
+    },
+    {
+      "h": "Hurricane season and disaster recovery",
+      "p": [
+        "Every Miami business knows June to November brings risk. Your office may lose power, staff may evacuate, and a server in a back room may simply stop. Cloud helps, but only if the plan is real.",
+        "We put backups in a second region away from the Southeast, test that a restore actually works, and write a short runbook for who does what during a storm. If your team needs to work from Orlando, Atlanta or abroad for a week, the systems should not care. We run a restore test before each season so you know the plan works."
+      ]
+    },
+    {
+      "h": "What Miami industries need from the cloud",
+      "list": [
+        "Finance, crypto and fintech in Brickell: strict access control, audit logs, encryption and the evidence trail banks and partners ask for in security reviews",
+        "Healthcare and aesthetics practices: services that cloud providers will cover under a business associate agreement, plus logging and access rules that fit HIPAA",
+        "Trade and logistics firms: tracking portals and customer systems that stay fast for users in Latin America, with the option of using a São Paulo region where latency matters",
+        "Real estate developers and brokerages: sales and reservation portals that handle a launch-day rush without falling over",
+        "Hospitality groups: booking and guest systems that must stay up through peak season and event weeks",
+        "Fashion and beauty brands: online stores and inventory systems that can take a sudden spike from a viral post"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call about what you run today and what keeps you up at night, whether that is cost, security or an audit.",
+        "Plan: we review your accounts, list every risk by severity, and propose fixes in order. Dates are agreed in writing.",
+        "Build: we make the changes in small, reversible steps, test them, and keep you informed of each one.",
+        "Grow: we monitor, patch and review costs each quarter, and adjust the setup as your company adds products, offices or markets."
+      ]
+    },
+    {
+      "h": "Security, Florida law and audits",
+      "p": [
+        "The Florida Information Protection Act requires most businesses to tell affected people within 30 days of a breach involving personal information, and expects reasonable measures to protect that data. Clean access control, encryption and good logs are what make that a manageable event rather than a crisis.",
+        "If you sell to banks, insurers or larger healthcare groups, you will face security questionnaires. We help you answer them honestly and close the gaps they reveal, so the next review is shorter."
+      ]
+    },
+    {
+      "h": "Proof from similar work",
+      "p": [
+        "We have carried out security clean-ups of compromised law-firm websites in the US: finding how attackers got in, removing what they left behind, closing the door and setting up monitoring so it does not happen again. Cloud security is the same discipline at a larger scale."
+      ]
+    },
+    {
+      "h": "Remote delivery from London",
+      "p": [
+        "We work with Miami clients remotely from our London head office. Being five hours ahead is useful for cloud work: maintenance and changes happen in the early hours of your day, before Miami customers are online, and review calls fall in your morning.",
+        "One Signal Lead owns your account and is the person you call. Cloud engineers and security specialists work behind them. Most cloud consulting Miami projects never need us in the room, because the work happens inside your accounts. If a project does need us on site, we arrange a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "Cloud consulting Miami projects are priced by scope, not hours. These are the main drivers:"
+      ],
+      "list": [
+        "How many cloud accounts, environments and services you run",
+        "The state of security and access control today",
+        "Whether you need disaster recovery designed and tested",
+        "Compliance needs such as HIPAA or partner security reviews",
+        "Whether you want ongoing managed operations after the project"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should a Miami company prepare its systems for hurricane season?",
+      "a": "Keep backups in a second cloud region outside the Southeast, test a full restore before June, and write a short plan for who does what if the office closes. Make sure staff can log in securely from anywhere. We set this up and rerun the test each year, so the plan stays current."
+    },
+    {
+      "q": "Which cloud provider is best for a Miami business?",
+      "a": "There is no single answer. AWS has the widest range of services, Azure fits companies already on Microsoft 365, and Google Cloud is strong for data and analytics. We look at what you run, who will maintain it and what it costs, then recommend one and explain why in writing."
+    },
+    {
+      "q": "Can you help a Brickell fintech pass a bank's security review?",
+      "a": "Yes. We review your cloud setup against the questionnaire, fix gaps such as shared admin accounts or missing logs, and help you write accurate answers. We will not tell you to claim controls you do not have, because that tends to come back during the review."
+    },
+    {
+      "q": "Do you work with Miami companies in person?",
+      "a": "Our team works remotely from London, five hours ahead of Miami, and cloud work suits that well. Changes can be made before your business day starts, with calls in your morning. If something needs us on site, such as a server room move, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How much can a cost review save?",
+      "a": "It depends on how your accounts were set up. Common findings include idle servers, oversized databases, old snapshots and data transfer charges nobody noticed. We show each finding with the expected monthly saving and the risk of changing it, so you decide what to act on."
+    },
+    {
+      "q": "Can you take over cloud systems another vendor built?",
+      "a": "Yes. We start with a review of what exists, document it, and fix the urgent risks first, such as unknown admin accounts or missing backups. Then we agree what to keep, what to change and how support will work from that point on."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/miami/ai-consulting",
+    "/locations/new-york/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting miami",
+    "secondary": ["cloud consultant miami", "aws consulting miami", "cloud services miami", "managed cloud miami"]
+  }
+}

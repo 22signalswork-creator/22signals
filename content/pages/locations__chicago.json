@@ -1,0 +1,135 @@
+{
+  "path": "/locations/chicago",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "title": "Business Solutions in Chicago, IL: AI, Data, Growth | 22 Signals",
+  "description": "Business solutions for Chicago companies: AI, cloud and data, web and apps, SEO and paid media, video and 3D, run by one accountable lead from London.",
+  "eyebrow": "22 Signals in Chicago",
+  "h1": "Business solutions for Chicago companies",
+  "intro": "22 Signals builds the systems Chicago companies run on, then grows them: AI, cloud, data, web and apps, search, paid media, video and 3D. We work with established Chicago firms in manufacturing, logistics, trading, food brands, healthcare and professional services, remotely from London, with one accountable lead and dates agreed in writing.",
+  "sections": [
+    {
+      "h": "What business solutions Chicago companies ask us for",
+      "p": [
+        "Chicago runs on businesses that move physical things and manage serious risk. A food manufacturer in the Stockyards industrial corridor, a freight broker near the Loop, an insurer in the northwest suburbs and a futures trading shop on LaSalle Street all have the same problem in different clothes: too many systems, too many vendors, and nobody who owns the whole picture.",
+        "Most established firms we speak to already have an IT provider, a marketing agency, a freelance developer and someone who builds the dashboards. Each one is fine on its own. The trouble is the gaps between them. If you are comparing business solutions, Chicago has no shortage of vendors. What it is short of is a partner who owns the gaps. We close them by putting one person in charge of the work, the Signal Lead, with specialist teams behind them."
+      ]
+    },
+    {
+      "h": "What we do for Chicago businesses",
+      "p": [
+        "Ten services cover most of what a Chicago company asks us for. Each has its own page with the detail."
+      ],
+      "list": [
+        "AI consulting: where AI pays off in your operation, and how to roll it out under Illinois law.",
+        "AI automation: custom tools that take the repetitive work out of dispatch, quoting, claims and reporting.",
+        "Business intelligence and data analytics: dashboards and reporting your finance and operations teams trust.",
+        "Cloud consulting: architecture, security and cost reviews on AWS, Azure and Google Cloud.",
+        "Web development: sites, portals and migrations that keep the rankings you already earned.",
+        "App development: iOS, Android and web apps for customers, drivers, field staff and patients.",
+        "SEO and GEO: showing up in Google and in ChatGPT, Claude and Gemini answers for Chicagoland searches.",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns tied to leads, not clicks.",
+        "Video, animation and AI video: explainers, reels, edited content and product films.",
+        "3D rendering: product, packaging and trade show visuals before the physical thing exists."
+      ]
+    },
+    {
+      "h": "The Chicago industries we know best",
+      "p": [
+        "Chicago's economy is wide, and the needs change by sector. These are the buyers we see most often and what they usually want first."
+      ],
+      "list": [
+        "Manufacturing and industrial: ERP and shop floor data in one place, quoting tools, distributor portals, and technical animation of products that are hard to photograph.",
+        "Logistics and freight: load tracking, carrier onboarding, automated status updates, and reporting on lanes and margins. Chicago is the country's rail crossroads, so freight is never a side topic here.",
+        "Trading, banking and insurance: reporting, document search and internal AI tools built around strict data rules and record keeping.",
+        "Food and consumer goods: brand sites, retail and distributor data, paid social, and packaging renders for the brands clustered around Fulton Market and the West Loop.",
+        "Healthcare: patient-facing sites and apps, intake automation, and analytics that respect HIPAA, for practices and health tech firms near the Illinois Medical District and Streeterville.",
+        "Professional services: law, accounting and consulting firms in the Loop and River North that need better sites, search visibility and client portals."
+      ]
+    },
+    {
+      "h": "Illinois rules we plan around",
+      "p": [
+        "Illinois has some of the strictest data rules in the country, and they change what we build. The Biometric Information Privacy Act (BIPA) requires written notice, a signed release and a published retention policy before you collect fingerprints, face geometry or voiceprints. That covers more than people think: fingerprint time clocks in a warehouse, face matching in an app, voice analysis in an AI phone system.",
+        "The Illinois Personal Information Protection Act requires reasonable security for personal data and sets out who you must notify after a breach, including the Illinois Attorney General when more than 500 residents are affected. From January 2026, the Illinois Human Rights Act also covers discriminatory use of AI in hiring and employment decisions. We flag these at the planning stage, and your counsel signs off."
+      ]
+    },
+    {
+      "h": "How we work with Chicago from London",
+      "p": [
+        "We work with Chicago companies remotely from London. Chicago is on Central Time, six hours behind London for most of the year, so a Chicago morning is a London afternoon. Calls, reviews and standups sit in that window, and we take later calls when a launch or a cutover needs it.",
+        "Your Signal Lead runs the work through four steps: Talk, Plan, Build, Grow. Every date we agree goes in writing. If the project needs us in the room in Chicago, for a workshop or a launch, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "One team for the technical and the creative",
+      "p": [
+        "Most Chicago agencies do marketing. Most consultancies do technology. Very few do both, and almost none add video, animation and 3D. We cover AI, cloud and data, marketing, and video and 3D with one team, so a manufacturer launching a new product line can get the product renders, the launch site, the search pages and the dashboards that track it from people who talk to each other.",
+        "That is the difference between hiring ten vendors and hiring one. You get one plan, one set of dates and one person to call."
+      ]
+    },
+    {
+      "h": "Proof, plainly stated",
+      "p": [
+        "We have worked with more than 30 companies across four regions, including law firms, clinics, retailers, technology firms and entertainment brands in the United States. We do not publish client names. We are happy to walk through relevant work on a call, and the service pages describe specific projects without naming anyone."
+      ]
+    },
+    {
+      "h": "Where Chicago projects usually start",
+      "p": [
+        "Some firms come in with a clear brief, such as a site rebuild before a rebrand or a Power BI rollout after an acquisition. Others come in with a feeling that the business has outgrown its tools. Either way, the first conversation is a short fit check. When it comes to business solutions, Chicago firms tell us the hardest part is knowing where to begin. If we are not the right team, we say so and point you somewhere better."
+      ],
+      "list": [
+        "A Loop law firm replacing a slow site and adding a secure client portal.",
+        "A suburban manufacturer pulling ERP, CRM and spreadsheet data into one weekly report.",
+        "A Fulton Market food brand that needs product renders, reels and paid social before a retail launch.",
+        "A logistics firm testing an AI assistant for carrier emails, with a person approving every send."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Chicago?",
+      "a": "No. Our head office is in London and we work with Chicago companies remotely. Meetings run on video in the Chicago morning, which overlaps the London afternoon, and we visit Chicago in person when a project needs it, for example a workshop or a launch. Everything we agree, including dates, is written down."
+    },
+    {
+      "q": "What kinds of Chicago companies do you work with?",
+      "a": "Mostly established firms with 5 to 500 staff: manufacturers, logistics and freight companies, trading, banking and insurance firms, food and consumer brands, healthcare providers and professional services firms. We also work with founders and startups, often from River North and the Fulton Market area, once they have a product and a reason to grow."
+    },
+    {
+      "q": "How do you handle BIPA and Illinois data law?",
+      "a": "We design around them from the start. If a system touches fingerprints, faces or voices, we plan the notice, written release and retention policy BIPA requires before anything is collected. For personal data in general we build to the security and breach notice duties in the Illinois Personal Information Protection Act. Your legal counsel makes the final call."
+    },
+    {
+      "q": "Can one team really cover tech, marketing and video?",
+      "a": "Yes, because each area has its own specialist team and one Signal Lead runs them together. A Chicago brand launching a product might need 3D renders, a landing page, paid campaigns and a dashboard. Running those through one lead means one plan and one set of dates instead of four vendors waiting on each other."
+    },
+    {
+      "q": "What does working with you cost?",
+      "a": "It depends on scope. The main factors are how many services you need, how many systems we connect, how much content or creative is involved, and whether the work is a one-off build or ongoing. We scope the work after a short call and put the price and dates in writing before anything starts."
+    },
+    {
+      "q": "How quickly can a Chicago project start?",
+      "a": "Most projects start with a fit check, then a written plan within days. Smaller builds, like a dashboard or a landing page, can begin soon after the plan is agreed. Larger work, like a cloud migration or a new app, starts with discovery so the dates we commit to are dates we can keep."
+    }
+  ],
+  "related": [
+    "/united-states",
+    "/locations/chicago/ai-consulting",
+    "/locations/chicago/business-intelligence",
+    "/locations/chicago/cloud-consulting",
+    "/locations/chicago/seo-geo",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "business solutions chicago",
+    "secondary": [
+      "digital agency chicago",
+      "ai consulting chicago",
+      "technology consulting chicago",
+      "marketing agency chicago"
+    ]
+  }
+}

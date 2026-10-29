@@ -1,0 +1,104 @@
+{
+  "path": "/locations/california",
+  "kind": "state-hub",
+  "region": "us",
+  "state": "California",
+  "title": "AI Consulting California: LA and San Francisco | 22 Signals",
+  "description": "AI consulting California teams use to ship real tools: AI, cloud, data, video and growth for Los Angeles and San Francisco companies, built for CCPA and CPRA.",
+  "eyebrow": "California",
+  "h1": "AI consulting California businesses can ship, with the cloud, data and marketing around it",
+  "intro": "22 Signals provides AI consulting California companies use to move from pilots to working tools, plus cloud, data, web, video and paid media. We work with established businesses in Los Angeles and San Francisco, plan every build around the CCPA and CPRA, and stay with you after launch to grow the results, with one lead accountable for all of it.",
+  "sections": [
+    {
+      "h": "Two cities, two different briefs",
+      "p": [
+        "California buyers have usually tried AI already. The question is less often whether to use it and more often why the pilot never reached the rest of the company, or why the bill for tools keeps rising while the work looks the same.",
+        "Los Angeles and San Francisco bring that question from different directions. LA companies are often in entertainment, media, consumer brands, fashion, healthcare and logistics around the ports, and they want AI that cuts production and operations time while marketing keeps pace. Bay Area companies are more often software, SaaS, AI and life sciences firms that want AI features in the product, clean data and a cloud setup that does not burn cash."
+      ]
+    },
+    {
+      "h": "Our California city hubs",
+      "list": [
+        "Los Angeles: studios, agencies and media companies in Hollywood, Burbank and Culver City, consumer and fashion brands downtown, and healthcare and logistics groups across the county",
+        "San Francisco: SaaS, AI and fintech companies in SoMa and the Financial District, and the wider Silicon Valley and South San Francisco life sciences cluster"
+      ]
+    },
+    {
+      "h": "AI consulting California teams ask us for",
+      "list": [
+        "AI readiness reviews that find the pilots worth scaling and the tools worth cancelling",
+        "Custom AI agents and retrieval over company documents, with evaluation and guardrails",
+        "AI and automation for production, content and media workflows",
+        "Cloud architecture, DevOps and cost reviews on AWS, Google Cloud and Azure",
+        "Data pipelines, warehouses and dashboards that leadership actually opens",
+        "Video, motion graphics, AI video and 3D for launches and campaigns",
+        "SEO, generative engine optimization and paid media across Google, Meta, LinkedIn and TikTok"
+      ]
+    },
+    {
+      "h": "CCPA and CPRA from day one",
+      "p": [
+        "The California Consumer Privacy Act, as amended by the California Privacy Rights Act, gives Californians the right to know, delete and correct their personal data, to opt out of its sale or sharing, and to limit how sensitive personal information is used. The California Privacy Protection Agency and the Attorney General both enforce it, and newer regulations add duties around risk assessments and automated decision-making technology that phase in over the next few years.",
+        "For AI projects that means a few practical habits. We keep a record of what personal data each tool sees, avoid sending sensitive data to services that do not need it, set retention limits, and make sure opt-outs reach every system, including ad platforms. Where a tool makes or supports significant decisions about people, we design human review in. Your counsel has the final say on compliance."
+      ]
+    },
+    {
+      "h": "Working with us from California",
+      "p": [
+        "We work with California companies remotely from our head office in London. Los Angeles and San Francisco are on Pacific Time, eight hours behind London, so we hold calls in your morning, which is our late afternoon and evening, and use the hours in between to build. The gap can help: questions asked at the end of your day often have answers waiting the next morning.",
+        "When the project needs it, such as a leadership workshop or a shoot, we come on site. Otherwise everything runs through video calls, a shared plan and a weekly written update."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events, and the lesson carries into every AI rollout: the date does not move. Launches, board reviews and campaign deadlines get the same treatment, planned backwards and agreed in writing."
+      ]
+    },
+    {
+      "h": "Why California companies pick 22 Signals",
+      "p": [
+        "California has no shortage of AI specialists, so our case rests on range. One team covers AI, cloud and data, and also the marketing, video, animation and 3D that turn a new capability into customers. You get one Signal Lead, specialist teams behind them, and a process of Talk, Plan, Build, Grow.",
+        "Cost depends on scope: the number of use cases, the data and systems involved, privacy and security requirements, the creative volume if marketing is included, and whether you want ongoing support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in California?",
+      "a": "No. We work with California companies remotely from our head office in London, with meeting hours that overlap Pacific Time. California is eight hours behind London, so calls usually sit in your morning. We come on site when the project needs it, for example for a workshop or a production day."
+    },
+    {
+      "q": "How do you handle CCPA and CPRA in AI projects?",
+      "a": "We document what personal data each AI tool processes, keep sensitive data out of tools that do not need it, set retention limits and make sure opt-out and deletion requests reach every connected system. Where AI supports decisions about people, we add human review. Your counsel reviews and approves the setup."
+    },
+    {
+      "q": "Our AI pilot worked but never rolled out. Can you help?",
+      "a": "Yes, it is a common starting point. We review why it stalled, usually data access, unclear ownership, missing evaluation or security concerns, fix those, and plan a staged rollout with measures agreed up front. Sometimes the honest answer is to buy a tool instead, and we will say so."
+    },
+    {
+      "q": "Do you work with entertainment and media companies in Los Angeles?",
+      "a": "Yes. Our video, motion, AI video and 3D teams sit alongside our AI and data teams, so we can automate parts of a production or content workflow and also produce the content. We have run and broadcast more than 20 large-scale live events, so live deadlines are familiar territory."
+    },
+    {
+      "q": "Can you build AI features for a San Francisco SaaS product?",
+      "a": "Yes. We build agents, retrieval over documents and other AI features inside your product, working in your repositories with code review and evaluation. We can also handle the cloud, data and launch marketing, so the feature reaches users with a plan behind it."
+    },
+    {
+      "q": "What does AI consulting cost in California?",
+      "a": "It depends on scope. The main factors are the number of use cases, the systems and data involved, privacy and security requirements, and whether marketing or ongoing support is included. After a 15-minute call we send a written scope with dates."
+    }
+  ],
+  "related": [
+    "/locations/los-angeles",
+    "/locations/san-francisco",
+    "/services/ai-consulting",
+    "/services/custom-ai-development",
+    "/industries/technology-ai",
+    "/united-states"
+  ],
+  "keywords": {
+    "primary": "ai consulting california",
+    "secondary": ["ai consultant california", "ai company california", "ai consulting los angeles", "ai consulting san francisco", "ccpa ai compliance"]
+  }
+}

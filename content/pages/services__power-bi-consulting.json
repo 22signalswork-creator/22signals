@@ -1,0 +1,148 @@
+{
+  "path": "/services/power-bi-consulting",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "Power BI consulting",
+  "title": "Power BI Consulting: Dashboards, DAX, Fabric | 22 Signals",
+  "description": "Power BI consulting for companies that want reports people trust: data modeling and DAX, CRM and finance connections, Fabric, security and training.",
+  "eyebrow": "Power BI Consulting",
+  "h1": "Power BI consulting for reports your team trusts",
+  "intro": "22 Signals provides Power BI consulting for companies that run on Microsoft and want reporting they can rely on. We design the data model, write the DAX, connect CRM, finance and ERP data through Power Query or Microsoft Fabric, set up security and governance, and train your team, so dashboards load fast and show one agreed set of numbers.",
+  "sections": [
+    {
+      "h": "When Power BI stops working for you",
+      "p": [
+        "Power BI is easy to start with, which is part of the problem. Someone builds a useful report in Power BI Desktop, it gets shared, copied and edited, and within a year the company has dozens of reports in personal workspaces, each with its own version of revenue. Nobody is sure which one the board pack uses.",
+        "Other symptoms follow. Reports take a long time to open because the model imports every column from every table. Scheduled refreshes fail overnight and nobody notices until a meeting. A measure written by someone who has since left gives a different answer from the same measure in another report. Sales managers can see each other's numbers when they shouldn't.",
+        "None of this means Power BI is the wrong tool. It means the setup underneath needs design: a proper data model, shared semantic models, clear workspaces and rules for who can publish what."
+      ]
+    },
+    {
+      "h": "What our Power BI consulting includes",
+      "list": [
+        "Dashboards and paginated reports for leadership, managers and frontline teams",
+        "Data modeling: star schemas, relationships, and DAX measures that give the same answer everywhere",
+        "Power Query and dataflows to clean and shape data before it reaches the model",
+        "Connections to CRM, finance, ERP, e-commerce, ads and operations systems",
+        "Microsoft Fabric and Azure data platforms when your data outgrows direct connections",
+        "Governance: workspaces, deployment pipelines, certified semantic models and row-level security",
+        "Health checks and rescues for existing Power BI estates that have grown out of control",
+        "Training for report builders and for the people who only read reports"
+      ]
+    },
+    {
+      "h": "Data modeling and DAX done properly",
+      "p": [
+        "Most slow or confusing Power BI reports have a modeling problem, not a visual one. We build star schemas with clean fact and dimension tables, a proper date table, and relationships that filter in the direction you expect. Columns nobody uses are removed so the model stays small and fast.",
+        "Business logic lives in DAX measures, written once in a shared semantic model and reused across reports. That covers the calculations companies need most: year to date and prior year comparisons, rolling averages, margin, conversion rates, pipeline coverage and targets against actuals. We test measures against figures from the source system and document what each one does, using tools such as Tabular Editor and DAX Studio to check performance."
+      ]
+    },
+    {
+      "h": "Connecting CRM, finance and ERP data",
+      "p": [
+        "Power BI is only as good as the data reaching it. We connect the systems mid-sized companies use most, including Dynamics 365, Salesforce, HubSpot, NetSuite, SAP, Sage, QuickBooks and Xero, plus SQL databases, SharePoint lists, Excel files, Google Ads, Meta Ads and GA4.",
+        "Power Query handles cleaning and shaping: fixing data types, merging customer records, mapping account codes and unpivoting the spreadsheets finance teams love. For on-premises sources we configure the data gateway, and for large tables we set up incremental refresh so only new data loads each night."
+      ]
+    },
+    {
+      "h": "Microsoft Fabric and Azure: when you need more than Power BI",
+      "p": [
+        "Many companies run well on Power BI Pro with direct connections. You need more when data volumes grow, when several teams need the same cleaned data, or when you want to combine Power BI with data science and AI work.",
+        "That is where Microsoft Fabric and Azure come in. We set up lakehouses and warehouses in Fabric, pipelines that land data in OneLake, and semantic models that use Direct Lake mode for speed on large datasets. If you already run Azure SQL or Azure Data Factory, we build on that instead. We also explain the licensing choices plainly, Pro, Premium Per User or Fabric capacity, so you buy what your user count and data size actually require."
+      ]
+    },
+    {
+      "h": "Governance and row-level security",
+      "p": [
+        "Governance is what keeps a Power BI setup useful in year three. We organize workspaces by department and stage, use deployment pipelines to move reports from development to test to production, and certify the shared semantic models that official reports must use. Personal copies stop being the source of truth.",
+        "Row-level security makes sure each person sees only what they should: a regional manager sees their region, a client sees their own account, finance sees everything. Where needed we add object-level security and sensitivity labels, and we document who owns each report and model.",
+        "We also set up usage monitoring, so you can see which reports people actually open. Reports nobody has viewed in months get archived, which keeps the workspace list short and makes the official reports easier to find."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a fit call, then a review of your current reports, data sources, licenses and the decisions you need the data for",
+        "Plan: KPI definitions, the target data model, workspace structure, security rules and a delivery calendar in writing",
+        "Build: semantic models, dashboards, refresh schedules and security, released in stages and tested against source figures",
+        "Grow: training, adoption tracking, new reports as questions come in, and ongoing care so refreshes keep running"
+      ]
+    },
+    {
+      "h": "Training your team to own Power BI",
+      "p": [
+        "A Power BI rollout only pays off if people use it. We train two groups separately. Report builders learn how the semantic model is structured, how to write and test DAX measures, and how to publish through the deployment pipeline without breaking anything. Report readers learn to filter, drill down, export responsibly and set up alerts on the numbers they care about.",
+        "Training uses your own data and your own reports, not generic samples, and we leave short written guides behind so new starters can get up to speed without waiting for the next session."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. Power BI licensing is paid to Microsoft and is separate from our work. Our cost depends on scope, which we confirm in writing after the first call."
+      ],
+      "list": [
+        "How many data sources need connecting and how clean they are",
+        "The number of semantic models, reports and audiences",
+        "Complexity of the DAX and of security rules such as row-level access",
+        "Whether you need Fabric or Azure data work underneath Power BI",
+        "Migrating reports from Excel, Tableau or another BI tool",
+        "Training, documentation and support after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for Power BI",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and we approach Power BI as part of the business, not a reporting add-on. One Signal Lead owns the work, with data engineers, analysts and AI specialists behind them. Because the same team runs data engineering, AI automation and marketing, your Power BI reports can show marketing spend next to revenue, feed alerts into the tools your team uses, and sit on a data platform built to last.",
+        "Related services: business intelligence consulting if you are still choosing a BI tool, data engineering for the pipelines and warehouse behind Power BI, and cloud consulting for the wider Azure setup."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a Power BI consultant do?",
+      "a": "A Power BI consultant designs the data model, writes the DAX, connects data sources, builds dashboards and sets up security and governance so reports stay accurate as the company grows. Our Power BI consulting also covers Fabric and Azure data work and team training, so the setup keeps working after the project ends."
+    },
+    {
+      "q": "Can you fix our existing Power BI reports?",
+      "a": "Yes, and it is a common starting point. We run a health check covering which reports are used, why refreshes fail, where measures disagree and how the model performs. Then we consolidate onto shared semantic models, fix the DAX, set up proper workspaces and retire duplicates. Rebuilding from scratch is only recommended when the current model cannot be saved."
+    },
+    {
+      "q": "Do we need Microsoft Fabric or is Power BI Pro enough?",
+      "a": "Many companies with modest data volumes and a few sources do well on Power BI Pro. Fabric makes sense when data volumes are large, several teams need the same cleaned data, or you want lakehouses, pipelines and data science in one place. We look at your users, data size and plans, then recommend the license that fits."
+    },
+    {
+      "q": "Which systems can Power BI connect to?",
+      "a": "Power BI connects to hundreds of sources. The ones we work with most are Dynamics 365, Salesforce, HubSpot, NetSuite, SAP, Sage, QuickBooks, Xero, SQL Server, Azure SQL, SharePoint, Excel, Google Ads, Meta Ads and GA4. Where no ready connector exists, we pull data through the system's API into a warehouse first."
+    },
+    {
+      "q": "How does row-level security work in Power BI?",
+      "a": "Row-level security filters the data each user can see inside the same report. We define roles, for example by region, team or client, link them to users or security groups, and test each role before launch. One report then serves everyone, and nobody sees figures they should not, which also cuts the number of reports to maintain."
+    },
+    {
+      "q": "How long does a Power BI project take?",
+      "a": "A first set of dashboards on a well-modeled dataset from a few sources usually takes a few weeks. Larger projects with many sources, complex security or a Fabric platform run in stages. We agree the stages and dates in writing before starting, and you see working reports early rather than at the end."
+    },
+    {
+      "q": "How much does Power BI consulting cost?",
+      "a": "It depends on the number of data sources, the complexity of the model and security rules, whether Fabric or Azure work is needed, and how much training you want. Microsoft licensing is separate. We don't publish prices; after a short call we send a written scope with dates so you know exactly what is included."
+    }
+  ],
+  "related": [
+    "/services/business-intelligence",
+    "/services/data-engineering",
+    "/services/cloud",
+    "/services/ai-automation",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "power bi consulting",
+    "secondary": [
+      "power bi consultant",
+      "power bi consulting services",
+      "power bi dashboard development",
+      "dax consulting",
+      "microsoft fabric consulting",
+      "power bi implementation"
+    ]
+  }
+}

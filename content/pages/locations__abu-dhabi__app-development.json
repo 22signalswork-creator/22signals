@@ -1,0 +1,140 @@
+{
+  "path": "/locations/abu-dhabi/app-development",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Abu Dhabi | 22 Signals",
+  "description": "App development for Abu Dhabi organisations: iOS, Android and web apps with Arabic layouts, UAE data handling, payments and app store launch, from London.",
+  "eyebrow": "App Development in Abu Dhabi",
+  "h1": "App development for Abu Dhabi organisations and the people they serve",
+  "intro": "We build iOS, Android and web apps for Abu Dhabi organisations: customer apps, staff tools, patient and student apps, and SaaS products. Every app is designed in Arabic and English, handles personal data under UAE law, connects to the systems you already run, and goes through app store launch and support with one accountable lead.",
+  "sections": [
+    {
+      "h": "Why apps here have a higher bar",
+      "p": [
+        "People in the capital use government and banking apps that work well. TAMM, the Abu Dhabi government services platform, and the national UAE PASS identity have set expectations for how a serious app should behave: fast, bilingual, secure and simple to sign in to. A clinic, school or property company launching an app is compared with those, not with a small startup.",
+        "At the same time, many of the people using your app are residents from dozens of countries, plus visitors. The app has to work for an Emirati parent reading in Arabic, an engineer reading in English and a tourist who only needs three screens to book a trip."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Native iOS and Android apps, or one cross-platform codebase where that suits the product",
+        "Web apps and SaaS products with user accounts, roles and billing",
+        "MVPs for new products, scoped to what proves demand",
+        "Staff and field apps for inspections, deliveries and site work, including offline mode",
+        "Payments, subscriptions and in-app purchases",
+        "APIs and integrations with your CRM, ERP, booking or clinical systems",
+        "App store submission, launch, monitoring and ongoing support"
+      ]
+    },
+    {
+      "h": "App ideas we see from Abu Dhabi sectors",
+      "p": [
+        "Healthcare groups want patient apps for appointments, results and reminders, with health data kept in the UAE as the federal health data law generally requires. Engineering and energy service contractors ask for field apps that log inspections, photos and safety checks on sites with weak signal, then sync when back in coverage.",
+        "Private schools and training providers want parent and student apps for timetables, fees and messages in two languages. Property developers and agents ask for buyer apps that track off-plan payments and handover. Hotels, tour operators and attractions serving Saadiyat, Yas Island and the desert want visitor apps for bookings, tickets and guides in several languages. Founders in the Hub71 community come to us for an MVP that investors can actually use."
+      ]
+    },
+    {
+      "h": "Arabic, right-to-left and accessibility",
+      "p": [
+        "We design every screen in both directions from the start. Navigation, swipe gestures, progress bars and icons with direction all need to flip correctly in Arabic, and mixed text such as an Arabic sentence with an English product name needs care. Native speakers review the Arabic, and we test on real devices common in the UAE.",
+        "Accessibility is part of the build: readable type sizes, contrast, screen reader labels and touch targets large enough to use on the move."
+      ]
+    },
+    {
+      "h": "Data, sign-in and payments",
+      "p": [
+        "Apps collect personal data, so we design to the UAE PDPL, or the ADGM Data Protection Regulations 2021 for firms licensed in ADGM: clear consent, minimal data collection, encryption, and hosting in a UAE cloud region where the data should stay in the country.",
+        "Sign-in can be email, phone with one-time codes, or UAE PASS where your organisation is an approved service provider. For payments we work with established gateways that support AED and international cards, and we keep card data out of your systems entirely."
+      ]
+    },
+    {
+      "h": "How an app project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: who the users are, what they need to do in the first minute, and what success looks like. Plan: user flows, designs in both languages, technical architecture and a written schedule with milestones. Build: development in short cycles, with test builds on your phone every couple of weeks. Grow: launch, app store optimisation, analytics, fixes and the next set of features based on real usage.",
+        "Your Signal Lead owns delivery. Designers, mobile and backend developers, QA testers and our marketing team for launch sit behind them."
+      ]
+    },
+    {
+      "h": "After launch: the part most quotes leave out",
+      "p": [
+        "An app is never finished on launch day. iOS and Android release new versions every year, payment providers change their rules, and users find problems testers missed. We plan for that from the start with crash monitoring, analytics on the screens people abandon, and a regular release cycle.",
+        "We also look at how users find the app. Store listings in both languages, a landing page that ranks for what Abu Dhabi customers search, and short launch videos made by our own video team all sit with the same Signal Lead, so the app does not launch quietly."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We are building an AI commentary product for live esports, currently in development, which has to process live game data and respond in real time. That kind of work, where timing and reliability matter more than features on a list, shapes how we approach every app."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "The app development Abu Dhabi clients hire us for runs remotely from London. You get test builds on your phone, a shared progress board and reviews in the overlap with Gulf Standard Time, which is 4 hours ahead of London in winter and 3 in summer. User testing with real customers can run remotely too. When a launch event or a round of in-person user testing makes sense, we come to Abu Dhabi when the project needs it. We have no UAE office."
+      ]
+    },
+    {
+      "h": "What affects cost",
+      "list": [
+        "Native apps for each platform or one cross-platform codebase",
+        "Number of screens, user roles and features in the first release",
+        "Integrations with existing systems and their quality",
+        "Payments, sign-in options and data residency needs",
+        "Offline mode, real-time features or heavy media",
+        "Support, hosting and updates after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does app development in Abu Dhabi differ from elsewhere?",
+      "a": "For app development, Abu Dhabi users expect the polish of the government and banking apps they use daily, so bilingual design, right-to-left layouts and secure sign-in are standard, not extras. Data handling follows the UAE PDPL or ADGM rules, and health apps generally keep data in the country."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "Cross-platform suits most business apps: one codebase, faster updates and lower running cost. Native makes sense for heavy graphics, advanced device features or the smoothest possible performance. We recommend based on what your app actually does and who maintains it after launch."
+    },
+    {
+      "q": "Can our app use UAE PASS for sign-in?",
+      "a": "If your organisation is an approved UAE PASS service provider, yes, and it gives users a familiar, trusted sign-in. If not, we use secure email or phone-based login. We check eligibility at the planning stage so the design does not rely on an integration you cannot get."
+    },
+    {
+      "q": "Can you build an MVP for a Hub71 startup?",
+      "a": "Yes. We scope an MVP to the smallest product that proves people will use and pay for it, build it properly so it does not need rewriting, and get it into the app stores. Our app development, Abu Dhabi or elsewhere, is mostly for established companies, but founders with a clear problem are welcome."
+    },
+    {
+      "q": "Do you handle the App Store and Google Play launch?",
+      "a": "Yes. We prepare store listings in Arabic and English, screenshots, privacy disclosures and review submissions, and we handle rejections if they happen. After launch we monitor crashes and reviews and release fixes. Your organisation owns the developer accounts."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "It depends on scope. A focused MVP is much quicker than a full product with payments, integrations and several user roles. We break the work into milestones during planning, give you a date for each in writing, and show you working test builds along the way so progress is never a mystery."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. The code, designs and developer accounts belong to your organisation, and we document the app so another team could maintain it. We would rather keep your business because the work is good than because you are locked in."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/app-development",
+    "/locations/abu-dhabi/web-development",
+    "/locations/abu-dhabi/cloud-consulting",
+    "/locations/dubai/app-development",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "app development abu dhabi",
+    "secondary": [
+      "mobile app development abu dhabi",
+      "app developers abu dhabi",
+      "arabic app development",
+      "ios android app abu dhabi"
+    ]
+  }
+}

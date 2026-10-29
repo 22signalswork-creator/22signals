@@ -1,0 +1,150 @@
+{
+  "path": "/locations/birmingham/3d-rendering",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering Birmingham: Product, Jewellery, CGI | 22 Signals",
+  "description": "3D rendering for Birmingham manufacturers, jewellers, brands and developers: photoreal product, jewellery, packaging and architectural visuals from CAD.",
+  "eyebrow": "3D Rendering in Birmingham",
+  "h1": "3D rendering Birmingham makers and manufacturers use instead of a studio shoot",
+  "intro": "We create photoreal 3D renders for Birmingham businesses: products and components from CAD, jewellery in every metal and stone option, packaging, campaign visuals, and interior and architectural visualisation. We also prepare 3D models for websites and ads. You get images that look like photography, for products that may not exist yet, in every variant you sell.",
+  "sections": [
+    {
+      "h": "Why photography is not always the answer",
+      "p": [
+        "Photography needs the finished thing. A West Midlands manufacturer launching a new component at a trade show often has a CAD model months before the first production part. A Jewellery Quarter jeweller selling a ring in four metals and six stones cannot make and photograph 24 versions. A developer marketing flats off-plan has nothing built to shoot.",
+        "3D rendering solves all three. From a model, we produce images that look like studio photography, in any angle, colour or configuration, and we can change them later without a reshoot."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Photoreal product renders: hero shots, white-background catalogue images and detail close-ups.",
+        "Packaging: renders of boxes, labels and retail displays before anything is printed.",
+        "Campaign visuals: products placed in styled scenes for ads, social and print.",
+        "Interior and architectural visualisation for residential, commercial and retail spaces.",
+        "3D models for web and ads: optimised files for product viewers, configurators and augmented reality.",
+        "Animated turntables and short clips, with full product and technical animation available from our animation team."
+      ]
+    },
+    {
+      "h": "The Jewellery Quarter and 3D",
+      "p": [
+        "Many jewellers in Birmingham's Jewellery Quarter already design in CAD before casting. Those same files can produce renders good enough for a website, a customer approval or an Instagram launch. For bespoke commissions, a customer sees exactly how their ring will look in their chosen metal and stone before anything is made. For collections, every variant can be shown online without making stock to photograph it.",
+        "Metal, stone and light are some of the hardest things to render convincingly. We spend the time on reflections, facets and surface finishes, because a render that looks like plastic does more harm than no image at all."
+      ]
+    },
+    {
+      "h": "Renders for Birmingham's other industries",
+      "list": [
+        "Advanced manufacturing and automotive supply chain: component and assembly renders from SolidWorks, STEP or other CAD exports, for catalogues, tenders and trade show stands at the NEC.",
+        "Consumer brands and retail: product and packaging renders for e-commerce, Amazon listings and campaigns, made before the first production run.",
+        "Property and development: interior and exterior visualisation for city-centre apartments, offices and refurbishments, so buyers and tenants can picture the finished space.",
+        "Healthcare and life sciences: medical device renders for websites, investor decks and regulatory-friendly marketing.",
+        "Professional services and logistics: visualisations of new offices, warehouses and fit-outs for planning, leasing and recruitment."
+      ]
+    },
+    {
+      "h": "Renders that work in ads and on product pages",
+      "p": [
+        "A render made for a print catalogue is not automatically right for a Meta ad or a Shopify product page. Ads need bold crops that read on a phone in a split second; product pages need consistent angles, true colour and fast-loading files; trade show graphics need very high resolution.",
+        "We plan the output list at the start so one set of models produces every format. That is where 3D rendering Birmingham retailers and manufacturers commission from us tends to pay back: the same model keeps producing new images each season, for new campaigns and new variants, without another shoot."
+      ]
+    },
+    {
+      "h": "Your CAD files stay confidential",
+      "p": [
+        "Design files are often your most valuable intellectual property, especially for automotive suppliers working under customer confidentiality agreements. We sign an NDA before receiving files, store them with restricted access, use them only for the agreed renders, and return or delete them at the end of the project if you ask. If a customer's contract limits who may see a part, tell us and we will work within it."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: we learn what the renders are for, where they will appear and what files or references you have.",
+        "Plan: a shot list, style references, variants and formats, with every date in writing.",
+        "Build: model or prepare your CAD, set materials and lighting, then render drafts for review.",
+        "Grow: final images in every size you need, plus new angles, variants or animations as your range grows."
+      ]
+    },
+    {
+      "h": "Experience behind the work",
+      "p": [
+        "We have worked with more than 30 companies across four regions, many of them in sectors where images carry the sale: fashion, beauty and retail, healthcare and aesthetics, technology and real estate. Our 3D team sits alongside our video, animation and paid media teams, so renders are made with their final use in mind."
+      ]
+    },
+    {
+      "h": "3D rendering Birmingham clients commission from London",
+      "p": [
+        "Rendering is fully remote work, so being based at our London head office rather than in Birmingham makes no difference to the result. You send CAD files, drawings, samples or reference photos; we send draft renders with review links; you comment directly on the image. There is no Birmingham office. When a project needs it, for example to see a physical sample, match a finish in person or review a fit-out on site, we come to Birmingham, about 80 minutes by train from Euston.",
+        "One Signal Lead runs the project and confirms dates in writing."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Whether you have usable CAD files or we need to model from drawings or photos.",
+        "Number of products, angles and variants.",
+        "Material complexity: metal, glass, gemstones and fabrics take longest.",
+        "Scene styling for lifestyle and campaign images.",
+        "Interactive 3D or augmented reality files for the web.",
+        "Animation, if you need turntables or product films."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Most rendering studios hand over images and stop. We also build e-commerce websites, run paid media and make video and animation, so the same models can power your product pages, ads, social content and launch film. Related: video and animation, web development and paid media in Birmingham."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What can 3D rendering Birmingham businesses commission from you be used for?",
+      "a": "Websites and e-commerce, catalogues, packaging approval, ads and social posts, trade show graphics, tenders, investor decks and property marketing. The same model can produce still images, animations and interactive 3D files, so one project can cover several uses."
+    },
+    {
+      "q": "Can you render jewellery from our CAD files?",
+      "a": "Yes. Many Jewellery Quarter jewellers design in CAD, and those files can produce photoreal renders in every metal and stone option. We focus on realistic reflections, facets and finishes so the renders look like photography, for websites, commission approvals and social launches."
+    },
+    {
+      "q": "Do we need CAD files to get renders?",
+      "a": "No, though they help. Without CAD, we can model from technical drawings, measurements, reference photos or a physical sample. Modelling from scratch takes longer, so we confirm what you have and include it in the scope and timeline."
+    },
+    {
+      "q": "How do you protect confidential designs?",
+      "a": "We sign an NDA before receiving files, restrict access to the people working on the project, use files only for the agreed renders, and delete or return them on request. We work within any confidentiality terms your own customers set."
+    },
+    {
+      "q": "Do you work with Birmingham clients in person?",
+      "a": "When the project needs it, for example to inspect a physical sample or match a finish. Rendering itself runs remotely from our London head office, with review links you can comment on directly, in the same time zone."
+    },
+    {
+      "q": "Can renders replace product photography completely?",
+      "a": "For many uses, yes: catalogue images, variants, packaging and products not yet made. For lifestyle shots with real people, photography or a mix of both often works best. We recommend the right approach for each image rather than rendering everything by default."
+    },
+    {
+      "q": "How long does a 3D rendering project take?",
+      "a": "It depends on whether CAD files exist, how many products and variants are needed and how complex the materials are. A few renders from clean CAD are quick; a full jewellery collection or a styled campaign takes longer. We set out every date in the written scope before starting."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/3d-rendering",
+    "/locations/birmingham/video-animation",
+    "/locations/birmingham/web-development",
+    "/services/3d-animation",
+    "/locations/london/3d-rendering"
+  ],
+  "keywords": {
+    "primary": "3d rendering birmingham",
+    "secondary": [
+      "3d rendering services birmingham",
+      "product rendering birmingham",
+      "jewellery rendering birmingham",
+      "cgi product visualisation west midlands"
+    ]
+  }
+}

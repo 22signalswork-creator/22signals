@@ -1,0 +1,138 @@
+{
+  "path": "/locations/los-angeles/3d-rendering",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering Services in Los Angeles | 22 Signals",
+  "description": "3D rendering services for Los Angeles beauty, fashion, product and real estate brands: photoreal renders, packaging, interiors and 3D models for web and ads.",
+  "eyebrow": "3D Rendering in Los Angeles",
+  "h1": "3D rendering services for Los Angeles brands, developers and product teams",
+  "intro": "We provide 3D rendering services for established Los Angeles companies: photoreal product renders, packaging, campaign visuals, interior and architectural visualization, and 3D models for websites and ads. You send CAD files, dielines, drawings or reference photos; we return images and models ready for launch, without booking a studio day.",
+  "sections": [
+    {
+      "h": "Why LA brands are moving from photo shoots to renders",
+      "p": [
+        "A product shoot in Los Angeles means a studio, a photographer, lighting, styling, retouching and, often, a reshoot when the packaging changes. For a beauty brand launching twelve shades or a footwear label with five colorways, that cost multiplies fast. Real estate developers face a different problem: the building they are selling does not exist yet.",
+        "A 3D model solves both. Build the product or space once, accurately, and you can render it in any color, angle, setting or season. When the label changes, you update the model instead of booking another shoot. That flexibility is a big reason brands now ask for 3D rendering services. Los Angeles marketing teams also like that one model feeds the website, the ads and the retail sell-in deck."
+      ]
+    },
+    {
+      "h": "What we create",
+      "list": [
+        "Photoreal product renders on white or in styled scenes",
+        "Packaging visuals from dielines, before the first print run",
+        "Campaign and hero visuals for launches, billboards and social",
+        "Interior and architectural visualization for developers, architects and designers",
+        "3D models for websites, product configurators and AR previews",
+        "3D assets for ads, ready for our animation team to move"
+      ]
+    },
+    {
+      "h": "LA industries that use 3D rendering most",
+      "list": [
+        "Beauty and skincare brands: bottles, jars and compacts with accurate glass, liquid and metallic finishes, and shade ranges rendered in one batch",
+        "Fashion, footwear and accessories: colorways and materials for ecommerce and pre-orders before samples arrive",
+        "Home goods and furniture DTC brands: room scenes in different styles without building sets",
+        "Real estate developers and brokers: exterior and interior renders for pre-sales and leasing, from Downtown LA towers to Westside homes",
+        "Architects and interior designers: client presentations and planning submissions",
+        "Aerospace and hardware companies in the South Bay: clean technical and marketing visuals that avoid photographing sensitive facilities or parts"
+      ]
+    },
+    {
+      "h": "Accuracy first",
+      "p": [
+        "A render is only useful if it is right. Beauty buyers notice when a shade looks wrong on screen, and a misleading real estate visual can cause real problems with buyers. We build from your source files wherever possible: CAD for products, dielines for packaging, architectural drawings and finish schedules for buildings. You approve the model and materials in a clay or draft stage before final lighting and rendering, so changes are easy to make early and rare late in the process.",
+        "For real estate, we mark visuals as artist's impressions where that is appropriate and keep a record of the drawings each image was based on."
+      ]
+    },
+    {
+      "h": "How a rendering project works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: what the renders are for, where they will be used and what you can send",
+        "Plan: shot list, angles, styles, resolutions and a delivery schedule in writing",
+        "Build: modeling, materials, lighting and rendering, with review at draft and final stages",
+        "Grow: new colorways, seasons and scenes from the same model, plus animation if you need motion"
+      ]
+    },
+    {
+      "h": "Remote 3D rendering for Los Angeles",
+      "p": [
+        "Rendering is naturally remote work. Our head office is in London, our 3D artists work across four regions, and Los Angeles is 8 hours behind London for most of the year. That means feedback you send in the afternoon is often worked on overnight, with revised drafts ready when your day starts. Files move through secure cloud transfer, and we sign NDAs for unreleased products as standard. Remote delivery is normal for 3D rendering services. Los Angeles clients simply see it as a studio that keeps working after they log off.",
+        "If a physical sample helps us match a material, we agree with you how to get it to the right artist. We plan an in-person visit only when the project needs it."
+      ]
+    },
+    {
+      "h": "What makes us different",
+      "p": [
+        "Most rendering studios hand over images and stop. Our 3D team sits beside our web, paid media, video and SEO teams, so the same model can become a website configurator, an animated ad and a product page image in one plan. We have worked with more than 30 companies across four regions, and that range is why we plan 3D as part of the wider marketing work rather than as a one-off order."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "Number of products, rooms or buildings to model",
+        "Detail and complexity: glass, liquids, fabrics and fine mechanisms take longer",
+        "Quality of the source files you can supply",
+        "Number of angles, scenes, colorways and final resolutions",
+        "Whether you also need animation, web-ready models or AR files"
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "3D rendering often sits next to our 2D and 3D animation, video production and paid media work, and next to web development when a brand wants 3D product views on its site. Models are reusable, which changes how teams budget for 3D rendering services. Los Angeles brands often come back for animation once the models exist. See video and animation for Los Angeles, or the full 3D rendering service page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer 3D rendering services in Los Angeles in person?",
+      "a": "We work with Los Angeles clients remotely from London, and rendering suits that well because everything is built from files. You send CAD, dielines, drawings or photos, review drafts online and receive final images by secure transfer. If a project needs an in-person session, we plan a visit for that stage."
+    },
+    {
+      "q": "Can renders replace product photography for our beauty brand?",
+      "a": "For many uses, yes: ecommerce images, shade ranges, packaging previews and campaign visuals. Renders are especially useful before products exist or when you need many variations. Some brands still shoot lifestyle photos with models and use renders for the product shots; we help you decide which fits each use."
+    },
+    {
+      "q": "What files do you need to start?",
+      "a": "The best starting point is CAD or 3D files for products, dielines for packaging and architectural drawings with finish schedules for buildings. If you only have photos and measurements, we can model from those, but expect more review rounds. We tell you upfront what your files allow."
+    },
+    {
+      "q": "Can you render real estate developments in Los Angeles before they are built?",
+      "a": "Yes. We create exterior and interior renders from architectural drawings, finishes and site information for marketing, pre-sales and leasing. We can include views and surroundings based on reference material, and we label visuals as artist's impressions where appropriate so buyers are not misled."
+    },
+    {
+      "q": "How long does a set of product renders take?",
+      "a": "It depends on how many products, how complex the materials are and how good the source files are. A small set of renders from clean CAD files moves much faster than modeling a detailed product from photos. We agree a written schedule with draft and final dates before work starts, and because our artists work while LA sleeps, review rounds turn around quickly."
+    },
+    {
+      "q": "Do you keep unreleased products confidential?",
+      "a": "Yes. We sign NDAs as standard, limit file access to the artists working on your project, use secure transfer and do not show client work publicly without written permission. That matters for LA brands working on launches months ahead."
+    },
+    {
+      "q": "Can the 3D models be used on our website?",
+      "a": "Yes. We can prepare lightweight versions of the same models for web viewers, product configurators and AR previews, so customers can rotate a product or see it in their space. Our web team can build the viewer into your site."
+    }
+  ],
+  "related": [
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/los-angeles",
+    "/locations/los-angeles/video-animation",
+    "/locations/los-angeles/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "3d rendering services los angeles",
+    "secondary": [
+      "3d rendering los angeles",
+      "product rendering los angeles",
+      "architectural rendering los angeles",
+      "3d visualization los angeles"
+    ]
+  }
+}

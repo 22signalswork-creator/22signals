@@ -1,0 +1,151 @@
+{
+  "path": "/services/more",
+  "kind": "service",
+  "region": "global",
+  "service": "more",
+  "serviceType": "Managed teams, live events, game development and product sourcing",
+  "title": "Managed Teams, Live Events, Games and Sourcing | 22 Signals",
+  "description": "Managed teams of supervised specialists, plus live events and broadcast, game development and product sourcing through partner factories, all run by one lead.",
+  "eyebrow": "More we do",
+  "h1": "Managed teams, live events, games and product sourcing",
+  "intro": "Beyond our core services, 22 Signals runs managed teams of supervised specialists, produces and broadcasts live events, develops games and interactive products, and handles product sourcing and manufacturing through partner factories. The model is the same as everywhere else we work: one accountable lead, specialist people behind them, and every date agreed in writing.",
+  "sections": [
+    {
+      "h": "Work that does not fit a standard agency box",
+      "p": [
+        "Some of what companies ask us for is not a project with a start and an end. A brand needs four video editors every week for the next year. An esports organizer needs a tournament produced and streamed on a fixed date. A retailer wants its own product line made and quality-checked. A studio wants a game prototype built around its characters.",
+        "These jobs share one need: someone who will own the outcome, manage the people doing the work, and answer for it when something goes wrong. That is the role of the Signal Lead, and it is why we offer these services alongside AI, cloud, data, marketing and video."
+      ]
+    },
+    {
+      "h": "Managed teams of specialists",
+      "p": [
+        "Our managed teams are supervised specialists who work on your output every week, with a lead who checks quality, handles day-to-day management and reports to you. You get the work of an in-house team without recruiting, training or managing each person yourself.",
+        "Depending on the role, companies typically see savings of 40 to 60% vs a local hire. The exact figure depends on the skills, seniority and hours involved, and we show you the comparison for your roles before you decide."
+      ],
+      "list": [
+        "Engineering: web, app and data developers working to your codebase and standards",
+        "Design: brand, product, UI and presentation design",
+        "Video: editors and motion designers working to your brand rules",
+        "Marketing: content, social, SEO and campaign support",
+        "Finance and operations: bookkeeping support, reporting and admin",
+        "Customer support: inbox, chat and helpdesk cover in your working hours"
+      ]
+    },
+    {
+      "h": "How a managed team works day to day",
+      "p": [
+        "Talk: we agree the roles, the output you expect each week, the tools you use and the hours that need to overlap with yours.",
+        "Plan: we match specialists to the roles, set up access to your systems with the permissions you approve, and agree how work is requested, reviewed and reported. Start dates go in writing.",
+        "Build: the team starts on real work from the first week, with the lead reviewing output before it reaches you. You have one person to talk to about priorities, quality and changes, not a group of individuals to chase.",
+        "Grow: as your needs change, the team changes with them. Roles can be added, adjusted or reduced on the notice agreed in your contract, and the lead keeps the standards consistent as people join.",
+        "One example: we run a managed video editing team for a US client. The client sends footage and briefs, and our lead makes sure finished cuts come back to the brand standard and on schedule."
+      ]
+    },
+    {
+      "h": "Managed teams compared with freelancers and agencies",
+      "p": [
+        "Most companies weigh four options when they need specialist work every week. The right one depends on how much control you want and how much management time you have."
+      ],
+      "list": [
+        "Freelancers: flexible, but you manage each person, check every piece of work and cover gaps when someone disappears",
+        "Traditional agencies: managed for you, but usually priced per project and slow to start each new piece",
+        "Our model: ongoing capacity on your work, supervised by a lead who answers for quality and continuity",
+        "In-house hiring: full control, but recruitment time, employment costs and management load sit with you"
+      ]
+    },
+    {
+      "h": "Live events and broadcast",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events, including live tournament broadcasts. Live work teaches one lesson above all: the date does not move. Every plan is built backwards from the moment the stream goes live.",
+        "We plan and produce tournaments, summits, product launches and online shows: run of show, stage and screen graphics, overlays, camera and stream setup, commentary and hosting, and highlight clips for social while the event is still running. After the event, our video team can turn the footage into recap films and promotional content for the next one.",
+        "Before a live date we plan a full technical rehearsal, with backup plans for the things that fail most often on the day: connections, audio, graphics feeds and late changes to the schedule. The audience should never know which plan you are on."
+      ]
+    },
+    {
+      "h": "Game development",
+      "p": [
+        "We design and build games, interactive experiences and esports products, from concept and game design to art, development, testing and launch. Projects can include branded games, interactive campaign experiences, companion apps for events and tools for esports audiences.",
+        "We are also building an AI commentary product for live esports, now in development, which brings our AI and broadcast teams together on one product. Because the same company makes 2D and 3D art, animation and trailers, a game can launch with its marketing ready."
+      ]
+    },
+    {
+      "h": "Product sourcing and manufacturing",
+      "p": [
+        "For brands that sell physical products, we handle sourcing, sampling, production and quality control through partner factories. That covers merchandise, apparel and other physical products, from first sample to finished stock.",
+        "Depending on product and volume, clients can see 40 to 60% lower unit costs. We confirm the real numbers for your product with samples and written quotes before you commit to an order. To start, we need a specification or reference product, target quantities, the quality standard you expect and the date you need stock. Clear inputs at this stage are what keep the first sample close to the final product."
+      ],
+      "list": [
+        "Finding and vetting partner factories for your product type",
+        "Samples and revisions until the product matches your specification",
+        "Production schedules with dates agreed in writing",
+        "Quality checks before goods leave the factory",
+        "Packaging design, plus 3D renders of the product for marketing before stock arrives"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Managed teams: the roles, seniority, hours and how many people are on the team",
+        "Live events: event length, number of cameras and screens, graphics, venue needs and stream platforms",
+        "Game development: scope, platforms, art style, multiplayer features and launch support",
+        "Product sourcing: product type, materials, order volume, packaging and quality-check requirements"
+      ]
+    },
+    {
+      "h": "Why companies bring this work to 22 Signals",
+      "p": [
+        "Each of these services connects to the rest of what we do. A managed editing team can feed the ads our paid media team runs. A live event produces the footage our video team turns into content. A game launches with trailers from our animators. A new product gets 3D renders before the first unit ships.",
+        "We have worked with more than 30 companies across four regions, and on every engagement one Signal Lead owns the plan, the people and the dates."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are managed teams?",
+      "a": "Managed teams are specialists who work on your output every week, supervised by a lead who checks quality and manages the day-to-day work. You set the priorities and receive the results. You do not recruit, train or manage each person, and you have one point of contact for the whole team rather than a list of individuals to chase."
+    },
+    {
+      "q": "How much can managed teams save compared with hiring?",
+      "a": "Depending on the role, companies typically see savings of 40 to 60% vs a local hire. The real figure depends on the skills, seniority and hours you need. Before you decide, we set out the comparison for your specific roles in writing, so you can judge it against your own hiring costs rather than a general claim."
+    },
+    {
+      "q": "Which roles can a managed team cover?",
+      "a": "Engineering, design, video editing and motion design, marketing and content, finance and operations support, and customer support. Teams can be a single role or a mix. The roles that work best are those with clear, regular output that a lead can review, such as weekly video edits, design requests, code changes or support tickets."
+    },
+    {
+      "q": "Do you produce live events in person?",
+      "a": "We plan and produce live events and broadcasts, and we agree how each event is staffed on site as part of the plan, based on the venue, cameras and stream setup. Online events and broadcasts can be produced fully remotely. Every event plan is built backwards from the live date, because that date does not move."
+    },
+    {
+      "q": "What kinds of games do you build?",
+      "a": "Branded games, interactive campaign experiences, companion apps for events and products for esports audiences. We cover game design, 2D and 3D art, development, testing and launch, and our video and animation teams can make the trailers and launch content. We are currently developing an AI commentary product for live esports."
+    },
+    {
+      "q": "How does product sourcing through partner factories work?",
+      "a": "You give us the product idea or specification. We find suitable partner factories, manage samples until the product is right, agree a production schedule in writing, and check quality before goods ship. Depending on product and volume, clients can see 40 to 60% lower unit costs, which we confirm with samples and written quotes first."
+    },
+    {
+      "q": "Can managed teams work in our time zone?",
+      "a": "Yes. We agree the hours that need to overlap with yours when we set up the team, and the lead makes sure those hours are covered. Often a few shared hours each day are enough for questions and reviews, with the rest of the work done around them. The overlap you need is written into the plan."
+    }
+  ],
+  "related": [
+    "/services/video-motion",
+    "/services/3d-rendering",
+    "/services/web-app-development",
+    "/industries/gaming-entertainment",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "managed teams",
+    "secondary": [
+      "managed specialist teams",
+      "managed services team",
+      "live event production",
+      "esports broadcast production",
+      "game development company",
+      "product sourcing agent"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "path": "/insights/ai-consulting-cost",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "How Much Does AI Consulting Cost? 2026 Guide | 22 Signals",
+  "description": "How much does AI consulting cost? The factors that set the price, the five engagement models, and published market ranges with their sources named.",
+  "eyebrow": "Guide: AI consulting cost",
+  "h1": "How much does AI consulting cost?",
+  "intro": "How much does AI consulting cost? It depends on scope: how many processes are involved, the state of your data, how many systems need connecting, how sensitive the information is, and whether you want advice only or a working build. Published market ranges run from a few thousand dollars for a short assessment to six or seven figures for enterprise programs.",
+  "sections": [
+    {
+      "h": "Why does the price of AI consulting vary so much?",
+      "p": [
+        "Two quotes for AI consulting can differ by a factor of ten and both be fair. One firm may be pricing a two-week review of a single process. Another may be pricing discovery, a roadmap, a pilot connected to three systems, staff training and three months of support. The label is the same; the work is not.",
+        "So the useful question is not the average price. It is what you need done first, and what that particular piece of work involves. Once the scope is clear, prices from different firms become comparable."
+      ]
+    },
+    {
+      "h": "Which factors move the cost the most?",
+      "list": [
+        "Number of processes in scope: reviewing one workflow is a different job from mapping a whole department.",
+        "Data condition: clean, structured data in one system is quick to work with; scattered spreadsheets, scanned PDFs and duplicate records take time to sort out first.",
+        "Integrations: every system a tool must read from or write to (CRM, inbox, finance software, document storage) adds design, build and testing work.",
+        "Sensitivity and regulation: health, legal and financial data need tighter access control, logging, review steps and documentation.",
+        "Build versus buy: configuring an existing tool usually costs less up front than a custom build, but may cost more to run over time.",
+        "Seniority of the team: senior specialists cost more per hour and usually need fewer hours.",
+        "Speed: compressing a timeline means more people working in parallel, which raises the total.",
+        "Training and change work: rolling a tool out to five people is not the same as rolling it out to two hundred."
+      ]
+    },
+    {
+      "h": "What are the common AI consulting engagement models?",
+      "p": [
+        "Most firms sell some version of these five. You can buy them in sequence, and you should be able to stop after any one of them."
+      ],
+      "list": [
+        "Readiness review: a short, fixed-scope look at your data, systems, people and processes, ending with a list of blockers and opportunities. Usually the lowest commitment and the best place to start.",
+        "Roadmap: use cases ranked by value and effort, build-or-buy decisions, a governance and data policy, and a dated plan with owners. Often bundled with the readiness review.",
+        "Pilot: one use case built against real data and put in front of real users, with agreed measures. This is where you find out whether the roadmap holds up.",
+        "Build: production versions of proven pilots, with proper integrations, security, monitoring and documentation. Priced on scope, often in phases.",
+        "Retainer: a monthly arrangement for ongoing advice, improvements, new use cases and support, usually sized by hours or by a defined list of responsibilities."
+      ]
+    },
+    {
+      "h": "What do published market ranges say? (Market data, not 22 Signals pricing)",
+      "p": [
+        "22 Signals does not publish its own prices; we quote after scoping the work. To give you a sense of the wider market, these are published ranges from Leanware, Orient Software and Softude, three firms that sell AI services and have put their figures online. Treat every number below as market data from those sources, not as our pricing. None of the three cites independent survey data for its figures, so read them as indications, not benchmarks.",
+        "Per hour, by seniority (market data): published ranges from Leanware and Orient Software both list $100 to $150 per hour for junior consultants (0 to 3 years of experience), $150 to $300 for mid-level consultants (3 to 7 years) and $300 to $500 or more for senior specialists (7 years and up).",
+        "Independent consultants, per hour (market data): Leanware puts independent experts at $150 to $350 per hour, and Softude puts independent experts and freelancers at $150 to $300.",
+        "Small strategy or readiness projects (market data): Leanware lists small AI strategy assessments at $5,000 to $25,000. Orient Software lists small projects, such as a strategy assessment or a chatbot pilot, at $10,000 to $50,000. Softude puts a focused small-business engagement (a readiness assessment plus one use case) at $10,000 to $40,000.",
+        "Monthly retainers (market data): for light advisory work of 5 to 10 hours a month, Leanware lists $2,000 to $5,000 and Orient Software lists $1,500 to $5,000. For 10 to 25 hours a month, Leanware lists $5,000 to $15,000 and Orient Software lists $5,000 to $12,500.",
+        "Large enterprise programs (market data): Leanware lists enterprise-wide AI programs at $100,000 to $500,000 or more, and Orient Software lists large projects at $250,000 to over $1,000,000.",
+        "The ranges overlap more than they disagree, which is useful. They also show the pattern behind the numbers: seniority, firm type and scope drive the price, not the word AI."
+      ]
+    },
+    {
+      "h": "Which costs sit outside the consulting fee?",
+      "p": [
+        "A consulting quote rarely covers everything you will spend. Ask about these early so the business case is honest."
+      ],
+      "list": [
+        "Model and platform usage: charges from AI model providers, usually based on how much text or data is processed.",
+        "Software subscriptions: seats for any off-the-shelf tools the roadmap recommends.",
+        "Cloud hosting: servers, storage and databases for custom builds.",
+        "Data preparation: cleaning, de-duplicating and restructuring records before any AI can use them well.",
+        "Your own team's time: interviews, testing, feedback and the owner who signs off decisions.",
+        "Ongoing monitoring: checking output quality, updating prompts and rules, and handling new edge cases after launch."
+      ]
+    },
+    {
+      "h": "How do you keep AI consulting spend under control?",
+      "list": [
+        "Buy the first phase only. A readiness review and roadmap should stand on their own, with no obligation to continue.",
+        "Pick one pilot, not five. A single well-chosen use case teaches you more than a broad program that touches everything lightly.",
+        "Agree the measures before the build. If the pilot does not move its number, you stop and spend nothing more on it.",
+        "Ask for fixed scope on early phases. Discovery and pilots are easier to scope tightly than open-ended builds.",
+        "Own your assets. Make sure code, prompts, documentation and accounts transfer to you, so a change of supplier does not mean starting again.",
+        "Fix broken processes first. Plain automation or a better form is often enough, and much less expensive than an AI build."
+      ]
+    },
+    {
+      "h": "How should you compare AI consulting quotes?",
+      "p": [
+        "Line the quotes up by deliverable, not by total. For each one, write down what you will have at the end, who does the work, how long it takes and what would change the price. A higher quote that includes a working pilot and training can be better value than a lower one that ends with a document.",
+        "Then ask each firm the same two questions: what is not included, and what usually causes projects like this to go over budget. The answers tell you as much about the firm as the number does."
+      ]
+    },
+    {
+      "h": "What does a sensible first budget look like?",
+      "p": [
+        "For most established companies, the sensible first spend is a readiness review and roadmap, followed by one pilot on the highest-value, lowest-effort use case. That sequence caps your exposure, produces something people use, and gives you real evidence before committing to a larger build.",
+        "Across more than 30 AI builds, the projects that hold up best are the ones that started narrow, measured honestly and expanded only what worked. The budget follows the evidence, not the other way around."
+      ]
+    },
+    {
+      "h": "Sources",
+      "p": [
+        "Market price ranges above are quoted from these published pages, read in October 2026. They are the publishers' own figures, not 22 Signals pricing."
+      ],
+      "list": [
+        "Leanware, \"How Much Does an AI Consultant Cost\": https://www.leanware.co/insights/how-much-does-an-ai-consultant-cost",
+        "Orient Software, \"AI Consulting Rate: A Breakdown of Hourly, Project, and Retainer Models\": https://www.orientsoftware.com/blog/ai-consultant-hourly-rate/",
+        "Softude, \"AI Consulting Cost in 2026: Pricing, Engagement Models, and What to Expect\": https://www.softude.com/blog/ai-consulting-cost/"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does AI consulting cost for a small business?",
+      "a": "It depends on scope, and a small business usually needs a tight one: a readiness review, a short ranked list of use cases and one pilot. Published market ranges from Leanware, Orient Software and Softude put small strategy or readiness projects between $5,000 and $50,000. Those are market figures, not 22 Signals pricing; we quote after scoping."
+    },
+    {
+      "q": "Is AI consulting usually priced per hour or per project?",
+      "a": "Both are common. Early phases such as a readiness review or roadmap are often fixed-price because the scope is easy to define. Builds are usually priced per phase. Ongoing work is typically a monthly retainer. Per-hour billing suits short advisory work, but it makes the final cost harder to predict, so ask for an estimate in writing."
+    },
+    {
+      "q": "Why are some AI consulting quotes so much higher than others?",
+      "a": "Usually because they cover different work. One quote may stop at a written assessment while another includes a pilot, integrations, training and support. Seniority also matters: specialists cost more per hour but often need fewer hours. Compare quotes by what you will have at the end, who does the work and what is excluded."
+    },
+    {
+      "q": "What is not included in an AI consulting fee?",
+      "a": "Often excluded are AI model usage charges, software subscriptions, cloud hosting, data cleanup, and your own staff time for interviews and testing. Ongoing monitoring after launch may also be separate. Ask every firm to list exclusions in the proposal, so the business case covers the full cost of running the tool, not just building it."
+    },
+    {
+      "q": "Can I start AI consulting with a small budget?",
+      "a": "Yes. Start with a fixed-scope readiness review and roadmap, then fund one pilot on the use case with the best ratio of value to effort. That caps your spend, gives you evidence and lets you stop at any point. A firm that insists on a large commitment before discovery is pricing its own risk, not yours."
+    },
+    {
+      "q": "Does 22 Signals publish its AI consulting prices?",
+      "a": "No. Our prices depend on scope, so we quote after a short call and a look at the processes and data involved. The market ranges on this page come from other firms' published figures and are labeled as market data. They are there to help you sanity-check any quote, including ours."
+    }
+  ],
+  "related": [
+    "/services/ai-consulting",
+    "/services/ai-automation",
+    "/services/business-optimization",
+    "/insights/what-is-ai-consulting",
+    "/insights/how-to-choose-an-ai-consulting-firm"
+  ],
+  "keywords": {
+    "primary": "how much does ai consulting cost",
+    "secondary": ["ai consulting cost", "ai consulting pricing", "ai consultant cost", "ai readiness assessment cost", "ai consulting retainer"]
+  }
+}

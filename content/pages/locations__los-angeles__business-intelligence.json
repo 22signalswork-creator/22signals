@@ -1,0 +1,136 @@
+{
+  "path": "/locations/los-angeles/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence in Los Angeles | 22 Signals",
+  "description": "Business intelligence and data analytics for Los Angeles brands, studios, clinics and property groups: one set of numbers, dashboards people actually open.",
+  "eyebrow": "Business Intelligence and Data Analytics in Los Angeles",
+  "h1": "Business intelligence for Los Angeles companies that need one version of the numbers",
+  "intro": "Our business intelligence and data analytics work gives established Los Angeles companies one trusted set of numbers. We design the KPIs, connect your sales, finance, marketing and operations data into a warehouse, and build dashboards and automated reports in Power BI, Looker Studio or Tableau that leaders use every week.",
+  "sections": [
+    {
+      "h": "When every department has its own revenue figure",
+      "p": [
+        "A familiar Monday in an LA company: marketing reports one revenue number from the ad platforms, finance has another from the accounting system, and the ecommerce lead has a third from Shopify. The meeting turns into a debate about whose spreadsheet is right instead of what to do next.",
+        "The fix is not another dashboard sitting on top of the same mess. Real business intelligence starts with agreed definitions (what counts as a sale, a customer, a margin) and a single place where the data is cleaned and joined. Dashboards come after that, and they are far simpler once the foundations are right. That order is the whole point of business intelligence. Los Angeles companies that skip the definitions stage often end up rebuilding their dashboards, because nobody trusted the first set."
+      ]
+    },
+    {
+      "h": "What the service covers",
+      "list": [
+        "Data strategy and KPI design: the ten or so numbers that run the business, defined in writing",
+        "A data warehouse and pipelines that pull from your CRM, finance, ecommerce, ad and operations tools",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who will read them",
+        "Automated reporting delivered to inboxes or Slack on a schedule",
+        "Forecasting for sales, demand, cash or capacity",
+        "Data quality checks that warn you before a bad number reaches the board"
+      ]
+    },
+    {
+      "h": "What LA industries ask their data",
+      "list": [
+        "DTC fashion and beauty brands: true contribution margin per order after returns, shipping, discounts and ad spend, split by channel and product drop",
+        "Entertainment and media companies: content performance across platforms, campaign results by title, and royalty or participation reporting that finance can reconcile",
+        "Aerospace and manufacturing suppliers in the South Bay: on-time delivery, quality escapes, supplier lead times and job costing from the ERP",
+        "Multi-location clinics and aesthetics groups: bookings, no-shows, treatment mix and revenue per provider across sites",
+        "Real estate owners and property managers: occupancy, rent collection, leasing pipeline and maintenance cost per unit across a portfolio"
+      ]
+    },
+    {
+      "h": "Handling Californians' data properly",
+      "p": [
+        "A warehouse that joins customer records from several tools is exactly the kind of system the CCPA and CPRA care about. We design it so personal data is only kept where reporting needs it, sensitive fields are masked or left out, and access is set by role. We also keep a map of which tables hold personal information, which makes consumer access and deletion requests far easier to answer.",
+        "For healthcare clients, patient-level data stays out of general dashboards entirely unless your compliance team approves the design, and we account for HIPAA and California's medical privacy law when we plan the warehouse. Studio and agency clients get the same care with talent fees, deal terms and contract data, which usually need tighter access than sales figures."
+      ]
+    },
+    {
+      "h": "From messy exports to a weekly habit: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: interviews with leaders about the decisions they make and the numbers they wish they had",
+        "Plan: KPI definitions, a source map and a build plan with dates, all in writing",
+        "Build: warehouse, pipelines, then dashboards, released in stages so you see value early",
+        "Grow: training, new reports on request and quarterly reviews of what people actually use"
+      ]
+    },
+    {
+      "h": "Working across the London to LA time difference",
+      "p": [
+        "Data work suits remote delivery well. We are based in London, and our specialist teams across four regions run pipeline builds and data checks while Los Angeles is asleep, 8 hours behind us. Your team arrives to refreshed data and a short written note on anything that changed or failed overnight. Review calls go in your morning. We work inside your own cloud and BI accounts, so you own every dashboard and data model from day one. Distance changes the meeting times, not the quality of the business intelligence. Los Angeles clients get the same Signal Lead, written dates and weekly progress note as clients in London."
+      ]
+    },
+    {
+      "h": "A note on scale",
+      "p": [
+        "We have managed over $1.5 million in projects, and reporting is how we run our own delivery: every engagement is tracked against written dates and budgets. We bring the same discipline to how your numbers are defined and checked."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "list": [
+        "Number of data sources and how clean they are",
+        "Whether you already have a warehouse or need one set up",
+        "How many dashboards and audiences you need",
+        "Forecasting or advanced modeling requirements",
+        "Ongoing support, training and new report requests"
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals for business intelligence",
+      "p": [
+        "Plenty of firms build dashboards. Fewer also run the marketing, ecommerce and AI work that produces the data in the first place, which means we understand where your numbers come from and why they break. Los Angeles clients often combine this with our Power BI consulting, data engineering, or AI automation work in Los Angeles to remove the manual steps behind each report."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Los Angeles companies that already use Power BI or Tableau?",
+      "a": "Yes. Plenty of LA companies already pay for a BI tool but have dashboards nobody trusts. We usually keep the tool, fix the data model and definitions underneath, and rebuild the reports people need. Switching tools only makes sense when licensing or features are a real problem."
+    },
+    {
+      "q": "How long before we see our first dashboard?",
+      "a": "That depends on the number of data sources and their condition, but we plan the build so a first useful dashboard arrives early, often for sales or marketing, rather than waiting for everything. The full timeline is agreed at the start and written down, with the Signal Lead reporting against it."
+    },
+    {
+      "q": "Can you combine Shopify, Amazon and ad platform data for a DTC brand?",
+      "a": "Yes, and it is one of the most useful projects for an LA brand. We bring orders, refunds, fees, shipping costs and ad spend into one warehouse, then report contribution margin by channel, product and campaign. It is often the first time a brand sees which products actually make money after returns."
+    },
+    {
+      "q": "How do you handle CCPA requirements in a data warehouse?",
+      "a": "We keep personal data to what reporting needs, mask or exclude sensitive fields, restrict access by role and document where personal information lives. That makes it easier to respond when a Californian asks to access or delete their data. Your counsel signs off the final approach."
+    },
+    {
+      "q": "Do you meet in person in Los Angeles?",
+      "a": "We work remotely from London, with calls in your morning Pacific time, and BI projects run well that way. If a workshop with your leadership team would be better in a room, for example to agree KPI definitions, we plan a visit when the project needs it."
+    },
+    {
+      "q": "Who owns the data and dashboards when the project ends?",
+      "a": "You do. We build inside your accounts on your cloud and BI tools, document the data model and pipelines, and train your staff. If you want ongoing support we can provide it, but nothing is locked to us."
+    },
+    {
+      "q": "Where does a business intelligence project usually start?",
+      "a": "With one decision that keeps going wrong because the data is unclear, for example which products to reorder, which campaigns to cut or which locations are underperforming. We build the data and dashboard for that decision first, prove it is trusted, then widen the scope. It is a practical way to start business intelligence. Los Angeles leadership teams see value early rather than waiting for a full warehouse."
+    }
+  ],
+  "related": [
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/los-angeles",
+    "/locations/los-angeles/ai-automation",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "business intelligence los angeles",
+    "secondary": [
+      "data analytics consulting los angeles",
+      "bi consulting los angeles",
+      "power bi consultant los angeles",
+      "dashboard development los angeles"
+    ]
+  }
+}

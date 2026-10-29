@@ -1,0 +1,128 @@
+{
+  "path": "/locations/abu-dhabi/cloud-consulting",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Abu Dhabi | 22 Signals",
+  "description": "Cloud consulting for Abu Dhabi organisations: AWS, Azure and Google Cloud architecture, UAE data residency, security reviews and managed operations from London.",
+  "eyebrow": "Cloud Consulting in Abu Dhabi",
+  "h1": "Cloud consulting for Abu Dhabi organisations that need data kept in the UAE",
+  "intro": "We design, secure and run cloud infrastructure for Abu Dhabi organisations on AWS, Microsoft Azure and Google Cloud. The work covers architecture, UAE data residency, access control, monitoring, cost reviews and managed operations, for companies whose clients, regulators or health licences ask where data lives and who can reach it.",
+  "sections": [
+    {
+      "h": "The question every cloud project here starts with",
+      "p": [
+        "In London, a client asks how fast the system is and what it costs. In the capital, the first question is usually where the data sits. Suppliers to government and semi-government entities are asked in security questionnaires. Hospitals and clinics answer to the federal health data law, which restricts storing health data outside the UAE. ADGM-licensed firms have their own data protection rules and transfer conditions.",
+        "So any cloud consulting Abu Dhabi organisations commission has to begin with a residency and access map, not a vendor brochure. We write that map first and design everything else around it."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Architecture on AWS, Microsoft Azure and Google Cloud, sized for the workload you actually run",
+        "Data residency planning: which data stays in a UAE region and which can sit elsewhere",
+        "Security and access control: identity, least-privilege roles, logging and key management",
+        "Monitoring and alerting so problems are found before customers report them",
+        "Cost reviews that find idle resources, oversized machines and forgotten environments",
+        "Managed cloud operations: patching, backups, incident response and monthly reporting",
+        "Clear documentation for your IT team, auditors and client security reviews"
+      ]
+    },
+    {
+      "h": "UAE cloud regions and what they change",
+      "p": [
+        "Hosting inside the country is now a normal choice. Microsoft Azure runs two UAE regions, UAE Central in Abu Dhabi and UAE North in Dubai, and AWS operates its Middle East (UAE) region. That makes it realistic to keep a patient database, HR records or a government client's files in the UAE while still using modern managed services.",
+        "Not every service is available in every region, and prices differ from European regions. Part of our work is checking that the services your application needs exist in the UAE region you choose, and planning a fallback where they do not. With two Azure regions in the country, backups and a disaster recovery copy can also stay inside the UAE, which matters when a contract or licence rules out a copy in Europe."
+      ]
+    },
+    {
+      "h": "Who we build for in Abu Dhabi",
+      "p": [
+        "Healthcare groups need clinical systems and patient portals hosted in the country with access logged, and they often have to meet the Department of Health's ADHICS standard. Contractors and engineering firms serving energy operators need secure document sharing and project systems that pass client security checks. Investment and advisory firms on Al Maryah Island want tight identity controls and audit trails that hold up under ADGM supervision.",
+        "Education providers run learning platforms with heavy peaks around term dates. Tourism, events and culture organisations handle ticketing and visitor traffic that spikes around major dates on the calendar and has to stay up while it does."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we review what you run today, who uses it and what your contracts or licences require. Plan: a target architecture, a residency map, security controls and a cost estimate, with dates agreed in writing. Build: we set up accounts, networks and services as infrastructure as code, so every environment can be rebuilt and checked. Grow: managed operations, monthly cost and security reviews, and changes as the business adds systems.",
+        "One Signal Lead is accountable for the whole estate. Cloud engineers, a security specialist and, where needed, our DevOps and data teams sit behind them."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events. The lesson carries straight into cloud work: the date does not move, so the system has to be tested, monitored and ready before the audience arrives, with someone watching while it runs."
+      ]
+    },
+    {
+      "h": "Working with us remotely",
+      "p": [
+        "Cloud work is delivered remotely by nature. We access your accounts through roles you control and can remove at any time. Abu Dhabi runs on Gulf Standard Time, 4 hours ahead of London in winter and 3 in summer, so planning calls fall in your afternoon and changes can be scheduled for quiet hours in the UAE.",
+        "If a data centre visit, an on-site audit or a handover workshop needs people present, we come to Abu Dhabi when the project needs it. We do not have a UAE office and will not claim one."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Size and number of environments: production, staging, test",
+        "Residency requirements and which UAE region services are available",
+        "Security standard you must meet, such as a client questionnaire or ADHICS",
+        "Whether we design only, or also run day-to-day operations",
+        "Out-of-hours cover and response times",
+        "Existing technical debt to clear before improvements"
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Cloud migration moves existing servers and applications with minimal downtime. DevOps consulting sets up deployment pipelines and infrastructure as code. Data engineering and business intelligence build on the same platform, and AI consultancy helps decide which models can run inside your UAE environment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can our data be hosted inside the UAE?",
+      "a": "Yes. Microsoft Azure has regions in Abu Dhabi and Dubai and AWS runs a UAE region, so most workloads can be hosted in the country. We confirm the services you need are available there. For health data, which the federal health data law generally keeps in the UAE, in-country hosting is the usual starting point."
+    },
+    {
+      "q": "Which cloud is best for an Abu Dhabi company?",
+      "a": "The one that fits your applications, skills and residency needs. Organisations already on Microsoft 365 often pick Azure, especially with a region in Abu Dhabi itself. AWS suits teams with existing AWS tooling. The cloud consulting Abu Dhabi clients get from us compares the options on your real workload and contracts, and we have no reseller commission to protect."
+    },
+    {
+      "q": "Can you help us pass a client security questionnaire?",
+      "a": "Yes. Government entities and large companies often send detailed security questionnaires to suppliers. We set up the controls they ask about, such as identity management, encryption, logging and backups, and give you documentation that answers each question accurately. We will not claim a control you do not have."
+    },
+    {
+      "q": "Do you work with healthcare providers and ADHICS?",
+      "a": "We can build and run cloud environments for healthcare organisations, designed with the Department of Health's ADHICS standard and the federal health data law in mind. Formal compliance is your organisation's responsibility and is assessed by the regulator, so we work alongside your compliance lead and supply the evidence they need."
+    },
+    {
+      "q": "How does cloud consulting, Abu Dhabi to London, work day to day?",
+      "a": "Everything is done through secure, role-based access you control. Planning and reviews run over video in the overlap between London and Gulf hours, changes are scheduled for quiet periods in the UAE, and every agreed date is written down. When something needs people on site, we travel to Abu Dhabi for it."
+    },
+    {
+      "q": "Can you reduce our cloud bill?",
+      "a": "Usually there is waste to remove: idle machines, oversized databases, storage nobody reads and test environments left running. We review usage, recommend changes and make the ones you approve. Savings depend on how the account has been managed, so we report what we found rather than promise a percentage."
+    },
+    {
+      "q": "Do you offer ongoing managed cloud operations?",
+      "a": "Yes. We can run patching, backups, monitoring, incident response and monthly cost and security reviews, with one Signal Lead accountable. You get a short monthly report in plain language, and access stays with your organisation so you can change provider whenever you want."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/abu-dhabi/business-intelligence",
+    "/locations/dubai/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting abu dhabi",
+    "secondary": ["cloud consultant abu dhabi", "uae data residency", "azure uae central", "aws uae region", "managed cloud abu dhabi"]
+  }
+}

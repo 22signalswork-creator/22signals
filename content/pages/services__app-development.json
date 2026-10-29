@@ -1,0 +1,148 @@
+{
+  "path": "/services/app-development",
+  "kind": "service",
+  "region": "global",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company: iOS, Android, SaaS | 22 Signals",
+  "description": "An app development company for iOS and Android apps, web apps and SaaS products: planned in writing, built in stages, launched on the stores and supported.",
+  "eyebrow": "App Development",
+  "h1": "An app development company for products people keep using",
+  "intro": "22 Signals is an app development company that builds iOS and Android apps, web apps and SaaS products for established businesses and funded founders. We plan the product, design it, build it in stages, handle payments, APIs and app store launch, then support and improve it. One accountable lead runs the project from first sketch to the next release.",
+  "sections": [
+    {
+      "h": "Do you need an app, or something simpler?",
+      "p": [
+        "Plenty of app projects should not be apps. If customers will use it once a year, a well-built website or web app is usually better: no download, no store review, one codebase. An app earns its place when people use it often, when it needs the phone's camera, location or notifications, or when it has to work offline.",
+        "We say this early because the most expensive app is the one nobody opens after the first week. Our first job is to work out what your customers or staff will actually do with it, how often, and what the business gains each time they do. Sometimes the answer is a mobile app. Sometimes it is a web app that works well on a phone, which costs less to build and maintain."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "iOS and Android apps for customers, members, patients or field staff",
+        "Web apps and internal tools that replace spreadsheets and email chains",
+        "SaaS products with accounts, subscriptions, permissions and admin dashboards",
+        "MVPs: the smallest version of a new product that proves people want it",
+        "Payments, subscriptions and in-app purchases",
+        "APIs and integrations with customer databases, booking systems, payment providers and your own databases",
+        "AI features inside the app, from smart search to assistants",
+        "App store launch, analytics, crash reporting and ongoing support"
+      ]
+    },
+    {
+      "h": "Native or cross-platform?",
+      "p": [
+        "Cross-platform frameworks such as React Native and Flutter let one codebase run on both iPhone and Android. For most business apps they are the sensible choice: one team, one set of features, releases on both stores at once.",
+        "Native development in Swift for iOS and Kotlin for Android makes sense when the app depends heavily on device features, demanding graphics or the very latest platform capabilities. We recommend one approach after the planning stage and write down why, including what it means for cost, speed and hiring later."
+      ]
+    },
+    {
+      "h": "MVPs for new products",
+      "p": [
+        "For founders and for established companies launching something new, an MVP is the fastest honest test of an idea. We help you cut the feature list to the few things that prove demand, build those well, and put the product in front of real users quickly.",
+        "Well means production-quality code, security and analytics from day one, so a successful MVP becomes version two rather than a throwaway. Because we also run go-to-market, paid media and content, we can plan how the first users will find the product while it is being built, instead of after launch."
+      ]
+    },
+    {
+      "h": "Payments, APIs and the systems behind the app",
+      "p": [
+        "Most of an app's real complexity sits behind the screens. Payments need the right provider, correct handling of refunds and failed charges, and the store rules for in-app purchases on Apple and Google. Data has to sync with the systems your business already runs, such as a CRM, a booking tool or an inventory system.",
+        "We design the backend and APIs alongside the app, host them on a properly secured cloud setup and monitor them after launch. The same company handles cloud, DevOps and data, so the app does not depend on a separate supplier for the parts that keep it running."
+      ]
+    },
+    {
+      "h": "App store launch and support",
+      "p": [
+        "Apple and Google both review apps before they go live, and each has its own rules on privacy, payments, content and login options. We prepare store listings, privacy details and test accounts, and handle review feedback so launch does not stall.",
+        "After launch, support covers crash monitoring, operating system updates, security patches, small fixes and a planned roadmap of improvements. Each new version of iOS and Android can break something, so we test against new releases before they reach your users."
+      ]
+    },
+    {
+      "h": "How an app project runs",
+      "list": [
+        "Talk: we learn who the app is for, what they need to get done and how the business measures success.",
+        "Plan: user flows, feature list for the first release, technology choice, integrations and a dated delivery plan, all in writing.",
+        "Build: design and development in short stages, with a working build you can install and test every couple of weeks.",
+        "Grow: store launch, analytics, support and the next releases, guided by what real users do in the app."
+      ]
+    },
+    {
+      "h": "Industries we build apps for",
+      "list": [
+        "Healthcare and wellness: patient booking, aftercare and health tech apps that handle sensitive data carefully",
+        "Fashion, beauty and retail: shopping, loyalty and booking apps",
+        "Technology, SaaS and AI companies: web platforms, admin tools and mobile companions to existing products",
+        "Law firms and professional services: client apps and portals for documents, updates and payments",
+        "Gaming, esports and entertainment: companion apps, live event tools and fan engagement",
+        "Real estate: property search, viewing booking and tenant or owner portals"
+      ],
+      "p": [
+        "Most of our app work is for established companies of 5 to 500 staff that want a better way to serve customers or run operations, and the brief changes a lot by sector. A clinic app lives or dies on privacy and easy booking. A retail app has to make the second purchase quicker than the first. These are the industries we know best:"
+      ]
+    },
+    {
+      "h": "Cities where we work as your app development company",
+      "p": [
+        "We run app projects from London and work remotely with clients in each of these cities, sharing test builds and holding reviews at times that suit your working day. On-site workshops can be arranged when a project needs one.",
+        "In the United States we work with companies in New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami. In the United Kingdom, in London, Manchester and Birmingham. In the UAE, in Dubai and Abu Dhabi, where apps often need Arabic and right-to-left layouts. In Pakistan, in Lahore, Karachi and Islamabad, where local payment methods and Urdu support often matter."
+      ]
+    },
+    {
+      "h": "Cost factors and why 22 Signals",
+      "p": [
+        "We do not publish prices. Cost depends on scope: the number of platforms, screens and user roles, the backend and integrations, payments, AI features, design depth, compliance needs and the support you want after launch. A clear first release keeps cost under control, which is why planning takes the time it does.",
+        "As an app development company we bring more than developers. One Signal Lead owns the project, with design, development, cloud and AI specialists behind them, and the same company can launch the product with marketing, video, animation and 3D. We have managed over $1.5 million in projects, and every one ran on written scope and written dates.",
+        "Related services: Web Development, Custom AI Development, Cloud Consulting, DevOps Consulting and Strategy and Go-to-Market."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an app development company do?",
+      "a": "An app development company plans, designs, builds and supports software products: mobile apps for iOS and Android, web apps and SaaS platforms. At 22 Signals that includes the backend, APIs, payments, app store launch and ongoing support, run by one accountable lead with specialist teams behind them."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "It depends on the scope of the first release. A focused MVP is a much shorter project than a full platform with several user roles and integrations. We agree a dated plan in writing before work starts, and you get a working test build early and regularly so progress is visible throughout."
+    },
+    {
+      "q": "Should we build for iOS or Android first?",
+      "a": "Usually both, using a cross-platform framework such as React Native or Flutter, which usually costs far less than building two separate native apps. If you must pick one, look at your customers: iPhone has a large share in America and Britain, while Android is far more common in Pakistan. Your own website analytics are the best guide."
+    },
+    {
+      "q": "Who owns the code and the app store accounts?",
+      "a": "You do. The code lives in your repository, the apps are published under your own Apple and Google developer accounts, and the cloud accounts are in your name. We document the setup so another team could take over if you ever wanted, which is how it should be."
+    },
+    {
+      "q": "Can you take over an app another company built?",
+      "a": "Yes. We start with a code and infrastructure review, which tells you what condition the app is in, what is risky and what it will take to keep improving it. Sometimes the right move is to fix and continue; sometimes parts need rebuilding. You get the findings in writing before deciding."
+    },
+    {
+      "q": "Do you build MVPs for startups?",
+      "a": "Yes, alongside our work for established companies. We help you trim the first release to what proves demand, build it to production quality and plan how the first users will find it. That way a successful MVP grows into the full product instead of being rebuilt."
+    },
+    {
+      "q": "Do you provide support after launch?",
+      "a": "Yes. Support covers crash and performance monitoring, updates for new iOS and Android versions, security patches, small fixes and a roadmap of improvements. You get one lead to contact, and planned releases are dated in writing like the original build."
+    }
+  ],
+  "related": [
+    "/services/web-app-development",
+    "/services/custom-ai-development",
+    "/services/cloud",
+    "/services/devops-consulting",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "app development company",
+    "secondary": [
+      "mobile app development company",
+      "ios app development",
+      "android app development",
+      "mvp development",
+      "saas development company",
+      "web app development"
+    ]
+  }
+}

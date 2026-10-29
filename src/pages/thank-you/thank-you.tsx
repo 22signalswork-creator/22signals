@@ -1,5 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { openCalendly } from "@/lib/calendly";
 import "@/index.css";
 import RisingText from "@/transitions/RisingText";
 import AnimatedText from "@/transitions/herosectionP.tsx";
@@ -9,6 +10,8 @@ import logo from "@/assets/22signals-logo.png";
 
 const ThankYou: React.FC = () => {
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+  const booked = params.get("booked") === "1";
 
   return (
     <div className="bg-[#000202] min-h-screen flex items-center justify-center pt-32 pb-24 px-6 relative overflow-hidden">
@@ -87,25 +90,22 @@ const ThankYou: React.FC = () => {
             </RisingText>
 
             <AnimatedText className="text-white/85 text-lg md:text-xl mb-3">
-              Thank you for reaching out to 22 Signals.
+              {booked ? "Your call is booked." : "Thank you for reaching out to 22 Signals."}
             </AnimatedText>
 
             <p className="text-white/55 text-base md:text-lg leading-relaxed mt-6 max-w-2xl mx-auto">
-              At 22 Signals, your time is invaluable, and we operate with a
-              streamlined approach to maximize productivity. Our team is reviewing
-              your project scope, and a dedicated team member will contact you
-              within 24 hours to schedule your discovery call.
-            </p>
-
-            <p className="text-white/55 text-base md:text-lg leading-relaxed mt-5 max-w-2xl mx-auto">
-              We look forward to helping you scale your operations and engineer
-              the future of your business.
+              {booked
+                ? "A calendar invite is on its way to your inbox. If you want to share anything before the call, reply to that email or write to daniyal@22signals.com."
+                : "We have your message and a confirmation is on its way to your inbox. The quickest next step is to book a 15-minute call, so we can talk it through."}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
+              {!booked && (
+                <CustomButton text="BOOK A CALL" variant="primary" onClick={() => openCalendly()} />
+              )}
               <CustomButton
                 text="READ OUR R&D INSIGHTS"
-                variant="primary"
+                variant={booked ? "primary" : "secondary"}
                 onClick={() => navigate("/r&d")}
               />
               <CustomButton

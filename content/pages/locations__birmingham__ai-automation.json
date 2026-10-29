@@ -1,0 +1,129 @@
+{
+  "path": "/locations/birmingham/ai-automation",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Agency Birmingham | 22 Signals",
+  "description": "AI automation for Birmingham firms: order intake, quoting, reporting and admin handled by tools that work with your ERP, CRM and inbox. Built and supported.",
+  "eyebrow": "AI Automation in Birmingham",
+  "h1": "The AI automation agency Birmingham operations teams call when admin is eating the week",
+  "intro": "We build AI tools and automations for Birmingham businesses that still move information by hand. Purchase orders read from email into your ERP, quotes drafted from past jobs, weekly reports that write themselves, and assistants that answer routine questions and hand the rest to a person. Each one is built around your systems, tested with your staff and supported after launch.",
+  "sections": [
+    {
+      "h": "Where the hours go",
+      "p": [
+        "Walk round many established Birmingham companies and you find the same thing: capable people retyping data. Picture a customer service team in a Tyseley distribution unit copying order details from PDFs into the warehouse system. A components supplier in Wednesbury rebuilding the same quote spreadsheet for every enquiry. A Colmore Row practice where a paralegal spends Friday afternoon assembling a status report for each client.",
+        "None of this needs a new platform. It needs the steps between your existing systems handled by software, with AI doing the reading, sorting and drafting that used to need a person, and a person still checking anything that matters."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Custom AI tools: a quoting assistant, a document checker or a research tool built for one job your team does every day.",
+        "Workflow automation across email, CRM and spreadsheets: data moves between Outlook or Gmail, your CRM, Xero or Sage, and shared drives without copy and paste.",
+        "Internal tools and dashboards: simple screens your staff use instead of five tabs and a spreadsheet.",
+        "Research and reporting systems: weekly management packs, client updates and supplier summaries generated from live data.",
+        "AI assistants with human hand-off: they answer routine customer or staff questions from your own information and pass anything unusual to the right person."
+      ]
+    },
+    {
+      "h": "Examples from Birmingham's main sectors",
+      "p": [
+        "These are the kinds of automations that fit how the city's businesses work. Each is a starting point we would test with you, not a promise of a result."
+      ],
+      "list": [
+        "Automotive and manufacturing supply chain: incoming schedules and purchase orders parsed and checked against stock, with exceptions flagged before the next delivery window.",
+        "Logistics: delivery exceptions pulled from carrier portals and sent to customers as plain-English updates, instead of a morning of phone calls.",
+        "Professional services in the Colmore Business District: matter intake forms that create the client record, run conflict-check searches and draft the engagement letter for review.",
+        "Healthcare and clinics: appointment reminders, pre-visit forms and follow-ups triggered automatically, with clinical questions always routed to staff.",
+        "Jewellery Quarter and independent retail: commission enquiries captured from the website and Instagram, logged with sizes and budgets, and answered with the next available consultation."
+      ]
+    },
+    {
+      "h": "Built for UK GDPR from day one",
+      "p": [
+        "Automation moves personal data faster, so mistakes travel faster too. Every build we deliver for a Birmingham client starts with a short data map: what personal data flows through the workflow, where it is stored, who can see it and how long it is kept. That lines up with UK GDPR and the Data Protection Act 2018, and gives you something to show the ICO or a client's procurement team if they ask.",
+        "We use AI providers that do not train on your data, keep audit logs of what the automation did, and design the hand-off points so a person approves anything with legal, financial or medical weight."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "list": [
+        "Talk: we sit with the people who do the task and time it, step by step.",
+        "Plan: a written scope naming the workflow, the systems it touches, what success looks like and every date in writing.",
+        "Build: we build in stages, test with real cases, and run alongside the old process until your team trusts it.",
+        "Grow: we monitor errors and usage, fix edge cases, and pick the next workflow to automate."
+      ]
+    },
+    {
+      "h": "We run our own business on it",
+      "p": [
+        "One build we can talk about openly is our own: a complete outbound sales engine for 22 Signals, covering prospect research, enrichment, sending and CRM updates. We use the same approach for clients. It means we have lived with the maintenance, the edge cases and the moments where a person needs to step in, which is the part most automation projects underestimate."
+      ]
+    },
+    {
+      "h": "Working with an AI automation agency Birmingham is 80 minutes from",
+      "p": [
+        "Our head office is in London. We do not have staff based in Birmingham, and we work with the city's companies remotely, on the same GMT or BST clock. The first workshop often happens on your premises, because watching a task being done shows things a process document never will. After that, builds and testing run over video calls and screen shares, with on-site days added when the project needs them.",
+        "You have one Signal Lead throughout, who owns the plan, the dates and the result."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many steps and systems the workflow touches.",
+        "Whether your systems have APIs, or data has to be read from emails, PDFs or screens.",
+        "How much AI judgement is involved, and how much checking that needs.",
+        "Volume: ten documents a day or ten thousand.",
+        "Support after launch: ad hoc fixes or a monthly care plan."
+      ]
+    },
+    {
+      "h": "Why choose us as your AI automation agency Birmingham partner",
+      "p": [
+        "We are not a tool reseller. We build what fits, and because the same team covers AI consultancy, custom AI development, data and cloud, an automation can grow into a proper data pipeline or an internal app without changing supplier. If the workflow you want automated is really a reporting problem, our business intelligence team picks it up. Related: AI consultancy and business intelligence in Birmingham."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI automation agency Birmingham businesses hire actually build?",
+      "a": "Software that takes repetitive steps off your staff: reading emails and documents, moving data between systems, drafting quotes and reports, and answering routine questions. We build it around the tools you already use, such as Outlook, Xero, Sage or your CRM, and support it after launch."
+    },
+    {
+      "q": "Can you automate work that involves our ERP or warehouse system?",
+      "a": "Usually, yes. If the system has an API, we connect directly. If not, we can often work with its exports, email notifications or a reporting database. We check this in the first workshop and tell you plainly if a system is too closed to automate safely."
+    },
+    {
+      "q": "Do you come to our Birmingham site?",
+      "a": "For the first workshop, often yes, because seeing the task done in person is the fastest way to design the automation. Later visits are added when the project needs them. Most build and testing work runs remotely from our London head office in the same time zone."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "That is not how we design it. The goal is to move people from retyping and chasing to checking, deciding and serving customers. Every build has human hand-off points for anything with legal, financial or clinical weight, and your team approves the design before it goes live."
+    },
+    {
+      "q": "How do you keep automations compliant with UK GDPR?",
+      "a": "We map the personal data each workflow handles, limit access, set retention, keep audit logs and use AI providers that do not train on your data. Where we process personal data for you, we sign a data processing agreement. The result is a record you can show the ICO or a client."
+    },
+    {
+      "q": "What happens when an automation breaks?",
+      "a": "We monitor it. Most failures come from a changed form, a new document layout or a system update. Alerts reach us and the named owner on your side, and we fix the cause. Ongoing support can be ad hoc or a monthly plan, agreed in the scope."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/ai-automation",
+    "/locations/birmingham/ai-consulting",
+    "/locations/birmingham/business-intelligence",
+    "/services/whatsapp-automation",
+    "/locations/manchester/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation agency birmingham",
+    "secondary": ["ai automation birmingham", "business process automation birmingham", "workflow automation west midlands"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "path": "/locations/san-francisco/3d-rendering",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in San Francisco, CA | 22 Signals",
+  "description": "3D rendering for San Francisco hardware, medtech, consumer and real estate companies: photoreal product renders, packaging and 3D models before production.",
+  "eyebrow": "3D Rendering in San Francisco",
+  "h1": "3D rendering for San Francisco products that do not exist yet",
+  "intro": "We create photoreal 3D renders for San Francisco and Bay Area companies: hardware and devices from your CAD files, packaging, lab and medical equipment, campaign visuals, interiors and architectural views, plus 3D models for websites and ads. You get launch-ready images months before the first unit ships, under confidentiality terms that suit unreleased products.",
+  "sections": [
+    {
+      "h": "The launch is booked, the product is not finished",
+      "p": [
+        "Hardware teams around the Bay know the problem. The investor update, the preorder page or the conference booth is booked, but the product is still a prototype held together with tape, or exists only in CAD. Photographing it would show the tape. Waiting for production units would miss the date.",
+        "3D rendering solves that. We build the product from your engineering files, add accurate materials and lighting, and produce images that look photographed. When the design changes, as it will, we update the model instead of reshooting.",
+        "Renders also travel further than photos. The same model gives you a hero image for the preorder page, close-ups of every finish, a transparent cutaway for the pitch deck and a turntable animation for social, all consistent with each other. For a team raising money or taking preorders on a fixed date, that consistency matters more than any single image."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Photoreal product renders for consumer electronics, robotics, wearables and smart home devices.",
+        "Medical devices and lab instruments, shown accurately for investors, partners and trade shows.",
+        "Exploded views and cutaways that show what is inside, for product pages and pitch decks.",
+        "Packaging renders for retail and direct-to-consumer brands, before the first print run.",
+        "Campaign visuals: products placed in scenes that would be costly to build or shoot.",
+        "Interior and architectural visualization for developments, offices and retail spaces.",
+        "Lightweight 3D models for interactive web viewers, augmented reality and ads."
+      ]
+    },
+    {
+      "h": "Who buys 3D rendering? San Francisco hardware, medtech and property teams",
+      "list": [
+        "Hardware, robotics and chip companies on the Peninsula and in the South Bay, from Palo Alto to San Jose.",
+        "Medtech and life sciences firms in Mission Bay and South San Francisco showing instruments and devices that are still in trials.",
+        "Consumer brands across the city launching products and packaging through crowdfunding, retail or their own stores.",
+        "Real estate developers and architects presenting residential and mixed-use projects before construction.",
+        "SaaS companies that sell an accompanying device, sensor or kiosk."
+      ]
+    },
+    {
+      "h": "Confidential work for unreleased products",
+      "p": [
+        "In the Bay Area an unreleased product is a secret worth protecting. We sign your non-disclosure agreement before receiving files, keep CAD data in restricted project folders, limit access to the artists working on it, and watermark drafts. Final files go only to the people you name. When the project ends, we remove the source data from our systems if you ask us to.",
+        "We also keep track of which version of the design each render shows. When marketing and engineering both work from the same files, an image of an older housing or button layout reaching a public page is an easy mistake to make, and an awkward one to explain."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we review your CAD or reference files, brand guidelines and where the images will be used. Plan: shot list, angles, materials, scenes and a written delivery date. Build: model clean-up, materials, lighting and first renders, then two review rounds with your design and marketing teams. Grow: new angles, colorways, animations and web-ready models from the same master file, whenever you need them."
+      ]
+    },
+    {
+      "h": "Experience across many clients",
+      "p": [
+        "We have worked with more than 30 companies across four regions, from clinics to esports to law firms, and 3D work has sat alongside video and web projects for many of them. The habit that carries over is simple: one master model, kept up to date, feeding every image, animation and web viewer."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Rendering is well suited to the eight-hour gap. Your engineers send an updated CAD file at the end of their day, renders run during ours, and the new images are waiting the next morning. Review calls sit in the Pacific morning. On-site visits happen when the project needs them, for example to see a physical prototype.",
+        "Shipping a sample by courier works too. A physical part on the desk of the artist doing the materials usually saves a review round on finishes like anodized aluminum or soft-touch plastic."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of products, shots and angles.",
+        "Whether usable CAD files exist or we model from photos and sketches.",
+        "Material complexity: glass, liquids, fabrics and brushed metals take longer.",
+        "Lifestyle scenes versus clean studio backgrounds.",
+        "Animation, interactive web models or augmented reality versions.",
+        "Turnaround time and number of review rounds."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Renders are rarely the whole job. Clients choose us when the images are part of a launch: the same team animates the product, builds the preorder page, makes the launch film and runs the ads. One accountable lead keeps it on one schedule. Related services include 2D and 3D animation, video production, web development and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you render our product from CAD files?",
+      "a": "Yes. We work from the neutral formats your engineers already export, STEP among them, plus most native files. Engineering files often need clean-up before rendering, such as fixing surfaces or simplifying hidden parts, and we handle that. If you have no CAD, we can model the product from photos, sketches and measurements, which takes longer."
+    },
+    {
+      "q": "How do you keep unreleased products confidential?",
+      "a": "We sign your NDA first, store files in restricted folders, give access only to the artists on the project, and watermark drafts. Final images go only to the people you name. On request, we delete source files when the project ends and confirm it in writing."
+    },
+    {
+      "q": "Can renders replace product photography?",
+      "a": "For many uses, yes: product pages, packaging, ads, pitch decks and preorder campaigns. Renders let you show colors and versions that have not been made, and update images when the design changes. Some brands still shoot lifestyle photos once real units exist, and we can match renders to that look."
+    },
+    {
+      "q": "Do you need to visit us for 3D rendering? San Francisco is a long way from London.",
+      "a": "We work remotely from London with teams across four regions, and most rendering projects need nothing more than files and review calls in the Pacific morning. If seeing a physical prototype matters for materials or finish, we arrange a visit when the project needs it, or you can courier a sample."
+    },
+    {
+      "q": "Can you render real estate projects in San Francisco?",
+      "a": "Yes. We produce exterior and interior visualizations for residential, office and mixed-use projects from architectural drawings and models. They work for marketing, investor presentations and community meetings. We match materials and context to your plans, and update renders as the design moves through review."
+    },
+    {
+      "q": "Do you make 3D models for our website?",
+      "a": "Yes. We produce lightweight models for interactive product viewers and augmented reality, optimized so pages still load quickly on phones. They come from the same master model as your renders, so every image and viewer matches the current design."
+    },
+    {
+      "q": "How much does 3D rendering cost?",
+      "a": "It depends on the number of products and shots, whether usable CAD exists, how complex the materials are and whether you need scenes, animation or web models. We do not publish prices. After a 15-minute call and a look at your files, we send a written scope with the cost and delivery dates."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/san-francisco/video-animation",
+    "/locations/los-angeles/3d-rendering",
+    "/locations/california"
+  ],
+  "keywords": {
+    "primary": "3d rendering san francisco",
+    "secondary": [
+      "product rendering san francisco",
+      "3d product visualization bay area",
+      "architectural rendering san francisco",
+      "cad to render services"
+    ]
+  }
+}

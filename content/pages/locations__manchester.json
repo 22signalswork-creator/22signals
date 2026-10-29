@@ -1,0 +1,127 @@
+{
+  "path": "/locations/manchester",
+  "kind": "location-hub",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "title": "Digital Agency Manchester: AI, Cloud, Web, SEO | 22 Signals",
+  "description": "A digital agency Manchester companies can hold to dates: AI, cloud, data, web, apps, SEO, ads and video from one accountable lead, run from London.",
+  "eyebrow": "22 Signals in Manchester",
+  "h1": "A digital agency Manchester companies can hand the whole job to",
+  "intro": "22 Signals is a London business solutions company that builds and grows the systems Manchester companies run on: AI, cloud, data, websites, apps, search, paid media and video. One accountable lead runs the work, specialist teams deliver it, and every date goes in writing. We serve Manchester from London, in person when the project needs it.",
+  "sections": [
+    {
+      "h": "Why Manchester businesses talk to us",
+      "p": [
+        "Most established Manchester companies already have suppliers: a web agency in the Northern Quarter, a freelancer running Google Ads, an IT firm looking after Microsoft 365. Each is fine on its own. Nobody owns the joins, so the website does not feed the CRM, the ads report clicks instead of enquiries, and last spring's AI idea is still a slide.",
+        "We replace that chain with one Signal Lead who is answerable for the result, backed by specialist teams for each discipline. You get one plan, one weekly update and one person to ring when something slips."
+      ]
+    },
+    {
+      "h": "Digital agency Manchester services: what we do",
+      "p": [
+        "Ten services cover most of what established firms in Greater Manchester need. Each has its own page with the detail."
+      ],
+      "list": [
+        "AI consultancy: find the uses of AI that pay back, write the roadmap and the AI policy, then pilot the first build.",
+        "AI automation: custom tools and workflows that take repetitive work off your people.",
+        "Business intelligence and data analytics: one version of the numbers in Power BI, Looker Studio or Tableau.",
+        "Cloud consultancy: AWS, Azure and Google Cloud architecture, security and cost reviews, with UK hosting where you need it.",
+        "Web development: websites, e-commerce, client portals and migrations that keep your rankings.",
+        "App development: iOS, Android and web apps, from first version to app store launch.",
+        "SEO and GEO: rank in Google and show up in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid media: Google, Meta, LinkedIn and TikTok ads measured on leads and sales.",
+        "Video production, animation and AI video: reels, brand films, explainers and live broadcast.",
+        "3D rendering: product, packaging and architectural visuals for campaigns and online shops."
+      ]
+    },
+    {
+      "h": "The Manchester sectors we are built for",
+      "p": [
+        "Manchester's economy is broad, which is one reason a single team that covers tech and marketing suits it. These are the sectors where our experience fits best."
+      ],
+      "list": [
+        "Professional and financial services around Spinningfields: law firms, accountants, wealth managers and insurers who need client portals, careful data handling and search visibility for high-value enquiries.",
+        "Media and creative businesses near MediaCityUK in Salford, where the BBC and ITV have major bases, plus the production and post-production firms that work with them.",
+        "Fashion, beauty and e-commerce retail: online brands that live or die by product imagery, paid social and site speed.",
+        "Health and life sciences along the Oxford Road Corridor, where the universities and hospitals sit side by side.",
+        "Manufacturing and logistics in places like Trafford Park, where old systems and spreadsheets still run the shop floor.",
+        "Technology and SaaS firms across Greater Manchester's tech scene, from Ancoats to the Northern Quarter."
+      ]
+    },
+    {
+      "h": "How we work with Manchester from London",
+      "p": [
+        "Our head office is in London and we do not have a Manchester office. In practice the distance matters less than you might think: Manchester is on the same clock as London, so our working day is your working day, and London Euston to Manchester Piccadilly is about two hours by train.",
+        "Most of the work runs on video calls, shared plans and a written weekly update. When the project needs it, such as a discovery workshop, a shoot or a launch, your Signal Lead comes up to Manchester in person. We agree those visits in the plan rather than promising a standing schedule we would then break."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "p": [
+        "Every engagement follows the same four steps. Talk is a 15-minute fit check to see whether we are the right people. Plan turns what you need into scope, owners and dates, all written down. Build is the delivery, with working demos rather than status reports. Grow is what happens after launch: search, ads, reporting and improvements, so the thing we built keeps earning its keep."
+      ]
+    },
+    {
+      "h": "UK data protection, handled properly",
+      "p": [
+        "Everything we build for Manchester clients is designed around UK GDPR and the Data Protection Act 2018. The regulator, the Information Commissioner's Office, has its head office in Wilmslow, Cheshire, a short drive south of the city, and its guidance shapes how we handle personal data in AI tools, analytics, cookies and marketing. We document what data goes where, keep hosting in UK cloud regions when that matters, and flag where you need a data protection impact assessment before we start."
+      ]
+    },
+    {
+      "h": "Proof, without the name-dropping",
+      "p": [
+        "We have worked with 30+ companies across four regions. We do not name clients on our pages, but we can describe the work. For a US law firm we built a client portal for documents and payments. For a US aesthetics practice we ran a 35-question search audit across five AI engines to see where the practice appeared and where it did not. For a beauty salon we rebuilt the website and ran its SEO and Google Ads. Ask on a call and we will walk you through the examples closest to your business."
+      ]
+    },
+    {
+      "h": "Why one team suits a Manchester firm",
+      "p": [
+        "Most firms searching for a digital agency Manchester-wide find specialists in one discipline. What nobody else combines is AI, cloud and data alongside marketing and video, animation and 3D, in one team. For a Manchester retailer that means the person rebuilding your product pages also knows who is producing the 3D renders and paid social creative, and the analytics that prove it worked. For a Spinningfields firm, the client portal, website and search work share one plan and one owner.",
+        "If that sounds useful, book a 15-minute call. It is a fit check, not a pitch, and we will tell you if we are not the right team."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Manchester?",
+      "a": "No. Our head office is in London and we serve Manchester companies from there. Day-to-day work runs on video calls and shared plans in UK hours, and your Signal Lead travels up in person when the project needs it, for workshops, shoots or launches. London to Manchester is about two hours by train, so a visit is a normal part of a project, not an event."
+    },
+    {
+      "q": "What size of Manchester company do you usually work with?",
+      "a": "Mostly established firms with somewhere between 5 and 500 staff that already have customers, revenue and existing systems. We also work with founders and startups, but our process is built for companies that need new technology and marketing to fit around a business that is already running, with real people, data and clients depending on it."
+    },
+    {
+      "q": "Can you work alongside our existing IT provider or agency?",
+      "a": "Yes. Many firms keep their managed IT provider or a specialist agency for one area. We agree who owns what at the start and write it into the plan, so there is no overlap and nothing falls between suppliers. Your Signal Lead becomes the single point that keeps the whole picture joined up."
+    },
+    {
+      "q": "How do you handle UK GDPR for Manchester clients?",
+      "a": "We design for UK GDPR and the Data Protection Act 2018 from the first plan. That covers where data is stored, who can see it, cookie consent under PECR, and records of what each AI tool or dashboard processes. We follow ICO guidance and tell you when a data protection impact assessment is needed. We are not your lawyers, so we work with your legal adviser on final sign-off."
+    },
+    {
+      "q": "How much does it cost to work with 22 Signals?",
+      "a": "It depends on scope, so we do not publish prices. The main factors are which services you need, how many systems have to connect, how much content or creative is involved, timelines, and whether you want ongoing growth work after launch. After a short call we send a written scope with costs and dates, so you can compare it properly."
+    },
+    {
+      "q": "Which part of Greater Manchester do you cover?",
+      "a": "All of it. We work with companies in the city centre, Salford and MediaCityUK, Trafford, Stockport and the other boroughs, and the delivery is the same wherever you are. Because the work is mostly remote, location inside Greater Manchester changes nothing about speed or cost; it only affects travel planning for in-person sessions."
+    }
+  ],
+  "related": [
+    "/united-kingdom",
+    "/locations/london",
+    "/locations/birmingham",
+    "/locations/manchester/ai-consulting",
+    "/locations/manchester/web-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "digital agency manchester",
+    "secondary": [
+      "manchester tech agency",
+      "ai and marketing agency manchester",
+      "agency serving manchester from london"
+    ]
+  }
+}

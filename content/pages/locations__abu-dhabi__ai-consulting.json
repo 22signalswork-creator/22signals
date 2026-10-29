@@ -1,0 +1,137 @@
+{
+  "path": "/locations/abu-dhabi/ai-consulting",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consulting in Abu Dhabi | 22 Signals",
+  "description": "AI consultancy for Abu Dhabi organisations: ranked use cases, PDPL and ADGM data rules, a roadmap and pilot builds, with one accountable lead from London.",
+  "eyebrow": "AI Consultancy in Abu Dhabi",
+  "h1": "AI consulting for Abu Dhabi organisations",
+  "intro": "Our AI consultancy helps Abu Dhabi organisations decide where AI is worth the effort, set the rules for using it, and build the first pilots. It suits established companies, government suppliers and regulated firms that need a ranked plan, sound data handling under UAE law, and a working result rather than a slide deck.",
+  "sections": [
+    {
+      "h": "Why AI is a board question in the capital now",
+      "p": [
+        "The Abu Dhabi Government Digital Strategy 2025 to 2027 set a public goal: the first fully AI-native government by 2027. That target does not stay inside government. Semi-government companies, contractors and service providers who work with entities are being asked how they use AI, how they protect data while doing it, and what they will automate next.",
+        "The city also has unusually informed buyers. MBZUAI in Masdar City trains AI researchers, and the emirate's investment in compute and models is well publicised. Executives here have seen strong demos. What they often lack is a plain answer to three questions: which processes in our business are worth it, what will it cost to run, and who signs off on the risk."
+      ]
+    },
+    {
+      "h": "What our AI consultancy covers",
+      "list": [
+        "AI readiness review: data, systems, skills and appetite for risk, scored honestly",
+        "Use-case discovery, ranked by value and effort, with the owner of each process in the room",
+        "An AI roadmap in quarters, with what gets built, bought or dropped",
+        "Tool and vendor selection, including build versus buy and where each model is hosted",
+        "AI policy, governance and data privacy written for your regulator, not a template",
+        "Pilot builds so the board sees a working tool on real data",
+        "Training for the teams who will use and maintain what we build"
+      ]
+    },
+    {
+      "h": "Our AI consulting: Abu Dhabi use cases by sector",
+      "p": [
+        "Energy and industrial suppliers sit on decades of manuals, inspection reports and tender documents. Retrieval over those files, with answers that cite the source page, saves engineers hours a week and is a contained first project.",
+        "Investment and advisory firms around Al Maryah Island want faster first drafts of research notes and due diligence summaries, with analysts checking every figure. Clinics and hospital groups usually start with administration: referral letters, insurance pre-approvals and patient messages in Arabic and English. Universities and training providers look at admissions queries and course support. Tourism and culture operators linked to Saadiyat Island and the wider visitor economy ask for multilingual guest assistants that hand over to a person for anything unusual."
+      ]
+    },
+    {
+      "h": "Data rules we plan around",
+      "p": [
+        "Before any AI consulting, Abu Dhabi organisations need to know which data law applies to them, because it changes what can be sent to a model provider. Mainland companies follow the UAE PDPL (Federal Decree-Law No. 45 of 2021). ADGM-licensed firms follow the ADGM Data Protection Regulations 2021. Healthcare providers also face the federal health data law, which limits storing health data outside the UAE, and the Department of Health's ADHICS standard.",
+        "In practice that means we decide early whether prompts and documents can leave the country, whether a model can run in a UAE cloud region, and what gets masked first. Your legal and compliance people make the final call; we give them a clear map of every data flow to decide on."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call, then structured interviews with the people who own the processes. Plan: a ranked list of use cases, a roadmap and a governance draft, delivered in writing with dates. Build: one or two pilots on your own data, measured against the time or error rate they were meant to fix. Grow: we either hand over to your team with training or keep running and improving the tools for you.",
+        "Your Signal Lead is the single person accountable throughout. Specialists in data, cloud and software sit behind them, so the person who recommends a tool is answerable for whether it gets built properly."
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have delivered more than 30 AI builds: custom AI tools, systems and automations for businesses that used to run the old way. That experience shapes our roadmaps: we cut ideas that will not survive contact with real data."
+      ]
+    },
+    {
+      "h": "Working with us from Abu Dhabi",
+      "p": [
+        "The AI consulting Abu Dhabi organisations get from us runs remotely from London. Gulf Standard Time is 4 hours ahead of London in winter and 3 in summer, so workshops fall in the Abu Dhabi afternoon and the London morning. The weekend is Saturday and Sunday in both places, which keeps the working week aligned.",
+        "Discovery interviews work well over video. For a leadership workshop or a pilot launch where the room matters, we come to Abu Dhabi when the project needs it. We have no local office and do not claim one."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "How many departments and processes are in scope for discovery",
+        "Whether data needs to stay in the UAE, which affects model and hosting choices",
+        "The number of pilots and how deep they go into live systems",
+        "Governance work: a short policy or a full framework for an ADGM or health regulator",
+        "Bilingual requirements for prompts, outputs and user interfaces",
+        "Training and ongoing support after handover"
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Most AI consultancy work leads somewhere practical. Our AI automation team builds the workflows, custom AI development covers agents and retrieval, cloud consulting sets up UAE-hosted infrastructure, and business intelligence turns the data you clean up along the way into dashboards."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI consultant do for an Abu Dhabi company?",
+      "a": "An AI consultant finds the processes where AI saves real time or money, ranks them by value and effort, sets the governance rules and proves the top idea with a pilot. For Abu Dhabi companies that also means matching each data flow to the PDPL, ADGM rules or health data law before anything is built."
+    },
+    {
+      "q": "Is AI consulting Abu Dhabi-specific, or the same as anywhere else?",
+      "a": "The method is the same, the constraints are not. Here we plan around the PDPL, ADGM rules and the health data law, government expectations shaped by the AI-native target for 2027, and Arabic and English in every customer-facing tool. Those decide which use cases are realistic, so they come first in our review."
+    },
+    {
+      "q": "Can our data stay inside the UAE?",
+      "a": "Often, yes. AWS and Microsoft Azure both operate cloud regions in the UAE, and several model providers can be reached through them. Where a model is only available abroad, we look at masking, keeping documents local and sending only what is needed. We document every flow so your compliance team decides with full information."
+    },
+    {
+      "q": "Do you work with ADGM firms on AI governance?",
+      "a": "Yes. ADGM firms follow the ADGM Data Protection Regulations 2021, which include duties around automated processing and transfers outside the jurisdiction. We write AI policies and data flow maps that your compliance officer can check against those rules, and we flag anything that may need a data protection impact assessment."
+    },
+    {
+      "q": "Are you connected to G42 or MBZUAI?",
+      "a": "No. We mention the capital's research and AI ecosystem because it shapes what buyers here expect. We are an independent London company, we have no partnership with either, and we choose tools and vendors on merit for each client."
+    },
+    {
+      "q": "How long before we see a working pilot?",
+      "a": "It depends on scope and data access. Discovery and a ranked roadmap usually come first, then one pilot built on your real data. We agree the dates for each stage at the planning step and put them in writing, so you know when the board will see something working."
+    },
+    {
+      "q": "Can the AI tools work in Arabic?",
+      "a": "Yes. We test prompts and outputs in Arabic and English, including mixed-language messages, and we have native speakers review anything customer-facing. Some tasks are reliable in Arabic today and some need a human check, and we tell you which is which during the pilot."
+    },
+    {
+      "q": "Will you meet us in Abu Dhabi?",
+      "a": "Most of the work runs well over video in the overlap between London and Gulf hours. When an in-person workshop or launch would make a real difference, we travel to Abu Dhabi for it. We agree that as part of the plan rather than promising a fixed visit schedule."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/ai-consulting",
+    "/locations/abu-dhabi/ai-automation",
+    "/locations/abu-dhabi/cloud-consulting",
+    "/locations/dubai/ai-consulting",
+    "/services/custom-ai-development"
+  ],
+  "keywords": {
+    "primary": "ai consulting abu dhabi",
+    "secondary": [
+      "ai consultancy abu dhabi",
+      "ai consultant abu dhabi",
+      "ai strategy abu dhabi",
+      "ai governance uae"
+    ]
+  }
+}

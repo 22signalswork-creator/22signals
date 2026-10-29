@@ -1,0 +1,140 @@
+{
+  "path": "/locations/abu-dhabi/ai-automation",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Abu Dhabi | 22 Signals",
+  "description": "AI automation for Abu Dhabi organisations: tender packs, bilingual documents, WhatsApp intake and approvals, with human hand-off and UAE data rules built in.",
+  "eyebrow": "AI Automation in Abu Dhabi",
+  "h1": "AI automation for Abu Dhabi teams buried in paperwork",
+  "intro": "We build AI automation for Abu Dhabi organisations that still run approvals, tender packs, bilingual documents and customer messages by hand. Custom AI tools and workflows connect your email, CRM, spreadsheets and WhatsApp, with a person checking anything that matters, so staff spend their week on decisions instead of copying data between systems.",
+  "sections": [
+    {
+      "h": "Where the hours go",
+      "p": [
+        "In many firms in the capital that supply larger organisations, the week disappears into the same tasks. Supplier registration forms for each entity. Tender responses rebuilt from old ones. Letters drafted in English, then again in Arabic. Weekly reports assembled from five spreadsheets for a client who wants them in a set format. Customer messages arriving on WhatsApp at night and waiting until morning.",
+        "None of this needs a large platform. It needs small, reliable automations that do the repetitive part and pass the judgement call to a person. That is the kind of AI automation Abu Dhabi firms get from us."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read, sort and summarise incoming documents",
+        "Workflow automation across email, CRM, spreadsheets and shared drives",
+        "Tender and proposal assistants that draft from your past responses and approved wording",
+        "Bilingual drafting with Arabic and English versions checked by your team before sending",
+        "Internal tools and dashboards so managers see where every request stands",
+        "Research and reporting systems that compile weekly or monthly reports on schedule",
+        "AI assistants on WhatsApp and web chat that hand over to a person when needed"
+      ]
+    },
+    {
+      "h": "Examples by Abu Dhabi sector",
+      "p": [
+        "A facilities or engineering contractor serving energy and infrastructure clients can have site reports, photos and inspection notes turned into the client's required format automatically, with an engineer approving before submission. A private clinic group in Khalifa City or on Abu Dhabi island can route WhatsApp booking requests, insurance questions and referral letters to the right desk, with AI drafting the reply and staff sending it.",
+        "Advisory and investment firms can automate the first pass of market and company research into a standard memo template. Training providers and private schools can answer routine parent and student questions out of hours in both languages, and log anything complex for a call back. Tour operators and hotels feeding the visitor economy can confirm bookings, send itineraries and collect feedback without someone typing each message."
+      ]
+    },
+    {
+      "h": "Which processes to automate first",
+      "p": [
+        "Good candidates share three traits: they happen often, they follow rules most of the time, and mistakes are easy to catch. Supplier onboarding packs, weekly client reports and first replies to enquiries usually qualify. One-off strategic documents do not.",
+        "We score each candidate on hours saved, error risk and how hard the systems are to connect, then start with the top one. Projects in AI automation, Abu Dhabi or elsewhere, fail most often when they start with the most exciting idea instead of the most frequent task. We start with the frequent task."
+      ]
+    },
+    {
+      "h": "Human hand-off and data handling",
+      "p": [
+        "Every automation we ship has a clear point where a person takes over: a low confidence score, a complaint, a medical question, a payment problem or a VIP customer. We log what the AI did so someone can audit it later.",
+        "Data handling is designed in, not added. Under the UAE PDPL you need a lawful basis and clear purpose for processing personal data, and ADGM-licensed firms answer to the ADGM Data Protection Regulations 2021. Clinics must also respect the federal health data law. We keep personal data out of prompts where it is not needed, use UAE cloud regions where data should stay in the country, and give your team the records they need."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "p": [
+        "Talk: we sit with the people doing the work, usually over video, and time each step. Plan: we pick the two or three automations with the clearest payback and agree dates in writing. Build: we build, test on real cases and run in parallel with the manual process until results match. Grow: we add the next workflow and keep the existing ones healthy as your systems change.",
+        "One Signal Lead owns the outcome. Behind them are automation engineers, a data specialist and, where customers see the output, our content team for Arabic and English wording."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself, from lead research to sequenced email and CRM updates. We run our own business on the same kind of automation we sell, so we know where it breaks and how to keep it running."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "Automation projects suit remote delivery well. We need access to the tools, a few hours with the people who do the work, and a named owner on your side. Meetings sit in the overlap between London and Gulf Standard Time, which is the Abu Dhabi afternoon. In winter London is 4 hours behind; in summer, 3.",
+        "If a process is easier to understand by watching it in person, we come to Abu Dhabi when the project needs it. We do not have a local office, and we will not claim one."
+      ]
+    },
+    {
+      "h": "What affects cost",
+      "list": [
+        "How many workflows and systems are connected",
+        "Whether your tools have usable APIs or need workarounds",
+        "Bilingual output and how much human review is required",
+        "Data residency needs and hosting choice",
+        "Volume of documents or messages processed each month",
+        "Support and monitoring after launch"
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "If you are not sure which processes to automate first, AI consultancy gives you a ranked list. WhatsApp automation covers customer messaging in more depth, custom AI development handles agents and document search, and business intelligence turns the data your automations create into reporting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What can AI automation do for an Abu Dhabi business?",
+      "a": "It takes repetitive work off your staff: sorting documents, drafting tender sections, producing reports, answering routine messages and moving data between systems. For AI automation, Abu Dhabi firms usually start with one painful workflow, prove the time saved, then add more. A person still approves anything with real consequences."
+    },
+    {
+      "q": "Can automations handle Arabic and English?",
+      "a": "Yes. We build workflows that read and draft in both languages and can handle messages that switch between them. Customer-facing Arabic is reviewed by a native speaker during testing, and staff approve outgoing letters until the quality is consistently right. Some tasks stay with a human check permanently, and we will say which."
+    },
+    {
+      "q": "Can you automate our WhatsApp enquiries?",
+      "a": "Yes, through the WhatsApp Business API. We set up AI replies for common questions, booking and lead capture, sync conversations to your CRM, and hand over to a person for anything sensitive. Broadcast messages follow WhatsApp policy, including opt-in, so your number stays in good standing."
+    },
+    {
+      "q": "How do you keep personal data compliant in the UAE?",
+      "a": "We map which data each automation touches, keep personal data out of AI prompts where it is not needed, and host in a UAE cloud region where data should stay in the country. We build to the UAE PDPL or the ADGM regulations depending on your licence, and your compliance lead signs off the design."
+    },
+    {
+      "q": "Do we need new software?",
+      "a": "Usually not. Most automation connects the email, CRM, spreadsheets and drives you already use. If a missing tool is the real problem, we recommend one and explain why. We would rather make your current systems work together than sell you a platform your team will not adopt."
+    },
+    {
+      "q": "Do you come to Abu Dhabi for automation projects?",
+      "a": "Most automation work runs remotely in the shared London and Gulf working hours. If we need to watch a process on site or train a large team in person, we travel to Abu Dhabi when the project needs it. That is agreed in the plan, never promised as a fixed schedule."
+    },
+    {
+      "q": "How do we measure whether AI automation in Abu Dhabi is paying off?",
+      "a": "Before building, we time the manual process and count errors or delays. After launch we measure the same things, plus how often a person had to step in. If an AI automation Abu Dhabi staff rely on stops saving time, we adjust it or switch it off. You see the numbers in a simple monthly summary."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/abu-dhabi/ai-consulting",
+    "/locations/abu-dhabi/business-intelligence",
+    "/locations/dubai/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation abu dhabi",
+    "secondary": [
+      "business automation abu dhabi",
+      "workflow automation uae",
+      "whatsapp automation abu dhabi",
+      "ai tools abu dhabi"
+    ]
+  }
+}

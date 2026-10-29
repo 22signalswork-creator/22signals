@@ -1,0 +1,149 @@
+{
+  "path": "/services/devops-consulting",
+  "kind": "service",
+  "region": "global",
+  "service": "devops-consulting",
+  "serviceType": "DevOps consulting services",
+  "title": "DevOps Consulting Services: CI/CD and IaC | 22 Signals",
+  "description": "DevOps consulting services for teams that ship software: CI/CD pipelines, infrastructure as code, containers, monitoring and a release process people trust.",
+  "eyebrow": "DevOps Consulting",
+  "h1": "DevOps consulting services that make releases boring",
+  "intro": "DevOps consulting services help a software team ship changes quickly without breaking production. 22 Signals sets up automated build and deploy pipelines, infrastructure written as code, clean environments, containers where they help, monitoring and alerts, and a release process your developers follow. Built for established companies and product teams that need steady, safe releases.",
+  "sections": [
+    {
+      "h": "What slow, risky releases cost you",
+      "p": [
+        "You can tell a team needs help with delivery when releases happen on Friday nights with everyone on a call, when only one developer knows how to deploy, or when staging looks nothing like production so bugs appear only after launch. Fixes wait for the next big release because releasing is painful, which makes each release bigger and riskier still.",
+        "The cost shows up as slower product work, outages customers notice and developers who spend their time on manual steps instead of features. DevOps is the set of practices and tools that breaks that cycle: small changes, tested automatically, released often, watched closely."
+      ]
+    },
+    {
+      "h": "What our DevOps consulting services include",
+      "list": [
+        "CI/CD pipelines that build, test and deploy every change automatically",
+        "Infrastructure as code, so servers, networks and databases are defined in files your team can review and rebuild",
+        "Separate development, staging and production environments that match each other",
+        "Containers and orchestration where they fit, with Docker and managed Kubernetes or simpler container services",
+        "Monitoring, logging and alerting tied to what users experience",
+        "A release process with code review, approvals, feature flags and one-click rollback",
+        "Secrets management and security checks built into the pipeline",
+        "Documentation and training so your developers own the setup after we leave"
+      ]
+    },
+    {
+      "h": "Continuous integration and delivery pipelines",
+      "p": [
+        "A pipeline runs the same steps on every change: build the code, run the tests, check for known security issues, then deploy to staging and, after approval or automatically, to production. Because it is the same every time, a release stops depending on one person's memory.",
+        "We build pipelines in the tools your team already uses, such as GitHub Actions, GitLab or Azure DevOps, and keep them fast. A pipeline that takes forty minutes gets skipped, so we cache, split and run tests in parallel until feedback arrives in a few minutes. Where your test coverage is thin, we start with the checks that catch the most expensive mistakes and grow from there.",
+        "Security belongs in the same flow. The pipeline checks dependencies for known vulnerabilities, scans for passwords or keys committed by mistake and keeps secrets in a proper vault rather than in configuration files. Each deployment is logged with who approved it, which gives regulated businesses the audit trail they need."
+      ]
+    },
+    {
+      "h": "Infrastructure as code and clean environments",
+      "p": [
+        "Infrastructure as code means your cloud setup lives in files, using tools such as Terraform, rather than in clicks nobody recorded. Changes are reviewed like application code, every environment can be rebuilt from scratch, and you always know what is running and why.",
+        "It also makes environments honest. When staging is built from the same definitions as production, a change that works in staging very likely works in production too. New environments for a feature, a client demo or a load test take minutes, and they can be switched off as easily so they do not run up the bill."
+      ]
+    },
+    {
+      "h": "Containers, used where they help",
+      "p": [
+        "Containers package an application with everything it needs, so it runs the same on a laptop, in testing and in production. For many teams they solve the classic problem of code that works on one machine only.",
+        "Kubernetes is powerful and also a lot to run. For a small team with a handful of services, a managed container platform or a simpler hosting option is often the better choice, and we will say so. We choose the lightest setup that meets your needs for scale, uptime and cost, and only add complexity when the product requires it."
+      ]
+    },
+    {
+      "h": "Monitoring, alerting and the release process",
+      "p": [
+        "Good monitoring answers three questions fast: is the product working for users, what changed, and where is the problem. We set up dashboards and alerts around error rates, response times and failed jobs, and link each alert to the release that may have caused it.",
+        "The release process brings it together. Changes go through review, merge to the main branch, pass the pipeline and roll out, sometimes to a small share of users first behind a feature flag. If something goes wrong, rolling back is one action, not an evening of guesswork. The result we aim for is a team that releases during working hours without anyone feeling nervous about it."
+      ]
+    },
+    {
+      "h": "How DevOps work runs with us",
+      "list": [
+        "Talk: we sit in on how your team ships today, from commit to production, and note where time and risk pile up.",
+        "Plan: a written plan ranked by impact, often starting with the deployment pipeline, with each milestone dated in writing.",
+        "Build: we implement in small steps alongside your developers, so the new setup is used from week one rather than handed over at the end.",
+        "Grow: we measure release frequency, failure rate and time to recover, train the team and stay on for support if you want it."
+      ]
+    },
+    {
+      "h": "Who uses our DevOps consulting",
+      "p": [
+        "Our clients are mostly established companies with an in-house or contracted development team, and product companies in SaaS, AI and technology that release often. We also help healthcare and professional services firms whose software handles sensitive data and needs a clear audit trail of who changed what and when. And we support companies whose developers are excellent at the product but have no one who owns infrastructure.",
+        "The same team builds web apps, mobile apps and AI tools, so we understand delivery from the developer's side and not only the operations side."
+      ]
+    },
+    {
+      "h": "What affects the cost of DevOps consulting services",
+      "p": [
+        "We do not publish prices. The cost depends on scope, and these factors set it:"
+      ],
+      "list": [
+        "How many applications and services need pipelines",
+        "The current state: starting from nothing or improving an existing setup",
+        "Cloud providers and environments involved",
+        "Whether containers and orchestration are part of the plan",
+        "Compliance and audit requirements",
+        "Training, documentation and how long you want ongoing support"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for DevOps consulting",
+      "p": [
+        "You work with one accountable lead, the Signal Lead, backed by cloud, DevOps and development specialists who also build products themselves. Our DevOps consulting services are designed for the team you have, not for a textbook setup that needs three platform engineers to run.",
+        "We have worked with more than 30 companies across four regions, and the pattern holds everywhere: teams adopt the setup that saves them time this week, and quietly ignore the one that adds steps.",
+        "Related services: Cloud Consulting for architecture and managed operations, Cloud Migration for moving systems into the cloud, Web Development and App Development for the products the pipelines ship, and Data Engineering for data pipelines that need the same care."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What do DevOps consulting services include?",
+      "a": "They cover the way software gets from a developer's laptop to production. At 22 Signals that means automated build and deploy pipelines, infrastructure as code, matching environments, containers where useful, monitoring and alerting, and a release process with review and quick rollback, plus documentation and training so your team can run it."
+    },
+    {
+      "q": "Do we need Kubernetes?",
+      "a": "Probably not yet, unless you run many services at real scale. Kubernetes is powerful but takes effort to operate. Many teams do better with a managed container service or a simpler hosting platform. We recommend the lightest option that meets your needs and plan a path to more if the product grows into it."
+    },
+    {
+      "q": "Can you work with our existing developers?",
+      "a": "Yes, that is the usual setup. We work inside your repositories and tools, pair with your developers on the changes and keep everything documented. The aim is that your team owns the pipelines and infrastructure at the end, with us available for support or further work if you want it."
+    },
+    {
+      "q": "Which tools do you use?",
+      "a": "We work with what fits your stack: GitHub Actions, GitLab and Azure DevOps for pipelines, Terraform for infrastructure as code, Docker for containers, managed Kubernetes when it is justified, and standard monitoring tools on AWS, Google Cloud and Azure. We avoid adding tools your team will not use."
+    },
+    {
+      "q": "How long does it take to set up a deployment pipeline?",
+      "a": "It depends on the application and its current state. A pipeline for a single, well-structured app is a short piece of work, while several services with thin testing take longer. We agree a dated plan in writing first, and we usually deliver the first automated deployment early so your team sees the benefit quickly."
+    },
+    {
+      "q": "How do you measure whether DevOps work helped?",
+      "a": "We track four plain numbers before and after: how often you release, how long a change takes to reach production, how often releases cause problems and how quickly you recover when they do. Those numbers show progress clearly, and they keep the work focused on results rather than tools."
+    },
+    {
+      "q": "What is the difference between DevOps and cloud consulting?",
+      "a": "Cloud consulting is about the environment your software runs in: architecture, security, cost and operations. DevOps is about how changes reach that environment: pipelines, testing, releases and rollback. They overlap, and we usually do both together, because a clean cloud setup is only half useful if every release is still a manual, risky job."
+    }
+  ],
+  "related": [
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/web-app-development",
+    "/services/app-development",
+    "/services/data-engineering"
+  ],
+  "keywords": {
+    "primary": "devops consulting services",
+    "secondary": [
+      "devops consulting company",
+      "devops consultancy",
+      "ci/cd pipeline setup",
+      "infrastructure as code",
+      "kubernetes consulting",
+      "devops services"
+    ]
+  }
+}

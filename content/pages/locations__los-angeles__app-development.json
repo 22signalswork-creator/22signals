@@ -1,0 +1,139 @@
+{
+  "path": "/locations/los-angeles/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Los Angeles, CA | 22 Signals",
+  "description": "App development for Los Angeles media, wellness, beauty, property and engineering firms: iOS, Android and web apps, from first version to app store launch.",
+  "eyebrow": "App Development in Los Angeles",
+  "h1": "App development for Los Angeles companies building for fans, members, patients and field teams",
+  "intro": "We handle app development for established Los Angeles companies and funded founders: iOS and Android apps, web apps and SaaS products. We scope a first version that proves the idea, build it with payments, logins and the integrations you need, launch it on the App Store and Google Play, and support it after release.",
+  "sections": [
+    {
+      "h": "Most app ideas fail on scope, not code",
+      "p": [
+        "The LA app ideas we hear are rarely short on ambition. A studio wants a companion app for a show. A Pilates and wellness brand wants members to book, pay and stream classes. A property group wants tenants to report repairs from their phone. The risk is trying to build every feature at once, then launching late, over budget and into silence. In a city full of polished consumer brands, a half-finished app also does more damage to the brand than no app at all.",
+        "Scope is the biggest risk in app development. Los Angeles founders and product owners who get it right usually start smaller than they planned: one core job done well for one audience, launched, measured, then extended. We push for that version first, and put the scope and dates in writing."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Native iOS and Android apps, or cross-platform apps where one codebase makes sense",
+        "Web apps and SaaS products with user accounts, roles and billing",
+        "MVPs that test demand before a large investment",
+        "Payments, subscriptions and in-app purchases",
+        "APIs and integrations with your CRM, booking, content or ERP systems",
+        "App Store and Google Play submission, listing copy and launch",
+        "Support, updates and new features after release"
+      ]
+    },
+    {
+      "h": "App types that fit the LA economy",
+      "list": [
+        "Entertainment, music and creator businesses: fan apps, members-only content, ticketing links and community features",
+        "Fitness, wellness and beauty: class and appointment booking, memberships, loyalty and on-demand video",
+        "Healthcare and health tech: patient apps and portals, designed around HIPAA and California's medical privacy law, with clinical content reviewed by your team",
+        "Real estate and property management: tenant apps for payments, maintenance requests and building notices",
+        "Aerospace, logistics and manufacturing: internal apps for inspections, checklists and job tracking that work on the shop floor or at the port"
+      ]
+    },
+    {
+      "h": "Payments, app store rules and privacy",
+      "p": [
+        "Media and creator apps in Los Angeles often sell digital content, and Apple and Google set rules on how apps charge for it. Those rules have shifted in the US in recent years, so we check the current policies before designing your checkout and pick the option that keeps you approved and protects your margin.",
+        "Apps also collect a lot of personal data: location, contacts, payment details, sometimes health information. Under the CCPA and CPRA, Californian users have rights to know, delete and opt out, and the app stores require accurate privacy labels. We collect only what the app needs, build the request flows in, and make the store disclosures match what the app really does."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: who the app is for, what it must do on day one and what success looks like",
+        "Plan: user flows, clickable designs, a technical plan and a written, dated scope",
+        "Build: two-week cycles with a test build on your phone at the end of each one",
+        "Grow: launch, crash and usage monitoring, reviews, updates and the next features"
+      ]
+    },
+    {
+      "h": "Remote app delivery between London and LA",
+      "p": [
+        "Our head office is in London and our engineers work across four regions; we deliver to Los Angeles clients remotely. London is 8 hours ahead of LA most of the year, so sprint reviews and demos sit in your morning. Fixes discussed on a call are often in a new test build by the time you start the next day, sent straight to your phone through TestFlight or an internal Android track.",
+        "We do not need to be in your office to build your app, but if user testing with real customers in LA or a launch event needs us there, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Proof: a live product in development",
+      "p": [
+        "We are building an AI commentary product for live esports, which has to keep up with fast action in real time and hold up under live audiences. It is the kind of demanding, real-time product work that shapes how we test and release everything else."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Platforms: iOS, Android, web, or all three",
+        "The number of screens, user roles and features in the first version",
+        "Payments, subscriptions, video or real-time features",
+        "Integrations with existing systems",
+        "Security and compliance needs, which are higher in healthcare",
+        "Support and feature work after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Launching an app is half the job; getting people to download and keep using it is the other half. We do both. The same team that builds your app can produce the launch video, the 3D product visuals, the store listing and the paid campaigns. That is the practical gain from tying launch work to app development. Los Angeles clients rarely need to brief a second agency to get the app noticed. See also web development and AI automation in Los Angeles."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Los Angeles startups or only established companies?",
+      "a": "Both, but most of our work is with established companies that already have customers and need an app to serve them better. We also build MVPs for funded founders. Either way, we scope a first version that can launch and prove its value before more money goes in."
+    },
+    {
+      "q": "Should we build native apps or one cross-platform app?",
+      "a": "For most business apps, a cross-platform framework gives you iOS and Android from one codebase and keeps costs down. Native apps make sense for heavy video, complex animation or deep device features. We recommend based on what the app must do, not habit, and explain the trade-off in writing."
+    },
+    {
+      "q": "How long does app development take?",
+      "a": "A focused first version often takes a few months from design to store launch, depending on features and integrations. Larger products take longer. We agree a dated plan at the start, show a working build every two weeks and report against the dates, so there are no surprises near launch."
+    },
+    {
+      "q": "Can you build a HIPAA-ready app for a Los Angeles clinic?",
+      "a": "Yes. We use HIPAA-eligible hosting with business associate agreements, encryption, role-based access and audit logs, and keep patient data out of analytics tools. We also account for California's medical privacy law. Your compliance lead or counsel signs off the final design and policies."
+    },
+    {
+      "q": "Do you meet Los Angeles clients in person during an app project?",
+      "a": "We work remotely from London, with demos and reviews in your morning Pacific time, and you get test builds on your phone throughout. If in-person user testing or a launch event in LA needs us, we plan a visit for that stage of the project."
+    },
+    {
+      "q": "Who owns the code and the app store accounts?",
+      "a": "You do. Apps are published under your own developer accounts, the code lives in your repository and we hand over documentation. If you later want to bring development in-house, your team can pick it up without starting again."
+    },
+    {
+      "q": "What should the first version of our app include?",
+      "a": "Only what a user needs to complete the core job, such as booking a class, paying rent or watching members-only content, plus sign-in, payments if needed and basic analytics. Everything else waits for real usage data. That keeps the first release small and quick, which is the sensible way into app development. Los Angeles businesses can then put budget behind the features customers actually ask for."
+    }
+  ],
+  "related": [
+    "/services/app-development",
+    "/locations/los-angeles",
+    "/locations/los-angeles/web-development",
+    "/locations/los-angeles/video-animation",
+    "/locations/san-francisco/app-development",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "app development los angeles",
+    "secondary": [
+      "app developers los angeles",
+      "mobile app development los angeles",
+      "ios app developer los angeles",
+      "app development company los angeles"
+    ]
+  }
+}

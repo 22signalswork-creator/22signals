@@ -1,0 +1,157 @@
+{
+  "path": "/services/paid-media",
+  "kind": "service",
+  "region": "global",
+  "service": "paid-media",
+  "serviceType": "Paid media management",
+  "title": "Paid Media Management: Google, Meta, LinkedIn | 22 Signals",
+  "description": "Paid media management on Google, Meta, LinkedIn and TikTok, with ad creative, landing pages and call tracking built by one team and tied to your CRM.",
+  "eyebrow": "Paid Media",
+  "h1": "Paid media management tied to leads you can count",
+  "intro": "Paid media management at 22 Signals means we plan, build and run your ads on Google, YouTube, Meta, LinkedIn and TikTok, then connect every campaign to calls, bookings, sales and your CRM. The same team makes the video, the landing pages and the tracking, so you see which spend produced revenue and which did not.",
+  "sections": [
+    {
+      "h": "Why most ad accounts are hard to judge",
+      "p": [
+        "Ask a company how its ads are doing and the answer is often a click-through rate. Ask how many of last month's customers came from those ads and the room goes quiet. The platforms report their own numbers, the CRM reports another, and nobody owns the gap.",
+        "Three things usually cause it. Conversion tracking was set up once and never checked, so form fills count twice and phone calls not at all. The creative comes from a different supplier, so the media buyer waits weeks for a new video while a tired ad keeps spending. And landing pages belong to a web agency that is not measured on leads.",
+        "Our paid media management starts by fixing the measurement, then puts creative, pages and buying in the hands of one team that answers for the result. Until the numbers can be trusted, spending more only buys more confusion."
+      ]
+    },
+    {
+      "h": "What paid media management includes",
+      "list": [
+        "Google Search campaigns built around the searches that bring buyers, with negative keywords kept up to date",
+        "Performance Max and YouTube, with your own video and product data feeding them rather than whatever the platform generates",
+        "Meta (Facebook and Instagram), LinkedIn and TikTok for paid social",
+        "Ad creative made in-house: short video, motion graphics, static ads and copy, refreshed on a schedule",
+        "Landing pages built for one offer each, with fast load times and a clear next step",
+        "Conversion tracking and call tracking, checked against real leads before we scale spend",
+        "CRM connection so qualified leads and closed sales flow back to the ad platforms",
+        "Weekly optimization and a monthly report in plain words"
+      ]
+    },
+    {
+      "h": "Choosing the right platforms",
+      "p": [
+        "We pick channels from where your buyers are, not where it is easiest to spend. Google Search catches people who already know what they need: someone looking for an injury lawyer after a crash, or a clinic for a specific treatment. LinkedIn suits B2B companies selling to named job titles and industries, where a single good meeting can justify the cost of the click.",
+        "Meta and TikTok work best for products and services people decide on visually, such as beauty, fashion, retail and consumer apps. YouTube fills the gap between them: longer stories, demos and testimonials for buyers who are still comparing.",
+        "Most clients start on one or two platforms, prove the numbers, then add more. Good paid media management is as much about what you switch off as what you launch. Health and legal advertising also carries platform policy limits on targeting and wording, and we plan campaigns around those rules from the start rather than waiting for ads to be rejected."
+      ]
+    },
+    {
+      "h": "Creative is the targeting now",
+      "p": [
+        "Ad platforms now decide who sees an ad largely from the ad itself. Broad audiences and automated bidding mean the video, the hook and the first line of copy do the work that detailed targeting used to do. An account with three tired ads will struggle however clever its settings are.",
+        "That is why having our video and motion team next to the media buyer matters. When a hook stops working, a new cut can be made the same week. When a product launches, the ads, the landing page and the tracking are built together. And when a winning ad appears, we make variations of it on purpose rather than by accident."
+      ]
+    },
+    {
+      "h": "How it runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we learn what a good customer is worth to you, how long they take to decide, and what you have tried before. If ads are the wrong channel for your goal, we will say so on that first call.",
+        "Plan: an audit of your current accounts and tracking, then a written plan covering platforms, budgets by channel, offers, creative and the numbers we will judge it on. Launch dates are agreed in writing.",
+        "Build: tracking first, then landing pages and creative, then campaigns. Your Signal Lead signs off every piece before anything spends.",
+        "Grow: weekly changes to bids, budgets, keywords and creative, plus a monthly review of cost per qualified lead and revenue. Budget moves toward what is working, and tests that fail are stopped quickly."
+      ]
+    },
+    {
+      "h": "Industries we run ads for",
+      "list": [
+        "Law firms and professional services, where one case or client can be worth a year of spend and call tracking is essential",
+        "Healthcare and wellness, including clinics, aesthetics and dental, with careful wording for health ads",
+        "Fashion, beauty and retail, where paid social and product feeds drive most online sales",
+        "Technology, SaaS and AI companies running LinkedIn and search for demos and trials",
+        "Real estate, for buyer and seller leads by area",
+        "Gaming, esports and entertainment, for launches, events and ticket sales"
+      ]
+    },
+    {
+      "h": "An example of the joined-up approach",
+      "p": [
+        "For a beauty salon in Lahore we rebuilt the website, handled SEO and ran Google Ads as one project. Because one team owned the pages and the campaigns, nothing had to be handed between suppliers: each ad could send people to a page written for that service instead of the home page, and the tracking was planned with the site rather than added afterward."
+      ]
+    },
+    {
+      "h": "Cities where we run paid media",
+      "p": [
+        "We manage ad accounts for companies in the following cities, working remotely from our London head office with meeting hours that overlap yours. Campaigns can target any city, region or country you sell to."
+      ],
+      "list": [
+        "US: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago, Miami",
+        "UK: London, Manchester, Birmingham",
+        "UAE: Dubai, Abu Dhabi",
+        "Pakistan: Lahore, Karachi, Islamabad"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "Our fee depends on scope, and we put it in writing before any work starts. These are the factors that change it:"
+      ],
+      "list": [
+        "How many platforms and accounts we manage",
+        "The size of your monthly ad budget and how many campaigns it is split across",
+        "How much new creative you need each month, and in which formats",
+        "Whether landing pages are new builds or edits to existing pages",
+        "How complex the tracking is: calls, offline sales, multiple CRMs or regions",
+        "Languages and markets the ads run in"
+      ]
+    },
+    {
+      "h": "Why companies choose 22 Signals for paid media",
+      "p": [
+        "One accountable lead, the Signal Lead, owns the result across buying, creative, pages and tracking. You do not referee between a media agency, a video studio and a web developer.",
+        "The same team also runs SEO and GEO, so paid and organic search share keyword data instead of competing for the same clicks. When you need more creative, our video, motion graphics and AI video teams make it. When the landing page needs a booking flow or CRM connection, our web developers build it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ad platforms do you manage?",
+      "a": "Google Search, Performance Max and YouTube, Meta (Facebook and Instagram), LinkedIn and TikTok. We recommend channels from where your buyers are and what a customer is worth to you. Most clients start on one or two platforms, prove the cost per lead, and add others once the first channel is profitable and the tracking is trusted."
+    },
+    {
+      "q": "Do you make the ad creative too?",
+      "a": "Yes. Video, motion graphics, static ads and copy are made by our own video and motion team, and refreshed on a schedule agreed in the plan. That means a new version of a winning ad can be ready in days rather than waiting for an outside studio, which matters most on Meta and TikTok where creative wears out fastest."
+    },
+    {
+      "q": "How do you track leads from phone calls?",
+      "a": "We use call tracking numbers on your ads and landing pages, so each call is tied to the campaign and keyword that produced it. Calls are recorded as conversions in Google Ads and, where your CRM allows, matched to the lead record. For law firms and clinics, where most inquiries start with a call, this is set up before any spend."
+    },
+    {
+      "q": "How long before paid media shows results?",
+      "a": "Search campaigns usually produce leads in the first weeks, because they catch people already looking. The first month is still a learning period while the platforms and our team find the best keywords, audiences and creative. We agree the numbers we will judge it on in the plan, and review them with you monthly."
+    },
+    {
+      "q": "Do we keep ownership of our ad accounts?",
+      "a": "Yes. Accounts, pixels, audiences and tracking are set up in your name, and we work in them with access you grant. If we ever stop working together, everything stays with you, including the history and the data the platforms have learned from. We think any other arrangement puts the client in a weak position."
+    },
+    {
+      "q": "What does the monthly paid media management report show?",
+      "a": "It shows spend, qualified leads, cost per qualified lead and, where your CRM sends the data back, revenue by platform and campaign. It also lists what we changed that month, which tests won or lost, and what we plan next. It is written in plain words, so anyone on your leadership team can read it without a glossary."
+    },
+    {
+      "q": "Can you take over an account another agency set up?",
+      "a": "Yes. We start with an audit of the account structure, tracking and spend, and tell you what we would keep, what we would change and why. Tracking problems are the most common finding. Changes are made in stages so performance does not drop while the account is being rebuilt."
+    }
+  ],
+  "related": [
+    "/services/video-motion",
+    "/services/seo-geo",
+    "/services/web-app-development",
+    "/services/go-to-market",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media management",
+    "secondary": [
+      "paid media agency",
+      "ppc management",
+      "google ads management",
+      "meta ads agency",
+      "linkedin ads agency",
+      "paid social agency"
+    ]
+  }
+}

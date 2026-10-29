@@ -1,0 +1,130 @@
+{
+  "path": "/locations/austin/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Agency in Austin, TX | 22 Signals",
+  "description": "An AI automation agency for Austin operations teams: custom tools and workflows across email, CRM and spreadsheets, with a person in the loop where it counts.",
+  "eyebrow": "AI Automation in Austin",
+  "h1": "The AI automation agency Austin operations teams call when the busywork wins",
+  "intro": "22 Signals is an AI automation agency for Austin companies whose teams lose hours to copying, chasing and reformatting. We build custom AI tools and workflow automations across email, CRM, spreadsheets and internal systems, with clear hand-off to a person when a judgement call is needed. Delivered remotely from London, on Central Time hours.",
+  "sections": [
+    {
+      "h": "Your team grew. The manual work grew faster.",
+      "p": [
+        "Austin companies tend to add tools quickly. A scale-up in the Domain might run HubSpot for marketing, Salesforce for sales, Zendesk for support, Slack for everything else and three spreadsheets that hold it together. Every new hire spends their first month learning which copy-and-paste steps keep the numbers right.",
+        "Automation is the fix, but only if it is designed around how work really moves. We start by watching the process, then we automate the steps that are repetitive and rule-based, use AI for the steps that need reading or writing, and leave the decisions to your people."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Custom AI tools: assistants that read inbound requests, draft replies and route them to the right owner.",
+        "Workflow automation between email, CRM, spreadsheets, accounting and project tools.",
+        "Internal tools and dashboards so a team stops working out of shared inboxes.",
+        "Research and reporting systems that gather information and produce a first draft every week.",
+        "AI assistants with human hand-off, logged so you can see what the AI did and why.",
+        "Monitoring and alerts so a broken automation is noticed in minutes, not at month end."
+      ]
+    },
+    {
+      "h": "Automations that fit how Austin businesses run",
+      "p": [
+        "We do not sell a fixed menu. The right automation depends on where the hours go in your Austin business. Some examples of what we look at:"
+      ],
+      "list": [
+        "B2B software companies: lead enrichment and routing, renewal reminders, support ticket summaries and handover notes between sales and customer success.",
+        "Hardware and semiconductor suppliers: quote requests, purchase order matching, returns paperwork and supplier questionnaires that ask the same fifty questions in different formats.",
+        "Contractors and consultancies working with Texas state agencies: tracking bid deadlines, assembling compliance attachments and checking proposals against requirement lists.",
+        "Clinics and wellness groups in Round Rock, Cedar Park and South Austin: appointment confirmations, intake forms into the practice system and follow-up messages, with staff approving anything clinical.",
+        "Venues, promoters and creative studios: booking enquiries, artist advancing documents and settlement spreadsheets after a show."
+      ]
+    },
+    {
+      "h": "Human hand-off is part of the design",
+      "p": [
+        "Every automation we build has a clear line where software stops and a person takes over. An AI that drafts a reply to a customer queues it for approval until you trust it. A workflow that updates the CRM flags anything unusual instead of guessing. For anything touching health information, pricing promises or legal terms, a person signs off.",
+        "This matters more in Texas now. The Texas Data Privacy and Security Act requires care with personal and sensitive data, and the state's Responsible Artificial Intelligence Governance Act, in effect since January 2026, adds rules on how AI is used. Building in review steps from the start keeps you on the right side of both."
+      ]
+    },
+    {
+      "h": "How we build: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call to find the process that costs your team the most time each week.",
+        "Plan: we map the current process step by step, mark what to automate and what stays human, and agree success measures.",
+        "Build: we build in stages, test on real cases alongside your team, then switch over.",
+        "Grow: we monitor, fix edge cases and move to the next process once the first one is stable."
+      ]
+    },
+    {
+      "h": "Proof from our own business",
+      "p": [
+        "One of our most complete automation builds is the outbound sales engine we run for 22 Signals itself: research, list building, personalized writing, sending and CRM updates. We have also delivered more than 30 AI builds for businesses that used to run the old way. As an AI automation agency, Austin clients get the same approach we use on ourselves."
+      ]
+    },
+    {
+      "h": "How remote delivery works for an Austin team",
+      "p": [
+        "We work with Austin companies remotely from London. Austin is six hours behind us, so we use your mornings for process walkthroughs and reviews, and our specialist teams use the hours after your working day to build and test. Changes go to a test environment first, and nothing switches over without your sign-off.",
+        "You get one Signal Lead who owns the plan, a written change log and a short weekly update. If a process walkthrough needs to happen on site, for instance at a warehouse or lab outside Austin, we plan a visit for that stage."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "The number of processes and systems involved.",
+        "Whether your tools have usable APIs or need workarounds.",
+        "How much AI reading and writing is involved compared with simple rules.",
+        "Approval steps, logging and security requirements, including Texas privacy obligations.",
+        "Ongoing monitoring and support after launch."
+      ]
+    },
+    {
+      "h": "Why work with 22 Signals",
+      "p": [
+        "Many automation freelancers can connect two apps. Fewer can tell you whether the process should exist at all, then fix the data feeding it and the dashboard reporting on it. Because 22 Signals also runs AI consulting, data, cloud and marketing work, your automation sits inside a bigger plan, owned by one accountable lead."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should an Austin company automate first?",
+      "a": "Start with the process that is repetitive, high volume and annoying for the people doing it, such as lead routing, intake forms or weekly reporting. Those tend to pay back quickly and teach your team to trust the tools. Avoid starting with a process that changes every month or that relies on a single person's judgement."
+    },
+    {
+      "q": "Which tools can you connect?",
+      "a": "Most common business tools: HubSpot, Salesforce, Google Workspace, Microsoft 365, Slack, Teams, Zendesk, QuickBooks, Xero, Airtable and the major project tools, plus custom databases. If a tool has an API we can usually work with it. If it does not, we look at exports, email parsing or replacing the tool, and tell you which is sensible."
+    },
+    {
+      "q": "Is it safe to send our customer data through AI tools?",
+      "a": "It can be, if it is set up properly. We choose providers whose data terms fit your needs, limit what each automation can see, log what happens and keep sensitive fields out where they are not needed. For Texas privacy law and any industry rules, we document the data flow so your counsel can review it."
+    },
+    {
+      "q": "Do you work with Austin teams on site?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and that covers most automation projects because the work happens inside your systems. If we need to see a physical process, like a warehouse returns desk or a clinic front desk, we arrange a visit for that stage when the project needs it."
+    },
+    {
+      "q": "What happens when an automation breaks?",
+      "a": "We build monitoring in from the start, so failures raise an alert rather than going unnoticed. Each automation has a written fallback, usually routing the work back to a person. If you keep us on for support, we fix issues within the response times agreed in writing. If not, you get documentation so your team can maintain it."
+    },
+    {
+      "q": "How is an AI automation agency different from hiring an operations person?",
+      "a": "An operations hire is great at running a process. We are useful when you need the process rebuilt with software, which takes skills across AI, integrations and data that one hire rarely has. Many of our Austin clients do both: we build the automation, and their operations lead owns it day to day."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/ai-automation",
+    "/locations/austin/ai-consulting",
+    "/locations/austin/business-intelligence",
+    "/locations/houston/ai-automation",
+    "/services/custom-ai-development"
+  ],
+  "keywords": {
+    "primary": "ai automation agency austin",
+    "secondary": ["ai automation austin", "workflow automation austin tx", "business process automation austin", "ai agents austin"]
+  }
+}

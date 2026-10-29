@@ -1,0 +1,141 @@
+{
+  "path": "/locations/dallas/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence in Dallas, TX | 22 Signals",
+  "description": "Business intelligence and data analytics for Dallas companies: one set of KPIs, clean pipelines and Power BI or Looker dashboards leadership trusts.",
+  "eyebrow": "Business Intelligence and Data Analytics in Dallas",
+  "h1": "Business intelligence and data analytics for Dallas companies",
+  "intro": "Our business intelligence and data analytics consulting gives Dallas leadership teams one version of the numbers. We agree the KPIs, connect the systems that hold your data, build dashboards in Power BI, Looker Studio or Tableau, and automate the reports people now assemble by hand. It suits finance, real estate, logistics, retail and healthcare operators across DFW.",
+  "sections": [
+    {
+      "h": "When the Monday numbers do not match",
+      "p": [
+        "The pattern is familiar. Finance reports one revenue figure, sales reports another, and operations has a third in a spreadsheet only one analyst understands. The leadership meeting spends twenty minutes arguing about whose number is right before it gets to the decision.",
+        "Dallas makes this worse in a particular way. So many companies here are relocated headquarters, acquisitions or roll-ups that their data sits in several ERPs, two CRMs and a legacy reporting server nobody wants to touch. Good business intelligence Dallas executives can rely on starts by fixing where the numbers come from, not by drawing prettier charts."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Data strategy and KPI design: which numbers run the business, defined once, with an owner each.",
+        "Warehouse and pipelines: getting data out of your systems and into one place on a schedule.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who read them.",
+        "Automated reporting: the weekly pack, the board report and the client report, produced without copy and paste.",
+        "Forecasting: revenue, demand and cash projections that update as actuals come in.",
+        "Data quality: checks that flag missing, duplicated or late data before it reaches a dashboard."
+      ]
+    },
+    {
+      "h": "What Dallas industries measure",
+      "p": [
+        "The business intelligence Dallas companies need changes with the business they run. These are typical starting points for clients across the metro."
+      ],
+      "list": [
+        "Financial services and wealth management in Uptown and Downtown: assets under management, client profitability, adviser activity and pipeline, with access controls so each team sees only its own book.",
+        "Commercial and multifamily real estate: occupancy, rent roll, lease expirations, delinquencies and maintenance costs by property across Dallas, Fort Worth and the northern suburbs.",
+        "Logistics and distribution near DFW Airport and the inland port: on-time pickup and delivery, dwell time, cost per load, carrier scorecards and margin by lane.",
+        "Retail and restaurant head offices in Plano, Irving and Dallas: sales per location, labor against forecast, inventory turns and promotion results.",
+        "Healthcare groups and specialty practices: appointment volume, no-show rates, referral sources and revenue cycle measures, built so patient data stays protected.",
+        "Telecom and service businesses: ticket volumes, resolution time, churn signals and field technician productivity."
+      ]
+    },
+    {
+      "h": "How we build it",
+      "p": [
+        "Talk: a short call to understand the decisions the numbers need to support. Plan: we interview the people who own each number, list every source system, and write a KPI dictionary and a scope with dates. Build: we set up the pipelines and warehouse, model the data, and build the first dashboards with your team reviewing each one. Grow: we add sources, automate the remaining reports and train your people to change dashboards themselves.",
+        "We usually ship one useful dashboard early, so leadership sees progress within the first weeks rather than at the end."
+      ]
+    },
+    {
+      "h": "Data privacy and access in Texas",
+      "p": [
+        "A reporting warehouse is often the biggest store of personal data a company has, because it pulls from every system. Under the Texas Data Privacy and Security Act, consumers can ask to access, correct or delete their data, and that request has to reach the warehouse too. We map personal data as we build, keep it out of dashboards that do not need it, and use row-level security so a regional manager in Fort Worth does not see client records for Plano.",
+        "For healthcare clients, patient information is handled under HIPAA and Texas medical records rules, with de-identified data used for analysis wherever that works."
+      ]
+    },
+    {
+      "h": "Our track record",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and reporting is part of almost every engagement: our search, ads and automation work all ends in a dashboard a client checks every week. We do not name clients, but we are happy to walk through how a reporting setup was designed on a call."
+      ]
+    },
+    {
+      "h": "Working remotely with a Dallas data team",
+      "p": [
+        "We run Dallas analytics projects remotely from London. Central Time is six hours behind us, so we use the Dallas morning for KPI workshops and dashboard reviews, and the London evening for pipeline runs and data checks. Your team often wakes up to a refreshed model and a short note on what changed.",
+        "Access goes through your own accounts with named users and multi-factor login. When a kickoff or training day works better in person, we plan a visit to Dallas when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "Budgets vary widely, so we price after scoping. What moves the number:"
+      ],
+      "list": [
+        "How many source systems and how clean they are.",
+        "Whether you already have a warehouse or need one built.",
+        "The number of dashboards, audiences and access rules.",
+        "Forecasting or advanced analytics on top of reporting.",
+        "Ongoing support after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We connect the reporting to the work that changes the numbers. The same team that builds your dashboards can run the SEO, paid media and automation behind them, so marketing spend, sales activity and operations show up in one place. Related services for Dallas companies: Power BI work as part of our analytics practice, AI automation to feed cleaner data, and cloud consulting for the warehouse it runs on."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Power BI for Dallas companies?",
+      "a": "Yes. Many Dallas headquarters already run on Microsoft, so Power BI is often the natural choice. We build data models, DAX measures and Power Query transformations, connect finance, CRM and ERP data, and set up row-level security. If you use Looker Studio or Tableau instead, we work in those."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "Usually within the first few weeks. We pick one high-value dashboard, often the weekly leadership view, and ship it while the wider pipeline work continues. The full scope depends on how many systems are involved and how clean the data is. Your Signal Lead puts the dates in writing."
+    },
+    {
+      "q": "We have data in several systems after an acquisition. Can you combine it?",
+      "a": "Yes, and it is common in Dallas. We map each system, agree which one is the source of truth for each field, and build pipelines that bring the data into one warehouse with consistent definitions. Where customer or product records overlap, we set matching rules and flag conflicts for your team."
+    },
+    {
+      "q": "How do you handle Texas privacy requests in a data warehouse?",
+      "a": "We tag personal data as we build, so when a customer asks to see or delete their data under the Texas Data Privacy and Security Act, your team can find every copy. We keep personal data out of dashboards that do not need it and restrict access by role. Legal judgments stay with your counsel."
+    },
+    {
+      "q": "Do you meet Dallas clients in person?",
+      "a": "Our analytics work is delivered remotely from London, with meeting hours that overlap Central Time. KPI workshops, reviews and training run well over video. If a kickoff or a training day would work better in person, we plan a visit to Dallas when the project needs it."
+    },
+    {
+      "q": "Is business intelligence only for large Dallas companies?",
+      "a": "No. Most of our analytics clients have between 5 and 500 staff. A 40-person property manager or a regional logistics firm often gains more than a large corporation, because one clear weekly dashboard replaces hours of spreadsheet work and puts the owner and managers on the same numbers."
+    },
+    {
+      "q": "Can our own staff maintain the dashboards afterwards?",
+      "a": "Yes, that is the goal. We document the data model and KPI definitions, train the people who will own the reports, and keep the build simple enough to change without us. Some clients prefer that we keep maintaining it, and we offer that as ongoing support."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/business-intelligence",
+    "/locations/dallas/cloud-consulting",
+    "/locations/dallas/ai-automation",
+    "/locations/houston/business-intelligence",
+    "/locations/austin/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence dallas",
+    "secondary": [
+      "business intelligence consulting dallas",
+      "data analytics consulting dallas",
+      "power bi consultant dallas",
+      "dashboard development dallas"
+    ]
+  }
+}

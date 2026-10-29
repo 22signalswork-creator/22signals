@@ -1,0 +1,136 @@
+{
+  "path": "/locations/los-angeles/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in Los Angeles: Google, Meta, TikTok | 22 Signals",
+  "description": "Paid media for Los Angeles brands, clinics, law firms and B2B suppliers: Google, Meta, LinkedIn and TikTok ads with in-house creative and tracked leads.",
+  "eyebrow": "Paid Media in Los Angeles",
+  "h1": "Paid media for Los Angeles: Google, Meta, LinkedIn and TikTok ads judged on revenue",
+  "intro": "We plan and run paid media for established Los Angeles companies across Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. Our in-house team makes the ad creative, builds the landing pages, and connects call and conversion tracking to your CRM, so every dollar is judged on leads and sales rather than clicks.",
+  "sections": [
+    {
+      "h": "Why LA ad budgets disappear so fast",
+      "p": [
+        "Los Angeles ad auctions are crowded in exactly the categories that matter most here: injury law, cosmetic treatments, real estate and beauty products. Clicks cost more, competitors bid on your brand name, and the audience has seen every kind of ad before. A campaign that would work in a smaller city can burn through a month's budget in a week in LA.",
+        "The usual causes are fixable. Targeting covers the whole county when customers only travel a few miles. Creative is the same three images from launch. Tracking counts form views instead of booked appointments. We fix the plumbing first, then spend. That order sounds obvious, yet it is the step most often skipped in paid media. Los Angeles businesses that fix tracking before scaling often find part of their budget was going to clicks that could never have converted."
+      ]
+    },
+    {
+      "h": "What we run",
+      "list": [
+        "Google Search and Performance Max campaigns, including brand protection",
+        "YouTube ads for launches, trailers and explainers",
+        "Meta (Facebook and Instagram) campaigns for prospecting and retargeting",
+        "TikTok ads, including creator-style and Spark-style creative",
+        "LinkedIn campaigns for B2B buyers and recruiting",
+        "Creative made in-house: video, motion, static and 3D product visuals",
+        "Landing pages built for each campaign and tested",
+        "Conversion, call tracking and CRM connection so we see real revenue"
+      ]
+    },
+    {
+      "h": "Channel choices by LA industry",
+      "list": [
+        "Beauty, fashion and DTC brands: Meta and TikTok for discovery with fresh creative every few weeks, Performance Max for shopping, and careful measurement of new versus returning customers",
+        "Law firms: Google Search and call-focused campaigns with tracking that ties each call to a signed case in your intake system",
+        "Med spas, dental and aesthetics practices: Search and Meta within each platform's health advertising rules, aimed at the neighborhoods your patients come from",
+        "Real estate developers and brokerages: Meta and YouTube for new developments, Search for neighborhood and building names",
+        "Aerospace and engineering suppliers: LinkedIn and Search for procurement and engineering buyers, and for hiring",
+        "Entertainment and media: YouTube and social campaigns around release dates, where timing matters as much as targeting"
+      ]
+    },
+    {
+      "h": "Targeting a city that runs on drive time",
+      "p": [
+        "In LA, distance is measured in minutes on the freeway, not miles. A patient in the San Fernando Valley rarely drives to the South Bay for a facial. We set location targeting around realistic travel areas for each location, often by ZIP code groups, and split budgets so one busy area does not starve another.",
+        "Language matters too. For many LA businesses, Spanish-language campaigns reach customers that English-only ads miss. We write and test them separately rather than translating the English ad word for word."
+      ]
+    },
+    {
+      "h": "Tracking within California privacy rules",
+      "p": [
+        "Ad pixels and conversion tracking share personal data with ad platforms, which the CCPA and CPRA treat seriously. Visitors must be able to opt out of the sale or sharing of their data, and health-related sites need extra care with what they send to ad platforms. We set up consent, server-side tracking where it fits and data rules agreed with your counsel, so your reporting stays useful without exposing you."
+      ]
+    },
+    {
+      "h": "How we manage it: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: your margins, lead values, past results and what a good month looks like",
+        "Plan: channel mix, budget split, creative plan and tracking plan, with dates in writing",
+        "Build: tracking, landing pages, creative and campaigns, checked before launch",
+        "Grow: weekly optimization, new creative on a schedule and monthly reports tied to revenue"
+      ]
+    },
+    {
+      "h": "Running Los Angeles campaigns from London",
+      "p": [
+        "We manage campaigns remotely from London, with specialists across four regions. Being 8 hours ahead of LA for most of the year means budget pacing, bid checks and creative swaps can happen before your business opens, and we review results with you in your morning. Ad accounts stay in your name, with our access granted and removable by you. If a shoot or workshop needs us on site, we plan it when the project needs it."
+      ]
+    },
+    {
+      "h": "Proof from search and ads work",
+      "p": [
+        "For a beauty salon in Lahore we handled a full site rebuild, SEO and Google Ads together, so the ads pointed at pages built to convert rather than a generic homepage. That joined-up approach is how we run paid campaigns for every client."
+      ]
+    },
+    {
+      "h": "Cost factors, and why 22 Signals",
+      "p": [
+        "Our fees depend on the number of channels and campaigns, monthly ad spend, how much new creative you need, landing page work and tracking complexity. Your ad spend is paid to the platforms directly.",
+        "Most agencies either make ads or buy media. We do both, so the people making your creative sit on the same team as the people spending the budget, alongside the SEO, web and video specialists. That is the real difference in our paid media. Los Angeles clients see it when a weak ad is replaced within days instead of waiting on another studio. Related pages: SEO and GEO, video and animation, and web development for Los Angeles."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should a Los Angeles business spend on ads?",
+      "a": "Enough to get meaningful data in a few weeks, which depends on your category's click costs and how many leads you need. Injury law and cosmetic treatments need far more than a local café. We work out a starting budget from your lead value and expected conversion rates, then adjust from real results."
+    },
+    {
+      "q": "Do you make the ad creative yourselves?",
+      "a": "Yes. Our in-house team produces video, motion graphics, static ads and 3D product visuals, and we can edit footage you already have. That means creative can be refreshed every few weeks without briefing a separate studio, which matters in LA where audiences tire of ads quickly."
+    },
+    {
+      "q": "Can you run Spanish-language ads for LA customers?",
+      "a": "Yes. We build separate Spanish campaigns with their own keywords, copy and landing pages, and measure them separately, because search terms and buying behavior differ. We recommend native-speaker review for legal and medical ads."
+    },
+    {
+      "q": "How do you track leads from paid media for a law firm or clinic?",
+      "a": "We use call tracking numbers, form tracking and a connection to your CRM or intake system, so each lead can be traced from ad to booked consult or signed case. For health-related businesses we limit what data reaches ad platforms and agree the setup with your compliance lead or counsel."
+    },
+    {
+      "q": "Do you work with Los Angeles clients in person?",
+      "a": "We work remotely from London with review calls in your morning Pacific time, and campaigns are managed online. If a creative shoot or planning workshop in LA needs us there, we plan a visit for that stage of the project."
+    },
+    {
+      "q": "Which is better for an LA beauty brand: Meta or TikTok?",
+      "a": "Usually both, with different jobs. TikTok often finds new audiences through creator-style video; Meta is strong for retargeting and steady sales. We test both with a set budget and creative made for each platform, then move money to whichever brings customers at the best cost."
+    },
+    {
+      "q": "Can you take over our existing ad accounts?",
+      "a": "Yes. We start with an audit of your current accounts, tracking and landing pages, then keep what works and fix what does not, so performance is not reset to zero. Because the accounts stay in your name, the history and learning stay with you. It is the most common way clients start paid media. Los Angeles businesses switching from another agency get the audit findings before any major changes are made."
+    }
+  ],
+  "related": [
+    "/services/paid-media",
+    "/locations/los-angeles",
+    "/locations/los-angeles/seo-geo",
+    "/locations/los-angeles/video-animation",
+    "/locations/san-francisco/paid-media",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media los angeles",
+    "secondary": [
+      "ppc agency los angeles",
+      "google ads agency los angeles",
+      "meta ads agency los angeles",
+      "tiktok ads los angeles"
+    ]
+  }
+}

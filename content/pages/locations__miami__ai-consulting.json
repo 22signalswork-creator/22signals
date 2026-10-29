@@ -1,0 +1,136 @@
+{
+  "path": "/locations/miami/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Miami, FL | 22 Signals",
+  "description": "AI consulting for established Miami companies in real estate, trade, finance and healthcare: find where AI pays off, set the rules, then build it.",
+  "eyebrow": "AI Consulting in Miami",
+  "h1": "AI consulting for Miami companies that want results, not a demo",
+  "intro": "Our AI consulting helps established Miami companies decide where AI will save time or win revenue, then build the first tools safely. We work with property developers, trade and logistics firms, Brickell finance teams and private clinics, ranking ideas by value and effort, setting data rules under Florida law, and delivering working pilots.",
+  "sections": [
+    {
+      "h": "The problem: everyone is selling AI, few are asking what you need",
+      "p": [
+        "A lot of the AI consulting Miami businesses are offered is really a tool sale. Plenty of owners have already sat through a few AI pitches by now: one wanted to sell a chatbot, one wanted a six-figure platform, and one showed a demo that had nothing to do with how the business actually runs. Meanwhile the real work still happens in inboxes, spreadsheets and WhatsApp threads with clients in Bogotá and São Paulo.",
+        "Good AI consulting, Miami or anywhere else, starts with the work rather than the tool. We look at where your people lose hours each week, where decisions wait on information someone has to dig out, and where customers drop off because nobody replied in time. Then we tell you plainly which of those AI can fix now, which need better data first, and which are not worth doing."
+      ]
+    },
+    {
+      "h": "What our AI consulting includes",
+      "list": [
+        "An AI readiness review: your systems, your data, who owns what, and where the gaps are",
+        "Use-case discovery, with every idea ranked by value to the business and effort to build",
+        "An AI roadmap with dates in writing, split into quick wins and longer projects",
+        "Tool and vendor selection, including an honest build-versus-buy call for each use case",
+        "An AI policy covering data privacy, approved tools and what staff may paste into a chatbot",
+        "Pilot builds that run on your real data, so you judge results, not slides",
+        "Team training for the people who will use the tools every day, in English or with Spanish-speaking staff in mind"
+      ]
+    },
+    {
+      "h": "Where AI pays off in Miami's main industries",
+      "p": [
+        "The use cases that make sense here are shaped by what the Miami economy actually does. These are the ones we would look at first."
+      ],
+      "list": [
+        "Real estate and development: drafting listing copy in English and Spanish, summarizing buyer conversations, answering pre-construction questions from overseas buyers at 2am, and pulling comparable sales into one view",
+        "International trade and logistics: reading bills of lading, commercial invoices and customs paperwork, then flagging mismatches before a shipment leaves Doral or the port",
+        "Finance, crypto and fintech in Brickell: research summaries, client onboarding checks, document review and internal knowledge search, all under tight access rules",
+        "Healthcare and aesthetics: intake forms, consult follow-ups and appointment questions from patients flying in from Latin America, with a person always reviewing anything clinical",
+        "Hospitality and tourism: guest messaging, review replies and group booking inquiries during Art Basel week and peak season",
+        "Fashion and beauty brands: product descriptions, customer service replies and trend research across English and Spanish social channels"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call to understand the business and the problem you think AI should solve. We will tell you on that call if we think it is the wrong problem.",
+        "Plan: we interview the people doing the work, map the process and write the ranked use-case list and roadmap. Every date agreed goes in writing.",
+        "Build: we build one or two pilots on your data, measure the time saved or revenue added, and fix what does not work.",
+        "Grow: we roll the tools that earned their place out to more of the team, train people, and review the roadmap each quarter."
+      ]
+    },
+    {
+      "h": "Florida data law and your AI plans",
+      "p": [
+        "AI tools are only as safe as the data you feed them. The Florida Digital Bill of Rights took effect in July 2024. Its heaviest duties fall on very large companies, those with more than $1 billion in global revenue that meet further tests, but its rules on selling sensitive data reach further. The Florida Information Protection Act also requires most businesses to notify affected people within 30 days of a data breach.",
+        "In practice that means we decide early what customer, patient or investor data may go into an AI system, where it is stored, which vendors see it and how long it is kept. For Brickell finance firms and Coral Gables clinics, those answers often decide whether an idea goes ahead. We are not your lawyers, so we write the policy for your counsel to review."
+      ]
+    },
+    {
+      "h": "Proof we can point to",
+      "p": [
+        "We have delivered more than 30 AI builds: custom AI tools, systems and automations for businesses that used to run the old way. That work is why our roadmaps are realistic. We know how long a document-reading tool takes to get right, and what usually breaks when staff start using it."
+      ]
+    },
+    {
+      "h": "Working with us from Miami",
+      "p": [
+        "We work with Miami companies remotely from our head office in London. Miami runs on Eastern Time, five hours behind London, so your morning overlaps our afternoon. Workshops and reviews happen between 8am and 1pm Miami time, and progress made in London is waiting for you when you start the next day.",
+        "Your Signal Lead is the one person accountable for the engagement. Behind them sit specialists in AI, cloud and data, and marketing. If the project needs someone in the room in Downtown or Coral Gables, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "The price of AI consulting, Miami or elsewhere, depends on scope, which is why we do not publish prices. A readiness review for one team is a different job from a company-wide roadmap with three pilots."
+      ],
+      "list": [
+        "How many teams and processes are in scope",
+        "The state of your data and whether it needs cleaning first",
+        "How many pilots we build, and how complex the integrations are",
+        "Whether you need an AI policy and staff training",
+        "How much regulated data, such as patient or financial records, is involved"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for AI consulting in Miami",
+      "p": [
+        "Most AI consultancies stop at the strategy deck. Ours does not. We can also build the tool, put it on reliable cloud infrastructure, and then market what it makes possible, with video and 3D when the story needs showing. One team, one accountable lead, no handovers between three vendors.",
+        "Related work we often pair with AI consulting in Miami includes AI automation for repetitive back-office tasks, business intelligence dashboards, and cloud consulting for the systems underneath."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with Miami companies in person?",
+      "a": "We work remotely from London, and most engagements run well that way. Workshops happen on video between 8am and 1pm Miami time, when both teams are online. If a project needs people in the room, for example a kick-off with your leadership team in Brickell, we plan a visit when the project needs it and agree the dates in writing."
+    },
+    {
+      "q": "How does the Florida Digital Bill of Rights affect our AI use?",
+      "a": "For most mid-sized Miami companies, the law's full duties do not apply, because they target businesses with over $1 billion in global revenue. Its sensitive data rules and Florida's 30-day breach notice still matter. We decide with you what data AI tools may touch and which vendors see it, then write a policy your lawyer can review."
+    },
+    {
+      "q": "Can AI handle our Spanish-speaking customers?",
+      "a": "Yes, current language models handle Spanish well, including the mix of English and Spanish many Miami customers use. We test replies with real customer messages before launch, set rules for when a person takes over, and avoid anything that would sound robotic to a buyer in Mexico City or Medellín."
+    },
+    {
+      "q": "What is a realistic first AI project for a logistics company in Doral?",
+      "a": "Document checking is usually the best start. A tool that reads commercial invoices, packing lists and bills of lading, then flags mismatches before paperwork goes to the broker, saves hours each week and has a clear before and after. It also builds trust in AI before you try anything customer-facing."
+    },
+    {
+      "q": "Will you tell us if AI is not worth it?",
+      "a": "Yes. Part of the job is ruling ideas out. If a process is too messy, the data is too thin, or a simple automation would do the same job, we say so in the use-case ranking. You get a shorter list of projects that are likely to pay back, rather than a long one designed to keep us busy."
+    },
+    {
+      "q": "How long does an AI consulting engagement take?",
+      "a": "In a typical AI consulting Miami engagement, the readiness review and ranked roadmap take a few weeks, depending on how many teams we interview. Pilots add time on top, based on the integrations involved. We agree the timeline on the planning call and put every date in writing, so you always know what is due and when."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/ai-consulting",
+    "/locations/miami/ai-automation",
+    "/locations/miami/business-intelligence",
+    "/locations/new-york/ai-consulting",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "ai consulting miami",
+    "secondary": ["ai consultant miami", "miami ai company", "ai strategy consulting miami", "ai consulting florida"]
+  }
+}

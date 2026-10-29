@@ -1,0 +1,132 @@
+{
+  "path": "/locations/birmingham",
+  "kind": "location-hub",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "title": "Digital Agency Birmingham: AI, Web, Cloud | 22 Signals",
+  "description": "AI, cloud, data, web, search, ads and video for established Birmingham companies, run by one accountable lead from London. Same time zone, 80 minutes away.",
+  "eyebrow": "22 Signals in Birmingham",
+  "h1": "A digital agency for Birmingham companies: AI, cloud, web and growth",
+  "intro": "22 Signals is a London business solutions company that Birmingham firms hire for AI, cloud, data, web and app builds, search, paid media and video. You get one accountable lead and specialist teams behind them, in your time zone and about 80 minutes away by train, so you deal with one team instead of ten.",
+  "sections": [
+    {
+      "h": "Who we work with in Birmingham",
+      "p": [
+        "Most of the Birmingham businesses that talk to us are established: 5 to 500 staff, a product or service that already sells, and systems that have grown in layers. A family-owned components supplier in the Black Country running orders through spreadsheets and email. A Colmore Row law or accountancy practice whose website was last rebuilt before AI answers existed. A clinic group in Edgbaston that wants bookings, not just traffic. A Jewellery Quarter maker selling online and in person.",
+        "Founders and startups come to us too, often from the city's university spin-outs and creative studios in Digbeth. The common thread is a business that wants to run on better systems and grow from them, without hiring a full in-house team for each piece."
+      ]
+    },
+    {
+      "h": "How we work with Birmingham companies from London",
+      "p": [
+        "We are a London-based digital agency Birmingham companies work with remotely: there is no Birmingham office, and we will not pretend otherwise. Birmingham is on the same clock (GMT in winter, BST in summer), so your working day is our working day, and a train from Euston to New Street takes about 80 minutes.",
+        "Day to day, the work runs over video calls, shared documents and a weekly written update. When a project needs us in the room, for a discovery workshop on a factory floor, a shoot, or a launch meeting with your board, we come to Birmingham. We agree those visits when the project needs them rather than promising a fixed schedule."
+      ]
+    },
+    {
+      "h": "What Birmingham businesses hire us for",
+      "p": [
+        "Each service has its own Birmingham page with the detail. In short:"
+      ],
+      "list": [
+        "AI consultancy: find where AI pays off in your business, plan it safely under UK GDPR, then build the first pilot.",
+        "AI automation: custom tools and workflows that take the copy-and-paste out of quoting, orders, reporting and admin.",
+        "Business intelligence and data analytics: one set of numbers from your ERP, CRM and finance systems, in Power BI or Looker Studio.",
+        "Cloud consulting: AWS, Azure and Google Cloud set up securely, monitored and reviewed for cost.",
+        "Web development: websites, migrations that keep rankings, e-commerce and client portals.",
+        "App development: iOS, Android and web apps, from first version to app store launch.",
+        "SEO and GEO: rank in Google and show up in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid media: Google, Meta, LinkedIn and TikTok ads tied to real leads and calls.",
+        "Video, animation and AI video: reels, brand films, explainers and 2D or 3D animation.",
+        "3D rendering: product renders, packaging and campaign visuals without a studio shoot."
+      ]
+    },
+    {
+      "h": "Industries across Birmingham and the West Midlands",
+      "p": [
+        "Birmingham's economy is broad, and each sector needs something different from a technology and marketing partner."
+      ],
+      "list": [
+        "Advanced manufacturing and automotive supply chains: suppliers to the car plants at Solihull and Castle Bromwich need better quoting, traceability and data from the shop floor.",
+        "Professional and financial services in the Colmore Business District: law firms, accountants, insurers and banks need search visibility, client portals and careful data handling.",
+        "Logistics and distribution: warehouses along the M6, M42 and M5 corridors need tracking, reporting and automation.",
+        "Retail, from the Bullring and Grand Central to independent shops, needs e-commerce, local search and paid social.",
+        "Healthcare and life sciences, from private clinics in the Edgbaston Medical Quarter to companies at the Birmingham Health Innovation Campus in Selly Oak.",
+        "The Jewellery Quarter's small businesses: makers, designers and retailers who need product photography, renders and online sales."
+      ]
+    },
+    {
+      "h": "UK GDPR and the ICO: how we handle your data",
+      "p": [
+        "Every Birmingham project runs under UK GDPR and the Data Protection Act 2018, with the Information Commissioner's Office as the regulator. In practice that means we map what personal data a system touches before we build it, keep access to the minimum people who need it, sign a data processing agreement where we act as your processor, and keep data in UK or EU cloud regions when that matters to you or your clients.",
+        "For marketing work we also follow PECR, the rules on cookies and electronic marketing, so tracking and email consent are set up properly from the start."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to check fit, then a longer conversation with the people who own the problem.",
+        "Plan: a written scope with what we will deliver, who does it and every date in writing.",
+        "Build: specialist teams do the work while your Signal Lead keeps one view of progress and risk.",
+        "Grow: once it is live, we measure, report and improve, monthly or as agreed."
+      ]
+    },
+    {
+      "h": "What we have done",
+      "p": [
+        "We have worked with more than 30 companies across four regions. Examples we can describe without naming clients include a client portal with documents and payments for a US law firm, monthly SEO for US personal injury firms with every statute checked, and the business and marketing plan to take a US neurotech device to market. None are in Birmingham. They show how we work with regulated, high-trust businesses, which describes much of Birmingham's economy."
+      ]
+    },
+    {
+      "h": "What it costs",
+      "p": [
+        "We do not publish prices, because cost depends on scope. The factors that move it are the number of services involved, how many systems need connecting, how much content or footage is needed, whether you need ongoing support, how fast you need it, and how much time on site in Birmingham the project needs. Whichever digital agency Birmingham companies choose, they should see a written scope before a price. With us, you get both before anything starts."
+      ]
+    },
+    {
+      "h": "Why Birmingham companies choose 22 Signals",
+      "p": [
+        "Most firms that turn up for a digital agency Birmingham search do one thing well: a web studio, an SEO shop, a cloud consultancy, a video house. We cover AI, cloud and data, marketing, and video, animation and 3D in one team, under one Signal Lead who answers for the whole result. That matters when a manufacturer's new website, product renders, ad campaigns and quoting tool all need to work together, and nobody wants to manage four suppliers to get there."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Birmingham?",
+      "a": "No. Our head office is in London and we work with Birmingham companies from there. We share your time zone, so calls happen in normal working hours, and Birmingham is about 80 minutes from Euston by train. When a project needs us on site for workshops, shoots or launches, we come to you, agreed project by project."
+    },
+    {
+      "q": "Is 22 Signals a digital agency Birmingham clients can meet in person?",
+      "a": "Yes, when the project needs it. Discovery workshops, filming days and board presentations often work better in the room, so we plan those visits into the scope. Routine work runs over video calls and shared documents with a weekly written update, which keeps costs down and progress visible."
+    },
+    {
+      "q": "What kind of Birmingham businesses do you work with?",
+      "a": "Mainly established companies with 5 to 500 staff: manufacturers and automotive suppliers, Colmore Business District law and finance firms, logistics operators, retailers, clinics and life sciences companies, and Jewellery Quarter businesses. We also work with founders and startups once they have a clear product and a reason to grow."
+    },
+    {
+      "q": "Can one team really handle AI, web, ads and video?",
+      "a": "Yes, because each part is done by a specialist team and one Signal Lead runs all of them. You get one plan, one point of contact and one set of dates, rather than briefing four agencies separately and trying to make their work fit together afterwards."
+    },
+    {
+      "q": "How do you handle UK GDPR for Birmingham clients?",
+      "a": "We treat it as part of the design, not a final check. We map personal data before building, limit access, sign a data processing agreement where we are your processor, and choose UK or EU hosting when needed. For marketing we follow PECR on cookies and consent. The ICO is the regulator we design for."
+    },
+    {
+      "q": "How quickly can a Birmingham project start?",
+      "a": "It depends on the service and our current schedule, and we put the start date in the written scope. The first step is a 15-minute call to check fit. If it makes sense, we write a scope with dates and start once you sign it off."
+    }
+  ],
+  "related": [
+    "/united-kingdom",
+    "/locations/birmingham/ai-consulting",
+    "/locations/birmingham/web-development",
+    "/locations/birmingham/seo-geo",
+    "/locations/london",
+    "/locations/manchester"
+  ],
+  "keywords": {
+    "primary": "digital agency birmingham",
+    "secondary": ["birmingham ai agency", "birmingham web and marketing agency", "ai consultancy birmingham", "web development company birmingham"]
+  }
+}

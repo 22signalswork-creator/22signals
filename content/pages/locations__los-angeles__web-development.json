@@ -1,0 +1,138 @@
+{
+  "path": "/locations/los-angeles/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Los Angeles, CA | 22 Signals",
+  "description": "Web development for Los Angeles brands, clinics, law firms and property groups: fast sites, rankings kept through redesigns, accessibility and CCPA built in.",
+  "eyebrow": "Web Development in Los Angeles",
+  "h1": "Web development for Los Angeles brands whose website has to sell, book and impress",
+  "intro": "We design and build websites, ecommerce stores and client portals for established Los Angeles companies. Every build is fast, easy for your team to edit, accessible, ready for California privacy rules and planned so you keep your Google rankings through a redesign or platform move. One Signal Lead owns the timeline.",
+  "sections": [
+    {
+      "h": "A website in LA does three jobs at once",
+      "p": [
+        "For a Los Angeles brand the website is rarely just a brochure. A beauty label's site is its main shop. A production company's site is its reel and press kit. A med spa's site is its front desk, taking bookings at midnight. When the site is slow, hard to update or broken on phones, every one of those jobs suffers at the same time.",
+        "Most people can spot bad web development. Los Angeles marketing teams also know what good looks like: pages that load quickly on a phone in traffic on the 405, a CMS they can update without filing a ticket, and analytics that show which pages turn visitors into customers. They also expect the site to look as good as the brand's Instagram, which in this city is a high bar."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "New websites and full redesigns",
+        "Platform migrations that keep your rankings and redirects intact",
+        "Content management on WordPress, Webflow, Shopify or a headless CMS",
+        "Ecommerce stores, product drops and subscription checkouts",
+        "Client portals with logins, documents and payments",
+        "Multi-language sites, including English and Spanish versions",
+        "Website care: updates, backups, uptime monitoring and security"
+      ]
+    },
+    {
+      "h": "Built for the way LA industries sell",
+      "list": [
+        "Fashion and beauty: Shopify builds with lookbooks, shade finders and pages that hold up when a drop sends traffic spiking",
+        "Entertainment and media: title and talent pages, trailer embeds, press areas behind a login and pages that survive release-day traffic",
+        "Clinics, dental and aesthetics practices: online booking, treatment pages that follow advertising rules, and patient forms kept out of general analytics",
+        "Real estate: listing pages fed from your MLS or property software, area guides and lead forms that route to the right agent",
+        "Law firms in Downtown LA and Century City: practice area pages, intake forms, client portals and strong security"
+      ]
+    },
+    {
+      "h": "Accessibility and privacy are California issues",
+      "p": [
+        "California is one of the busiest states for website accessibility claims, many brought under the Unruh Civil Rights Act alongside the ADA. We build to WCAG 2.1 AA as standard: keyboard navigation, readable contrast, proper labels, captions where video carries information, and tests with screen readers before launch.",
+        "Privacy is the other half. Under the CCPA and CPRA, many sites need a clear way for visitors to opt out of the sale or sharing of their data, and should respect browser opt-out signals such as Global Privacy Control. We set up consent tools and tracking so marketing still gets the data it needs while the site respects those choices. Your counsel approves the wording."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: goals, audiences, what works on the current site and what does not",
+        "Plan: sitemap, content plan, design direction, a redirect map for any URL changes and a dated timeline in writing",
+        "Build: design, development and content entry, reviewed in stages on a staging site",
+        "Grow: launch, ranking and speed checks, then care, SEO and conversion improvements"
+      ]
+    },
+    {
+      "h": "Building your site from London on LA hours",
+      "p": [
+        "We work with Los Angeles companies remotely. Our head office is in London, 8 hours ahead of Pacific time for most of the year, and our designers and developers work across four regions. Design reviews and sign-offs happen on calls in your morning. Changes from those calls are often waiting on the staging site when you start the next day.",
+        "Launches are scheduled for the quietest hours of your traffic, usually late at night in LA, and we watch the site closely through the first days. If an on-site session would help, such as a content workshop with your team, we plan it when the project needs it."
+      ]
+    },
+    {
+      "h": "A recent example",
+      "p": [
+        "For a US law firm we built a client portal where clients log in to see and upload documents and make payments, so staff spend less time chasing paperwork by email. It shows the kind of functional build we like: one that removes work for the business, not just a nicer homepage."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "list": [
+        "The number of page templates and the amount of content to write or move",
+        "Ecommerce, booking, portal or other custom functionality",
+        "Integrations with your CRM, MLS feed, booking or payment systems",
+        "Languages and accessibility testing depth",
+        "Whether ongoing care and SEO are included after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for web development in Los Angeles",
+      "p": [
+        "Your site sits in the middle of everything else you do online, and we handle that everything else too: SEO, paid media, video, 3D product imagery and the automations behind your forms. That changes what you get from web development. Los Angeles clients end up with a site where the ads, content and tracking were planned together instead of patched on later. Related work includes app development, SEO and GEO, and cloud hosting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will we lose our Google rankings if we redesign?",
+      "a": "Not if the move is planned. We crawl the current site, keep or redirect every URL that earns traffic, carry over titles, content and structured data, and check rankings and errors daily after launch. Most ranking losses after a redesign come from missing redirects, which is the first thing we map."
+    },
+    {
+      "q": "Do you build Shopify sites for Los Angeles fashion and beauty brands?",
+      "a": "Yes. Shopify is often the right choice for LA DTC brands because of its checkout, apps and inventory tools. We build custom themes, product and collection templates, subscriptions and integrations with your email, reviews and fulfillment tools, and we plan pages to handle traffic spikes when a drop goes live."
+    },
+    {
+      "q": "How do you handle ADA and Unruh Act accessibility risk?",
+      "a": "We design and build to WCAG 2.1 AA, test with automated tools and screen readers, and fix issues before launch. We also train your team to keep new content accessible. No agency can promise a site will never be the subject of a claim, but building properly reduces the risk a great deal."
+    },
+    {
+      "q": "Can you add a Spanish version of our site?",
+      "a": "Yes. Many Los Angeles businesses serve customers in Spanish as well as English. We build multi-language sites with proper language tags so search engines show the right version, and we recommend human review of translations, especially for legal, medical and pricing pages."
+    },
+    {
+      "q": "Do you meet Los Angeles clients in person?",
+      "a": "We work remotely from London with calls in your morning Pacific time, and full builds run well that way. When a workshop or launch would benefit from being in the same room, we plan a visit for that stage of the project."
+    },
+    {
+      "q": "What happens after the website launches?",
+      "a": "We monitor speed, errors, rankings and conversions closely in the first weeks. After that, most clients keep us on for website care, which covers updates, backups, security monitoring and small changes, and many add SEO or paid media so the new site keeps earning traffic."
+    },
+    {
+      "q": "Which platform should we use: WordPress, Webflow or Shopify?",
+      "a": "Shopify suits most brands that sell products online. WordPress fits content-heavy sites, clinics and law firms that need many pages and plugins. Webflow suits design-led marketing sites edited by a small team. We recommend in writing, with the trade-offs. It is one of the most important early calls in web development. Los Angeles teams that choose for their editors, not their developers, keep their sites current for longer."
+    }
+  ],
+  "related": [
+    "/services/web-app-development",
+    "/locations/los-angeles",
+    "/locations/los-angeles/seo-geo",
+    "/locations/los-angeles/app-development",
+    "/locations/san-francisco/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "web development los angeles",
+    "secondary": [
+      "web design los angeles",
+      "website developer los angeles",
+      "shopify developer los angeles",
+      "web development company los angeles"
+    ]
+  }
+}

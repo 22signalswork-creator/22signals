@@ -1,0 +1,153 @@
+{
+  "path": "/locations/london/ai-automation",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Agency London: Custom AI Tools | 22 Signals",
+  "description": "AI automation agency London teams can meet: custom AI tools and workflow automation across email, CRM and finance, built under UK GDPR.",
+  "eyebrow": "AI Automation in London",
+  "h1": "An AI automation agency London operations teams can rely on",
+  "intro": "22 Signals is an AI automation agency. London is our head office. We build custom AI tools and automations that take repeated work off your team: enquiry handling, document checks, reporting, follow-ups and data entry between systems. Each build has a person in the loop where it matters, runs under UK GDPR, and is measured against the hours it saves.",
+  "sections": [
+    {
+      "h": "The work nobody hired your team to do",
+      "p": [
+        "Walk round almost any London office and you will find skilled people doing clerical work. A paralegal retypes client details from an email into the case system. A lettings negotiator copies viewing requests from three portals into the CRM. A finance assistant downloads statements, renames them and chases missing receipts. A clinic receptionist answers the same ten questions every evening.",
+        "None of that needs a new hire. It needs the systems to talk to each other and a bit of AI where the input is messy, such as an email, a PDF or a voice note. That is what an AI automation agency is for, and it is most of what we do."
+      ]
+    },
+    {
+      "h": "Signs your London business is ready to automate",
+      "p": [
+        "Not every process is worth automating. These are the signals we look for in the first conversation with London teams:"
+      ],
+      "list": [
+        "The same task happens dozens of times a week and follows roughly the same steps",
+        "Staff copy information from one screen to another, often between an inbox and a CRM",
+        "Customers wait for replies outside office hours, or at lunch when the front desk is empty",
+        "Monthly reports take days because the numbers live in five places",
+        "Errors are caught late, by a partner, a client or an auditor, rather than at the point of entry",
+        "You have been asked to hire for a role that is mostly admin"
+      ]
+    },
+    {
+      "h": "What we build for London businesses",
+      "list": [
+        "AI assistants that answer enquiries, qualify leads and book appointments, then hand over to a person with the full conversation",
+        "Inbox and document automation: reading emails, forms and PDFs, pulling out the fields and filing them in the right system",
+        "Workflow automation across Microsoft 365, Google Workspace, HubSpot, Salesforce, Xero and the spreadsheets you still rely on",
+        "Internal tools and dashboards for operations, finance and sales, so the numbers update themselves",
+        "Research and reporting systems that run on a schedule and send a summary each Monday",
+        "Quality checks that flag errors before a person signs off, rather than after a client complains"
+      ]
+    },
+    {
+      "h": "Five automations worth building first in London firms",
+      "list": [
+        "Law firms: new matter intake that captures the enquiry, runs conflict-check prompts for a fee earner and opens the file, with no legal advice given by the AI",
+        "Estate and lettings agents: one inbox for portal enquiries, instant replies with viewing slots, and notes written straight into the property CRM",
+        "Clinics and aesthetics practices: out-of-hours replies, booking and reminders, with anything clinical routed to a practitioner",
+        "Retail and fashion brands: order and returns questions answered from live data, and stock alerts sent to buyers before a line sells out",
+        "Financial and professional services firms in the City: client onboarding packs checked for missing documents, and meeting notes turned into actions in the CRM"
+      ]
+    },
+    {
+      "h": "People stay in charge: hand-off, consent and UK GDPR",
+      "p": [
+        "Automation goes wrong when nobody can see what it did. Every system we build keeps a log, shows a person the cases it is unsure about, and has a clear way to switch it off. Customers who want a human get one.",
+        "Under UK GDPR and the Data Protection Act 2018, personal data in an automation still needs a lawful basis, a retention period and suppliers who process it properly. We check where each AI model processes data, prefer UK or EU hosting when you need it, and avoid tools that train on your inputs. Marketing messages sent automatically also need to respect PECR, the UK rules on email and text marketing, so consent records are part of the build. The ICO publishes clear guidance on AI and data protection, and we design with it in mind."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call about the task your team repeats most and likes least. Plan: we sit with the people who do it, map each step, and agree the measure, usually hours per week or turnaround time. Build: a working version on real data, tested with your team before it touches customers. Grow: we watch it for a few weeks, fix the edge cases, then pick the next process.",
+        "Every phase has a date in writing, and one Signal Lead answers for all of them."
+      ]
+    },
+    {
+      "h": "Proof: we built our own first",
+      "p": [
+        "Before selling outbound automation to anyone, we built a complete outbound sales engine for 22 Signals itself: prospect research, sending domains, sequences, replies routed to a person, and reporting into the CRM. It runs our own pipeline today. The same habits go into client work, because we have already lived with the parts that fail."
+      ]
+    },
+    {
+      "h": "Working with an AI automation agency London-based, in person or remote",
+      "p": [
+        "Our head office is in London, so the mapping sessions can happen at your desk, which is where most of the useful detail turns up. You see how the work is actually done, not how the process document says it is done.",
+        "After that, most builds run remotely with a weekly check-in. If your company also has staff in New York or Dubai, we plan reviews in the hours that overlap: Gulf colleagues are three or four hours ahead of London, New York five behind. Our specialist teams across four regions keep testing and fixing while London sleeps, so feedback you give on Tuesday afternoon is usually handled by Wednesday morning."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "p": [
+        "Cost depends on scope, so we quote after mapping the process. What moves it:"
+      ],
+      "list": [
+        "How many systems need connecting, and whether they have usable APIs",
+        "How messy the inputs are: clean web forms are simpler than scanned PDFs",
+        "How much human review the process needs for regulatory or client reasons",
+        "Whether you want us to run and monitor it afterwards",
+        "Usage costs for AI models and automation platforms, billed to you at cost"
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals over a single-skill automation shop",
+      "p": [
+        "Looking for an AI automation agency? London has plenty of single-skill shops, and automation rarely stops at the automation. The new intake flow needs a better web form, the reporting needs a proper data model, and the assistant needs a voice that matches your brand. We are one team across AI, cloud, data, marketing and video, so you do not end up managing four suppliers. If it would help, book a 15-minute call and bring the task you would most like to stop doing.",
+        "Related London pages: AI consultancy if you are not sure where to start, business intelligence for reporting, and web development when the front end needs work too."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI automation agency do?",
+      "a": "An AI automation agency builds systems that do repeated work for your team: reading emails and documents, moving data between tools, answering routine questions and producing reports. At 22 Signals each build has a log, a human hand-off and a measure agreed in advance, so you can see exactly what it saves."
+    },
+    {
+      "q": "Can you visit our London office to map the process?",
+      "a": "Yes. Our head office is in London, and we prefer to map a process at the desk of the person who does it. That session usually finds the steps nobody wrote down. After the mapping, most of the build runs remotely with a weekly check-in and a demo before anything goes live."
+    },
+    {
+      "q": "Will the AI see our client data?",
+      "a": "Only the data the task needs. We pick models and hosting that do not train on your inputs, keep processing in the UK or EU where you require it, and record every supplier in your data processing records. Sensitive fields can be masked before any AI model sees them."
+    },
+    {
+      "q": "Which tools can you automate?",
+      "a": "Most tools with an API or email access: Microsoft 365, Google Workspace, HubSpot, Salesforce, Xero, Shopify, practice and case management systems, property CRMs, booking platforms and plain spreadsheets. If a system has no API, we look at exports, inbox rules or a supported connector before suggesting anything heavier."
+    },
+    {
+      "q": "Is it better to use Zapier or a custom build?",
+      "a": "For simple, low-volume steps, platforms like Zapier or Make are often the right call, and we use them. Custom code makes sense when the logic is complex, volumes are high, or data must stay inside your own cloud. We explain the trade-off for your case, including what each option costs to run."
+    },
+    {
+      "q": "What happens if the automation makes a mistake?",
+      "a": "It is designed to fail safely. Uncertain cases go to a person, every action is logged, and anything customer-facing can be paused with one switch. During the first weeks we review the logs with you and fix edge cases quickly, so mistakes are caught in testing rather than by clients."
+    },
+    {
+      "q": "Do you work with smaller London firms?",
+      "a": "Yes. Our clients range from 5 to 500 staff. A ten-person estate agency or law firm often gets the clearest return, because one repeated task can take up a large share of one person's week. The deciding factor is whether the task is frequent and predictable enough to automate."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/ai-automation",
+    "/locations/london/ai-consulting",
+    "/locations/london/business-intelligence",
+    "/locations/manchester/ai-automation",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai automation agency london",
+    "secondary": [
+      "ai automation agency",
+      "ai automation london",
+      "workflow automation london",
+      "business automation london",
+      "ai agency london"
+    ]
+  }
+}

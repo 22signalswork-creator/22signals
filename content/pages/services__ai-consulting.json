@@ -1,0 +1,148 @@
+{
+  "path": "/services/ai-consulting",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting: Strategy to Working Systems | 22 Signals",
+  "description": "AI consulting for established companies: find where AI pays off, set the rules for using it safely, then build a working pilot your team uses.",
+  "eyebrow": "AI Consulting",
+  "h1": "AI consulting that ends in working systems",
+  "intro": "22 Signals offers AI consulting for established companies that know AI matters but have not turned it into results. We review how the business runs, find the processes worth automating or augmenting, rank them by value and effort, choose the tools, set the rules for safe use, and ship a working pilot your team actually uses.",
+  "sections": [
+    {
+      "h": "Why AI projects stall after the demo",
+      "p": [
+        "Most companies have already tried something. A few people use ChatGPT or Copilot on their own, a vendor ran an impressive demo, and someone built a prototype over a weekend. Six months later nothing has changed in how the business runs.",
+        "The reasons are usually the same. Nobody picked the use case by value, so the first project was the most exciting one rather than the most useful. The data it needed was spread across inboxes and spreadsheets. Legal or compliance raised questions late. And the person who built the prototype went back to their day job, so it was never made reliable enough to depend on.",
+        "Good AI consulting fixes the order of work: decide what is worth doing, check the business is ready for it, agree the rules, then build something small that proves the value."
+      ]
+    },
+    {
+      "h": "What our AI consulting covers",
+      "list": [
+        "AI readiness review: your data, systems, people, budget and risk, scored honestly",
+        "Use-case discovery across sales, operations, finance, service and marketing, ranked by value and effort",
+        "An AI roadmap with owners, budgets and dates for the first three to five projects",
+        "Tool and vendor selection, including a clear build or buy recommendation for each use case",
+        "AI policy, governance and data privacy rules your team can follow without a lawyer in the room",
+        "Pilot builds that prove the value on real work before you commit to a wider rollout",
+        "Team training, so the people doing the work know how to use what was built and when not to"
+      ]
+    },
+    {
+      "h": "The readiness review and how we rank use cases",
+      "p": [
+        "The readiness review looks at four things. Data: where it lives, who owns it and whether it is clean enough for the first use cases. Systems: what your CRM, finance, document and communication tools can connect to. People: who will use AI daily and who will own it. Risk: client confidentiality, regulated data and contractual limits.",
+        "We then list every candidate use case and score it. Value covers hours saved each month, revenue at stake, cost of errors today and how often the task runs. Effort covers data availability, integration work, change for the team and risk. The result is a ranked list you can defend to a board, with quick wins at the top and bigger bets scheduled behind them."
+      ]
+    },
+    {
+      "h": "Governance, policy and data privacy",
+      "p": [
+        "An AI policy does not need to be long. It needs to say which tools are approved, which data can go into them, which outputs need a human review before they reach a client, and who to ask when something is unclear. We write it with your team and check vendor terms, including whether a provider can train on your data and where it is stored.",
+        "We align the rules with the frameworks your buyers and regulators already reference: the NIST AI Risk Management Framework in the US, the EU AI Act if you sell into Europe, ISO/IEC 42001 for companies that want a formal AI management system, and the privacy law you already follow, such as HIPAA for US healthcare data or GDPR and UK GDPR for personal data."
+      ]
+    },
+    {
+      "h": "Build or buy: choosing tools and vendors",
+      "p": [
+        "Many use cases are already solved by tools you pay for. Microsoft 365 Copilot, Gemini in Google Workspace, ChatGPT Enterprise and Claude Team each fit different companies, and many industry tools now ship AI features. Buying is often the right first move.",
+        "Custom work makes sense when the process is specific to you, when the data cannot leave your systems, or when several tools need to work as one. In those cases we build on the major model providers through their APIs and keep the design portable, so you are not locked to one vendor if prices or quality change."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short fit call, then interviews with the people who run the processes in question",
+        "Plan: the readiness review, ranked use cases, roadmap and policy, with every date agreed in writing",
+        "Build: one or two pilots on real work, measured against the baseline we recorded at the start",
+        "Grow: roll out what worked, retire what didn't, train the wider team and move to the next use case on the roadmap"
+      ]
+    },
+    {
+      "h": "Industries we bring AI into",
+      "list": [
+        "Healthcare and wellness: patient intake, appointment follow-up and admin notes, designed around health privacy rules",
+        "Law firms and professional services: intake triage, document drafting and review, and client updates, with a lawyer always signing off",
+        "Fashion, beauty and retail: product descriptions, customer service replies and demand reporting",
+        "Technology, SaaS and AI companies: AI features inside the product, plus internal support and sales tools",
+        "Real estate: lead response, listing content and document handling",
+        "Gaming, esports and entertainment: content operations and live production tools"
+      ]
+    },
+    {
+      "h": "Proof, and why the advisers also build",
+      "p": [
+        "We have delivered more than 30 AI builds, including custom tools, internal systems and automations, for businesses that used to run the old way. That is why our AI consulting ends in a working pilot. The team that writes the roadmap is the team that builds it, so recommendations are grounded in what can actually ship.",
+        "One Signal Lead runs your engagement, with specialists behind them in AI, cloud and data, plus marketing and video if a project needs them. When the roadmap points beyond advice, the same team continues into AI automation, custom AI development, business intelligence or business optimization work."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. The cost of AI consulting depends on scope, and we confirm the scope in writing after the first conversation."
+      ],
+      "list": [
+        "How many departments and processes the review covers",
+        "Whether you need a policy and governance framework written from scratch",
+        "The number and size of pilot builds",
+        "How messy or scattered the data for the first use cases is",
+        "Regulated data, security reviews and vendor due diligence",
+        "How much training and rollout support your team needs"
+      ]
+    },
+    {
+      "h": "Where we deliver AI consulting",
+      "p": [
+        "London clients can meet us at our head office. For every other city below we work remotely from London, keep meeting hours that overlap the local working day, and visit on site when the project needs it."
+      ],
+      "list": [
+        "United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami",
+        "United Kingdom: London, Manchester and Birmingham",
+        "United Arab Emirates: Dubai and Abu Dhabi",
+        "Pakistan: Lahore, Karachi and Islamabad"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI consultant do?",
+      "a": "An AI consultant finds where AI can save time, cut cost or create revenue in a business, plans how to adopt it safely, and helps put it in place. At 22 Signals, AI consulting includes a readiness review, ranked use cases, a roadmap, tool selection, governance rules and pilot builds, and the same team that advises also builds."
+    },
+    {
+      "q": "Where should a company start with AI?",
+      "a": "Start with one process your team repeats every day that runs on documents, email or structured data, such as intake, reporting or follow-up. It should matter enough that saved hours are visible, but not be so risky that an error hurts a client. A focused pilot there proves value quickly and shows what the next step should be."
+    },
+    {
+      "q": "Do we need clean data before using AI?",
+      "a": "Not perfect data, but usable data for the first use cases. Many good starting points, such as drafting, summarizing and triage, need very little preparation. Part of the readiness review is checking what you have and fixing only the gaps that block the first projects, rather than starting a long data program before anything ships."
+    },
+    {
+      "q": "How long does an AI consulting engagement take?",
+      "a": "A readiness review and roadmap for one business unit usually takes a few weeks, and a first pilot follows soon after. Larger companies with several departments, regulated data or vendor reviews take longer. We agree every date in writing before we start, and you see working output well before the full roadmap is complete."
+    },
+    {
+      "q": "Is it safe to put company data into AI tools?",
+      "a": "It can be, with the right tools and rules. Business plans from the major providers let you keep your data out of model training, and many offer data residency options. We check vendor terms, set which data is allowed where, add human review for client-facing outputs, and write it all into a short policy your team can follow."
+    },
+    {
+      "q": "Should we build custom AI or buy existing tools?",
+      "a": "Buy when an existing tool solves the problem well, which is common for drafting, meeting notes and general research. Build when the process is specific to you, when data must stay in your systems, or when several tools need to work together. Our recommendation for each use case comes with the reasoning, so you can judge it yourself."
+    },
+    {
+      "q": "How much does AI consulting cost?",
+      "a": "It depends on scope: how many processes we review, whether you need a governance framework, how many pilots we build and how ready your data is. We don't publish prices. After a short call we send a written scope with dates, so you know what is included before committing to anything."
+    }
+  ],
+  "related": [
+    "/services/ai-automation",
+    "/services/custom-ai-development",
+    "/services/business-intelligence",
+    "/services/business-optimization",
+    "/services/data-engineering"
+  ],
+  "keywords": {
+    "primary": "ai consulting",
+    "secondary": ["ai consulting services", "ai consultant", "ai strategy consulting", "ai readiness assessment", "ai governance consulting", "ai implementation consulting"]
+  }
+}

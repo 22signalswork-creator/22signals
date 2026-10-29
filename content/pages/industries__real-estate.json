@@ -1,0 +1,117 @@
+{
+  "path": "/industries/real-estate",
+  "kind": "industry",
+  "region": "global",
+  "title": "Real Estate Marketing, 3D and Lead Automation | 22 Signals",
+  "description": "Real estate marketing for developers, brokers and property managers: 3D renders and walkthroughs, WhatsApp lead automation, CRM, portals, SEO and ads.",
+  "eyebrow": "Real Estate",
+  "h1": "Real estate marketing, 3D visuals and lead systems for developers and brokers",
+  "intro": "22 Signals handles real estate marketing and systems for developers, brokers and property managers in the US, UK, UAE and Pakistan. We make 3D renders and walkthroughs that sell a project before it is built, answer every lead within minutes on WhatsApp and the web, connect it all to a CRM, and run the search and paid media that bring buyers in.",
+  "sections": [
+    {
+      "h": "Why property leads go cold",
+      "p": [
+        "A buyer sees an ad for a new development, sends a message at 11pm and hears back two days later, by which time three other brokers have called them. Leads come from portals, ads, WhatsApp, walk-ins and referrals, and each source lands somewhere different. Sales teams spend their mornings sorting spreadsheets instead of booking viewings.",
+        "On the marketing side, off-plan projects are hard to sell from floor plans alone, and listings that look like every other listing get scrolled past. We fix both ends: the visuals that make people inquire, and the systems that make sure every inquiry gets an answer."
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "list": [
+        "Residential and commercial developers launching new projects, including off-plan",
+        "Brokerages and agencies with several agents and lead sources",
+        "Property managers and build-to-rent operators handling tenant requests",
+        "Interior designers and architects who need visuals for pitches",
+        "Overseas buyer and investor sales teams working across time zones"
+      ]
+    },
+    {
+      "h": "What real estate marketing with us includes",
+      "list": [
+        "Photoreal 3D exterior and interior renders, aerials and amenity shots",
+        "Animated walkthroughs and flythroughs for launches, sales galleries and ads",
+        "Project websites and landing pages with floor plans, availability and booking for viewings",
+        "WhatsApp Business API flows that answer questions, qualify buyers and book viewings, with a hand-off to an agent",
+        "CRM setup and integration so leads from portals, ads, web and WhatsApp land in one pipeline",
+        "Buyer, investor and tenant portals with documents, payment schedules and maintenance requests",
+        "Local SEO, Google Business Profile and pages that show up in ChatGPT, Claude, Gemini and Google AI Overview answers",
+        "Paid media on Google, Meta, YouTube and TikTok, with creative made in-house and call tracking"
+      ]
+    },
+    {
+      "h": "Selling a building before it exists",
+      "p": [
+        "Off-plan buyers are being asked to commit to something they cannot visit. Our 3D team turns architectural drawings into photoreal stills and animated walkthroughs: the lobby at sunset, the view from a specific floor, the finish options in a show apartment. The same models produce short clips for social ads, wide shots for billboards and images for portals, so one investment covers the whole campaign.",
+        "We can also build interactive 3D models for the web, so buyers rotate a unit, switch finishes or see which units are still available. Renders are checked against the plans and approved by your design team, because a render that oversells the finished building creates problems at handover."
+      ]
+    },
+    {
+      "h": "Every lead answered, on WhatsApp and the web",
+      "p": [
+        "In the UAE and Pakistan WhatsApp is the main way buyers get in touch, and many US and UK buyers now expect a fast text reply too. We set up assistants that reply within seconds, any hour: they share brochures and price lists you approve, ask the qualifying questions your agents care about (budget, timeline, cash or mortgage, location), and book a viewing or a call.",
+        "When a buyer is ready or the question gets complex, the conversation goes to the right agent with the full history. Every lead and message syncs to your CRM, so managers can see response times, lead sources and which agents follow up."
+      ]
+    },
+    {
+      "h": "CRM, portals and property management systems",
+      "p": [
+        "Many property businesses run on a mix of portal inboxes, spreadsheets and personal phones. We set up or clean up the CRM, route leads automatically by project, language or agent, and build dashboards that show cost per lead and cost per viewing by channel.",
+        "For developers and property managers we build portals where buyers or tenants see documents, payment schedules and updates, and raise maintenance requests that go straight into a tracked queue. We have built a client portal with documents and payments for a US law firm, and the same approach works for buyers paying in installments."
+      ]
+    },
+    {
+      "h": "Market rules we plan around",
+      "list": [
+        "US: housing ads on Meta run under its special ad category, which limits targeting, and all marketing must respect the Fair Housing Act",
+        "UK: property listings must give material information buyers need, and agents handle buyer data under the UK GDPR",
+        "UAE: property advertising in Dubai needs permits from the Dubai Land Department, and campaigns are often needed in Arabic and English",
+        "Pakistan: buyers check approvals from authorities such as the LDA or CDA, many developers also sell to overseas Pakistanis, and search happens in Urdu and English"
+      ]
+    },
+    {
+      "h": "Why one team helps in property",
+      "p": [
+        "Real estate is a newer industry for us, and we will be straight about that. What we bring is proven elsewhere: more than 30 AI builds for businesses that used to run the old way, 3D rendering and animation, WhatsApp automation, and search and paid media for clients across four regions. In property those pieces depend on each other. The render feeds the ad, the ad feeds the WhatsApp flow, and the flow feeds the CRM. When one team builds all of it, far less gets lost between suppliers.",
+        "We follow Talk, Plan, Build, Grow, with one Signal Lead and every date agreed in writing. Cost depends on scope: the number of projects and units, the volume of renders and animation, which systems we connect, and the channels and markets we run ads in."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a 3D walkthrough of a new development take?",
+      "a": "It depends on the size of the project and how complete the drawings are. A set of exterior and interior stills comes first, and the animated walkthrough follows once the camera path and finishes are approved. We agree the schedule in writing at the start, working back from your launch or sales gallery opening date."
+    },
+    {
+      "q": "Can WhatsApp automation qualify buyers for our agents?",
+      "a": "Yes. The assistant asks the questions your agents would ask, such as budget, timeline, financing and preferred area, shares approved brochures and price lists, and books viewings. Serious or complex leads go to an agent with the full conversation. Everything runs on the official WhatsApp Business API and within WhatsApp's messaging policies."
+    },
+    {
+      "q": "Which CRM should a brokerage use?",
+      "a": "The one your agents will actually use. We work with common CRMs such as HubSpot and Salesforce and with real estate specific systems, and we connect portals, ads, the website and WhatsApp to whichever you choose. If your current CRM works but is messy, cleaning it up is usually better than switching."
+    },
+    {
+      "q": "Do you work with property businesses in Dubai and Pakistan?",
+      "a": "Yes. We work with clients across the US, UK, UAE and Pakistan, remotely from our head office in London. For the UAE we plan around Dubai Land Department advertising permits and Arabic and English campaigns. For Pakistan we cover Urdu and English content and campaigns aimed at overseas Pakistani buyers."
+    },
+    {
+      "q": "Can you help property managers, not just sales teams?",
+      "a": "Yes. For property managers we build tenant portals, maintenance request flows that create tracked tickets, automated reminders for rent and renewals, and WhatsApp or web assistants that answer routine tenant questions and hand anything urgent to your team."
+    },
+    {
+      "q": "What does real estate marketing with 22 Signals cost?",
+      "a": "It depends on scope. The main factors are the number of projects or listings, how many renders and walkthroughs you need, which systems we connect, and the channels and markets we advertise in. We send a written scope with dates after a 15-minute call."
+    }
+  ],
+  "related": [
+    "/services/3d-rendering",
+    "/services/whatsapp-automation",
+    "/services/paid-media",
+    "/services/web-app-development",
+    "/locations/dubai",
+    "/pakistan"
+  ],
+  "keywords": {
+    "primary": "real estate marketing",
+    "secondary": ["3d walkthrough for real estate", "real estate whatsapp automation", "real estate crm setup", "off-plan marketing", "property developer marketing agency"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "path": "/locations/manchester/ai-automation",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Agency Manchester | 22 Signals",
+  "description": "An AI automation agency Manchester teams use to take admin off their people: custom AI tools, CRM and email workflows, internal dashboards, built and supported.",
+  "eyebrow": "AI Automation in Manchester",
+  "h1": "AI automation agency Manchester teams use to win back their week",
+  "intro": "We build custom AI tools and automations for established Manchester companies: workflows that move data between email, CRM and spreadsheets, internal tools, reporting systems and AI assistants that hand over to a person when they should. The result is fewer manual hours, fewer errors and staff doing the work you hired them for.",
+  "sections": [
+    {
+      "h": "Where the hours actually go",
+      "p": [
+        "Ask any operations director in Manchester where their team's time disappears and the answer is rarely a single big task. It is the copy-paste between the order system and the spreadsheet, the inbox someone has to sort every morning, the weekly report that takes a whole Friday, and the quote that waits two days because one person knows the pricing rules.",
+        "Each job looks too small to fix. Added up across a team of thirty, it can be a full-time role spent on moving information around. That is the work automation is for.",
+        "The good news is that this kind of work is usually the easiest to automate safely, because the rules are already known and the output is easy to check."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read, sort and draft: enquiries, invoices, supplier documents, CVs, support tickets.",
+        "Workflow automation across email, CRM, finance software and spreadsheets, so data is entered once.",
+        "Internal tools and dashboards for teams that have outgrown a shared spreadsheet.",
+        "Research and reporting systems that pull figures together and write the first draft of the weekly summary.",
+        "AI assistants for staff or customers, with a clear hand-off to a human when the question is sensitive or unclear."
+      ]
+    },
+    {
+      "h": "Examples from Manchester's main industries",
+      "p": [
+        "The best automation projects come from the way a sector really works. These are the kinds of jobs that suit Manchester's main sectors."
+      ],
+      "list": [
+        "E-commerce and fashion: order exceptions, returns reasons sorted and summarised, supplier stock feeds checked overnight, product copy drafted for review.",
+        "Manufacturing and distribution around Trafford Park: quote requests read from email and drafted against price lists, delivery notes matched to invoices, maintenance logs searchable in plain English.",
+        "Professional services in Spinningfields: client onboarding packs, conflict and identity check chasers, time narratives tidied before billing.",
+        "Media and production near MediaCityUK: call sheets, release forms and footage logs filed automatically, transcripts turned into searchable notes.",
+        "Universities and research teams: grant reporting, enquiry routing and admin that eats into academic time."
+      ]
+    },
+    {
+      "h": "Choosing an AI automation agency Manchester businesses can rely on",
+      "p": [
+        "Automation goes wrong in predictable ways: a workflow breaks when a supplier changes a form, nobody notices for a month, and the team quietly goes back to doing it by hand. So we build with monitoring and alerts, write down what each automation does, and keep a named owner on your side.",
+        "We also keep people in charge of decisions that matter. An AI tool can draft the reply or flag the risky invoice; a person approves it. That is better practice, and where automated decisions significantly affect individuals, UK GDPR gives those people safeguards, including the right to have a human look again."
+      ]
+    },
+    {
+      "h": "Data protection and UK rules",
+      "p": [
+        "Automations move personal data around, so we design them with UK GDPR and the Data Protection Act 2018 in mind: only the data needed, stored in the right place, with access limited to the right people. If an automation sends marketing emails or texts, PECR applies as well, and we build consent checks into the flow. The ICO's offices in Wilmslow are close to Manchester, and its guidance is the reference we use when a workflow involves customer or employee data."
+      ]
+    },
+    {
+      "h": "Proof: we built our own first",
+      "p": [
+        "Before we sold automation to anyone else, we built a complete outbound sales engine for 22 Signals itself: prospect research, enrichment, email sequences and CRM updates working together with a person reviewing what goes out. It taught us where automation saves real time and where it needs a human, and that experience goes into every client build."
+      ]
+    },
+    {
+      "h": "How the project runs from London",
+      "p": [
+        "Our head office is in London and we have no Manchester office. Automation work suits remote delivery well: we map your processes over video calls, get access to the systems, and show working demos as we go. Manchester runs on London time, so your team and ours share the same working day. If the process is easier to understand by watching people do it, your Signal Lead comes up to Manchester to sit with the team, when the project needs it."
+      ],
+      "list": [
+        "Talk: a 15-minute fit check, then a process walk-through with the people who do the work.",
+        "Plan: a ranked list of automations with the hours each should save, and dated milestones.",
+        "Build: one workflow at a time, tested with real data before it goes live.",
+        "Grow: monitoring, fixes when systems change, and the next automation on the list."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "Number of workflows and how many systems each one touches.",
+        "Whether your tools have usable APIs or need workarounds.",
+        "How much AI judgement is involved compared with simple rules.",
+        "Security, audit and approval requirements.",
+        "Ongoing support and monitoring after launch."
+      ]
+    },
+    {
+      "h": "Why work with 22 Signals",
+      "p": [
+        "We are not a single-tool shop that fits every problem to one platform. We pick the simplest thing that works, whether that is an off-the-shelf connector or a custom AI tool, and one Signal Lead owns the outcome. As an AI automation agency Manchester firms can also use for the surrounding work, we can connect the automation to your dashboards, website forms and CRM reporting too. Related pages: AI consultancy, custom AI development, business intelligence and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should a Manchester business automate first?",
+      "a": "Start with work that is frequent, rule-heavy and annoying: data entry between systems, inbox sorting, recurring reports and quote preparation. These save measurable hours quickly and carry little risk. We rank candidates by hours saved and effort, then build the top one first so you see a return before committing to more."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "That is rarely the goal or the result. Most clients want their existing people to stop doing repetitive admin and spend time on customers, quality and growth. We design automations so staff review and approve the important outputs, and we train them on the tools so they own them rather than fear them."
+    },
+    {
+      "q": "Can you work with the software we already use?",
+      "a": "Usually, yes. We regularly connect email, Microsoft 365 and Google Workspace, common CRMs, accounting software, e-commerce platforms and spreadsheets. If a system has no usable API we look at other routes, such as scheduled exports or reading files, and tell you honestly if a workaround would be fragile."
+    },
+    {
+      "q": "Do you visit our Manchester site to map processes?",
+      "a": "When the project needs it, yes. Most process mapping works well on video calls and screen shares, but some operations, such as a warehouse or production floor, are easier to understand in person. Your Signal Lead travels up from London for those sessions, and we agree them in the plan."
+    },
+    {
+      "q": "How do you keep automations GDPR compliant?",
+      "a": "We collect only the data each workflow needs, keep it in approved systems, restrict access, log what happens and keep a person in the loop for significant decisions about individuals. For marketing messages we check PECR consent. We document all of it so your data protection lead can review it against ICO guidance."
+    },
+    {
+      "q": "What happens when something breaks?",
+      "a": "Every automation we build has monitoring and alerts, so failures are spotted quickly rather than weeks later. With an ongoing support arrangement, we fix issues and update workflows when your suppliers or software change. Without one, you get full documentation so your own team or IT provider can maintain it."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/ai-automation",
+    "/locations/manchester/ai-consulting",
+    "/locations/manchester/business-intelligence",
+    "/locations/birmingham/ai-automation",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "ai automation agency manchester",
+    "secondary": [
+      "ai automation manchester",
+      "business process automation manchester",
+      "workflow automation manchester"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "path": "/locations/birmingham/app-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company Birmingham | 22 Signals",
+  "description": "iOS, Android and web app development for Birmingham businesses: field and driver apps, customer apps, portals and MVPs, built, launched and supported.",
+  "eyebrow": "App Development in Birmingham",
+  "h1": "App development company Birmingham businesses use to build apps people actually open",
+  "intro": "We build iOS, Android and web apps for Birmingham companies: field service and driver apps, customer reorder and booking apps, patient and member apps, and SaaS products. We handle design, development, payments, integrations with your existing systems, app store launch and support. You get an app that solves one clear problem well, with a plan for what comes next.",
+  "sections": [
+    {
+      "h": "Most business apps fail for the same reason",
+      "p": [
+        "They try to do everything. A Birmingham distributor wants an app for customers, drivers and the sales team in one go; a clinic wants booking, payments, video consultations and a loyalty scheme in version one. The project runs long, the budget runs out, and the app launches to a shrug.",
+        "The apps that work start narrow. One user, one job, done better than the phone call, paper form or spreadsheet it replaces. Then they grow from real usage. That is how we plan every app, whether it is an internal tool for 40 engineers or a product for thousands of customers."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "iOS and Android apps, built natively or cross-platform depending on what the app needs to do.",
+        "Web apps and SaaS products that run in the browser on any device.",
+        "MVPs: a first version built to test demand before larger investment.",
+        "Payments: card, Apple Pay, Google Pay, subscriptions and invoicing.",
+        "APIs and integrations with your ERP, CRM, booking or warehouse systems.",
+        "App store launch: listings, screenshots, review submission and release planning.",
+        "Support: updates for new iOS and Android versions, monitoring, fixes and new features."
+      ]
+    },
+    {
+      "h": "App ideas that fit Birmingham's economy",
+      "p": [
+        "These are the kinds of apps that make sense for the city's main sectors. Your own idea may be different; we test it in the planning stage."
+      ],
+      "list": [
+        "Advanced manufacturing and automotive supply chain: maintenance and inspection apps for engineers, with photos, checklists and parts lookups that sync to the ERP.",
+        "Logistics around the M6 and M42 corridors: driver apps for proof of delivery, signatures, damage photos and route updates.",
+        "Trade and industrial suppliers: customer reorder apps, so regular buyers can repeat an order in seconds instead of emailing a PDF.",
+        "Healthcare, clinics and life sciences: patient booking and aftercare apps, and research tools for teams around the Birmingham Health Innovation Campus.",
+        "Professional services in the Colmore Business District: secure client apps for documents, updates and e-signatures.",
+        "Retail and Jewellery Quarter businesses: appointment booking for commissions and fittings, and loyalty apps for repeat customers."
+      ]
+    },
+    {
+      "h": "Internal apps versus customer apps",
+      "p": [
+        "Internal apps, for engineers, drivers or warehouse staff, are judged on one thing: whether they save time on a busy shift. They need to work with gloves on, with poor signal in a unit on an industrial estate, and with people who did not ask for a new tool. Offline sync and big, simple buttons matter more than visual polish.",
+        "Customer apps are judged differently. A Birmingham shopper or patient compares yours with every other app on their phone, so speed, design and a reason to come back matter from day one. We plan the two very differently, and we will tell you which kind you are really building."
+      ]
+    },
+    {
+      "h": "Privacy and app store rules",
+      "p": [
+        "Apps collect more personal data than most websites: locations, photos, contacts, health details. Under UK GDPR and the Data Protection Act 2018, you need a lawful basis for each, a clear privacy notice and security that fits the risk. If your app is likely to be used by children, the ICO's Age Appropriate Design Code applies too.",
+        "Apple and Google add their own rules, including privacy labels and permission requests that must explain why the app needs access. We plan for all of this at design stage, which avoids the familiar last-minute app store rejection."
+      ]
+    },
+    {
+      "h": "How an app project runs",
+      "list": [
+        "Talk: we meet the people who will use the app and map the job it needs to do.",
+        "Plan: a written scope with screens, integrations, the first release and every date in writing.",
+        "Build: regular test builds you can install on your own phone, with feedback logged in a shared tracker.",
+        "Grow: launch, usage tracking, feedback and a release plan for the next features."
+      ]
+    },
+    {
+      "h": "Product work in progress",
+      "p": [
+        "Alongside client apps, we are developing an AI commentary product for live esports, which generates match commentary in real time. It is still in development, and we mention it because it shows how we approach a product: start from one hard problem, prove it works, then build around it."
+      ]
+    },
+    {
+      "h": "An app development company Birmingham teams work with remotely",
+      "p": [
+        "Our head office is in London, and we work with Birmingham clients from there. There is no Birmingham office. App projects suit remote delivery well: you test builds on your own devices, feedback goes into a shared tracker, and we review progress on video calls in the same time zone.",
+        "When the app is for people in the field, such as engineers, drivers or clinic staff, we like to watch them work before we design. We plan those visits into the scope when the project needs them; Birmingham is about 80 minutes away by train. One Signal Lead owns the project from first call to launch."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Number of screens and user types.",
+        "Integrations with your existing systems.",
+        "Payments, subscriptions or marketplace features.",
+        "Offline use, maps, cameras or other device features.",
+        "Security and compliance requirements.",
+        "Support and updates after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for apps",
+      "p": [
+        "Building the app is half the job. People have to find it, download it and keep using it. Because our team also runs web development, SEO, paid media, video and 3D, we can plan the launch alongside the build: the landing page, app store assets, launch ads and explainer video. Related: web development, AI automation and video in Birmingham."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should I expect from an app development company Birmingham businesses hire?",
+      "a": "A clear scope for the first release, regular builds you can test, honest advice on what to leave out, a plan for app store submission and support after launch. With us, you also get one Signal Lead who owns the dates and the outcome."
+    },
+    {
+      "q": "Native or cross-platform: which is better?",
+      "a": "Cross-platform frameworks suit most business apps, because one codebase covers iOS and Android and keeps support costs down. Native suits apps that rely heavily on device features or need the best possible performance. We recommend based on what your app actually needs."
+    },
+    {
+      "q": "Can the app connect to our existing systems?",
+      "a": "Usually, yes. We connect to ERPs, CRMs, booking and warehouse systems through their APIs. If a system has no API, we can often build a small connector or use its exports. We confirm this in planning so there are no surprises mid-build."
+    },
+    {
+      "q": "Do you work with Birmingham clients in person?",
+      "a": "When the project needs it, yes, especially to watch field staff or clinic teams at work before designing. Most of the project runs remotely from our London head office in the same time zone, with test builds on your own devices."
+    },
+    {
+      "q": "How do you handle UK GDPR in an app?",
+      "a": "We collect only the data the app needs, ask for device permissions with clear reasons, write the privacy notice with you, secure data in transit and at rest, and set retention rules. If children may use the app, we design to the ICO's Age Appropriate Design Code."
+    },
+    {
+      "q": "Can you build an MVP for a startup or spin-out?",
+      "a": "Yes. We build first versions for founders, including teams coming out of Birmingham's universities. The aim is the smallest product that proves people want it, launched quickly, with a plan for what to build once you have real users and data."
+    },
+    {
+      "q": "How much does it cost to build an app?",
+      "a": "It depends on scope, so we price after a short call and a planning session. The main factors are the platforms, the number of screens and user types, integrations, payments, device features such as offline use or cameras, security needs, and the level of support you want after launch."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/app-development",
+    "/locations/birmingham/web-development",
+    "/locations/birmingham/ai-automation",
+    "/locations/manchester/app-development",
+    "/locations/london/app-development"
+  ],
+  "keywords": {
+    "primary": "app development company birmingham",
+    "secondary": [
+      "app developers birmingham",
+      "mobile app development birmingham",
+      "ios android app developers west midlands"
+    ]
+  }
+}

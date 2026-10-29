@@ -1,0 +1,138 @@
+{
+  "path": "/locations/lahore/business-intelligence",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Lahore",
+  "citySlug": "lahore",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Lahore: Power BI and Data | 22 Signals",
+  "description": "Business intelligence Lahore owners can trust: margins by order, sales by branch and stock by season, in Power BI or Looker Studio dashboards.",
+  "eyebrow": "Business Intelligence and Data Analytics in Lahore",
+  "h1": "Business intelligence Lahore owners can read in two minutes",
+  "intro": "We turn the numbers scattered across your accounts software, spreadsheets and point-of-sale into dashboards and reports your directors actually use. For established Lahore businesses that means clear margins by order or branch, stock by season and cash by week, in Power BI, Looker Studio or Tableau, refreshed automatically and checked for accuracy.",
+  "sections": [
+    {
+      "h": "The problem: plenty of data, no single version of it",
+      "p": [
+        "Ask three managers in a Lahore company what last month's margin was and you will often get three answers. Sales has one sheet, accounts has another, the factory or warehouse keeps its own, and the owner trusts none of them fully. Reports are rebuilt by hand every month, usually by the one person who understands the formulas.",
+        "Business intelligence fixes the plumbing first: where each number comes from, what it means and who owns it. Only then do the dashboards follow."
+      ]
+    },
+    {
+      "h": "What the work covers",
+      "list": [
+        "Data strategy and KPI design: the ten or so numbers that tell you whether the business is healthy, defined in writing.",
+        "Connecting sources such as accounting packages, ERP, point-of-sale, Shopify or WooCommerce, Meta and Google Ads, and the spreadsheets nobody wants to give up.",
+        "A small warehouse and pipelines so the data refreshes on schedule instead of by copy and paste.",
+        "Dashboards in Power BI, Looker Studio or Tableau, designed for the person reading them, including on a phone.",
+        "Automated reporting: the weekly summary sent to owners and directors without anyone building it.",
+        "Forecasting for demand, cash and staffing around seasonal peaks.",
+        "Data quality checks that flag missing or wrong entries before they reach the board."
+      ]
+    },
+    {
+      "h": "Business intelligence: Lahore sectors and the questions they ask",
+      "list": [
+        "Textile and apparel exporters: true margin per order once yarn, dyeing, freight and the rupee to dollar rate on payment day are counted, and which buyers are worth the effort.",
+        "Retail and fashion brands with several stores: sales per branch per square foot, sell-through by collection and how much stock sits in the wrong outlet.",
+        "Bridal and occasion wear: demand planning for the winter wedding season and the run-up to Eid, when getting stock wrong is expensive.",
+        "Restaurant groups: food cost by outlet, delivery against dine-in and which menu items actually make money.",
+        "Real estate developers in DHA and on the city's edges: bookings, instalments received and overdue, and inventory still to sell by block.",
+        "Private schools and colleges: enrolment by campus, fee collection and the cost of each new admission from marketing."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we meet the owner and the people who prepare today's reports, and list the decisions the numbers should support. Plan: we map every source, agree the KPI definitions and set a release order. Build: the data model and first dashboard, usually the one the owner looks at most, then the rest in stages. Grow: monthly review of what people use, what they ignore and what needs adding."
+      ]
+    },
+    {
+      "h": "Tax records and data discipline",
+      "p": [
+        "Many larger Lahore retailers are already integrated with the FBR point-of-sale system, which means the sales record is more consistent than it used to be. We use that to our advantage: the till data becomes the trusted base for sales reporting, and everything else is reconciled to it.",
+        "Access matters too. Under the Prevention of Electronic Crimes Act 2016, unauthorised access to data is an offence, and the draft Personal Data Protection Bill will raise the bar on customer data. We set row-level security so a branch manager sees their branch and a director sees the group."
+      ]
+    },
+    {
+      "h": "Reports that reach owners where they already look",
+      "p": [
+        "Most owners we speak to in Lahore do not log in to a dashboard every morning. They read WhatsApp. So alongside the full dashboard we set up a short daily or weekly summary: yesterday's sales against target, cash received, stock that needs reordering and any number that moved more than it should. A tap opens the detail in Power BI or Looker Studio.",
+        "That one change often decides whether a business intelligence project gets used or quietly ignored after the launch meeting."
+      ]
+    },
+    {
+      "h": "Proof and experience",
+      "p": [
+        "We have worked with 30+ companies across four regions, from clinics and law firms to retail and esports, and reporting is part of almost every engagement. That breadth helps: we have seen how a retailer, an exporter and a services firm each read numbers differently, and we design for the person who will open the dashboard."
+      ]
+    },
+    {
+      "h": "How remote delivery works for Lahore",
+      "p": [
+        "We deliver from our head office in London and work with Lahore clients online. Most data work happens in shared workspaces, so distance matters less than access and clear definitions. Reviews run in the Lahore afternoon: a 12:00 London session is 17:00 PKT in winter and 16:00 PKT once the UK clocks go forward.",
+        "Your Signal Lead owns the plan, the data definitions document and the release dates, all in writing."
+      ]
+    },
+    {
+      "h": "What affects cost",
+      "list": [
+        "Number of data sources and how clean they are.",
+        "Whether a warehouse is needed or a direct connection is enough.",
+        "Number of dashboards and users, and licensing for Power BI or Tableau.",
+        "Forecasting and any custom calculations.",
+        "Ongoing support and changes after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We do more than draw charts. The same team can fix the website tracking that feeds the marketing numbers, run the ads those numbers measure and build the automation that acts on what the dashboard shows. One Signal Lead runs all of it. Related services: Power BI consulting, data engineering, AI automation and AI consultancy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is business intelligence for a Lahore company?",
+      "a": "It is the system that turns your sales, stock, accounts and marketing data into a few clear dashboards and reports. For a Lahore business it usually replaces monthly spreadsheets built by hand with numbers that refresh on their own, mean the same thing to everyone and can be checked back to the source."
+    },
+    {
+      "q": "Power BI or Looker Studio: which should we use?",
+      "a": "Power BI suits companies already on Microsoft 365 with accounts or ERP data and several departments. Looker Studio suits businesses whose marketing and sales live in Google tools and want low licence costs. We recommend one based on your systems, users and budget, and we can work in Tableau if you already have it."
+    },
+    {
+      "q": "Can you work with data from local accounting software?",
+      "a": "Usually, yes. If the software has an API or a database we connect directly. If it only exports Excel or CSV files, we schedule those exports and load them automatically. Either way we check the totals against your accounts so the dashboard and the books agree."
+    },
+    {
+      "q": "Is your business intelligence Lahore-based or remote?",
+      "a": "We work remotely from London, with sessions in the Lahore afternoon. Data work happens in shared environments, so being in the room rarely changes the result. If training a large team or mapping a factory process needs a visit, we arrange it when the project needs it."
+    },
+    {
+      "q": "How do you handle currency for export businesses?",
+      "a": "We store the transaction currency and the rate used, then report in rupees, dollars or both. For exporters we can show margin at the rate on order date and on payment date, which often explains why a profitable-looking order made less than expected."
+    },
+    {
+      "q": "How long does a first dashboard take?",
+      "a": "A first dashboard on two or three clean sources often takes a few weeks. Messier data with many spreadsheets takes longer because the definitions and cleaning come first. We give dates in writing at the planning stage and show progress weekly."
+    }
+  ],
+  "related": [
+    "/locations/lahore",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/lahore/ai-automation",
+    "/locations/karachi/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence lahore",
+    "secondary": [
+      "power bi lahore",
+      "data analytics lahore",
+      "power bi consultant pakistan",
+      "dashboard development lahore"
+    ]
+  }
+}

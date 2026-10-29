@@ -1,0 +1,132 @@
+{
+  "path": "/locations/houston/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "paid-media",
+  "serviceType": "Paid media management",
+  "title": "Paid Media in Houston: Google, Meta, LinkedIn Ads",
+  "description": "Paid media for Houston companies: Google, YouTube, Meta, LinkedIn and TikTok ads with in-house creative, call tracking and leads tied back to your CRM.",
+  "eyebrow": "Paid Media in Houston",
+  "h1": "Paid media for Houston companies: Google, Meta, LinkedIn and TikTok ads",
+  "intro": "We plan, build and run paid media for Houston companies across Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. Ads, landing pages and creative are made in-house, and every call and form is tracked back to your CRM, so you can see which spend turned into booked work, not just clicks.",
+  "sections": [
+    {
+      "h": "Where Houston ad budgets leak",
+      "p": [
+        "We often start a new Houston account by switching things off. A home services company is paying for clicks from Beaumont and Galveston it cannot serve. A clinic's Performance Max campaign is spending a third of its budget on display placements nobody reviewed. An industrial supplier is bidding on its own brand name against no competition. A law firm's call tracking stopped working when the website was redesigned, so for months nobody knew which ads produced cases.",
+        "None of these are exotic mistakes. They happen because ads get set up once and then left alone while the business gets on with its work. Paid media, Houston businesses find, rewards weekly attention more than clever strategy."
+      ]
+    },
+    {
+      "h": "Channels and services",
+      "list": [
+        "Google Search and Performance Max, with tight geographic targeting across Greater Houston's suburbs and service areas.",
+        "YouTube ads, from short bumper spots to longer explainers.",
+        "Meta (Facebook and Instagram) for local services, clinics, retail and recruiting.",
+        "LinkedIn for B2B: reaching engineers, plant managers, procurement leads and executives by job title, company and industry.",
+        "TikTok for consumer brands and employers recruiting younger staff.",
+        "Ad creative made in-house: video, motion graphics, static and carousel ads.",
+        "Landing pages built to convert, plus conversion and call tracking connected to your CRM."
+      ]
+    },
+    {
+      "h": "Campaigns that fit Houston buyers",
+      "list": [
+        "Energy and industrial B2B: LinkedIn and Google campaigns aimed at reliability engineers, maintenance managers and buyers at operators and contractors, with heavier pushes around big Houston industry weeks such as CERAWeek.",
+        "Healthcare and clinics near the Texas Medical Center and in the suburbs: Google Search for treatments and conditions, local Meta campaigns, and ad accounts set up to respect platform health-ad rules.",
+        "Law firms: Google Search and Local Services Ads for injury, family and criminal cases, with call recording and intake tracked to signed cases.",
+        "Home services: storm-season campaigns for roofing, generators, flood restoration and AC repair, adjusted fast when weather changes demand.",
+        "Recruiting: Meta, TikTok and LinkedIn ads for skilled trades, nurses and engineers, aimed at the commute zones that matter."
+      ]
+    },
+    {
+      "h": "English and Spanish campaigns",
+      "p": [
+        "Houston is a multilingual city, and Spanish is widely spoken across the metro. Running Spanish-language search and social campaigns, with Spanish landing pages and a Spanish-speaking intake line, often brings lower competition and leads competitors miss. We build these as separate campaigns with their own budgets and reporting, not as a translation of the English ads."
+      ]
+    },
+    {
+      "h": "Tracking, privacy and health data",
+      "p": [
+        "Tracking has to work and stay legal. The Texas Data Privacy and Security Act gives consumers the right to opt out of targeted advertising and requires businesses to honor recognized universal opt-out signals, so your site's consent setup must actually do what it says. We configure server-side tracking and consent mode so measurement stays as accurate as the rules allow.",
+        "Healthcare advertisers need extra care. Tracking pixels on pages where patients enter health details can expose protected health information, which has drawn HIPAA scrutiny for hospitals and clinics nationwide. We keep tracking off sensitive pages, use HIPAA-ready tools where needed, and build audiences without health data."
+      ]
+    },
+    {
+      "h": "What the first 90 days look like",
+      "p": [
+        "The first month is mostly repair: cutting wasted spend, fixing tracking and rebuilding campaigns around the services and areas you actually want. The second month is testing, with new ads and landing pages against the old ones. By the third month you should have a clear picture of cost per booked lead by channel. That is the point where decisions about paid media, Houston expansion into new suburbs or a second language become easy to make, because they rest on your own numbers rather than industry averages."
+      ]
+    },
+    {
+      "h": "How we run your account",
+      "list": [
+        "Talk: we learn your margins, capacity and the leads worth paying for.",
+        "Plan: account audit, channel mix, budget split, creative plan and targets in writing.",
+        "Build: campaigns, tracking, landing pages and creative, launched in stages so we learn quickly.",
+        "Grow: weekly optimization, monthly reporting tied to revenue, and new creative every month."
+      ]
+    },
+    {
+      "h": "An example from our work",
+      "p": [
+        "For a beauty salon in Lahore we rebuilt the website, set up SEO and ran Google Ads, with each booking traced back to the search or ad that produced it. Different city, same discipline we bring to Houston accounts: fix the site and the tracking first, then spend."
+      ]
+    },
+    {
+      "h": "Remote management with Houston hours in mind",
+      "p": [
+        "We manage paid media for Houston clients remotely from London. We are six hours ahead of Central Time, so bid and budget changes can be made before your working day begins, and we review results with you in your morning. Your Signal Lead runs the account and reports to you directly, with media buyers, designers and video editors behind them. If a shoot in Houston would make better ads, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "Our management cost depends on scope and is separate from what you spend with Google, Meta or LinkedIn. For paid media, Houston accounts vary most with:"
+      ],
+      "list": [
+        "Number of channels and campaigns.",
+        "Ad spend level and how many locations or service areas you target.",
+        "Creative volume each month, especially video.",
+        "Languages: English only, or English and Spanish.",
+        "Landing pages and tracking work needed before launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for paid media",
+      "p": [
+        "With our paid media, Houston clients get ads that are made and run by one team. The same people who buy your media produce the video, motion graphics and landing pages, and can fix the website and SEO behind them. That keeps creative fresh and stops the usual blame between the agency and the web developer. Related: SEO and GEO, video production, web development and AI automation for Houston businesses."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ad platform works best for Houston businesses?",
+      "a": "It depends on what you sell. For local services, clinics and law firms, Google Search usually drives the most valuable leads. For B2B industrial and energy services, LinkedIn reaches buyers by title and company. Meta and TikTok suit consumer brands and recruiting. We often start with one or two channels and add more once tracking proves what works."
+    },
+    {
+      "q": "Can you run ads in Spanish?",
+      "a": "Yes. We build separate Spanish campaigns, with ads and landing pages written by fluent speakers rather than translated word for word. In Houston, Spanish search and social campaigns often face less competition. We report them separately so you can see what they produce."
+    },
+    {
+      "q": "How do you track whether ads bring in real customers?",
+      "a": "We set up call tracking, form tracking and CRM connections so each lead is tied to the campaign that produced it. Then we report on booked appointments, signed cases or closed deals, not only clicks. If your CRM is not ready for that, we help set it up first."
+    },
+    {
+      "q": "Do you meet Houston clients in person?",
+      "a": "We manage accounts remotely from London, with review calls during your morning. Ad management rarely needs a visit, but for a creative shoot at your business or a planning day with your sales team, we arrange it when the project needs it. We do not have a Houston office."
+    },
+    {
+      "q": "Is it safe for a medical practice to run Google and Meta ads?",
+      "a": "Yes, with the right setup. Both platforms restrict how health ads can be targeted, and tracking tools must not send patient health details to ad platforms. We keep pixels off sensitive pages, use privacy-safe conversion tracking and write ads that follow platform health policies. That protects patients and your ad accounts."
+    },
+    {
+      "q": "What do we need to spend on ads?",
+      "a": "It depends on how competitive your market is and how many leads you can handle. Personal injury in Houston costs far more per click than industrial equipment. We look at your margins and capacity, then recommend a starting budget and test before scaling. You pay the platforms directly, so you always see the spend."
+    }
+  ],
+  "related": ["/locations/houston", "/services/paid-media", "/locations/houston/seo-geo", "/locations/houston/video-animation", "/locations/austin/paid-media"],
+  "keywords": { "primary": "paid media houston", "secondary": ["ppc agency houston", "google ads houston", "facebook ads houston", "linkedin ads agency houston"] }
+}

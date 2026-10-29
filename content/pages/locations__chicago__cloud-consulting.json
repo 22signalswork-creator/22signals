@@ -1,0 +1,140 @@
+{
+  "path": "/locations/chicago/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Chicago, IL | 22 Signals",
+  "description": "Cloud consulting for Chicago firms on AWS, Azure and Google Cloud: architecture, security, monitoring and cost reviews, planned around Illinois data law.",
+  "eyebrow": "Cloud Consulting in Chicago",
+  "h1": "Cloud consulting for Chicago companies",
+  "intro": "Our cloud consulting helps Chicago companies run on AWS, Azure or Google Cloud without surprise bills or security gaps. We design the architecture, lock down access, set up monitoring and review costs, then manage it if you want. It suits established manufacturers, logistics firms, insurers, healthcare providers and professional services firms with growing systems and small IT teams.",
+  "sections": [
+    {
+      "h": "Half in the cloud, half in the server room",
+      "p": [
+        "Many Chicago companies are stuck in the middle. The ERP still runs on a server in a closet at the plant in Bensenville. Email moved to Microsoft 365 years ago. A developer set up an AWS account for the customer portal and left. Nobody is sure who has admin rights, and the monthly bill has doubled without anyone deciding it should.",
+        "That middle state is where the risk lives. Most of the cloud work we do in this city is about making the setup deliberate: knowing what runs where, who can touch it, what it costs and what happens when something fails on a January night."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "Architecture on AWS, Google Cloud or Azure, sized for what you run today and the next few years.",
+        "Security and access control: single sign-on, least-privilege roles, logging, backups and a written recovery plan.",
+        "Monitoring and alerting so problems reach a person before they reach a customer.",
+        "Cost reviews: idle resources, oversized machines, storage you forgot about, and commitments that actually fit your usage.",
+        "Managed cloud operations for firms that would rather not hire a full cloud team.",
+        "Migration planning when servers or apps still need to move."
+      ]
+    },
+    {
+      "h": "Choosing a region near Chicago",
+      "p": [
+        "Location matters for latency and for some contracts. Microsoft's North Central US Azure region is in Illinois, which suits Chicago firms already on Microsoft 365 and Dynamics. Google Cloud's nearest major region is in Iowa, and AWS's nearest full region is in Ohio. For most business systems all three are close enough; we pick based on your existing licenses, your team's skills and any customer requirements on where data sits.",
+        "Chicago is also a major data center and colocation market. Firms that need equipment close to the exchanges for low-latency trading usually have specialist infrastructure partners. We are not that partner. We help trading and financial firms with their business systems, reporting and internal tools, and we say so up front."
+      ]
+    },
+    {
+      "h": "Who we help in Chicago",
+      "list": [
+        "Manufacturers moving ERP and file servers off aging hardware, while keeping shop floor systems working through the change.",
+        "Logistics and freight firms running TMS integrations, tracking APIs and customer portals that cannot go down during peak season.",
+        "Insurers and financial services firms that need strong access control, audit logs and clear records of who touched what.",
+        "Healthcare providers and health tech companies that need HIPAA-ready hosting and signed business associate agreements with the cloud provider.",
+        "Professional services firms in the Loop with document systems, client portals and remote staff who all need secure access."
+      ]
+    },
+    {
+      "h": "Security and Illinois data law",
+      "p": [
+        "The Illinois Personal Information Protection Act requires businesses that hold personal information on Illinois residents to keep reasonable security measures, and to notify affected people, and the Attorney General in larger breaches, if that data is exposed. A sensible cloud setup is a large part of 'reasonable': encryption, tight access, logging and tested backups.",
+        "If any system stores biometric data, such as templates from fingerprint time clocks, BIPA adds rules on retention and destruction. We map where that data lives and make sure deletion actually happens on schedule."
+      ]
+    },
+    {
+      "h": "Proof: cleaning up compromised sites",
+      "p": [
+        "Part of our cloud and web work has been security clean-ups of compromised law firm websites in the US: finding how attackers got in, removing what they left behind, closing the gap and putting monitoring in place so it does not happen again. Much of what we learned there now goes into every cloud setup we design."
+      ]
+    },
+    {
+      "h": "Choosing cloud consulting: Chicago winters and other tests",
+      "p": [
+        "A cloud setup proves itself on bad days. In Chicago that can mean a polar vortex week when staff all work from home at once, a storm that knocks out power to a suburban plant, or peak season when every shipper checks tracking at the same time. Ask any provider of cloud consulting, Chicago or otherwise, what happens on those days: where the backups are, how long recovery takes, and who gets the alert.",
+        "We write those answers down in the recovery plan, test the restore, and make sure remote access holds up when the whole office logs in from home."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "list": [
+        "Talk: a fit check, then access to your accounts in read-only mode.",
+        "Plan: a written review of architecture, security and cost, with a ranked list of fixes and dates.",
+        "Build: the fixes, starting with the risky ones, then monitoring and documentation.",
+        "Grow: monthly cost and security reviews, or managed operations if you want us to run it."
+      ]
+    },
+    {
+      "h": "Working from London, on Chicago hours",
+      "p": [
+        "We deliver cloud consulting. Chicago clients work with us remotely from London, six hours ahead of Central Time for most of the year. That gap is useful: maintenance windows and changes can run during our working day, which is before your teams arrive. Reviews with your IT lead happen in the Chicago morning.",
+        "If a project needs someone at your site, such as checking hardware before a server move, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What shapes the cost of cloud consulting: Chicago factors",
+      "list": [
+        "Number of accounts, subscriptions and environments.",
+        "How much has been built without documentation.",
+        "Compliance needs, such as HIPAA or customer security questionnaires.",
+        "Whether you want a one-off review or ongoing managed operations.",
+        "Size of any migration still to come."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud is best for a Chicago company?",
+      "a": "It depends on what you already run. Firms deep in Microsoft 365 and Dynamics often fit Azure, and Azure's North Central US region is in Illinois. Teams with developers used to AWS or Google Cloud can do very well there. We recommend based on your systems, skills and contracts, not on a partner badge."
+    },
+    {
+      "q": "Can you cut our cloud bill?",
+      "a": "Often, yes. Most cost reviews find idle machines, oversized instances, old snapshots and storage nobody uses, plus commitments that do not match real usage. We list every saving with its risk, make the safe changes first, and set up alerts so costs stay visible. We cannot promise a figure until we have seen the account."
+    },
+    {
+      "q": "Do you handle cloud security for Illinois data law?",
+      "a": "Yes. We set up encryption, single sign-on, least-privilege access, logging and tested backups, which supports the reasonable security duty under the Illinois Personal Information Protection Act. We also write down where personal and any biometric data is stored, so retention and breach response are clear. Your counsel advises on the legal side."
+    },
+    {
+      "q": "Do you build low-latency trading infrastructure?",
+      "a": "No. Exchange colocation and ultra-low-latency networks are a specialist field with dedicated providers in Chicago. We help trading and financial firms with everything around that: business applications, reporting, internal AI tools and secure access for staff. We prefer to be clear about this at the start rather than overpromise."
+    },
+    {
+      "q": "Will you come to our Chicago office?",
+      "a": "Most cloud work happens remotely, from London, with reviews in your morning. When there is a physical reason to be there, such as inspecting servers before a migration or running a security workshop with leadership, we plan a visit to Chicago when the project needs it. We do not have staff based in Chicago."
+    },
+    {
+      "q": "Can you manage our cloud after the project?",
+      "a": "Yes. Managed cloud operations cover monitoring, patching, backups, access changes and monthly cost and security reports. Your Signal Lead stays the single contact. Some Chicago clients prefer a handover to their own IT team instead, and we document everything so that works too."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/chicago/business-intelligence",
+    "/locations/chicago/web-development"
+  ],
+  "keywords": {
+    "primary": "cloud consulting chicago",
+    "secondary": [
+      "cloud consultant chicago",
+      "aws consulting chicago",
+      "azure consulting chicago",
+      "cloud services chicago"
+    ]
+  }
+}

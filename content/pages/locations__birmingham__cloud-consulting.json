@@ -1,0 +1,146 @@
+{
+  "path": "/locations/birmingham/cloud-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consultancy Birmingham: AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consultancy for Birmingham firms on AWS, Azure and Google Cloud: secure set-up, UK hosting, monitoring and cost reviews, run by one accountable lead.",
+  "eyebrow": "Cloud Consulting in Birmingham",
+  "h1": "Cloud consultancy Birmingham businesses rely on to run securely and spend less",
+  "intro": "We design, secure and run cloud infrastructure for established Birmingham companies on AWS, Google Cloud and Microsoft Azure. That covers architecture, access control, monitoring, cost reviews and ongoing managed operations. It suits manufacturers moving off ageing on-site servers, professional firms answering client security questionnaires, and growing businesses whose cloud bill has drifted without anyone owning it.",
+  "sections": [
+    {
+      "h": "The server in the comms cupboard",
+      "p": [
+        "Many West Midlands businesses still run key systems on a server in a back room: the ERP, file shares, a database a developer set up years ago. It works until a disk fails, a power cut takes the factory office offline, or a customer's supplier security questionnaire asks how backups are tested.",
+        "Others moved to the cloud quickly and now have the opposite problem: a monthly bill nobody can explain, admin accounts shared between staff, and no alerting when something goes down. A good cloud consultancy fixes both kinds of problem with the same discipline: clear architecture, controlled access, monitoring and regular cost reviews."
+      ]
+    },
+    {
+      "h": "What we do",
+      "list": [
+        "Cloud architecture on AWS, Google Cloud or Azure, chosen to fit your software, licences and team.",
+        "Security and access control: single sign-on, multi-factor authentication, least-privilege roles and no shared admin logins.",
+        "Backups and recovery: tested restores, documented recovery times and off-site copies.",
+        "Monitoring and alerting so problems reach a person before your customers notice.",
+        "Cost reviews: right-sizing, reserved capacity, switching off idle resources and tagging spend by team or product.",
+        "Managed cloud operations: patching, changes and support on an agreed plan."
+      ]
+    },
+    {
+      "h": "What Birmingham's industries need from the cloud",
+      "list": [
+        "Automotive and advanced manufacturing suppliers: reliable access to ERP and production data across sites, secure connections for shop-floor systems, and evidence for customer security audits.",
+        "Professional and financial services around Colmore Row and Snow Hill: tight access control, audit trails, encryption and clear answers on where client data is stored.",
+        "Logistics operators: systems that stay up around the clock and scale with peak periods, with integrations to carriers and customer portals.",
+        "Retail and e-commerce: websites and order systems that handle a busy weekend without falling over.",
+        "Healthcare and life sciences, from Edgbaston clinics to research companies in Selly Oak: careful handling of patient and research data, and hosting that meets the expectations of NHS partners."
+      ]
+    },
+    {
+      "h": "UK hosting, UK GDPR and the ICO",
+      "p": [
+        "All three major providers run UK regions: AWS and Google Cloud in London, and Microsoft Azure in London and Cardiff. For Birmingham clients with UK data residency requirements, from law firms to clinics, we keep data in those regions and document it.",
+        "Under UK GDPR and the Data Protection Act 2018, you need appropriate security for personal data, and the ICO expects that to cover access, encryption, backups and breach detection. Our designs are built to give you that evidence. If your customers ask for Cyber Essentials, we set up the cloud side to support your application."
+      ]
+    },
+    {
+      "h": "Multi-site businesses across the West Midlands",
+      "p": [
+        "A lot of Birmingham companies are not one building. A manufacturer may have a head office in the city, a plant in the Black Country and a warehouse off the M42. A clinic group may run sites in Edgbaston, Solihull and Sutton Coldfield. Each site tends to grow its own IT habits.",
+        "We design the cloud set-up so every site connects the same way, staff sign in once with the same rules, and a new site or acquisition can be added from a checklist rather than a fresh project. That makes the estate easier to secure and much easier to cost. For groups with several sites, this is often the part of our cloud consultancy Birmingham clients value most."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: we review what you run today, who has access, what it costs and what keeps you awake.",
+        "Plan: a written architecture and security plan, with risks ranked and every date in writing.",
+        "Build: changes are made in stages with rollback plans, tested out of hours where needed.",
+        "Grow: monthly monitoring reports, cost reviews and improvements as the business changes."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed over $1.5 million in projects across four regions. Cloud work is where that discipline matters most: written change plans, named owners and dates that hold. We would rather tell you a change needs another weekend than rush a cutover on a system your Birmingham site depends on."
+      ]
+    },
+    {
+      "h": "Remote delivery, in person when it counts",
+      "p": [
+        "Cloud work is mostly remote by nature, so being based in London rather than Birmingham changes very little day to day. We work your hours, in the same time zone, with access granted through accounts you control and can revoke. Where a project touches physical kit, such as decommissioning an on-site server or connecting a factory network, we plan an on-site visit when the project needs it. New Street is about 80 minutes from Euston.",
+        "A cloud consultancy Birmingham firms appoint should leave them in control. You own the accounts, the documentation and the passwords. We work inside them."
+      ]
+    },
+    {
+      "h": "What it costs",
+      "p": [
+        "We do not publish prices. Cost depends on:"
+      ],
+      "list": [
+        "How many systems and environments are involved.",
+        "Whether it is a one-off review, a rebuild or ongoing managed operations.",
+        "Security and compliance requirements from your customers or regulators.",
+        "Out-of-hours work for changes on systems that cannot go down.",
+        "How much documentation and training your team needs."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud",
+      "p": [
+        "Infrastructure is rarely the whole story. Once a Birmingham company's systems are in the cloud, the next questions are usually about data, reporting, automation or a better website. We cover cloud migration, DevOps, data engineering, AI and web in the same team, under one Signal Lead, so the cloud work is planned with what comes next in mind. Related: cloud migration, DevOps consulting and business intelligence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a cloud consultancy Birmingham companies hire actually do?",
+      "a": "We design and secure your cloud set-up on AWS, Azure or Google Cloud, set up monitoring and backups, review costs, and run day-to-day operations if you want us to. You get a written plan, documented changes and one accountable lead for all of it."
+    },
+    {
+      "q": "AWS, Azure or Google Cloud: which is right for us?",
+      "a": "It depends on your software and team. Businesses deep in Microsoft 365 and Dynamics often fit Azure. Google Cloud suits data-heavy and Google Workspace users. AWS has the broadest range of services. We recommend based on your systems, licences and skills, not on a partnership."
+    },
+    {
+      "q": "Can our data stay in the UK?",
+      "a": "Yes. AWS and Google Cloud have London regions, and Azure has London and Cardiff. We keep data and backups in UK regions where your clients, regulators or contracts require it, and document where everything lives so you can answer questionnaires accurately."
+    },
+    {
+      "q": "Do you come to our Birmingham premises?",
+      "a": "When the project needs it, for example to decommission an on-site server or connect a factory network. Most cloud work is remote from our London head office, in the same time zone. Visits are agreed in the scope."
+    },
+    {
+      "q": "Our cloud bill keeps rising. Can you help?",
+      "a": "Yes. A cost review typically finds oversized servers, idle resources, unattached storage and services nobody uses. We tag spend by team or product so it stays visible, and recommend reserved capacity where usage is steady. Savings depend on your set-up, so we report findings before changing anything."
+    },
+    {
+      "q": "How do you help with UK GDPR security requirements?",
+      "a": "We set up access control, encryption, backups, logging and alerting, and document them. That gives you evidence of appropriate technical measures under UK GDPR, which the ICO expects, and answers for client security questionnaires and Cyber Essentials applications."
+    },
+    {
+      "q": "Can you take over managing a cloud set-up someone else built?",
+      "a": "Yes. We start with a review of what is running, who has access and what it costs, then document it and fix the urgent risks first. From there we agree a managed operations plan covering patching, monitoring, changes and support, so you know who owns what."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/birmingham/business-intelligence",
+    "/locations/london/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consultancy birmingham",
+    "secondary": [
+      "cloud consulting birmingham",
+      "aws consultant birmingham",
+      "azure consultancy west midlands",
+      "managed cloud birmingham"
+    ]
+  }
+}

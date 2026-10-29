@@ -1,0 +1,132 @@
+{
+  "path": "/locations/los-angeles/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Los Angeles, CA | 22 Signals",
+  "description": "Cloud consulting for Los Angeles media, ecommerce, aerospace and healthcare firms: AWS, Google Cloud and Azure architecture, security and cost reviews.",
+  "eyebrow": "Cloud Consulting in Los Angeles",
+  "h1": "Cloud consulting for Los Angeles companies with heavy files, spiky traffic and strict access rules",
+  "intro": "Our cloud consulting helps established Los Angeles companies run on AWS, Google Cloud or Azure without surprise bills or security gaps. We review what you have, design the right architecture, tighten access control and monitoring, cut waste, and can run the environment for you afterwards, with one accountable lead.",
+  "sections": [
+    {
+      "h": "The cloud problems we see most in LA",
+      "p": [
+        "Cloud bills in Los Angeles companies often grow for reasons nobody planned. A post-production team leaves terabytes of old project files in hot storage. A DTC brand sizes servers for its biggest drop of the year and pays for that capacity every other day too. An engineering supplier gives every contractor admin access because it was quicker at the time.",
+        "None of these are exotic. They are what happens when a business grows faster than its infrastructure decisions. Finding them is the first job in cloud consulting. Los Angeles engagements with us start there: we find the problems, fix the ones that cost money or create risk, and leave a setup your team understands. We are also happy to tell you when your current setup is fine and the money is better spent elsewhere."
+      ]
+    },
+    {
+      "h": "What we do",
+      "list": [
+        "Architecture design and review on AWS, Google Cloud and Azure",
+        "Security and access control: roles, least-privilege access, secrets and multi-factor sign-in",
+        "Monitoring and alerting so problems surface before customers notice",
+        "Cost reviews: storage tiers, right-sizing, reserved capacity and egress charges",
+        "Backup and disaster recovery plans with tested restores",
+        "Managed cloud operations if you would rather not run it in-house"
+      ]
+    },
+    {
+      "h": "Cloud needs by Los Angeles industry",
+      "list": [
+        "Studios, post houses and media companies: storage tiers for large media libraries, burst capacity for rendering, fast transfer for remote editors, and control of egress costs when files move often",
+        "Ecommerce and DTC brands: sites and checkouts that scale for launches and holiday peaks, then scale back down",
+        "Aerospace and defense suppliers in El Segundo, Hawthorne and Long Beach: strict separation of controlled data; where rules such as ITAR or CMMC apply, we say so plainly and work with the right specialists and government cloud options",
+        "Clinics, health tech and dental groups: HIPAA-eligible services, signed business associate agreements with the provider, encryption and audit logs",
+        "Real estate and property firms: secure document storage, tenant portals and integrations with property management software"
+      ]
+    },
+    {
+      "h": "Regions, latency and earthquake planning",
+      "p": [
+        "Location still matters in the cloud. Google Cloud has a region in Los Angeles, and AWS runs a Local Zone in the city that media teams use for low-latency work, alongside larger West Coast regions in Northern California and Oregon. We choose regions based on where your users and editors are, and on what your data rules allow.",
+        "Southern California also has to plan for earthquakes. A sensible disaster recovery design keeps backups in a separate region, far from your primary one, and tests restores on a schedule. We write that plan down and run the test with you."
+      ]
+    },
+    {
+      "h": "California privacy and security duties",
+      "p": [
+        "The CCPA, as amended by the CPRA, expects businesses to use reasonable security for the personal information they hold, and California's breach notification rules apply when that security fails. In cloud terms that means encryption, tight access, logging and knowing exactly where customer data sits. We build those controls in and document them, so you can show your counsel and your insurer what is in place."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a call to understand your workloads, team and worries",
+        "Plan: a written review with findings ranked by risk and savings, plus dates for each fix",
+        "Build: we make the changes in stages, with rollback plans and change notes",
+        "Grow: monitoring, monthly cost reviews and, if you want it, managed operations"
+      ]
+    },
+    {
+      "h": "Remote cloud support on Pacific time",
+      "p": [
+        "We deliver from London, 8 hours ahead of Los Angeles for most of the year, with teams in four regions. That spread is an advantage for infrastructure: maintenance windows and risky changes can run during the LA night, when traffic is lowest, and we report back before your day starts. Planning calls sit in your morning. Everything we do happens in your accounts with named access you can revoke, and we only plan an on-site visit when the project needs it. Remote delivery changes the hours, not the substance, of cloud consulting. Los Angeles clients still get one lead, change notes for every fix and a written report each month."
+      ]
+    },
+    {
+      "h": "Proof from security work",
+      "p": [
+        "Part of our work has been cleaning up compromised law-firm websites: finding how attackers got in, removing what they left, closing the gaps and setting up monitoring so it does not happen again. That experience shapes how we set up access and monitoring from the start."
+      ]
+    },
+    {
+      "h": "Cost factors and next steps",
+      "p": [
+        "Cost depends on the size of your environment, how many cloud accounts and providers are involved, your compliance needs, how much hands-on change you want from us and whether you want ongoing managed operations. Clients often follow cloud consulting with a cloud migration, DevOps consulting to automate releases, or web development on the new setup."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you provide cloud consulting in Los Angeles on site?",
+      "a": "We work with Los Angeles companies remotely from London, with calls during your morning. Cloud work happens in consoles and code, so remote delivery is normal. If a workshop with your engineers or a data center visit is genuinely needed, we plan a visit for that part of the project."
+    },
+    {
+      "q": "Which cloud provider is best for a media company in LA?",
+      "a": "It depends on your tools and where your editors work. AWS has a Los Angeles Local Zone used for low-latency media work, Google Cloud has a Los Angeles region, and Azure fits well if you already rely on Microsoft. We compare them on your actual workloads and costs, not on brand preference."
+    },
+    {
+      "q": "How can we cut our cloud bill?",
+      "a": "The common savings are moving old files to lower-cost storage tiers, right-sizing servers, switching off idle environments, committing to reserved capacity for steady workloads and reducing data egress. We run a cost review, rank savings by size and risk, and make the changes with you in stages."
+    },
+    {
+      "q": "Can you help with HIPAA in the cloud?",
+      "a": "Yes, at the infrastructure level. We use HIPAA-eligible services, make sure a business associate agreement is in place with the provider, and set up encryption, access control and audit logging. Your compliance officer or counsel owns the overall HIPAA program; we make the cloud side match it."
+    },
+    {
+      "q": "Do you work with aerospace and defense suppliers?",
+      "a": "We work with engineering and manufacturing suppliers on general cloud architecture, security and cost. Where controlled data falls under ITAR or CMMC requirements, those rules dictate who can access systems and which cloud environments are allowed. We say so clearly at the start and bring in the right specialists rather than guessing."
+    },
+    {
+      "q": "What does managed cloud operations include?",
+      "a": "Monitoring and alerting, patching, backups and restore tests, access reviews, monthly cost reports and a named lead who handles changes and incidents. Because our teams work across time zones, routine maintenance runs outside your business hours in Los Angeles, and you get a written summary each month."
+    },
+    {
+      "q": "How do we know if our cloud setup needs a review?",
+      "a": "Common signs are a bill that keeps rising without new customers, nobody being sure who has admin access, backups that have never been restored as a test, and outages you hear about from customers first. Any one of these is reason enough for a short review. It is the most common starting point for cloud consulting. Los Angeles companies can expect a ranked findings list early in the engagement, with the timing agreed upfront."
+    }
+  ],
+  "related": [
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/los-angeles",
+    "/locations/los-angeles/web-development",
+    "/locations/san-francisco/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting los angeles",
+    "secondary": [
+      "aws consultant los angeles",
+      "cloud services los angeles",
+      "azure consulting los angeles",
+      "managed cloud los angeles"
+    ]
+  }
+}

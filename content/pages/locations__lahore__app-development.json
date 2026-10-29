@@ -1,0 +1,138 @@
+{
+  "path": "/locations/lahore/app-development",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Lahore",
+  "citySlug": "lahore",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company Lahore: Android, iOS, Web | 22 Signals",
+  "description": "An app development company Lahore firms use for Android-first apps, web apps and SaaS: built for budget phones, local wallets and Urdu, then supported.",
+  "eyebrow": "App Development in Lahore",
+  "h1": "An app development company Lahore businesses can build a product with",
+  "intro": "We design and build iOS and Android apps, web apps and SaaS products for established Lahore businesses and funded founders. Apps are built for the phones your customers really carry, work on patchy connections, take local payments and are launched on the stores with support afterwards. One Signal Lead runs it from first sketch to the first thousand users.",
+  "sections": [
+    {
+      "h": "The problem: apps that look good in the demo and fail in the field",
+      "p": [
+        "Many apps commissioned in Lahore are built and tested on the developer's flagship phone over office Wi-Fi. Then they reach a delivery rider on a three-year-old Android handset with a weak signal, or a dealer in a town outside the city, and they freeze, drain the battery or refuse to load. Usage drops after the first week and the app becomes a cost with no return.",
+        "We start from the user and the conditions they work in, and only then choose screens and features.",
+        "The first job of any app development company Lahore founders or owners hire should be to question the brief. Does this need to be an app, or would a fast web app or a WhatsApp flow do the job sooner? Which one feature would make a user open it every day? We ask those questions before quoting, because a smaller first release that people use beats a large one they delete."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Android and iOS apps, native or cross-platform depending on the features and budget.",
+        "Web apps and SaaS products, including dashboards and admin panels your staff run the business from.",
+        "MVPs for founders who need to test demand before they build everything.",
+        "Payments, including card gateways and wallets where your provider supports them, and instant transfers through Raast.",
+        "APIs and integrations with your ERP, CRM, accounts and courier systems.",
+        "App store launch on Google Play and the App Store, with listings written to be found.",
+        "Support, updates and monitoring once the app is live."
+      ]
+    },
+    {
+      "h": "Android first, because that is where your users are",
+      "p": [
+        "Most phones in Pakistan run Android, many of them budget and mid-range models with limited storage. So we keep app size down, cache what users need for offline moments, handle a dropped connection without losing their work and test on low-end devices before release. iOS still matters for premium audiences and for anyone selling to buyers abroad, and cross-platform frameworks let us serve both from one codebase when it makes sense.",
+        "Language counts too. An app for customers in Lahore may need Urdu screens and right-to-left layout, while one for an exporter's foreign buyers needs polished English. We design for both from the start rather than retrofitting."
+      ]
+    },
+    {
+      "h": "App development: Lahore use cases we know well",
+      "list": [
+        "Dealer and distributor ordering apps, so sales reps and retailers place orders without phone calls and WhatsApp photos.",
+        "Booking apps for salons, clinics and fitness studios, with reminders and deposits.",
+        "Ordering and loyalty apps for restaurant groups that want customers on their own channel as well as delivery platforms.",
+        "Buyer and instalment apps for real estate developers in DHA and on the edges of the city, showing plans, payments due and construction updates.",
+        "Parent and student apps for school systems and colleges: notices, results, attendance and fees.",
+        "SaaS products from Lahore founders and software houses near Arfa Software Technology Park, aimed at customers in the US, UK or Gulf."
+      ]
+    },
+    {
+      "h": "Proof: building products, not just projects",
+      "p": [
+        "We are developing an AI commentary product for live esports, which has to process a live match and produce commentary in step with the action. It is still in development, and it shows the kind of product thinking we bring: real-time constraints, careful testing and an honest view of what is ready to launch."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: who will use the app, where, on what devices and why they would come back. Plan: user flows, a clickable prototype, the feature list split into launch and later, and a dated plan. Build: two-week cycles with a test build in your hands at the end of each one. Grow: store launch, analytics, crash monitoring, user feedback and the next set of features."
+      ]
+    },
+    {
+      "h": "Rules that shape apps in Pakistan",
+      "p": [
+        "Apps that hold or move money fall under State Bank of Pakistan rules, so we involve your bank or payment provider early and keep card data out of your systems entirely. All apps should treat user data carefully under the Prevention of Electronic Crimes Act 2016, and we build consent, data export and account deletion in now, ahead of the draft Personal Data Protection Bill and in line with what Google Play and the App Store already require."
+      ]
+    },
+    {
+      "h": "Remote delivery for Lahore clients",
+      "p": [
+        "We build from our head office in London and work with Lahore clients online. Sprint reviews run in the Lahore afternoon, for example 13:00 London, which is 18:00 PKT in winter and 17:00 PKT in summer. You install every test build on your own phone, comment in one shared tracker and get dates in writing from your Signal Lead."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Platforms: Android only, iOS only, both, or web app as well.",
+        "Number of screens and user roles.",
+        "Payments, maps, chat, notifications and other integrations.",
+        "Admin panel and reporting needs.",
+        "Languages and right-to-left support.",
+        "Post-launch support and feature development."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Launching an app is half the job. We also run the cloud it lives on, the website and SEO that explain it, the ads and video that bring users in and the dashboard that shows whether they stay. Related services: web development, cloud consulting, custom AI development and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we build a native app or a cross-platform app?",
+      "a": "Cross-platform suits most business apps, since one codebase serves Android and iOS and updates ship faster. Native suits apps that need heavy device features, top performance or very large audiences. We recommend after seeing your feature list and users, and explain what each choice costs to build and maintain."
+    },
+    {
+      "q": "Why do you focus on Android for Lahore audiences?",
+      "a": "Because most people in Pakistan use Android phones, often budget models with limited storage and variable connections. Building and testing for those devices first means the app works for the widest audience. We still build iOS where your customers or foreign buyers expect it."
+    },
+    {
+      "q": "Can the app accept JazzCash, Easypaisa or cards?",
+      "a": "Usually, through a payment gateway or the provider's own integration, depending on your merchant agreements. We help you pick the provider, handle the technical integration and keep sensitive payment data with the provider rather than in your app or database."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "A focused MVP often takes a few months; a larger product with several user roles and integrations takes longer. We split features into launch and later, give dated milestones in writing and put a working test build in your hands every two weeks."
+    },
+    {
+      "q": "Is your app development company Lahore-based?",
+      "a": "No. Our head office is in London and we work with Lahore clients remotely, with sprint reviews in the Lahore afternoon. Everything is shared online, from the prototype to test builds. If a workshop with your users in Lahore would help, we arrange it when the project needs it."
+    },
+    {
+      "q": "Who owns the code and the app store accounts?",
+      "a": "You do. The app store accounts are created in your company's name and the code lives in a repository you own. That way you can bring development in-house or change partners later without losing anything. We document the set-up as we go, so a new developer can pick it up without guesswork."
+    }
+  ],
+  "related": [
+    "/locations/lahore",
+    "/services/app-development",
+    "/locations/lahore/web-development",
+    "/locations/lahore/cloud-consulting",
+    "/services/custom-ai-development",
+    "/locations/islamabad/app-development"
+  ],
+  "keywords": {
+    "primary": "app development company lahore",
+    "secondary": [
+      "mobile app development lahore",
+      "android app developers lahore",
+      "app developers in lahore",
+      "software house lahore"
+    ]
+  }
+}

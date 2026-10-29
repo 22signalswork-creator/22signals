@@ -1,0 +1,145 @@
+{
+  "path": "/locations/chicago/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Chicago, IL | 22 Signals",
+  "description": "AI automation for Chicago freight brokers, distributors, manufacturers and insurers: custom tools that clear inboxes, quotes and reports.",
+  "eyebrow": "AI Automation in Chicago",
+  "h1": "AI automation for Chicago teams buried in email and spreadsheets",
+  "intro": "AI automation takes the repetitive desk work out of a Chicago business: reading emails, keying orders, chasing carriers, building weekly reports. We build custom tools and workflows for established freight, distribution, manufacturing, insurance and professional services firms, with a person approving anything that matters. The outcome is fewer manual hours and faster answers to customers.",
+  "sections": [
+    {
+      "h": "Where the hours go in a Chicago operation",
+      "p": [
+        "Walk through any freight brokerage near Union Station or any distributor out by O'Hare and you see the same thing. Smart people copying numbers from a PDF into a TMS. Someone answering the fortieth 'where is my load' email of the morning. A coordinator rebuilding the same Monday report by hand because three systems do not talk to each other.",
+        "None of that needs a new platform. It needs the boring, specific work of connecting the tools you already pay for and letting software do the reading and typing. That is what AI automation in this city looks like when it is done properly: small, measurable wins that stack up."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read emails, PDFs and scanned forms, pull out the fields you need, and drop them into your TMS, ERP or CRM.",
+        "Workflow automation across email, CRM and spreadsheets, so a new order, claim or lead moves to the right person without anyone forwarding it.",
+        "Internal tools and dashboards for dispatchers, account managers and plant supervisors.",
+        "Research and reporting systems that assemble the weekly numbers and write the first draft of the summary.",
+        "AI assistants with human hand-off for customer questions, tracking requests and intake, where a person takes over the moment the answer is unclear."
+      ]
+    },
+    {
+      "h": "Chicago workflows we automate most",
+      "list": [
+        "Freight and 3PL: load tender intake from email, carrier onboarding packets, proof of delivery matching, and automated status updates to shippers.",
+        "Distribution and food: purchase order entry from customer PDFs, price list updates, and short-dated stock alerts for food and consumer goods companies.",
+        "Manufacturing: RFQ intake, drawing and spec lookups, and maintenance request routing for plants across Cook, DuPage and Will counties.",
+        "Insurance: first notice of loss intake, document sorting for claims files, and renewal reminders for agencies and carriers in the Schaumburg and Northbrook areas.",
+        "Professional services: matter intake, conflict check prep, and time entry nudges for Loop law and accounting firms.",
+        "Healthcare: appointment and referral intake for clinics, with patient data kept inside HIPAA rules."
+      ]
+    },
+    {
+      "h": "Signs you are ready for AI automation: Chicago checklist",
+      "p": [
+        "Not every process should be automated yet. These are the signs a Chicago team is ready, based on the projects that went well."
+      ],
+      "list": [
+        "The same task happens dozens of times a day and follows a pattern a new hire could learn in a week.",
+        "The information already arrives in writing: emails, PDFs, portal exports or forms.",
+        "Someone can tell us how long the task takes now, even roughly.",
+        "There is an owner who will check the output for the first few weeks.",
+        "The systems involved have logins we can test against, not only a desktop app on one PC in the back office."
+      ]
+    },
+    {
+      "h": "Guardrails for Illinois",
+      "p": [
+        "Automation in Illinois needs a few extra checks. If a tool touches voice or images of people, for example call recordings analyzed for sentiment or a camera at a dock door, we check whether it creates biometric identifiers under BIPA. If it does, we design it out or plan the written consent and retention policy first. Fingerprint time clocks in warehouses are the classic BIPA problem, and we will not wire one into a workflow without that paperwork in place.",
+        "Any personal data the automation stores falls under the Illinois Personal Information Protection Act, which expects reasonable security and sets breach notice duties. We log what the tool does, keep access tight, and make sure a person can review and reverse its actions."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: we sit with the people doing the work, on video, and time the task as it is done today.",
+        "Plan: we pick one workflow, write down the expected hours saved, the systems involved and the dates.",
+        "Build: we build it against your real emails and documents, then run it beside the manual process until the numbers match.",
+        "Grow: once it holds up, we hand it over with training and move to the next workflow on the list."
+      ]
+    },
+    {
+      "h": "Proof: we built our own sales engine",
+      "p": [
+        "One of the systems we are proudest of is the complete outbound sales engine we built for 22 Signals itself: lists, research, writing, sending and follow-up, with people checking the output. We use it every day, which means we have lived with the edge cases. The same thinking goes into the tools we build for clients."
+      ]
+    },
+    {
+      "h": "Working from London with a Chicago team",
+      "p": [
+        "We deliver AI automation. Chicago clients work with us remotely from London. Chicago runs six hours behind us for most of the year, so we review results with your team in the Chicago morning and keep building through our evening. Your Signal Lead is your one contact, and specialist teams across four regions sit behind them.",
+        "Automation projects rarely need anyone on site. If a workflow lives on a warehouse floor or at a plant and we need to see it, we visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "The number of workflows and the systems each one touches.",
+        "Whether your TMS, ERP or CRM has a usable API, or needs a workaround.",
+        "Document variety: ten clean templates versus hundreds of customer formats.",
+        "How much human review the process needs and who does it.",
+        "Ongoing support and changes once the tool is live."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "If you are weighing AI automation, Chicago firms often ask where to begin. If you are not yet sure which workflow to start with, AI consulting ranks the options first. Business intelligence pairs well with automation, since cleaner data makes better reports. App development covers tools your drivers or field staff use on the move."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What can AI automation do for a Chicago freight broker?",
+      "a": "Quite a lot of the inbox. Typical builds read load tenders and rate confirmations from email, create the load in your TMS, collect carrier documents, and send status updates to shippers. A dispatcher still approves anything unusual. The aim is that your team spends its time on carriers and customers, not on copying numbers from attachments."
+    },
+    {
+      "q": "Is AI automation safe under BIPA?",
+      "a": "It can be, if it is designed that way. Most automations read documents and text and never touch biometric data. Where a workflow would involve faces, fingerprints or voiceprints, we flag it early and either remove that part or put BIPA notice, written consent and retention rules in place before launch. Your counsel reviews the design."
+    },
+    {
+      "q": "Will the automation replace our staff?",
+      "a": "That is not how we scope it. We look for the repetitive parts of a role, such as keying data or chasing updates, so your people can handle more volume and the work that needs judgement. Many Chicago clients use the time saved to grow without adding hires. Every tool keeps a person in charge of the decisions."
+    },
+    {
+      "q": "Do you work with our existing systems?",
+      "a": "Yes. We build on what you already run, whether that is a TMS, an ERP, Salesforce, HubSpot, Microsoft 365 or a set of shared spreadsheets. If a system has an API we use it; if not, we find a safe workaround. We avoid asking Chicago clients to replace core systems just to automate one process."
+    },
+    {
+      "q": "How soon will we see results?",
+      "a": "A single, well-chosen workflow can usually show results within weeks of the plan being agreed, because we run it beside the manual process and compare. Larger jobs that touch several systems take longer. We write down the target hours saved and the dates at the start, then report against them."
+    },
+    {
+      "q": "Can you meet our team in Chicago?",
+      "a": "Mostly we work on video, in your morning and our London afternoon. That suits interviews and reviews well. If we need to see a workflow on a dock or a plant floor, or your team prefers an in-person handover, we plan a trip to Chicago when the project needs it. We do not keep a Chicago office."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/ai-automation",
+    "/locations/chicago/ai-consulting",
+    "/locations/chicago/app-development",
+    "/services/custom-ai-development",
+    "/locations/chicago/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "ai automation chicago",
+    "secondary": [
+      "ai automation agency chicago",
+      "workflow automation chicago",
+      "business process automation chicago",
+      "freight automation"
+    ]
+  }
+}

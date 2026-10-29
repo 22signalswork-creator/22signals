@@ -1,0 +1,143 @@
+{
+  "path": "/services/custom-ai-development",
+  "kind": "service",
+  "region": "global",
+  "service": "custom-ai-development",
+  "serviceType": "Custom AI development",
+  "title": "Custom AI Development: Agents and RAG | 22 Signals",
+  "description": "Custom AI development for established companies: AI agents, search over your own documents and AI product features, tested and guarded before launch.",
+  "eyebrow": "Custom AI Development",
+  "h1": "Custom AI development that holds up in real work",
+  "intro": "Custom AI development means building AI around your own data, rules and systems instead of renting a generic chatbot. 22 Signals builds AI agents, search over company documents, AI features inside products and integrations with the major model providers, for established companies that need answers they can trust. One lead owns the build from scope to launch.",
+  "sections": [
+    {
+      "h": "When does a business need custom AI development?",
+      "p": [
+        "Most companies start with a chatbot subscription and a few saved prompts. That works until the AI needs to know your prices, your policies, your case history or your stock levels, or until it has to do something in your systems rather than just talk about it. At that point a general tool either guesses or gives up.",
+        "A custom build closes that gap. We build AI that reads your own data, follows your rules, works inside the software your team already uses and keeps a record of what it did. The goal is not a demo that impresses in a meeting. It is a system your staff rely on every day without checking every answer twice."
+      ]
+    },
+    {
+      "h": "What our custom AI development covers",
+      "list": [
+        "AI agents that carry out multi-step tasks in your tools, such as drafting a reply, updating a record or filing a document, with approval steps where they matter",
+        "Retrieval over company documents (often called RAG), so answers come from your contracts, manuals, policies and knowledge base, with the source shown",
+        "AI features inside your product: search, summaries, drafting, classification and recommendations your customers use directly",
+        "Integrations with large language model providers such as OpenAI, Anthropic and Google, chosen per task for quality, speed and data terms",
+        "Evaluation sets and guardrails that test accuracy, tone and safety before anything reaches a customer",
+        "Hosting, logging and monitoring, so you can see usage, cost per task and every point where the AI needed a person"
+      ]
+    },
+    {
+      "h": "AI agents: useful, but only with limits",
+      "p": [
+        "An AI agent is software that plans and takes steps toward a goal: look something up, decide, act, check the result. Done well, an agent can read an intake form, check it against your criteria, open a record in your customer database and draft the first reply for a person to approve.",
+        "Done badly, it takes actions nobody asked for. So every agent we build has a written list of what it may and may not do, permissions that match that list, a log of every action and a clear point where it hands over to a human. We start agents on low-risk work and widen their reach only when the results say they are ready.",
+        "We are applying the same thinking to an AI commentary product for live esports, still in development, where the system has to keep pace with live play and stay accurate while it does."
+      ]
+    },
+    {
+      "h": "Search over your own documents, explained plainly",
+      "p": [
+        "Retrieval means the AI looks up the relevant passages in your documents before it answers, then writes the answer from those passages. It is how you get an assistant that knows your onboarding manual, your service terms or ten years of project files without training a new model.",
+        "The quality comes from the unglamorous parts: splitting documents sensibly, keeping access rules so staff only see what they are allowed to see, refreshing the index when files change and showing the source next to every answer. If the documents do not contain the answer, the assistant should say so. We test for that case on purpose, because it is where most assistants fail."
+      ]
+    },
+    {
+      "h": "How a custom AI build runs",
+      "p": [
+        "Every engagement follows the same four steps, run by one Signal Lead who stays accountable from the first call to handover."
+      ],
+      "list": [
+        "Talk: we learn the task, the people who do it today, the data involved and what a good result looks like in numbers.",
+        "Plan: we write the scope, the model and hosting choices, the evaluation approach and the dates. Every date agreed goes in writing.",
+        "Build: we ship a working version early, test it against real examples from your business and fix what fails before widening use.",
+        "Grow: we track accuracy, cost and adoption after launch, add the next use case and train your team to run and adjust it."
+      ]
+    },
+    {
+      "h": "Evaluation and guardrails before launch",
+      "p": [
+        "Most AI projects that disappoint were never measured. Before launch we build a test set from your real cases: the common ones, the awkward ones and the ones that must never go wrong. Each version of the system is scored against that set, so you can see whether a change made it better or worse instead of relying on a feeling.",
+        "Guardrails sit around the model: checks on what goes in, checks on what comes out, blocked topics, limits on actions and rules for personal or regulated data. For law firms and clinics that usually means client data stays in approved systems and any answer that matters is reviewed by a person before it is sent."
+      ]
+    },
+    {
+      "h": "Who we build custom AI for",
+      "p": [
+        "We work mostly with established companies of 5 to 500 staff, and with founders building AI into a new product. Each industry we know well has its own sensible first build:"
+      ],
+      "list": [
+        "Law firms and professional services: intake triage, first drafts of documents and search across case files",
+        "Healthcare and wellness, including clinics, aesthetics, dental and health tech: inquiry handling and patient information assistants with strict data rules",
+        "Technology, SaaS and AI companies: AI features inside the product and support assistants that know the documentation",
+        "Fashion, beauty and retail: product search, catalog descriptions and customer service replies",
+        "Real estate: listing descriptions, lead qualification and search across property documents",
+        "Gaming, esports and entertainment: tools that work with live match data and commentary"
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have delivered more than 30 AI builds, covering custom AI tools, systems and automations, for businesses that used to run the old way. The pattern that works is the same each time: one defined task, a way to measure it and a named person who owns the result on both sides."
+      ]
+    },
+    {
+      "h": "What affects the cost of a custom AI build",
+      "p": [
+        "We do not publish prices, because two AI projects with the same name can differ widely in effort. Cost depends on scope, and these are the factors that move it most:"
+      ],
+      "list": [
+        "How many data sources the AI needs, and how clean and current they are",
+        "Whether the system only answers questions or also takes actions in other software",
+        "The number of integrations with your existing tools",
+        "The accuracy level required and how much human review sits in the process",
+        "Privacy and hosting requirements, such as keeping data in a specific region or your own cloud account",
+        "Expected volume, which drives model usage costs",
+        "Support, monitoring and improvement after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for custom AI development",
+      "p": [
+        "You get one accountable lead with specialist teams behind them across AI, cloud and data, so the model, the hosting and the integrations are built by people who work together every day. Because the same company also runs marketing, video, animation and 3D, an AI feature can launch with the landing page, demo video and campaign that get people to use it.",
+        "Related services: AI Consulting to decide which use cases are worth building, AI and Automation for the workflows around the AI, Cloud Consulting for the infrastructure it runs on, and App Development when the AI lives inside a new product."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is custom AI development?",
+      "a": "Custom AI development is building AI software around your own data, rules and systems instead of using a general chatbot as it comes. It usually combines a large language model with retrieval over your documents, integrations with your tools, and tests and guardrails that make the output reliable enough to run part of the business on."
+    },
+    {
+      "q": "How long does a custom AI build take?",
+      "a": "It depends on scope. A focused assistant over one set of documents is a short project, while an agent that acts across several systems is planned in phases. You get a dated plan in writing before work starts, and we ship a working version early so you can test it on real cases rather than wait for a big reveal."
+    },
+    {
+      "q": "Is our data safe if we use OpenAI, Anthropic or Google models?",
+      "a": "It can be, with the right setup. We use business agreements and settings under which providers do not train on your data, limit what data is sent at all, and keep sensitive records inside your own systems where needed. For regulated work we document the data flow so your compliance lead can review it before launch."
+    },
+    {
+      "q": "Should we build custom AI or buy a tool?",
+      "a": "Buy when a tool already does the job well and your data and process are standard. Build when the value depends on your own data, your own workflow or a feature inside your product. Many projects mix both: an existing platform for the common parts and custom work for the part that makes you different."
+    },
+    {
+      "q": "What is the difference between an AI agent and a chatbot?",
+      "a": "A chatbot answers questions. An AI agent takes steps: it can look up records, fill in forms, update systems and decide what to do next. That makes agents more useful and also riskier, so we give each agent narrow permissions, approval points for anything important and a log of every action it takes."
+    },
+    {
+      "q": "How do you stop the AI from making things up?",
+      "a": "We ground answers in your own documents, show the source with each answer and instruct the system to say when it does not know. Then we test it against a set of real questions, including ones it should refuse, and measure the error rate before and after every change. People review answers where a mistake would be costly."
+    },
+    {
+      "q": "Can you add AI features to our existing product?",
+      "a": "Yes. We work inside existing codebases and add features such as smart search, summaries, drafting and classification through your current stack. We agree how the feature will be measured, release it to a small group of users first, then widen it once usage and accuracy look right."
+    }
+  ],
+  "related": ["/services/ai-consulting", "/services/ai-automation", "/services/cloud", "/services/app-development", "/services/whatsapp-automation"],
+  "keywords": {
+    "primary": "custom ai development",
+    "secondary": ["custom ai development company", "ai agent development", "rag development", "llm integration", "custom ai solutions"]
+  }
+}

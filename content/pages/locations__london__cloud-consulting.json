@@ -1,0 +1,155 @@
+{
+  "path": "/locations/london/cloud-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consultancy",
+  "title": "Cloud Consultancy London: AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consultancy London firms use for AWS, Azure and Google Cloud: UK-region architecture, security, cost reviews and managed operations.",
+  "eyebrow": "Cloud Consulting in London",
+  "h1": "Cloud consultancy London businesses can hand the keys to",
+  "intro": "22 Signals is a cloud consultancy. London is our head office, and from there we design, secure and run infrastructure on AWS, Microsoft Azure and Google Cloud, with data in UK regions when you need it. Established firms use us to tidy up sprawling accounts, meet FCA and UK GDPR expectations, cut wasted spend and get one accountable lead.",
+  "sections": [
+    {
+      "h": "How cloud estates drift out of control",
+      "p": [
+        "Most London companies did not plan their cloud. A developer opened an AWS account for a project in 2019, the finance team bought a SaaS tool on a card, IT moved email to Microsoft 365 during lockdown, and an agency hosted the website somewhere nobody remembers. Five years on, there are admin accounts belonging to people who have left, backups nobody has tested, and a monthly bill in US dollars that rises with the exchange rate as well as usage.",
+        "None of this is unusual, and none of it is hard to fix once someone owns it. That is the job: one cloud consultancy London teams can call, which knows what is running, why, and what it costs.",
+        "We also see the opposite problem: firms that moved everything to the cloud in one go, copied their old servers across unchanged, and now pay more than they did on premises for the same performance. A sensible estate sits somewhere between those two, and getting there is mostly careful housekeeping rather than a big rebuild."
+      ]
+    },
+    {
+      "h": "What our cloud consultancy includes",
+      "list": [
+        "Architecture on AWS, Azure or Google Cloud, designed around how your business actually works",
+        "Security and access control: single sign-on, multi-factor authentication, least-privilege roles and leaver processes",
+        "Monitoring and alerting, so problems page a person before customers notice",
+        "Backups and disaster recovery that are tested, not assumed",
+        "Cost reviews: right-sizing, idle resources, storage tiers and commitment plans",
+        "Managed cloud operations: patching, updates, incident response and a monthly report"
+      ]
+    },
+    {
+      "h": "UK regions, UK rules",
+      "p": [
+        "All three major providers run data centres in or near London: AWS Europe (London), Azure UK South, and Google Cloud's London region. For clients who need data kept in the UK, we design around those regions and document it, which makes UK GDPR and Data Protection Act 2018 records much simpler. Where a service is only available elsewhere, we tell you and explain the transfer safeguards before anything moves.",
+        "Regulated firms have specific expectations. The FCA's operational resilience rules ask firms to identify important business services and stay within set impact tolerances, and its outsourcing rules cover how cloud providers are chosen and overseen. We map your cloud setup to those services, set up the logs and evidence auditors ask for, and write the exit plan regulators expect for material outsourcing. The NCSC's cloud security principles are a useful baseline for everyone else, and we use them in our reviews."
+      ]
+    },
+    {
+      "h": "Who we do this for in London",
+      "list": [
+        "Financial services and fintech firms in the City and Canary Wharf that need resilience evidence, not just uptime",
+        "Law firms and professional services handling confidential client files across several London offices and remote staff",
+        "Retail and fashion e-commerce sites that must hold up during sales peaks and Black Friday",
+        "Healthcare, life sciences and research groups around the Knowledge Quarter with sensitive datasets",
+        "Property businesses running portals, CRMs and document storage that grew without a plan",
+        "Media and creative studios in Soho and Shoreditch moving large files and render workloads"
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call about what worries you most, whether that is cost, security, an audit or an outage. Plan: a full review of your accounts, access, spend and risks, delivered as a written report with a prioritised fix list. Build: we make the changes in agreed windows, with rollback plans for anything that touches production. Grow: monthly operations, cost reports and quarterly reviews as the business changes.",
+        "Each step has dates in writing, and your Signal Lead is the one person who answers for all of them."
+      ]
+    },
+    {
+      "h": "Proof: cleaning up after a breach",
+      "p": [
+        "We have carried out security clean-ups of compromised law-firm websites: finding how attackers got in, removing what they left, closing the gaps, and setting up monitoring so it does not happen again. That work shapes our cloud reviews. We look first at the boring things that cause most incidents: old admin accounts, missing patches, open storage and untested backups."
+      ]
+    },
+    {
+      "h": "Meeting in London, support beyond London hours",
+      "p": [
+        "Our head office is in London, so we can sit with your IT lead or operations director to walk through the estate, and meet in person for quarterly reviews if you want them. Plenty of decisions about access and risk are easier across a table than over a screen share.",
+        "Day-to-day operations run remotely. Our specialist teams operate across four regions, which lets us schedule maintenance outside London business hours. For companies with colleagues in New York or Dubai, we plan change windows around everyone's working day, not only London's.",
+        "For multi-site London firms, such as law firms with offices in the City and the West End or clinic groups across several boroughs, we also look at how each site connects: VPNs, device management, Wi-Fi and the shared drives everyone still uses. Cloud problems often turn out to be office network problems in disguise."
+      ]
+    },
+    {
+      "h": "Signs you need a cloud consultancy now",
+      "list": [
+        "Nobody can say with confidence who has admin access to your cloud accounts",
+        "The bill has grown faster than the business for three quarters running",
+        "An auditor, insurer or client security questionnaire asked questions you could not answer",
+        "Your last backup restore test was never",
+        "A key person who set everything up has left, or is about to"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "p": [
+        "We price after the review, because the work depends on what we find. The main factors:"
+      ],
+      "list": [
+        "Size of the estate: accounts, subscriptions, services and environments",
+        "Regulatory needs, such as FCA operational resilience evidence",
+        "How much remediation the review uncovers",
+        "Whether you want ongoing managed operations or a one-off project",
+        "Provider costs, which you pay directly and which our cost reviews aim to reduce"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud",
+      "p": [
+        "Cloud is the layer your AI tools, data warehouse, website and apps all depend on. Because we build those too, our cloud advice comes with a clear view of what runs on top. One team, one lead, from infrastructure to the customer-facing product. If it helps, book a 15-minute call and bring your last cloud bill. Related London pages: web development, app development and data analytics."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a cloud consultancy do?",
+      "a": "A cloud consultancy designs, secures and improves the infrastructure your systems run on. The cloud consultancy London firms get from 22 Signals starts with a review of accounts, access, spend and risk, then fixes the priorities and, if you want, runs the estate month to month with one accountable lead."
+    },
+    {
+      "q": "Can you keep our data in London?",
+      "a": "Yes, for most workloads. AWS, Azure and Google Cloud each run a London region, and we design and document your setup to keep data there. If a particular service is not available in the UK, we explain the alternatives and the safeguards before anything is hosted elsewhere."
+    },
+    {
+      "q": "Do you help FCA-regulated firms with cloud?",
+      "a": "Yes. We map your cloud setup to the important business services in your operational resilience work, produce the logs and evidence your compliance team needs, and help draft exit plans for material outsourcing. Your compliance function and the FCA rules remain the final word; we make the technical side clear and auditable."
+    },
+    {
+      "q": "Which cloud provider is best for a London business?",
+      "a": "It depends on what you already run. Companies built on Microsoft 365 often find Azure simplest for identity and data. Software teams frequently prefer AWS. Google Cloud suits analytics-heavy work and Google Workspace firms. We recommend after a review, and we are happy to run a mix if that costs less overall."
+    },
+    {
+      "q": "Can you reduce our cloud bill?",
+      "a": "Usually. Common savings come from shutting down idle resources, right-sizing servers, moving old data to lower-cost storage tiers and buying commitment plans for steady workloads. We show you where the money goes first and agree changes before making them, so performance does not drop."
+    },
+    {
+      "q": "Do you offer ongoing managed cloud support?",
+      "a": "Yes. Managed operations cover monitoring, patching, backups, access reviews, incident response and a monthly report in plain English. You have one Signal Lead to call, and our teams across four regions handle maintenance outside London working hours, so planned changes do not interrupt your staff during the day."
+    },
+    {
+      "q": "Can you visit our London office?",
+      "a": "Yes. Our head office is in London, so we can meet your team in person for the initial review, for workshops on access and risk, and for quarterly reviews if you want them. Most technical work then runs remotely, with changes scheduled in agreed windows."
+    },
+    {
+      "q": "Do you also handle cloud migrations?",
+      "a": "Yes. If the review shows you should move servers, apps or data, we plan and run the migration: assessment, migration plan, testing, cutover and tidying up afterwards. The aim is minimal downtime, with the new environment built alongside the old one before anything switches over."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/london/business-intelligence",
+    "/locations/manchester/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consultancy london",
+    "secondary": [
+      "cloud consulting london",
+      "aws consultancy london",
+      "azure consultancy london",
+      "cloud security consultancy",
+      "cloud cost optimisation"
+    ]
+  }
+}

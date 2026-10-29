@@ -1,0 +1,154 @@
+{
+  "path": "/services/ai-video-production",
+  "kind": "service",
+  "region": "global",
+  "service": "ai-video-production",
+  "serviceType": "AI video production",
+  "title": "AI Video Production: Presenters, Ads, Scenes | 22 Signals",
+  "description": "AI video production with presenters, ad variations and generated scenes, labeled clearly and checked by a person before anything goes live.",
+  "eyebrow": "AI Video Production",
+  "h1": "AI video production, labeled and checked by people",
+  "intro": "AI video production at 22 Signals covers AI presenters, AI ad variations and AI-generated scenes and backgrounds for companies that need more video than a camera crew can make. Every AI element is labeled clearly and every piece is reviewed by a person before it is published, so you get the speed without the embarrassing mistakes.",
+  "sections": [
+    {
+      "h": "What AI video is good at, and where it falls short",
+      "p": [
+        "AI video tools are now good enough for real commercial work, but not for every job. They shine when you need many versions of the same idea: one script in six lengths, one product in ten settings, one presenter speaking to five audiences. They are also useful for scenes that would be expensive or impossible to film, like a city skyline at a particular hour or a product in a room that has not been built.",
+        "They fall short on things buyers notice. Hands, text on screen, brand colors, product details and faces can drift between frames. Claims in a script can be wrong. A generated person who looks almost real but not quite can make a brand look careless.",
+        "So we treat AI as a production tool inside a normal process, with a brief, a script, an edit and a review, not as a button that replaces the process."
+      ]
+    },
+    {
+      "h": "What our AI video production includes",
+      "list": [
+        "AI presenters: a licensed digital presenter, or one based on a real person who has given written consent, delivering your script on camera",
+        "Versions of a presenter video for different audiences, products or offers without booking a new shoot",
+        "AI ad variations: new hooks, backgrounds, openings and lengths built from an ad that already works",
+        "AI-generated scenes and backgrounds for product shots, establishing shots and settings that are hard to film",
+        "AI-assisted cleanup and extension of existing footage, such as widening a frame for a vertical cut",
+        "Clear labeling of AI elements, plus a human review of every frame that goes out"
+      ]
+    },
+    {
+      "h": "How we label AI content",
+      "p": [
+        "We label AI-generated and AI-altered video clearly, in the way each platform expects. YouTube, Meta and TikTok all ask creators to disclose realistic content made or changed with AI, and we set those disclosures when we upload or hand over files for upload.",
+        "Beyond platform rules, we think labeling is simply good business. Buyers are getting better at spotting AI, and a brand caught passing off a generated testimonial as real loses far more than it saved. For that reason we will not make fake customer reviews, fake testimonials or a video that puts words in a real person's mouth without their written permission."
+      ]
+    },
+    {
+      "h": "Consent, rights and brand safety",
+      "list": [
+        "We only use a real person's face or voice with their written consent, and we keep a record of it",
+        "Digital presenters come from licensed sources whose terms allow commercial use",
+        "Music, footage and images are cleared for the channels where the video will run",
+        "Scripts for health, legal and financial topics are checked against your approved claims before production",
+        "Your brand assets and scripts are only used for your project"
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we ask what the video is for, where it will run and whether AI is the right tool at all. Sometimes a simple filmed clip or a motion graphics piece will work better, and we will say so.",
+        "Plan: script, style references, which parts will be AI-generated and which will be filmed or designed, the labeling approach and a delivery date in writing.",
+        "Build: generation, editing, sound and color. A person reviews every frame for errors in faces, hands, text, products and brand details, and anything that fails is fixed or regenerated before you see it.",
+        "Grow: for ad work we track which variations perform and make the next round from the winners, so the AI output gets more useful over time instead of more random."
+      ]
+    },
+    {
+      "h": "AI video or filmed video: how to choose",
+      "p": [
+        "The honest answer is that most good work uses both. A clinic might film its lead doctor once, then use AI to make short versions of that message for each treatment page. A retailer might shoot one hero product video, then generate the same product on a beach, in a kitchen and in a winter street for seasonal ads. The filmed part carries trust, and the AI part carries volume."
+      ],
+      "list": [
+        "Choose AI when you need many versions of one idea, quick changes to an existing ad, or scenes that are hard to film",
+        "Choose filming when the people are the product: founders, doctors, lawyers, real customers and real teams",
+        "Choose motion graphics when the message is a process, a number or a software screen",
+        "Mix them when you want a filmed core with AI-made versions and backgrounds around it, which is how most of our clients use it"
+      ]
+    },
+    {
+      "h": "Where companies use AI video",
+      "list": [
+        "Technology, SaaS and AI companies: product explainers and feature updates presented in several languages",
+        "Fashion, beauty and retail: product ads in many settings and seasons without a new shoot for each",
+        "Healthcare and wellness: patient education videos, with claims reviewed and presenters clearly labeled",
+        "Professional services and law firms: short explainers on common questions, where a consistent presenter saves partner time",
+        "Gaming and entertainment: trailers, teasers and social cuts at the pace of a release calendar",
+        "Real estate: area and lifestyle scenes around a property or development"
+      ]
+    },
+    {
+      "h": "Why our AI work is careful",
+      "p": [
+        "We have delivered more than 30 AI builds for businesses, from custom tools to automations, so we know how AI fails as well as where it helps. That experience is why our AI video production always includes a human check.",
+        "We are also building an AI commentary product for live esports, now in development. Working on AI that has to keep up with a live broadcast has taught us to plan for the moments when the model gets it wrong."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of finished videos and versions",
+        "Whether a presenter is licensed, custom or based on a real person",
+        "How much is generated, filmed or designed in motion graphics",
+        "Languages, voiceover and captions",
+        "Review rounds and approval steps, especially for regulated industries",
+        "Whether the work is a single project or a monthly flow of ad variations"
+      ]
+    },
+    {
+      "h": "Part of one video team",
+      "p": [
+        "AI video sits inside our wider video production and motion graphics team, next to our 2D and 3D animators, our 3D rendering artists and our paid media buyers. That means a winning ad can be versioned with AI and pushed into a campaign by the same people, under one Signal Lead, without a handover between suppliers."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is AI video production?",
+      "a": "AI video production is making video where some of the footage, the presenter, the voice or the backgrounds are generated or changed with AI tools. It is usually combined with normal editing, motion graphics and sound. Done well, it lets a company make many more versions of a video, faster, while a person still checks every frame before it is published."
+    },
+    {
+      "q": "Will people be able to tell the video uses AI?",
+      "a": "Sometimes, and that is fine because we label it. We aim for AI elements that look polished and on brand, not for footage designed to trick viewers into thinking it is real. YouTube, Meta and TikTok all ask for realistic AI content to be disclosed, and we set those labels as part of every delivery."
+    },
+    {
+      "q": "Can you make an AI version of our CEO or a team member?",
+      "a": "Yes, with that person's written consent, which we keep on file. We record reference footage and voice, build the presenter, and use it only for scripts the person or your company has approved. If they later withdraw consent, we stop using the presenter. We will not create a likeness of anyone who has not agreed."
+    },
+    {
+      "q": "Does AI video cost less than filming?",
+      "a": "It can be, mostly when you need many versions of one idea or scenes that would be expensive to film. For a single short video with real people, filming is often the better choice. The cost depends on how much is generated, how many versions you need and how many review rounds it takes, and we put that in a written scope."
+    },
+    {
+      "q": "Which AI video tools do you use?",
+      "a": "We choose tools for each job, because they change quickly and each one is better at different things: presenters, scene generation, voice or editing. We only use tools whose terms allow commercial use of the output, and we keep a note of what was used on each project so you know how every video was made."
+    },
+    {
+      "q": "How long does an AI video project take?",
+      "a": "It depends on the number of videos, versions and review rounds, and we put the delivery date in writing before we begin. Ad variations built from an existing video are usually the quickest. A custom presenter takes longer at the start, because of consent, reference recording and testing, but each new script after that moves much faster."
+    },
+    {
+      "q": "Who owns the finished AI video?",
+      "a": "You receive the finished files for use in the channels agreed in the scope. Rights to licensed presenters, stock assets and music follow the license terms of each source, which we explain before production starts. Custom presenters based on your own team stay tied to your company and are not reused for anyone else."
+    }
+  ],
+  "related": [
+    "/services/video-motion",
+    "/services/3d-animation",
+    "/services/paid-media",
+    "/services/ai-automation",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "ai video production",
+    "secondary": [
+      "ai video production company",
+      "ai video agency",
+      "ai avatar videos",
+      "ai presenter video",
+      "ai video ads",
+      "ai generated video for business"
+    ]
+  }
+}

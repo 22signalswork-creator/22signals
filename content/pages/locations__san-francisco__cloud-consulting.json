@@ -1,0 +1,135 @@
+{
+  "path": "/locations/san-francisco/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in San Francisco, CA | 22 Signals",
+  "description": "Cloud consulting for San Francisco companies on AWS, Google Cloud and Azure: architecture, security reviews, GPU and inference costs, and managed operations.",
+  "eyebrow": "Cloud Consulting in San Francisco",
+  "h1": "Cloud consulting for San Francisco companies on AWS, Google Cloud and Azure",
+  "intro": "We help San Francisco companies run their cloud properly: sound architecture on AWS, Google Cloud or Azure, access control that passes an enterprise security review, monitoring that wakes the right person, and bills you can explain. It suits SaaS and AI firms whose startup credits have run out and whose infrastructure grew faster than anyone planned.",
+  "sections": [
+    {
+      "h": "When the credits run out",
+      "p": [
+        "Many Bay Area companies built their first cloud setup on startup credits, in a hurry, with one engineer holding the keys. Two years later the credits are gone, the bill is a top-five expense, half the resources have no owner, and an enterprise prospect has sent a 200-line security questionnaire.",
+        "AI products add a new line to that bill. GPU instances and model inference calls can outgrow everything else in a quarter, and they rarely get the same scrutiny as the rest of the stack. The cloud consulting San Francisco companies need is often less about building something new than about making what exists cost less, run safer and come with documentation. We start by finding out what you actually run, who owns it and what it costs per customer."
+      ]
+    },
+    {
+      "h": "What cloud consulting San Francisco teams get from us",
+      "list": [
+        "Architecture reviews and designs on AWS, Google Cloud and Azure, written down so the next engineer can follow them.",
+        "Security and access control: single sign-on, least-privilege roles, secrets management and logging that an auditor can read.",
+        "Monitoring and alerting tied to what customers feel, not just CPU graphs.",
+        "Cost reviews covering compute, storage, data transfer, GPUs and model API spend, with a ranked list of savings.",
+        "Backup and disaster recovery plans that are tested, not assumed.",
+        "Managed cloud operations once the setup is right, if you would rather not hire for it."
+      ]
+    },
+    {
+      "h": "Security reviews from enterprise buyers",
+      "p": [
+        "If you sell software to large companies, their procurement team will ask how you handle access, encryption, logging, incident response and vendor risk. Many will also ask for a SOC 2 report. We do not issue certifications, but we set up the cloud controls and the evidence your auditor will look for, and we help your team answer questionnaires accurately rather than optimistically."
+      ]
+    },
+    {
+      "h": "California law and your cloud setup",
+      "p": [
+        "The CCPA gives California residents a right to sue when their personal data is exposed because a business failed to keep reasonable security. That turns misconfigured storage buckets and shared admin passwords from untidy into expensive. We review encryption, access and logging with that in mind, and keep a record of who can reach personal data.",
+        "Resilience matters here too. If your application and its backups sit in a single West Coast region, one regional incident can take out both. We help you decide what deserves a second region, and what can wait.",
+        "We also look at who can change production. In many young setups every engineer has administrator rights because it was quicker at the start. Tightening that rarely slows anyone down if roles are designed around how your team actually ships."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: read-only access first, then interviews with whoever built the setup. Plan: a written findings report ranked by risk and savings, with agreed dates. Build: we fix the urgent items, usually access and backups, then restructure through infrastructure as code so changes are reviewable. Grow: monthly cost and security reviews, or managed operations if you prefer us to run it."
+      ]
+    },
+    {
+      "h": "Who we do this for in the Bay Area",
+      "list": [
+        "SaaS companies in SoMa preparing for enterprise deals and their first security audit.",
+        "AI startups and scale-ups watching GPU and inference costs climb faster than revenue.",
+        "Fintech firms in the Financial District that need audit trails and tight separation between environments.",
+        "Health and biotech companies in Mission Bay and South San Francisco storing sensitive research or patient data.",
+        "Professional services firms on the Peninsula moving off an aging server closet."
+      ]
+    },
+    {
+      "h": "From our security work",
+      "p": [
+        "We have cleaned up compromised law-firm websites: removing malicious code, closing the access holes that let it in and putting monitoring in place so it does not happen quietly again. We bring that discipline to cloud consulting. San Francisco clients get the same order of work: find out who has access, remove what nobody needs, and log the rest."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. The gap helps with maintenance: changes that need a quiet window can run in the early hours Pacific, during the London working day, with your team informed in writing beforehand. Reviews happen on calls between 8 and 11 a.m. Pacific. On-site visits happen when the project needs them."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Size of the estate: number of accounts, projects and environments.",
+        "Which clouds, and whether more than one is in play.",
+        "Whether you need a one-off review or ongoing managed operations.",
+        "Audit timelines set by customers or investors.",
+        "How much is already written as infrastructure as code."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "One accountable lead owns the cloud work and reports in plain English, so your CEO understands the risk list as well as your engineers do. Cloud is our flagship service, and it sits next to cloud migration, DevOps consulting and data engineering in the same team. When your cloud supports AI features, our AI consultants and developers work from the same architecture notes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reduce our AWS bill?",
+      "a": "Usually, yes, though by how much depends on your setup. We start with a cost review: idle resources, oversized instances, storage nobody reads, data transfer charges, commitments you could buy, and spend on GPUs and model calls. You get a ranked list with the expected effect and the risk of each change, and we make the changes you approve."
+    },
+    {
+      "q": "Do you help with SOC 2 for a San Francisco SaaS company?",
+      "a": "We help with the cloud side of it. We set up access control, logging, encryption, backups and change management, and collect the evidence an auditor asks for. We do not perform the audit or issue the report; that needs an independent CPA firm. Many clients hire us to get ready before the audit window opens."
+    },
+    {
+      "q": "Do you work with Google Cloud and Azure, or only AWS?",
+      "a": "All three. Many Bay Area companies run on AWS with a second cloud for data or AI work, often Google Cloud for BigQuery or Azure for OpenAI services and Microsoft customers. We design for the cloud you have, and only suggest moving when the numbers clearly support it."
+    },
+    {
+      "q": "Can you be on call for incidents?",
+      "a": "Yes, under a managed operations agreement. We agree severity levels, response times and an escalation path in writing. The eight-hour gap means our working day covers the San Francisco night, which suits many clients. Serious incidents reach a named engineer, and you get a written incident report afterwards."
+    },
+    {
+      "q": "Do you have cloud engineers in San Francisco?",
+      "a": "No. We work with San Francisco companies remotely from London, with specialist teams across four regions. Cloud work is done through your accounts with audited access, so location matters less than process. If a workshop with your engineers needs to be in person, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How does California privacy law affect our cloud?",
+      "a": "Mainly through security and data handling. The CCPA lets residents sue over breaches caused by unreasonable security, and you must be able to find and delete personal data on request. We document where personal data lives, lock down who can reach it and make sure logs exist. Your counsel handles the legal reading."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/san-francisco/business-intelligence",
+    "/locations/los-angeles/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting san francisco",
+    "secondary": [
+      "aws consultant san francisco",
+      "cloud consultant bay area",
+      "cloud cost optimization san francisco",
+      "soc 2 cloud readiness"
+    ]
+  }
+}

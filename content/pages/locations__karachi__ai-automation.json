@@ -1,0 +1,131 @@
+{
+  "path": "/locations/karachi/ai-automation",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Karachi",
+  "citySlug": "karachi",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Karachi: Custom Tools & Workflows | 22 Signals",
+  "description": "AI automation Karachi traders, freight firms and distributors use to clear paperwork, WhatsApp orders and reports without retyping data. Built and supported.",
+  "eyebrow": "AI Automation in Karachi",
+  "h1": "AI automation Karachi operations teams actually use every day",
+  "intro": "We build AI automation for Karachi companies that still move data by hand: freight forwarders retyping shipping documents, distributors taking orders over WhatsApp, exporters chasing production updates by phone. Custom AI tools and workflows read the documents, update the systems and flag exceptions to a person, so your team spends its day on decisions instead of data entry.",
+  "sections": [
+    {
+      "h": "Where the hours go in a Karachi back office",
+      "p": [
+        "Walk through the operations floor of a clearing agent near Karachi Port, a distributor in SITE or an FMCG head office on Shahrah-e-Faisal and you see the same pattern. Someone receives a PDF or a WhatsApp photo, reads it, and types the same numbers into an ERP, a spreadsheet and an email. Then someone else checks it.",
+        "None of that work is difficult. It is slow, it is error-prone at the end of a long shift, and it does not grow with the business: double the orders and you double the people typing. That is exactly the kind of work current AI handles well, as long as a person still owns the exceptions."
+      ]
+    },
+    {
+      "h": "What AI automation Karachi clients get from us",
+      "list": [
+        "Document readers that pull fields from invoices, bills of lading, packing lists, purchase orders and bank advices into your system.",
+        "WhatsApp order intake that turns a retailer's message (often in Roman Urdu) into a draft order for review.",
+        "Workflow automation across email, CRM, ERP and Google Sheets or Excel, so one update reaches every place it needs to.",
+        "Internal tools and dashboards where staff approve, correct or escalate what the AI has prepared.",
+        "Research and reporting systems: daily sales summaries, competitor price checks, tender monitoring.",
+        "AI assistants for staff or customers, with a clear hand-off to a person when the question needs judgement."
+      ]
+    },
+    {
+      "h": "Examples by Karachi industry",
+      "p": [
+        "These are workflows that suit businesses in the city well. Each one keeps a person in the loop."
+      ],
+      "list": [
+        "Freight and customs: read the commercial invoice and packing list, compare HS codes, weights and values, and flag mismatches before the declaration is filed.",
+        "FMCG distribution: collect order messages from shopkeepers across the city, match them to the price list and stock, and send the draft to the sales officer.",
+        "Textile exports: pull status from production sheets and email buyers a weekly update without anyone compiling it by hand.",
+        "Insurance and finance: sort incoming claim or loan documents, check what is missing and draft the follow-up request.",
+        "E-commerce: confirm cash-on-delivery orders over WhatsApp before dispatch, which can reduce returned parcels.",
+        "Media and agencies: transcribe, tag and summarise content so producers can find footage faster."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we look at one process with the people who run it, ideally by screen-sharing the real documents and messages.",
+        "Plan: we map each step, mark which ones AI can take, which need a rule and which need a human, and estimate the hours saved. You approve a written scope and dates.",
+        "Build: we build the automation against your real data, test it on past cases, then run it alongside your team before switching over.",
+        "Grow: we watch accuracy weekly, adjust the prompts and rules, and move on to the next process once the first is stable."
+      ]
+    },
+    {
+      "h": "Proof: we run on our own automation",
+      "p": [
+        "One of the systems we are proudest of is the complete outbound sales engine we built for 22 Signals itself: research, list building, writing and follow-up, all automated with people reviewing the output. We use the same discipline on client builds, because we live with the result ourselves."
+      ]
+    },
+    {
+      "h": "Data, security and Pakistani law",
+      "p": [
+        "Automations touch sensitive data, so we design access first. Each tool gets only the permissions it needs, logs what it did and keeps documents where your policy says they belong. For SBP-regulated entities we document processing locations so the work can be assessed under the bank's cloud outsourcing rules. We build with the Prevention of Electronic Crimes Act 2016 in mind and plan for the principles in the draft Personal Data Protection Bill, such as purpose limits and consent for customer data.",
+        "WhatsApp automations use the official WhatsApp Business API and follow Meta's messaging policy, so your number is not put at risk."
+      ]
+    },
+    {
+      "h": "Working with a London team from Karachi",
+      "p": [
+        "We do not have an office or staff in Karachi. Your project is run from London by one Signal Lead, and the overlap is comfortable: London mornings are Karachi afternoons, with PKT five hours ahead in winter and four in summer. A 09:30 London check-in lands at 14:30 PKT in winter.",
+        "Because automation work is mostly done on screen, remote delivery suits it well. We need access to sample documents, a test environment and an hour a week from the process owner. If something has to be seen on site, we plan that visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "How many steps and systems the workflow crosses.",
+        "Document variety: ten supplier formats is a different job from three.",
+        "Whether your ERP or accounting system has an API, or needs another way in.",
+        "Language mix, for example Urdu, Roman Urdu and English in the same channel.",
+        "Volume, AI model usage and the level of ongoing support you want."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for AI automation in Karachi",
+      "p": [
+        "Good AI automation Karachi teams can trust needs more than a model. It needs clean data, a sensible cloud setup and, often, a customer-facing piece such as a WhatsApp flow or portal. We cover AI, cloud and data, web and apps, and marketing in one team, so the automation does not stop at your system boundary. See also AI Consultancy, WhatsApp Automation, Business Intelligence and Custom AI Development."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is AI automation, in plain terms?",
+      "a": "It is software that does repetitive office work for you: reading a document, understanding a message, updating a system or writing a first draft. Unlike older automation, it copes with messy inputs such as scanned invoices or a WhatsApp voice note transcript. A person still reviews exceptions and anything that needs judgement."
+    },
+    {
+      "q": "Can you automate orders that arrive on WhatsApp?",
+      "a": "Yes, and it is one of the most common requests from Karachi distributors and retailers. We connect the WhatsApp Business API, read the order whether it is written in English, Urdu or Roman Urdu, match it to your products and prices, and create a draft order for a person to confirm before it is dispatched."
+    },
+    {
+      "q": "Will AI automation Karachi staff use replace jobs?",
+      "a": "In our experience it changes jobs more than it removes them. Staff stop retyping and start checking, handling exceptions and dealing with customers. The usual aim is to handle more volume without the back office growing at the same pace. We plan the change with your managers so the team understands what the tool does."
+    },
+    {
+      "q": "Does it work with our ERP?",
+      "a": "Usually. We have connected automations to common ERPs, accounting packages, CRMs and spreadsheets. If your system has an API we use it. If it does not, we look at exports, database access or approved alternatives. We confirm the route during planning, before you commit to the build."
+    },
+    {
+      "q": "How do you keep our data safe?",
+      "a": "We give each automation the minimum access it needs, keep logs of every action, store documents in the location your policy sets, and use business-grade AI services that do not train on your data. For banks and other SBP-regulated firms we prepare the documentation your compliance team needs to review the setup."
+    },
+    {
+      "q": "Do you visit Karachi to set things up?",
+      "a": "Most automation projects are delivered entirely remotely from London, because the work happens on screen. We schedule calls in the Karachi afternoon, when London is in its morning. If the project needs an on-site visit, for example to watch a warehouse process, we plan it for that stage."
+    }
+  ],
+  "related": [
+    "/locations/karachi",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/karachi/ai-consulting",
+    "/locations/karachi/business-intelligence",
+    "/locations/lahore/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation karachi",
+    "secondary": ["business automation karachi", "whatsapp automation karachi", "workflow automation pakistan", "ai tools karachi"]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "path": "/locations/san-francisco/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in San Francisco, CA | 22 Signals",
+  "description": "App development for San Francisco companies: iOS, Android and web apps, SaaS products and companion apps for hardware, from first version to app store launch.",
+  "eyebrow": "App Development in San Francisco",
+  "h1": "App development for San Francisco products that need to ship",
+  "intro": "We build iOS, Android and web apps for San Francisco companies: SaaS products, customer apps, companion apps for connected hardware and internal tools. One accountable lead takes the app from scope to app store launch and support, with payments, APIs, AI features and California privacy requirements handled from the first sprint.",
+  "sections": [
+    {
+      "h": "Your engineers are busy with the core product",
+      "p": [
+        "In the Bay Area the problem is rarely a lack of engineering talent. It is that your engineers are fully booked on the core platform, and the mobile app, the customer portal or the new product line keeps slipping a quarter. Hiring a mobile team for one app is slow and expensive in this market, and contractors found through a marketplace often leave without documentation.",
+        "We take on the app as a defined project with a written scope and dates. Your team keeps ownership of the architecture decisions and the code. We do the building, and hand it back in a state your engineers would have been happy to write.",
+        "Some clients have the opposite problem: a professional services firm or a clinic group with no engineers at all, and an idea for an app their customers keep asking for. The app development San Francisco firms like these need starts with a smaller first release, clear costs to run it, and someone who will keep it working after launch."
+      ]
+    },
+    {
+      "h": "What app development San Francisco clients hire us for",
+      "list": [
+        "iOS and Android apps, native or cross-platform with React Native or Flutter, chosen by what the app must do.",
+        "Web apps and SaaS products, from a first version with paying users to a rebuild of a product that outgrew its prototype.",
+        "MVPs for new product lines inside established companies.",
+        "Payments and subscriptions through Stripe and the app stores.",
+        "APIs and integrations with your existing platform, CRM or data warehouse.",
+        "AI features inside the app: search, summaries, assistants and recommendations, with evaluation before release.",
+        "App store launch, release management and ongoing support."
+      ]
+    },
+    {
+      "h": "Apps we see most in the Bay Area",
+      "list": [
+        "Companion apps for hardware made on the Peninsula and in the South Bay: pairing, firmware updates and device dashboards.",
+        "Customer apps for SaaS companies in SoMa whose users want mobile access to reports, approvals and alerts.",
+        "Health and wellness apps for Mission Bay and South San Francisco companies, where medical data rules apply.",
+        "Fintech apps for Financial District firms: onboarding, account views and payments with careful security.",
+        "Field and operations apps for property, logistics and services companies across the Bay."
+      ]
+    },
+    {
+      "h": "Privacy rules that apply to California apps",
+      "p": [
+        "California's Online Privacy Protection Act requires apps that collect personal information from California residents to post a privacy policy. The California Consumer Privacy Act, as amended by the CPRA, adds rights to access and delete data. Health apps carry more weight: the Confidentiality of Medical Information Act can apply to businesses that offer software designed to maintain medical information. The app stores add their own privacy labels and data-use questions.",
+        "We build data maps as we go, so your privacy policy, store labels and deletion process describe what the app really does. Your counsel signs off on the wording."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we run a short discovery with product, design and engineering, and with a few real users if you can introduce them. Plan: user flows, technical approach, scope for the first release and a written launch date. Build: two-week sprints, a test build in your hands after each one, and automated tests from the start. Grow: launch, crash and usage monitoring, then the next release based on what users actually do."
+      ]
+    },
+    {
+      "h": "Something we are building now",
+      "p": [
+        "We are developing an AI commentary product for live esports, which has to follow fast-moving matches and respond in near real time. It is still in development, and we say so. The work behind it, from streaming data to model latency and testing, is the same work that goes into AI features for San Francisco apps."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Sprint reviews and planning sit in the Pacific morning. Builds go out during the London day, so a new test version is often on your phone when you wake up. If a design sprint or user testing session needs us in the room, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Number of screens and user roles.",
+        "Integrations with your platform, payments and third-party services.",
+        "AI features and the evaluation they need.",
+        "Security, compliance and privacy requirements.",
+        "Support and releases after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "One Signal Lead owns the app from scope to support, with designers, developers, QA and cloud engineers behind them. The launch does not stop at the app store either: the same team can build the landing page, make the demo video and run the install campaigns. For good app development, San Francisco companies need someone who will still answer the phone after release, and we stay on for support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Native or cross-platform for our app?",
+      "a": "It depends on what the app does. Cross-platform with React Native or Flutter suits most business and consumer apps and saves building twice. Native Swift and Kotlin suit apps with heavy device features, such as Bluetooth hardware pairing, camera work or complex animation. We recommend one after the discovery and explain the trade-off."
+    },
+    {
+      "q": "Do you build apps for hardware companies?",
+      "a": "Yes. Companion apps for connected devices are common in the Bay Area. We build pairing flows, device dashboards, firmware update screens and the cloud services behind them, working with your firmware team's specifications. Bluetooth work needs real devices, so we agree early how test hardware reaches our developers."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. Code lives in your repository, apps publish under your developer accounts, and cloud resources run in your accounts. We document the architecture and the release process so your engineers can take over at any point, and we never hold accounts or credentials hostage."
+    },
+    {
+      "q": "Can you add AI features to our existing app?",
+      "a": "Yes. We add search, summaries, assistants and recommendations to existing apps, using your data and the model provider that fits your terms. Before release we test each feature against real examples and set limits on what it can do, so it fails safely rather than confidently."
+    },
+    {
+      "q": "Do you work with San Francisco app clients in person?",
+      "a": "We work remotely from London with teams across four regions and keep sprint calls in the Pacific morning. App development runs well remotely because builds, test versions and tickets are shared online. For design sprints or user testing in the Bay Area, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How do you handle California privacy rules in an app?",
+      "a": "We build a data map as the app grows, listing what is collected, why and where it goes. That feeds your privacy policy under California law, the app store privacy labels and the in-app deletion flow. Health apps get extra review because of medical privacy law. Your counsel approves the final wording."
+    },
+    {
+      "q": "How much does app development cost in San Francisco?",
+      "a": "It depends on platforms, screens, integrations, AI features and support after launch. We do not publish prices because two apps with the same screen count can differ a lot in effort. After a 15-minute call and a short discovery, we give you a written scope and cost before anything is built."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/app-development",
+    "/locations/san-francisco/web-development",
+    "/services/custom-ai-development",
+    "/locations/los-angeles/app-development",
+    "/locations/california"
+  ],
+  "keywords": {
+    "primary": "app development san francisco",
+    "secondary": [
+      "app developers san francisco",
+      "mobile app development bay area",
+      "ios app development san francisco",
+      "saas development san francisco"
+    ]
+  }
+}

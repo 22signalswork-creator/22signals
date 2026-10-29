@@ -1,0 +1,144 @@
+{
+  "path": "/services/3d-animation",
+  "kind": "service",
+  "region": "global",
+  "service": "3d-animation",
+  "serviceType": "2D and 3D animation",
+  "title": "3D Animation Studio: 2D and 3D Animation | 22 Signals",
+  "description": "A 3D animation studio for product, technical and character animation, plus 2D explainers, for companies that need to show what a camera cannot film.",
+  "eyebrow": "2D and 3D Animation",
+  "h1": "A 3D animation studio for products, explainers and brands",
+  "intro": "22 Signals is a 3D animation studio that also works in 2D. We make animated explainers, product and technical animation and character animation for established companies that need to show what a camera cannot: the inside of a device, a process, a product that is not built yet. One lead runs the project from script to final files.",
+  "sections": [
+    {
+      "h": "When animation beats filming",
+      "p": [
+        "Some things cannot be filmed well. A medical device working inside the body. A software platform moving data between systems. A machine part that only exists as a CAD file. A building that is still a hole in the ground. You can describe them, but buyers understand them much faster when they can see them move.",
+        "Animation also ages better than most filmed content. When a product changes, an animated scene can often be updated rather than reshot, and the same models can be reused for ads, websites, sales decks and trade show screens.",
+        "Choosing to animate is the easy part. The risk is cost and time that spiral because the brief was loose, and that risk is the same whether you hire a large 3D animation studio or a single freelancer. Our process exists to stop that: the story, the look and the schedule are fixed before the expensive work begins."
+      ]
+    },
+    {
+      "h": "What our animation studio makes",
+      "p": [
+        "Every project starts from the same question: what does the viewer need to understand by the end? Pretty frames that do not answer it are wasted, so the script is written before anyone opens a 3D package, and every scene has a job in the story."
+      ],
+      "list": [
+        "3D product animation: how a product looks, opens, assembles and works, built from your CAD files or from scratch",
+        "Technical and mechanical animation that explains a process, a system or a piece of equipment",
+        "Animated explainers in 2D or 3D for services, software and ideas that are hard to show on camera",
+        "Character animation for brand mascots, story-led ads and short films",
+        "2D animation: illustrated scenes, motion design and frame-by-frame work",
+        "Short loops and cutdowns of every animation for social, ads and websites"
+      ]
+    },
+    {
+      "h": "2D or 3D: which one do you need?",
+      "p": [
+        "2D animation suits ideas, services and stories: a flat illustrated style that explains how an insurance claim works, what a software platform does, or why a clinic's treatment is different. It is usually quicker to produce and easier to change late in a project.",
+        "3D animation suits physical things and spaces: products, devices, packaging, machinery, buildings and anything where depth, light and materials matter. It takes more set-up because models have to be built, but once they exist the same scene can be shot from any angle and reused across many pieces.",
+        "Many projects use both, for example a 2D explainer with a 3D product shot at the key moment. We recommend a style in the plan, with the reasons, so you are not guessing."
+      ]
+    },
+    {
+      "h": "How an animation project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: who will watch it, where, and what they should understand or do afterwards. We also ask what already exists, such as CAD files, product photos, brand guides or an earlier video.",
+        "Plan: script and voiceover draft, then a storyboard, then style frames that show exactly how the finished animation will look. For longer pieces we add an animatic, a rough timed version with temporary sound, so pacing problems surface before animation starts. Dates for every stage go in writing.",
+        "Build: modeling, texturing, animation, lighting and rendering for 3D; illustration and animation for 2D; then voiceover, music, sound design and captions. You review at fixed points with comments in one place.",
+        "Grow: once the master is approved we cut it into versions for each channel, and keep the models and scenes ready for the next piece."
+      ]
+    },
+    {
+      "h": "Product and technical animation for complex products",
+      "p": [
+        "Product and technical animation is where animation earns its cost, because it explains products that are hard to explain: health tech and neurotech devices, software platforms, industrial equipment, consumer products with hidden features. The animator needs to understand the product well enough to show it correctly, and the script needs to say only what the product can actually claim.",
+        "For healthcare and other regulated products we build a review step into the plan, so your medical, legal or compliance team signs off the script and storyboard before animation starts. Fixing a claim in a script costs minutes. Fixing it after rendering costs days."
+      ]
+    },
+    {
+      "h": "Industries we animate for",
+      "list": [
+        "Healthcare and wellness: device and treatment explainers, patient education and clinic content",
+        "Technology, SaaS and AI: product explainers and feature launches",
+        "Fashion, beauty and retail: product reveals, packaging animation and social loops",
+        "Gaming, esports and entertainment: trailers, characters and broadcast graphics",
+        "Real estate: animated walkthroughs and flyovers of developments before they are built",
+        "Law firms and professional services: short explainers on how a process or case works"
+      ]
+    },
+    {
+      "h": "Animation outsourcing for agencies and in-house teams",
+      "p": [
+        "Some clients already have a creative team and need extra animation capacity for a launch or a busy quarter. We take on defined pieces of work, matched to your style frames and brand rules, with one lead as your contact. You get finished shots or full pieces on agreed dates, and your team stays in charge of the creative direction. Think of it as a 3D animation studio you can call on when the work arrives, without adding animators to your payroll for a peak that lasts a few months."
+      ]
+    },
+    {
+      "h": "What decides the cost of an animation",
+      "list": [
+        "Length of the finished animation",
+        "2D, 3D or a mix of both",
+        "Whether 3D models come from your CAD files or have to be built from scratch",
+        "Number of characters and how complex their movement is",
+        "Style and level of detail, from clean and simple to photoreal",
+        "Voiceover, music, sound design and the number of languages",
+        "Number of versions and cutdowns, and how many review rounds are included"
+      ]
+    },
+    {
+      "h": "Why work with our 3D animation studio",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and our animation team works inside the same company as our 3D, video, ads and web teams. The models we build for an animation can become photoreal 3D renders for your product pages. The animation can be cut into ads that our paid media team runs. The explainer can sit on a website our web team builds.",
+        "You deal with one Signal Lead for all of it, and the files, models and style rules stay consistent from one piece to the next."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a 3D animation take to make?",
+      "a": "It depends on length, detail and how many models need to be built, and we give you a dated schedule in writing before work starts. Short product loops from existing CAD files move fastest. A longer explainer with characters, voiceover and several scenes takes more time, mostly in the storyboard and modeling stages, which is where the quality is decided."
+    },
+    {
+      "q": "Can you animate our product from CAD files?",
+      "a": "Yes. CAD files are the best starting point for accurate product animation, because the proportions and parts are already correct. We prepare the files for animation, add materials and lighting, and build the moving parts. If you do not have CAD, we can model the product from technical drawings, photos and measurements."
+    },
+    {
+      "q": "Do you do 2D animation as well as 3D?",
+      "a": "Yes. We make 2D explainers, illustrated scenes, motion design and character work, and we often mix 2D and 3D in one piece. The plan recommends the style that suits the message, with reasons, and shows it in style frames before animation begins, so you see the look before you commit to the full production."
+    },
+    {
+      "q": "What files do we receive at the end?",
+      "a": "The finished animation in the formats your channels need, usually widescreen, vertical and square, with or without captions. Shorter cutdowns and loops are included when agreed in the scope. Project files and 3D models can be handed over as well if you want another team to work with them later, and this is agreed in writing at the start."
+    },
+    {
+      "q": "Can you work with our in-house creative team?",
+      "a": "Yes. Many clients use us as added animation capacity. We work to your style frames, brand rules and review process, deliver shots or full pieces on agreed dates, and keep one lead as the contact for your team. Your creative director keeps control of the direction, and we handle the production."
+    },
+    {
+      "q": "How do we choose the right 3D animation studio?",
+      "a": "Ask to see work close to your product type, not just a showreel. Ask how the studio fixes the look before animation starts (style frames and an animatic are good signs), how many review rounds are included, and who your single contact will be. A good 3D animation studio will also tell you when 2D or a simple render would do the job better."
+    },
+    {
+      "q": "Can animation be used for medical or regulated products?",
+      "a": "Yes, and we plan for it. Scripts and storyboards go through your medical, legal or compliance review before animation starts, so claims are approved while they are still quick to change. We animate what the product actually does, not what marketing would like it to do, which protects you with regulators and with buyers."
+    }
+  ],
+  "related": [
+    "/services/3d-rendering",
+    "/services/video-motion",
+    "/services/ai-video-production",
+    "/industries/healthcare",
+    "/industries/gaming-entertainment"
+  ],
+  "keywords": {
+    "primary": "3d animation studio",
+    "secondary": [
+      "3d animation studios",
+      "2d animation studio",
+      "product animation",
+      "animated explainer video",
+      "technical animation",
+      "animation outsourcing"
+    ]
+  }
+}

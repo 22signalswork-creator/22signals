@@ -1,0 +1,151 @@
+{
+  "path": "/locations/chicago/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Chicago, IL | 22 Signals",
+  "description": "AI consulting for Chicago manufacturers, freight firms, insurers and trading shops: find where AI pays off, plan it under BIPA, then build the pilot.",
+  "eyebrow": "AI Consulting in Chicago",
+  "h1": "AI consulting for Chicago companies that run on operations",
+  "intro": "Our AI consulting helps Chicago companies decide where AI is worth the money, plan it within Illinois law, and build a working pilot. It suits established manufacturers, freight and logistics firms, insurers, trading firms and professional services practices that want fewer manual hours and better decisions, not another slide deck about the future.",
+  "sections": [
+    {
+      "h": "The problem: lots of AI talk, very little in production",
+      "p": [
+        "Most leadership teams we speak to have already tried something. A few licenses for a chat assistant. A vendor demo that looked good in a conference room on Wacker Drive and never made it to the plant or the dispatch desk. A spreadsheet of ideas nobody has ranked.",
+        "The problem is rarely the technology. It is that nobody has mapped where the hours actually go, which data is clean enough to use, and which uses carry legal risk in Illinois. Good AI consulting starts with that map rather than with a tool, wherever you are based."
+      ]
+    },
+    {
+      "h": "What our AI consulting includes",
+      "list": [
+        "AI readiness review: your systems, your data, your team's skills and your appetite for risk, written up in plain language.",
+        "Use-case discovery: every idea scored by value and effort, so you see the three worth doing first and the ten that can wait.",
+        "AI roadmap: a phased plan with owners, costs to expect and the dates we commit to.",
+        "Tool and vendor selection: build versus buy, with honest notes on the vendors already pitching you.",
+        "AI policy, governance and data privacy: who may use what, with which data, and how outputs are checked.",
+        "Pilot builds: one working tool in the hands of real users, measured against a baseline.",
+        "Team training: short sessions for the people who will use the tools every day."
+      ]
+    },
+    {
+      "h": "Where AI pays off in the Chicago economy",
+      "p": [
+        "The use cases change a lot by sector. These are the ones we see most often with Chicago firms."
+      ],
+      "list": [
+        "Manufacturing: reading supplier quotes and spec sheets, drafting first-pass RFQ responses, and spotting quality patterns in inspection notes across plants in the Chicago suburbs and northwest Indiana.",
+        "Freight and logistics: summarizing carrier emails, matching loads to past lanes, flagging late shipments before the customer calls. With most of the country's major railroads meeting in Chicago, rail and intermodal data is often part of the picture.",
+        "Insurance: first notice of loss triage, claims document summaries, and underwriting research that a person still signs off.",
+        "Trading and financial services: internal search over research and policy documents, and reporting help, kept inside strict record keeping and access rules.",
+        "Food and consumer goods: demand notes from distributor reports, product copy at scale, and retail data summaries for brands around Fulton Market.",
+        "Professional services: document review, matter intake and knowledge search for Loop law and accounting firms."
+      ]
+    },
+    {
+      "h": "Illinois law changes the AI plan",
+      "p": [
+        "Illinois law shapes AI plans in ways most states do not. Start with the Biometric Information Privacy Act. Any AI tool that analyzes faces, fingerprints or voiceprints, including some call analytics and identity checks, needs written notice, a signed release and a published retention schedule before collection. BIPA carries a private right of action, which is why Illinois companies are cautious, and they should be.",
+        "Then there is the Illinois Human Rights Act, which from January 1, 2026 covers the use of AI in hiring, promotion and other employment decisions, including a duty to tell employees when AI is used. If your use case touches recruitment or staff, we design for notice and human review from day one. The Illinois Personal Information Protection Act also applies to any personal data the tool stores. We plan around all three, and your counsel has the final word."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call to check fit, then interviews with the people who do the work, from the controller to the shift lead.",
+        "Plan: the readiness review and ranked use cases, with a written roadmap and dates.",
+        "Build: one pilot, built and tested with real data and real users.",
+        "Grow: measure it, fix what users complain about, then move to the next use case on the list."
+      ]
+    },
+    {
+      "h": "Choosing a partner for AI consulting: Chicago questions worth asking",
+      "p": [
+        "Chicago buyers are practical, and they should be. Before you sign with anyone, ask a few direct questions. Have they shipped AI tools that real staff use every day, or only written strategies? Will they tell you when an off-the-shelf product is enough? Do they understand BIPA well enough to spot a biometric problem in a call analytics pitch? Can they show you how a pilot is measured against the way the work is done today?",
+        "We welcome those questions. The right firm for AI consulting in the Chicago market should be able to answer them in plain English, on the first call, without a deck."
+      ]
+    },
+    {
+      "h": "Proof: AI that is actually in use",
+      "p": [
+        "We have delivered more than 30 AI builds, custom tools, systems and automations, for businesses that used to run the old way. That matters for an AI consulting engagement because the advice comes from people who have shipped working tools and seen where they break, not only from a strategy template."
+      ]
+    },
+    {
+      "h": "Working with us from Chicago",
+      "p": [
+        "We run every engagement remotely from London. For AI consulting, Chicago time works in our favor: Central Time sits six hours behind London for most of the year, so workshops and reviews happen in your morning, our afternoon. Interviews with plant or warehouse staff can run on video, and if your team works better in person we come to Chicago when the project needs it.",
+        "Your Signal Lead is the single point of contact. Specialist teams across four regions handle the data, build and training work behind them, and every date we agree is written down."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We do not publish prices because scope varies too much. These are the factors that move it."
+      ],
+      "list": [
+        "How many departments and use cases are in the review.",
+        "The state of your data: one clean ERP, or six systems and a shared drive.",
+        "Whether the pilot uses an off-the-shelf model or needs custom retrieval over your documents.",
+        "Compliance work, such as BIPA consent flows or AI hiring notices.",
+        "How much training and change support your team needs."
+      ]
+    },
+    {
+      "h": "Related services for Chicago",
+      "p": [
+        "After AI consulting, Chicago clients usually move into AI automation for the workflows they pick, business intelligence for the reporting AI depends on, and cloud consulting for where it all runs. See the Chicago hub for every service we offer the city."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you meet Chicago clients in person?",
+      "a": "Mostly on video. We work remotely from London, and the Chicago morning overlaps our afternoon, which suits workshops and reviews. When a project needs people in a room, such as a leadership workshop or a pilot launch at a plant, we plan a visit to Chicago. We do not have a Chicago office and will not pretend otherwise."
+    },
+    {
+      "q": "How do you handle BIPA in AI projects?",
+      "a": "We check every use case for biometric data before it is built. If a tool would analyze faces, fingerprints or voiceprints, we either design it out or plan the written notice, signed release and retention schedule BIPA requires. We document the data flow so your counsel can review it. Most useful AI tools for Chicago firms need no biometric data at all."
+    },
+    {
+      "q": "Can AI be used in hiring in Illinois?",
+      "a": "Yes, with care. From January 2026 the Illinois Human Rights Act treats discriminatory use of AI in employment decisions as a civil rights violation and requires notice to employees. The Artificial Intelligence Video Interview Act also covers AI analysis of video interviews. We build hiring tools with notice, human review and records of how decisions were made."
+    },
+    {
+      "q": "What is a good first AI project for a Chicago manufacturer?",
+      "a": "Usually something document-heavy and internal: reading supplier quotes, drafting RFQ responses, or searching specs and quality records. These save hours quickly, use data you already have, and carry less risk than anything customer-facing. We rank options by value and effort in the readiness review, so the first project is chosen on evidence, not hype."
+    },
+    {
+      "q": "Do you work with trading and insurance firms?",
+      "a": "Yes, with tight scoping. Firms around LaSalle Street and the suburban insurers tend to do best starting with internal tools, such as search over policies, research or claims files, where the data stays inside their own cloud account. We work within your compliance team's rules on access, record keeping and model use, and we never move data outside the boundaries they set."
+    },
+    {
+      "q": "How long does AI consulting take?",
+      "a": "A readiness review and ranked roadmap usually takes a few weeks, depending on how many teams we interview and how scattered the data is. A first pilot follows once the use case and data access are agreed. We set and write down the dates at the planning stage, and we tell you early if anything threatens them."
+    },
+    {
+      "q": "Will you just recommend your own builds?",
+      "a": "No. Part of the work is build versus buy, and the honest answer is often an existing product your team can switch on. When a vendor tool fits, we say so and help you set it up. We build custom only when nothing on the market fits your data, your workflow or your Illinois compliance needs."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/ai-consulting",
+    "/locations/chicago/ai-automation",
+    "/locations/chicago/business-intelligence",
+    "/locations/new-york/ai-consulting",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai consulting chicago",
+    "secondary": [
+      "ai consultant chicago",
+      "chicago ai consulting firm",
+      "ai strategy chicago",
+      "ai consulting illinois"
+    ]
+  }
+}

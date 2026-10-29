@@ -1,0 +1,138 @@
+{
+  "path": "/locations/dubai/ai-consulting",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consulting in Dubai: Plans That Ship | 22 Signals",
+  "description": "AI consulting for Dubai companies in property, hospitality, trade and DIFC finance: find where AI pays off, plan it under UAE PDPL, then build the pilot.",
+  "eyebrow": "AI Consultancy in Dubai",
+  "h1": "AI consulting for Dubai companies that want results, not slides",
+  "intro": "Our AI consultancy helps established Dubai companies work out where AI will actually save time or win revenue, rank those ideas by value and effort, and build the first one. We plan around the UAE PDPL or the DIFC Data Protection Law, UAE cloud regions and WhatsApp-first customers, then put a working pilot in front of your team.",
+  "sections": [
+    {
+      "h": "Why most AI plans in Dubai stall",
+      "p": [
+        "Dubai has no shortage of AI ambition. The UAE appointed a Minister of State for Artificial Intelligence back in 2017, government services run chatbots, and every second conference stage has a panel on agents. Inside most private companies, though, the story is quieter: a few staff using ChatGPT on their own, a vendor demo that went nowhere, and a board asking why the competition seems further ahead.",
+        "The problem is rarely the technology. It is that nobody has mapped which tasks cost the most time, which data the business owns, what the data rules allow, and who will own the tool once it is live. Good AI consulting, Dubai or anywhere else, starts there rather than with a model or a vendor."
+      ]
+    },
+    {
+      "h": "What our AI consultancy covers",
+      "list": [
+        "AI readiness review: your data, systems, skills and the rules that apply to your licence.",
+        "Use-case discovery, with every idea ranked by value and by effort so the order is obvious.",
+        "An AI roadmap with owners, dates in writing and what each step needs to be worth.",
+        "Tool and vendor selection, including an honest build versus buy call for each use case.",
+        "AI policy, governance and data privacy written for UAE PDPL or DIFC obligations.",
+        "Pilot builds that run on your real data, so the decision to scale rests on evidence.",
+        "Team training, so your staff use the tools well and know what not to paste into them."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay off for Dubai sectors",
+      "p": [
+        "The first wins differ a lot by industry, so we start with yours."
+      ],
+      "list": [
+        "Property developers and brokerages: qualifying portal and WhatsApp enquiries overnight, drafting listing copy, and summarising buyer conversations for the agent who calls back in the morning.",
+        "Hotels and hospitality groups: answering pre-arrival questions in several languages, sorting review themes across properties and turning daily revenue data into a short note for managers.",
+        "Trading and logistics firms around Jebel Ali: reading invoices, packing lists and bills of lading, then flagging mismatches before customs paperwork goes out.",
+        "DIFC financial and fintech firms: research summaries, client onboarding checks and internal knowledge search, with tight controls on what personal data any model sees.",
+        "Clinics and aesthetics practices: booking and reminder flows, and first drafts of patient information that a clinician then approves."
+      ]
+    },
+    {
+      "h": "UAE PDPL, the DIFC regime and where your data lives",
+      "p": [
+        "An onshore Dubai company falls under the UAE Personal Data Protection Law, Federal Decree-Law No. 45 of 2021. A firm licensed in the DIFC follows the DIFC Data Protection Law instead, which has its own commissioner and specific provisions for systems that process personal data with a degree of autonomy. Health data has separate federal rules on where it may be stored.",
+        "In an AI project these rules shape real decisions: whether customer data can be sent to a model hosted abroad, whether to use a UAE region on AWS or Azure, what the assistant may remember and how long logs are kept. We document those decisions in the roadmap and flag anything your legal adviser should confirm."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short fit check, then interviews with the people who do the work today, not just the directors.",
+        "Plan: the ranked use-case list, the roadmap and the governance notes, signed off by you.",
+        "Build: one pilot, usually the use case with the best value for the least effort, on your real data.",
+        "Grow: measure the pilot against the target we agreed, then roll it out or stop it, and move to the next item."
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have delivered more than 30 AI builds, from custom tools to full automations, for businesses that used to run the old way. That matters for a consultancy engagement because our advice comes from people who have to make the recommendation work afterwards, not from a team that hands over a report and leaves."
+      ]
+    },
+    {
+      "h": "Working with us from Dubai",
+      "p": [
+        "We are based in London and serve Dubai businesses from there, on-site when the project needs it. Gulf Standard Time is four hours ahead of London in winter and three in summer, and with most UAE offices now working Monday to Friday, your morning and our morning overlap every working day.",
+        "Discovery interviews work well on video. Where a workshop with your leadership team or a walk through operations would genuinely help, for example inside a warehouse or a hotel, we plan a visit and write it into the scope. You keep one point of contact, the Signal Lead, throughout."
+      ]
+    },
+    {
+      "h": "What drives the cost of AI consulting",
+      "p": [
+        "We do not publish prices for AI consulting. Dubai projects vary too much in scope, so here are the factors that move it."
+      ],
+      "list": [
+        "How many departments and use cases are in the review.",
+        "The state of your data and how many systems hold it.",
+        "Whether you are under the UAE PDPL, the DIFC regime or a sector regulator as well.",
+        "Whether data must stay in a UAE cloud region.",
+        "Whether the engagement includes a pilot build and team training."
+      ]
+    },
+    {
+      "h": "Why Dubai companies choose 22 Signals for AI",
+      "p": [
+        "Most firms selling AI consulting, Dubai included, either advise or build. We do both, and we also run the website, search, ads and video that an AI rollout often touches. So when the roadmap says an AI assistant should answer WhatsApp enquiries from your Google Ads, the same team plans the assistant, the ad and the landing page. Related services include AI automation, custom AI development and WhatsApp automation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI consultant actually do for a Dubai business?",
+      "a": "An AI consultant finds the tasks where AI saves the most time or earns the most money, checks your data and the rules that apply, and gives you a ranked plan. With us, that plan is followed by a working pilot on your own data, so you can judge the result before you commit to a wider rollout."
+    },
+    {
+      "q": "Do you meet Dubai clients in person?",
+      "a": "Most of the work happens on video, with meeting hours that overlap Gulf Standard Time every weekday. When a leadership workshop or an operations walk-through needs someone in the room, we plan a visit to Dubai and include it in the written scope. We do not have an office in Dubai and do not claim one."
+    },
+    {
+      "q": "How do you handle the UAE PDPL in AI projects?",
+      "a": "We treat it as a design input. For each use case we record what personal data is involved, the lawful basis, where it is stored, which model sees it and how long logs are kept. For DIFC firms we follow the DIFC Data Protection Law instead. Your legal adviser confirms the final position."
+    },
+    {
+      "q": "Can AI tools handle Arabic as well as English?",
+      "a": "Current large language models handle Arabic and English well enough for many business tasks, such as sorting enquiries or summarising messages. Quality varies with dialect and subject, so we test with your real messages during the pilot and keep a person reviewing anything customer-facing until the results are proven."
+    },
+    {
+      "q": "How long does AI consulting take?",
+      "a": "A readiness review and ranked roadmap usually take a few weeks, depending on how many departments are involved and how easy your data is to reach. A first pilot follows after that. We agree the dates at the start and put them in writing, so you know exactly when each decision point lands."
+    },
+    {
+      "q": "Should we build our own AI tool or buy one?",
+      "a": "It depends on the task. Off-the-shelf tools often win for common jobs like meeting notes. Custom builds tend to win where your process, your data or your UAE data obligations are unusual. We make that call per use case in the roadmap and explain the reasoning, including total running cost."
+    },
+    {
+      "q": "Which AI consulting Dubai firms are a good fit for you?",
+      "a": "Established companies with roughly 5 to 500 staff that have real operational work AI could take on, typically in property, hospitality, retail, logistics, finance or healthcare. If you want a strategy deck with no intention of building anything, we are probably not the right partner."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/ai-consulting",
+    "/locations/dubai/ai-automation",
+    "/locations/abu-dhabi/ai-consulting",
+    "/services/custom-ai-development",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "ai consulting dubai",
+    "secondary": ["ai consultancy dubai", "ai consultant dubai", "ai consulting uae", "dubai ai strategy"]
+  }
+}

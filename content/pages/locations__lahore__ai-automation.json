@@ -1,0 +1,134 @@
+{
+  "path": "/locations/lahore/ai-automation",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Lahore",
+  "citySlug": "lahore",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Lahore: WhatsApp, CRM and Workflows | 22 Signals",
+  "description": "AI automation Lahore teams use to stop copying orders from WhatsApp into Excel: enquiry handling, quotes, reports and CRM updates, with a person in charge.",
+  "eyebrow": "AI Automation in Lahore",
+  "h1": "AI automation Lahore teams use to get hours back",
+  "intro": "AI automation takes the repetitive work off your staff: reading WhatsApp enquiries, entering orders, chasing payments, building the weekly report. We build custom AI tools and workflows for established Lahore businesses, connected to the email, spreadsheets, CRM and accounts software you already run, with a person stepping in whenever a case needs judgement.",
+  "sections": [
+    {
+      "h": "Where the hours go in a Lahore business",
+      "p": [
+        "In many Lahore companies the real operating system is a set of WhatsApp groups and an Excel file on one person's laptop. Orders arrive as voice notes and screenshots. Someone retypes them into a sheet, someone else checks stock, a third person sends the quotation, and the owner asks for a sales summary every Saturday that takes half a day to put together.",
+        "None of this is unusual, and none of it needs more staff. It needs the copying, checking and chasing to happen on its own, so your people spend their day on customers and decisions."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Enquiry intake: AI reads incoming WhatsApp, email and website messages, sorts them by type and urgency and creates the record in your CRM or sheet.",
+        "Quotations and order confirmations drafted from your price list, sent after a staff member approves them.",
+        "Payment follow-up that matches bank, JazzCash or Easypaisa receipts against open invoices and flags what is missing.",
+        "Daily and weekly reports compiled from sales, stock and accounts data and delivered to the owner's phone.",
+        "Internal tools and dashboards for teams that have outgrown spreadsheets but do not need a full ERP.",
+        "Research and document work: summarising buyer audit reports, tender documents or long contracts for the person who has to act on them.",
+        "AI assistants on WhatsApp or your website that answer standard questions and hand over to a named person when they should."
+      ]
+    },
+    {
+      "h": "AI automation: Lahore sectors we build for",
+      "list": [
+        "Apparel and home textile exporters: purchase orders read from buyer emails, production status pulled into one view and shipment updates sent to buyers on time.",
+        "Restaurants and cloud kitchens: orders from WhatsApp and the website pushed to the kitchen in one format, with daily sales totals that match the till.",
+        "Salons and clinics: booking requests turned into confirmed slots, reminders before the appointment and follow-ups after it.",
+        "Real estate agencies and developers: every lead from Meta, property portals and walk-ins logged in one place and assigned within minutes.",
+        "Distributors and retailers: stock alerts, reorder suggestions and sales reports by branch, from Gulberg to Johar Town.",
+        "Schools and academies: admissions enquiries answered, forms checked for missing documents and fee reminders sent on schedule."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "We start by sitting in on the process, usually over a screen share, and timing each step. The plan names the steps to automate first, the systems to connect and the cases a person must always handle. The build ships in small pieces, tested on your real messages and files. Once it is live we track hours saved and errors caught, then move to the next process."
+      ]
+    },
+    {
+      "h": "AI automation, Lahore customers and the human hand-off",
+      "p": [
+        "We never let an AI reply to a customer with no way out. Every assistant we build knows its limits: a complaint, a refund, a medical question or a large order goes straight to a named member of your team, with the conversation history attached. That keeps service quality where your customers expect it in a city where people prefer to deal with a person they know."
+      ]
+    },
+    {
+      "h": "Proof: we run our own business this way",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself: prospect research, sending, reply sorting and CRM updates, with people handling the conversations that matter. We use the same thinking for clients, so what we recommend is something we already rely on every day."
+      ]
+    },
+    {
+      "h": "Working with a London team on a Lahore process",
+      "p": [
+        "Our head office is in London and we work with Lahore companies remotely. Pakistan is five hours ahead of the UK in winter and four in summer, so a 09:30 London stand-up is 14:30 PKT for most of the year. That leaves time for your team to test changes the same afternoon. Your Signal Lead keeps one written list of what is built, what is next and the date for each.",
+        "Data stays in your accounts wherever possible. We follow the Prevention of Electronic Crimes Act 2016 on access to systems and plan for the draft Personal Data Protection Bill, so automations only see the data they need."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "list": [
+        "How many processes and systems are involved.",
+        "Whether your software has an API or we need to work with exports and email.",
+        "Volume of messages or documents per day.",
+        "Use of the official WhatsApp Business API, which has Meta's own per-conversation charges.",
+        "How much support and change you want after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Automation is rarely only automation. A good WhatsApp flow needs ads that send the right people to it, a CRM that someone actually opens and a report that proves it works. We do all of that in one team under one Signal Lead. See also AI consultancy, WhatsApp automation, custom AI development and business intelligence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What can AI automation do for a small or mid-sized Lahore company?",
+      "a": "It removes the retyping, checking and chasing that fills most office days. Typical first projects are logging WhatsApp enquiries into a sheet or CRM, drafting quotations for approval, matching payments to invoices and producing the owner's weekly report. Most Lahore teams see hours come back in the first process we automate."
+    },
+    {
+      "q": "Do you work with our existing software?",
+      "a": "Yes. We connect to what you already use where it allows it: Google Sheets and Excel, Gmail and Outlook, common CRMs, Shopify and WooCommerce, and accounts packages that export data. If a system has no API, we work from scheduled exports or email, and we tell you upfront what that limits."
+    },
+    {
+      "q": "Will AI replies on WhatsApp sound robotic to our customers?",
+      "a": "Not if they are written and tested properly. We train replies on your own tone and real past conversations, in English, Urdu or Roman Urdu as your customers write, and we keep them short. Anything outside the standard questions goes to a person, so customers are never stuck with a bot."
+    },
+    {
+      "q": "Is our business data safe with automations?",
+      "a": "We keep data in your own accounts where possible, give each automation access only to what it needs and log what it does. That follows the Prevention of Electronic Crimes Act 2016 and the direction of Pakistan's draft data protection bill. You own every account and can switch anything off at any time."
+    },
+    {
+      "q": "Do you need to visit our premises in Lahore to automate a process?",
+      "a": "Usually not. We map processes over screen share with the people who do the work and test with copies of real files. If a process is easier to understand on the floor, such as a warehouse or production line, we arrange a visit when the project needs it."
+    },
+    {
+      "q": "Which process should we automate first?",
+      "a": "Choose the one that repeats most, follows clear rules and frustrates your team. For most Lahore companies that is enquiry intake from WhatsApp, the weekly sales report or payment matching. These are low risk, easy to measure and they give people time back quickly, which builds trust before you automate anything customer-facing or financial."
+    },
+    {
+      "q": "How long before an automation is live?",
+      "a": "A single focused workflow, such as enquiry intake or a daily report, is often live within a few weeks. Larger jobs with several systems take longer and are released in stages. We agree the dates in writing before we start and report every week against them."
+    }
+  ],
+  "related": [
+    "/locations/lahore",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/lahore/ai-consulting",
+    "/locations/islamabad/ai-automation",
+    "/pakistan"
+  ],
+  "keywords": {
+    "primary": "ai automation lahore",
+    "secondary": [
+      "business automation lahore",
+      "whatsapp automation lahore",
+      "workflow automation pakistan",
+      "ai tools lahore"
+    ]
+  }
+}

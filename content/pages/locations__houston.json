@@ -1,0 +1,109 @@
+{
+  "path": "/locations/houston",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "title": "AI, Cloud and Data Consulting in Houston, TX | 22 Signals",
+  "description": "Houston AI and cloud consulting, data, apps, SEO, ads and video from one accountable team. Built for energy, healthcare, logistics and engineering firms.",
+  "eyebrow": "Houston, Texas",
+  "h1": "Houston AI and cloud consulting, plus the marketing to grow on it",
+  "intro": "22 Signals is a London-based business solutions company working with established Houston companies. We cover Houston AI and cloud consulting, data and dashboards, web and app builds, SEO, paid media and video, all under one accountable lead. Energy, healthcare, logistics and engineering firms use us to replace a stack of separate vendors with one team.",
+  "sections": [
+    {
+      "h": "What Houston companies hire us for",
+      "p": [
+        "Most of the Houston firms we talk to are not short of ideas. They are short of people who can carry an idea from a meeting room in the Energy Corridor to something running in production, and then tell the market about it. A midstream company wants AI to read thousands of right-of-way documents. A specialty clinic group wants its patient intake automated and its new locations ranked in search. A freight forwarder near the port wants a customer portal and the cloud setup to keep it running through hurricane season.",
+        "Each of those jobs crosses several disciplines. That is where we fit. One Signal Lead owns your project, with specialist teams across four regions doing the work behind them."
+      ]
+    },
+    {
+      "h": "Services for Houston businesses",
+      "list": [
+        "AI consulting: readiness reviews, ranked use cases, AI policy and pilots, with Texas privacy law and HIPAA built in.",
+        "AI automation: tools that read field tickets, freight documents and referrals, update your systems and pass exceptions to a person.",
+        "Business intelligence and data analytics: one set of numbers from ERP, historian, EHR and CRM data, in Power BI, Looker Studio or Tableau.",
+        "Cloud consulting: AWS, Azure and Google Cloud architecture, security, monitoring, cost reviews and storm-ready recovery plans.",
+        "Web development: fast, accessible, bilingual-ready websites, migrations that keep rankings, and client portals.",
+        "App development: offline field apps for plants and well sites, patient and customer apps, web apps and SaaS products.",
+        "SEO and GEO: rank in Google across Greater Houston and show up in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid media: Google, YouTube, Meta, LinkedIn and TikTok ads, in English and Spanish, tracked to booked work.",
+        "Video, animation and AI video: training films, technical and medical animation, brand films and reels.",
+        "3D rendering: equipment and product renders from CAD, plus architectural and interior visuals."
+      ]
+    },
+    {
+      "h": "The Houston economy, and what it asks of technology",
+      "p": [
+        "Houston's economy rests on a few large pillars, and each one needs something different from its technology partners."
+      ],
+      "list": [
+        "Energy, oil and gas: operators, service companies and traders spread from Downtown to the Energy Corridor and The Woodlands, sitting on decades of well, land and production data that AI and good dashboards can finally put to work.",
+        "Refining and petrochemicals: plants along the Houston Ship Channel in Pasadena, Deer Park, La Porte and Baytown, where process safety, maintenance data and secure separation of plant and office networks come first.",
+        "The Port of Houston and logistics: container terminals at Barbours Cut and Bayport, plus the forwarders, truckers and warehouses around them, all chasing paperwork that should move itself.",
+        "The Texas Medical Center and wider healthcare: hospitals, research institutions, clinics and health tech startups that need HIPAA-grade systems and careful marketing.",
+        "Aerospace: NASA Johnson Space Center, the Clear Lake area and the Houston Spaceport at Ellington, with suppliers who need precise technical communication.",
+        "Engineering and construction: firms that design and build plants, terminals and infrastructure worldwide, with heavy document, bid and project data needs."
+      ]
+    },
+    {
+      "h": "Texas rules we build around",
+      "p": [
+        "Technology work in Houston comes with a set of rules we plan for from the first call. The Texas Data Privacy and Security Act, in effect since July 2024 and enforced by the Texas Attorney General, governs how you collect and use consumer data, including opt-outs from targeted advertising. Healthcare work adds HIPAA and Texas HB 300, which covers more organizations than HIPAA alone. Texas's Responsible Artificial Intelligence Governance Act, in force since January 2026, adds rules on some AI uses. We flag what applies and work with your counsel on decisions."
+      ]
+    },
+    {
+      "h": "How remote delivery works for Houston",
+      "p": [
+        "We work with Houston companies remotely from London, with meeting hours that overlap Central Time. London is six hours ahead, so a 9:00 call in Houston is 15:00 for us. In practice that gives you a team that is already hours into its day when yours starts: overnight fixes, fresh reports and new drafts are waiting each morning, and live sessions happen in your morning and early afternoon.",
+        "We do not have an office in Houston. When a project needs someone on site, such as a plant walk, a clinic workflow review or a video shoot, we arrange a visit. Every date we agree goes in writing."
+      ]
+    },
+    {
+      "h": "Why one team matters here",
+      "p": [
+        "Few firms cover AI, cloud and data alongside marketing, video, animation and 3D. For Houston companies that matters more than it might elsewhere, because so many products are technical and hard to explain. The team that builds your AI tool can also animate how your equipment works, and the people running your ads can see which leads your new portal converts. Houston AI and cloud consulting rarely comes with that kind of follow-through."
+      ]
+    },
+    {
+      "h": "Our track record",
+      "p": [
+        "We have worked with more than 30 companies across four regions, from US law firms and an aesthetics practice to a neurotech device launch and live esports broadcasts. Houston clients get the same model: one accountable lead, specialists behind them, and dates in writing."
+      ]
+    },
+    {
+      "h": "Houston and the rest of Texas",
+      "p": [
+        "Houston is one of three Texas cities we cover, alongside Dallas and Austin, and Texas is a priority market for us. The work differs by city: Houston leans on energy, healthcare and the port, Dallas on finance and corporate headquarters, Austin on software and semiconductors. Our Texas page covers how we work across the state. If you want to see whether we fit, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Houston?",
+      "a": "No. Our head office is in London and we work with Houston companies remotely, with meeting hours that overlap Central Time. When a project needs someone on site, we arrange a visit. Most AI, cloud, data, web and marketing work happens on screen, and the time difference means work often progresses while Houston sleeps."
+    },
+    {
+      "q": "What industries do you work with in Houston?",
+      "a": "Mainly energy and oil and gas, petrochemicals, port and logistics businesses, healthcare and life sciences around the Texas Medical Center, aerospace suppliers near Clear Lake, and engineering and construction firms. We also work with Houston law firms, clinics, real estate companies and consumer brands on marketing and web projects."
+    },
+    {
+      "q": "How do you handle the six-hour time difference?",
+      "a": "We schedule live calls in your morning and early afternoon, which is our afternoon and evening in London. Work that does not need you, such as testing, data loads and edits, happens in our morning while Houston is asleep. Your Signal Lead keeps a written schedule so you always know when to expect each piece."
+    },
+    {
+      "q": "How do you deal with Texas privacy law and HIPAA?",
+      "a": "We treat them as design requirements. Projects are checked against the Texas Data Privacy and Security Act for consumer data and, for healthcare work, against HIPAA and Texas HB 300. That covers vendor agreements, access control, logging and what data is kept. We are not lawyers, so we prepare the facts and work with your counsel."
+    },
+    {
+      "q": "Can you do both the technology and the marketing?",
+      "a": "Yes, and that is the main reason Houston companies come to us. The same team can build an AI tool or app, run it in the cloud, put the data into dashboards, then market the result with SEO, ads, video and 3D. You deal with one accountable lead instead of coordinating separate agencies."
+    },
+    {
+      "q": "What size of Houston company do you work with?",
+      "a": "Mostly established companies with roughly 5 to 500 staff, from specialist clinics and law firms to engineering firms and energy service companies. We also work with funded founders building new products. Larger enterprises often bring us in for a specific project or department rather than a company-wide program."
+    }
+  ],
+  "related": ["/locations/texas", "/united-states", "/locations/houston/ai-consulting", "/locations/houston/cloud-consulting", "/locations/dallas", "/locations/austin"],
+  "keywords": { "primary": "houston ai and cloud consulting", "secondary": ["ai consulting houston", "cloud consulting houston", "houston digital agency", "houston technology consulting"] }
+}

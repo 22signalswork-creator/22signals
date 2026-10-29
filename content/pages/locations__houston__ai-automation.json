@@ -1,0 +1,123 @@
+{
+  "path": "/locations/houston/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Houston, TX | 22 Signals",
+  "description": "AI automation for Houston firms: we take the retyping out of tickets, field reports, freight paperwork and intake so your people do the work that needs them.",
+  "eyebrow": "AI Automation in Houston",
+  "h1": "AI automation for Houston businesses",
+  "intro": "We build AI automation Houston teams use every day: tools that read the email, the PDF or the field ticket, put the data where it belongs, and pass anything unusual to a person. It suits established companies in energy services, logistics, healthcare and construction that are still moving information by hand between systems.",
+  "sections": [
+    {
+      "h": "The work that should not need a person",
+      "p": [
+        "Walk through the back office of almost any Houston company and you find the same thing. Someone in dispatch copies load details from a broker email into the transport system. Someone in accounts payable keys vendor invoices into SAP or NetSuite. A coordinator in a clinic reads faxed referrals and types them into the scheduling tool. A field services manager collects photographed tickets from crews in Midland and Baytown and rebuilds them into a spreadsheet each Friday.",
+        "None of this is skilled work, but it eats skilled people. It also creates errors that surface weeks later as a short-paid invoice, a missed appointment or a billing dispute with an operator. AI automation, Houston businesses are finding, is less about robots and more about getting these hand-offs off people's desks."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read documents, emails and images and turn them into clean, checked data.",
+        "Workflow automation across email, CRM, ERP and spreadsheets, so a status change in one system updates the others.",
+        "Internal tools and dashboards that put the right queue in front of the right person each morning.",
+        "Research and reporting systems that pull from many sources and write the first draft of a weekly or monthly report.",
+        "AI assistants that answer common questions for staff or customers and hand over to a person, with full context, when they reach their limit."
+      ]
+    },
+    {
+      "h": "Houston examples we would start with",
+      "p": [
+        "These are the kinds of jobs we look at first with companies here. Each one replaces retyping with checking."
+      ],
+      "list": [
+        "Oilfield services: field tickets and job logs photographed on site, read by AI, matched to the purchase order and pushed to invoicing, with exceptions flagged to the billing lead.",
+        "Freight forwarders and drayage near the Bayport and Barbours Cut terminals: booking confirmations, delivery orders and arrival notices parsed from email and logged against each shipment, so customers get updates without calling.",
+        "Clinics and specialist practices around the Texas Medical Center: referral intake, insurance eligibility checks and appointment reminders handled automatically, with staff approving anything clinical.",
+        "Engineering and construction contractors: RFIs, submittals and daily site reports sorted, summarized and routed to the right project manager.",
+        "Chemical distributors and plant suppliers: safety data sheet requests and order confirmations answered from your own records rather than from memory.",
+        "Law firms Downtown and in Uptown: new case intake sorted by matter type, conflict-check data gathered and the first file note drafted."
+      ]
+    },
+    {
+      "h": "Built with people in the loop",
+      "p": [
+        "We do not build automations that act blindly. Every workflow has a confidence threshold: above it, the system completes the step; below it, a named person reviews it. That matters in Houston, where a wrong figure on a run ticket can mean a dispute with an operator, and a wrong date on a clinic letter can affect a patient.",
+        "We also design for the rules you work under. Healthcare workflows run on HIPAA-eligible services with business associate agreements in place, and with Texas HB 300 in mind. Anything that handles consumer data is checked against the Texas Data Privacy and Security Act, including what you store, for how long and who can see it. Logs show who approved what, so an audit is a search, not an archaeology project."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: we map one process with the people who run it, including the workarounds nobody wrote down.",
+        "Plan: we pick the steps worth automating, agree what good looks like (hours saved, error rate, turnaround) and put dates in writing.",
+        "Build: a working version on real but limited data, then a supervised run alongside the current process.",
+        "Grow: once the numbers hold, we switch over, then move to the next process on the list."
+      ]
+    },
+    {
+      "h": "What we have built before",
+      "p": [
+        "One of our clearest examples is our own. We built a complete outbound sales engine for 22 Signals: lead research, list building, email sending, reply handling and CRM updates, running with a person reviewing the parts that need judgment. It is the same approach we bring to a Houston dispatch desk or billing team, tested on our own revenue first."
+      ]
+    },
+    {
+      "h": "Remote delivery across the six-hour gap",
+      "p": [
+        "Our head office is in London and we work with Houston clients remotely. Central Time is six hours behind us, which works in your favor for automation projects: we can test changes during the Houston night and have results waiting when your team logs in. Live working sessions happen in your morning, when our afternoon overlaps your day.",
+        "Your Signal Lead is the single person accountable for the project. Specialist teams across four regions do the build, but you deal with one name. When a project needs someone in the room, such as mapping a process on a yard in Pasadena or a clinic floor, we arrange it."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "p": [
+        "We price each project on scope, not by the hour. The main factors for AI automation, Houston clients tell us, are the ones they did not expect:"
+      ],
+      "list": [
+        "How many systems the workflow touches, and whether they have usable APIs or need screen-level workarounds.",
+        "Volume and variety of documents: one invoice template or forty.",
+        "The accuracy needed before a step can run without review.",
+        "Regulated data, such as patient records, that needs extra controls.",
+        "Whether you want us to run and monitor the automations after launch."
+      ]
+    },
+    {
+      "h": "Why work with 22 Signals",
+      "p": [
+        "We connect the automation to the rest of the business. The same team can clean up the data behind it, move it to the cloud, build the dashboard on top, and, if the goal is more customers rather than fewer hours, run the marketing too. For AI automation, Houston companies get one accountable lead instead of a chain of vendors pointing at each other. See also AI consulting, custom AI development and business intelligence for Houston clients."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is AI automation, in plain terms?",
+      "a": "It is software that does the repetitive reading, sorting and typing your staff do today, and passes anything uncertain to a person. Unlike older automation, it can handle messy inputs such as scanned tickets, rambling emails and PDFs. The aim is fewer hours on data entry and fewer errors, not replacing the judgment your team brings."
+    },
+    {
+      "q": "Can you automate work in SAP, NetSuite or our dispatch system?",
+      "a": "Usually, yes. We connect through official APIs where they exist, and through integration platforms or careful screen automation where they do not. Many Houston energy and logistics firms run older systems alongside newer ones, so part of our first review is checking what each one allows. We tell you up front if a system will make a workflow fragile."
+    },
+    {
+      "q": "Do you work with Houston companies on site?",
+      "a": "We deliver remotely from London, with live sessions during your morning. For process mapping, it sometimes helps to watch the work happen, on a yard, in a warehouse or at a clinic front desk. When the project needs it, we arrange a visit. Most automation work, including testing and support, happens remotely without slowing anything down."
+    },
+    {
+      "q": "How do you keep patient data safe in healthcare automations?",
+      "a": "We use HIPAA-eligible services with business associate agreements, limit access to the minimum each person needs, log every action and keep data in the United States. Workflows that affect care always route to a clinician for approval. We also account for Texas HB 300, which covers more organizations than HIPAA alone and adds training expectations."
+    },
+    {
+      "q": "How quickly will we see results?",
+      "a": "A focused workflow, such as invoice intake or referral processing, typically reaches a supervised pilot within four to eight weeks. You will see hours saved during the pilot itself, because we measure against the current process side by side. Broader programs across several departments take longer and are planned in stages with dates agreed in writing."
+    },
+    {
+      "q": "What happens when the AI gets something wrong?",
+      "a": "It is designed to expect that. Each step has a confidence threshold, and anything below it goes to a named reviewer with the source document attached. Corrections feed back into the rules so the same mistake becomes rarer. You get a log showing every decision, which helps with audits, disputes and training new staff."
+    }
+  ],
+  "related": ["/locations/houston", "/services/ai-automation", "/locations/houston/ai-consulting", "/locations/houston/business-intelligence", "/locations/austin/ai-automation", "/industries/professional-services"],
+  "keywords": { "primary": "ai automation houston", "secondary": ["ai automation agency houston", "workflow automation houston", "business process automation houston", "houston automation consultant"] }
+}

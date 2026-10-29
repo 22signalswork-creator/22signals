@@ -1,0 +1,145 @@
+{
+  "path": "/locations/chicago/video-animation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "video-animation",
+  "serviceType": "Video production, animation and AI video",
+  "title": "Video Production in Chicago: Animation and AI Video | 22 Signals",
+  "description": "Video production for Chicago brands: explainers, reels, motion graphics, product animation and labeled AI video, with a managed editing team behind it.",
+  "eyebrow": "Video, Animation and AI Video in Chicago",
+  "h1": "Video production, animation and AI video for Chicago brands",
+  "intro": "We handle video production for Chicago companies that need a steady flow of good content without running a studio: short-form reels, brand films, motion graphics, animated explainers, technical animation and AI video, clearly labeled and checked by a person. Clients include manufacturers, food brands, healthcare firms, law practices and B2B services across Chicago.",
+  "sections": [
+    {
+      "h": "Video is easy to start and hard to keep going",
+      "p": [
+        "Ask anyone who buys video production. Chicago marketing teams can usually get one good video made. A crew comes in, films the plant or the office in River North, and a two-minute brand film appears. Then nothing for six months, because each new piece means a new quote, a new shoot and a new round of approvals.",
+        "What actually moves numbers is a steady stream: reels every week, an explainer for each product, cut-downs for paid ads, a recap after every trade show. Much of that can be made from footage you already have, animation, or AI video, with no new shoot at all."
+      ]
+    },
+    {
+      "h": "What we produce",
+      "list": [
+        "Short-form video and reels for Instagram, TikTok, YouTube Shorts and LinkedIn.",
+        "Brand films and company stories, edited from your footage or a planned shoot.",
+        "Motion graphics: animated data, titles, social graphics and ad variations.",
+        "2D and 3D animated explainers for products, services and processes.",
+        "Product and technical animation for machinery, components and medical devices that are hard to film.",
+        "AI video: AI presenters, AI ad variations and AI-generated scenes and backgrounds, always labeled and reviewed by a person.",
+        "Managed editing teams that handle your weekly content volume.",
+        "Live broadcast for events and launches."
+      ]
+    },
+    {
+      "h": "What Chicago companies use it for",
+      "list": [
+        "Manufacturers: animated cutaways of equipment and production lines, safety and training videos, and trade show loops for the big shows at McCormick Place.",
+        "Food and consumer brands near Fulton Market: recipe reels, product launches, retailer sell-in videos and paid social cut-downs.",
+        "Healthcare and medical devices: patient explainers and procedure animation, reviewed for accuracy by your clinical team.",
+        "Law firms: attorney introductions and short explainers on how a claim works in Illinois, reviewed by the firm.",
+        "Logistics and B2B services: recruitment videos for drivers and warehouse staff, and case story edits for sales teams.",
+        "Trading, insurance and financial firms: explainers and internal training, approved by compliance before release."
+      ]
+    },
+    {
+      "h": "Shoots in Chicago, honestly",
+      "p": [
+        "We are based in London and we do not keep a camera crew in Chicago. When a project needs new footage, we plan the shoot with you: the shot list, the script, the interview questions and the delivery specs, then work with your in-house team or a Chicago crew you choose. We come to Chicago for a shoot when the project needs it.",
+        "For many projects, no shoot is needed. Animation, motion graphics and AI video can be produced entirely remotely, and existing footage can be re-edited into dozens of new pieces."
+      ]
+    },
+    {
+      "h": "AI video and Illinois rules",
+      "p": [
+        "AI video is useful for ad variations, training content and multilingual versions. We label it clearly, a person reviews every piece, and we only create an AI likeness of a real person with their written permission. In Illinois, that care goes further: any project that scans a real person's face or records a voiceprint to build an AI avatar may involve biometric identifiers under BIPA, so we plan written notice, consent and retention rules before capture, or use stock AI presenters instead."
+      ]
+    },
+    {
+      "h": "How to brief video production: Chicago examples",
+      "p": [
+        "A good brief saves more time than any production trick. Tell us who the video is for, the one thing they should remember, where it will run and what they should do next. For video production, Chicago clients who write two plain paragraphs get better first drafts than those who send a 30-page brand book.",
+        "Example briefs we would happily start from: a 45-second animation showing how a packaging line in Bolingbrook handles changeovers; ten recipe reels for a sauce brand's spring push; a three-minute explainer for injured workers on how an Illinois workers' compensation claim moves, checked by the firm's attorneys."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We run a managed video editing team for a US client, set up to handle a regular flow of edits. That model suits Chicago brands that need more content than one in-house editor can produce."
+      ]
+    },
+    {
+      "h": "How it works",
+      "list": [
+        "Talk: what the video is for, where it will run, and what footage and brand assets already exist.",
+        "Plan: scripts, storyboards, formats and a written schedule.",
+        "Build: production, animation or editing, with review rounds on a shared link.",
+        "Grow: cut-downs, new versions and performance reviews with your marketing team."
+      ]
+    },
+    {
+      "h": "Working with us from Chicago",
+      "p": [
+        "Reviews run on video in your morning, which is our afternoon in London. Drafts arrive on a review link where your team can comment on the exact frame. Your Signal Lead keeps the schedule and the approvals moving, so a launch date set in Chicago stays the launch date. That habit comes from live work: we have run and broadcast more than 20 large-scale live events, and the date never moves."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Type of video: edit, motion graphics, 2D, 3D or AI video.",
+        "Length and number of versions or cut-downs.",
+        "Whether a shoot is needed, and where.",
+        "Script, voiceover and music licensing.",
+        "Ongoing volume for managed editing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you film in Chicago?",
+      "a": "Not with our own local crew. We are based in London. When new footage is needed, we plan the shoot and either work with your team or a Chicago crew you hire, or travel for the shoot when the project needs it. Much of what Chicago clients need, such as animation, motion graphics and edits of existing footage, needs no shoot at all."
+    },
+    {
+      "q": "Can you animate our machinery or products?",
+      "a": "Yes. Product and technical animation is a strong fit for Chicago manufacturers whose equipment is too large, too fast or too enclosed to film well. We build 3D models from CAD files or reference photos, then animate cutaways, assembly steps and operating sequences for sales, training and trade show screens."
+    },
+    {
+      "q": "Is AI video allowed in Illinois?",
+      "a": "Yes, but some uses need care. AI presenters and generated scenes are fine when clearly labeled. Creating an avatar from a real person's face scan or voice recording may involve biometric data under BIPA, so we plan written consent and retention rules first, or use stock presenters. Any AI likeness of a real person needs their written permission."
+    },
+    {
+      "q": "How fast can you turn around edits?",
+      "a": "It depends on the volume and complexity, and we agree turnaround times in writing before work starts. Managed editing teams are set up to handle a steady weekly flow, so recurring content like reels and ad cut-downs comes back on a predictable schedule. Larger animations have their own written timeline."
+    },
+    {
+      "q": "Can you make trade show content for McCormick Place?",
+      "a": "Yes. Trade show loops, product animations and booth screen content are common requests from Chicago manufacturers and food brands. Because show dates do not move, we plan backwards from the show and build in review rounds early. We can also produce the recap video and social cut-downs after the show."
+    },
+    {
+      "q": "Do you also run the ads the videos go into?",
+      "a": "Yes. Our paid media team runs Google, YouTube, Meta, LinkedIn and TikTok campaigns, and the same Signal Lead manages both. That means creative is cut to each platform's formats and tested in real campaigns, and the results feed back into the next round of videos."
+    },
+    {
+      "q": "What is the difference between your video and animation services?",
+      "a": "Video production works from filmed footage: interviews, product shots, events and brand films. Animation builds the visuals from scratch in 2D or 3D, which suits products that are hard to film, processes and data. Many Chicago projects mix both. For video production, Chicago brands often start with edits of footage they already have, then add animation."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/video-motion",
+    "/services/ai-video-production",
+    "/services/3d-animation",
+    "/locations/chicago/3d-rendering",
+    "/locations/chicago/paid-media"
+  ],
+  "keywords": {
+    "primary": "video production chicago",
+    "secondary": [
+      "animation studio chicago",
+      "explainer video chicago",
+      "motion graphics chicago",
+      "ai video production"
+    ]
+  }
+}

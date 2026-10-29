@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { openCalendly } from "@/lib/calendly";
+import { subscribe } from "@/lib/newsletter";
 import { motion } from "framer-motion";
 import Group85 from "../assets/Group85.svg";
 import Group86 from "../assets/Group86.svg";
@@ -11,7 +13,7 @@ import MyButton from "../components/CustomButton.js";
 import Frame1 from "../assets/Frame1.svg";
 import dashiconemail from "../assets/dashicons_email.png";
 import Frame3 from "../assets/Frame3.svg";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FadeIn from "@/transitions/FadeIn.js";
 import { useCMS } from "@/hooks/useCMS";
 import { usePageContent } from "@/hooks/usePageContent";
@@ -39,8 +41,36 @@ const FALLBACK_SETTINGS: Setting[] = [
   { key: "copyright_year", value: "2026" },
 ];
 
+// Compact newsletter sign-up shown on every page.
+const FooterNewsletter = () => {
+  const [email, setEmail] = useState("");
+  const [trap, setTrap] = useState("");
+  const [state, setState] = useState<"idle" | "busy" | "done" | "error">("idle");
+  const [msg, setMsg] = useState("");
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (state === "busy") return;
+    if (trap) { setState("done"); return; }
+    setState("busy");
+    const r = await subscribe(email, "footer");
+    if (r.ok) { setState("done"); setEmail(""); }
+    else { setState("error"); setMsg(r.error || ""); }
+  };
+  if (state === "done") return <p className="text-blue-300 text-sm mb-8">Thanks, you're on the list.</p>;
+  return (
+    <form onSubmit={submit} className="mb-8 max-w-sm" noValidate>
+      <label htmlFor="footer-newsletter" className="block text-white text-sm mb-2">Subscribe to our newsletter</label>
+      <input type="text" name="fax_number" tabIndex={-1} autoComplete="off" aria-hidden="true" value={trap} onChange={(e) => setTrap(e.target.value)} style={{ position: "absolute", left: "-10000px", width: 1, height: 1 }} />
+      <div className="flex gap-2">
+        <input id="footer-newsletter" type="email" required placeholder="you@company.com" value={email} onChange={(e) => setEmail(e.target.value)} className="flex-1 min-w-0 bg-white/[0.06] border border-white/15 rounded-full px-4 py-2.5 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#504CFF]" />
+        <button type="submit" className="rounded-full px-5 py-2.5 text-sm text-white bg-[#325FEC] hover:bg-[#504CFF] transition-colors">{state === "busy" ? "..." : "Subscribe"}</button>
+      </div>
+      {state === "error" && <p className="text-red-300 text-xs mt-2" role="alert">{msg}</p>}
+    </form>
+  );
+};
+
 const Footer = () => {
-  const navigate = useNavigate();
   const { t } = usePageContent();
 
   const { data: settings } = useCMS<Setting>("site_settings", {
@@ -117,7 +147,7 @@ const Footer = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="flex justify-start md:justify-end items-center"
           >
-            <MyButton text={t("footer_cta_button", "KNOW MORE")} variant="primary" onClick={() => navigate("/contact")} />
+            <MyButton text="BOOK A CALL" variant="primary" onClick={() => openCalendly()} />
           </motion.div>
         </div>
       </motion.div>
@@ -144,9 +174,10 @@ const Footer = () => {
                   className="mb-6 h-12 md:h-14 object-contain cursor-pointer hover:scale-105 transition-transform"
                 />
               </Link>
-              <p className="text-gray-400 text-sm leading-relaxed mb-8">
-                We offer a comprehensive suite of digital marketing services. From SEO and social media to content creation and PPC, we have the expertise to scale your presence.
+              <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                22 Signals is a global business solutions company based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them.
               </p>
+              <FooterNewsletter />
               <ul className="flex gap-4 justify-start">
                 {[Group85, Group86, Group87, Group88].map((icon, i) => (
                   <motion.li 
@@ -208,6 +239,14 @@ const Footer = () => {
                     <a href={`tel:${phone.replace(/\s/g, "")}`} className="text-gray-400 text-sm hover:text-white">{phone}</a>
                   </li>
                 )}
+                <li className="flex items-center justify-start gap-3 group">
+                  <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                  <a href="https://wa.me/447944603108" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-white">WhatsApp</a>
+                </li>
+                <li className="flex items-center justify-start gap-3 group">
+                  <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                  <a href="mailto:daniyal@22signals.com" className="text-gray-400 text-sm hover:text-white">daniyal@22signals.com</a>
+                </li>
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   <a href={`mailto:${email}`} className="text-gray-400 text-sm hover:text-white">{email}</a>

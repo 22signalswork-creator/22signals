@@ -1,0 +1,148 @@
+{
+  "path": "/services/web-app-development",
+  "kind": "service",
+  "region": "global",
+  "service": "web-app-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company: Sites, Portals, Stores | 22 Signals",
+  "description": "A web development company that builds fast websites, redesigns that keep rankings, online stores and client portals, then looks after them after launch.",
+  "eyebrow": "Web Development",
+  "h1": "A web development company that builds sites to be found and used",
+  "intro": "22 Signals is a web development company that designs and builds websites, redesigns, online stores and client portals for established businesses. Every site is built to load fast, rank in search, show up in AI assistant answers and connect to the tools you already use. After launch we keep it secure, updated and backed up.",
+  "sections": [
+    {
+      "h": "What a business website has to do now",
+      "p": [
+        "A website used to be a brochure. Now it is where buyers check you out before they call, where search engines and AI assistants decide whether to mention you, and often where the actual business happens: bookings, payments, documents, account access.",
+        "That raises the bar. A site that looks good but loads slowly, hides its key information in images or breaks on a phone loses people quietly. A site that ranks but cannot take a booking or connect to your CRM leaves work for your staff. We build for all of it at once, which is why a web project with us starts with what the site needs to achieve, not with a template."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites and full redesigns, built for speed and search from the first line of code",
+        "Website migrations that move you to a new platform or domain while keeping your rankings",
+        "Content management on WordPress, headless CMS platforms or a custom setup, so your team can edit without a developer",
+        "E-commerce stores on Shopify, WooCommerce or custom builds, with payments, shipping and stock connected",
+        "Client portals with secure logins, document sharing, messaging and payments",
+        "Landing pages for campaigns, built and tested with our paid media team",
+        "Website care: updates, security, backups, uptime monitoring and small changes"
+      ]
+    },
+    {
+      "h": "Redesigns and migrations that keep your rankings",
+      "p": [
+        "The most expensive website mistake is a redesign that wipes out years of search traffic. It usually happens because old URLs vanish without redirects, pages that ranked get merged or cut, and the new site launches without anyone comparing it to the old one.",
+        "We map every old URL to a new one, keep the content that ranks, redirect the rest and check the new build against the old site before launch. After launch we watch search data for 90 days and fix anything that drops. The same care applies when you change platform, for example from an old custom build to WordPress, or merge two domains into one."
+      ]
+    },
+    {
+      "h": "Built to be found in Google and AI answers",
+      "p": [
+        "Every site ships with clean page structure, fast load times, structured data, readable text in the HTML rather than hidden in scripts, and pages written so a reader gets the answer quickly. That is what search engines rank and what lets your business show up in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Our search team checks each build before launch, not after rankings fall. Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers The same search team reviews every site we build."
+      ]
+    },
+    {
+      "h": "Online stores and content management",
+      "p": [
+        "For e-commerce we usually recommend Shopify for brands that want to sell quickly and run the store themselves, WooCommerce when the store sits inside a content-heavy WordPress site, and a custom build only when the product, pricing or checkout is unusual enough to need it. Whatever the platform, we connect payments, shipping, stock and email, and set up tracking so you know which channels bring sales.",
+        "For content, the test is simple: can your marketing team publish a new page, update a price or add a blog post without calling a developer? We build page templates and editing tools around how your team actually works."
+      ]
+    },
+    {
+      "h": "Client portals and web applications",
+      "p": [
+        "Some businesses need more than pages: a place where clients log in to see documents, upload files, sign forms, message the team and pay. We built a client portal with documents and payments for a US law firm, and the same approach works for clinics, consultancies, property managers and agencies.",
+        "Portals and web apps handle private data, so access control, encryption, audit logs and backups are part of the design from the start. For larger products, such as a SaaS platform, our App Development team takes the lead."
+      ]
+    },
+    {
+      "h": "Website care and security",
+      "p": [
+        "Websites get probed constantly, often by automated tools looking for an old plugin or a weak password. We have cleaned up compromised law-firm websites, and prevention is far easier than recovery: updates on a schedule, a firewall, strong logins, tested backups and monitoring that alerts us before your clients notice.",
+        "Care plans also cover the small jobs that otherwise pile up: new pages, form changes, speed checks and fixes when something stops working, with one lead to contact."
+      ]
+    },
+    {
+      "h": "How a web project runs",
+      "list": [
+        "Talk: we look at your current site, your search data, your competitors and what the site must achieve for the business.",
+        "Plan: sitemap, page plan, platform choice, integrations, redirect map and launch date, all in writing.",
+        "Build: design, content, development and testing on a staging site you can review page by page.",
+        "Grow: launch, 90 days of search monitoring, then care, content and conversion work to keep improving results."
+      ]
+    },
+    {
+      "h": "Cities where we offer web development",
+      "p": [
+        "We run web projects from our head office in London and work remotely with businesses in these cities, scheduling reviews in hours that suit your day. Where a project needs a workshop in person, we can arrange one.",
+        "United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami.",
+        "United Kingdom: London, Manchester and Birmingham.",
+        "UAE: Dubai and Abu Dhabi, where a site usually needs to work in both English and Arabic.",
+        "Pakistan: Lahore, Karachi and Islamabad, where English and Urdu versions are often worth planning from the start.",
+        "Search behaves differently in each market, so the page plan for a Dallas law firm looks different from one for a Dubai clinic or a Manchester retailer."
+      ]
+    },
+    {
+      "h": "Cost factors and why 22 Signals",
+      "p": [
+        "We do not publish prices. A web project's cost depends on scope: the number of pages and templates, who writes the content, the platform, integrations such as CRM, booking or payments, e-commerce catalog size, languages, migration complexity and the care plan after launch.",
+        "What makes us different from a typical web development company is what sits around the build. The same team handles SEO, paid media, video, animation and 3D, plus the cloud and AI work behind a portal or app. One Signal Lead owns the whole project, so the site, the content and the campaigns that send people to it are planned together.",
+        "Related services: SEO and generative engine optimization, Paid Media, App Development and Cloud Consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a web development company do?",
+      "a": "A web development company designs, builds and maintains websites and web applications. At 22 Signals that covers company sites and redesigns, migrations that keep search rankings, content management, online stores, client portals and ongoing care, with search and AI assistant answers planned in from the start rather than added later."
+    },
+    {
+      "q": "Can you redesign our site without losing rankings?",
+      "a": "Yes. We map every old URL to a new one, keep the content that ranks, redirect the rest and compare the new build with the old site before launch. After launch we monitor search data for 90 days and fix anything that drops, so the redesign protects the traffic you have already earned."
+    },
+    {
+      "q": "Which platform should our website use?",
+      "a": "It depends on who will edit it and what it has to do. WordPress suits content-heavy sites your team updates often. Shopify suits most online stores. A headless or custom build suits sites with complex integrations or very high performance needs. We recommend one after the planning stage, with the reasons in writing."
+    },
+    {
+      "q": "How long does it take to build a website?",
+      "a": "It depends on the number of pages, the content and the integrations. A focused company site is a short project, while a large redesign with a migration or a portal takes longer. You get a dated plan in writing before work starts, and you review the site on a staging link as it is built."
+    },
+    {
+      "q": "Do you write the content as well?",
+      "a": "Yes, if you want us to. Our content and search team writes pages built around what your buyers search for and the questions they ask. You review and approve everything. If you prefer to write your own, we give you a page plan and guidance so the content still works for search."
+    },
+    {
+      "q": "Do you maintain websites after launch?",
+      "a": "Yes. Care plans cover updates, security, backups, uptime monitoring, speed checks and small changes, with one lead to contact. Many website attacks target outdated plugins and software, so regular updates and monitoring stop a lot of problems before they reach your clients."
+    },
+    {
+      "q": "Are your websites accessible to people with disabilities?",
+      "a": "We build to the WCAG accessibility guidelines: proper headings, text alternatives for images, enough color contrast, forms that work with a keyboard and pages that screen readers can follow. For US businesses this matters legally as well as commercially, because website accessibility claims are common. We test key pages before launch and fix issues we find."
+    },
+    {
+      "q": "Do you work with businesses outside the UK?",
+      "a": "Yes. We work with businesses in the United States, the UAE and Pakistan as well as across Britain. We work remotely with meeting hours that overlap your day, share progress on a staging site and put every date in writing, so distance makes little difference to how the project runs."
+    }
+  ],
+  "related": [
+    "/services/seo-geo",
+    "/services/app-development",
+    "/services/paid-media",
+    "/services/cloud",
+    "/services/video-motion"
+  ],
+  "keywords": {
+    "primary": "web development company",
+    "secondary": [
+      "website development services",
+      "web design and development company",
+      "web app development company",
+      "website redesign",
+      "ecommerce website development",
+      "client portal development"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "path": "/locations/lahore/web-development",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Lahore",
+  "citySlug": "lahore",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company Lahore: Sites and Stores | 22 Signals",
+  "description": "A web development company Lahore brands use for fast websites, online stores and portals: built for mobile data, WhatsApp enquiries and Urdu and English search.",
+  "eyebrow": "Web Development in Lahore",
+  "h1": "The web development company Lahore brands hire when the site has to sell",
+  "intro": "We build websites, online stores and client portals for established Lahore businesses: fast on mobile data, easy for your team to update, connected to WhatsApp and your payment gateway, and structured so Google and AI assistants understand them. Redesigns keep your existing rankings, and every site comes with care and security after launch.",
+  "sections": [
+    {
+      "h": "The problem with most business websites in Lahore",
+      "p": [
+        "A lot of the sites we review were built quickly by a freelancer, run on crowded shared hosting and have not been updated since. They take several seconds to load on a 4G connection, the contact form goes to an inbox nobody checks and the WordPress plugins are years out of date. Customers give up and message a competitor on Instagram instead.",
+        "Choosing a web development company Lahore owners can hold to account means choosing someone who stays after launch, fixes things when they break and measures whether the site brings in business."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites and redesigns for manufacturers, exporters, clinics, schools and professional firms.",
+        "E-commerce on Shopify or WooCommerce, with local payment gateways, cash on delivery and courier integrations.",
+        "Client and customer portals with logins, documents, order tracking and payments.",
+        "Migrations from old platforms that keep your URLs, redirects and search rankings intact.",
+        "Content management your own staff can use without calling a developer.",
+        "Website care and security: updates, backups, uptime monitoring and fixes when something goes wrong."
+      ]
+    },
+    {
+      "h": "Built for how Lahore customers actually buy",
+      "p": [
+        "Most visitors arrive on a phone, often on mobile data, and many want to talk before they buy. So we keep pages light, put a WhatsApp button where people expect it and make sure every enquiry is logged rather than lost in one person's chat list.",
+        "For retail, cash on delivery remains a large share of orders, so we design checkout, confirmation messages and courier hand-off around it, alongside card payments and wallets such as JazzCash and Easypaisa where your gateway supports them. For Urdu pages we use proper Nastaliq fonts and right-to-left layout, not a squashed English template."
+      ]
+    },
+    {
+      "h": "Speed and security on Pakistani connections",
+      "p": [
+        "We test every build on a mid-range Android phone over mobile data, because that is how most of your visitors will see it. Images are compressed and served in modern formats, scripts are kept to what the page needs and hosting sits close to your audience with a content delivery network in front.",
+        "Security gets the same attention. Hacked WordPress sites are common, and while the Prevention of Electronic Crimes Act 2016 makes the attack a crime, it does not win back customers whose details leaked. A web development company Lahore businesses trust should patch plugins, limit admin accounts, add two-step login and keep backups off the server. We do all four as standard."
+      ]
+    },
+    {
+      "h": "Lahore sectors and what their sites need",
+      "list": [
+        "Textile and apparel exporters: an English site that foreign buyers trust, with product ranges, capacity, compliance documents and a sampling enquiry form.",
+        "Fashion and bridal labels: lookbooks that load quickly, size guides, appointment booking for the studio and a store that matches Instagram.",
+        "Restaurants and cafes around MM Alam Road and DHA: menus as real text, table booking and links to delivery partners.",
+        "Real estate developers: project pages with plans, payment schedules and lead forms that reach sales instantly.",
+        "Hospitals and clinics in Johar Town and beyond: doctor profiles, timings, appointment requests and clear service pages.",
+        "Schools and colleges: admissions information, fee structures, and portals for results and notices."
+      ]
+    },
+    {
+      "h": "Proof: portals, not only brochures",
+      "p": [
+        "One of our builds is a client portal for a US law firm, where clients log in to see documents and make payments securely. We bring the same standards to Lahore projects: role-based access, encrypted connections, sensible session rules and an audit trail, whether the portal is for a distributor's dealers or a school's parents."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we learn how the site should make money and what is failing today. Plan: sitemap, page content, integrations and a written timeline. Build: design, development and testing on real phones and real connections, with weekly previews. Grow: after launch we track enquiries and sales, fix what slows people down and keep the site updated and secure."
+      ]
+    },
+    {
+      "h": "Working with us from Lahore",
+      "p": [
+        "We are based in London and build for Lahore clients remotely. With PKT five hours ahead in winter and four in summer, design reviews sit comfortably in your afternoon: a 10:30 London call is 15:30 PKT in winter. Feedback goes into one shared document, and your Signal Lead confirms every milestone date in writing.",
+        "If a photo shoot or a product session in Lahore helps the site, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "list": [
+        "Number of pages and how much content we write versus you supply.",
+        "Custom design or adapted theme.",
+        "E-commerce, payment gateways, courier or ERP integrations.",
+        "Portals, logins and custom features.",
+        "Languages: English only, or English and Urdu.",
+        "The level of care and security support after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "A website is only as good as the traffic and follow-up around it. We build the site, then the same team runs SEO and GEO, paid media and video that feed it, and automations that make sure every enquiry gets answered. One Signal Lead runs all of it. Related services: app development, SEO and GEO, paid media and WhatsApp automation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I choose a web development company in Lahore?",
+      "a": "Look at sites they have launched and test them on your phone. Ask who owns the domain, hosting and code after launch, how they handle redirects in a redesign and what happens when something breaks. A good partner gives a written scope, dates and a care plan, not just a design."
+    },
+    {
+      "q": "Do you build in WordPress, Shopify or custom code?",
+      "a": "All three. WordPress suits content-heavy sites that staff update often. Shopify suits most online stores and is quick to run. Custom builds on modern frameworks suit portals, complex features and high traffic. We recommend the simplest option that does the job and will still suit you in a few years."
+    },
+    {
+      "q": "Can you connect our store to Pakistani payment methods?",
+      "a": "Yes. We integrate the payment gateway your bank or provider offers, which can include cards and wallets such as JazzCash and Easypaisa, and we set up cash on delivery with clear confirmation messages to cut failed deliveries. Exact options depend on your merchant account."
+    },
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "Not if it is handled properly. Before launch we map every old URL to its new one, keep titles and content that rank, and set redirects. After launch we watch Search Console for errors and fix them quickly. This is a standard part of every migration we do."
+    },
+    {
+      "q": "Can our site be in both Urdu and English?",
+      "a": "Yes. We build bilingual sites with separate URLs for each language so both can rank, use Nastaliq fonts and right-to-left layout for Urdu, and set language tags correctly. Many Lahore businesses start with English and add Urdu pages for their most important services."
+    },
+    {
+      "q": "Do you meet clients in Lahore?",
+      "a": "We work remotely from our London head office, with calls in the Lahore afternoon and weekly previews you can open on any device. If the project needs someone in Lahore, for a shoot or a workshop with your team, we arrange it for that project."
+    },
+    {
+      "q": "Who looks after the site after launch?",
+      "a": "We do, if you want us to. Website care covers updates, backups, uptime and security monitoring, small changes and fixes. You keep full ownership of the domain, hosting and code, so you can move it at any time. We also send a short monthly note on what was updated and anything that needs a decision from you."
+    }
+  ],
+  "related": [
+    "/locations/lahore",
+    "/services/web-app-development",
+    "/locations/lahore/seo-geo",
+    "/locations/lahore/app-development",
+    "/industries/fashion-beauty",
+    "/locations/karachi/web-development"
+  ],
+  "keywords": {
+    "primary": "web development company lahore",
+    "secondary": [
+      "website development lahore",
+      "web developers lahore",
+      "ecommerce website lahore",
+      "website design company lahore"
+    ]
+  }
+}

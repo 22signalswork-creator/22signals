@@ -1,0 +1,154 @@
+{
+  "path": "/locations/london/ai-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consultancy London: From Audit to Build | 22 Signals",
+  "description": "AI consultancy London firms can meet in person: find where AI pays off, plan it within UK GDPR and FCA rules, then build a working pilot.",
+  "eyebrow": "AI Consultancy in London",
+  "h1": "AI consultancy London companies can meet in person",
+  "intro": "22 Signals is an AI consultancy, London-based, with its head office in the city. We help established firms in finance, law, retail, property and life sciences decide where AI will pay off, plan it within UK GDPR and FCA rules, and then build the first working system. You get one accountable lead and a pilot your team uses.",
+  "sections": [
+    {
+      "h": "Why so many London firms are stuck between an AI pilot and a result",
+      "p": [
+        "Most companies in London have already tried AI. Someone in operations has a chatbot trial, finance has a forecasting experiment, marketing writes drafts with ChatGPT, and IT is worried about where the data goes. What is usually missing is a decision: which two or three uses are worth real money, who owns them, and what the rules are.",
+        "That gap is where an AI consultancy earns its fee. Strategy firms in the City can write the board paper, but often hand the build to someone else. Developers can build, but rarely start by asking whether the process should exist at all. We do both, so the person who recommends the change is answerable for whether it works."
+      ]
+    },
+    {
+      "h": "What our AI consultancy covers",
+      "list": [
+        "AI readiness review: your data, systems, people and risk, in plain words",
+        "Use-case discovery, ranked by value and effort, so the shortlist is short",
+        "An AI roadmap with owners, budgets and dates, agreed in writing",
+        "Tool and vendor selection, including build versus buy for Microsoft Copilot, OpenAI, Anthropic, Google and specialist tools",
+        "AI policy, governance and data privacy rules your staff can follow",
+        "Pilot builds that prove value on one process before you spend more",
+        "Training for the team that will use the system every day"
+      ]
+    },
+    {
+      "h": "The rules London companies plan around",
+      "p": [
+        "UK GDPR and the Data Protection Act 2018 apply as soon as an AI tool touches personal data, which is most of the time. The ICO expects a data protection impact assessment for high-risk processing, a clear lawful basis, and real human review where a decision has a legal or similarly significant effect on someone. We build those steps into the plan rather than adding them at the end.",
+        "Regulated firms have more to consider. FCA-authorised businesses in the City and Canary Wharf need AI use that fits the Consumer Duty and the Senior Managers and Certification Regime, where a named person is accountable for the outcome. Law firms answer to the SRA on confidentiality and supervision. Companies selling into Europe may also fall under the EU AI Act. We are not your lawyers, but we write the plan so your compliance team and solicitors can sign it off quickly."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first, by London sector",
+      "list": [
+        "Financial services in the City and Canary Wharf: drafting and checking client communications, summarising research, triaging complaints, and KYC document review with a human sign-off",
+        "Fintech around Shoreditch and Old Street: support automation, onboarding checks, and AI features inside the product, with an audit trail the FCA would expect",
+        "Law firms and professional services around Holborn and Chancery Lane: document review, precedent search over your own files, matter intake and time recording",
+        "Retail and fashion in the West End: product copy at volume, stock and demand forecasting, and customer service that hands off to a person",
+        "Healthcare and life sciences in the Knowledge Quarter around King's Cross: literature summaries, patient enquiry handling and internal knowledge search, with clinical content checked by your team",
+        "Property and estate agencies: listing descriptions, enquiry qualification and portfolio reporting"
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk is a short call to see if there is a fit. Plan is the readiness review and the ranked shortlist, usually done through interviews with the people who do the work, not only the people who manage it. Build is a pilot on the use case with the clearest return, run inside your own tenancy where possible. Grow is measuring the result against the numbers we agreed before we started, then deciding what goes next.",
+        "Every date in that sequence goes in writing. If something slips, you hear it from your Signal Lead before you notice it."
+      ]
+    },
+    {
+      "h": "Proof from real builds",
+      "p": [
+        "We have done more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. That matters for consultancy because our advice comes from what actually broke in production, not from vendor slides."
+      ]
+    },
+    {
+      "h": "Meet us in London, work across time zones",
+      "p": [
+        "Our head office is in London, so workshops can happen in your office or ours, and the people on the call are the people on the project. An AI consultancy London teams can sit across a table from makes the conversation about data much easier, especially for firms that want to see who is handling it before they share it.",
+        "Plenty of London businesses run teams in New York, Dubai or both. We schedule around that: mornings overlap with the Gulf, which is three or four hours ahead depending on the season, and afternoons overlap with New York, five hours behind. Specialist teams across four regions pick up work outside London hours, so progress continues overnight without anyone pretending to be awake at 3am."
+      ]
+    },
+    {
+      "h": "Questions to ask any AI consultancy, London or elsewhere",
+      "p": [
+        "Before you hire anyone, including us, ask these. The answers tell you quickly whether you are buying a slide deck or a working system."
+      ],
+      "list": [
+        "Who will actually do the work, and can we meet them?",
+        "Which of your recommendations have you built yourselves, and what went wrong?",
+        "How will you keep our client data out of models that train on it?",
+        "What will we measure before and after the pilot, and who owns that number?",
+        "What happens after the pilot: do you stay, hand over, or both?"
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "p": [
+        "The cost of AI consultancy depends on scope, so we price after the first conversation. The main factors are:"
+      ],
+      "list": [
+        "How many teams and processes the readiness review covers",
+        "The state of your data and how many systems hold it",
+        "Whether the work stops at a roadmap or includes a pilot build",
+        "Regulatory weight: an FCA-authorised firm needs more governance work than a design studio",
+        "Licences for third-party models and tools, which you pay for directly"
+      ]
+    },
+    {
+      "h": "Why London firms choose 22 Signals",
+      "p": [
+        "We are one team covering AI, cloud and data, and also marketing, video, animation and 3D. So when the roadmap says the next step is a customer-facing assistant, a new data pipeline or a launch campaign for the AI feature, the same lead runs it. If you want to talk it through, book a 15-minute call: it is a fit check, not a pitch.",
+        "Related work we often pair with this: AI automation for the build, business intelligence for the data underneath, and cloud consultancy when the systems need a better home."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can we meet your AI consultants in London?",
+      "a": "Yes. Our head office is in London, and we run discovery workshops in person when that helps, at your office or ours. Many clients prefer to meet the people who will handle their data. After the first workshop, most of the work runs through shared documents, short calls and a weekly update from your Signal Lead."
+    },
+    {
+      "q": "How do you handle UK GDPR when using AI?",
+      "a": "We treat it as part of the design. That means identifying the lawful basis, running a data protection impact assessment where the ICO expects one, keeping personal data out of tools that would train on it, and putting a person in the loop for significant decisions. Your data protection officer or solicitor gets the documents to sign off."
+    },
+    {
+      "q": "Do you work with FCA-regulated firms?",
+      "a": "Yes, with the regulatory work shaping the plan. For FCA-authorised firms we map each use case against the Consumer Duty, record who is accountable under the Senior Managers regime, and keep an audit trail of what the system did and why. We do not give regulatory advice, so your compliance team stays the final word."
+    },
+    {
+      "q": "What is the difference between an AI consultancy and an AI developer?",
+      "a": "An AI consultancy decides what is worth doing and how to do it safely. A developer builds what it is asked to build. 22 Signals does both, so the roadmap ends in a working pilot and the people who recommended it are answerable for the result."
+    },
+    {
+      "q": "How long before we see a working pilot?",
+      "a": "It depends on data access and the use case. A focused pilot on one process is a small build; anything touching several systems is planned in phases. We agree each date in writing before we start, and the Signal Lead flags any risk to it as soon as it appears."
+    },
+    {
+      "q": "Should we use Microsoft Copilot or build something custom?",
+      "a": "If you already run Microsoft 365, Copilot often covers general drafting and search well, and building over it is wasteful. Custom builds make sense when the task depends on your own data, a specific workflow or a product feature. The readiness review answers this for each use case, with the cost of both options."
+    },
+    {
+      "q": "Do you only work with large City firms?",
+      "a": "No. Most of our clients are established companies with 5 to 500 staff: law firms, clinics, retailers, agencies, property businesses and technology companies, in London and beyond. Founders and startups use the same process, only faster. The deciding factor is whether there is a repeated process worth improving."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/ai-consulting",
+    "/locations/london/ai-automation",
+    "/locations/london/business-intelligence",
+    "/locations/manchester/ai-consulting",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai consultancy london",
+    "secondary": [
+      "ai consultancy",
+      "ai consultants london",
+      "ai consulting london",
+      "ai strategy consultant london",
+      "ai governance uk gdpr"
+    ]
+  }
+}

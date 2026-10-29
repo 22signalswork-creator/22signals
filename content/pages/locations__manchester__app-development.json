@@ -1,0 +1,138 @@
+{
+  "path": "/locations/manchester/app-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company Manchester | 22 Signals",
+  "description": "An app development company Manchester firms use for iOS, Android and web apps: MVPs, payments, APIs and app store launch, with one lead and dates in writing.",
+  "eyebrow": "App Development in Manchester",
+  "h1": "App development company Manchester businesses use to ship, not stall",
+  "intro": "We build iOS and Android apps, web apps and SaaS products for established Manchester companies and the founders they back. That covers scoping a first version, design, development, payments, APIs, app store launch and support afterwards. You get one accountable lead, a dated plan and an app your customers or staff actually keep using.",
+  "sections": [
+    {
+      "h": "Most app projects fail before a line of code",
+      "p": [
+        "The usual story: a Manchester company decides it needs an app, writes a feature list as long as a menu, gets three quotes that differ by a factor of four, and picks the middle one. Eighteen months later the app is half built, the original developer has moved on, and nobody can say whether customers even wanted it.",
+        "We start somewhere else. What job does the app do for the user, what is the smallest version that does it, and how will you know it is working? Answer those, and the build becomes far more predictable.",
+        "In practice, the real need for a Manchester company is often narrower than the first brief: a staff app that replaces a paper process, or a customer app that does one thing better than the website. Starting there gets something useful into people's hands within months, and the feature list can grow from evidence rather than guesswork."
+      ]
+    },
+    {
+      "h": "What we deliver",
+      "list": [
+        "Native and cross-platform apps for iOS and Android.",
+        "Web apps and SaaS products, including customer dashboards and admin panels.",
+        "MVPs scoped to test the core idea quickly with real users.",
+        "Payments, subscriptions and in-app purchases, set up within Apple and Google rules.",
+        "APIs and integrations with your CRM, ERP, booking, stock or finance systems.",
+        "App store submission, launch and ongoing support, updates and monitoring."
+      ]
+    },
+    {
+      "h": "Apps that suit Manchester's sectors",
+      "list": [
+        "Retail and fashion brands: loyalty and shopping apps that tie into the online store, with push notifications that respect consent.",
+        "Manufacturers and logistics firms around Trafford Park: field service, stock checking and delivery proof apps for staff on the move.",
+        "Financial and professional services in Spinningfields: secure client apps for documents, updates and payments.",
+        "Health and life sciences on the Oxford Road Corridor: patient or participant apps where data handling has to be watertight.",
+        "Media and entertainment near MediaCityUK: companion apps, content apps and fan experiences.",
+        "SaaS and university spin-outs: the first customer-facing product, built so it can grow."
+      ]
+    },
+    {
+      "h": "UK data, children's privacy and financial rules",
+      "p": [
+        "Apps collect more personal data than most websites: location, contacts, photos, health readings, payment details. UK GDPR and the Data Protection Act 2018 apply to all of it, and we design permissions, storage and deletion around those rules. If your app is likely to be used by under-18s, the ICO's Age Appropriate Design Code, often called the Children's Code, sets extra standards. The ICO, based in Wilmslow just south of Manchester, has enforced it actively, so it is worth taking seriously from the first wireframe.",
+        "Financial apps carry further duties. If you are FCA authorised, the Consumer Duty affects how the app explains products and treats customers. We build with your compliance team rather than around them."
+      ]
+    },
+    {
+      "h": "How we build it",
+      "list": [
+        "Talk: a 15-minute call to check fit, then a workshop on users, goals and the riskiest assumptions.",
+        "Plan: a scoped first version, clickable prototype, technical plan and dated milestones in writing.",
+        "Build: two-week cycles with a test build on your phone at the end of each one.",
+        "Grow: app store launch, analytics, crash reporting, updates and the next set of features based on real usage."
+      ]
+    },
+    {
+      "h": "Proof: building something new",
+      "p": [
+        "We are developing an AI commentary product for live esports, which generates real-time commentary for matches as they happen. It is still in development, and we say so plainly. It is relevant here because it is exactly the kind of build where scope, performance and testing with real users decide whether a product works, and that is how we run app projects for clients."
+      ]
+    },
+    {
+      "h": "An app development company Manchester clients can work with remotely",
+      "p": [
+        "We are based in London with no Manchester office, and that suits app work well. Builds run on short cycles: you install the latest test version, try it, and send feedback the same day. Manchester and London share a time zone, so stand-ups and reviews sit inside normal working hours for both sides.",
+        "Some moments are better face to face, such as the initial product workshop or user testing with your customers. Your Signal Lead travels up from London for those when the project needs it; it is about two hours by train."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Number of screens, user types and features in the first version.",
+        "Integrations with existing systems and third-party services.",
+        "Payments, security and compliance requirements.",
+        "Design depth, animation and content.",
+        "Support, hosting and updates after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Launching an app is half the job; getting people to download and keep using it is the other half. We build the app and can also run the launch: app store pages, paid media, video and animation for the store listing, and the website that sends traffic to it. One Signal Lead, one plan, no handovers between agencies. Related pages: web development, custom AI development, paid media and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "For most business apps, a cross-platform framework such as React Native or Flutter gives you iOS and Android from one codebase, which saves time and keeps features in step. Native makes sense for heavy graphics, deep hardware use or very specific platform features. We recommend after understanding what the app must do."
+    },
+    {
+      "q": "Can you take over an app another agency started?",
+      "a": "Often, yes. We start with a code and infrastructure review to see what is reusable, what is risky and what is missing, then give you an honest recommendation: continue, refactor or rebuild parts. You get the findings in writing before committing to anything further."
+    },
+    {
+      "q": "Do you meet app clients in Manchester?",
+      "a": "When the project needs it. Product workshops and user testing sessions can be worth doing in person, and your Signal Lead travels from London for them. The rest of the project runs remotely in UK hours, with test builds on your phone at the end of each cycle."
+    },
+    {
+      "q": "Do we need an app development company Manchester-based to get a good result?",
+      "a": "Not really. What matters is how often you see working software, how quickly feedback turns into changes and who is accountable for dates. Those depend on process, not postcode. We share your time zone, put a new test build on your phone every cycle, and come to Manchester in person when a workshop or user test needs it."
+    },
+    {
+      "q": "How do you handle UK GDPR in an app?",
+      "a": "We ask only for the permissions the app needs, explain why at the moment we ask, store data securely and in the right region, and give users a way to see and delete their data. If children may use the app, we apply the ICO's Children's Code. Your data protection lead gets documentation to review."
+    },
+    {
+      "q": "Who owns the app and the code?",
+      "a": "You do. The code repository, app store accounts, cloud hosting and design files are set up in your business's name. That way you are never locked in, and another team could pick it up if you ever needed them to."
+    },
+    {
+      "q": "What happens after the app is in the stores?",
+      "a": "Apple and Google change their rules and operating systems every year, so apps need regular updates. We offer support plans covering updates, crash monitoring, security patches and small improvements, and we can plan the next features based on how people actually use the app."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/app-development",
+    "/locations/manchester/web-development",
+    "/services/custom-ai-development",
+    "/locations/london/app-development",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "app development company manchester",
+    "secondary": [
+      "app developers manchester",
+      "mobile app development manchester",
+      "ios app development manchester"
+    ]
+  }
+}

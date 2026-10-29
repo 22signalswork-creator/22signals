@@ -1,0 +1,141 @@
+{
+  "path": "/services/data-engineering",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "Data engineering",
+  "title": "Data Engineering Services and Data Pipelines | 22 Signals",
+  "description": "Data engineering services: ETL and ELT pipelines, warehouses and lakehouses on BigQuery, Snowflake, Azure or Databricks, with tests, monitoring and APIs.",
+  "eyebrow": "Data Engineering",
+  "h1": "Data engineering services that give your data one reliable home",
+  "intro": "22 Signals delivers data engineering services for companies whose data is spread across too many tools. We build ETL and ELT pipelines, set up warehouses and lakehouses on BigQuery, Snowflake, Azure or Databricks, add tests, orchestration and monitoring, and connect the APIs your systems need, so reporting, automation and AI all run on the same trusted data.",
+  "sections": [
+    {
+      "h": "The problem: data glued together by exports and scripts",
+      "p": [
+        "A typical mid-sized company now runs dozens of SaaS tools. Customer data sits in the CRM, money in the accounting system, orders in a store platform, campaigns in four ad accounts and operations in a project tool. Each one is fine on its own. Getting them to agree is where things break.",
+        "The usual fix is a set of CSV exports, a few scheduled scripts someone wrote years ago, and a spreadsheet that joins it all together. It works until an API changes, a field is renamed or the person who wrote the script leaves. Then reports go quiet, nobody knows which number is right, and the AI project everyone wanted has nothing clean to run on."
+      ]
+    },
+    {
+      "h": "What our data engineering services include",
+      "list": [
+        "Pipelines (ETL and ELT) from SaaS tools, databases, files, APIs and event streams",
+        "Warehouses and lakehouses on BigQuery, Snowflake, Azure, Microsoft Fabric or Databricks",
+        "Transformation and modeling with version-controlled SQL, typically in dbt",
+        "Data quality tests, freshness checks and alerts when something breaks",
+        "Orchestration and scheduling so jobs run in the right order and recover from failures",
+        "APIs and integrations, including sending clean data back into your CRM and other tools",
+        "Security, access control and privacy settings for personal and regulated data",
+        "Documentation and handover, so your team can run and extend what we build"
+      ]
+    },
+    {
+      "h": "Pipelines: getting data in reliably",
+      "p": [
+        "For common SaaS sources we usually start with a managed connector service such as Fivetran or Airbyte, because maintaining connectors for APIs that change every few months is rarely a good use of your money. Where no connector exists, or the volume or cost does not make sense, we write custom ingestion in Python against the source API or database.",
+        "Most modern stacks use ELT: load raw data into the warehouse first, then transform it there. That keeps an untouched copy of what arrived, which makes problems easier to trace. For databases that change constantly we use change data capture, so only new and updated rows move, and for time-sensitive events we can stream data rather than batch it."
+      ]
+    },
+    {
+      "h": "Choosing a warehouse or lakehouse",
+      "p": [
+        "There is no single right platform, and we have no reason to push one. BigQuery suits companies on Google Cloud or heavy users of Google Ads and GA4. Snowflake works well across clouds and is strong when several teams share data. Azure and Microsoft Fabric fit companies already on Microsoft 365 and Power BI. Databricks makes sense when data science and machine learning are a large part of the plan, or when you are working with large volumes of files and semi-structured data.",
+        "We compare the options against your existing cloud, your reporting tools, expected data volumes, the skills of your team and how each platform charges for storage and compute. Then we recommend one, with the reasons written down."
+      ]
+    },
+    {
+      "h": "Transformation and modeling",
+      "p": [
+        "Raw data is rarely ready to use. We organize the warehouse in layers: raw tables as they arrived, staging tables that clean and standardize them, and business-ready tables for customers, orders, revenue, campaigns and whatever else your reporting needs. Each layer is written as SQL in a tool such as dbt, kept in version control, reviewed before changes go live, and documented so analysts know what each table means.",
+        "This is where business rules get settled once. How a customer is counted, when revenue is recognized, which order statuses count as complete. Getting those rules into code rather than into individual spreadsheets is what makes numbers match across every report."
+      ]
+    },
+    {
+      "h": "Quality, orchestration and monitoring",
+      "p": [
+        "Pipelines fail quietly unless you build them not to. We add tests on every important table: no unexpected nulls, no duplicate keys, values within sensible ranges, totals that reconcile with the source system. Freshness checks flag when a source stops sending data.",
+        "Jobs are scheduled and ordered with an orchestrator such as Airflow, Dagster or the native tools in your cloud, so a transformation never runs on half-loaded data and a failed step retries before it alerts someone. Alerts go to a named owner, with a short runbook for the common failures."
+      ]
+    },
+    {
+      "h": "Security and privacy",
+      "p": [
+        "Good data engineering keeps personal data under control. We set role-based access so people see only the data their job needs, mask or hash personal fields where analysts do not need the raw values, keep data in the cloud region you choose, and log who accessed what. Those settings support your obligations under laws such as GDPR and UK GDPR, the California Consumer Privacy Act and, for US health data, HIPAA, and we work alongside your legal or compliance lead on the specific requirements."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "We have managed more than $1.5 million in projects, and every engagement follows the same four steps, with one Signal Lead accountable throughout."
+      ],
+      "list": [
+        "Talk: a fit call, then an inventory of your sources, current scripts, reports and the uses the data must support",
+        "Plan: platform recommendation, data model, pipeline plan per source and a delivery calendar in writing",
+        "Build: ingestion, transformation, tests and orchestration, delivered source by source so useful tables arrive early",
+        "Grow: monitoring, new sources as the business adds tools, cost reviews and support for the analysts and AI work built on top"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. Platform and connector fees are paid to those vendors and sit apart from our work. Our cost depends on scope, confirmed in writing before we start."
+      ],
+      "list": [
+        "Number of sources, and whether ready-made connectors exist for them",
+        "Data volume, history to backfill and how often data must refresh",
+        "Complexity of business rules and data cleaning",
+        "Whether we migrate from an existing warehouse or legacy scripts",
+        "Security, privacy and audit requirements",
+        "Ongoing monitoring and support after handover"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for data engineering",
+      "p": [
+        "Data engineering is rarely the end goal. It exists so dashboards are right, automations have clean inputs and AI tools answer from real company data. Our team covers all of those, plus cloud, marketing and video, so the platform is designed around how the data will actually be used rather than in isolation.",
+        "Related services that build on this work: business intelligence consulting and Power BI consulting for reporting, AI automation and custom AI development for tools that run on the data, and cloud consulting for the infrastructure underneath."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What do data engineering services include?",
+      "a": "Data engineering services cover moving data from source systems into a central warehouse or lakehouse, cleaning and modeling it, testing its quality, scheduling and monitoring the jobs, and connecting it to the tools that use it. Our work spans ETL and ELT pipelines, BigQuery, Snowflake, Azure and Databricks platforms, dbt modeling, orchestration and APIs."
+    },
+    {
+      "q": "What is the difference between ETL and ELT?",
+      "a": "ETL transforms data before loading it into the warehouse. ELT loads raw data first and transforms it inside the warehouse. Most modern cloud stacks use ELT because warehouses are now fast enough to do the transformation, and keeping a raw copy makes errors easier to trace and rules easier to change later."
+    },
+    {
+      "q": "Which data platform should we choose?",
+      "a": "It depends on the cloud you already use, your reporting tools, data volumes and team skills. BigQuery fits Google-heavy companies, Snowflake suits multi-cloud and data sharing, Azure and Fabric fit Microsoft shops, and Databricks suits heavy data science or file-based data. We compare them against your situation and recommend one with written reasons."
+    },
+    {
+      "q": "Can you work with our existing data team?",
+      "a": "Yes. Some clients want a full platform built and handed over, others want us to add capacity to an existing team or fix a specific problem such as failing pipelines or a slow warehouse. We follow your coding standards and review process, document everything we build, and train your engineers on anything new."
+    },
+    {
+      "q": "How do you keep data pipelines from breaking?",
+      "a": "We design for failure. Tests check every important table, freshness checks catch silent sources, the orchestrator retries failed steps and only alerts when retries run out, and each alert goes to a named owner with a runbook. Managed connectors handle API changes for common tools, which removes the most frequent cause of breakage."
+    },
+    {
+      "q": "Do we need data engineering before starting with AI?",
+      "a": "Not always. Some AI use cases run on documents and email with little data work. But tools that answer questions about customers, orders or performance need clean, connected data, and that is a data engineering job. We often build the first pipelines and the first AI tool together, so each justifies the other."
+    },
+    {
+      "q": "How much do data engineering services cost?",
+      "a": "It depends on scope: the number of sources, data volumes, how complex the business rules are, whether we migrate from legacy systems, and what security and support you need. Platform fees are separate. We don't publish prices; after a short call we send a written scope with dates."
+    }
+  ],
+  "related": [
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/cloud",
+    "/services/custom-ai-development",
+    "/services/ai-automation"
+  ],
+  "keywords": {
+    "primary": "data engineering services",
+    "secondary": ["data engineering consulting", "data pipeline development", "etl services", "data warehouse consulting", "snowflake consulting", "databricks consulting"]
+  }
+}

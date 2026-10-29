@@ -1,0 +1,156 @@
+{
+  "path": "/services/cloud",
+  "kind": "service",
+  "region": "global",
+  "service": "cloud",
+  "serviceType": "Cloud consulting services",
+  "title": "Cloud Consulting Services: AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consulting services on AWS, Google Cloud and Azure: architecture, security, monitoring, cost reviews and managed operations, with one accountable lead.",
+  "eyebrow": "Cloud Consulting",
+  "h1": "Cloud consulting services for companies that run on software",
+  "intro": "Cloud consulting services help a company design, secure and run its systems on AWS, Google Cloud or Azure without overpaying. 22 Signals plans the architecture, sets up access control and monitoring, reviews what you spend, and can run the whole environment for you. Built for established companies whose apps, data and AI tools depend on it.",
+  "sections": [
+    {
+      "h": "Signs your cloud setup needs attention",
+      "p": [
+        "Most cloud accounts were never designed. They grew: a server set up for a launch, a database added in a hurry, a contractor's test environment that nobody switched off. Years later the business runs on it and nobody is quite sure how it fits together. If any of these sound familiar, it is time for a proper review:"
+      ],
+      "list": [
+        "The monthly cloud bill keeps rising and nobody can explain why",
+        "One person, often a former contractor, holds the passwords and the knowledge",
+        "You find out about outages from customers, not from alerts",
+        "Staff and suppliers have more access than their job needs",
+        "Backups exist, but nobody has tested restoring one",
+        "New AI tools, apps or data projects are waiting because the foundation is not ready"
+      ]
+    },
+    {
+      "h": "What our cloud consulting services include",
+      "list": [
+        "Cloud architecture on AWS, Google Cloud and Azure: networks, compute, databases, storage and how they connect",
+        "Security and access control: single sign-on, least-privilege roles, encryption, secrets handling and audit logs",
+        "Monitoring and alerting for uptime, performance, errors and unusual spend",
+        "Cost reviews that find idle resources, oversized servers and pricing commitments you are not using",
+        "Backup, disaster recovery and tested restore plans",
+        "Managed cloud operations: patching, scaling, incident response and monthly reporting, with one lead to call",
+        "Migration and DevOps work when you need it, delivered by the same team"
+      ],
+      "p": [
+        "Cloud consulting services from 22 Signals start with a written review of what you have today, so every recommendation is tied to your real setup rather than a generic checklist."
+      ]
+    },
+    {
+      "h": "AWS, Google Cloud or Azure: how we choose",
+      "p": [
+        "We recommend the provider that fits your business, not the one that is easiest for us. If your company lives in Microsoft 365 and your finance team uses Power BI, Azure usually makes identity and data simpler. If your product team builds data-heavy or AI features and already uses Google Workspace, Google Cloud often fits well. AWS has the widest range of services and the largest pool of people who know it, which matters when you hire later.",
+        "Often the right answer is the provider you already use, set up properly. Moving clouds is expensive and rarely the best first step. Where a mix makes sense, for example a website on a managed platform and data on Google Cloud, we design the pieces so they are monitored and secured as one system."
+      ]
+    },
+    {
+      "h": "Security, access control and monitoring",
+      "p": [
+        "Many cloud breaches come from simple configuration mistakes, not clever attackers: a storage bucket left public, an old access key in a code repository, an admin account without multi-factor login. We start by closing those gaps, then set up roles so each person and service can do only what it needs.",
+        "Monitoring covers the things that hurt the business when they fail: the site or app being down, slow pages, failed jobs, full disks, unusual logins and sudden jumps in spend. Alerts go to people who can act, with a written runbook for the common cases, so a 3 a.m. problem does not depend on one person remembering what to do.",
+        "We have done security clean-ups of compromised law-firm websites, and the lesson carries over to every cloud account we touch: prevention and clear ownership cost far less than recovery."
+      ]
+    },
+    {
+      "h": "Cost reviews and managed cloud operations",
+      "p": [
+        "A cost review reads your bill line by line and matches it to what the business actually uses. Typical findings are servers sized for a peak that never came, test environments running all weekend, storage nobody reads, data transfer that better caching would avoid, and steady workloads still on on-demand pricing when a commitment plan would charge less. You get a ranked list of changes with the expected saving and the risk of each.",
+        "Setting up a clean environment is half the job. The other half is keeping it clean. With managed cloud operations we handle patching, scaling, backups, certificate renewals, access reviews and incident response, and send a short monthly report on uptime, spend and changes. You keep full ownership of the accounts and the documentation, so you are never locked in."
+      ]
+    },
+    {
+      "h": "How cloud work runs with 22 Signals",
+      "list": [
+        "Talk: a short call to understand your systems, your team, your compliance needs and what is going wrong today.",
+        "Plan: a written review of your current setup with risks, costs and a ranked plan of fixes. Every date agreed goes in writing.",
+        "Build: we make the changes in a planned order, test each one and document the result so your team can follow it.",
+        "Grow: monitoring, monthly reporting and ongoing improvements, plus the next projects the clean foundation makes possible, such as data, AI or a new app."
+      ]
+    },
+    {
+      "h": "Industries we provide cloud consulting for",
+      "list": [
+        "Healthcare and wellness: clinics, dental groups, aesthetics practices, health tech and neurotech, where American patient data must meet HIPAA rules and the cloud provider signs a business associate agreement",
+        "Law firms and professional services: client portals, document storage and email security, with tight access control and audit trails",
+        "Technology, SaaS and AI companies: production environments that scale with customers, separate staging and production, and spend that tracks revenue",
+        "Fashion, beauty and retail: online stores that stay up during sales and seasonal peaks",
+        "Gaming, esports and entertainment: capacity for live events and broadcasts, where the date does not move",
+        "Real estate: listing platforms, document handling and the data behind them"
+      ]
+    },
+    {
+      "h": "Cities where we provide cloud consulting",
+      "p": [
+        "Our head office is in London, and we work with companies in the cities below remotely, with meeting hours planned around each time zone. When a project needs it, we can arrange an on-site visit.",
+        "In the United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami. New York and Miami run five hours behind London, the Texas cities and Chicago six hours behind, and Los Angeles and San Francisco eight hours behind, so we keep a regular block of meeting time in your working day.",
+        "In the United Kingdom: London, Manchester and Birmingham, where you can also meet us in London.",
+        "In the UAE: Dubai and Abu Dhabi, three to four hours ahead of London depending on the season. In Pakistan: Lahore, Karachi and Islamabad, four to five hours ahead.",
+        "Each market has its own data rules. California has the CCPA. New York has the SHIELD Act. Britain has its own version of GDPR, and the Emirates have a federal data protection law of their own. We choose cloud regions and plan data residency to match."
+      ]
+    },
+    {
+      "h": "What affects the cost of cloud consulting",
+      "p": [
+        "We do not publish prices for cloud consulting services, because the work depends on what you already run. These are the factors that set the scope:"
+      ],
+      "list": [
+        "The number of cloud accounts, environments and providers involved",
+        "How many applications, databases and integrations sit on them",
+        "Compliance needs, such as HIPAA for American patient data, British data protection law or regional data residency",
+        "How much has to be fixed versus documented and monitored",
+        "Whether you want a one-off review and fixes or ongoing managed operations",
+        "Out-of-hours support and response times you need"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud consulting",
+      "p": [
+        "Cloud is the layer every AI tool, app, website and dashboard depends on. We build all of those too, so our cloud consulting services are shaped by what the business will run next, not only by what the servers need today. One accountable lead, the Signal Lead, owns the work, with cloud, data, AI and development specialists behind them.",
+        "We have managed over $1.5 million in projects, and the habits that came from that are simple: written scope, written dates, honest reporting and nothing changed in production without a plan to undo it.",
+        "Related services: Cloud Migration for moving servers and apps, DevOps Consulting for pipelines and releases, Data Engineering for warehouses and pipelines, and Custom AI Development for the AI you will build on the foundation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What do cloud consulting services include?",
+      "a": "They cover the design, security and running of your systems on a cloud provider. At 22 Signals that means architecture on AWS, Google Cloud or Azure, access control, monitoring and alerts, cost reviews, backups and disaster recovery, and, if you want it, managed operations where we run the environment day to day and report monthly."
+    },
+    {
+      "q": "Which cloud provider should we use?",
+      "a": "Usually the one you already use, set up properly. If you are starting fresh, Azure suits companies built on Microsoft 365, Google Cloud suits data and AI-heavy products, and AWS offers the widest range of services and hiring pool. We recommend based on your stack, team and compliance needs and we explain the trade-offs in writing."
+    },
+    {
+      "q": "Can you reduce our cloud bill?",
+      "a": "Usually, yes. Most accounts we review carry some idle resources, oversized servers, unused storage and steady workloads on on-demand pricing. We review your bill line by line, show you where the money goes and rank changes by saving and risk. We make the changes only after you agree, and we track the result in the following months."
+    },
+    {
+      "q": "Do you offer managed cloud services?",
+      "a": "Yes. We can run your environment day to day: patching, scaling, backups, access reviews, certificate renewals, monitoring and incident response, with a short monthly report. You keep ownership of every account, password and document, and you can take operations in-house at any point without starting again."
+    },
+    {
+      "q": "Do you work with companies outside London?",
+      "a": "Yes. Our head office is in London and we work with companies in the United States, the United Kingdom, the UAE and Pakistan remotely, with meeting hours that overlap your working day. When a project needs it, we can arrange a visit. Data regions are chosen to match the rules where you operate."
+    },
+    {
+      "q": "How do you handle security and compliance in the cloud?",
+      "a": "We start with the common causes of breaches: public storage, old access keys, missing multi-factor login and over-broad permissions. Then we set least-privilege roles, encryption, audit logs and alerts. For regulated data such as American patient records or British personal data, we document the controls so your compliance lead or auditor can review them."
+    },
+    {
+      "q": "We have no in-house cloud engineer. Is that a problem?",
+      "a": "No. Many of the companies we work with have none. We document everything in plain language, give you a single lead to call, and can run operations for you. If you later hire an engineer, we hand over the documentation and work alongside them until they are comfortable."
+    },
+    {
+      "q": "How long does a cloud review take?",
+      "a": "It depends on how many accounts, environments and applications you have. A small setup can be reviewed quickly; a larger estate takes longer to map. Before we start, you get a written scope with a delivery date for the review, and the fixes are then planned in a ranked order with their own dates."
+    }
+  ],
+  "related": ["/services/cloud-migration", "/services/devops-consulting", "/services/data-engineering", "/services/custom-ai-development", "/services/web-app-development", "/locations/dallas/cloud-consulting"],
+  "keywords": {
+    "primary": "cloud consulting services",
+    "secondary": ["cloud consulting", "cloud consulting company", "aws consulting", "azure consulting", "google cloud consulting", "cloud cost optimization", "managed cloud services", "cloud computing consulting"]
+  }
+}

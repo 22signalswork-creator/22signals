@@ -1,0 +1,140 @@
+{
+  "path": "/locations/los-angeles/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Los Angeles | 22 Signals",
+  "description": "AI automation for Los Angeles production companies, DTC brands, clinics and logistics firms: fewer copy-paste jobs, cleaner handoffs, people in control.",
+  "eyebrow": "AI Automation in Los Angeles",
+  "h1": "AI automation for Los Angeles teams buried in inboxes and spreadsheets",
+  "intro": "We build AI automation for established Los Angeles companies whose people spend hours moving information between email, spreadsheets, a CRM and a dozen other tools. Our custom AI tools and workflows take over the repetitive steps, hand the judgment calls to a person, and give managers a clear view of what is moving.",
+  "sections": [
+    {
+      "h": "The work that quietly eats your week",
+      "p": [
+        "Ask any operations lead in LA where the hours go and the answer is rarely one big task. It is the tracker updated by hand after every call, the invoice details retyped from a PDF, the customer email that needs the same three facts pulled from three systems. Each job takes minutes. Together they take a person.",
+        "That is what we go after with AI automation. Los Angeles businesses tend to have grown fast through projects, launches and seasons, so their processes were built in a hurry and never revisited. We map them, find the steps a machine can do reliably, and automate those first."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read documents, emails and forms and pull out what matters",
+        "Workflow automation across email, CRM, spreadsheets, accounting and project tools",
+        "Internal tools and dashboards so managers stop asking for status updates",
+        "Research and reporting systems that gather data and draft the weekly report for review",
+        "AI assistants that answer routine questions and hand off to a person when the case is unusual",
+        "Alerts and logs so you can see every automated step and undo it if needed"
+      ]
+    },
+    {
+      "h": "Examples from the Los Angeles economy",
+      "p": [
+        "These are the kinds of workflows we look at first with LA clients. Every business is different, so we confirm each one with the people who actually do the work."
+      ],
+      "list": [
+        "Production and post-production companies: turning call sheets, crew availability and vendor quotes into a live schedule and budget tracker, and chasing missing paperwork automatically",
+        "Talent, creative and marketing agencies: logging inbound briefs, routing approvals and keeping usage rights and deadlines in one place",
+        "DTC fashion and beauty brands: sorting customer emails by intent, drafting replies on returns and order problems, and flagging stock issues before a drop",
+        "Importers and freight businesses around the Ports of Los Angeles and Long Beach: reading shipping documents, matching them to orders and catching mismatches early",
+        "Clinics and aesthetics practices: intake, reminders and follow-up messages with a staff member approving anything clinical",
+        "Brokerages and property managers: routing leads by area and language, booking viewings and logging maintenance requests"
+      ]
+    },
+    {
+      "h": "Automation that respects California privacy law",
+      "p": [
+        "Automations move personal data between systems, so they have to be built with the CCPA and CPRA in mind. We keep each workflow to the data it needs, log where personal information goes, and avoid sending sensitive records to AI providers without the right agreements in place.",
+        "A useful side effect: once your systems are connected, we can automate consumer privacy requests too. When a Californian asks to see or delete their data, one workflow can find their records across the CRM, help desk and email platform and prepare the response for your team to approve."
+      ]
+    },
+    {
+      "h": "How we deliver: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: we sit in on the process, screen-share with the people doing it and time each step",
+        "Plan: a short list of automations ranked by hours saved and risk, with dates in writing",
+        "Build: we ship one workflow at a time, run it beside the manual process, then switch over",
+        "Grow: monitor, fix edge cases and add the next workflow once the first one is trusted"
+      ]
+    },
+    {
+      "h": "How the 8-hour gap helps a remote automation build",
+      "p": [
+        "We work from London with specialist teams across four regions, and Los Angeles is 8 hours behind London for most of the year. For automation work that is useful. We test changes while your team is offline, so nothing breaks in the middle of your working day, and we review results with you in your morning. Monitoring runs around the clock and alerts the right person if a workflow fails. If we ever need to watch a process in person, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Proof we use our own tools",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself: prospect research, enrichment, sequencing and CRM updates running as connected automations with a person checking the output. We hold client builds to the same standard we hold our own."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "The number of workflows and the systems each one touches",
+        "Whether your tools have usable APIs or need workarounds",
+        "How much AI judgment is involved versus simple rules",
+        "Data sensitivity, which affects hosting and review steps",
+        "Ongoing monitoring and support after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for AI automation in LA",
+      "p": [
+        "There is no shortage of freelancers offering AI automation. Los Angeles companies that have tried that route often end up with clever workflows nobody can maintain once the builder moves on. We do not sell a platform and we are not tied to one. We pick the tools that fit your stack, document every workflow, and hand you the keys. Because the same team runs data, web and marketing work, automations connect cleanly to your website forms, ad platforms and reporting. Many clients pair this with AI consulting in Los Angeles to choose priorities, or with business intelligence to report on the results."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which processes should a Los Angeles company automate first?",
+      "a": "Start with work that is frequent, rule-based and painful: data entry from documents, status updates, routing requests and routine customer replies. For LA companies that often means production paperwork, order and returns email, or lead routing. We rank options by hours saved and risk so the first build pays back clearly."
+    },
+    {
+      "q": "Will AI automation replace our staff?",
+      "a": "In our projects it replaces tasks, not people. The usual result is that coordinators and account managers stop retyping and chasing, and spend that time on clients and decisions. Every workflow we build has a clear point where a person reviews or approves, and you decide where that point sits."
+    },
+    {
+      "q": "Can you automate the tools we already use?",
+      "a": "Usually, yes. Most modern CRMs, help desks, accounting tools, e-commerce platforms and project tools can be connected. Where a tool has no proper integration, we look for exports, email parsing or a small custom connector. We tell you upfront if something cannot be automated reliably."
+    },
+    {
+      "q": "How do you keep customer data safe under the CCPA?",
+      "a": "We limit each workflow to the data it needs, keep logs of where personal information moves, use AI providers under suitable data terms and restrict access by role. We also document every automation so your privacy and legal advisers can review it. Final legal decisions sit with your counsel."
+    },
+    {
+      "q": "Do you work with Los Angeles companies on site?",
+      "a": "We work remotely from London, with calls in your morning Pacific time. Mapping a process works well over screen share, and the builds happen in your cloud accounts. If watching a process in person would genuinely help, for example on a production floor or warehouse, we plan a visit for that stage."
+    },
+    {
+      "q": "What happens when an automation makes a mistake?",
+      "a": "Every workflow logs what it did and why, and unusual cases are routed to a person rather than guessed. If something fails, an alert goes to the named owner and to us. We fix the cause, add the case to the test set and report it in writing."
+    },
+    {
+      "q": "How long does a first automation take to build?",
+      "a": "A single well-defined workflow, such as reading invoices into your accounting tool, can often be live within a few weeks; workflows that touch many systems take longer. We agree the date in writing before we start. We also run it beside the manual process first, which is standard in our AI automation. Los Angeles teams see it working on real cases before anyone switches over."
+    }
+  ],
+  "related": [
+    "/services/ai-automation",
+    "/locations/los-angeles",
+    "/locations/los-angeles/ai-consulting",
+    "/locations/los-angeles/business-intelligence",
+    "/services/whatsapp-automation",
+    "/locations/san-francisco/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation los angeles",
+    "secondary": [
+      "workflow automation los angeles",
+      "business process automation los angeles",
+      "ai automation agency los angeles",
+      "custom ai tools los angeles"
+    ]
+  }
+}

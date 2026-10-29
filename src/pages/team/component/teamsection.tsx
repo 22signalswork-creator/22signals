@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Valuicon from "@/assets/valueicon.png";
-import CEOPortrait from "@/assets/Potrait_DaniyalMansur.png";
+import CEOPortrait from "@/assets/Potrait_DaniyalMansur.webp";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import Cardhovereffect from "@/transitions/cardhovereffect.tsx";

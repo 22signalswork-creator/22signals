@@ -1,0 +1,141 @@
+{
+  "path": "/locations/chicago/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Chicago, IL | 22 Signals",
+  "description": "App development for Chicago companies: iOS, Android and web apps for drivers, field crews, patients and customers, built with BIPA in mind from day one.",
+  "eyebrow": "App Development in Chicago",
+  "h1": "App development for Chicago companies and the people in the field",
+  "intro": "We handle app development for Chicago companies that need software their customers, drivers, technicians or patients actually use: iOS and Android apps, web apps, SaaS products and MVPs. Most clients are established firms in logistics, manufacturing, healthcare, insurance and consumer goods, plus funded founders. We plan, build, launch on the app stores and support it afterwards.",
+  "sections": [
+    {
+      "h": "When a spreadsheet and a group text stop working",
+      "p": [
+        "Many Chicago apps start the same way: a process that works at ten people and breaks at fifty. Drivers text photos of delivery receipts to a dispatcher. Service technicians fill in paper forms in the truck between jobs in Naperville and Skokie. Customers call to check an order status that already exists in your ERP.",
+        "An app fixes this when it is narrow and well built. It fails when it tries to do everything, or when it ignores how people use phones on a cold loading dock in February with gloves on. Our job is to keep it narrow, test it with real users and ship it."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "iOS and Android apps, native or cross-platform, depending on what the app needs to do.",
+        "Web apps and SaaS products, including dashboards, customer accounts and admin tools.",
+        "MVPs for founders and for new product lines inside established companies.",
+        "Payments, subscriptions and invoicing.",
+        "APIs and integrations with your ERP, TMS, CRM or practice systems.",
+        "App store launch, crash monitoring, updates and ongoing support."
+      ]
+    },
+    {
+      "h": "Apps Chicago businesses ask us about",
+      "list": [
+        "Driver and proof of delivery apps for freight, last-mile and 3PL firms working the I-55 and I-80 corridors: photo capture, signatures, scanning and offline mode for dead zones.",
+        "Field service apps for equipment makers and installers: job lists, checklists, parts lookups and customer sign-off.",
+        "Patient apps for clinics and health tech firms: booking, reminders, forms and secure messaging, built for HIPAA.",
+        "Policyholder and claims apps for insurers: photo upload, claim status and document requests.",
+        "Loyalty and ordering apps for restaurant groups and food brands in the West Loop and beyond.",
+        "Customer portals for manufacturers and distributors: orders, invoices, reorders and tracking."
+      ]
+    },
+    {
+      "h": "BIPA and app features",
+      "p": [
+        "Illinois is the state where app features like Face ID-style login, selfie identity checks, face filters and voice recognition need the most care. BIPA requires written notice, a written release and a public retention and destruction policy before an app collects biometric identifiers from Illinois users, and it gives individuals the right to sue. Device-level login, where the fingerprint or face never leaves the phone, is usually handled differently from an app that sends face scans to a server, but you should get legal advice on your exact design.",
+        "We flag biometric features at the planning stage, recommend designs that keep biometric data on the device or out of the app entirely, and build consent screens and retention rules when a feature truly needs it. Other personal data in the app falls under the Illinois Personal Information Protection Act, so we encrypt it, limit who can access it and log access."
+      ]
+    },
+    {
+      "h": "Before you commit to app development: Chicago reality check",
+      "p": [
+        "Not every Chicago business needs an app. If your customers order twice a year, a fast web portal is probably enough, and it avoids app store reviews and updates. An app earns its keep when people use it daily or in the field: drivers on a route, technicians at a job, patients managing appointments, or regulars ordering lunch from the same West Loop spot every week.",
+        "We will tell you which side of that line you are on before any app development starts. Chicago firms have told us that honesty saved them a year and a budget."
+      ]
+    },
+    {
+      "h": "How the project runs",
+      "list": [
+        "Talk: we learn who uses the app, where and on what devices.",
+        "Plan: user flows, screens, integrations, a release plan and dates in writing.",
+        "Build: short build cycles with a test version on your phone every couple of weeks.",
+        "Grow: launch on the App Store and Google Play, then fixes, updates and new features based on usage."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed over $1.5 million in projects across apps, web, AI and marketing. One app-adjacent example: the portal we built for a US law firm, where clients log in to see documents and pay invoices. The same pattern of secure login, documents and payments sits behind many customer and policyholder apps."
+      ]
+    },
+    {
+      "h": "Remote delivery for Chicago",
+      "p": [
+        "We deliver app development. Chicago clients work with us remotely from London. Demos and sprint reviews happen in the Chicago morning, which is our afternoon. Test builds go to your team through TestFlight and Google Play testing, so feedback can come from the warehouse or the clinic without anyone being in the same room.",
+        "When user testing works better in person, such as watching drivers use the app at a depot, we plan a trip to Chicago when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Platforms: iOS, Android, web or all three.",
+        "Number of screens and user roles.",
+        "Integrations with existing systems.",
+        "Offline use, payments, maps or camera features.",
+        "Compliance work such as HIPAA or BIPA consent flows.",
+        "Support and updates after launch."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "After app development, Chicago clients often add more. Apps sit on top of web development, cloud consulting for the back end, and AI automation for the work behind the screens. Paid media and SEO help a consumer app find users after launch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build apps for Chicago logistics companies?",
+      "a": "Yes. Driver, proof of delivery and dispatch apps are common requests from Chicago freight and 3PL firms. We build photo capture, signatures, barcode scanning, offline mode and integration with your TMS, so information reaches the office without phone calls. We test with real drivers before launch, because their feedback changes the design more than anyone's."
+    },
+    {
+      "q": "How does BIPA affect app development?",
+      "a": "It affects any feature that collects face, fingerprint or voice data from Illinois users. Before collection you need written notice, a written release and a published retention policy. We help design around it, often by keeping biometric checks on the device, and build consent and deletion flows where needed. Get legal sign-off on the final design."
+    },
+    {
+      "q": "Native or cross-platform?",
+      "a": "Cross-platform suits most business apps, since one codebase covers iOS and Android and costs less to maintain. Native makes sense when an app leans hard on the camera, Bluetooth hardware or heavy offline work. We recommend after looking at the features, the users and your support plans, and explain the trade-off in writing."
+    },
+    {
+      "q": "Can you build an MVP for a Chicago startup?",
+      "a": "Yes, though most of our clients are established companies. For founders around River North and Fulton Market we scope an MVP to the smallest version that proves demand, build it in short cycles and launch it. We also help with the go-to-market plan, which is often the harder part."
+    },
+    {
+      "q": "Do we need to meet in person?",
+      "a": "Usually not. We work from London and run demos and reviews on video in the Chicago morning, with test builds on your phone between reviews. If user testing needs us on site, at a depot, clinic or plant, we plan a visit to Chicago when the project needs it. We have no Chicago office."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. On completion and payment, the code, designs and app store listings belong to your company, and the accounts sit in your name. We document the app so another team could support it if you ever wanted to move. Most clients keep us on for updates and support."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/app-development",
+    "/locations/chicago/web-development",
+    "/locations/chicago/cloud-consulting",
+    "/locations/chicago/ai-automation",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "app development chicago",
+    "secondary": [
+      "app developers chicago",
+      "mobile app development chicago",
+      "app development company chicago",
+      "chicago app developer"
+    ]
+  }
+}

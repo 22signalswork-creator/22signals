@@ -1,0 +1,140 @@
+{
+  "path": "/services/whatsapp-automation",
+  "kind": "service",
+  "region": "global",
+  "service": "whatsapp-automation",
+  "serviceType": "WhatsApp automation",
+  "title": "WhatsApp Automation for Business | 22 Signals",
+  "description": "WhatsApp automation on the official Business API: AI replies that hand over to your staff, bookings, lead capture and CRM sync, within WhatsApp's rules.",
+  "eyebrow": "WhatsApp Automation",
+  "h1": "WhatsApp automation for businesses that sell on chat",
+  "intro": "WhatsApp automation means answering, qualifying and booking customers on WhatsApp without a person typing every reply. 22 Signals builds it on the official WhatsApp Business API: AI replies that hand over to your staff, booking and lead capture, CRM sync and broadcast campaigns that stay within WhatsApp policy. Built for clinics, retailers, property firms and service businesses.",
+  "sections": [
+    {
+      "h": "Why a busy WhatsApp line needs a system",
+      "p": [
+        "For many businesses, WhatsApp is where customers actually ask questions, book and complain. In the UAE and Pakistan it is the main customer channel. Yet the setup behind it is often one phone at reception, or the Business app shared across a few staff devices.",
+        "The cost of that setup is easy to miss. Messages that arrive after hours wait until morning, and some customers book elsewhere in the meantime. Nobody can see which chats turned into sales. When a staff member leaves, their conversations and context go with them. And the same ten questions about prices, location and availability are typed out by hand all day.",
+        "WhatsApp automation fixes the repetitive part and gives the rest structure, so your team spends its time on the conversations that need a person."
+      ]
+    },
+    {
+      "h": "What our WhatsApp automation includes",
+      "list": [
+        "WhatsApp Business API setup through Meta's Cloud API or an approved provider, including business verification and number setup",
+        "Message flows for common requests: menus, prices, opening hours, directions, order status and forms",
+        "AI replies written from your approved information, with a clean hand-off to a named person when the customer needs one",
+        "Booking and reminders connected to your calendar or booking system, plus rescheduling by chat",
+        "Lead capture and qualification, so every inquiry arrives with the details your sales team needs",
+        "CRM sync, so each conversation is logged against the right contact in HubSpot, Zoho, Salesforce or similar",
+        "Broadcast campaigns to opted-in contacts using approved templates",
+        "A shared inbox for your team and simple reporting on response times, bookings and leads"
+      ]
+    },
+    {
+      "h": "The WhatsApp Business app versus the Business API",
+      "p": [
+        "The WhatsApp Business app is built for one small team typing replies by hand. It has quick replies and a greeting message, and that is about the limit. It cannot connect properly to your other systems.",
+        "The WhatsApp Business API is the version for companies. It lets several agents work from one number, connects to your CRM and booking tools, and runs automated and AI replies. Messages that you start, rather than replies to a customer, must use templates that Meta approves, and you can reply freely within a 24-hour window after the customer last wrote to you. We design flows around those rules from the start.",
+        "We do not use unofficial tools that copy WhatsApp Web or send bulk messages from ordinary numbers. They break WhatsApp's terms and put your number at risk of being banned, which for a business that lives on chat is a serious loss."
+      ]
+    },
+    {
+      "h": "AI replies, with a person one tap away",
+      "p": [
+        "The AI answers from information you approve: services, prices you choose to share, policies, opening hours, preparation notes and frequently asked questions. It recognizes what the customer wants, asks the follow-up questions a good receptionist would ask, and books or captures the lead.",
+        "When a conversation needs judgment, the AI hands it to a person with a short summary, so the customer does not have to repeat themselves. Complaints, medical or legal questions, discounts and anything the AI is unsure about go straight to your team. Outside working hours, customers get an honest answer about when a person will reply.",
+        "Replies can run in English, Arabic, Urdu and other languages your customers write in. We test each language with real examples before launch rather than trusting translation alone."
+      ]
+    },
+    {
+      "h": "Bookings, leads and your CRM in one flow",
+      "p": [
+        "A booking flow shows available times, confirms the slot, sends a reminder before the appointment and makes rescheduling a two-message job. For clinics and salons, automatic reminders are one of the simplest ways to cut missed appointments.",
+        "For sales-led businesses, the flow collects what qualifies a lead, such as budget, location, timing or case type, then creates or updates the contact in your CRM and alerts the right person. Every message is stored against that contact, so the full history is there when someone picks up the conversation days later."
+      ]
+    },
+    {
+      "h": "Broadcast campaigns that stay within WhatsApp policy",
+      "p": [
+        "WhatsApp can be a strong channel for offers, reminders and updates, but only if people asked to hear from you. We build opt-in into your forms, website and booking flows, keep a clear opt-out in every campaign and use templates written to pass Meta's review.",
+        "WhatsApp rates each business number on the quality of its messages, and numbers that annoy people get limited. So we plan campaign frequency, segment lists by interest and track blocks and replies, protecting the number you depend on."
+      ]
+    },
+    {
+      "h": "How a WhatsApp automation project runs",
+      "list": [
+        "Talk: we read through a sample of your real chats, list the most common requests and agree what should be automated and what should stay human.",
+        "Plan: we map the flows, the hand-off rules, the systems to connect and the launch date, and put every date in writing.",
+        "Build: we set up the API, build and test the flows and AI replies, then run them with your team before customers see them.",
+        "Grow: after launch we review conversations every week at first, fix weak answers, add flows and report on bookings, leads and response times."
+      ]
+    },
+    {
+      "h": "Where WhatsApp automation pays off",
+      "list": [
+        "Clinics, aesthetics and dental practices: inquiries, consultations, reminders and pre-appointment instructions",
+        "Beauty salons and retail: bookings, product questions, order updates and repeat-visit campaigns",
+        "Real estate: lead qualification by budget and area, viewing bookings and brochure delivery",
+        "Law firms and professional services: first-contact intake, document requests and appointment scheduling",
+        "Education, events and entertainment: registrations, ticket questions and reminders"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We do not publish prices. The cost depends on scope, and these are the factors that change it:"
+      ],
+      "list": [
+        "How many flows you need and how many languages they run in",
+        "Whether replies are menu-based, AI-written or a mix",
+        "The systems to connect: CRM, calendar, booking platform, e-commerce or payments",
+        "Message volume and Meta's own charges for some message types, which are billed separately",
+        "The level of reporting and the ongoing review you want after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "WhatsApp automation touches customer service, sales, marketing and your systems at once. Most providers handle one of those. We handle all four with one accountable lead, the Signal Lead, so the AI replies, the CRM data and the campaigns that fill the inbox work together.",
+        "It sits on real AI experience: we have delivered more than 30 AI builds, covering custom tools, systems and automations, for businesses that used to run the old way.",
+        "Related services: AI and Automation for the workflows behind the chat, Custom AI Development for more advanced assistants, Paid Media for click-to-WhatsApp ads, and SEO and generative engine optimization for the searches that bring customers to you in the first place."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do we need the WhatsApp Business API for automation?",
+      "a": "Yes, for anything beyond quick replies. The Business API is the official way to run automated and AI replies, connect WhatsApp to your customer database and let several staff work from one number. The standalone Business app is fine for a very small team, but it cannot be integrated with your systems in a supported way."
+    },
+    {
+      "q": "Can we keep our existing WhatsApp number?",
+      "a": "Usually, yes. A number already on the WhatsApp Business app can normally be moved to the API, and some providers let you keep using the app alongside it. We check your number's options before anything changes and plan the switch for a quiet period, so customers keep writing to the same number they already know."
+    },
+    {
+      "q": "Will customers know they are talking to AI?",
+      "a": "They should, and we recommend saying so in the first message. Customers mind slow or wrong answers far more than they mind an assistant. We write replies in your brand's tone, keep them short, and make reaching a person easy at any point, which keeps trust high."
+    },
+    {
+      "q": "Can WhatsApp automation connect to our CRM?",
+      "a": "Yes. We connect WhatsApp to CRMs such as HubSpot, Zoho and Salesforce, and to booking and e-commerce platforms. Contacts are created or updated automatically, every conversation is logged against the right record, and your team gets alerted when a lead matches the criteria you set."
+    },
+    {
+      "q": "Are broadcast messages allowed on WhatsApp?",
+      "a": "Yes, to people who have opted in, using templates Meta has approved. Sending to bought lists or contacts who never agreed breaks WhatsApp's rules and can get your number restricted. We build opt-in into your forms and flows, include a clear way to unsubscribe and pace campaigns to protect your number's quality rating."
+    },
+    {
+      "q": "Which languages can the AI reply in?",
+      "a": "English, Arabic, Urdu and most other languages your customers use. The AI detects the language and replies in it. We test each language with real customer messages before launch, and we route a conversation to a person whenever the AI is not confident in its answer, whatever the language."
+    },
+    {
+      "q": "How quickly can WhatsApp automation go live?",
+      "a": "It depends on scope and on Meta's verification of your business, which we start on day one. A focused setup with a few flows and a hand-off is a short project. AI replies, CRM sync and campaigns are often launched in phases. You get a dated plan in writing before the build starts."
+    }
+  ],
+  "related": ["/services/ai-automation", "/services/custom-ai-development", "/services/paid-media", "/services/seo-geo", "/uae"],
+  "keywords": {
+    "primary": "whatsapp automation",
+    "secondary": ["whatsapp business api", "whatsapp chatbot", "whatsapp ai agent", "whatsapp crm integration", "whatsapp booking automation", "whatsapp marketing"]
+  }
+}

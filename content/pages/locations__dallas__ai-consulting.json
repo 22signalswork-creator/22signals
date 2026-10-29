@@ -1,0 +1,130 @@
+{
+  "path": "/locations/dallas/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Dallas, TX | 22 Signals",
+  "description": "AI consulting for Dallas companies in finance, healthcare, logistics and corporate HQs: rank the use cases, set the policy, build a pilot that works.",
+  "eyebrow": "AI Consulting in Dallas",
+  "h1": "AI consulting for Dallas companies that want results, not experiments",
+  "intro": "Our AI consulting helps established Dallas companies decide where AI is worth the money, then prove it. We review your readiness, rank use cases by value and effort, write the policy, choose build or buy, and run a pilot. It suits finance, healthcare, logistics and headquarters teams across Dallas-Fort Worth.",
+  "sections": [
+    {
+      "h": "The problem: lots of AI talk, very little in production",
+      "p": [
+        "Plenty of Dallas leadership teams have already sat through the vendor demos. Someone bought a chatbot license. A department is quietly pasting customer data into a public tool. The board wants an AI plan by next quarter. What is usually missing is a clear answer to three questions: which processes are worth changing, what data can safely be used, and who owns the result.",
+        "That is the job. The AI consulting Dallas companies get from us starts with your operations, not with a product we want to sell. We look at where time and money actually go, then decide where AI helps, where plain automation is enough, and where nothing should change."
+      ]
+    },
+    {
+      "h": "What our AI consulting includes",
+      "list": [
+        "AI readiness review: your data, systems, skills and risk appetite, scored honestly.",
+        "Use-case discovery: interviews with the people doing the work, then a ranked list by value and effort.",
+        "AI roadmap: what to do in the next 90 days, the next six months and the next year.",
+        "Tool and vendor selection: build or buy, with a shortlist and the reasons behind it.",
+        "AI policy and governance: acceptable use, data privacy, human review and record keeping.",
+        "Pilot builds: one or two working pilots on real data, measured against a baseline.",
+        "Team training: practical sessions for the people who will use the tools every day."
+      ]
+    },
+    {
+      "h": "Where AI pays off in Dallas industries",
+      "p": [
+        "The use cases we rank first look different in each part of the Dallas economy. A few we see often:"
+      ],
+      "list": [
+        "Financial services in Downtown, Uptown and Westlake: first drafts of client reports, document review for onboarding and know-your-customer checks, and summaries of long call notes for advisers. The Texas Stock Exchange, which began trading in Dallas in 2026, has put more attention on the city's finance sector, and with it more questions about how AI use is supervised.",
+        "Corporate headquarters in Las Colinas and Legacy West: shared services teams handling invoices, vendor queries and policy questions from thousands of staff. A retrieval assistant over internal policies often pays back faster than anything customer-facing.",
+        "Logistics and distribution around DFW Airport and the southern Dallas inland port: reading rate confirmations, bills of lading and exception emails, then updating the transport system without retyping.",
+        "Telecom in Downtown and along the Richardson corridor: support ticket triage, network change summaries and contract clause search.",
+        "Healthcare in the Medical District and suburban practices: intake form processing, prior authorization paperwork and plain-language patient letters, all with a clinician signing off.",
+        "Real estate and retail: lease abstraction for property managers, and product descriptions and buyer questions for Plano and Dallas retail brands."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a 15-minute fit check, then a working session with your leadership and two or three people who do the work. Plan: we deliver the readiness review, the ranked use cases and the roadmap, with a written scope and dates for the pilot. Build: our engineers build the pilot on your data, inside your cloud account where possible, and we measure it against how the task runs today. Grow: if the pilot earns its place, we roll it out, train the team and hand over documentation, or keep running it for you.",
+        "Your Signal Lead owns every step and every date. If a date moves, you hear it from them first, in writing."
+      ]
+    },
+    {
+      "h": "Texas rules that shape an AI plan",
+      "p": [
+        "AI policy in Dallas is not only a federal question. The Texas Data Privacy and Security Act gives consumers the right to opt out of profiling that has legal or similarly significant effects, and it requires a data protection assessment for higher-risk processing. The Texas Responsible Artificial Intelligence Governance Act, in force since January 2026, bans certain harmful uses of AI and is enforced by the Texas Attorney General. Texas also has its own biometric identifier law, which matters if a use case touches voice or face data.",
+        "We map each use case against these rules before anything is built, and we flag the questions that belong with your counsel. Healthcare clients also need HIPAA and Texas medical records privacy rules in the plan, so patient data never goes to a model that has not been cleared for it."
+      ]
+    },
+    {
+      "h": "Proof from more than 30 AI builds",
+      "p": [
+        "We have shipped more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. That number matters for the AI consulting Dallas clients get, because our roadmaps are written by people who have had to make the pilots work afterwards. When we tell a Dallas operations director that a use case will take six weeks, it is because we have built something like it before."
+      ]
+    },
+    {
+      "h": "Working with us from Dallas",
+      "p": [
+        "We work with Dallas companies remotely from London, with meeting hours that overlap Central Time. Dallas runs six hours behind us, so a 10:00 workshop in Dallas starts at 16:00 in London. Discovery interviews, roadmap reviews and pilot demos all fit inside the Dallas morning.",
+        "Between calls, progress goes into a shared tracker and a short written update each week. For a leadership workshop or a pilot launch where being in the room helps, we plan an on-site visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We do not publish prices because the scope varies too much. These are the factors that move it:"
+      ],
+      "list": [
+        "How many departments and use cases are in scope.",
+        "The state of your data and how many systems hold it.",
+        "Whether the pilot is built on an off-the-shelf tool or custom.",
+        "Compliance needs, such as healthcare or financial supervision.",
+        "How much training and change management your team needs."
+      ]
+    },
+    {
+      "h": "Why 22 Signals, and what comes next",
+      "p": [
+        "Many AI consultancies stop at the slide deck. The AI consulting Dallas clients buy from us does not. We run the build, and the same team can carry it into AI automation, data work, cloud setup or the marketing that launches it, so the plan does not die at handover. Related services for Dallas companies: AI automation, business intelligence and data analytics, and cloud consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you meet Dallas clients in person?",
+      "a": "Most of our AI consulting work happens remotely, with meeting hours that overlap Central Time. For a leadership workshop or a pilot launch where being in the room adds value, we plan an on-site visit in Dallas when the project needs it. We agree that in the scope rather than promising a fixed schedule."
+    },
+    {
+      "q": "How long does an AI readiness review take for a Dallas company?",
+      "a": "For a company of 50 to 300 staff, the review and ranked use cases usually take a few weeks, depending on how many teams we interview and how quickly we get access to systems. Your Signal Lead puts the dates in writing at the start, and the pilot is scoped separately once you have seen the ranking."
+    },
+    {
+      "q": "How do you handle Texas data privacy law in AI projects?",
+      "a": "We map every use case against the Texas Data Privacy and Security Act before we build. That covers what personal data is used, whether profiling opt-outs apply, and whether a data protection assessment is needed. We also check the Texas AI governance act and biometric rules, and we bring legal questions to your counsel."
+    },
+    {
+      "q": "Should we build our own AI tools or buy software?",
+      "a": "Usually buy first. If an existing tool covers most of the need and keeps your data where it should be, it is faster and simpler to run. We recommend a custom build when the process is specific to your business, the data is sensitive, or the tools on the market do not connect to your systems."
+    },
+    {
+      "q": "Can you help Dallas financial services firms with AI governance?",
+      "a": "Yes. For wealth managers, lenders and other regulated firms we write an AI policy that covers approved tools, data handling, human review and record keeping, so you can show supervisors how decisions are made. We work alongside your compliance team, and we do not give legal or regulatory advice ourselves."
+    },
+    {
+      "q": "What happens after the roadmap is delivered?",
+      "a": "You choose. Some clients take the roadmap and run it internally. Most ask us to build the first pilot, because the team that wrote the plan is also the team that can ship it. If the pilot works, we roll it out, train your staff and either hand it over or keep running it."
+    },
+    {
+      "q": "Do you only work with large Dallas companies?",
+      "a": "No. Our main clients are established companies with roughly 5 to 500 staff, from Uptown professional services firms to logistics operators near DFW Airport. Smaller firms often get the fastest return, because one well-chosen pilot can change how a whole team works."
+    }
+  ],
+  "related": ["/locations/dallas", "/services/ai-consulting", "/locations/dallas/ai-automation", "/locations/houston/ai-consulting", "/locations/austin/ai-consulting", "/industries/professional-services"],
+  "keywords": {
+    "primary": "ai consulting dallas",
+    "secondary": ["ai consultant dallas", "dallas ai consulting firm", "ai strategy dallas", "ai consulting dfw"]
+  }
+}

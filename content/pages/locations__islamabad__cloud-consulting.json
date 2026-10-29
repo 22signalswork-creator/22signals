@@ -1,0 +1,141 @@
+{
+  "region": "pk",
+  "city": "Islamabad",
+  "citySlug": "islamabad",
+  "path": "/locations/islamabad/cloud-consulting",
+  "kind": "location-service",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Islamabad | AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consulting for Islamabad organisations: AWS, Azure or Google Cloud set up around Pakistan's Cloud First Policy, with security and cost reviews.",
+  "eyebrow": "Cloud Consulting in Islamabad",
+  "h1": "Cloud consulting for Islamabad organisations with data rules to follow",
+  "intro": "Cloud consulting from 22 Signals helps Islamabad organisations decide what runs where: AWS, Azure, Google Cloud or a Pakistan-hosted data centre. We design the architecture around your data class under the Cloud First Policy, lock down access, set up monitoring and review the monthly bill, then run it for you if you want.",
+  "sections": [
+    {
+      "h": "Cloud decisions in the capital come with extra questions",
+      "p": [
+        "In most cities a cloud decision is about cost and speed. In Islamabad there is usually a third question: what are we allowed to host, and where? A ministry supplier, an NGO holding beneficiary records, a hospital with patient data and a software house hosting an American client's product all face different rules, and each answer changes the architecture.",
+        "That question is where we start any cloud consulting. Islamabad organisations that skip it tend to find out later, during an audit, a donor review or a client's security questionnaire, that something important is sitting in the wrong place."
+      ]
+    },
+    {
+      "h": "What our cloud consultancy includes",
+      "list": [
+        "Architecture on AWS, Google Cloud or Azure, sized for what you run today",
+        "Hybrid designs that keep some systems on your own servers or in a Pakistan-hosted data centre",
+        "Security and access control: named accounts, least privilege, multi-factor sign-in and audit logs",
+        "Monitoring and alerting, so problems reach a person before users notice",
+        "Cost reviews that find idle resources and oversized servers",
+        "Managed cloud operations after launch, if you would rather not hire for it"
+      ]
+    },
+    {
+      "h": "The Cloud First Policy and data classes",
+      "p": [
+        "Pakistan's federal cabinet approved the Cloud First Policy in 2022. It asks public sector bodies to consider cloud first for new IT spending, and it sorts data into classes, with tighter hosting and security rules as the data becomes more sensitive. Organisations that work with government departments often inherit those rules through their contracts.",
+        "We map your systems and datasets to the relevant class, then choose hosting that fits: a global region for public material, a local provider or your own servers where the rules call for it. PTA, headquartered in Islamabad, licenses telecom and internet services, so telecom operators and their vendors carry extra obligations. We are not lawyers, and we work alongside your legal and IT teams on the final sign-off."
+      ]
+    },
+    {
+      "h": "Cloud consulting Islamabad organisations ask us for",
+      "list": [
+        "Software exporters hosting products for overseas clients, who need clean answers to security questionnaires and separate environments per client",
+        "Telecom vendors and value-added service providers handling large volumes of usage data",
+        "NGOs and international organisations holding beneficiary records that donors expect to be protected",
+        "Hospitals and diagnostic labs moving patient systems off a single server in a back room",
+        "Universities whose learning platforms and result portals slow to a crawl at exam and admission time",
+        "Startups from the National Incubation Center whose cloud credits are running out and whose bill is about to become real"
+      ]
+    },
+    {
+      "h": "Planning for power cuts and connectivity",
+      "p": [
+        "Plenty of Islamabad organisations still run a server room on a UPS and a generator, and every IT manager here has lived through an outage or a slow international link. Cloud helps, but only if the design assumes things will fail. We plan backups in a second location, test restores rather than assuming they work, and set up monitoring that alerts by email and WhatsApp.",
+        "For systems your staff use in the office, we look at what happens when the office connection drops, and keep the critical paths working through a backup link."
+      ]
+    },
+    {
+      "h": "How a cloud engagement runs",
+      "p": [
+        "Talk: a short call about what you run, what worries you and what the rules require. Plan: a written architecture, a security model, a cost estimate for the cloud provider's bill and a timeline, with every date agreed in writing. Build: we set up environments, access and monitoring, test failover and hand over documentation your team can use. Grow: monthly cost and security reviews, with changes made through an agreed process. Your Signal Lead owns all four stages."
+      ]
+    },
+    {
+      "h": "Proof: the date does not move",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events. Live work teaches one lesson hard: the date does not move. We bring the same discipline to cloud cutovers and changes, with rehearsals, a rollback plan and a clear go or no-go call at an agreed time."
+      ]
+    },
+    {
+      "h": "Working with us from Islamabad",
+      "p": [
+        "We work with organisations in Islamabad remotely from our head office in London, with meetings in the Islamabad afternoon. A 10:00 London call is 15:00 PKT in winter and 14:00 PKT in summer. Change windows are agreed in PKT, outside your busiest hours, and announced to your staff in advance.",
+        "Access is granted through your own cloud accounts, so you keep ownership of everything and can remove us at any time. Urgent alerts reach us by WhatsApp as well as email. If an on-site review of a server room in Islamabad or Rawalpindi would help, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "p": [
+        "We do not publish prices. Cloud consulting costs depend on:"
+      ],
+      "list": [
+        "How many systems and environments are involved",
+        "Your data classes and any hosting restrictions",
+        "Security requirements from clients, donors or regulators",
+        "Whether you need a hybrid setup with on-premise servers",
+        "Monitoring, backup and recovery targets",
+        "Whether we manage operations after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "When you compare suppliers of cloud consulting, Islamabad buyers should ask one question: who builds what runs on it? We build the software and AI that run on the cloud, as well as the cloud itself, so the architecture fits what you actually deploy. When you need to move existing systems, see our cloud migration and DevOps consulting work, and read about AI consulting for Islamabad teams planning what the new platform will carry."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can our data be hosted inside Pakistan?",
+      "a": "Yes. If your data class or your contracts require it, we design around a Pakistan-hosted data centre or your own servers, and use global cloud regions only for what is allowed to sit there. Many organisations end up with a hybrid: public websites and non-sensitive tools in the cloud, sensitive records kept in the country."
+    },
+    {
+      "q": "Should we choose AWS, Azure or Google Cloud?",
+      "a": "It depends on what you run and who supports it. Organisations already on Microsoft 365 often find Azure easiest to manage. Software exporters frequently follow their clients' preference. Google Cloud suits data-heavy work. We compare the options for your case on support, skills, data rules and the likely monthly bill, then recommend one."
+    },
+    {
+      "q": "How do you keep our cloud secure?",
+      "a": "Every person gets a named account with multi-factor sign-in and only the access their job needs. Shared admin passwords are removed. Logs record who changed what, and alerts flag unusual activity. We also review public storage, open ports and old accounts, because those are where most real-world breaches start."
+    },
+    {
+      "q": "Can you reduce our cloud bill?",
+      "a": "Usually. Most bills we review include servers sized for a peak that never came, storage nobody has looked at for a year, or test environments left running. A cost review lists each saving with its risk, so you decide what to change. We do not promise a figure before we have seen the account."
+    },
+    {
+      "q": "Do you come on site in Islamabad?",
+      "a": "Most of the cloud consulting Islamabad clients need is done remotely and securely through your own accounts. When a server room needs inspecting or a team needs a workshop, we arrange a visit to Islamabad when the project needs it. We do not have an Islamabad office, so visits are planned and agreed in writing."
+    },
+    {
+      "q": "What is the difference between cloud consulting and cloud migration?",
+      "a": "Cloud consulting designs, secures and runs your cloud setup. Cloud migration is the project of moving existing servers, applications and data into it, with testing and a planned cutover. Many Islamabad clients need both: consulting to decide the target, then a migration to get there with minimal downtime."
+    }
+  ],
+  "related": [
+    "/locations/islamabad",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/lahore/cloud-consulting",
+    "/locations/karachi/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting islamabad",
+    "secondary": [
+      "cloud consultancy islamabad",
+      "aws consultant pakistan",
+      "azure consultant islamabad",
+      "cloud first policy pakistan"
+    ]
+  }
+}

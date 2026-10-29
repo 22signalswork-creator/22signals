@@ -1,0 +1,156 @@
+{
+  "path": "/services/cloud-migration",
+  "kind": "service",
+  "region": "global",
+  "service": "cloud-migration",
+  "serviceType": "Cloud migration services",
+  "title": "Cloud Migration Services: Plan, Move, Cut Over | 22 Signals",
+  "description": "Cloud migration services that move servers, apps and data to AWS, Google Cloud or Azure with minimal downtime: assessment, plan, testing and a clean cutover.",
+  "eyebrow": "Cloud Migration",
+  "h1": "Cloud migration services with a plan for every hour of downtime",
+  "intro": "Cloud migration services move your servers, applications and data from old hardware, shared hosting or another provider onto AWS, Google Cloud or Azure. 22 Signals assesses what you run, writes the migration plan, moves it with minimal downtime, tests everything before cutover and then tunes the new setup so it costs less to run.",
+  "sections": [
+    {
+      "h": "Why cloud migrations go wrong",
+      "p": [
+        "Migrations rarely fail on the day of the move. They fail weeks earlier, when nobody lists every system, every scheduled job and every hidden dependency. Then the cutover happens, and on Monday someone finds that invoices stopped sending because an old server ran a script nobody knew about.",
+        "Other common causes are moving everything exactly as it was and then paying more than before, underestimating how long a large database takes to copy, testing with fake data instead of real traffic, and having no rollback plan when something breaks. Good cloud migration services are mostly careful preparation. The move itself should be the quiet part."
+      ]
+    },
+    {
+      "h": "What our cloud migration services include",
+      "list": [
+        "Assessment of every server, application, database, file share and integration, including the ones nobody remembers",
+        "A migration plan with the order of moves, owners, test steps, downtime windows and a rollback route for each stage",
+        "Moving servers, applications and data with minimal downtime, using replication so the final switch is short",
+        "Testing with real data and real user journeys before anyone depends on the new environment",
+        "Cutover in an agreed window, with DNS, email, certificates and integrations switched in a checked order",
+        "Post-migration optimization: right-sizing, storage tiers, backups, monitoring and cost tracking",
+        "Decommissioning the old environment once the new one has run cleanly"
+      ]
+    },
+    {
+      "h": "Assessment: deciding what moves and how",
+      "p": [
+        "Not everything should move the same way. For each system we choose one of a few routes and write down why.",
+        "Rehost moves a server as it is. It is the fastest route and suits stable systems that are not worth rebuilding. Replatform makes small changes on the way, such as moving a self-managed database to a managed database service, which cuts maintenance with little risk. Refactor rebuilds part of an application to use cloud services properly, which costs more upfront and pays back on systems that grow. Replace swaps a home-built tool for a subscription product. Retire switches off what nobody uses, and retain leaves something where it is for now when moving it adds risk without benefit.",
+        "The assessment also records data volumes, peak usage, licensing, compliance rules and the people who need to sign off. That becomes the basis for a realistic timeline instead of a hopeful one."
+      ]
+    },
+    {
+      "h": "Minimal downtime is a design choice",
+      "p": [
+        "Most downtime in a migration comes from copying data while the business waits. We avoid that by building the new environment alongside the old one, copying data in advance and keeping it in sync, so the final switch only has to carry the last few minutes of changes.",
+        "For each system we agree the acceptable downtime with the people who use it. For a public website the answer might be zero, achieved by switching traffic gradually. For an internal tool, an hour on a Sunday morning might be fine. Writing that down early stops the plan from being built around a guess."
+      ]
+    },
+    {
+      "h": "Testing and cutover",
+      "p": [
+        "Before cutover, the new environment is tested the way people will actually use it: real logins, real orders, real reports, real integrations with payment, email and CRM systems. We compare outputs between old and new, check performance under load and confirm that backups restore.",
+        "Cutover follows a written runbook with times, owners and checkpoints. If a checkpoint fails, the runbook says whether to fix forward or roll back, and the old environment stays ready until the new one has proved itself. Afterwards we watch errors, speed and logs closely for the first days, when small problems show up."
+      ]
+    },
+    {
+      "h": "After the move: optimization",
+      "p": [
+        "A system that is lifted and shifted often costs more in the cloud than it did on old hardware, because it was sized for a world without autoscaling. Once real usage data is in, we resize servers, move rarely used data to lower-cost storage, set up autoscaling where traffic varies, and buy pricing commitments only for workloads that are clearly steady.",
+        "We also finish the jobs that make the new setup safe to live with: monitoring and alerts, tested backups, access reviews and documentation your team can follow. If you want, our Cloud Consulting team then runs the environment for you."
+      ]
+    },
+    {
+      "h": "How a migration runs",
+      "list": [
+        "Talk: we learn what you run, why you are moving and what must not break, then agree what success looks like.",
+        "Plan: the assessment and the written migration plan, with every stage dated in writing and a rollback route for each.",
+        "Build: we set up the target environment, replicate data, test with real use and run the cutover in the agreed window.",
+        "Grow: optimization, monitoring and handover, or ongoing managed operations if you would rather not run it yourself."
+      ]
+    },
+    {
+      "h": "What we migrate, and for whom",
+      "p": [
+        "We work mainly with established companies of 5 to 500 staff in healthcare and wellness, law and professional services, SaaS and technology, retail, gaming and real estate. We run projects from our head office in London and work remotely with companies across the United States, the United Kingdom, the UAE and Pakistan. Typical moves include:"
+      ],
+      "list": [
+        "Physical servers in an office cupboard or a colocation rack",
+        "File shares and document stores, with permissions kept intact",
+        "Websites and online stores leaving shared hosting",
+        "Databases, including large ones that must stay in sync during the move",
+        "Line-of-business applications, including older ones with no current vendor",
+        "Email and identity, so staff log in once to everything",
+        "Moves between cloud providers when contracts, costs or features no longer fit"
+      ]
+    },
+    {
+      "h": "What affects the cost of cloud migration services",
+      "p": [
+        "We do not publish prices. Cost depends on scope, and the assessment sets that scope precisely. The main factors are:"
+      ],
+      "list": [
+        "The number of servers, applications and databases, and how they depend on each other",
+        "Data volume and how much change happens while it is being copied",
+        "The route for each system: rehost, replatform or refactor",
+        "Downtime limits, which decide how much replication and testing is needed",
+        "Compliance and data residency rules",
+        "Out-of-hours cutover windows and post-migration support"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud migration",
+      "p": [
+        "One accountable lead, the Signal Lead, owns the migration from assessment to the day the old servers are switched off, with cloud, data and development specialists behind them. Because the same team also builds websites, apps, data systems and AI tools, we understand what runs on your servers, not only the servers themselves.",
+        "We have run more than 20 large-scale live events and broadcasts, and the lesson from that work applies directly to cutovers: the date does not move, so the preparation has to be finished before it arrives.",
+        "Related services: Cloud Consulting for architecture and managed operations, DevOps Consulting for deployments after the move, Data Engineering for warehouses and pipelines, and Web Development for sites that need rebuilding on the way."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are cloud migration services?",
+      "a": "Cloud migration services plan and carry out the move of servers, applications and data into a cloud provider such as AWS, Google Cloud or Azure. They cover assessment, the migration plan, data transfer, testing, cutover and the tuning afterwards that keeps the new environment secure and reasonably priced."
+    },
+    {
+      "q": "Can you migrate us without downtime?",
+      "a": "Often with very little. We build the new environment alongside the old one, copy data in advance and keep it in sync, so the final switch is short. Public websites can usually move with no visible downtime. Some systems need a brief planned window, which we agree with you in advance and schedule outside busy hours."
+    },
+    {
+      "q": "How long does a cloud migration take?",
+      "a": "It depends on how many systems you run and how they connect. A single website or application is a short project, while a full server estate is planned in stages. The assessment gives you a realistic timeline, and every stage gets a date in writing before work starts."
+    },
+    {
+      "q": "Will moving to the cloud save us money?",
+      "a": "It can, but not automatically. Systems moved as they are often cost more until they are right-sized. Savings come from resizing, autoscaling, lower-cost storage tiers, switching off unused resources and buying commitments for steady workloads. We estimate running costs before the move and track them afterwards so there are no surprises."
+    },
+    {
+      "q": "What happens if something goes wrong during cutover?",
+      "a": "The runbook covers it. Each stage has checkpoints, and if one fails the plan says whether to fix the issue or roll back. The old environment stays live and ready until the new one has proved itself, so a rollback returns you to a working state rather than an emergency."
+    },
+    {
+      "q": "Can you move us from one cloud provider to another?",
+      "a": "Yes. We handle moves between AWS, Google Cloud and Azure, and from platforms such as shared hosting or managed website hosts. We first check that a move is worth the cost, because staying put and fixing the setup is sometimes the better answer, and we tell you so."
+    },
+    {
+      "q": "Do you handle email and file migrations too?",
+      "a": "Yes. Email, calendars, shared drives and user accounts often move as part of a wider migration, for example onto Microsoft 365 or Google Workspace. We map mailboxes and permissions first, move data in the background while staff keep working, and switch over in a planned window with a short guide so people know what changes for them."
+    }
+  ],
+  "related": [
+    "/services/cloud",
+    "/services/devops-consulting",
+    "/services/data-engineering",
+    "/services/web-app-development",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "cloud migration services",
+    "secondary": [
+      "cloud migration company",
+      "cloud migration consulting",
+      "aws migration",
+      "azure migration",
+      "server migration to cloud",
+      "data migration to cloud"
+    ]
+  }
+}

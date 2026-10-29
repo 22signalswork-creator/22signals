@@ -1,0 +1,129 @@
+{
+  "path": "/locations/dallas/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Dallas, TX | 22 Signals",
+  "description": "AI automation for Dallas logistics, healthcare, real estate and HQ teams: custom tools that clear inboxes and spreadsheets, with a person in the loop.",
+  "eyebrow": "AI Automation in Dallas",
+  "h1": "AI automation for Dallas teams buried in email and spreadsheets",
+  "intro": "We build AI automation for Dallas companies whose people spend their day copying data between email, spreadsheets, portals and the CRM. Custom tools read the documents, update the systems and draft the replies, and a person approves anything that matters. Freight brokers, property managers, clinics and shared services teams use it to get hours back each week.",
+  "sections": [
+    {
+      "h": "What the work looks like before we arrive",
+      "p": [
+        "Walk into the operations floor of a freight brokerage near DFW Airport and you will see the same thing as in a Las Colinas finance team or a property management office in Uptown. Smart people with three monitors, an inbox that never empties, and a spreadsheet that is the real system of record because the official one is too slow to update.",
+        "None of that needs a new platform. It needs the AI automation Dallas operations teams rarely get: small, specific tools that take one repetitive job at a time off a person's desk and hand it back only when a decision is needed."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Custom AI tools that read PDFs, emails and forms and pull out the fields your team retypes today.",
+        "Workflow automation across Outlook or Gmail, your CRM, spreadsheets and line-of-business systems.",
+        "Internal tools and dashboards so managers see the queue, the exceptions and the turnaround time.",
+        "Research and reporting systems that gather data from several sources and write the first draft of a weekly report.",
+        "AI assistants that answer routine questions and hand off to a named person when they are unsure.",
+        "Approval steps, audit logs and fallbacks, so nothing is sent or changed without a record."
+      ]
+    },
+    {
+      "h": "Dallas workflows we automate first",
+      "p": [
+        "Every city has its own pile of paperwork. These are the jobs Dallas clients usually bring to a first call."
+      ],
+      "list": [
+        "Logistics and distribution: rate confirmations, carrier onboarding packets, proof of delivery and detention claims, matched to loads and filed without retyping.",
+        "Corporate shared services in Las Colinas, Irving and Plano: invoice matching, vendor setup requests and employee policy questions routed to the right team.",
+        "Real estate: lease renewal reminders, maintenance request triage and rent roll updates for multifamily and commercial property managers across DFW.",
+        "Healthcare practices in the Medical District, Frisco and Southlake: intake forms, referral letters and insurance paperwork prepared for staff to check.",
+        "Retail head offices: weekly store performance summaries and supplier email follow-ups.",
+        "Telecom and field service: work order summaries and customer updates written from technician notes."
+      ]
+    },
+    {
+      "h": "A person stays in the loop",
+      "p": [
+        "We do not build automations that run blind. Every tool has a clear line between what it may do on its own (sort, extract, draft, remind) and what it must hand to a person (send money, change a contract, reply to an upset customer). When the model is not confident, it says so and routes the item to a named owner with the reason attached.",
+        "That design also helps with Texas law. The Texas Data Privacy and Security Act expects businesses to limit personal data to what a purpose needs and to protect it properly. We keep personal data inside your own accounts where possible, log who saw what, and avoid sending sensitive data such as health information to any model without approval."
+      ]
+    },
+    {
+      "h": "From first call to running automation",
+      "p": [
+        "Talk: we spend 15 minutes on fit, then a session watching how the task is done today. Plan: we write down the steps, the systems involved, the exceptions and the time it takes now, then agree a scope and dates. Build: we build the AI automation Dallas staff will actually use, test it on real past examples, and run it alongside the manual process until the numbers match. Grow: once it is trusted, we switch off the manual version, then move to the next workflow on the list.",
+        "Your Signal Lead runs the whole thing and is the person you call."
+      ]
+    },
+    {
+      "h": "Proof: more than 30 AI builds",
+      "p": [
+        "We have built more than 30 custom AI tools, systems and automations for businesses that used to run the old way. One of them is our own: a complete outbound sales engine for 22 Signals that researches prospects, drafts outreach and keeps the CRM current. We run our company on the same kind of automation we build for clients."
+      ]
+    },
+    {
+      "h": "Remote delivery across six hours",
+      "p": [
+        "Our Dallas automation projects are run remotely from London, and the six-hour gap works in your favor. We test overnight runs while Dallas sleeps, and by the time your team logs on at 8:00 Central there is a short report of what ran, what failed and what needs a decision. Live reviews sit in the Dallas morning, which is our afternoon.",
+        "If a rollout needs someone in the building to train staff or watch the first live day, we plan that visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "p": [
+        "Pricing depends on scope, so we quote after we have seen the workflow. The main factors:"
+      ],
+      "list": [
+        "How many steps and exceptions the process has.",
+        "Which systems we connect to, and whether they have APIs.",
+        "Volume: ten documents a day or ten thousand.",
+        "How much human review the process needs.",
+        "Whether we hand it over or keep running and improving it."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for automation",
+      "p": [
+        "We are not a software reseller and we do not lock you into one platform. We pick the simplest tool that does the job, build what is missing, and stay accountable for the result. Because the same team covers cloud, data and marketing, an automation can feed a dashboard or a sales campaign without a second vendor. Related work for Dallas companies: AI consulting to find the right workflows, business intelligence to measure them, and cloud consulting to run them securely."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the first thing Dallas companies usually automate?",
+      "a": "The job that is repetitive, high volume and already well understood. For logistics firms that is often rate confirmations or proof of delivery. For property managers it is maintenance requests and renewals. For shared services teams it is invoice matching. Starting with a known process makes the results easy to measure."
+    },
+    {
+      "q": "Will AI automation replace our staff?",
+      "a": "That is not how we design it. The tools take the copying, sorting and first drafts off people's desks so they can handle exceptions, customers and decisions. Most Dallas clients use the time to absorb growth without stretching the same team thinner, or to clear backlogs that have built up for months."
+    },
+    {
+      "q": "Can you connect to the systems we already use?",
+      "a": "Usually, yes. We connect to common email, CRM, accounting, transport and property management systems through their APIs. When a system has no API, we look at exports, inbox rules or a secure browser step, and we tell you plainly if a connection would be fragile before you pay for it."
+    },
+    {
+      "q": "How do you keep automations safe under Texas privacy law?",
+      "a": "We keep personal data to what each task needs, store it in your accounts where possible, and log access. Sensitive data such as health details only goes to a model that has been approved for it. The Texas Data Privacy and Security Act questions that need a legal view go to your counsel."
+    },
+    {
+      "q": "Do you work on site with Dallas teams?",
+      "a": "We work remotely from London with meeting hours that overlap Central Time, and most automation work does not need a visit. When a rollout benefits from training staff in person or being there on the first live day, we plan an on-site visit in Dallas when the project needs it."
+    },
+    {
+      "q": "How quickly can the first automation go live?",
+      "a": "A single well-defined workflow often goes live within a few weeks, including a period running alongside the manual process. Larger jobs with many systems or exceptions take longer. Your Signal Lead gives you dates in writing once we have mapped the workflow, and reports against them each week."
+    },
+    {
+      "q": "What happens when the automation gets something wrong?",
+      "a": "It is designed to fail safely. Low-confidence items go to a person with the reason attached, every action is logged, and anything that sends money or changes a contract needs approval. We review errors each week in the early months and adjust the rules, prompts or checks until the error rate is acceptable to you."
+    }
+  ],
+  "related": ["/locations/dallas", "/services/ai-automation", "/locations/dallas/ai-consulting", "/locations/dallas/business-intelligence", "/locations/houston/ai-automation", "/locations/austin/ai-automation"],
+  "keywords": {
+    "primary": "ai automation dallas",
+    "secondary": ["ai automation agency dallas", "workflow automation dallas", "business process automation dallas", "ai automation dfw"]
+  }
+}

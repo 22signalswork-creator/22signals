@@ -1,0 +1,145 @@
+{
+  "path": "/locations/chicago/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Chicago",
+  "citySlug": "chicago",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in Chicago, IL: Google, Meta, LinkedIn | 22 Signals",
+  "description": "Paid media for Chicago companies: Google, Meta, LinkedIn and TikTok ads with in-house creative, call tracking and CRM links, so spend ties to real leads.",
+  "eyebrow": "Paid Media in Chicago",
+  "h1": "Paid media for Chicago companies that want leads, not clicks",
+  "intro": "We run paid media for Chicago companies across Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. Creative is made in-house, landing pages are built for each campaign, and every call and form is tracked into your CRM. It suits law firms, healthcare practices, B2B manufacturers, consumer brands and services firms that need to know what each lead costs.",
+  "sections": [
+    {
+      "h": "The problem with most Chicago ad accounts",
+      "p": [
+        "We audit a lot of ad accounts, and the Chicago ones tend to share the same faults. Campaigns target the whole metro when the business serves six suburbs. Conversion tracking counts page views as leads. Phone calls, which drive most inquiries for law firms and clinics, are not tracked at all. And the creative has not changed since last spring.",
+        "Paid media: Chicago clicks are expensive in the competitive categories, so waste shows up fast. The fix is rarely a clever trick. It is targeting that matches where you actually work, tracking that matches what the sales team calls a lead, and fresh creative tested every month."
+      ]
+    },
+    {
+      "h": "What we manage",
+      "list": [
+        "Google Search and Performance Max, built on the searches that bring paying customers.",
+        "YouTube for brand reach and remarketing.",
+        "Meta (Facebook and Instagram) for consumer brands, clinics and local services.",
+        "LinkedIn for B2B: manufacturers, logistics firms, software and professional services selling to other companies.",
+        "TikTok for consumer and food brands with a younger audience.",
+        "Creative made in-house: static ads, short video, motion graphics and 3D product visuals.",
+        "Landing pages, conversion and call tracking, and a CRM connection so you see revenue, not just form fills."
+      ]
+    },
+    {
+      "h": "Targeting the Chicago market properly",
+      "p": [
+        "The Chicago media market crosses state lines into northwest Indiana and southeast Wisconsin. That matters for law firms licensed only in Illinois, for clinics whose patients will not cross the Skyway, and for retailers whose delivery zones stop at the border. We set location targets by radius, ZIP code or county, and exclude what does not fit.",
+        "Seasonality is also stronger here than in the Sun Belt. Winter changes demand for home services, auto, travel and some healthcare categories, and the run-up to the holidays shifts costs for consumer brands. We plan budgets around the Chicago calendar rather than flat monthly spend."
+      ]
+    },
+    {
+      "h": "Chicago buyers we run campaigns for",
+      "list": [
+        "Law firms: personal injury and workers' compensation campaigns with call tracking and intake routing.",
+        "Healthcare, dental and aesthetics: booking campaigns per location, written within platform health ad policies.",
+        "B2B manufacturers and distributors: LinkedIn and search campaigns for buyers, engineers and procurement teams, often tied to trade show dates at McCormick Place.",
+        "Logistics and freight: shipper lead campaigns and driver recruitment ads.",
+        "Food and consumer brands: Meta and TikTok creative testing, retail locator campaigns and launch bursts.",
+        "Professional services: LinkedIn and search for accounting, consulting and insurance firms."
+      ]
+    },
+    {
+      "h": "Setting budgets for paid media: Chicago firms ask this first",
+      "p": [
+        "Clients often ask what they should spend. We do not quote average Chicago click costs on this page, because they change by category, season and competitor, and any number we printed would be out of date. What we do instead is pull real cost data from your account, or from planning tools for a new one, and model what a lead would cost at different budgets.",
+        "That gives you a test budget with a clear question attached: at this spend, do we get enough qualified leads to keep going? After a month or two of data, the answer is usually obvious."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "For a beauty salon in Lahore, we rebuilt the website, ran the SEO and managed the Google Ads, so all three worked from the same plan and the same tracking. It is a small business compared with most Chicago clients, but the method is the same at any size: one team owning the site, the search and the ads, so nobody blames anyone else for the leads."
+      ]
+    },
+    {
+      "h": "How a campaign gets built",
+      "list": [
+        "Talk: we review your current accounts, tracking and what a good lead is worth.",
+        "Plan: channels, budgets, targeting, creative and landing pages, written down with dates.",
+        "Build: tracking first, then campaigns, creative and pages.",
+        "Grow: weekly optimization, monthly creative tests and a plain-language report on cost per lead."
+      ]
+    },
+    {
+      "h": "Remote management from London",
+      "p": [
+        "We run paid media. Chicago clients work with us remotely from London, which works well for ad accounts. Much of the optimization happens in our working day, before Chicago is at its desk, and we review results with your team in the Central Time morning. Ad schedules run on Chicago hours, so your ads show when your phones are staffed.",
+        "Your Signal Lead joins the calls and owns the plan. Our creative, media and tracking teams sit behind them, across four regions."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "Your ad budget, which is paid to the platforms and is separate from our fee.",
+        "Number of channels and campaigns.",
+        "Volume of creative needed each month.",
+        "Landing page builds and tracking setup.",
+        "CRM and call tracking integration."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Paid media brings leads now while SEO and GEO build the longer-term base. Video and animation feed the creative. Web development covers the landing pages and site speed that decide whether a click turns into a call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ad platform is best for a Chicago business?",
+      "a": "It depends on how your buyers look for you. Law firms, clinics and services usually start with Google Search because people search when they need help. B2B manufacturers and logistics firms often add LinkedIn. Consumer and food brands lean on Meta and TikTok. We recommend channels after looking at your margins, sales cycle and what a lead is worth."
+    },
+    {
+      "q": "Can you target only parts of Chicagoland?",
+      "a": "Yes. We target by radius, ZIP code, county or city and exclude areas you do not serve, including the Indiana and Wisconsin parts of the Chicago media market when they do not fit. For multi-location clinics and service firms, each location gets its own targeting, ad copy and tracking."
+    },
+    {
+      "q": "Do you track phone calls from ads?",
+      "a": "Yes, and for law firms and clinics it is often the most important part. We set up call tracking so each call is tied to the campaign, keyword or ad that drove it, and connect it to your CRM. You then see cost per real inquiry, not cost per click."
+    },
+    {
+      "q": "Who makes the ad creative?",
+      "a": "We do, in-house. Our video, motion and 3D teams produce static ads, short videos, motion graphics and product visuals, so creative can be tested and refreshed each month without a separate agency. If your brand team supplies assets, we work with those too."
+    },
+    {
+      "q": "Do you need to be in Chicago to run our ads?",
+      "a": "No. Paid media is managed remotely from London, and much of the optimization happens before your workday starts. Reviews run on video in the Chicago morning. Ads are scheduled on Central Time, and if a launch or a trade show needs us there, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How quickly will we see results?",
+      "a": "Search campaigns can bring inquiries within days of launch, once tracking is working. The first month is mostly learning: which searches, audiences and ads convert. Results usually settle over two to three months. We report cost per lead monthly and say plainly what is and is not working."
+    },
+    {
+      "q": "Do you run driver recruitment ads for Chicago logistics firms?",
+      "a": "Yes. Driver and warehouse hiring is a steady need for freight and 3PL firms around Chicago, especially along the I-55 and I-80 corridors. We run campaigns on Meta, Google and job-focused placements, with short application forms and tracking back to your applicant system. As with all paid media, Chicago hiring campaigns follow the platforms' employment ad rules."
+    }
+  ],
+  "related": [
+    "/locations/chicago",
+    "/services/paid-media",
+    "/locations/chicago/seo-geo",
+    "/locations/chicago/video-animation",
+    "/locations/chicago/web-development",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "paid media chicago",
+    "secondary": [
+      "ppc agency chicago",
+      "google ads agency chicago",
+      "paid social chicago",
+      "linkedin ads agency chicago"
+    ]
+  }
+}

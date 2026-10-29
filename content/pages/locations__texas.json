@@ -1,0 +1,112 @@
+{
+  "path": "/locations/texas",
+  "kind": "state-hub",
+  "region": "us",
+  "state": "Texas",
+  "title": "AI Consulting Texas: Dallas, Houston, Austin | 22 Signals",
+  "description": "AI consulting Texas companies can act on: AI, cloud, data and growth for Dallas, Houston and Austin businesses, planned around Texas privacy and AI law.",
+  "eyebrow": "Texas",
+  "h1": "AI consulting Texas companies can put to work, plus cloud, data and growth",
+  "intro": "22 Signals offers AI consulting Texas businesses can act on, alongside cloud, data, web, search and paid media. We work with established companies in Dallas, Houston and Austin to find where AI saves time or money, build it safely under Texas privacy and AI law, and grow the business around it, with one accountable lead.",
+  "sections": [
+    {
+      "h": "What Texas companies hire us for",
+      "p": [
+        "Texas has three very different business economies within a few hours' drive. Dallas runs on financial services, insurance, corporate headquarters and logistics. Houston is energy, healthcare around the Texas Medical Center, petrochemicals and the port. Austin is software, semiconductors and a startup scene that sits alongside large tech employers. What they need from AI and digital work differs, and so do our engagements."
+      ],
+      "list": [
+        "AI readiness reviews and use-case ranking for operations, finance and customer service teams",
+        "Custom AI tools and workflow automation built on your own data",
+        "Cloud architecture, migration and cost reviews on AWS, Google Cloud and Azure",
+        "Business intelligence and Power BI dashboards that pull finance, sales and operations into one view",
+        "Websites, apps and client portals",
+        "SEO, generative engine optimization and paid media to win more customers in Texas and beyond"
+      ]
+    },
+    {
+      "h": "City hubs: Dallas, Houston and Austin",
+      "p": [
+        "Each city has its own page with the services, industries and questions that matter there."
+      ],
+      "list": [
+        "Dallas: financial services, insurance and corporate operations in Downtown Dallas, Uptown and Las Colinas, where AI usually starts with document-heavy back-office work",
+        "Houston: energy companies along the Energy Corridor, hospitals and research groups around the Texas Medical Center, and logistics firms tied to the port, where data quality and field operations come first",
+        "Austin: software and SaaS companies along the tech corridor and up toward the Domain, where the work is often AI features inside a product, cloud cost and go-to-market"
+      ]
+    },
+    {
+      "h": "Texas privacy and AI law, built in",
+      "p": [
+        "The Texas Data Privacy and Security Act has applied since July 2024. It gives Texas residents rights over their personal data, requires clear privacy notices, and requires data protection assessments for higher-risk processing such as targeted advertising, sale of data and sensitive data. The Texas Attorney General enforces it.",
+        "Texas also passed the Texas Responsible Artificial Intelligence Governance Act, which takes effect in 2026 and sets rules on certain uses of AI, including disclosure duties for government bodies and healthcare providers. We map which systems touch personal data, keep sensitive data out of tools that should not see it and document the decisions, so your counsel can review quickly. We are not a law firm and your legal team keeps the final word."
+      ]
+    },
+    {
+      "h": "How we work with Texas companies remotely",
+      "p": [
+        "We work with Texas companies remotely from our head office in London. Dallas, Houston and Austin are on Central Time, six hours behind London, so a Texas morning overlaps our afternoon. We schedule calls, workshops and reviews in that window and keep a shared plan with every date in writing.",
+        "On-site visits happen when the project needs it, for example a workshop with an operations team or a launch day. Day to day, work runs through video calls, a shared project board and weekly written updates from your Signal Lead."
+      ]
+    },
+    {
+      "h": "How an engagement runs",
+      "list": [
+        "Talk: a 15-minute fit check, then a longer discovery session with the people who own the problem",
+        "Plan: a written plan with use cases ranked by value and effort, costs, risks and dates",
+        "Build: a pilot on real data, measured against the baseline, then a full rollout",
+        "Grow: monthly improvements, training for your team and reporting on results"
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have completed more than 30 AI builds for businesses that used to run the old way: custom tools, systems and automations that now handle work people did by hand. Texas companies get the same process, adjusted to their industry and the state's rules."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for Texas",
+      "p": [
+        "The AI consulting Texas companies get from us does not stop at a strategy deck or at the software. We cover AI, cloud and data, and also the marketing, video and 3D work that turns a new capability into revenue. One Signal Lead owns the outcome, with specialist teams behind them across four regions.",
+        "Cost depends on scope: the number of use cases, the systems and data involved, security and compliance requirements, and whether you want ongoing support after launch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Texas?",
+      "a": "No. Our head office is in London and we work with Texas companies remotely, with meeting hours that overlap Central Time. Texas is six hours behind London, so Texas mornings line up with our afternoons. We visit on site when the project needs it, such as for a workshop or launch."
+    },
+    {
+      "q": "How do you handle the Texas Data Privacy and Security Act?",
+      "a": "We map what personal data each system uses, keep sensitive data out of tools that do not need it, and document decisions for any processing that needs a data protection assessment. We also make sure privacy notices and consent match how the data is used. Your counsel reviews and approves the final setup."
+    },
+    {
+      "q": "Which Texas cities do you work with?",
+      "a": "Dallas, Houston and Austin each have their own page on this site, and we work just as well with companies elsewhere in the state, such as San Antonio or Fort Worth. Because we work remotely from London, location within Texas does not change how the engagement runs."
+    },
+    {
+      "q": "What does AI consulting cost for a Texas company?",
+      "a": "It depends on scope. The main factors are how many use cases we review or build, which systems and data sources are involved, security and compliance needs, and whether you want ongoing support. After a 15-minute call we send a written scope with dates so you can compare options."
+    },
+    {
+      "q": "Can you help with marketing as well as AI?",
+      "a": "Yes. We run SEO, generative engine optimization, paid media, websites, video and 3D for Texas companies, with the same lead who runs the AI and data work. That matters when an AI tool changes how you sell or serve customers, because the marketing can change with it."
+    },
+    {
+      "q": "Do you work with Texas energy and healthcare companies?",
+      "a": "Yes. For energy and industrial firms the work often starts with data: cleaning operational data, building dashboards and automating reporting. For healthcare providers we plan around HIPAA and Texas law, keep patient data in tools that can sign a business associate agreement, and focus on intake, scheduling and administrative work."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/locations/houston",
+    "/locations/austin",
+    "/services/ai-consulting",
+    "/services/cloud",
+    "/united-states"
+  ],
+  "keywords": {
+    "primary": "ai consulting texas",
+    "secondary": ["ai consultant texas", "ai company texas", "texas ai consulting firm", "ai consulting dallas", "ai consulting houston", "ai consulting austin"]
+  }
+}

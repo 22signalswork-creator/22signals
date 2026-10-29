@@ -1,0 +1,143 @@
+{
+  "path": "/locations/manchester/3d-rendering",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering Services Manchester | 22 Signals",
+  "description": "3D rendering services Manchester brands and developers use for photoreal products, packaging, campaign visuals, interiors and 3D models for web and ads.",
+  "eyebrow": "3D Rendering in Manchester",
+  "h1": "3D rendering services Manchester brands, makers and developers use",
+  "intro": "We create photoreal 3D renders for established Manchester companies: products, packaging, campaign visuals, interiors and architectural scenes, plus 3D models for websites and ads. Renders replace or extend photo shoots, show products before they are made and give you endless angles and colourways from one model, reviewed by you at every stage.",
+  "sections": [
+    {
+      "h": "When photography runs out of road",
+      "p": [
+        "A photo shoot captures what exists today, in one light, from the angles you remembered to shoot. The moment a Manchester retailer adds a colourway, a manufacturer changes a component, or a developer wants to market flats that are still a building site, the photos are out of date.",
+        "3D rendering solves that. Build an accurate model once, and you can produce new angles, colours, settings and close-ups whenever you need them, without booking a studio again.",
+        "It also fixes consistency. A range shot over three seasons in different studios never quite matches. Rendered from the same lighting setup, every product sits in the same world, which makes a category page or catalogue look far more considered."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Photoreal product renders for e-commerce, catalogues and marketplaces.",
+        "Packaging visuals for launches, retailer pitches and crowdfunding.",
+        "Campaign visuals and hero images for ads, social and print.",
+        "Interior and architectural visualisation for developers, agents and designers.",
+        "3D models optimised for websites, product configurators and ads.",
+        "Exploded views and cutaways that show how a product is built."
+      ]
+    },
+    {
+      "h": "3D rendering services Manchester industries use",
+      "list": [
+        "Fashion, beauty and e-commerce brands: consistent product images across a whole range, colourways before stock arrives, and packaging shots for launches.",
+        "Manufacturers in Trafford Park and across Greater Manchester: technical renders from CAD files for sales teams, trade shows and distributor catalogues.",
+        "Property developers and estate agents: interiors and exteriors of residential and commercial schemes before completion, to support off-plan marketing.",
+        "Health and life sciences: medical devices and equipment shown clearly for product pages and investor decks.",
+        "Media, gaming and entertainment businesses around MediaCityUK: assets and models for campaigns and digital experiences."
+      ],
+      "p": [
+        "Manchester's economy gives rendering a wider range of uses than most people expect. These are the uses that come up most often."
+      ]
+    },
+    {
+      "h": "Accuracy and UK advertising rules",
+      "p": [
+        "A render is only useful if it is honest. Under the CAP Code, enforced by the Advertising Standards Authority, ads and product images must not mislead buyers about what they will get. For e-commerce that means colours, materials, scale and finish should match the real product. For property marketing, computer-generated images should represent the finished scheme fairly.",
+        "We build from your CAD files, samples, swatches or drawings, check against physical products where possible, and flag anything that looks better than reality before it goes live."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: a 15-minute call about the products or spaces, the uses and the deadline.",
+        "Plan: a list of renders, angles and formats, with source files needed and dates in writing.",
+        "Build: modelling, materials, lighting and test renders, with review rounds at clay and final stages.",
+        "Grow: extra angles, colourways, animations and web-ready 3D models from the same files."
+      ],
+      "p": [
+        "Most projects start with a small batch, often three to five products, to agree lighting and materials before the full range is rendered. That first batch sets the look, so everything after it moves faster."
+      ]
+    },
+    {
+      "h": "Proof of reach",
+      "p": [
+        "We have worked with 30+ companies across four regions, and many of them use rendering alongside other services: renders that feed an online shop we built, a paid social campaign we run, or an animation we produce. That reuse is where 3D pays off most, because one model serves the website, the ads and the sales deck."
+      ]
+    },
+    {
+      "h": "Working with us from Manchester",
+      "p": [
+        "3D rendering is produced entirely in software, so it suits remote delivery. Our head office is in London and we have no Manchester office or studio. You send CAD files, drawings, samples or reference photos; we send review renders through a shared link, and you comment directly on the image. Manchester runs on London time, so review rounds happen within your working day.",
+        "For physical samples, a courier from Manchester to London is quick. If the project needs it, for example a site visit for an architectural scheme or a meeting with a product team, your Signal Lead travels up in person.",
+        "Because there is no studio rental or travel involved in most rendering work, the location of the team has almost no bearing on speed. What matters is the quality of the source files and how quickly feedback comes back, and both run just as well between Manchester and London as they would across the street."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of products or spaces, and how complex each model is.",
+        "Whether usable CAD files exist or we model from drawings and photos.",
+        "Number of angles, colourways and output sizes.",
+        "Materials that are hard to render well, such as fabrics, glass or liquids.",
+        "Animation, interactive 3D or web-ready model optimisation."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for 3D",
+      "p": [
+        "Many studios render beautifully and then hand you files. We can take the same model further: into 3D animation, paid media creative, product pages and video, all planned by one Signal Lead. For Manchester brands that means less briefing, more consistency and one team accountable for the visuals and the results they drive. Related pages: video production and animation, paid media, web development and our Manchester hub."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do 3D renders cost less than a photo shoot?",
+      "a": "Not always for a single image, but often over time. A shoot gives you what was in the room that day; a 3D model can produce new angles, colours and settings for months without another booking. For ranges with many variants, or products that do not exist yet, rendering usually makes more sense."
+    },
+    {
+      "q": "What files do you need from us?",
+      "a": "CAD or 3D files are ideal, in formats such as STEP, OBJ or FBX. If you do not have them, technical drawings, measurements, reference photos and physical samples work well. For architecture, plans, elevations and a materials schedule. We confirm exactly what is needed in the plan."
+    },
+    {
+      "q": "Can you render products that are not made yet?",
+      "a": "Yes. That is one of the main reasons Manchester brands and manufacturers use rendering. We work from your design files to show products for pre-orders, retailer pitches or investor decks, then update the model as the design changes."
+    },
+    {
+      "q": "Do you do architectural renders for Manchester developments?",
+      "a": "Yes. We produce interior and exterior visualisations of residential and commercial schemes for off-plan marketing, planning presentations and agents. We work from architects' drawings and specifications, and can visit the site when the project needs it."
+    },
+    {
+      "q": "How do we judge 3D rendering services Manchester agencies offer?",
+      "a": "Look at three things in a portfolio: materials (fabric, metal and glass are hard to fake), lighting that matches the brand, and consistency across a whole range rather than one hero shot. Then ask what else the studio can do with the model afterwards. With us, the same files can become animation, ads and web 3D."
+    },
+    {
+      "q": "Can the renders be used on our website as 3D?",
+      "a": "Yes. We can optimise models for web viewers and product configurators, so customers can rotate a product or change its colour on the page. Our web development team can build that into your online shop as well."
+    },
+    {
+      "q": "How many review rounds do we get?",
+      "a": "We agree the review stages in the plan, usually at the untextured model stage and again at final render, so changes happen while they are still quick to make. If a project needs more rounds, we say so upfront rather than surprising you later."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/manchester/video-animation",
+    "/locations/manchester/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "3d rendering services manchester",
+    "secondary": [
+      "3d rendering manchester",
+      "product rendering manchester",
+      "architectural visualisation manchester"
+    ]
+  }
+}

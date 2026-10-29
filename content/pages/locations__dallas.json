@@ -1,0 +1,122 @@
+{
+  "path": "/locations/dallas",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "title": "AI, Cloud and Data Consulting in Dallas, TX | 22 Signals",
+  "description": "Dallas AI consulting, cloud, data, web, SEO, paid media and video for established DFW companies. One accountable lead, dates in writing.",
+  "eyebrow": "22 Signals in Dallas",
+  "h1": "Dallas AI consulting, cloud, data and growth for established companies",
+  "intro": "22 Signals is a London business solutions company that works with Dallas-Fort Worth companies remotely. We build the systems a business runs on (AI, cloud, data, web and apps), then grow it with search, paid media and video. One accountable lead runs it all, with meeting hours that overlap Central Time.",
+  "sections": [
+    {
+      "h": "Why Dallas companies come to us",
+      "p": [
+        "Most companies that ask us about Dallas AI consulting are not short of vendors. They have an IT provider, a marketing agency, a freelance developer and a reporting contractor, and nobody owns the gaps between them. A campaign launches before the landing page is ready. A dashboard pulls from a CRM nobody cleaned. An AI pilot stalls because the data sits on a server in a colocation rack in Richardson.",
+        "We replace that with one team. A single accountable lead, the Signal Lead, plans the work and runs specialist teams for AI, cloud, data, web, search, ads and video. You get one scope, one set of dates in writing, and one person to call when something slips."
+      ]
+    },
+    {
+      "h": "The Dallas economy we build for",
+      "p": [
+        "Dallas is a headquarters city first. Its business districts each have their own buyer, and the work they need is different."
+      ],
+      "list": [
+        "Downtown Dallas: banks, telecom, energy offices and large law firms that need governed data, secure portals and reporting leadership trusts.",
+        "Uptown: private equity, wealth managers, boutique law and professional services firms that compete hard on search and reputation.",
+        "Las Colinas in Irving: regional and national headquarters campuses running shared services, finance operations and large internal systems.",
+        "Plano and Legacy West: relocated corporate head offices, retail and restaurant brands, and the tech teams that moved with them.",
+        "The Medical District and the suburbs: hospital systems, physician groups, dental and aesthetics practices that need patient-facing sites and careful data handling.",
+        "The logistics belt from DFW Airport to the southern Dallas inland port and Alliance in north Fort Worth: carriers, brokers and distribution centers that live on email, spreadsheets and portals."
+      ]
+    },
+    {
+      "h": "What we do for Dallas companies",
+      "p": [
+        "Each service below has its own Dallas page with the detail."
+      ],
+      "list": [
+        "Dallas AI consulting: find where AI pays off, rank the use cases, set the policy, then build a pilot.",
+        "AI automation: custom tools and workflows that take repetitive work off your team, with a person in the loop.",
+        "Business intelligence and data analytics: KPIs, pipelines and dashboards in Power BI, Looker Studio or Tableau.",
+        "Cloud consulting: architecture, security, monitoring and cost reviews on AWS, Google Cloud and Azure.",
+        "Web development: sites, redesigns, migrations that keep rankings, portals and e-commerce.",
+        "App development: iOS, Android and web apps, from first version to app store launch.",
+        "SEO and GEO: rank in Google and show up in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid media: Google, Meta, LinkedIn and TikTok ads tied to real leads.",
+        "Video production, animation and AI video: reels, explainers, motion graphics and managed editing.",
+        "3D rendering: product, packaging and property visuals for campaigns and sales."
+      ]
+    },
+    {
+      "h": "One team for the build and the growth",
+      "p": [
+        "This is the part most Dallas buyers have not seen before. The same team that sets up your cloud and data can also run your search, your ads and your video. That matters when a Plano retailer wants a product launch with new pages, a paid campaign and 3D renders all landing the same week, or when a Las Colinas services firm wants an AI intake tool and the marketing that sends people to it.",
+        "Work moves through four steps: Talk, Plan, Build, Grow. We agree the scope and the dates, write them down, and report against them."
+      ]
+    },
+    {
+      "h": "How remote delivery works from London",
+      "p": [
+        "We do not have a Dallas office and we will not pretend to. Our head office is in London, and we work with Dallas companies remotely, with meeting hours that overlap Central Time. Dallas is six hours behind London, so a 9:00 call in Dallas is 15:00 for us, and the whole Dallas morning is shared working time.",
+        "Our specialist teams sit across four regions, so handoffs are planned to let work move forward outside Dallas hours. When a project needs someone on site, for a workshop or a launch, we plan that visit with you. Most projects never need one."
+      ]
+    },
+    {
+      "h": "Texas data privacy, handled from day one",
+      "p": [
+        "The Texas Data Privacy and Security Act has applied since July 2024. It gives Texans the right to see, correct and delete their data and to opt out of targeted ads, sale of data and profiling, and it asks for consent before sensitive data is processed. The Texas Attorney General enforces it.",
+        "We build that into the work: consent and opt-out handling on websites and ads, data mapping before any AI build, and access controls in the cloud. For healthcare clients we also plan around HIPAA and Texas's own medical records privacy law. We are not your lawyers, so we work alongside your counsel on the legal calls."
+      ]
+    },
+    {
+      "h": "Proof, without the logo wall",
+      "p": [
+        "We have worked with more than 30 companies across four regions. We do not publish client names, but we can describe the work on a call: a client portal with documents and payments for a US law firm, monthly SEO and content for US personal injury firms with every statute checked, and the business, operating and marketing plan to take a US neurotech device to market."
+      ]
+    },
+    {
+      "h": "Where to start",
+      "p": [
+        "If you are not sure which service you need, that is normal. Book a 15-minute call. It is a fit check, not a pitch. Tell us what is slow, what is costing too much, or what is not growing, and we will tell you plainly whether we can help and what we would do first.",
+        "We also work across Texas, with separate pages for Houston and Austin, and a Texas page that covers the state as a whole."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Dallas?",
+      "a": "No. Our head office is in London and we work with Dallas companies remotely. We keep meeting hours that overlap Central Time, so the Dallas morning is shared working time. If a project needs an on-site workshop or launch day in Dallas, we plan that visit with you when the project needs it."
+    },
+    {
+      "q": "How does the six-hour time difference work in practice?",
+      "a": "Dallas is six hours behind London for most of the year. A 9:00 call in Dallas is 15:00 in London, so mornings in Dallas overlap our afternoon. We schedule reviews and standups in that window, and we plan handoffs so work moves forward while Dallas is offline. Your Signal Lead confirms meeting times in writing."
+    },
+    {
+      "q": "What kinds of Dallas companies do you work with?",
+      "a": "Established companies with roughly 5 to 500 staff come first: financial services, professional services and law firms, healthcare and aesthetics practices, real estate, retail and logistics businesses. We also work with founders and funded startups in DFW when the scope is clear."
+    },
+    {
+      "q": "How do you handle the Texas Data Privacy and Security Act?",
+      "a": "We design for it from the start. That means consent and opt-out handling on sites and ads, a data map before any AI or analytics build, and least-privilege access in the cloud. We flag decisions that need legal review and work with your counsel on them, rather than giving legal advice ourselves."
+    },
+    {
+      "q": "Can one team really cover AI, cloud and marketing?",
+      "a": "Yes, and it is why most clients hire us. One Signal Lead owns the plan and runs specialist teams for AI, cloud, data, web, search, ads, video and 3D. You get one scope and one set of dates instead of three vendors pointing at each other when a launch slips."
+    },
+    {
+      "q": "What does it cost to work with 22 Signals?",
+      "a": "It depends on scope. The main cost factors are how many services are involved, how much existing data or code we inherit, integrations with your current systems, compliance needs and timeline. We give a written scope and quote after a short call, so you know the cost before any work starts."
+    },
+    {
+      "q": "Do you work with companies in Fort Worth, Plano and Frisco too?",
+      "a": "Yes. We treat Dallas-Fort Worth as one market, so companies in Plano, Frisco, Irving, Richardson, Arlington and Fort Worth work with us the same way as companies in Downtown Dallas."
+    }
+  ],
+  "related": ["/locations/texas", "/locations/dallas/ai-consulting", "/locations/dallas/cloud-consulting", "/locations/dallas/seo-geo", "/locations/houston", "/united-states"],
+  "keywords": {
+    "primary": "dallas ai consulting",
+    "secondary": ["business solutions dallas", "dallas technology consulting", "dallas digital agency", "dfw ai and cloud consulting"]
+  }
+}

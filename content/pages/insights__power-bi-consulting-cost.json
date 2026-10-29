@@ -1,0 +1,151 @@
+{
+  "path": "/insights/power-bi-consulting-cost",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "Power BI Consulting Cost: What Drives the Price | 22 Signals",
+  "description": "Power BI consulting cost explained: what sets the price, common engagement types, licensing on top, and published market ranges with sources named.",
+  "eyebrow": "Guide: Power BI cost",
+  "h1": "Power BI consulting cost: what you pay for and why",
+  "intro": "Power BI consulting cost is driven by five things: how many data sources you connect, how clean that data is, how complex the data model and DAX must be, how many reports and users you support, and whether you need security, Fabric or training. Microsoft licenses are billed separately, per user or per capacity.",
+  "sections": [
+    {
+      "h": "What are you actually paying for in Power BI consulting?",
+      "p": [
+        "The visible part of a Power BI project is the dashboard. The expensive part is usually underneath it: getting data out of your CRM, finance system, ERP or spreadsheets, shaping it in Power Query, building a data model that gives one agreed answer to each question, and writing DAX measures that stay fast as data grows.",
+        "A consultant who skips that foundation can produce attractive reports quickly. Six months later the numbers disagree between pages, refreshes fail and nobody trusts the totals. Much of what you pay for in good Power BI work is the absence of those problems."
+      ]
+    },
+    {
+      "h": "Which factors set Power BI consulting cost?",
+      "list": [
+        "Number and type of data sources: one SQL database is quick; five systems with different APIs, exports and refresh schedules are not.",
+        "Data quality: duplicate customers, inconsistent product codes and manual spreadsheets all need fixing before the numbers can be trusted.",
+        "Data model complexity: a star schema for one department is simpler than a shared model serving finance, sales and operations.",
+        "DAX requirements: time intelligence, allocations, currency conversion and custom KPIs take careful work and testing.",
+        "Report count and audience: a handful of reports for managers differs from dozens of reports for hundreds of users.",
+        "Security: row-level security, so each person sees only their region, client or team, adds design and testing effort.",
+        "Platform scope: moving into Microsoft Fabric or Azure data services widens the work from reporting into data engineering.",
+        "Training and handover: whether your team needs to maintain and extend the work after the consultants leave."
+      ]
+    },
+    {
+      "h": "What types of Power BI engagement are there?",
+      "list": [
+        "Health check: a review of an existing Power BI setup covering model design, slow reports, refresh failures and security gaps, ending with a prioritized fix list.",
+        "Dashboard build: a defined set of reports on a defined set of sources, usually the fastest way to show value.",
+        "Model rebuild: replacing a tangle of report-level calculations with one shared semantic model that every report draws on.",
+        "Full implementation: sources, model, reports, security, deployment pipelines and training, often delivered in phases by department.",
+        "Fabric or Azure project: data pipelines, a lakehouse or warehouse, and Power BI on top, for companies outgrowing direct connections to source systems.",
+        "Ongoing support: a monthly arrangement for new reports, fixes, changes to source systems and user questions."
+      ]
+    },
+    {
+      "h": "What do published Power BI price ranges show? (Market data, not 22 Signals pricing)",
+      "p": [
+        "We do not publish our own prices at 22 Signals, because the scope drives them and we quote once we have seen the data. For context, here are published ranges from Bricks, Perceptive Analytics, Beyond Key and Xylity, all firms that sell Power BI services. Every figure in this section is their market data, not our pricing, and none of them cites an independent survey, so use them as a rough guide only.",
+        "Per hour, North America (market data): Bricks lists $125 to $275 or more per hour for Power BI consultants in North America and Western Europe, with a typical blended range of $125 to $225 for a qualified North American consultant. Perceptive Analytics lists, for New York, $150 to $250 per hour for independent freelancers, $225 to $325 for boutique consultancies and $300 to $400 or more for enterprise or compliance-focused firms. Beyond Key lists $100 to $150 per hour for onshore dashboard development, and Xylity lists $150 to $250 per hour for a Power BI developer at a traditional firm.",
+        "Starter dashboard projects (market data): Beyond Key prices a starter dashboard (one or two Excel or SQL sources, five or six standard visuals, roughly 80 to 100 hours) at $8,000 to $12,000 when built onshore. Perceptive Analytics lists a simple single-source dashboard at $1,500 to $15,000.",
+        "Multi-dashboard and multi-source projects (market data): Perceptive Analytics lists a multi-source dashboard with data modeling at $25,000 to $50,000, and Xylity lists development of five to ten dashboards at $30,000 to $60,000.",
+        "Read across the sources, the pattern is clear. Per-hour figures cluster in the low to mid hundreds of dollars for North American work, and the jump from a single-source dashboard to a modeled, multi-source build is where project totals climb fastest."
+      ]
+    },
+    {
+      "h": "How much do Power BI licenses add?",
+      "p": [
+        "Licensing is a separate line from consulting and is paid to Microsoft. At the time of writing, Microsoft's pricing page lists Power BI Pro at $14.00 per user per month and Power BI Premium Per User at $24.00 per user per month, both billed yearly; EPC Group's buyer's guide reports the same list prices. These are Microsoft's prices (market data), not 22 Signals pricing, and they change, so check Microsoft's page before you budget.",
+        "Fabric capacity is priced differently, by capacity rather than by user, and Microsoft lists it as variable. Whether capacity makes sense depends on how many people view reports and how much data you process, which is one of the first questions a consultant should help you answer."
+      ]
+    },
+    {
+      "h": "Why does the data model drive most of the bill?",
+      "p": [
+        "Reports are relatively quick to build once the model is right. The model is where the thinking happens: deciding what a customer, an order or a billable hour means, how tables relate, which calculations belong in the model and which in the source system.",
+        "Get it wrong and every new report costs more, because each one needs its own workarounds. Get it right and new reports become small jobs. That is why a quote with more hours on modeling and fewer on visuals is often the better long-term buy."
+      ]
+    },
+    {
+      "h": "How do you get an accurate Power BI quote?",
+      "p": [
+        "The more a consultant can see, the tighter the quote. Before the first scoping call, gather:"
+      ],
+      "list": [
+        "A list of every data source, with how you get data out of it today (connector, export or manual copy).",
+        "Two or three reports you produce by hand now, so the consultant can see the questions you need answered.",
+        "Approximate data volumes and how often numbers need to refresh.",
+        "Who will view reports, and whether different people must see different data.",
+        "Your current Microsoft licensing and whether you already use Azure or Fabric.",
+        "Who on your side will own Power BI after go-live."
+      ]
+    },
+    {
+      "h": "How can you spend less on Power BI work without cutting corners?",
+      "list": [
+        "Start with one department and one model, then extend it, instead of building everything at once.",
+        "Fix data at the source where you can, so the same cleanup is not repeated in every refresh.",
+        "Agree KPI definitions in writing before the build, which avoids rework when two teams disagree on a number.",
+        "Ask for a shared semantic model, so later reports reuse it instead of starting from scratch.",
+        "Invest in training a named internal owner, which reduces how often you need outside help for small changes."
+      ]
+    },
+    {
+      "h": "Consultant, freelancer or in-house hire?",
+      "p": [
+        "A freelancer can be a good fit for a single dashboard on clean data. A consultancy makes more sense when several systems, security rules and a shared model are involved, because the work spans data engineering, modeling and training.",
+        "An in-house hire suits companies with a steady stream of reporting work. Many end up with a mix: outside help to design and build the foundation, then an internal owner who maintains it, with occasional support for larger changes."
+      ]
+    },
+    {
+      "h": "Sources",
+      "p": [
+        "Market figures above come from these published pages, read in October 2026. They are the publishers' figures, not 22 Signals pricing."
+      ],
+      "list": [
+        "Microsoft, Power BI pricing: https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing",
+        "EPC Group, \"Power BI Consulting Services Buyer's Guide\": https://www.epcgroup.net/insights/power-bi-consulting-services-buyers-guide",
+        "Bricks, guide to Power BI consulting per-hour pricing: https://www.thebricks.com/resources/guide-how-much-does-power-bi-consulting-cost-per-hour",
+        "Perceptive Analytics, 2026 Power BI pricing for New York: https://www.perceptive-analytics.com/?p=12623",
+        "Beyond Key, 2026 Power BI pricing guide: https://www.beyondkey.com/blog/power-bi-consulting-cost/",
+        "Xylity, 2026 Power BI pricing guide: https://xylitytech.com/power-bi/power-bi-consulting-cost-pricing-2026/"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What do Power BI consultants charge per hour?",
+      "a": "Published market ranges for North American work mostly sit between about $100 and $400 or more per hour. Bricks lists $125 to $275 or more, Perceptive Analytics lists $150 to $400 or more for New York depending on firm type, and Beyond Key lists $100 to $150 onshore. These are other firms' figures, not 22 Signals pricing."
+    },
+    {
+      "q": "How much does a single Power BI dashboard cost to build?",
+      "a": "It depends on the sources behind it. Published market data from Beyond Key puts a starter dashboard on one or two sources at $8,000 to $12,000 onshore, and Perceptive Analytics lists simple single-source dashboards at $1,500 to $15,000. Add data cleanup, more sources or row-level security and the figure rises. Those are market figures, not ours."
+    },
+    {
+      "q": "Are Power BI licenses included in consulting fees?",
+      "a": "No. Licenses are paid to Microsoft and sit outside any consulting fee. Microsoft lists Power BI Pro at $14.00 and Premium Per User at $24.00 per user per month, billed yearly, at the time of writing. Fabric capacity is priced separately and listed as variable. Check Microsoft's pricing page before budgeting, since list prices change."
+    },
+    {
+      "q": "Why do Power BI quotes differ so much between firms?",
+      "a": "Quotes often cover different work. One may assume clean data and a few reports, while another includes source cleanup, a shared data model, security and training. Firm type and location also matter. Ask each firm for its assumptions, what is excluded and how many hours go to modeling versus report building, then compare like with like."
+    },
+    {
+      "q": "Can I lower Power BI costs by doing some of the work in-house?",
+      "a": "Yes. Many companies have consultants design the data model, security and first reports, then train an internal owner to build further reports on that model. This keeps outside spend on the parts that need experience and moves routine report work in-house. The key is a well-documented shared model your team can extend safely."
+    },
+    {
+      "q": "Does 22 Signals publish Power BI consulting prices?",
+      "a": "No. We scope first, because the number of sources, the state of the data and the security rules change the effort a great deal. The ranges on this page are published by other firms and Microsoft, and they are labeled as market data. Use them to sense-check any proposal you receive, ours included."
+    }
+  ],
+  "related": [
+    "/services/power-bi-consulting",
+    "/services/business-intelligence",
+    "/services/data-engineering",
+    "/services/cloud",
+    "/insights/ai-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "power bi consulting cost",
+    "secondary": ["power bi consultant cost", "power bi consulting rates", "power bi dashboard cost", "power bi implementation cost", "power bi pricing"]
+  }
+}

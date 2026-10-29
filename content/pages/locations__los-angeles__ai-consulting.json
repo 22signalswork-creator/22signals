@@ -1,0 +1,131 @@
+{
+  "path": "/locations/los-angeles/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Los Angeles",
+  "citySlug": "los-angeles",
+  "state": "CA",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Los Angeles, CA | 22 Signals",
+  "description": "AI consulting for Los Angeles companies in media, retail, aerospace and healthcare: rank the use cases, plan around CCPA rules, then build a pilot.",
+  "eyebrow": "AI Consulting in Los Angeles",
+  "h1": "AI consulting, Los Angeles: a plan your team can act on",
+  "intro": "Our AI consulting helps established Los Angeles companies decide where AI is worth the money, which tools to buy or build, and how to stay inside California privacy rules. You get a ranked list of use cases, a roadmap with dates, and a working pilot of the first one, run by one accountable lead.",
+  "sections": [
+    {
+      "h": "Why AI plans stall in LA companies",
+      "p": [
+        "Most Los Angeles leadership teams are not short of AI ideas. They are short of a decision. Marketing has bought three writing tools, someone in finance is pasting contracts into a chatbot, and the board wants a strategy slide by next quarter. Nobody has checked which ideas would save real hours, which would expose customer data, and which already exist inside software the company pays for.",
+        "Fixing that is the real job of AI consulting. Los Angeles companies that skip it often end up paying for the same capability more than once. The right order of operations is simple: find the work that costs the most time, check it against the data you hold and the rules you live under, then build one thing and measure it before buying anything else."
+      ]
+    },
+    {
+      "h": "What our AI consulting includes",
+      "list": [
+        "AI readiness review: your data, systems, team skills and current tool sprawl",
+        "Use-case discovery with your department heads, each idea scored on value and effort",
+        "An AI roadmap covering the next two to four quarters, with owners and dates",
+        "Tool and vendor selection, including a plain build-versus-buy recommendation",
+        "AI policy, governance and data privacy rules written for your staff, not for a legal journal",
+        "A pilot build of the top use case, tested on real work",
+        "Team training so people use the tools safely once we step back"
+      ]
+    },
+    {
+      "h": "Where AI pays off in Los Angeles industries",
+      "p": [
+        "Los Angeles has an unusual mix of buyers, and the strongest use cases differ by sector. These are the patterns we look for first."
+      ],
+      "list": [
+        "Entertainment and media (Burbank, Hollywood, Culver City): searching archives and scripts, drafting coverage notes, tagging footage and tracking rights and licensing terms, with strict rules on what may touch talent or unreleased material",
+        "Fashion, beauty and DTC brands: product copy at catalog scale, customer service triage, demand signals from reviews and social comments",
+        "Aerospace and engineering suppliers in the South Bay: searching specifications and quality documents with access controls that respect export and contract limits",
+        "Healthcare and aesthetics practices: intake summaries, appointment follow-up and coding support, planned around patient privacy from day one",
+        "Real estate and property groups: lease abstraction, listing descriptions and tenant query handling across large portfolios"
+      ]
+    },
+    {
+      "h": "California privacy rules shape the roadmap",
+      "p": [
+        "If you collect personal information from Californians, the CCPA as amended by the CPRA applies to most AI work you do with that data. The California Privacy Protection Agency finalized rules in 2025 on automated decision-making technology, risk assessments and cybersecurity audits, with obligations phasing in from 2026. In practice, an AI tool that screens job applicants, scores customers or sets prices needs more care than one that drafts social captions.",
+        "We map each use case against these rules during discovery, note where a risk assessment or opt-out is likely to be needed, and keep a record of what data each system uses. Your counsel makes the legal call; our job is to make sure the question reaches them early instead of after launch."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short fit call, then interviews with the people who do the work, not only the executives",
+        "Plan: a scored use-case list, roadmap and policy draft, with every date in writing",
+        "Build: one pilot shipped and tested against a baseline you agree with",
+        "Grow: roll out what worked, retire what did not, and train the team"
+      ]
+    },
+    {
+      "h": "Working with us from Los Angeles",
+      "p": [
+        "We are based in London and work with LA companies remotely. Discovery interviews happen in your morning, which is our late afternoon and evening (London is 8 hours ahead of Pacific time for most of the year). Between calls, our teams keep building, so pilots move forward overnight your time. Remote delivery does not change the standard of our AI consulting. Los Angeles clients get one Signal Lead as their single contact, dates in writing and a weekly report, and when a workshop works better in a room, we plan a visit for that stage of the project."
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have shipped more than 30 AI builds: custom AI tools, systems and automations for businesses that used to run the old way. That build experience changes what clients get from AI consulting. Los Angeles teams finish with a pilot running on their own data, not a slide deck about what might work."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many departments and use cases are in scope",
+        "The state of your data and how many systems hold it",
+        "Whether the pilot uses existing software or a custom build",
+        "The level of privacy review your sector needs, which is higher for healthcare and HR uses",
+        "How much staff training you want included"
+      ]
+    },
+    {
+      "h": "Why 22 Signals, and what comes next",
+      "p": [
+        "Most AI consultants stop at the plan. We also build, and because the same team handles marketing, video and 3D, we can put AI into creative and growth work too. After the roadmap, clients often move into our AI automation work in Los Angeles, our custom AI development, or business intelligence once the data foundations need fixing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer AI consulting in Los Angeles in person?",
+      "a": "We work with Los Angeles companies remotely from London, with calls in your morning. Most AI consulting runs well over video because the work is interviews, data review and building. When a leadership workshop or a pilot launch would work better in a room, we plan a visit for that part of the project."
+    },
+    {
+      "q": "How do you handle CCPA and CPRA requirements in AI projects?",
+      "a": "We check every use case against California privacy rules during discovery. That includes what personal data the tool touches, whether it makes decisions about people, and whether a risk assessment or opt-out might be needed. We document it and bring your counsel in early; we are consultants, not your lawyers."
+    },
+    {
+      "q": "Can you help a studio or production company use AI safely?",
+      "a": "Yes. With media clients we start by agreeing what must never enter an AI tool, usually unreleased material, talent likeness and anything covered by guild or licensing terms. Then we look at safer wins such as archive search, metadata tagging, scheduling and internal reporting, and pick a pilot from those."
+    },
+    {
+      "q": "How long does an AI roadmap take?",
+      "a": "A readiness review and ranked use-case list usually takes a few weeks, depending on how many teams we interview and how easy the data is to reach. The pilot follows. We agree the dates at the start and put them in writing, and the Signal Lead reports against them every week."
+    },
+    {
+      "q": "Should we build our own AI tool or buy one?",
+      "a": "Buy when a mature product already does the job and your data can safely go to it. Build when the work is specific to you, the data is sensitive, or off-the-shelf tools would force you to change a process that works. We give a written recommendation for each use case with the reasons."
+    },
+    {
+      "q": "We are a 40-person company. Is AI consulting worth it at our size?",
+      "a": "Often more than for large firms, because a few hours saved per person each week is a real share of capacity. Smaller LA companies also have fewer systems, so pilots go faster. We keep the scope tight and focus on two or three use cases that can be measured within one quarter."
+    }
+  ],
+  "related": [
+    "/services/ai-consulting",
+    "/locations/los-angeles",
+    "/locations/los-angeles/ai-automation",
+    "/locations/san-francisco/ai-consulting",
+    "/services/custom-ai-development",
+    "/industries/gaming-entertainment"
+  ],
+  "keywords": {
+    "primary": "ai consulting los angeles",
+    "secondary": ["ai consultant los angeles", "ai consulting firm los angeles", "los angeles ai strategy", "ai roadmap california"]
+  }
+}

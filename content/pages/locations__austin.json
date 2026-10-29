@@ -1,0 +1,137 @@
+{
+  "path": "/locations/austin",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "title": "AI, Cloud and Data Consulting in Austin, TX | 22 Signals",
+  "description": "Austin AI consulting, cloud, data, web, SEO, ads and video from one accountable lead. Built for Austin tech, hardware, healthcare and creative companies.",
+  "eyebrow": "22 Signals in Austin, Texas",
+  "h1": "Austin AI consulting, cloud, data and growth from one team",
+  "intro": "22 Signals gives growing companies one accountable lead for Austin AI consulting, cloud and data work, websites and apps, search, paid media and video. We work with Austin firms remotely from London, with meeting hours that overlap Central Time, so you get one team that builds your systems and then grows them.",
+  "sections": [
+    {
+      "h": "Why Austin companies end up talking to ten vendors",
+      "p": [
+        "Austin has a habit of producing companies that grow faster than their back office. A SaaS business raises its next round and suddenly needs a data warehouse, a new website and a sales process that is not held together by spreadsheets. A clinic group in Round Rock adds a third location and its booking system falls over.",
+        "Each of those problems usually gets its own agency or contractor. The result is ten invoices, ten reporting styles and nobody who owns the outcome. We built 22 Signals to replace that with one lead, called the Signal Lead, who runs the whole engagement and pulls in specialist teams for AI, cloud, data, marketing and video when the plan needs them."
+      ]
+    },
+    {
+      "h": "Austin AI consulting, cloud, data and the rest of what we do",
+      "p": [
+        "Every service below has its own Austin page with the detail. In short:"
+      ],
+      "list": [
+        "Austin AI consulting: an honest review of where AI pays off in your operation, ranked by value and effort, then a pilot.",
+        "AI automation: custom tools and workflows across email, CRM and spreadsheets, with a person in the loop where it matters.",
+        "Business intelligence: KPI design, pipelines and dashboards in Power BI, Looker Studio or Tableau.",
+        "Cloud consulting: architecture, security, monitoring and cost reviews on AWS, Google Cloud and Azure.",
+        "Web development: sites, redesigns, migrations that keep rankings, client portals and website care.",
+        "App development: iOS, Android and web apps, from first version to app store launch and support.",
+        "SEO and generative engine optimization: so buyers find you in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns with creative made in-house and tracking tied to leads.",
+        "Video, animation and AI video: reels, explainers, product animation and managed editing.",
+        "3D rendering: product renders, packaging and architectural visuals before anything is built."
+      ]
+    },
+    {
+      "h": "The Austin industries we know best",
+      "p": [
+        "Austin is not one economy. The work looks different depending on which part of the city you sit in."
+      ],
+      "list": [
+        "Tech, SaaS and AI companies in the Domain and Downtown: cloud cost control, data for board reporting, product marketing and AI features that customers will actually use.",
+        "Semiconductors and hardware, from the chipmaking sites in northeast Austin and Taylor to suppliers around Round Rock: technical animation, product renders, supplier portals and cleaner operations data.",
+        "Founders and scale-ups in East Austin: launch plans, first websites and apps, and outbound that does not burn the market.",
+        "The state government ecosystem around the Capitol: vendors and consultancies that sell to Texas agencies and need security and reporting that stands up to review.",
+        "Healthcare and wellness groups across Travis and Williamson counties: booking, patient communication, local search and careful handling of health data.",
+        "Music, film and creative businesses: video, short-form content and campaigns timed around the city's festival calendar."
+      ]
+    },
+    {
+      "h": "Texas rules we plan around",
+      "p": [
+        "The Texas Data Privacy and Security Act has applied since July 2024. It gives Texas residents rights over their personal data, requires consent before processing sensitive data, and is enforced by the Texas Attorney General. Any Austin project that touches customer data, from a CRM migration to an AI assistant, gets a data map and a privacy check during planning, not after launch.",
+        "Companies selling cloud services to Texas state agencies may also need TX-RAMP certification through the Texas Department of Information Resources. We design architecture with those requirements in mind and say plainly when you will need a specialist auditor as well."
+      ]
+    },
+    {
+      "h": "How we work with Austin companies from London",
+      "p": [
+        "London is six hours ahead of Austin for most of the year. An Austin morning lines up with our London afternoon, so a 9:00 call in Austin is a 15:00 call for us. Work that you approve at the end of your day is often moving before you wake up, because our specialist teams sit across four regions.",
+        "We do not have an Austin office and we will not pretend to. Calls happen on video, decisions go in writing, and every date we agree is written down. When a project genuinely needs someone in the room, such as a workshop with your leadership team, we arrange a visit for that stage."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to check fit. If we are not the right team, we say so.",
+        "Plan: scope, owners, dates and cost factors in writing before any build starts.",
+        "Build: your Signal Lead runs the specialists and reports progress weekly.",
+        "Grow: once it is live, we measure, improve and add the next piece only when the first one is working."
+      ]
+    },
+    {
+      "h": "Proof, without the logo wall",
+      "p": [
+        "We have worked with more than 30 companies across four regions. We do not publish client names, but the kind of work is easy to describe: a client portal with documents and payments for a US law firm, the business, operating and marketing plan to take a US neurotech device to market, and a complete outbound sales engine built for our own business first."
+      ]
+    },
+    {
+      "h": "What an Austin engagement costs",
+      "p": [
+        "We do not publish prices because the range between a two-week AI review and a full platform rebuild is too wide to be useful. Cost depends on how many services are involved, how much existing data and code we inherit, any compliance work under Texas law or for state agency buyers, how fast you need it, and whether you want ongoing growth work after launch. You get a written scope before you commit to anything."
+      ]
+    },
+    {
+      "h": "Austin and the rest of Texas",
+      "p": [
+        "Many Texas conversations involve more than one city: an Austin software company with sales in Dallas, or an Austin clinic group opening in Houston. Our Texas page covers how we work across all three metros."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Austin?",
+      "a": "No. Our head office is in London and our specialist teams work across four regions. We work with Austin companies remotely, with meeting hours that overlap Central Time, and we visit when a stage of the project needs it, such as a kickoff workshop. Every decision and date goes in writing, so you never depend on someone being down the hall."
+    },
+    {
+      "q": "What time are your calls for an Austin team?",
+      "a": "Most calls fall between 8:00 and 11:00 in Austin, which is 14:00 to 17:00 in London. That window covers kickoffs, weekly check-ins and reviews. For launches or urgent fixes we agree cover in advance and write it into the plan, rather than promising round-the-clock availability we have not scoped."
+    },
+    {
+      "q": "Which services do Austin companies ask for most?",
+      "a": "It depends on the company. Software and AI businesses tend to start with cloud cost reviews, data and dashboards, or product marketing. Hardware and healthcare firms more often start with AI automation, a new website or local search. Most clients begin with one service and add a second once the first is working and they trust how we run things."
+    },
+    {
+      "q": "How do you handle the Texas Data Privacy and Security Act?",
+      "a": "We treat it as part of the plan. Before we build anything that touches personal data, we map what is collected, where it is stored, who can access it and whether any of it counts as sensitive data needing consent. We are not your lawyers, so we flag questions for your counsel, but the systems we build are designed to make compliance easier."
+    },
+    {
+      "q": "Do you work with startups or only established companies?",
+      "a": "Most of our clients are established businesses with between 5 and 500 staff, and that is where we do our best work. We also work with Austin founders and scale-ups when there is a clear plan and budget for the stage they are at, usually for launch strategy, a first product build or the systems needed before the next hire."
+    },
+    {
+      "q": "Can one team really handle AI, cloud, marketing and video?",
+      "a": "Yes, because one person owns the outcome and specialists do the work. Your Signal Lead plans the engagement and runs teams for AI, cloud and data, marketing, and video, animation and 3D. That combination is rare, and it means the people building your data pipeline talk to the people running your ads."
+    }
+  ],
+  "related": [
+    "/locations/texas",
+    "/locations/austin/ai-consulting",
+    "/locations/austin/cloud-consulting",
+    "/locations/austin/seo-geo",
+    "/locations/dallas",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "austin ai consulting",
+    "secondary": [
+      "austin cloud consulting",
+      "austin data consulting",
+      "austin digital agency",
+      "austin tx technology consulting"
+    ]
+  }
+}

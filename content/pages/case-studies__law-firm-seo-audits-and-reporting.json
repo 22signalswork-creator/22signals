@@ -1,0 +1,94 @@
+{
+ "path": "/case-studies/law-firm-seo-audits-and-reporting",
+ "kind": "case-study",
+ "region": "us",
+ "title": "SEO Audit Case Study: Audits for US Law Firms | 22 Signals",
+ "description": "SEO audit case study: how we crawl, analyze and report on several US law firm websites with one method, written rulebooks and report numbers that agree.",
+ "eyebrow": "Case study: SEO operations",
+ "h1": "SEO audit case study: one audit and reporting method across several US law firms",
+ "intro": "This SEO audit case study shows how we run technical audits and monthly reporting for several US personal injury law firms and the agencies that serve them. Each site gets a full crawl, analysis in code rather than by hand, a branded audit document, and monthly reports that are checked so every number agrees.",
+ "sections": [
+  {
+   "h": "The client and the problem",
+   "p": [
+    "This case covers a group of clients rather than one: several US personal injury law firms, plus agencies and other businesses that asked us for audits. Each had a website that needed a clear, honest picture of its technical health, and a way to see progress month to month.",
+    "Audits often fail in one of two ways. Some are tool exports with a logo on top, hundreds of rows and no priorities. Others are written by hand and cannot be compared from one month to the next. We wanted a method that gives the same depth every time and produces something a busy partner will read."
+   ]
+  },
+  {
+   "h": "What we did",
+   "list": [
+    "Full site crawls with a professional crawler, with Search Console and Google Analytics data connected to the crawl.",
+    "Analysis of the crawl exports in Python and pandas, so issues are grouped, counted and ranked the same way every time.",
+    "Branded audit documents for each site, written for the people who decide what gets fixed.",
+    "Written content rulebooks for individual firms, and internal SEO playbooks for our own team.",
+    "Monthly report decks, with data consistency audits on the figures."
+   ]
+  },
+  {
+   "h": "Why analyze crawls in code",
+   "p": [
+    "A crawl of a law firm's site can return thousands of URLs and dozens of issue types. Sorting that in a spreadsheet by hand is slow and inconsistent. Running the analysis in code means the same checks run in the same order on every site, and the results can be set against the last crawl to show what has been fixed and what has come back.",
+    "Connecting search and analytics data matters too. It means issues can be weighed by whether real visitors reach the affected pages. A broken page that nobody visits can wait; a broken page that people land on from Google cannot."
+   ]
+  },
+  {
+   "h": "Rulebooks that keep content consistent",
+   "p": [
+    "Law firm content carries rules a general writer would not know: the practice areas a firm wants associated with its name, the claims it will not make, the way statutes must be cited. For individual firms we wrote these down as content rulebooks, so every writer follows the same standard. For our own team we wrote SEO playbooks, so audits and fixes are done the same way whoever runs them."
+   ]
+  },
+  {
+   "h": "Reports where the numbers agree",
+   "p": [
+    "Monthly reporting is where trust is won or lost. A figure that reads one way on the summary slide and another on the detail slide makes a client doubt everything else. We run data consistency audits on the report decks so each figure matches its source and matches itself across the deck."
+   ]
+  },
+  {
+   "h": "What we think a useful audit should contain",
+   "list": [
+    "A short summary a partner can read in two minutes, with the few issues that matter most at the top.",
+    "Each issue explained in plain words: what it is, which pages it affects and why it matters.",
+    "A clear owner for each fix, whether that is the developer, the writer or the firm.",
+    "A comparison with the previous crawl once there is one, so progress is visible."
+   ]
+  },
+  {
+   "h": "How we ran it",
+   "p": [
+    "Each client has one Signal Lead who owns the audit and the reporting calendar, with technical SEO specialists behind them. Dates for crawls, audits and reports are agreed in writing."
+   ]
+  },
+  {
+   "h": "What changed",
+   "p": [
+    "The point of this SEO audit case study is the method. The firms and agencies we audit get the same depth of review every time, in a document they can act on, and monthly reports they can check. Our own team works from written playbooks rather than memory. We are not quoting ranking or traffic results here; this case is about the method and what it produces."
+   ]
+  },
+  {
+   "h": "Services used",
+   "p": [
+    "SEO and GEO for the audits, content rules and reporting, with Business Intelligence and Data Analytics methods behind the crawl analysis. If you want an audit your team will actually read, book a 15-minute call."
+   ]
+  }
+ ],
+ "related": [
+  "/services/seo-geo",
+  "/services/business-intelligence",
+  "/services/ai-automation",
+  "/industries/professional-services",
+  "/case-studies/personal-injury-law-firm-seo-content"
+ ],
+ "keywords": {
+  "primary": "seo audit case study",
+  "secondary": [
+   "law firm seo audit",
+   "technical seo audit law firm",
+   "screaming frog audit",
+   "seo reporting for law firms"
+  ]
+ },
+ "author": "Daniyal Mansur",
+ "datePublished": "2026-10-29",
+ "faqs": []
+}

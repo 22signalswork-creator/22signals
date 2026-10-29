@@ -1,0 +1,151 @@
+{
+  "path": "/locations/london/web-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company London | 22 Signals",
+  "description": "Web development company London firms trust with redesigns, migrations that keep rankings, e-commerce and client portals. Meet the team in London.",
+  "eyebrow": "Web Development in London",
+  "h1": "A web development company London firms trust with the site that pays",
+  "intro": "22 Signals is a web development company. London is our head office. We design and build websites, e-commerce stores and client portals for established firms in law, finance, retail, property and healthcare. Every build is fast, accessible, ready for UK cookie and privacy rules, and made to rank in Google and show up in AI answers from launch day.",
+  "sections": [
+    {
+      "h": "When the website stops pulling its weight",
+      "p": [
+        "Firms usually come to us with one of three problems. The site looks dated next to competitors who rebuilt last year. The site looks fine but brings in few enquiries, because it loads slowly on a phone and search engines struggle to read it. Or the business has outgrown it: clients want to log in, upload documents, pay an invoice or book online, and the current platform cannot do any of that without plugins held together with tape.",
+        "A new design alone fixes the first problem. The other two need a team that understands search, content, hosting, integrations and conversion as well as layout. That is the kind of web development company London buyers should be looking for, and it is the way we work.",
+        "We also meet a fourth group: firms that rebuilt recently and watched enquiries fall, because the new site dropped pages that ranked or broke the redirects. Recovering from that is slower than avoiding it, which is why migration planning is the part of a project we refuse to rush."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites and redesigns, built for speed and search from the first wireframe",
+        "Migrations to a new platform or domain that keep the rankings you have earned",
+        "Content management on WordPress, Webflow or a headless CMS, so your team can edit without a developer",
+        "E-commerce on Shopify or WooCommerce, with UK VAT, delivery and returns set up properly",
+        "Client portals with secure logins, document exchange and online payments",
+        "Website care: updates, security monitoring, backups and small changes each month"
+      ]
+    },
+    {
+      "h": "UK rules your website has to follow",
+      "p": [
+        "A London website carries more legal weight than people expect. Cookie banners must ask before setting non-essential cookies under PECR and UK GDPR, and the ICO has been clear that rejecting should be as easy as accepting. Privacy notices have to match what the site actually collects. The Equality Act 2010 means private businesses should not shut out disabled users, and building to WCAG 2.2 AA is the practical way to meet that.",
+        "Some sectors have their own requirements. Firms regulated by the SRA must display the SRA clickable badge, and many have to publish price and service information under the SRA Transparency Rules. FCA-authorised firms need any financial promotion on the site approved and kept compliant. Online shops must give the cancellation and returns information consumer law requires. We build these in from the start, and your compliance lead checks the wording."
+      ]
+    },
+    {
+      "h": "Websites for London's sectors",
+      "list": [
+        "Law firms and chambers around Holborn, Chancery Lane and the City: practice-area pages that rank, SRA requirements in place, and secure enquiry forms",
+        "Financial services, wealth managers and fintechs in the City, Mayfair and Canary Wharf: credible, fast sites with approved financial promotions and clear risk wording",
+        "Retail, fashion and beauty brands: Shopify stores with product pages that convert on mobile, and booking for salons and studios",
+        "Property developers and estate agencies: development microsites, listings feeds and enquiry routing to the right branch",
+        "Clinics, aesthetics practices and life sciences companies near King's Cross: treatment pages checked for accuracy and online booking",
+        "Creative and media businesses in Shoreditch and Soho: portfolio sites heavy on video and motion that still load quickly"
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call about what the site needs to achieve and what is holding the current one back. Plan: a written scope with a sitemap, content plan, technical choices and, for redesigns, a full URL map so nothing that ranks is lost. Build: design, development and content, shown to you in stages on a staging site. Grow: launch, then 90 days of watching search data, fixing anything that dips and improving the pages that bring enquiries.",
+        "Every date goes in writing, including the launch date, and your Signal Lead owns all of them."
+      ]
+    },
+    {
+      "h": "Proof: portals and rebuilds",
+      "p": [
+        "We built a client portal for a US law firm where clients log in, exchange documents and pay invoices online, replacing a mix of email attachments and phone payments. The same approach suits London firms whose clients expect to manage their matter, account or booking without calling the office."
+      ]
+    },
+    {
+      "h": "Meet the team in London",
+      "p": [
+        "Our head office is in London, so you can meet us for the kick-off and the design review, and bring the partners or directors who need to approve the look. Seeing a design on a big screen with the decision makers in the room saves weeks of email.",
+        "Development runs across our teams in four regions. That lets us test overnight and deploy fixes outside London working hours, which matters for e-commerce and for firms whose clients use the site in New York or the Gulf. Changes go live in agreed windows, never on a Friday afternoon."
+      ]
+    },
+    {
+      "h": "How to choose a web development company: London checklist",
+      "list": [
+        "Ask how they protect rankings during a redesign, and ask to see a URL redirect map",
+        "Check whether they build to WCAG 2.2 AA, or just say the site is accessible",
+        "Find out who writes and checks the content, not just who designs the pages",
+        "Ask what happens after launch: who patches the site, monitors uptime and answers the phone",
+        "Make sure you own the domain, hosting account and code"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "p": [
+        "We quote after scoping, because sites vary widely. The main factors:"
+      ],
+      "list": [
+        "Number of page templates and the amount of content to write or move",
+        "E-commerce, booking, portal or payment features",
+        "Integrations with CRMs, practice management or stock systems",
+        "Migration complexity and the number of URLs to map",
+        "Accessibility testing and any sector compliance requirements",
+        "Ongoing care and hosting after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for your website",
+      "p": [
+        "A website is one part of how a firm wins clients. Because the same team runs SEO and GEO (generative engine optimisation), paid media, video and AI tools, your site is built to work with all of them: landing pages ready for campaigns, video that loads fast, an enquiry form that feeds an AI assistant or your CRM. If you are planning a rebuild, book a 15-minute call and we will tell you honestly whether you need one. Related London pages: SEO and GEO, app development and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you redesign our site without losing Google rankings?",
+      "a": "Yes. We crawl the current site, map every URL that ranks or has links to its new address, keep the content that performs, set up redirects and test them before launch. For 90 days afterwards we watch Search Console and fix anything that drops. Most rankings carry over when migrations are planned this carefully."
+    },
+    {
+      "q": "Do you meet clients in person in London?",
+      "a": "Yes. Our head office is in London, and we usually hold the kick-off and the main design review in person, at your office or ours. That is where the important decisions get made. Day-to-day progress is shared on a staging site with weekly updates from your Signal Lead."
+    },
+    {
+      "q": "Which platform should a London business use?",
+      "a": "It depends on who will edit the site and what it must do. WordPress suits content-heavy firms and gives the most flexibility. Webflow suits design-led brands with simpler needs. Shopify is our default for e-commerce. Portals and complex features are often custom. We recommend after scoping, and you own whatever we build."
+    },
+    {
+      "q": "Will the website meet accessibility standards?",
+      "a": "We build to WCAG 2.2 AA, which is the standard most UK organisations work to, and test with keyboard navigation, screen readers and contrast checks. That helps you meet the Equality Act 2010 and makes the site easier for everyone to use. Your content team gets guidance on keeping new pages accessible."
+    },
+    {
+      "q": "Can you build a client portal for a law firm?",
+      "a": "Yes. We have built a portal for a US law firm with secure logins, document exchange and online payments. For London firms we add the SRA requirements, UK GDPR controls on document retention and access, and integration with your practice management system where it offers an API."
+    },
+    {
+      "q": "Do you look after websites after launch?",
+      "a": "Yes. Website care covers updates, security monitoring, backups, uptime checks and small content changes each month, with one lead to call. We have cleaned up compromised law-firm websites, so we take patching seriously. You can also take the site in-house at any point; you own everything."
+    },
+    {
+      "q": "How long does a London website project take?",
+      "a": "It depends on the number of templates, the content and any integrations. A focused company site is a much shorter project than an e-commerce store or a portal. We agree the launch date and every milestone in writing before work starts, and we flag risks to those dates early."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/web-app-development",
+    "/locations/london/seo-geo",
+    "/locations/london/app-development",
+    "/locations/manchester/web-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development company london",
+    "secondary": [
+      "web development company in london",
+      "london web development company",
+      "web design and development london",
+      "website redesign london",
+      "ecommerce development london"
+    ]
+  }
+}

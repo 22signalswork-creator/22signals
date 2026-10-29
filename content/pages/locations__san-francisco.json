@@ -1,0 +1,128 @@
+{
+  "path": "/locations/san-francisco",
+  "kind": "location-hub",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "title": "Digital Agency for San Francisco Companies | 22 Signals",
+  "description": "22 Signals works with San Francisco SaaS, AI, fintech and biotech companies on AI, cloud, data, web, search, ads and video, led by one accountable lead.",
+  "eyebrow": "22 Signals in San Francisco",
+  "h1": "A digital agency for San Francisco and Bay Area companies",
+  "intro": "22 Signals is a London-based business solutions company that San Francisco and Bay Area firms hire for AI, cloud, data, websites and apps, search, paid media, video and 3D. One accountable lead, the Signal Lead, runs the work with specialist teams behind them, so you deal with one team instead of ten.",
+  "sections": [
+    {
+      "h": "Why San Francisco companies bring us in",
+      "p": [
+        "Most companies in the Bay Area are not waiting to be told about AI. Their engineers have tried every model provider and somebody has already built an internal agent. What they are short of is the finishing work: the data connection that makes the tool useful, the testing that shows how often it is wrong, the privacy review, and the website and campaign that bring buyers to the product.",
+        "That last 20% is where we spend our time. Think of us as a digital agency, San Francisco style: not a design shop with an ads desk, but one team covering AI, cloud and data, marketing, and video, animation and 3D, so the system you build and the way you sell it are planned together."
+      ]
+    },
+    {
+      "h": "What we do for Bay Area companies",
+      "list": [
+        "AI Consulting: decide which pilots deserve to become systems, and set the rules for data and privacy before they ship.",
+        "AI Automation: workflows across email, CRM and spreadsheets that take repeated work off operations and revenue teams.",
+        "Business Intelligence and Data Analytics: one set of numbers for the board, finance and the product team.",
+        "Cloud Consulting: AWS, Google Cloud and Azure architecture, security reviews and cloud bills that make sense.",
+        "Web Development: marketing sites, redesigns and client portals that keep their rankings through a rebuild.",
+        "App Development: iOS, Android and web apps, from a first version to a product with paying users.",
+        "Search: show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers.",
+        "Paid Media: Google, Meta, LinkedIn and TikTok ads tied to pipeline, not just clicks.",
+        "Video Production, Animation and AI Video: launch films, product demos and explainers.",
+        "3D Rendering: product renders for hardware, devices and packaging before the first unit exists."
+      ]
+    },
+    {
+      "h": "Industries we work with in San Francisco",
+      "list": [
+        "SaaS and AI companies: product marketing, AI features, cloud cost reviews and investor reporting.",
+        "Fintech and financial services: data pipelines, dashboards and sites written with compliance review in mind.",
+        "Biotech, health tech and healthcare: explainer animation and data work that respects medical privacy rules.",
+        "Law firms and professional services: SEO, client portals and automation for practices that hate admin.",
+        "Consumer brands and real estate: paid social, product video and 3D visualization for launches."
+      ]
+    },
+    {
+      "h": "From SoMa to the South Bay",
+      "p": [
+        "Our Bay Area work follows where the companies are. Software and AI firms cluster in SoMa. Banks, law firms, investors and consultancies sit in the Financial District. Life sciences companies are in Mission Bay, next to the UCSF campus, and further south in South San Francisco's biotech cluster. The Peninsula, from San Mateo to Palo Alto, and the South Bay around San Jose and Sunnyvale are home to hardware, chip and enterprise software companies.",
+        "We work remotely, so Market Street or Santa Clara makes no difference to us. What matters is that the person running your project knows the buyers you sell to."
+      ]
+    },
+    {
+      "h": "California privacy law is part of the plan",
+      "p": [
+        "Almost everything we build for a San Francisco client touches personal data, so California law shapes the work from week one. The California Consumer Privacy Act, as amended by the CPRA, requires a working \"Do Not Sell or Share\" route and respect for browser opt-out signals. The California Privacy Protection Agency has added rules on automated decision-making, risk assessments and cybersecurity audits. Health companies also deal with the Confidentiality of Medical Information Act, and sites with tracking pixels or chat widgets have drawn lawsuits under the California Invasion of Privacy Act.",
+        "We are not a law firm and we do not give legal advice. We build so that your counsel can review the setup quickly: consent tools wired correctly, data flows documented and nothing collected that nobody needs."
+      ]
+    },
+    {
+      "h": "How we work with San Francisco from London",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. London is usually eight hours ahead, so 8 to 11 a.m. in San Francisco is 4 to 7 p.m. in London. That window covers the weekly call and any working session. The rest happens in writing, and work you hand over at the end of your day is often moved forward by the time you start the next one.",
+        "Every engagement runs through Talk, Plan, Build, Grow, and every date we agree goes in writing. When a project needs someone in the room, such as a workshop or a shoot, we plan a visit for it."
+      ]
+    },
+    {
+      "h": "Work we can point to",
+      "p": [
+        "We run monthly SEO for a Bay Area personal injury law firm, with every statute and filing deadline checked before a page goes live. Other anonymized work includes a client portal with documents and payments for a US law firm and the plan to take a US neurotech device to market. We never name clients."
+      ]
+    },
+    {
+      "h": "What working with us costs",
+      "p": [
+        "Pricing for a digital agency, San Francisco or anywhere, should follow scope. The things that move it are the number of services involved, how much existing work we inherit, the systems we connect, fixed project or monthly retainer, and how fast you need it. Scope and dates are written down before work starts."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We have worked with more than 30 companies across four regions. San Francisco clients tend to choose us for two reasons. First, one accountable lead answers for the whole engagement, so you are not chasing five vendors. Second, the same team that builds your AI tool or cloud setup can make the launch video, rebuild the site and run the ads, so nothing gets lost between agencies. If that sounds useful, book a 15-minute call and we will tell you honestly whether we fit."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in San Francisco?",
+      "a": "No. Our head office is in London and we work with San Francisco companies remotely, with specialist teams across four regions. Calls sit in the morning Pacific window, which is late afternoon in London. When a project needs an in-person workshop or a shoot in the Bay Area, we plan a visit for it rather than promising a fixed schedule."
+    },
+    {
+      "q": "What kind of San Francisco companies do you work with?",
+      "a": "Mostly established companies with 5 to 500 staff: SaaS and AI firms, fintech, biotech and health tech, law firms and other professional services, consumer brands and real estate. We also take on funded startups when the scope suits. The common thread is a team that already knows what it wants and needs it built and launched properly."
+    },
+    {
+      "q": "How do you handle the time difference with the Bay Area?",
+      "a": "London is usually eight hours ahead of San Francisco. We hold live calls between 8 and 11 a.m. Pacific, which is 4 to 7 p.m. in London, and do the rest in writing. Updates arrive in a shared channel, decisions are written down, and handovers at the end of your day are often moved forward overnight."
+    },
+    {
+      "q": "Do you follow California privacy law?",
+      "a": "We build with the CCPA in mind on every project that handles personal data: consent tools, opt-out links, browser privacy signals, data maps and vendor lists. For health clients we account for the Confidentiality of Medical Information Act. We do not give legal advice, but we make the setup easy for your counsel to check and sign off."
+    },
+    {
+      "q": "Why hire a London digital agency? San Francisco has plenty of its own.",
+      "a": "Because you get one accountable lead across AI, cloud, data, marketing and video instead of five vendors, and a team used to remote delivery. Bay Area agencies are often strong in one discipline. We plan the build and the launch together, and our overlap with Pacific mornings is enough for the calls that matter."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Start with a 15-minute call. It is a fit check, not a pitch: we ask what you are trying to get done, what you have already tried and when it needs to happen. If we are a fit, we send a written scope with dates. If we are not, we say so and point you somewhere better."
+    }
+  ],
+  "related": [
+    "/locations/california",
+    "/locations/san-francisco/ai-consulting",
+    "/locations/san-francisco/cloud-consulting",
+    "/locations/san-francisco/seo-geo",
+    "/locations/los-angeles",
+    "/united-states"
+  ],
+  "keywords": {
+    "primary": "digital agency san francisco",
+    "secondary": [
+      "san francisco ai consulting",
+      "bay area digital agency",
+      "san francisco marketing and technology agency",
+      "ai and cloud consulting san francisco"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "path": "/industries/technology-ai",
+  "kind": "industry",
+  "region": "global",
+  "title": "Technology and AI Companies: Build, Launch, Grow | 22 Signals",
+  "description": "Product, cloud, AI and go-to-market work for technology and AI companies and SaaS businesses, from established firms to funded startups. One lead throughout.",
+  "eyebrow": "Technology, SaaS and AI",
+  "h1": "Engineering and growth for technology and AI companies",
+  "intro": "22 Signals works with established technology and AI companies and SaaS businesses, and with funded startups, on product, cloud, launch and growth. We build features and the infrastructure they run on, position the product, launch it, and bring in customers through search, paid media and outbound, with one accountable lead across all of it.",
+  "sections": [
+    {
+      "h": "Where tech companies get stuck",
+      "p": [
+        "Software companies rarely lack ideas. They lack capacity in the places their core team does not cover. The engineers are busy on the roadmap, so the data pipeline, the cloud bill and the internal tools wait. Marketing is one person and a contractor, so the launch goes out with a landing page and a LinkedIn post.",
+        "We fill those gaps with specialists who already work together. Your product team keeps the core roadmap. We take the cloud work, the AI features, the launch content and the pipeline that brings in buyers, and we report to one place.",
+        "Established companies usually come to us for one of three reasons: an AI feature the board wants this year, a cloud setup that has grown expensive and fragile, or a sales pipeline that depends on referrals. Funded startups come with a shorter list and a harder deadline."
+      ]
+    },
+    {
+      "h": "Who we work with",
+      "list": [
+        "Established software and IT services companies adding AI to their products or operations",
+        "B2B SaaS businesses that need more pipeline, better positioning or a cleaner cloud setup",
+        "AI companies that need go-to-market, content and demand generation around a strong technical product",
+        "Funded startups building an MVP or preparing a launch, once the round is closed"
+      ]
+    },
+    {
+      "h": "Engineering: product, cloud and data",
+      "list": [
+        "Web apps, SaaS products and mobile apps, including MVPs with payments and APIs",
+        "AI features inside your product: agents, retrieval over documents, summaries and search, with evaluation and guardrails",
+        "Cloud architecture on AWS, Google Cloud and Azure, security and access control, monitoring and cost reviews",
+        "DevOps: CI/CD pipelines, infrastructure as code, containers and release processes",
+        "Data engineering and business intelligence: pipelines, warehouses, product and revenue dashboards"
+      ]
+    },
+    {
+      "h": "Growth: positioning, launch and pipeline",
+      "list": [
+        "Market and competitor research, positioning, messaging and pricing strategy",
+        "Launch plans by channel, with dates and owners",
+        "Outbound sales systems and CRM setup",
+        "SEO and generative engine optimization so your product shows up in ChatGPT, Claude, Gemini and Google AI Overview answers when buyers compare tools",
+        "Paid media on Google, LinkedIn and Meta, with landing pages and conversion tracking connected to your CRM",
+        "Launch video, product demos, motion graphics and 3D renders of hardware"
+      ]
+    },
+    {
+      "h": "AI builds that run in production",
+      "p": [
+        "We have completed more than 30 AI builds for businesses that used to run the old way: custom tools, systems and automations that now do work people did by hand. For technology and AI companies that experience matters, because the hard part of an AI feature is rarely the model. It is the data access, the evaluation, the edge cases and the support load after launch.",
+        "We start with a short discovery that ranks use cases by value and effort, build a pilot against real data, measure it, and only then build it into the product. Where buying a tool beats building one, we say so."
+      ]
+    },
+    {
+      "h": "We built our own outbound engine first",
+      "p": [
+        "Before we build pipeline for clients, we built it for ourselves. We designed and run a complete outbound sales engine for 22 Signals: target account lists, sending domains and warm-up, sequences, reply handling and CRM tracking. The same playbook, adjusted to your market and deal size, is what we set up for SaaS and AI companies that need a predictable flow of meetings.",
+        "Outbound works best alongside content and search. Buyers who receive an email go and check you. If your site, reviews and AI answers tell the same clear story, more of those emails turn into calls."
+      ]
+    },
+    {
+      "h": "Fixing the back office, not just the product",
+      "p": [
+        "Many technology and AI companies run their own operations on spreadsheets and copied data. Sales, support and finance each keep a separate version of the customer. Renewals get missed because nobody sees usage drop in time.",
+        "We map how work actually moves through the business, remove the steps that add nothing, and automate the rest: CRM and billing in sync, usage alerts that reach the account owner, support triage that drafts a first reply for a person to approve, and board reporting that builds itself each month. Where Power BI or Looker Studio already sits in the business, we build on it rather than adding another tool."
+      ]
+    },
+    {
+      "h": "Getting chosen when buyers ask AI",
+      "p": [
+        "Software buyers now ask assistants for shortlists: the best tools for a job, alternatives to a known product, how two options compare. Assistants build those answers from your site, review platforms, comparison articles and forums. We write answer-first product, comparison and use-case pages, keep your description consistent across the web and earn the outside mentions assistants rely on."
+      ]
+    },
+    {
+      "h": "How we work with tech teams",
+      "p": [
+        "We follow Talk, Plan, Build, Grow. Engineering work runs in short cycles inside your repositories, with code review, documentation and handover so your team can own it. Growth work runs on a monthly plan with clear reporting. A single Signal Lead coordinates both, and every date we agree goes in writing.",
+        "Cost depends on scope: the size of the build, the cloud and data work involved, how many channels we run, and whether we provide ongoing engineering or managed operations after launch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can 22 Signals build our product and also launch it?",
+      "a": "Yes. We scope, design and build the product, set up the cloud it runs on, then run the launch: positioning, launch content, search and paid acquisition, and outbound if it suits your market. One lead covers both sides, so the launch plan matches what engineering will actually ship and when."
+    },
+    {
+      "q": "Do you work inside our existing codebase?",
+      "a": "Yes. Work with established technology companies usually happens in your repositories, under your review rules and release process. We document what we build and hand it over cleanly. If you prefer, we can build a separate service or internal tool on our side and hand it to your team later."
+    },
+    {
+      "q": "How do you add AI features without creating risk?",
+      "a": "We start with a pilot on real data, define how success is measured and build evaluation in from day one. Guardrails limit what the feature can say or do, sensitive data stays within agreed boundaries, and a person reviews outputs where mistakes would be costly. Only then does it go to all users."
+    },
+    {
+      "q": "Do you work with startups?",
+      "a": "Yes, mainly funded startups with a clear product and a date to hit. We build MVPs, set up cloud and analytics properly from the start, and prepare launches. Startups get the same process, code review and documentation standards as our established clients."
+    },
+    {
+      "q": "Can you help our AI product show up in ChatGPT and Gemini answers?",
+      "a": "We can improve the odds. Assistants recommend tools based on your site, reviews, comparison articles and forums. We publish clear comparison and use-case pages, fix inconsistent descriptions of your product across the web and earn relevant outside mentions. No one controls these answers, but these steps are what move them."
+    },
+    {
+      "q": "Which clouds and AI providers do you use?",
+      "a": "We work on AWS, Google Cloud and Azure, and integrate with the major model providers through their APIs. We choose based on your existing stack, data location rules and cost, not our preference. Where you already have commitments with a provider, we design around them."
+    },
+    {
+      "q": "What does working with you cost?",
+      "a": "It depends on scope. The main factors are the size of the build, how much cloud and data work is involved, how many marketing channels we run and whether you want ongoing engineering or managed operations. We send a written scope with dates after a 15-minute call."
+    }
+  ],
+  "related": [
+    "/services/custom-ai-development",
+    "/services/cloud",
+    "/services/go-to-market",
+    "/services/app-development",
+    "/services/devops-consulting",
+    "/locations/san-francisco"
+  ],
+  "keywords": {
+    "primary": "technology and ai companies",
+    "secondary": [
+      "saas growth agency",
+      "ai product go-to-market",
+      "saas marketing and development",
+      "ai feature development",
+      "startup mvp development"
+    ]
+  }
+}

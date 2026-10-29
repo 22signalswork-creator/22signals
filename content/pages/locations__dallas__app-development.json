@@ -1,0 +1,139 @@
+{
+  "path": "/locations/dallas/app-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Dallas, TX | 22 Signals",
+  "description": "App development for Dallas companies: iOS, Android and web apps for drivers, residents, patients and customers, from first version to app store launch.",
+  "eyebrow": "App Development in Dallas",
+  "h1": "App development for Dallas companies with a real job for the app",
+  "intro": "We design and build iOS, Android and web apps for established Dallas companies and funded founders. Field apps for drivers and technicians, resident and patient apps, customer apps with payments, and internal tools for headquarters staff. We handle the first version, the APIs behind it, app store launch and support afterwards, with one accountable lead.",
+  "sections": [
+    {
+      "h": "Start with the job, not the app",
+      "p": [
+        "The best app projects we see in Dallas start with a specific person and a specific task. A driver who needs to capture proof of delivery at a dock in Wilmer with no signal. A resident in a Frisco apartment community who wants to report a leak at 11pm. A patient who should not have to call a Plano clinic three times to move an appointment.",
+        "The app development Dallas companies need is rarely about features for their own sake. We start by watching the task, then build the smallest app that does it well, and grow it once people use it."
+      ]
+    },
+    {
+      "h": "What we deliver",
+      "list": [
+        "Native iOS and Android apps, or one cross-platform codebase when that fits better.",
+        "Web apps and SaaS products that run in the browser on any device.",
+        "MVPs: a first version scoped tightly enough to launch and learn from.",
+        "Payments, subscriptions and in-app purchases set up correctly for each store.",
+        "APIs and integrations with your CRM, ERP, transport or property management systems.",
+        "App store launch, review handling and ongoing support and updates."
+      ]
+    },
+    {
+      "h": "App ideas we see from Dallas industries",
+      "list": [
+        "Logistics and distribution: driver and yard apps for scanning, photos, signatures and exceptions, built to work offline across the warehouses south of the city and around Alliance.",
+        "Real estate: resident apps for rent, maintenance and amenity booking, and broker apps that put availability and floor plans in the pocket.",
+        "Healthcare: appointment booking, intake and secure messaging for practices and specialty groups, with patient data handled under HIPAA.",
+        "Retail and restaurants headquartered in Plano and Dallas: loyalty, ordering and store team apps connected to point of sale.",
+        "Telecom and field service: technician apps with job lists, parts, site photos and customer sign-off.",
+        "Corporate headquarters: internal apps for approvals, expenses, visitor management and facilities across large campuses like Las Colinas."
+      ]
+    },
+    {
+      "h": "From idea to the app store",
+      "p": [
+        "Talk: a short call to test whether an app is the right answer at all. Sometimes a web portal or an automation does the job for less. Plan: we map the users, the screens and the systems involved, then write a scope, a release plan and dates. Build: we design clickable prototypes first, test them with real users, then build in short cycles with a working version you can install every couple of weeks. Grow: we launch, watch usage and crash reports, fix what matters and plan the next release.",
+        "Your Signal Lead runs the project from first call to launch and keeps a written record of every date and decision."
+      ]
+    },
+    {
+      "h": "Privacy rules for apps in Texas",
+      "p": [
+        "Apps collect more than most companies realize: location, device identifiers, contacts and usage data, often through third-party analytics tools. The Texas Data Privacy and Security Act treats precise location as sensitive data that needs consent, and it gives Texans the right to access and delete their data. We audit every software kit an app includes, collect only what the app needs, and build in-app ways to request or delete data.",
+        "The same work keeps the App Store and Google Play privacy labels accurate, which avoids rejected submissions at launch."
+      ]
+    },
+    {
+      "h": "Examples of our builds",
+      "p": [
+        "We built a client portal for a US law firm with secure documents and payments, and we are developing an AI commentary product for live esports, which has taught us a lot about real-time data and apps that cannot lag. We do not name clients, but we can walk you through how those products were planned and built."
+      ]
+    },
+    {
+      "h": "How remote app delivery works for Dallas",
+      "p": [
+        "Dallas clients work with us remotely from London, with meeting hours that overlap Central Time. With Dallas six hours behind, sprint reviews and user testing calls run in the Dallas morning, and new test builds are often ready to install when your team starts the next day.",
+        "You see progress through test builds on your own phone, not status slides. For user research with drivers, residents or staff on site in Dallas, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "We price after scoping. What moves the budget most:"
+      ],
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Number of user types and screens.",
+        "Integrations with existing systems.",
+        "Offline use, payments, maps or real-time features.",
+        "Security and compliance needs, such as patient data.",
+        "Support and release cadence after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "An app nobody downloads is a cost, not an asset, so the app development Dallas clients get from us comes with a plan to get it used. Because our team also covers paid media, SEO and video, we can plan the launch alongside the build: the store listing, the explainer video and the campaign that gets the first users in. Related services for Dallas companies: web development, AI automation and cloud consulting for the systems behind the app."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we build a native app or a web app?",
+      "a": "It depends on the task. If users need the camera, offline mode, push notifications or background location, a native or cross-platform mobile app usually wins. If the job is mostly forms and dashboards used at a desk, a web app is faster to build and easier to update. We recommend one after mapping the users."
+    },
+    {
+      "q": "Do you build apps for Dallas logistics companies?",
+      "a": "Yes. Driver and yard apps are a common request in DFW. We build for scanning, photos, signatures and exception reporting, designed to work offline in warehouses and on the road, and connected to your transport or warehouse system so office staff stop retyping what drivers capture."
+    },
+    {
+      "q": "How long does it take to launch a first version?",
+      "a": "A tightly scoped first version often takes a few months, including design, testing and app store review. Apps with many integrations, payments or compliance needs take longer. We agree the release plan in writing at the start, and you get installable test builds throughout, so there are no surprises at the end."
+    },
+    {
+      "q": "Do you build apps for Dallas startups?",
+      "a": "Yes, when the scope is clear. Our main clients are established companies, but we also build first versions for funded DFW founders. We keep the first release small, test it with real users early, and plan the backend so it can grow without a rebuild once the product finds its market."
+    },
+    {
+      "q": "How do you handle Texas privacy rules in an app?",
+      "a": "We collect only what the app needs, ask for consent before using sensitive data such as precise location, and build in-app requests to access or delete data, in line with the Texas Data Privacy and Security Act. We also check every third-party kit in the app. Your counsel confirms the legal position."
+    },
+    {
+      "q": "Do you meet Dallas clients in person?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and most of the build is reviewed through test builds on your phone. For user research with drivers, residents or staff at a Dallas site, we plan an on-site visit when the project needs it."
+    },
+    {
+      "q": "Who owns the code and the app store accounts?",
+      "a": "You do. Apps are published under your own Apple and Google developer accounts, and the code sits in a repository you own. If you later move support in-house or to another team, everything they need is already in your hands, along with our documentation."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/app-development",
+    "/locations/dallas/web-development",
+    "/locations/dallas/cloud-consulting",
+    "/locations/houston/app-development",
+    "/locations/austin/app-development"
+  ],
+  "keywords": {
+    "primary": "app development dallas",
+    "secondary": [
+      "app development company dallas",
+      "mobile app developers dallas",
+      "ios app development dallas",
+      "app developer dfw"
+    ]
+  }
+}

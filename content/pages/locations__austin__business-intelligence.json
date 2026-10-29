@@ -1,0 +1,137 @@
+{
+  "path": "/locations/austin/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence Consulting in Austin | 22 Signals",
+  "description": "Business intelligence consulting for Austin SaaS, hardware and healthcare companies: KPIs, pipelines and Power BI or Looker dashboards your leadership trusts.",
+  "eyebrow": "Business Intelligence and Data Analytics in Austin",
+  "h1": "Business intelligence consulting for Austin companies that have outgrown spreadsheets",
+  "intro": "Our business intelligence and data analytics consulting helps Austin companies agree on the numbers that matter, connect the systems that hold them, and build dashboards people open every week. We design KPIs, pipelines and reports in Power BI, Looker Studio or Tableau, then automate the reporting, working remotely from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "Three versions of the same number",
+      "p": [
+        "Ask a growing Austin company for its monthly revenue and you often get three answers: one from finance, one from the CRM and one from the product database. Each is defensible. None matches. The leadership meeting turns into a debate about whose spreadsheet is right, and the actual decision waits another week.",
+        "That is the problem to solve with business intelligence consulting. Austin teams usually have plenty of data. What they lack is agreed definitions, a single place where the data meets, and reporting that updates itself."
+      ]
+    },
+    {
+      "h": "What is included",
+      "list": [
+        "Data strategy and KPI design: which metrics drive the business, defined once and written down.",
+        "Data warehouse and pipelines that pull from your CRM, finance, product and operations systems.",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who will use them.",
+        "Automated reporting: weekly and monthly packs that send themselves.",
+        "Forecasting for revenue, demand or capacity, with the assumptions shown.",
+        "Data quality checks so a broken feed is caught before the board meeting."
+      ]
+    },
+    {
+      "h": "What Austin industries need from their data",
+      "p": [
+        "Good dashboards reflect the business they serve. Across Austin, the questions differ a lot by sector:"
+      ],
+      "list": [
+        "SaaS and software companies: recurring revenue, churn, expansion, cohort retention and sales pipeline, reconciled between billing and the CRM so investors and the board see one version.",
+        "Semiconductor and hardware suppliers: on-time delivery, yield and scrap, inventory turns and supplier performance, pulled from ERP and production systems that were never designed to talk to each other.",
+        "Consultancies and vendors serving Texas state agencies: contract burn, utilization, deliverable status and the reporting formats agencies ask for.",
+        "Healthcare and wellness groups: appointments, no-shows, provider utilization and revenue per location across sites in Austin, Round Rock and the wider metro.",
+        "Live music, events and hospitality: ticket sales pace, bar and merchandise revenue per show, and staffing costs around the festival season."
+      ]
+    },
+    {
+      "h": "Power BI, Looker Studio or Tableau?",
+      "p": [
+        "We are not tied to one tool. Power BI suits companies already on Microsoft 365 and Azure, which describes many Austin hardware and professional services firms. Looker Studio is a natural fit for teams living in Google Workspace and BigQuery, common among younger software companies. Tableau makes sense where it is already licensed and people know it. We recommend based on what you have, who will maintain it and the cost factors, not on what we prefer to build. Tool choice comes early in business intelligence consulting. Austin teams get a short written comparison before anything is licensed."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about the decisions your leadership struggles to make with current reports.",
+        "Plan: a KPI workshop, a systems inventory and a written design of the warehouse and dashboards.",
+        "Build: pipelines first, then a small set of dashboards, tested against numbers your finance team already trusts.",
+        "Grow: we add sources and reports in priority order, and train your team to answer their own questions."
+      ]
+    },
+    {
+      "h": "Data privacy in Texas",
+      "p": [
+        "A warehouse that combines customer, billing and product data is exactly the kind of system the Texas Data Privacy and Security Act cares about. We design access by role, keep sensitive data out of general dashboards, and document where personal data flows. For healthcare clients, patient information stays in systems built for it, and dashboards use the minimum detail needed."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and almost every engagement, whatever it started as, ends up needing reporting that people believe. That is why definitions come first in our data work: every KPI is written down, with its source and owner, before a single chart is built for an Austin client."
+      ]
+    },
+    {
+      "h": "Working with us from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. KPI workshops and dashboard reviews happen in your morning, which is our afternoon. Pipeline work and data testing often run while Austin is offline, so you start the day with an update.",
+        "Access to your systems is set up with named accounts and least privilege, and removed at the end of the engagement. If a workshop with finance and operations leaders would go better in person, we plan a visit for that stage."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": ["We do not publish prices, because no two scopes for business intelligence consulting look alike. Austin projects vary most on the points below, and you get a written scope covering each one before anything starts."],
+      "list": [
+        "Number of data sources, and whether they have clean APIs.",
+        "Data quality: how much cleaning and matching is needed.",
+        "Number of dashboards and audiences.",
+        "Warehouse choice and whether one already exists.",
+        "Security, row-level access and compliance requirements.",
+        "Training and ongoing support after launch."
+      ]
+    },
+    {
+      "h": "Why Austin companies choose 22 Signals for their data",
+      "p": [
+        "Because the reporting is only as good as the systems behind it. We also build the cloud infrastructure, the automations and the marketing tracking that feed your dashboards, so when a number looks wrong we can fix the source rather than patch the chart. One Signal Lead owns the outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a business intelligence project take for an Austin company?",
+      "a": "A focused first phase, with KPI definitions, a warehouse, two or three core sources and a leadership dashboard, usually takes six to ten weeks. Larger programs are phased so you see working dashboards early. The dates are agreed and written down in the planning stage, after we have seen your systems."
+    },
+    {
+      "q": "Do we need a data warehouse, or can dashboards connect directly?",
+      "a": "For one or two sources, direct connections can work. Once you are combining CRM, billing, product and finance data, a warehouse such as BigQuery, Snowflake or Azure is usually worth it, because it keeps logic in one place and dashboards fast. We recommend the simplest setup that will still hold up as you grow."
+    },
+    {
+      "q": "Can you work with our existing Power BI reports?",
+      "a": "Yes. Many Austin companies come to us with Power BI reports that grew organically and now disagree with each other. We review the data model, fix the definitions, rebuild what needs it and keep what works. Your team keeps ownership, and we document the model so it stays maintainable."
+    },
+    {
+      "q": "How do you handle sensitive data under Texas law?",
+      "a": "We follow the Texas Data Privacy and Security Act principles in the design: collect only what reporting needs, restrict access by role, keep sensitive categories out of general dashboards and record where personal data flows. We work with your counsel on specific legal questions, and for healthcare clients we keep patient data inside compliant systems."
+    },
+    {
+      "q": "Will our team be able to build their own reports afterwards?",
+      "a": "That is the goal. We build a clean, documented data model and train the people who will use it, so analysts and managers can build their own views without breaking anything. Self-service works when the definitions are fixed and the data is trusted, which is why we spend time on both first."
+    },
+    {
+      "q": "Do you meet Austin clients in person for workshops?",
+      "a": "Most workshops run well on video during the Central Time morning, and that is how we usually work with Austin clients. If a KPI workshop with several leaders would clearly benefit from being in the same room, we plan a visit for that stage when the project needs it. We do not have an Austin office."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/houston/business-intelligence",
+    "/locations/austin/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "business intelligence consulting austin",
+    "secondary": ["data analytics consulting austin", "power bi consultant austin", "austin bi consulting", "dashboard consulting austin tx"]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "path": "/locations/austin/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Austin, TX | 22 Signals",
+  "description": "Cloud consulting for Austin software, hardware and public sector vendors: AWS, Google Cloud and Azure architecture, security, cost reviews and managed ops.",
+  "eyebrow": "Cloud Consulting in Austin",
+  "h1": "Cloud consulting for Austin companies whose cloud bill grew faster than their revenue",
+  "intro": "Our cloud consulting helps Austin companies design, secure and run their infrastructure on AWS, Google Cloud or Azure. We review architecture and costs, tighten access control, set up monitoring and, if you want, run cloud operations for you. Built for software, hardware and public sector vendors, delivered remotely from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "How Austin cloud setups get messy",
+      "p": [
+        "Many Austin software companies started on startup credits. The architecture was whatever got the product shipped, and nobody looked closely at the bill because someone else was paying it. Then the credits ran out, the team doubled, and now there are three environments nobody fully understands, admin access shared in a chat thread, and a monthly invoice that makes the CFO wince.",
+        "Hardware companies arrive at the same place from the other direction. They have servers in a closet or a colocation rack, engineering files on a shared drive, and a growing list of customers who want security questionnaires answered. Both are where cloud consulting earns its keep. Austin companies in either position need the same discipline: know what you run, who can touch it and what it costs."
+      ]
+    },
+    {
+      "h": "What cloud consulting Austin teams get from us",
+      "list": [
+        "Architecture design and review on AWS, Google Cloud and Azure.",
+        "Security and access control: identity, roles, secrets, network boundaries and audit logs.",
+        "Monitoring and alerting so problems reach the right person before customers notice.",
+        "Cost reviews: rightsizing, reserved capacity, storage tiers and switching off what nobody uses.",
+        "Backup and disaster recovery, tested rather than assumed.",
+        "Managed cloud operations for companies that do not want to hire a full platform team yet."
+      ]
+    },
+    {
+      "h": "Selling to Texas state agencies? Plan for TX-RAMP",
+      "p": [
+        "Austin is home to the Texas Capitol and a large number of state agencies, and plenty of local software companies want them as customers. Cloud services sold to Texas state agencies generally need TX-RAMP certification, a program run by the Texas Department of Information Resources that sets security requirements for cloud vendors.",
+        "We design and document your architecture so the security controls TX-RAMP looks for are already in place: access management, logging, encryption, incident response and vendor management. We do not certify you ourselves, and we will tell you when you need an assessor. What we do is make sure the assessment finds a system that was built to pass."
+      ]
+    },
+    {
+      "h": "Cloud work by Austin industry",
+      "list": [
+        "Software and SaaS companies in the Domain and Downtown: multi-tenant architecture, separate production and test environments, deployment pipelines and cost controls that scale with customers.",
+        "Semiconductor and hardware firms: secure storage for engineering and test data, controlled access for contractors and suppliers, and moving older on-premises servers to the cloud without halting production.",
+        "Healthcare groups: hosting for patient-facing systems with HIPAA-aligned controls, logging and the agreements your providers require.",
+        "Media, music and event companies: handling sudden traffic for ticketing, streaming or festival-week launches without paying for peak capacity all year."
+      ]
+    },
+    {
+      "h": "Texas privacy and security duties",
+      "p": [
+        "The Texas Data Privacy and Security Act requires reasonable data security practices for the personal data you hold. In cloud terms that means knowing where personal data lives, encrypting it, limiting who can reach it and keeping records of access. We build those controls into the architecture and write them down, which also makes customer security reviews much faster to answer."
+      ]
+    },
+    {
+      "h": "How it runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about your current setup, the pain points and any compliance deadlines.",
+        "Plan: a review of your accounts, architecture, access and costs, ending in a written report with priorities.",
+        "Build: fixes in order of risk and savings, made in test first and rolled out with a rollback plan.",
+        "Grow: ongoing monitoring, monthly cost checks and managed operations if you want them."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have managed more than $1.5 million in projects, and cloud is often the layer everything else depends on. Our work includes security clean-ups of compromised law-firm websites. Jobs like that follow a clear order: contain the problem, fix it, then monitor so it does not return. The same order applies to cloud consulting. Austin clients get a written record of what was found and changed, not just a fixed server."
+      ]
+    },
+    {
+      "h": "Working with us from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Being six hours ahead is useful for cloud work: risky changes can be scheduled for early Austin morning, before your users are busy, with our team already online and your engineers joining as they start the day.",
+        "Access is granted through named accounts with the minimum permissions needed and removed when work ends. If an on-premises review is needed at a site in Austin or Round Rock, we plan a visit for that stage when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many cloud accounts, environments and services you run.",
+        "Whether you are on one provider or several.",
+        "Compliance targets such as TX-RAMP, HIPAA or customer security reviews.",
+        "How much remediation the review uncovers.",
+        "Whether you want ongoing managed operations or a one-off project."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We are not tied to one cloud provider, so we recommend what fits rather than what earns us a partner rebate. And because we also build data platforms, AI tools and websites, we understand the workloads running on your cloud, not just the infrastructure under them. That combination is the point of our cloud consulting. Austin teams get one Signal Lead who owns the plan from review to running system."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you provide cloud consulting to Austin companies on site?",
+      "a": "We work remotely from London with hours that overlap Central Time, and nearly all cloud work is done through secure remote access anyway. When a project includes physical servers or a workshop that benefits from being in the room, we plan a visit to Austin for that stage. We do not have an Austin office or local staff."
+    },
+    {
+      "q": "Can you help us get TX-RAMP certified?",
+      "a": "We help you get ready. That means designing and documenting the security controls the Texas Department of Information Resources program expects, fixing the gaps and preparing the evidence. Certification itself is decided through the official process, sometimes with a third-party assessment, so we will tell you plainly which parts need an assessor."
+    },
+    {
+      "q": "AWS, Google Cloud or Azure: which is right for us?",
+      "a": "It depends on what you already use and who will run it. Teams deep in Microsoft 365 often do well on Azure, data-heavy teams on Google Cloud may like BigQuery, and AWS has the widest range of services. Moving providers is expensive, so we usually recommend improving where you are unless there is a strong reason to switch."
+    },
+    {
+      "q": "How much can a cloud cost review save?",
+      "a": "We will not quote a percentage before we see your accounts, because it varies too much. Savings usually come from idle resources, oversized instances, unmanaged storage, missing reserved capacity and test environments running all weekend. The review report lists each finding with its estimated monthly effect, so you can decide what to act on."
+    },
+    {
+      "q": "Do you offer managed cloud operations after the project?",
+      "a": "Yes. Many Austin companies are not ready to hire a full platform team, so we run monitoring, patching, backups, cost checks and incident response for them under an agreed scope. Response times and responsibilities are written into the agreement. When you do hire internally, we hand over documentation and help the new team take ownership."
+    },
+    {
+      "q": "How do you protect our systems while you have access?",
+      "a": "We use named accounts, multi-factor authentication and least-privilege roles, and every change is logged. Production changes follow a written change plan with a rollback step. When the engagement ends, our access is removed and you get a record of what was changed and why."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/dallas/cloud-consulting",
+    "/locations/austin/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting austin",
+    "secondary": ["cloud consultant austin", "aws consulting austin", "azure consulting austin tx", "tx-ramp cloud consulting"]
+  }
+}

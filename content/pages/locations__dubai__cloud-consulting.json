@@ -1,0 +1,140 @@
+{
+  "path": "/locations/dubai/cloud-consulting",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Dubai and the UAE | 22 Signals",
+  "description": "Cloud consulting for Dubai companies: AWS and Azure in UAE regions, data residency under the PDPL, security, cost reviews and managed operations.",
+  "eyebrow": "Cloud Consulting in Dubai",
+  "h1": "Cloud consulting for Dubai companies that need data kept close",
+  "intro": "We design, secure and run cloud infrastructure for established Dubai companies on AWS, Microsoft Azure and Google Cloud. Where data residency matters, we build in the UAE regions AWS and Azure operate in the country, keep access tight, cut wasted spend and stay on hand to run the environment once it is live.",
+  "sections": [
+    {
+      "h": "When the server room stops making sense",
+      "p": [
+        "Plenty of Dubai companies still run their ERP on a server in a back room in Al Quoz or on a rack in a local data centre, with one IT manager who knows the passwords. It works until it does not: a failed disk during a month-end close, a ransomware email, or a sales spike during the Dubai Shopping Festival that takes the online store down.",
+        "Others moved to the cloud years ago and now get a monthly bill nobody can explain. Both situations call for the same thing: a clear architecture, sensible security and someone accountable for running it."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "p": [
+        "The cloud consulting Dubai companies buy from us usually starts with an audit of what is running today and ends with an environment we can hand over or keep running for you. Along the way it covers:"
+      ],
+      "list": [
+        "Architecture on AWS, Azure or Google Cloud, sized for your real load and growth plans.",
+        "Data residency planning, including when to use a UAE cloud region and when another region is fine.",
+        "Security and access control: identity, least-privilege roles, encryption, backups you have actually tested.",
+        "Monitoring and alerting, so problems reach the right person before customers notice.",
+        "Cost reviews that find idle resources, oversized machines and missed savings plans.",
+        "Managed cloud operations after launch, with clear response times agreed in writing."
+      ]
+    },
+    {
+      "h": "UAE cloud regions and data residency",
+      "p": [
+        "AWS runs a Middle East (UAE) region, and Microsoft Azure runs UAE North in Dubai and UAE Central in Abu Dhabi. Oracle also operates cloud regions in the country. That means most Dubai workloads can keep data inside the UAE if they need to.",
+        "Whether they need to depends on your sector and contracts. The UAE PDPL, Federal Decree-Law No. 45 of 2021, sets rules on transferring personal data abroad. DIFC firms follow the DIFC Data Protection Law and its own transfer rules. Health data has a separate federal law that, in most cases, requires it to be stored inside the country. Government and semi-government clients often write residency into the tender. We map these requirements first, then choose regions, and we document the choice so your auditors can follow it."
+      ]
+    },
+    {
+      "h": "Cloud solutions Dubai sectors rely on",
+      "list": [
+        "Real estate developers: sales and customer portals that stay up on launch day, when thousands of buyers try to reserve units at once.",
+        "Hospitality groups: property systems, guest Wi-Fi platforms and booking engines connected securely across several hotels.",
+        "Retail and e-commerce: stores that scale for White Friday, Ramadan and festival traffic, then scale back down so you stop paying for idle capacity.",
+        "Logistics and trade around Jebel Ali: tracking and warehouse systems with reliable integrations to carriers and customs platforms.",
+        "Fintech and DIFC firms: environments built with audit trails, segregation and access reviews that regulators expect.",
+        "Clinics: patient systems hosted in-country with backups and access logs."
+      ]
+    },
+    {
+      "h": "How a cloud project runs",
+      "list": [
+        "Talk: we look at what you run today, what it costs and what keeps your IT lead up at night.",
+        "Plan: an architecture, a residency decision, a security baseline and a cost estimate, agreed in writing.",
+        "Build: we set up accounts, networks, identity and monitoring, then move or deploy the workloads with tested rollback.",
+        "Grow: monthly cost and security reviews, and changes as the business adds sites, systems or markets."
+      ]
+    },
+    {
+      "h": "Proof that we hold a date",
+      "p": [
+        "We have run and broadcast more than 20 large-scale live events. The lesson from live work carries straight into cloud: the date does not move. Property launches and festival sales are the Dubai equivalent, and we plan capacity and cutovers around them, not around our convenience."
+      ]
+    },
+    {
+      "h": "Remote cloud delivery for Dubai",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. Cloud work is mostly remote by nature, and Gulf Standard Time being four hours ahead of London in winter, three in summer, means planned changes can run early in the Dubai morning or after close of business with our engineers awake and alert.",
+        "When a project involves physical hardware, such as decommissioning servers in a Dubai data centre or wiring a branch network, we either plan a site visit or coordinate with your local facilities provider, and we say which at the scoping stage."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "Number and size of workloads, and whether they are being migrated or built new.",
+        "Residency requirements and which regions are needed.",
+        "Security and compliance level, such as audit logging for DIFC or health data rules.",
+        "Whether you want managed operations after launch, and the response times you need.",
+        "Your own cloud bill, which we aim to reduce where we can."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud consulting in Dubai",
+      "p": [
+        "Good cloud consulting, Dubai market or any other, should leave you with infrastructure your team understands and a bill that makes sense. We add something most cloud partners cannot: the same team builds the apps, data platforms and AI tools that run on top. Related services include cloud migration, DevOps consulting and data engineering."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud regions are available in the UAE?",
+      "a": "AWS operates a Middle East (UAE) region, Microsoft Azure runs UAE North in Dubai and UAE Central in Abu Dhabi, and Oracle runs regions in both cities. Google Cloud's nearest regions are elsewhere in the Gulf. We choose based on your residency needs, the services you require and your existing contracts."
+    },
+    {
+      "q": "Does the UAE PDPL require us to keep data in the UAE?",
+      "a": "Not always. The PDPL controls transfers of personal data abroad rather than banning them outright, while sector rules such as those for health data are stricter. DIFC firms follow their own regime. We map which rules apply to each system and recommend regions on that basis, and your legal adviser confirms the position."
+    },
+    {
+      "q": "What do cloud solutions Dubai businesses buy usually include?",
+      "a": "Most include hosting for core systems such as ERP and CRM, a secure network linking branches, backups, monitoring and identity management. Larger groups add data platforms and customer portals. We size each part to your load and keep the design simple enough that your own IT staff can follow it."
+    },
+    {
+      "q": "Can you reduce our current cloud bill?",
+      "a": "Often, yes. Cost reviews usually find idle machines, oversized databases, forgotten test environments and missed commitment discounts. We list each saving with the effort and risk involved, make the safe changes first and report the result monthly. We do not promise a figure before we have seen your account."
+    },
+    {
+      "q": "Do you provide on-site support in Dubai?",
+      "a": "Support for our cloud consulting Dubai clients is remote, with hours that overlap Gulf Standard Time on every UAE working day. For hardware tasks we plan a visit or work with your facilities provider, and we agree which approach applies before the project starts. We do not have staff based in Dubai and will not suggest otherwise."
+    },
+    {
+      "q": "How do you handle a migration without downtime?",
+      "a": "We plan the cutover for a low-traffic window, often early in the Dubai morning or on a weekend, test the new environment with real data first and keep a rollback ready. Most migrations need only a short pause rather than a full outage. The plan and dates are agreed in writing beforehand."
+    },
+    {
+      "q": "When is the right time to bring in a cloud consultant?",
+      "a": "Before a big change rather than after it. Our view on cloud consulting: Dubai companies get the most value when they bring us in ahead of an ERP upgrade, a new branch, a property launch or a tender with residency clauses, because the architecture can be shaped around the change instead of patched afterwards."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/dubai/business-intelligence",
+    "/locations/abu-dhabi/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting dubai",
+    "secondary": [
+      "cloud solutions dubai",
+      "cloud service provider in dubai",
+      "cloud services uae",
+      "uae data residency"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "path": "/locations/dallas/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Dallas, TX | 22 Signals",
+  "description": "Web development for Dallas law firms, practices, real estate and retail brands: fast sites, redesigns that keep rankings, client portals and stores.",
+  "eyebrow": "Web Development in Dallas",
+  "h1": "Web development for Dallas companies that need the site to earn its keep",
+  "intro": "We design and build websites, portals and online stores for established Dallas companies. That covers redesigns, migrations that keep your Google rankings, content management, e-commerce, client portals and ongoing care and security. Law firms, medical practices, property firms and retail brands across Dallas-Fort Worth use us when the site has to bring in business, not just look current.",
+  "sections": [
+    {
+      "h": "Why so many Dallas websites underperform",
+      "p": [
+        "A lot of Dallas company websites were built for a different business. The firm has added practice areas, opened a Frisco office, been acquired, or moved its head office to Plano, and the site still reflects the old version. It loads slowly on a phone, the forms go to an inbox nobody checks, and every change needs a developer who has moved on.",
+        "The web development Dallas buyers come to us for is usually a fix for that gap. We rebuild around what the business sells now, who searches for it, and what a visitor needs to do next, then make the site easy for your own team to update."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "New websites and full redesigns, written and designed around your buyers.",
+        "Migrations from old platforms that keep your URLs, redirects and rankings intact.",
+        "Content management on WordPress or a headless setup, so your team can edit pages safely.",
+        "E-commerce stores with payments, shipping rules and product data feeds.",
+        "Client portals with logins, document sharing and online payments.",
+        "Website care and security: updates, backups, uptime checks and malware clean-ups."
+      ]
+    },
+    {
+      "h": "Built for how DFW buyers search",
+      "p": [
+        "Dallas-Fort Worth is spread out. A buyer in McKinney searches differently from one in Arlington, and a firm with offices in Downtown and Southlake needs pages that reflect both. We plan site structure around real search demand: service pages, location pages for the areas you actually serve, and answer-first content that Google and AI assistants can quote.",
+        "DFW is also bilingual for many businesses. For healthcare, legal and home services clients we often plan Spanish-language pages as part of the build, written properly rather than machine-translated and left alone."
+      ]
+    },
+    {
+      "h": "Dallas industries and what their sites need",
+      "list": [
+        "Law firms in Downtown and Uptown: practice area pages that are accurate, intake forms that reach the right person fast, and secure client portals for documents and payments.",
+        "Healthcare and aesthetics practices across the Park Cities, Plano and Southlake: online booking, treatment pages that stay within medical advertising rules, and forms that do not expose patient data.",
+        "Commercial and residential real estate: property listings, availability, floor plans and investor pages, often fed from a property management system.",
+        "Retail and consumer brands headquartered in Plano and Dallas: e-commerce, product pages that load quickly, and integration with inventory and marketing tools.",
+        "Financial and professional services: clear, credible sites with strong security and compliance review built into publishing."
+      ]
+    },
+    {
+      "h": "Our process",
+      "p": [
+        "Talk: a short call about what the site needs to achieve. Plan: we audit the current site, its rankings and its analytics, then write a sitemap, page plan and scope with launch dates. Build: we design, write and develop in stages you review, with a staging site you can click through before anything goes live. Grow: after launch we monitor rankings and speed, fix issues, and keep improving pages based on what visitors actually do.",
+        "For migrations we map every old URL to its new home before launch, and check rankings daily for the first weeks after."
+      ]
+    },
+    {
+      "h": "Privacy, accessibility and Texas law",
+      "p": [
+        "Websites are where most Texas privacy obligations show up first. The Texas Data Privacy and Security Act requires a clear privacy notice and a way for visitors to opt out of targeted advertising and the sale of their data, and since 2025 covered businesses must honor browser-level opt-out signals. We build cookie and consent handling that matches what your tracking actually does.",
+        "We also build to accessibility standards (WCAG), so people using screen readers or keyboards can use your site, which matters for every Dallas business serving the public."
+      ]
+    },
+    {
+      "h": "Example of the work",
+      "p": [
+        "We built a client portal with documents and payments for a US law firm, so clients could upload files, see case updates and pay without email chains. We have also cleaned up compromised law-firm websites, removing malicious code, closing the holes that let it in and putting proper care and monitoring in place afterwards."
+      ]
+    },
+    {
+      "h": "Working with a London team on a Dallas site",
+      "p": [
+        "We handle Dallas web projects remotely from London, with meeting hours that overlap Central Time. Dallas is six hours behind, so design reviews and content calls happen in your morning, and changes you request often appear on the staging site before your next working day starts. Launches are scheduled for low-traffic hours in Dallas, with our team watching.",
+        "If a kickoff workshop or a photo day at your Dallas location would help, we plan that visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What sets the cost, and why us",
+      "p": [
+        "We price each site after scoping, and the main factors are the number of pages and templates, how much content we write, integrations such as booking, CRM or payments, e-commerce catalog size, migration complexity and ongoing care. Because the same team also runs SEO and GEO, paid media and video, the web development Dallas clients get from us is built for the marketing that comes after launch. Related services: SEO and GEO, app development, and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "Not if the migration is planned properly. We crawl the old site, map every URL to its new address with redirects, keep the content that ranks, and check rankings daily after launch. Most problems we see come from redesigns that skipped this step, and we fix those too."
+    },
+    {
+      "q": "Do you build websites for Dallas law firms?",
+      "a": "Yes. We build practice area pages, attorney profiles, fast intake forms and secure client portals with documents and payments. Every statute and claim on a page is checked, and content is reviewed with the firm before it goes live, so the site stays accurate and within advertising rules."
+    },
+    {
+      "q": "How long does a website project usually take?",
+      "a": "A focused site for a practice or professional firm often takes a couple of months from kickoff to launch. Larger builds with e-commerce, portals or a big migration take longer. The biggest variable is usually content and approvals on the client side, so we agree review dates up front and your Signal Lead puts the launch date in writing."
+    },
+    {
+      "q": "Can you add Spanish-language pages for our DFW customers?",
+      "a": "Yes. For many Dallas-Fort Worth businesses, especially in healthcare, legal and home services, Spanish pages bring in real inquiries. We plan them as part of the site structure, write them properly, and set them up so Google shows the right language version to each searcher."
+    },
+    {
+      "q": "How does the Texas Data Privacy and Security Act affect our website?",
+      "a": "If the law applies to your business, your site needs a clear privacy notice, a way to opt out of targeted ads and data sales, and handling for browser opt-out signals. We build consent and tracking to match what your site really collects. Your counsel confirms whether and how the law applies to you."
+    },
+    {
+      "q": "Do you meet Dallas clients in person during a build?",
+      "a": "Most builds run remotely from London with meeting hours that overlap Central Time, using a shared staging site for reviews. If a workshop, a content interview or a photo session at your Dallas office would help the project, we plan that visit when the project needs it."
+    },
+    {
+      "q": "Who looks after the site after launch?",
+      "a": "We do, if you want us to. Website care covers updates, backups, uptime and security monitoring, small content changes and monthly checks on speed and rankings. If you prefer to manage it yourself, we train your team and hand over full access and documentation."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/web-app-development",
+    "/locations/dallas/seo-geo",
+    "/locations/dallas/app-development",
+    "/locations/houston/web-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development dallas",
+    "secondary": [
+      "web development company dallas",
+      "website design dallas",
+      "dallas web developer",
+      "website redesign dallas"
+    ]
+  }
+}

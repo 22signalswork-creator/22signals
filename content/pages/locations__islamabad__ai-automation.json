@@ -1,0 +1,144 @@
+{
+  "region": "pk",
+  "city": "Islamabad",
+  "citySlug": "islamabad",
+  "path": "/locations/islamabad/ai-automation",
+  "kind": "location-service",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Islamabad | Workflow Automation | 22 Signals",
+  "description": "AI automation for Islamabad teams: WhatsApp, email, CRM and spreadsheet work handled by systems, with a named person taking over the exceptions.",
+  "eyebrow": "AI Automation in Islamabad",
+  "h1": "AI automation for Islamabad teams buried in admin",
+  "intro": "AI automation from 22 Signals takes repetitive work off Islamabad desks: enquiries copied from WhatsApp, field data retyped into donor templates, approvals chased by email. We connect your email, CRM and spreadsheets, add AI where it reads or drafts well, and hand anything unusual to a named person. You get hours back without losing control.",
+  "sections": [
+    {
+      "h": "The admin that fills an Islamabad working week",
+      "p": [
+        "Walk into almost any office in Blue Area or the F-sectors and the same work is happening by hand. Someone copies enquiries from WhatsApp into a spreadsheet. Someone else retypes survey results into a donor template. A third person chases approvals by email, prints the reply and files it. None of it needs judgement, and all of it delays the work that does.",
+        "AI automation takes those steps off people's desks. It reads incoming messages and forms, pulls out the details, updates your CRM or sheet, drafts the reply and passes anything unusual to the right person. The aim is fewer hours spent copying and chasing, with a human still deciding anything that matters."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Custom AI tools built for one job, such as reading application forms or classifying complaints",
+        "Workflow automation across email, CRM, Google Sheets and Excel, so data is entered once",
+        "Internal tools and dashboards for Islamabad teams that have outgrown shared spreadsheets",
+        "Research and reporting systems that gather sources and draft the weekly or monthly report",
+        "AI assistants on your website and WhatsApp that answer routine questions and hand off to a person"
+      ]
+    },
+    {
+      "h": "AI automation Islamabad examples by sector",
+      "p": [
+        "These are the kinds of workflows that come up most often when we talk to organisations in the capital and its twin city:"
+      ],
+      "list": [
+        "Development programmes: field data from mobile survey tools flows into monthly donor templates, with gaps flagged before the deadline rather than after it",
+        "Property developers and agencies around Gulberg Greens and the Expressway: enquiries from portals, Facebook and WhatsApp land in one list, get a first reply in English or Urdu, and reach an agent with budget and plot size already noted",
+        "Universities and colleges: admission-season questions about merit lists, fee deadlines and documents answered from your own prospectus, with staff handling appeals",
+        "Clinics and diagnostic centres: appointment requests sorted, reminders sent and reports routed to the right doctor",
+        "IT and software exporters: timesheets, client status reports and invoice drafts assembled from the tools your developers already use",
+        "Telecom dealers and franchise networks: stock queries, activation issues and complaint tickets sorted before a person picks them up"
+      ]
+    },
+    {
+      "h": "WhatsApp is part of the system, not an afterthought",
+      "p": [
+        "In Islamabad, as in the rest of Pakistan, customers and partners message before they email. Plenty of businesses run sales and support from one phone with a personal WhatsApp account, which breaks the day that person goes on leave. For most AI automation, Islamabad customers' WhatsApp messages are the natural starting point. We move this onto the WhatsApp Business API, connect it to your customer records and set clear rules for when the AI answers and when a person takes over.",
+        "Broadcast messages stay inside WhatsApp's policy, with opt-in recorded, so your number is not blocked in the middle of an admissions drive or a project launch."
+      ]
+    },
+    {
+      "h": "How an automation project runs",
+      "p": [
+        "Talk comes first. Before any AI automation, Islamabad teams tell us which task they would most like to stop doing and how often it happens. Plan maps that task step by step, including the exceptions people handle without thinking, and fixes the dates in writing. Build connects the tools, tests on a copy of real data and runs the automation alongside the manual process until the results match. Grow adds the next workflow once the first has earned trust.",
+        "A Signal Lead is accountable for the whole thing, so you have one person to call when a rule needs changing, rather than a different contractor for every connected tool."
+      ]
+    },
+    {
+      "h": "Proof: we automate our own sales",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself, from finding prospects to logging replies in the CRM. Running our own pipeline on the kind of systems we build for clients means we have already met the problems a client will meet, from messages landing in spam to duplicate records in the CRM, and fixed them on our own time."
+      ]
+    },
+    {
+      "h": "Data, consent and PECA 2016",
+      "p": [
+        "Automations touch personal data constantly: phone numbers, national identity card numbers on forms, patient names, student records. Pakistan's Prevention of Electronic Crimes Act 2016 makes unauthorised access to data and information systems an offence, so every connection we set up has a named owner and only the access it needs, and every action is logged.",
+        "The Personal Data Protection Bill is still in draft. We build as though consent and retention rules will apply: consent recorded where it is collected, and data kept only as long as the workflow needs it."
+      ]
+    },
+    {
+      "h": "Working with us from Islamabad and Rawalpindi",
+      "p": [
+        "Our head office is in London and we work with Islamabad organisations remotely. With PKT four or five hours ahead of London, a 09:30 London check-in is 14:30 in Islamabad in winter and 13:30 in summer, which leaves your morning clear for your own staff. Build progress goes into a shared tracker and a short weekly note; anything urgent goes to WhatsApp.",
+        "Some processes only make sense once you watch them happen. When that is true, we arrange a visit when the project needs it and agree the dates beforehand."
+      ]
+    },
+    {
+      "h": "What sets the cost of automation",
+      "p": [
+        "Our prices are not published, because they follow the work. These are the factors that move it:"
+      ],
+      "list": [
+        "How many workflows you want automated, and in what order",
+        "How many systems need connecting, and whether they have usable APIs",
+        "The volume of messages, forms or documents each month",
+        "Whether replies must be drafted in Urdu, Roman Urdu and English",
+        "How many approval steps and hand-off rules the process needs",
+        "Whether you want us to run and adjust the automations after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Most suppliers you find when you search for AI automation Islamabad stop at the workflow. We also build the websites, ads and videos that feed it, so an enquiry automation can be planned together with the campaign that fills it. If you are still choosing where to start, read about AI consulting for Islamabad organisations, our WhatsApp automation work, or business intelligence for the reporting that automation makes possible."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you automate a process that still uses Excel and paper forms?",
+      "a": "Yes, and many of the best candidates look exactly like that. Paper forms can be scanned or photographed and read by AI, then checked by a person before the data goes anywhere important. Excel files can stay in use while we connect them to a CRM or database, so your team changes habits gradually instead of all at once."
+    },
+    {
+      "q": "Will the AI reply to customers in Urdu?",
+      "a": "It can reply in Urdu script, Roman Urdu or English, usually matching the language the customer wrote in. We set the tone with you and test it on real past messages first. For sensitive topics, such as complaints, refunds or medical questions, the AI drafts and a person approves before anything is sent."
+    },
+    {
+      "q": "Which tools can you connect?",
+      "a": "Most common business tools: Google Workspace, Microsoft 365, WhatsApp Business API, HubSpot, Zoho and other customer systems, accounting software, survey tools and many industry systems. If a system has an API we can usually connect it. If it does not, we look at exports, email parsing or replacing that one step."
+    },
+    {
+      "q": "Do you work with Rawalpindi businesses as well?",
+      "a": "Yes. Islamabad and Rawalpindi work as one market for most of our clients, with staff and customers moving between the two every day. An automation does not care which side of the Faizabad Interchange your office sits on; the only differences are which sales areas and branches your rules need to recognise."
+    },
+    {
+      "q": "What happens when the automation gets something wrong?",
+      "a": "It is designed to fail safely. Anything the system is unsure about goes to a named person instead of being guessed. Every action is logged, so mistakes can be traced and the rule fixed. In the first weeks we review a sample of outputs with your team and tighten the rules before widening what the automation handles alone."
+    },
+    {
+      "q": "Do you meet clients in Islamabad?",
+      "a": "Our meetings are mostly video calls, scheduled for the Islamabad afternoon so they suit both London and PKT. When watching a process in person would genuinely help, we arrange a visit when the project needs it. We do not have an office in Islamabad, and we will not pretend otherwise."
+    }
+  ],
+  "related": [
+    "/locations/islamabad",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/islamabad/ai-consulting",
+    "/locations/lahore/ai-automation",
+    "/locations/karachi/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation islamabad",
+    "secondary": [
+      "workflow automation islamabad",
+      "business automation pakistan",
+      "whatsapp automation islamabad",
+      "ai automation agency islamabad"
+    ]
+  }
+}

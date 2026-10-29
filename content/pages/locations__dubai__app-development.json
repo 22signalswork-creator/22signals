@@ -1,0 +1,138 @@
+{
+  "path": "/locations/dubai/app-development",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company for Dubai Firms | 22 Signals",
+  "description": "iOS, Android and web apps for Dubai companies: loyalty, booking, owner portals and field apps, with Arabic support, local payments and app store launch.",
+  "eyebrow": "App Development in Dubai",
+  "h1": "An app development company for Dubai businesses with a real job for the app",
+  "intro": "We build iOS, Android and web apps for established Dubai companies: loyalty and ordering apps for retail and F&B, owner and tenant portals for property, booking apps for clinics and field apps for service teams. We handle design, payments, APIs, Arabic support and app store launch, then support the app once customers are using it.",
+  "sections": [
+    {
+      "h": "Most apps in Dubai do not need to exist. Yours might.",
+      "p": [
+        "Dubai residents already carry a phone full of apps for rides, food, banking and shopping. Getting a place on that home screen is hard, and an app that only repeats your website gets deleted within a week. So before we quote, we ask the question any serious app development company Dubai firms hire should ask first: what will people do in this app that they cannot do faster on WhatsApp or the web?",
+        "Good answers include earning and spending loyalty points at every visit, managing a property after handover, booking and paying for a repeat treatment, or a technician closing jobs on site without a laptop. If the honest answer is weaker, we will usually suggest a better website or a WhatsApp flow instead, and save you the budget."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Native and cross-platform iOS and Android apps.",
+        "Web apps and SaaS products, including dashboards and customer portals.",
+        "MVPs for new products, scoped to test one idea properly.",
+        "Payments: cards, Apple Pay, Google Pay and local gateways, plus subscriptions where needed.",
+        "APIs and integrations with your ERP, CRM, POS or property management system.",
+        "App store launch, store listings in English and Arabic, and review handling.",
+        "Ongoing support, updates for new iOS and Android versions, and monitoring."
+      ]
+    },
+    {
+      "h": "Apps Dubai sectors ask us for",
+      "list": [
+        "Real estate: owner portals for service charges, handover snagging, maintenance requests and community notices, and broker apps that show live inventory during a launch.",
+        "Facilities management: job dispatch, photo evidence, checklists and customer sign-off for maintenance teams covering buildings across the city.",
+        "Hospitality and F&B: ordering, table booking and loyalty for restaurant groups with outlets from Dubai Marina to Downtown.",
+        "Retail and beauty: loyalty, appointment booking and personalised offers that work across mall branches and online.",
+        "Clinics and wellness: patient booking, reminders, packages and payments, with clinical records kept in the clinic's own system.",
+        "Logistics: driver and delivery apps with proof of delivery and live status for customers."
+      ]
+    },
+    {
+      "h": "UAE details that change the build",
+      "p": [
+        "Some features matter far more here than in London or New York. Right-to-left layouts for Arabic users need to be designed in from the start, not patched on. UAE PASS, the national digital identity, can be used for sign-in or document signing where your organisation and use case qualify for integration. Customers expect Apple Pay and, for retail, often a buy now, pay later option at checkout.",
+        "Data rules apply as well. The UAE PDPL covers personal data held by onshore companies, DIFC firms follow the DIFC Data Protection Law, and health apps face federal rules on storing patient data in the country. We plan the backend, often in a UAE cloud region, with those rules in mind."
+      ]
+    },
+    {
+      "h": "How an app project runs",
+      "list": [
+        "Talk: who will use the app, what they do in it and how it pays for itself.",
+        "Plan: user flows, a feature list split into launch and later, the tech choice and a written timeline.",
+        "Build: design, development and testing on real devices, with a test build in your hands early.",
+        "Grow: launch, store listings, analytics and a backlog of improvements based on what users actually do."
+      ]
+    },
+    {
+      "h": "Proof from our builds",
+      "p": [
+        "We built a client portal with documents and payments for a US law firm, where clients log in, see their case files, sign and pay without phoning the office. Owner portals for Dubai developers follow the same pattern: secure accounts, documents, payments and notifications in one place."
+      ]
+    },
+    {
+      "h": "Building your app from London",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. App projects run on short cycles: you test a new build every week or two and give feedback in shared tools, so distance matters less than responsiveness. Gulf Standard Time is four hours ahead of London in winter and three in summer, which keeps reviews inside both working days. If user testing with your customers in Dubai would sharpen the design, we plan a visit for it."
+      ]
+    },
+    {
+      "h": "What drives the cost of an app",
+      "list": [
+        "Platforms: iOS, Android, web, or all three.",
+        "Number of screens and user types, such as customer, staff and admin.",
+        "Integrations with existing systems and payment providers.",
+        "Arabic and right-to-left support across the app and the store listing.",
+        "Security and data residency requirements for the backend.",
+        "Support and update plan after launch."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals for your app",
+      "p": [
+        "Dubai buyers comparing app partners tell us the same thing: the app is only half the job. Someone has to get people to download it and keep using it. We build the app and also run the launch campaign, the app store pages, the website and the video, under one accountable lead. Related services include web development, AI automation and paid media."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an app development company in Dubai typically build?",
+      "a": "Usually customer apps for loyalty, booking or ordering, staff apps for field teams, and portals for owners, tenants or clients. As an app development company Dubai firms hire for these, we cover design, development, payments, integrations, Arabic support and app store launch, then keep the app updated afterwards."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "For most business apps, cross-platform frameworks give one codebase for iOS and Android and save time. Native builds make sense for heavy device features, complex animation or very high performance needs. We recommend one or the other in the plan and explain the trade-off, including cost of future updates."
+    },
+    {
+      "q": "Can the app support Arabic and right-to-left layouts?",
+      "a": "Yes. We design both directions from the start, test every screen in English and Arabic, and prepare store listings in both. Arabic copy comes from you or a translator you approve, because we do not claim in-house Arabic copywriters. We make sure it displays correctly and reads naturally in the layout."
+    },
+    {
+      "q": "Can you integrate UAE PASS?",
+      "a": "UAE PASS integration is available to organisations that qualify through the official onboarding process. If your use case qualifies, we can build UAE PASS sign-in or signing into the app. If it does not, we offer secure alternatives such as phone number verification with one-time passcodes."
+    },
+    {
+      "q": "Do you work with Dubai companies in person?",
+      "a": "Most app work runs remotely from London, with test builds, video reviews and meeting hours that overlap Gulf Standard Time. When workshops or user testing in Dubai would genuinely help, we plan a visit and include it in the written scope from day one."
+    },
+    {
+      "q": "How long does it take to build an app?",
+      "a": "Timelines from any app development company Dubai businesses compare depend mostly on scope. A focused first version with one user type and a few integrations often takes a few months; apps with several user types, payments and Arabic support take longer. We split features into launch and later, and every date goes in writing."
+    },
+    {
+      "q": "What happens after the app launches?",
+      "a": "We monitor crashes and usage, release updates for new iOS and Android versions, fix issues and work through a backlog of improvements based on real behaviour. You agree the support level and response times at the start, and those terms go in writing so there are no surprises later."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/app-development",
+    "/locations/dubai/web-development",
+    "/locations/dubai/ai-automation",
+    "/locations/abu-dhabi/app-development",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "app development company dubai",
+    "secondary": [
+      "mobile app development dubai",
+      "mobile app development company in dubai",
+      "web app development dubai",
+      "ios app development company dubai"
+    ]
+  }
+}

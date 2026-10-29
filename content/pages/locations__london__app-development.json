@@ -1,0 +1,157 @@
+{
+  "path": "/locations/london/app-development",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Company London: iOS, Android | 22 Signals",
+  "description": "App development company London businesses meet in person: iOS, Android and web apps, MVPs and SaaS products, built for UK GDPR and app store launch.",
+  "eyebrow": "App Development in London",
+  "h1": "App development company London businesses can sit down with",
+  "intro": "22 Signals is an app development company. London is our head office. We design, build and launch iOS and Android apps, web apps and SaaS products for established companies and funded founders in fintech, health, retail, property and media. You get one accountable lead, a written scope with dates, and an app built for UK privacy rules and app store approval.",
+  "sections": [
+    {
+      "h": "Why app projects go over budget",
+      "p": [
+        "Apps rarely fail because the code is bad. They fail because nobody decided what the first version must do, so the scope grows every week. Or the design was signed off without testing it on real users. Or the app launched, then nobody planned for app store updates, crash reports and the next operating system release.",
+        "The London market makes this worse in one way: there are plenty of agencies that will build exactly what you ask for. A good app development company London founders and product owners can rely on should push back, cut the first release to what users need, and plan the six months after launch as carefully as the build."
+      ]
+    },
+    {
+      "h": "What we build and ship",
+      "list": [
+        "Native and cross-platform apps for iOS and Android, usually in React Native or Flutter, native Swift or Kotlin when the app needs it",
+        "Web apps and SaaS products with accounts, roles, billing and admin panels",
+        "MVPs that test one clear idea with real users before you fund the full product",
+        "Payments with Stripe, Apple Pay and Google Pay, including Strong Customer Authentication",
+        "APIs and integrations with your CRM, booking, stock or banking systems",
+        "App Store and Google Play submission, store listings and review responses",
+        "Support after launch: crash monitoring, updates for new OS versions and new features in planned releases"
+      ]
+    },
+    {
+      "h": "London sectors and what their apps need",
+      "list": [
+        "Fintech in Shoreditch, Old Street and Canary Wharf: Open Banking connections, strong authentication, audit trails and copy your FCA compliance team can approve",
+        "Health and wellness, including startups near the Knowledge Quarter: careful data handling, clinical content checked by your clinicians, and early advice on whether the app could count as a medical device",
+        "Retail, fashion and beauty: loyalty, booking and shopping apps that tie into Shopify or your stock system",
+        "Property and proptech: tenant portals, maintenance reporting and viewing booking for London's large rental market",
+        "Professional services: client apps for document signing, updates and secure messaging",
+        "Media, gaming and entertainment: companion apps, fan engagement and live features"
+      ]
+    },
+    {
+      "h": "Privacy, regulation and app store rules",
+      "p": [
+        "Apps collect more personal data than websites, often including location, contacts and health information. Under UK GDPR and the Data Protection Act 2018, each data point needs a reason, and health data is special category data with stricter conditions. If children might use your app, the ICO's Age Appropriate Design Code applies, with privacy settings high by default.",
+        "Health apps that diagnose, monitor or treat may be regulated as software medical devices by the MHRA, and apps sold to the NHS are usually assessed against the Digital Technology Assessment Criteria. Fintech apps work within FCA rules and payment regulations. We are not lawyers, but we flag these questions in the plan, so you can take advice before the design is fixed rather than after the code is written.",
+        "Apple and Google add their own rules on privacy labels, payments and account deletion. We prepare for store review from the start, which avoids the common surprise of a rejected launch a week before a press date."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call about the problem the app solves and who it is for. Plan: a written scope for version one, user flows, a clickable prototype tested with real users, and a technical plan covering architecture, hosting and integrations. Build: development in short cycles with a working build to try at the end of each, so you see progress on your own phone. Grow: launch, measure what users actually do, and plan releases from the data.",
+        "Each phase has dates in writing, and the same Signal Lead runs it from scope to store."
+      ]
+    },
+    {
+      "h": "Proof: a product built for live audiences",
+      "p": [
+        "We are developing an AI commentary product for live esports, where speed and reliability matter as much as features: the commentary has to keep up with a match in real time, for viewers who notice every delay. That work shapes how we approach any app with live data, payments or heavy traffic at fixed moments."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "Our head office is in London, so discovery workshops and prototype reviews can happen in person, at your office or ours. Watching a user try a prototype across a table teaches more than any written feedback.",
+        "Development runs across specialist teams in four regions, so builds progress outside London hours and testers can check overnight releases before your team logs on. If you have users or investors in the US or the Gulf, we schedule demos when the time zones overlap: afternoons for New York, mornings for Dubai.",
+        "Fintech founders often want to meet near Old Street or Canary Wharf, health companies near King's Cross. We are happy to come to you for the sessions that matter, and to keep the rest of the project moving remotely."
+      ]
+    },
+    {
+      "h": "Hiring an app development company? London buyers should ask",
+      "list": [
+        "Who owns the code, the developer accounts and the app store listings? It should be you",
+        "How will version one be cut down, and who decides what waits for version two?",
+        "What testing happens on real devices before each release?",
+        "Who responds when Apple rejects a build or a new iOS version breaks a screen?",
+        "What will it cost to run the app each month after launch?"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "p": [
+        "We price after scoping, because apps vary enormously. The main factors:"
+      ],
+      "list": [
+        "Platforms: iOS, Android, web, or all three",
+        "Number of screens, user roles and admin features",
+        "Payments, integrations and real-time features",
+        "Regulatory and security requirements",
+        "Design depth and user testing",
+        "Support and new releases after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for app development",
+      "p": [
+        "Building the app is half the job. Getting people to download it, use it and pay is the other half. Our team also covers cloud, AI features, SEO, paid media, video and 3D, so the launch campaign, store visuals and onboarding videos come from the same people who built the product. Book a 15-minute call if you want an honest view on scope. Related London pages: web development, cloud consultancy and video production and animation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build both iOS and Android apps?",
+      "a": "Yes. Most of our apps use React Native or Flutter, which share one codebase across iOS and Android and keep costs down. We build natively in Swift or Kotlin when the app needs heavy device features or the highest performance. We recommend an approach after scoping, with the trade-offs written down."
+    },
+    {
+      "q": "Can we meet your app team in London?",
+      "a": "Yes. Our head office is in London, and we run discovery, prototype testing and key reviews in person when that helps. Between those sessions, you get a working build to try on your own phone at the end of each cycle and a weekly update from your Signal Lead."
+    },
+    {
+      "q": "Do you work with fintech startups?",
+      "a": "Yes, alongside established companies. For fintech we plan for Open Banking connections, strong customer authentication, audit trails and FCA-approved copy from the start. We do not give regulatory advice, but we make sure your compliance adviser sees the right questions before the design is fixed."
+    },
+    {
+      "q": "Can you build an MVP first?",
+      "a": "Yes, and we usually recommend it. An MVP tests the one idea the product depends on with real users, using as few features as possible. It costs less, launches sooner and gives you evidence for investors or a board. We plan the MVP so the code carries forward into the full product."
+    },
+    {
+      "q": "How do you handle health data in an app?",
+      "a": "Carefully. Health data is special category data under UK GDPR, so we minimise what is collected, encrypt it, control access tightly and host it in the UK where needed. If the app might count as a medical device, we flag it early so you can take regulatory advice before the design is fixed."
+    },
+    {
+      "q": "Who owns the app and code?",
+      "a": "You do. The code repository, developer accounts, app store listings and cloud accounts are set up in your name or transferred to you. If you later bring development in-house, your team inherits documented code, a clear release process and a handover period, so nothing depends on us staying involved."
+    },
+    {
+      "q": "How much does it cost to run an app after launch?",
+      "a": "Running costs depend on users, data and features. Typical items are cloud hosting, third-party services such as maps, messaging or payments, app store developer fees, crash monitoring and ongoing updates. We estimate these in the plan, so the monthly cost after launch is not a surprise."
+    },
+    {
+      "q": "Do you support the app after launch?",
+      "a": "Yes. Support covers crash monitoring, bug fixes, updates for new iOS and Android versions, store review issues and planned feature releases. You can keep us on for ongoing development or hand over to an in-house team with documentation and a handover period."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/app-development",
+    "/locations/london/web-development",
+    "/locations/london/cloud-consulting",
+    "/locations/manchester/app-development",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "app development company london",
+    "secondary": [
+      "app developers london",
+      "mobile app development london",
+      "ios app development london",
+      "fintech app development",
+      "mvp development london"
+    ]
+  }
+}

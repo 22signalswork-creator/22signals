@@ -1,0 +1,137 @@
+{
+  "path": "/locations/karachi/web-development",
+  "kind": "location-service",
+  "region": "pk",
+  "city": "Karachi",
+  "citySlug": "karachi",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Karachi: Sites, Stores, Portals | 22 Signals",
+  "description": "Web development Karachi brands and B2B firms use to win orders: fast mobile sites, e-commerce with local payments, portals and redesigns that keep rankings.",
+  "eyebrow": "Web Development in Karachi",
+  "h1": "Web development Karachi customers will actually finish an order on",
+  "intro": "We design and build websites, online stores and client portals for Karachi companies: fashion and retail brands, textile exporters, logistics firms, clinics and listed groups. Sites load fast on mid-range Android phones, take local payments and cash on delivery, hand buyers to WhatsApp when they want to talk, and are built to rank in Google from day one.",
+  "sections": [
+    {
+      "h": "What goes wrong with most Karachi websites",
+      "p": [
+        "The same issues come up again and again. A clothing brand launches a new collection and the site slows to a crawl under the traffic. A textile mill's export site still lists a fax number and a product range from years ago. A logistics company's tracking page breaks on mobile. A clinic in Clifton has a beautiful homepage that nobody can find on Google because it was built as a single image.",
+        "The cause is rarely bad intent. It is usually a build that was handed over and never looked at again, with nobody responsible for speed, security or search after launch.",
+        "Good web development Karachi businesses can grow on treats the site as a working asset with an owner. Someone checks load times after every collection launch, someone patches plugins before they are exploited, and someone reads Search Console each month to see which pages are earning enquiries and which are not."
+      ]
+    },
+    {
+      "h": "What our web development Karachi projects cover",
+      "list": [
+        "Corporate websites and redesigns for groups, banks, insurers and professional firms.",
+        "E-commerce stores on Shopify, WooCommerce or custom builds, with card gateways, digital wallets and cash on delivery.",
+        "B2B export sites for textile, leather, rice and other manufacturers selling to overseas buyers.",
+        "Client and customer portals with logins, documents, invoices and payments.",
+        "Site migrations and replatforming that keep your existing Google rankings.",
+        "Content management that your team can update without calling a developer.",
+        "Website care: updates, backups, uptime monitoring and security fixes."
+      ]
+    },
+    {
+      "h": "Built for how Karachi buyers behave",
+      "p": [
+        "Most visitors arrive on a phone, often over mobile data, and many will message you before they buy. So we design mobile-first, keep pages light, and put a WhatsApp button where a hesitant buyer is likely to need it, with the product or order details already filled in.",
+        "Payment choice matters. Shoppers expect cards, wallet payments and cash on delivery, and COD orders need a confirmation step to reduce returned parcels. Where your audience reads Urdu, we build proper right-to-left pages with Urdu fonts that render cleanly, rather than pasting images of text. B2B sites aimed at buyers in Europe, the US or the Gulf stay in clear English, with spec sheets and compliance documents easy to find."
+      ]
+    },
+    {
+      "h": "Industries we build for in the city",
+      "list": [
+        "Fashion, lawn and apparel brands with seasonal launches and big sale days.",
+        "Textile and garment exporters in Korangi, SITE and Port Qasim selling to international buyers.",
+        "Shipping, freight and logistics firms that need tracking, quotes and client portals.",
+        "Banks, insurers and fintechs that need secure, accessible corporate sites.",
+        "Listed companies that publish investor information and financial reports.",
+        "Clinics, dental practices and aesthetics centres in Clifton and DHA.",
+        "Real estate developers marketing projects to local and overseas Pakistani buyers."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: what the site must achieve, who uses it and what is broken today.",
+        "Plan: sitemap, content plan, wireframes and the technical approach, plus a redirect map if we are replacing an old site. Dates go in writing.",
+        "Build: design, development and content entry, with a staging site you can review at every step.",
+        "Grow: launch, then speed, search and conversion improvements, plus ongoing care so the site does not decay."
+      ]
+    },
+    {
+      "h": "Proof from our web work",
+      "p": [
+        "One example: a client portal we built for a US law firm, where clients log in to see documents and make payments. We have also cleaned up compromised law-firm websites and hardened them afterwards. Different market, same standards: secure logins, clear permissions and pages that load quickly."
+      ]
+    },
+    {
+      "h": "Security and Pakistani law",
+      "p": [
+        "Websites that take orders or logins hold personal data. We use HTTPS throughout, keep plugins and frameworks patched, limit admin access and log changes. Payment pages use the gateway's hosted or tokenised forms so card data does not touch your server. We follow the Prevention of Electronic Crimes Act 2016, build privacy notices and consent into forms, and design with the draft Personal Data Protection Bill's principles in mind."
+      ]
+    },
+    {
+      "h": "Working with our London team",
+      "p": [
+        "We have no office in Karachi; your build is run from London by a single Signal Lead. Pakistan Standard Time is five hours ahead of London in winter and four in summer, so design reviews usually happen in the Karachi afternoon. You review work on a staging link, comment in writing and approve each stage. If the project needs an in-person session, for instance a photo shoot briefing, we plan it for that stage."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of page templates and unique designs.",
+        "E-commerce scope: product count, variants, payment and courier integrations.",
+        "Languages, including Urdu right-to-left pages.",
+        "Portal features such as logins, documents and payments.",
+        "Migration and redirect work on an existing site.",
+        "Ongoing care and content support after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for web development in Karachi",
+      "p": [
+        "The web development Karachi agencies sell often ends at launch day. Ours carries on, because the same team does SEO, paid media, video and 3D. Your product renders, launch reels, Google Ads and the store itself come from one lead who sees the whole funnel. Related: SEO and GEO, Paid Media, App Development and 3D Rendering."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build Shopify stores for Karachi brands?",
+      "a": "Yes. Shopify suits many Karachi fashion and retail brands because it handles traffic spikes well and supports local payment apps and cash on delivery. For brands with complex catalogues or custom needs we also build on WooCommerce or a custom stack. We recommend the platform after seeing your products, volumes and team."
+    },
+    {
+      "q": "Can you add JazzCash, Easypaisa and card payments?",
+      "a": "Yes. We integrate the payment gateways and wallets your customers use, alongside cash on delivery. Availability depends on your merchant accounts and the gateway's approval process, which we help you prepare for. We test every payment route on staging before launch and confirm settlement reports reach your finance team."
+    },
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "Not if it is planned properly. Before replacing a site we record your ranking pages, map every old URL to a new one, keep the content that earns traffic and check the redirects at launch. We then monitor Search Console for several weeks and fix anything that drops."
+    },
+    {
+      "q": "Can the website be in Urdu and English?",
+      "a": "Yes. We build bilingual sites with proper right-to-left Urdu layout, readable Urdu fonts and separate URLs for each language, so both versions can rank. Many Karachi businesses use English for most pages and Urdu for key service or product pages where that is how customers search."
+    },
+    {
+      "q": "Do you meet clients in Karachi?",
+      "a": "Our head office is in London and we work with businesses in Karachi remotely. Workshops and reviews run on video during the shared working day, and you approve designs on a staging link. If a stage of the project genuinely needs an on-site visit, we arrange it for that stage."
+    },
+    {
+      "q": "Who looks after the site after launch?",
+      "a": "We can. Our website care covers updates, backups, uptime monitoring, security fixes and small content changes, with an agreed response time. If you prefer to manage it in-house, we hand over documentation and admin training so your team can run it confidently."
+    }
+  ],
+  "related": [
+    "/locations/karachi",
+    "/services/web-app-development",
+    "/locations/karachi/seo-geo",
+    "/locations/karachi/app-development",
+    "/locations/lahore/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "web development karachi",
+    "secondary": ["website design karachi", "ecommerce website karachi", "shopify developer karachi", "web developers karachi"]
+  }
+}

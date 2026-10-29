@@ -1,0 +1,94 @@
+{
+  "path": "/case-studies/personal-injury-law-firm-website-rebuild",
+  "kind": "case-study",
+  "region": "us",
+  "title": "Law Firm Website Case Study: Bay Area PI Firm | 22 Signals",
+  "description": "Law firm website case study: a rebuild, a fixed design-to-development handoff, a malware cleanup and monthly content for a women-led Bay Area injury firm.",
+  "eyebrow": "Case study: law firms",
+  "h1": "Law firm website case study: rebuilding and running the site for a Bay Area injury firm",
+  "intro": "This law firm website case study covers a women-led personal injury firm with three Bay Area offices. We managed the first phase of its website rebuild, documented what went wrong in the design-to-development handoff and fixed the process, cleaned up a malware infection, and now run the live site and its monthly blog.",
+  "sections": [
+    {
+      "h": "The client and the problem",
+      "p": [
+        "The client is a women-led personal injury law firm with three offices in the San Francisco Bay Area. Its website is where injured people decide whether to call, so it has to be fast, accurate, secure and always online.",
+        "The firm needed a rebuilt site and someone to run it properly afterwards: security, updates, content and search, handled by people who understand the rules a law firm's website has to follow."
+      ]
+    },
+    {
+      "h": "What we did",
+      "list": [
+        "Managed Phase 1 of the website rebuild. The live site runs on WordPress with a custom theme for the firm.",
+        "Ran a post-mortem on the handoff between design and development, and wrote up process improvements.",
+        "Took over direct administration of the live site, including security and maintenance.",
+        "Cleaned up a malware compromise and secured the site.",
+        "Plan and write monthly blog topics and articles, tracked in a shared document with a tab for each month.",
+        "Built a content rulebook for the firm, and produced an SEO audit and monthly reporting."
+      ]
+    },
+    {
+      "h": "The handoff problem, and what we changed",
+      "p": [
+        "Rebuilds rarely fail in design or in code. They fail in the gap between the two, when an approved design reaches developers without the detail they need, and decisions get made by whoever happens to be holding the file.",
+        "After Phase 1 we wrote a post-mortem on exactly where that handoff broke down, then turned it into process documentation for the next phases. We think a post-mortem only counts if it changes how the next piece of work is done, so the output was a revised process, not a report that sits in a folder."
+      ]
+    },
+    {
+      "h": "The security cleanup",
+      "p": [
+        "During the engagement the site was compromised by malware. Some infections target the people visiting a site as well as the site itself, so for a law firm the risk reaches its clients too.",
+        "We removed the infection and the backdoors. The site runs on managed WordPress hosting with a security plugin in place, and we administer it directly."
+      ]
+    },
+    {
+      "h": "Content with firm rules built in",
+      "p": [
+        "Each month we propose blog topics, write the articles and track them in a shared document so the firm can see what is planned, drafted and approved.",
+        "The work follows rules specific to this firm. The firm sets clear limits on what its pages may and may not say, and existing articles stay on the site. Rules like these live in a written content rulebook, so they hold no matter who on our team writes the piece."
+      ]
+    },
+    {
+      "h": "How we ran it",
+      "p": [
+        "One Signal Lead owns the account, with web developers, security work and writers behind them. The firm gets one point of contact for the site, the content and search, and every date we agree is written down."
+      ]
+    },
+    {
+      "h": "What changed",
+      "p": [
+        "The firm has a rebuilt site on a custom theme, a revised process for later phases, a clean installation after the September infection, and a steady monthly flow of articles written to its own rules. We are not publishing traffic or case-intake figures for this firm."
+      ]
+    },
+    {
+      "h": "What this law firm website case study shows",
+      "p": [
+        "Three things carry over to almost any firm. First, a rebuild is only as good as the handoff between the people who design it and the people who build it, so fix that process before the next phase rather than after. Second, the people who run the site day to day should have direct access to it, so a security problem can be dealt with by the team that already knows the installation. Third, content rules belong in writing. A firm's limits on what it will and will not be associated with should not depend on one writer remembering them."
+      ]
+    },
+    {
+      "h": "Services used",
+      "p": [
+        "Web Development for the rebuild, site care and security; SEO and GEO for the audit, content and reporting. If your firm's site needs the same kind of care, book a 15-minute call."
+      ]
+    }
+  ],
+  "related": [
+    "/services/web-app-development",
+    "/services/seo-geo",
+    "/industries/professional-services",
+    "/case-studies/law-firm-website-malware-cleanup",
+    "/how-we-work"
+  ],
+  "keywords": {
+    "primary": "law firm website case study",
+    "secondary": [
+      "personal injury website rebuild",
+      "law firm wordpress maintenance",
+      "bay area law firm website",
+      "law firm website security"
+    ]
+  },
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "faqs": []
+}

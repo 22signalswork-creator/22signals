@@ -1,0 +1,141 @@
+{
+  "path": "/locations/dallas/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Dallas",
+  "citySlug": "dallas",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Dallas, TX | 22 Signals",
+  "description": "Cloud consulting for Dallas companies on AWS, Google Cloud and Azure: architecture, security, monitoring and cost reviews, from colocation to cloud.",
+  "eyebrow": "Cloud Consulting in Dallas",
+  "h1": "Cloud consulting for Dallas companies on AWS, Google Cloud and Azure",
+  "intro": "Our cloud consulting helps Dallas companies run on AWS, Google Cloud or Azure without overspending or leaving gaps in security. We design the architecture, lock down access, set up monitoring, review costs and can run the environment for you. It suits financial, healthcare, logistics and headquarters teams moving off colocation racks or untangling a cloud bill.",
+  "sections": [
+    {
+      "h": "The Dallas cloud problem in plain words",
+      "p": [
+        "North Texas is one of the country's big data center markets, and plenty of Dallas companies still run core systems on servers in colocation facilities in Richardson, Plano, Garland or Carrollton. Next to those sit a few cloud accounts that different teams opened over the years, each with its own admins, its own bill and its own idea of backups.",
+        "The result is predictable: a monthly cloud invoice nobody can explain, former employees who still have access, and no clear answer to what happens if a site goes dark. The cloud consulting Dallas leadership teams ask us for is mostly about getting that under control, then making the next move on purpose."
+      ]
+    },
+    {
+      "h": "What we cover",
+      "list": [
+        "Architecture on AWS, Google Cloud and Azure, designed around how your applications actually work.",
+        "Security and access control: single sign-on, least-privilege roles, multi-factor login and key management.",
+        "Monitoring and alerting, so problems page the right person before customers notice.",
+        "Backup and recovery plans with tested restores, not just backup jobs that report success.",
+        "Cost reviews: idle resources, oversized machines, storage tiers and commitments, with savings tracked.",
+        "Managed cloud operations if you would rather we run it day to day."
+      ]
+    },
+    {
+      "h": "Choosing a region close to Dallas",
+      "p": [
+        "Where your workloads run affects speed, resilience and sometimes contracts. Google Cloud has a region in Dallas. Azure's South Central US region is in Texas. AWS runs a Local Zone in Dallas for low-latency workloads, with its full regions further away. Which one fits depends on your stack, your existing licenses and where your customers are.",
+        "Resilience is a local question too. After the February 2021 winter storm took power out across Texas, many Dallas teams learned that a single building or a single region is a risk. We design recovery across regions, write down how long a restore takes, and test it, so the plan holds up when the weather does not."
+      ]
+    },
+    {
+      "h": "Cloud work by Dallas industry",
+      "list": [
+        "Financial services in Downtown, Uptown and the Westlake and Las Colinas campuses: audit trails, encryption, segregated environments and access reviews that stand up to examiners and auditors.",
+        "Healthcare systems and practices: HIPAA-eligible services, signed business associate agreements with the cloud provider, and patient data kept apart from general workloads.",
+        "Logistics and distribution: transport and warehouse systems that cannot go down during peak season, with integrations to carriers and customers.",
+        "Telecom and tech teams in Richardson and Plano: container platforms, network monitoring and cost control on heavy data workloads.",
+        "Real estate and retail head offices: property and store systems, e-commerce sites and reporting warehouses that need predictable monthly costs."
+      ],
+      "p": [
+        "The cloud consulting Dallas clients need changes with the sector they work in, and so do the risks."
+      ]
+    },
+    {
+      "h": "How an engagement runs",
+      "p": [
+        "Talk: we start with a short call to understand what you run and what worries you. Plan: we review your accounts, permissions, network and costs, then write a findings report with a ranked fix list, a target architecture and dates. Build: our engineers make the changes in stages, starting with security gaps, with a rollback plan for each change. Grow: we hand over documentation and runbooks, or keep operating the environment with monthly cost and security reports.",
+        "If a full move from colocation is on the table, we scope that as a cloud migration project, with downtime windows agreed in writing."
+      ]
+    },
+    {
+      "h": "Security and Texas data privacy",
+      "p": [
+        "The Texas Data Privacy and Security Act expects businesses to use reasonable security practices for the personal data they hold. In the cloud that means encryption at rest and in transit, access limited by role, logs kept and reviewed, and a clear record of where personal data lives. We build those controls in and document them, which also makes vendor security questionnaires from your own Dallas customers much easier to answer.",
+        "We also run security clean-ups when something has already gone wrong. We have cleaned up compromised law-firm websites, which taught us to treat every forgotten account and every unpatched server as a live risk."
+      ]
+    },
+    {
+      "h": "Remote cloud operations from London",
+      "p": [
+        "All of our Dallas cloud work is delivered remotely. Dallas is six hours behind London, so routine maintenance and patching can run in the London morning while Dallas is asleep, and your team reviews the results at the start of their morning. Reviews and planning calls sit in the Dallas morning, which is our afternoon.",
+        "Every change goes through your own accounts with named access, and nothing changes in production without an agreed window. If an on-site meeting with your data center provider or IT team would help, we plan it when the project needs it."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "p": [
+        "We price after the review, because environments vary so much. The factors:"
+      ],
+      "list": [
+        "Number of accounts, subscriptions and environments.",
+        "How much runs on servers versus managed services.",
+        "Compliance needs such as healthcare or financial audits.",
+        "Whether you want a one-off review or ongoing managed operations.",
+        "Hours of support cover you need."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud",
+      "p": [
+        "We have managed over $1.5 million in projects, and we treat your cloud as the base everything else sits on. Because the same team builds AI tools, data pipelines and websites, we design the cloud for what is coming next, not only for what runs today. Services Dallas cloud clients often add next: business intelligence on top of your warehouse, AI automation that runs in your own account, and web development hosted on the same platform."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud provider is best for a Dallas company?",
+      "a": "It depends on what you already run. Companies heavy on Microsoft licensing often fit Azure. Teams building data and AI workloads often like Google Cloud, which has a Dallas region. AWS has the widest range of services and a Dallas Local Zone. We recommend one after reviewing your applications, contracts and skills."
+    },
+    {
+      "q": "Can you review our cloud bill and cut waste?",
+      "a": "Yes. A cost review is often the first piece of work. We look for idle resources, oversized machines, unattached storage, data transfer charges and missed commitment discounts, then rank the fixes by savings and risk. We do not promise a percentage; we show you the findings and track what each change saves."
+    },
+    {
+      "q": "Do you help companies move out of Dallas colocation facilities?",
+      "a": "Yes. We assess what runs in the rack, decide what should move, what should be replaced by a managed service and what should stay, then plan the move in stages with agreed downtime windows. The full move is scoped as a cloud migration project with its own dates in writing."
+    },
+    {
+      "q": "How do you handle Texas data privacy in the cloud?",
+      "a": "We map where personal data lives, encrypt it, restrict access by role and keep access logs, which supports the reasonable security expected under the Texas Data Privacy and Security Act. We document the controls so you can answer audits and customer questionnaires. Legal interpretation stays with your counsel."
+    },
+    {
+      "q": "Who responds if something breaks at night in Dallas?",
+      "a": "With managed operations, monitoring alerts go to the engineers on call for your account, and the six-hour difference means much of the Dallas night falls inside working hours for our teams. We agree response times, escalation contacts and what counts as urgent in writing before we take over."
+    },
+    {
+      "q": "Do you visit Dallas clients?",
+      "a": "We work remotely from London, with meeting hours that overlap Central Time, and cloud work rarely needs anyone in the building. If a planning session with your IT team or your data center provider works better in person, we arrange a visit to Dallas when the project needs it."
+    },
+    {
+      "q": "Can you run our cloud environment long term?",
+      "a": "Yes. Managed cloud operations cover monitoring, patching, backups, access reviews and monthly cost and security reports. Your Signal Lead stays the single point of contact, and you keep full ownership of your accounts, so you can bring the work in-house later without any lock-in."
+    }
+  ],
+  "related": [
+    "/locations/dallas",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/locations/dallas/business-intelligence",
+    "/locations/houston/cloud-consulting",
+    "/locations/austin/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting dallas",
+    "secondary": [
+      "cloud consultant dallas",
+      "aws consulting dallas",
+      "azure consulting dallas",
+      "cloud security dallas"
+    ]
+  }
+}

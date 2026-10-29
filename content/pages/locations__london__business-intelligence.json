@@ -1,0 +1,156 @@
+{
+  "path": "/locations/london/business-intelligence",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "London",
+  "citySlug": "london",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consultancy",
+  "title": "Data Analytics Consultancy London: Power BI | 22 Signals",
+  "description": "Data analytics consultancy London leadership teams use: KPIs, warehouses and Power BI or Looker Studio dashboards that report one version of the truth.",
+  "eyebrow": "Business Intelligence and Data Analytics in London",
+  "h1": "The data analytics consultancy London leadership teams actually read",
+  "intro": "22 Signals is a business intelligence and data analytics consultancy. London is our head office. We pull numbers out of your CRM, finance, practice management and ad accounts, model them properly, and deliver dashboards in Power BI, Looker Studio or Tableau. The result is one version of the truth that partners, directors and boards trust, refreshed without manual exports.",
+  "sections": [
+    {
+      "h": "Three versions of last month's revenue",
+      "p": [
+        "It is a familiar Monday in a lot of London companies. Finance has one revenue figure from Xero or Sage, sales has another from the CRM, and marketing has a third built from ad platform screenshots. The leadership meeting spends twenty minutes arguing about which is right, and nobody gets to the decision the numbers were meant to inform.",
+        "The fix is rarely a new tool. Most firms already pay for Power BI inside Microsoft 365 or have Looker Studio sitting next to Google Analytics. What is missing is agreed definitions, a place where clean data lands, and reports designed for the questions people ask. A data analytics consultancy London firms bring in should solve that, not add another dashboard nobody opens."
+      ]
+    },
+    {
+      "h": "What the engagement includes",
+      "list": [
+        "Data strategy and KPI design: what each number means, who owns it and how often it updates",
+        "A warehouse and pipelines that pull from your CRM, finance, operations and marketing tools",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the meeting they serve",
+        "Automated reporting sent on a schedule, so the board pack builds itself",
+        "Forecasting for sales, cash, demand or capacity, with the assumptions written down",
+        "Data quality checks that warn you when a source breaks before a report goes out",
+        "Access controls, including row-level security so each team sees only its own figures"
+      ]
+    },
+    {
+      "h": "What good reporting looks like in London's main sectors",
+      "list": [
+        "Law firms and professional services: work in progress, lock-up, utilisation and realisation by partner and practice area, from the practice management system rather than a monthly export",
+        "Financial services and fintech in the City, Canary Wharf and Shoreditch: product, funnel and customer metrics, with sensitive fields kept out of general dashboards",
+        "Retail and fashion: sell-through, margin by channel, returns and stock cover across the West End store, the website and marketplaces",
+        "Property and estate agencies: pipeline by branch, time to let or sell, arrears and portfolio performance",
+        "Healthcare and life sciences around the Knowledge Quarter: appointment utilisation, patient acquisition by source and programme reporting for funders",
+        "Creative and media agencies in Soho and Shoreditch: project profitability, team capacity and retainer burn"
+      ],
+      "p": [
+        "London's economy is unusually mixed, so the reports a firm needs depend heavily on its sector. A Mayfair hedge fund, a Holborn law firm and a Brixton restaurant group all say they want a dashboard, and they mean three different things. These are the views we would usually build first:"
+      ]
+    },
+    {
+      "h": "UK data rules that shape the build",
+      "p": [
+        "Dashboards often hold personal data, even when nobody intends them to. A sales report with customer names, or an HR view with absence records, falls under UK GDPR and the Data Protection Act 2018. We minimise what goes into the warehouse, pseudonymise where we can, set retention periods and document access, which is what the ICO expects to see if anyone asks.",
+        "Location matters too. Many London firms, especially FCA-regulated businesses and healthcare providers, want data held in the UK. Microsoft Azure, Google Cloud and AWS all run London regions, so we can keep the warehouse there when you need it.",
+        "One more UK quirk: cookie consent rules under PECR mean web analytics undercount visitors who decline tracking. We build marketing reports that state this openly and join web data with CRM and call data, so decisions are not made on half the picture."
+      ]
+    },
+    {
+      "h": "How the work runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call to find the decision your current reports fail to support. Plan: interviews with the people who use the numbers, an inventory of every source, and a written list of KPIs with definitions. Build: pipelines, warehouse and the first dashboard, reviewed with you at each step. Grow: we add sources and reports in priority order and keep the data healthy.",
+        "Every milestone is agreed in writing with your Signal Lead, who stays the same person from the first call to the last report."
+      ]
+    },
+    {
+      "h": "Proof: measuring what most people guess",
+      "p": [
+        "For a US aesthetics practice we ran a 35-question, five-AI-engine search audit: every question tested on every engine, logged, scored and turned into a report the owners could act on. It is a small example of how we work with data. Define the question, measure it the same way every time, and present it so a busy person reads it in two minutes."
+      ]
+    },
+    {
+      "h": "Working with us in London",
+      "p": [
+        "Our head office is in London, so KPI workshops can be held in person with your finance director, operations lead and partners in the same room. That meeting is where definitions get agreed, and it is easier face to face.",
+        "Build work runs remotely across our teams in four regions. For London groups with offices in New York or the Gulf, we hold reviews when time zones overlap and schedule data refreshes so each region opens its day to current numbers.",
+        "We also train the people who will live with the reports. A short session with your finance team and practice managers, ideally in your London office, does more for adoption than any amount of documentation."
+      ]
+    },
+    {
+      "h": "Choosing a data analytics consultancy: London buyers' checklist",
+      "list": [
+        "Will they write KPI definitions down, or just build charts?",
+        "Can they connect your actual systems, including the awkward legacy one?",
+        "Who fixes the pipeline when a source changes its API?",
+        "Will your team be able to edit the reports after handover?",
+        "Do they understand UK GDPR well enough to keep personal data out of places it should not be?"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "p": [
+        "We price after scoping, because the work varies a lot. The main factors are:"
+      ],
+      "list": [
+        "Number of data sources and how clean they are",
+        "Whether you need a warehouse or can report from existing systems",
+        "Number of dashboards and audiences",
+        "Security needs such as row-level security and UK-only hosting",
+        "Ongoing support for pipelines and new reports",
+        "Tool licences, which you pay directly"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for BI",
+      "p": [
+        "We are one team across data, AI, cloud and marketing. So the marketing dashboard is built by people who also run paid media and SEO, and the forecasting model can feed an automation or an AI assistant later without starting again. If you want to talk through what your reports should show, book a 15-minute call. Related London pages cover AI consultancy, AI automation and cloud consultancy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build Power BI dashboards for London companies?",
+      "a": "Yes. Power BI is often the natural choice for London firms, mostly because they already run Microsoft 365. We build data models, DAX measures, Power Query transformations and row-level security, and we also work in Looker Studio and Tableau. The tool follows your stack, not our preference."
+    },
+    {
+      "q": "Can our data stay in the UK?",
+      "a": "Yes. Azure, Google Cloud and AWS all have London regions, and we can host the warehouse and pipelines there. That suits FCA-regulated firms, healthcare providers and anyone whose clients ask where their data lives. We document the hosting so your data protection records stay accurate."
+    },
+    {
+      "q": "What is the difference between business intelligence and data analytics?",
+      "a": "Business intelligence is the reporting layer: the dashboards and regular numbers a business runs on. Data analytics digs into a specific question, such as why margin fell or which channel brings the best clients. We do both, because the analysis usually becomes a report people want every month."
+    },
+    {
+      "q": "Can you connect our practice management or property system?",
+      "a": "Usually, yes. Most practice management, property and booking systems offer an API, scheduled exports or a database connection. We review access in the first week and tell you plainly if a source needs a workaround, such as a nightly export, before any build depends on it."
+    },
+    {
+      "q": "How long does a BI project take?",
+      "a": "It depends on how many sources you have and how clean they are. A first dashboard on two or three well-structured sources is a small project; a warehouse across finance, CRM and operations is phased. We agree every phase date in writing, and you see working reports early rather than waiting for one big reveal."
+    },
+    {
+      "q": "Will we be able to change the reports ourselves?",
+      "a": "Yes. We build in your tenancy, document every measure and train the people who will own the reports. Many clients keep us on for pipeline support and bigger changes while their own analysts handle day-to-day edits. You are never locked into us to change a chart."
+    },
+    {
+      "q": "Can we meet in person to agree our KPIs?",
+      "a": "Yes. Our head office is in London, and we often run the KPI workshop face to face with finance, operations and leadership together. Agreeing what each number means is the hardest part of the project, and it goes faster in a room. Everything after that runs remotely with regular reviews."
+    }
+  ],
+  "related": [
+    "/locations/london",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/locations/london/cloud-consulting",
+    "/locations/london/ai-consulting",
+    "/locations/manchester/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "data analytics consultancy london",
+    "secondary": [
+      "business intelligence consultancy london",
+      "power bi consultancy london",
+      "bi consultants london",
+      "data analytics london",
+      "dashboard consultancy"
+    ]
+  }
+}

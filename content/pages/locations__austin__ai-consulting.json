@@ -1,0 +1,131 @@
+{
+  "path": "/locations/austin/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Austin, TX | 22 Signals",
+  "description": "AI consulting for Austin companies in software, hardware, healthcare and state government work: find the use cases worth paying for, then pilot them safely.",
+  "eyebrow": "AI Consulting in Austin",
+  "h1": "AI consulting for Austin companies that want results, not demos",
+  "intro": "Our AI consulting helps established Austin companies work out where AI will save time or make money, which tools to buy or build, and how to run a pilot without exposing customer data. You get a ranked list of use cases, a written roadmap and a first build, delivered remotely from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "The Austin problem: everyone has tried AI, few can show the return",
+      "p": [
+        "In Austin, AI is not new. Your engineers have been using coding assistants for a while, your marketing team writes with chatbots, and at least one vendor has pitched you an agent this quarter. The trouble is that none of it adds up to a plan. Licenses multiply, nobody knows which tools touch customer data, and the board asks what the money has bought.",
+        "That is the gap to close with AI consulting. Austin leadership teams rarely need convincing that AI matters. They need someone to separate the three or four uses that will pay for themselves from the twenty that will not, and to put rules around the rest."
+      ]
+    },
+    {
+      "h": "What our AI consulting covers",
+      "list": [
+        "AI readiness review: your data, systems, skills and current tool sprawl, assessed honestly.",
+        "Use-case discovery: interviews with the teams doing the work, then every idea ranked by value and effort.",
+        "AI roadmap: what to do this quarter, next quarter and later, with owners and dates.",
+        "Tool and vendor selection: build versus buy, and which providers fit your security needs.",
+        "AI policy and governance: acceptable use, data handling and review steps your staff will follow.",
+        "Pilot builds: one or two working tools on real data, measured against a baseline.",
+        "Team training: short sessions so your people use the new tools well, not just once."
+      ]
+    },
+    {
+      "h": "Where AI pays off in Austin's main industries",
+      "p": [
+        "The best use cases depend on what your Austin business actually does all day. A few patterns we look for first:"
+      ],
+      "list": [
+        "Software and SaaS companies in the Domain and Downtown: support triage, release notes, sales call summaries pushed into the CRM, and AI features inside the product that need evaluation before customers see them.",
+        "Semiconductor and hardware suppliers serving the chipmaking sites in northeast Austin and Taylor: searching long technical specifications, drafting quality documentation, and answering supplier questions from approved documents only.",
+        "Firms that sell to Texas state agencies from offices near the Capitol: proposal drafting against long requests for proposals, with every claim checked by a person.",
+        "Healthcare and wellness groups across Travis and Williamson counties: intake summaries, appointment reminders and front-desk workload, kept away from diagnosis.",
+        "Music, film and creative companies in East Austin: tagging and searching large media libraries, and turning long recordings into usable clips."
+      ]
+    },
+    {
+      "h": "Texas law and AI governance",
+      "p": [
+        "Two Texas laws shape how we plan AI work for Austin clients. The Texas Data Privacy and Security Act, in force since July 2024, covers how personal data is collected and processed, and sensitive data needs consent. The Texas Responsible Artificial Intelligence Governance Act took effect in January 2026 and adds rules on prohibited uses and disclosure, with particular duties for state agencies and healthcare providers.",
+        "Our AI consulting does not replace your legal counsel. What it does is make sure every use case on your roadmap has a data map, a named owner and a review step, so your lawyers are checking a clear plan rather than reverse engineering a tool that is already live."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call to understand your business and whether AI consulting is the right first step.",
+        "Plan: two to four weeks of interviews, systems review and use-case ranking, ending in a written roadmap.",
+        "Build: a pilot on your data, with clear success measures agreed before we start.",
+        "Grow: if the pilot works, we roll it out, train the team and move to the next use case on the list."
+      ]
+    },
+    {
+      "h": "What we have built",
+      "p": [
+        "We have delivered more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. One of the more complete examples is the outbound sales engine we built for 22 Signals itself, covering research, list building, email writing and CRM updates. It means the advice an Austin client gets comes from a team that runs these systems in its own business."
+      ]
+    },
+    {
+      "h": "Working with us from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. London runs six hours ahead, so your morning is our afternoon and workshops usually sit between 8:00 and 11:00 Austin time. Discovery interviews happen on video with the people who do the work, not only with leadership.",
+        "If a roadmap session would go better in person, for example with a leadership team spread between the Domain and an operations site in Round Rock, we plan a visit for that stage. We do not promise a schedule of visits we have not scoped."
+      ]
+    },
+    {
+      "h": "Budgeting for AI consulting: Austin cost factors",
+      "list": [
+        "How many teams and workflows are in scope for discovery.",
+        "The state of your data: clean and connected, or spread across tools and inboxes.",
+        "Whether the pilot needs integration with systems like Salesforce, HubSpot, an ERP or an electronic health record.",
+        "Security and compliance review, including Texas privacy law or state agency buyer requirements.",
+        "How much training and rollout support you want after the pilot."
+      ]
+    },
+    {
+      "h": "Why Austin teams pick 22 Signals",
+      "p": [
+        "Most AI consulting firms stop at the slide deck or start at the code. We do both, and because the same company also runs cloud, data, marketing and video work, the roadmap can include things a pure AI shop would miss, such as fixing the data feed your dashboards rely on or turning a pilot into a product launch. One Signal Lead owns the plan. If you want to see whether that fits, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is your AI consulting Austin-based, or remote?",
+      "a": "We work remotely from London on Central Time hours, and that covers nearly every stage. When a workshop or leadership session would clearly go better in the room, we plan a visit to Austin for that stage of the project. We do not have an Austin office, so we will never claim local staff, but you will always have a named Signal Lead."
+    },
+    {
+      "q": "How long does AI consulting take before we see something working?",
+      "a": "A typical discovery and roadmap takes two to four weeks. A first pilot usually follows within a few weeks after that, depending on how easy your data is to reach. We agree dates in writing at the planning stage, so you know when the pilot will be in front of real users before any build begins."
+    },
+    {
+      "q": "How does the Texas Responsible Artificial Intelligence Governance Act affect us?",
+      "a": "For most private Austin companies the main effect is clearer rules on prohibited uses and more attention on disclosure, especially in healthcare and work for state agencies. We build those checks into the roadmap and governance policy, and we flag specific questions for your counsel. We do not give legal advice, but we make sure there is a clear plan for them to review."
+    },
+    {
+      "q": "Should we build our own AI tools or buy them?",
+      "a": "Buy when a mature product already does the job and your data can safely go to it. Build when the workflow is specific to your business, when the data is sensitive, or when off-the-shelf tools would need so much setup that a custom build is simpler. Our vendor review compares both options on cost factors, security and effort before you decide."
+    },
+    {
+      "q": "We are a hardware supplier, not a software company. Is AI consulting relevant?",
+      "a": "Often more so. Hardware and semiconductor suppliers around Austin carry heavy documentation loads: specifications, quality records, supplier questionnaires and customer audits. AI that searches and drafts from approved documents can save real hours, provided it is set up so it only answers from sources you trust and a person signs off on anything external."
+    },
+    {
+      "q": "Can you train our staff as well as advise leadership?",
+      "a": "Yes. Training is part of the engagement, not an add-on. We run short, practical sessions for the teams who will use each tool, built around their real tasks, plus a written guide and the AI policy. Leadership gets a separate session on governance, measuring returns and deciding what comes next on the roadmap."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/ai-consulting",
+    "/locations/austin/ai-automation",
+    "/locations/dallas/ai-consulting",
+    "/locations/houston/ai-consulting",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "ai consulting austin",
+    "secondary": ["ai consultant austin", "austin ai consulting firm", "ai strategy consulting austin tx", "ai readiness assessment austin"]
+  }
+}

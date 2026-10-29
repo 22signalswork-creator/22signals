@@ -1,0 +1,156 @@
+{
+  "path": "/services/seo-geo",
+  "kind": "service",
+  "region": "global",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimization",
+  "title": "SEO and GEO Services for Google and AI Answers | 22 Signals",
+  "description": "SEO and GEO services that get you ranked on Google and named in ChatGPT, Claude, Gemini and Perplexity answers, with a plain-words report every month.",
+  "eyebrow": "SEO and GEO",
+  "h1": "SEO and GEO services for Google and AI answers",
+  "intro": "SEO and GEO services from 22 Signals get established companies found in two places: Google's results, and the answers ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews give. GEO, short for generative engine optimization, is the work of getting your business named and described correctly by those assistants. We do both and report what moved every month.",
+  "sections": [
+    {
+      "h": "Your buyers ask an assistant before they ask Google",
+      "p": [
+        "A partner at a law firm, a clinic owner or a head of operations now types a full question into ChatGPT or Gemini and gets a short list of names back. If your business is not on that list, the search never reaches your website, however well it ranks.",
+        "The reverse also happens. A company shows up in an AI answer but is described wrongly: an old service, a closed location, a competitor's pricing. Assistants repeat what they find, so a stale directory listing from years ago can still shape what a buyer hears today.",
+        "Most companies we speak to have one of three problems. Their site is hard for crawlers to read, their business is described five different ways across the web, or their pages bury the answer under a wall of sales copy. Each one is fixable, and none of them needs a trick."
+      ]
+    },
+    {
+      "h": "What is generative engine optimization?",
+      "p": [
+        "Assistants like ChatGPT, Claude, Gemini and Perplexity write an answer instead of showing ten links. Some of them search the live web while they answer, and Google AI Overviews sit on top of normal Google results. In every case the assistant has to decide which businesses are worth naming and what to say about them.",
+        "GEO is the work that makes your business an easy choice for that decision. It has three parts: being easy to identify (the same name, services and locations everywhere), being easy to quote (pages that state the answer in the first lines), and being backed by sources the assistant already trusts (mentions, reviews and profiles on other sites).",
+        "It does not replace SEO. AI answers lean on the same signals search engines use, so a site with crawl errors and thin pages rarely does well in either. That is why we sell one service, not two, and why the first month usually goes on foundations rather than new content."
+      ]
+    },
+    {
+      "h": "What our SEO and GEO services include",
+      "list": [
+        "Technical SEO: crawling, indexing, site speed, structured data, redirects and internal links, fixed in the site or handed to your developers with exact instructions",
+        "Local SEO and Google Business Profile for businesses with real locations, including categories, services, photos and review replies",
+        "Content: service pages, location pages and guides written for buyers, checked for facts before they go live",
+        "How your business is described across the web: profiles, directories, review sites and data sources assistants read, made consistent",
+        "Answer-first pages that state what you do, who it is for and how to start, in the opening lines",
+        "Outside mentions on sites your buyers and the assistants already trust, earned rather than bought",
+        "Monthly reporting in plain words: what changed, what we did, what comes next"
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short call to understand your market, your best customers and the searches that actually bring revenue. We ask what a good lead looks like before we look at any rankings.",
+        "Plan: we test how you show up today in Google and across the main assistants, crawl the site, and review how your business is described elsewhere. You get a ranked list of fixes with the effort each one takes, and the dates we commit to go in writing.",
+        "Build: technical fixes first, then the pages and profiles that matter most. Your Signal Lead owns the plan and the specialists (technical, content, local, outreach) work behind them, so you have one person to ask.",
+        "Grow: every month we rerun the same questions and searches, report the movement, and adjust. New content is added when the data says a gap is worth filling, not to hit a quota."
+      ]
+    },
+    {
+      "h": "How we measure results in AI answers",
+      "p": [
+        "We build a fixed set of buyer questions for your business, such as which firms handle a certain type of case in a certain city, and test them every month across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews. We record whether you are named, how you are described and which sources the answer seems to rely on.",
+        "Alongside that we track Google Search Console, Bing Webmaster Tools and visits from AI assistants in your analytics. The aim is a trend you can trust, not a single screenshot.",
+        "One example: for a US aesthetics practice we ran a 35-question search audit across five AI engines, which showed exactly which treatments and locations the assistants already linked to the practice and which ones they gave to competitors."
+      ]
+    },
+    {
+      "h": "Where our clients stand today",
+      "p": [
+        "Right now, 10 of the businesses we work with sit in Google's top five for their main searches and show up in ChatGPT's answers. We would rather show that with your own searches on a screen share than ask you to take it on trust."
+      ]
+    },
+    {
+      "h": "Industries we do this work for",
+      "list": [
+        "Law firms and professional services: monthly SEO and content for US personal injury firms, with every statute and deadline checked before a page is published",
+        "Healthcare and wellness: clinics, aesthetics, dental and health tech, where treatment pages must be accurate and careful with claims",
+        "Fashion, beauty and retail: local search for salons and stores, plus product and category pages for online sales",
+        "Technology, SaaS and AI companies that need to be named when buyers ask an assistant to compare tools",
+        "Real estate, where buyers search by area and property type",
+        "Gaming, esports and entertainment brands with fans searching for events, teams and releases"
+      ]
+    },
+    {
+      "h": "Cities where we serve SEO and GEO clients",
+      "p": [
+        "Our head office is in London and we work with companies in other cities remotely, with meeting hours that overlap theirs and on-site visits when the project needs it. These are the cities where we serve SEO and GEO clients today:"
+      ],
+      "list": [
+        "United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami",
+        "United Kingdom: London, Manchester and Birmingham",
+        "United Arab Emirates: Dubai and Abu Dhabi",
+        "Pakistan: Lahore, Karachi and Islamabad"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "p": [
+        "We do not publish prices because two SEO projects rarely look alike. After the first call you get a written scope and a monthly figure before any work starts. The main things that move it:"
+      ],
+      "list": [
+        "How many locations, services and languages need their own pages",
+        "The state of the site today, and whether fixes go through our developers or yours",
+        "How competitive your searches are, which sets how much content and outreach is needed",
+        "How many assistants and buyer questions we track each month",
+        "Whether the work includes local profiles and review management"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We will not promise a number of AI mentions, publish thin pages in bulk, or sell a single file as a ranking trick. Nobody controls what an assistant says. We control the signals it reads, and we show you the evidence each month.",
+        "The other difference is the team behind the Signal Lead. The same company that runs your search work also builds websites, runs paid media on Google and Meta, and makes video and 3D content. When a page needs rebuilding or a campaign needs a landing page, it does not leave the room, and nobody has to brief a second agency."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between SEO and GEO?",
+      "a": "SEO gets your pages ranked in search results. GEO gets your business named inside the answer itself, in ChatGPT, Claude, Gemini, Perplexity or Google AI Overviews. Most of the work overlaps. GEO adds consistent descriptions of your business across the web, pages that answer the question in the first lines, and mentions on sites the assistants already trust."
+    },
+    {
+      "q": "How long do SEO and GEO services take to work?",
+      "a": "Fixes to how your business is described can show within weeks, once pages and profiles are recrawled. Ranking and being recommended for competitive searches usually takes three to six months. We agree the first milestones in writing during planning, so you know what to look for at each monthly report rather than waiting on a vague promise."
+    },
+    {
+      "q": "Can you promise ChatGPT will recommend us?",
+      "a": "No, and nobody can honestly promise that. Assistants decide their own answers and change how they work often. What we can show you is which buyer questions you appear for, across which assistants, how you are described, and how that changes from month to month as the work goes in. That record is what you hold us to."
+    },
+    {
+      "q": "Do we need a new website for this to work?",
+      "a": "Usually not. Most sites need technical fixes, clearer pages and better internal links rather than a rebuild. If the site truly blocks progress, for example a platform that cannot be crawled properly, we will say so in the plan and show the cost of fixing it against the cost of rebuilding. Our web team can do either."
+    },
+    {
+      "q": "Who writes the content, and who checks it?",
+      "a": "Our content team writes it and your Signal Lead reviews it before you see it. For regulated work we check every fact against a primary source: for law firms that means each statute, deadline and court reference. You approve anything that goes live under your name, and we keep a record of what changed and when."
+    },
+    {
+      "q": "Do you only work with companies in the cities listed?",
+      "a": "No. The listed cities are the ones we focus on, but we also work with companies elsewhere in the US, the UK, the UAE and Pakistan. Everything is run remotely from our London head office, with meeting times that suit your working day."
+    },
+    {
+      "q": "What do we need to give you to start?",
+      "a": "Access to Google Search Console, analytics and your Google Business Profile if you have one, plus a login or a developer contact for the website. We also ask for a short list of your best customers and the services you most want to sell. That is enough to start the first round of testing."
+    }
+  ],
+  "related": [
+    "/services/web-app-development",
+    "/services/paid-media",
+    "/services/video-motion",
+    "/industries/professional-services",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "seo and geo services",
+    "secondary": [
+      "generative engine optimization",
+      "geo agency",
+      "ai seo agency",
+      "llm optimization agency",
+      "seo services",
+      "google ai overviews optimization"
+    ]
+  }
+}

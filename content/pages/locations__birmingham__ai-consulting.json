@@ -1,0 +1,138 @@
+{
+  "path": "/locations/birmingham/ai-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consultancy Birmingham: Plan, Pilot, Build | 22 Signals",
+  "description": "AI consultancy for Birmingham manufacturers, law firms, clinics and logistics firms: find where AI pays off, plan it under UK GDPR, then build the pilot.",
+  "eyebrow": "AI Consultancy in Birmingham",
+  "h1": "AI consultancy Birmingham businesses can act on, not another experiment",
+  "intro": "Our AI consultancy helps established Birmingham businesses decide where AI is worth the money, then plan and build it. We review your processes and data, rank use cases by value and effort, set governance that meets UK GDPR and ICO guidance, and deliver a working pilot. Manufacturers, professional firms, clinics and logistics operators get a plan their teams can actually run.",
+  "sections": [
+    {
+      "h": "The problem: lots of AI talk, little that changes the week",
+      "p": [
+        "Most Birmingham leadership teams we speak to have already tried something. A few licences for a chat assistant, a pilot that a supplier pitched, a staff member who automated their own inbox. Some of it helps. Very little of it touches the work that eats the most hours: quoting, checking documents, chasing information between systems, writing the same reports every month.",
+        "The gap is rarely the technology. It is knowing which problems are worth solving first, what data you have to solve them with, and what the risks are under UK data protection law. That is what an AI consultancy should answer before anyone spends on a build."
+      ]
+    },
+    {
+      "h": "What our AI consultancy covers",
+      "list": [
+        "AI readiness review: your processes, systems, data quality and the skills already in the team.",
+        "Use-case discovery: a ranked list of opportunities, scored by value, effort and risk, not by how impressive they sound.",
+        "AI roadmap: what to do in the next 90 days, the next six months and the next year, with owners and dates.",
+        "Tool and vendor selection: build or buy, which models and platforms, and what each costs to run.",
+        "AI policy, governance and data privacy: an acceptable-use policy, data protection impact assessments where needed, and rules for staff.",
+        "Pilot builds: one or two use cases taken from idea to a working tool your team uses.",
+        "Team training: practical sessions so people know what the tools can and cannot do."
+      ]
+    },
+    {
+      "h": "Where AI pays off in Birmingham's industries",
+      "p": [
+        "The best first use case depends heavily on what your business does. In Birmingham, the patterns we look for are different by sector."
+      ],
+      "list": [
+        "Automotive and advanced manufacturing suppliers: turning drawings, specs and past jobs into faster, more consistent quotes; summarising supplier and quality documents; spotting late orders before a car plant in Solihull or Castle Bromwich chases you.",
+        "Law, accountancy and insurance in the Colmore Business District: searching your own precedents and files with retrieval over company documents, drafting first-pass summaries, and keeping client confidentiality intact.",
+        "Healthcare and clinics, including the Edgbaston Medical Quarter: admin and booking assistants with human hand-off, and careful rules on what patient data an AI tool may see.",
+        "Logistics and distribution along the M6 and M42: exception reporting, email triage and customer updates that no longer need someone to copy data between systems.",
+        "Retail and Jewellery Quarter businesses: product descriptions, customer service replies and stock questions answered from your own catalogue."
+      ]
+    },
+    {
+      "h": "AI, UK GDPR and the ICO",
+      "p": [
+        "Any AI tool that touches personal data falls under UK GDPR and the Data Protection Act 2018. The ICO has published guidance on AI and data protection, and it expects a lawful basis, transparency with the people affected, and a data protection impact assessment where the risk is high. Decisions with legal or similarly significant effects on people need particular care, and in practice a human in the loop.",
+        "We build these checks into the plan rather than bolting them on. That means knowing where data goes when a model processes it, choosing providers and hosting regions that suit your clients, keeping logs, and writing a policy your staff can follow. For a Birmingham law firm that also means thinking about the SRA's confidentiality expectations; for a clinic, about patient records."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call, then interviews with the people who do the work, from the shop floor or front desk to finance.",
+        "Plan: a written readiness review and ranked roadmap, with costs, risks and every date in writing.",
+        "Build: we deliver the first pilot, test it with real users and real data, and measure the hours or errors it saves.",
+        "Grow: we expand what works, retire what does not, and train your people to run it."
+      ]
+    },
+    {
+      "h": "Proof: what we have built",
+      "p": [
+        "We have delivered more than 30 AI builds: custom AI tools, systems and automations for businesses that used to run the old way. That number matters because consultancy that never ships tends to produce slide decks. Our advice comes from having built and maintained the things we recommend, including retrieval tools, assistants with human hand-off and reporting systems."
+      ]
+    },
+    {
+      "h": "Working with us from Birmingham",
+      "p": [
+        "We are an AI consultancy Birmingham clients work with from our London head office, not one with a city-centre office here. We serve you from London, on the same clock, with calls in normal working hours. Euston to New Street is about 80 minutes, so for discovery workshops, where watching how a team actually works makes the difference, we come to your site when the project needs it.",
+        "Between visits, you get a weekly written update, shared documents you can see at any time, and one Signal Lead who owns the whole engagement."
+      ]
+    },
+    {
+      "h": "What an AI consultancy Birmingham project costs",
+      "p": [
+        "We do not publish prices because the scope varies a lot. The main cost factors are:"
+      ],
+      "list": [
+        "How many departments and processes the review covers.",
+        "The state of your data and how many systems hold it.",
+        "Whether you want a roadmap only, or a roadmap plus pilot builds.",
+        "Governance needs, such as impact assessments or sector rules.",
+        "How much training and on-site time in Birmingham is involved."
+      ]
+    },
+    {
+      "h": "Why 22 Signals, and what else we do",
+      "p": [
+        "Many AI consultancies stop at advice. We can carry a use case all the way through, because the same team also does AI automation, custom AI development, cloud and data engineering. If the answer for your Birmingham business is a better website, cleaner reporting in Power BI or a marketing system rather than AI, we will say so and we can build that too. Related services: AI automation, business intelligence and data analytics, and cloud consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI consultancy Birmingham firms hire actually deliver?",
+      "a": "From us, a written readiness review, a ranked list of use cases, a roadmap with dates and owners, governance documents, and usually a working pilot. The aim is that your team can see exactly what to do next, what it costs and what it saves, rather than a presentation about the future of AI."
+    },
+    {
+      "q": "Do you visit Birmingham sites for AI discovery?",
+      "a": "Yes, when the project needs it. For manufacturers and logistics operators in particular, seeing the process in person often reveals the best use case. We plan site visits into the scope. Most other work runs remotely from London, in the same time zone, with a weekly written update."
+    },
+    {
+      "q": "How do you keep AI projects compliant with UK GDPR?",
+      "a": "We map the personal data a tool will touch, confirm the lawful basis, run a data protection impact assessment where the risk is high, and keep a human in the loop for significant decisions. We follow ICO guidance on AI and choose model providers and hosting regions that match your data obligations."
+    },
+    {
+      "q": "We are a West Midlands manufacturer. Where should we start with AI?",
+      "a": "Usually with quoting, document handling or reporting, because they are repetitive, rule-based and easy to measure. A tool that drafts quotes from past jobs and specs, or flags late orders from your ERP, can save hours each week. We confirm the right starting point in the readiness review."
+    },
+    {
+      "q": "Will AI tools see our client or patient data?",
+      "a": "Only if the plan says so and the safeguards are in place. Many useful tools run on internal documents with personal data removed or restricted. Where personal data is needed, we limit access, use providers that do not train on your data, and keep records of what is processed and why."
+    },
+    {
+      "q": "Can you build what the roadmap recommends?",
+      "a": "Yes. We have delivered more than 30 AI builds, and the same team handles automation, custom AI development, cloud and data work. You can take the roadmap to another supplier if you prefer, but most clients have us build the first pilot so the plan is tested quickly."
+    },
+    {
+      "q": "How long does an AI readiness review take?",
+      "a": "It depends on how many teams and systems are involved. A focused review for one department is much shorter than a review across a multi-site Birmingham business. We give you a dated plan in the scope before we start, and every date agreed goes in writing."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/ai-consulting",
+    "/locations/birmingham/ai-automation",
+    "/locations/birmingham/business-intelligence",
+    "/locations/london/ai-consulting",
+    "/locations/manchester/ai-consulting"
+  ],
+  "keywords": {
+    "primary": "ai consultancy birmingham",
+    "secondary": ["ai consulting birmingham", "ai consultant birmingham", "ai strategy birmingham", "ai readiness review west midlands"]
+  }
+}

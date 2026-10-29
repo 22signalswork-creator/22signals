@@ -1,0 +1,135 @@
+{
+  "path": "/locations/new-york/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in New York, NY | 22 Signals",
+  "description": "AI consulting for New York companies in finance, media, healthcare and real estate: rank the uses that pay, set the rules, then build a working pilot.",
+  "eyebrow": "AI Consulting in New York",
+  "h1": "AI consulting for New York companies that want working tools, not demos",
+  "intro": "22 Signals offers the kind of AI consulting New York companies can put to work: a readiness review, use cases ranked by value and effort, a roadmap, vendor choices and governance that fits NYDFS and New York City hiring rules, then pilot builds your staff actually use. One Signal Lead runs it from London, with calls in your morning.",
+  "sections": [
+    {
+      "h": "Why AI plans stall inside New York firms",
+      "p": [
+        "Most New York companies already pay for some AI. It might be Copilot seats at a Midtown law firm, a chatbot contract at a media group, a ChatGPT Enterprise trial in a fund's research team, or a clever pilot someone built over a weekend. Access to tools is not the problem. The problem is that nobody owns three questions: where AI earns its place, which data it may touch, and who signs off when it goes wrong.",
+        "Regulated buyers feel this first. A bank or insurer licensed by the New York State Department of Financial Services cannot let client data drift into a public model, and an HR team in Hudson Yards cannot switch on an AI screening tool without thinking about Local Law 144. So projects pause at legal review and the budget gets spent on licenses nobody opens.",
+        "The AI consulting New York leaders tell us they want is narrower and more useful: a short list of uses that save hours or win revenue, a plan for the data behind them, and a pilot their own people can test."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "AI readiness review: your data, systems, skills and the AI tools you already pay for",
+        "Use-case discovery, ranked by value and effort, with the owner and the number each one should move",
+        "An AI roadmap in plain language that a managing partner, CFO or board can approve",
+        "Tool and vendor selection, build versus buy, including when Microsoft Copilot, ChatGPT Enterprise, Claude or a custom build fits best",
+        "AI policy, governance and data privacy rules written for your regulators and your clients' contracts",
+        "Pilot builds on the top one or two use cases, tested with real staff on real work",
+        "Team training so the people using the tools know what to trust and what to check"
+      ]
+    },
+    {
+      "h": "New York rules that shape an AI roadmap",
+      "p": [
+        "Three sets of rules come up in almost every New York engagement, and we design around them from the first week rather than discovering them at sign-off.",
+        "The SHIELD Act requires any business that holds private information about New York residents to keep reasonable administrative, technical and physical safeguards. Sending that information to an AI vendor is part of the duty, so the roadmap names what each tool may see.",
+        "NYDFS Part 500 applies to banks, insurers and other firms licensed by the Department. Its final requirements took effect in November 2025, including multi-factor authentication for anyone accessing information systems and a complete asset inventory. An AI tool is one more system on that inventory, and its supplier is a third-party service provider you must assess. The Department has also published guidance on AI-related cybersecurity risk.",
+        "Local Law 144 covers employers and agencies that use automated employment decision tools for jobs in the city. It requires an independent bias audit within the past year, a public summary of results and notice to candidates.",
+        "We are not your lawyers. We write the plan so your counsel and compliance team can review it quickly and say yes or no with the facts in front of them."
+      ]
+    },
+    {
+      "h": "Where AI pays off across the city's industries",
+      "list": [
+        "Banking, asset management and insurance: research summaries, onboarding document checks and first drafts of client reports, each with an audit trail an examiner can follow",
+        "Media, publishing and advertising: archive search, transcript tagging, metadata and headline drafts, with editors keeping the final word",
+        "Fashion and beauty brands from the Garment District to SoHo: product copy at catalog scale, returns analysis and customer service triage",
+        "Hospitals and specialty practices: intake summaries, scheduling and prior authorization paperwork, with HIPAA limits set before any patient data moves",
+        "Real estate owners and brokers: lease abstraction, tenant request routing and portfolio reporting",
+        "Law firms and professional services: matter intake, research memos and document comparison"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: a short fit check, then interviews with the people who do the work, not only the people who approve it. Plan: we score every idea on value and effort, check it against your data and your rules, and agree a short list and dates in writing. Build: we ship pilots on the top uses and measure them against the number we agreed. Grow: we train the team, hand over documentation, and either step back or keep building the next items on the roadmap."
+      ]
+    },
+    {
+      "h": "Proof: what more than 30 AI builds taught us",
+      "p": [
+        "We have delivered more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. The pilots that survive share one trait. Each was tied to a figure someone already reported on, such as hours spent on intake or days to close a month, so the result was obvious without a slide deck. We bring that habit to every roadmap we write."
+      ]
+    },
+    {
+      "h": "Working with us from New York",
+      "p": [
+        "We work with New York companies remotely from London. Eastern Time runs five hours behind London for most of the year, and four hours for a few weeks in March and around the start of November, when the US and UK change their clocks on different dates. A 9:00 call in Manhattan is 14:00 for us, so your whole morning is shared working time, and anything we pick up after your lunch is often waiting for you the next day.",
+        "When a workshop or leadership session works better in a room, we come to New York when the project needs it. Every date we agree goes in writing."
+      ]
+    },
+    {
+      "h": "What AI consulting costs depends on",
+      "list": [
+        "How many teams and use cases are in scope",
+        "The state of your data and how many systems hold it",
+        "Regulatory scope, for example NYDFS Part 500, HIPAA or Local Law 144",
+        "Whether the right answer is buying a tool or building one",
+        "How many people need training, and in how many sessions",
+        "Whether pilots stop at a test or continue into full builds"
+      ]
+    },
+    {
+      "h": "Why New York firms choose 22 Signals for AI",
+      "p": [
+        "Most AI consultants hand over a roadmap and leave. We cover AI, cloud and data, and also marketing, video, animation and 3D, so the same team can build what the roadmap recommends. If the best first use is a sales assistant, we connect it to your CRM. If it needs a clean data layer, our business intelligence and cloud people build that. If it needs a launch video for staff, we make that too. Related services: AI automation, custom AI development, business intelligence and cloud consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in New York?",
+      "a": "No. Our head office is in London and our specialist teams work across four regions. We serve New York clients remotely, with calls in your morning, shared documents and a written schedule. When a workshop or a leadership session is better in person, we travel to New York when the project needs it."
+    },
+    {
+      "q": "How do you handle NYDFS Part 500 when recommending AI tools?",
+      "a": "We treat every AI tool as a new information system and every AI vendor as a third-party service provider. That means checking access controls, multi-factor authentication, data retention and where data is processed, then recording the tool in your asset inventory. Your CISO and compliance team get a short written assessment they can file or challenge before anything goes live."
+    },
+    {
+      "q": "Can you help with NYC Local Law 144 for AI hiring tools?",
+      "a": "Yes, up to the audit itself. We help you work out whether a tool counts as an automated employment decision tool, prepare the data an independent auditor will need, and draft candidate notices. The bias audit must be done by an independent auditor, so for tools we helped choose or build, that is not us."
+    },
+    {
+      "q": "Should we build our own AI tool or buy one?",
+      "a": "Buy when a mature product already does the job and your data can safely sit with that vendor. Build when the task depends on your own documents, your workflow or rules no product supports. Many New York firms end up with both: an enterprise assistant for general work and one or two custom tools for the tasks that make them money."
+    },
+    {
+      "q": "What does AI consulting in New York cost with 22 Signals?",
+      "a": "It depends on scope, not on a rate card. The main factors are the number of use cases, the condition of your data, your regulatory obligations, whether we build pilots, and how much training you need. After a 15-minute call we can tell you which of those apply and send a written proposal."
+    },
+    {
+      "q": "Will meetings work across the time difference?",
+      "a": "Yes. New York is usually five hours behind London, so a call between 9:00 and 13:00 Eastern falls inside our working afternoon. Most clients keep one weekly call and use written updates for the rest. Work handed over late in your day is often done by the next morning."
+    },
+    {
+      "q": "Which industries in New York do you work with on AI?",
+      "a": "Mostly established companies with 5 to 500 staff in financial services, media, fashion and beauty, healthcare, real estate, law and professional services, plus technology and SaaS firms. We also work with founders, but our process is built for companies with real data, real staff and something to lose if AI goes wrong."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/ai-consulting",
+    "/locations/new-york/ai-automation",
+    "/locations/new-york/business-intelligence",
+    "/locations/new-york/cloud-consulting",
+    "/united-states"
+  ],
+  "keywords": {
+    "primary": "ai consulting new york",
+    "secondary": ["ai consultant new york", "ai consulting firm nyc", "ai strategy consulting new york", "nydfs ai guidance"]
+  }
+}

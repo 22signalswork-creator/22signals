@@ -1,0 +1,127 @@
+{
+  "path": "/locations/houston/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Houston",
+  "citySlug": "houston",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Houston, TX | 22 Signals",
+  "description": "Web development for Houston companies: fast, bilingual-ready sites, redesigns that keep your rankings, client portals and secure patient or customer forms.",
+  "eyebrow": "Web Development in Houston",
+  "h1": "Web development for Houston businesses",
+  "intro": "22 Signals handles web development Houston companies need when the current site is slow, hard to update or losing leads. We build and redesign websites, move them without losing rankings, add client portals and secure forms, and look after them afterwards. Built for established firms in healthcare, energy services, law, construction and real estate.",
+  "sections": [
+    {
+      "h": "Signs your website is holding you back",
+      "p": [
+        "A lot of Houston business websites were built for a different decade. The energy services firm still has a 2014 site that shows equipment nobody sells any more. The specialty clinic in Bellaire has a contact form that emails a shared inbox no one checks on weekends. The contractor in Katy has project photos buried three clicks deep. The law firm Downtown has a fast homepage and practice pages that take six seconds to load on a phone.",
+        "None of these problems need a fancy redesign to diagnose. They need someone to look at how visitors actually arrive, what they try to do and where they give up. Then they need a team that can fix it without breaking search rankings that took years to earn."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "New websites and full redesigns on WordPress, Webflow, headless CMS setups or custom code, chosen to suit who will edit the site.",
+        "Migrations from old platforms that keep URLs, redirects and search rankings intact.",
+        "Content management that lets your marketing team update pages without calling a developer.",
+        "E-commerce for distributors and retailers, including trade pricing and account logins.",
+        "Client portals for documents, messages and payments.",
+        "Website care: updates, backups, uptime monitoring and security checks every month."
+      ]
+    },
+    {
+      "h": "What Houston sites need that others may not",
+      "list": [
+        "English and Spanish versions that are written, not machine translated, for clinics, law firms and home services that serve Houston's large Spanish-speaking population.",
+        "Location pages for the areas customers actually search by, such as Sugar Land, The Woodlands, Katy, Pearland and Clear Lake, each with real content rather than swapped names.",
+        "Secure intake and patient forms for Texas Medical Center practices, built on HIPAA-ready form tools instead of plain email.",
+        "Project portfolios and careers pages for engineering and construction firms competing to hire engineers in a tight market.",
+        "A simple way to post storm closures and service updates during hurricane season, from a phone, in a minute.",
+        "Privacy notices and consent tools that reflect the Texas Data Privacy and Security Act, including honoring opt-out signals for targeted advertising."
+      ]
+    },
+    {
+      "h": "Who we build for in Houston",
+      "p": [
+        "Most of our web development Houston clients are established businesses with a site that has to earn its keep. An oilfield equipment supplier wants distributors to find spec sheets and request quotes without phoning. A dental group with clinics in Cypress and Pearland wants each location to book its own appointments. A personal injury firm wants intake that works at 2 a.m. on a phone. A commercial real estate team in Uptown wants listings that update from their database instead of by hand. Different goals, same rule: the site is measured by enquiries and booked work, not by how it looks in a design review."
+      ]
+    },
+    {
+      "h": "Accessibility and security",
+      "p": [
+        "Website accessibility lawsuits under the Americans with Disabilities Act are filed against businesses every year, and Texas firms are not exempt. We build to WCAG 2.2 AA as standard: proper headings, alt text, keyboard navigation, readable contrast and forms that work with screen readers. It also makes the site easier for everyone else to use.",
+        "On security, we keep plugins to a minimum, put sites behind a web application firewall, enforce strong logins for editors and keep tested backups. Too many small and mid-sized Houston businesses only discover their site was compromised when Google flags it."
+      ]
+    },
+    {
+      "h": "How we run a web project",
+      "list": [
+        "Talk: we look at your current site, analytics and leads, and agree what the new site must achieve.",
+        "Plan: sitemap, page templates, content plan, redirect map and launch date, all in writing.",
+        "Build: design, development and content, reviewed in stages on a staging site you can click through.",
+        "Grow: launch, monitoring of rankings and conversions, then ongoing care and improvements."
+      ]
+    },
+    {
+      "h": "An example from our work",
+      "p": [
+        "For a US law firm we built a client portal where clients can see their documents, upload files and make payments, instead of chasing staff by email and phone. The same pattern suits a Houston engineering consultancy sharing reports with clients, a property manager collecting payments, or a practice sharing paperwork with patients."
+      ]
+    },
+    {
+      "h": "Working with us from Houston",
+      "p": [
+        "Our team works with Houston clients remotely from London. We are six hours ahead of Central Time, so a morning review call in Houston lands in our afternoon, and changes requested at the end of your day are often live by the time you are back. Launches are scheduled for the quietest hour on your site, which is usually our morning and your night. Your Signal Lead manages the project from start to launch and stays your contact for care afterwards. If a photo shoot or workshop in Houston would help, we arrange it when the project needs it."
+      ]
+    },
+    {
+      "h": "What a website costs",
+      "p": [
+        "Every quote is based on scope. For web development, Houston projects vary most with:"
+      ],
+      "list": [
+        "Number of page templates and pages to write or move.",
+        "Languages: English only, or English and Spanish.",
+        "Integrations such as CRM, booking, payments or a client portal.",
+        "How much content we write, photograph or film for you.",
+        "Migration complexity, especially for sites with years of ranking pages.",
+        "Ongoing care and support after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for your site",
+      "p": [
+        "A website is only as good as the traffic and content behind it. We can build it, write it, film it, rank it and run the ads that send people to it, all with one accountable lead. That is unusual for web development: Houston firms often juggle a designer, a developer, an SEO agency and a video company. Related services include SEO and GEO, paid media, app development and video for Houston businesses."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will we lose our Google rankings if we redesign?",
+      "a": "Not if the migration is planned properly. We map every existing URL to its new home, set up permanent redirects, keep the content that ranks, and check search console data before and after launch. Most ranking drops after a redesign come from skipped redirects or deleted pages. We treat the redirect map as a launch blocker."
+    },
+    {
+      "q": "Can you build a bilingual English and Spanish website?",
+      "a": "Yes. We set up proper language versions with the right technical tags so Google shows the correct one, and we have pages written or reviewed by fluent speakers rather than run through a translation tool. For Houston clinics, law firms and service companies, a real Spanish version often brings in calls the English site never did."
+    },
+    {
+      "q": "Do you work with Houston businesses in person?",
+      "a": "We work remotely from London, with calls during your morning and progress you can check on a staging site any time. For things like a photo shoot at your office or a team workshop, we arrange an on-site visit when the project needs it. We do not have a Houston office."
+    },
+    {
+      "q": "Which platform should our website use?",
+      "a": "It depends on who will edit it and what it must do. WordPress suits teams that want flexibility and lots of content. Webflow suits design-led sites with a small marketing team. Custom builds make sense for portals or complex integrations. We recommend after seeing your content, your team and your plans."
+    },
+    {
+      "q": "Can our medical practice take patient forms online safely?",
+      "a": "Yes, using form tools that support HIPAA and sign a business associate agreement, with submissions stored securely rather than sent by plain email. We also keep tracking scripts off pages where patients enter health details, which matters given federal scrutiny of tracking pixels on healthcare websites."
+    },
+    {
+      "q": "How long does a new website take?",
+      "a": "A typical site for an established Houston company takes eight to fourteen weeks from kickoff to launch, depending on pages, languages and integrations. Content is usually the slowest part, so we start writing early. Every milestone date is agreed in writing at the plan stage, and we tell you as soon as anything threatens it."
+    }
+  ],
+  "related": ["/locations/houston", "/services/web-app-development", "/locations/houston/seo-geo", "/locations/houston/app-development", "/locations/austin/web-development"],
+  "keywords": { "primary": "web development houston", "secondary": ["web design houston", "website development company houston", "houston web developer", "website redesign houston"] }
+}

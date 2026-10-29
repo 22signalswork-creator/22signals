@@ -1,0 +1,130 @@
+{
+  "path": "/locations/new-york/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence Consulting in New York | 22 Signals",
+  "description": "Business intelligence consulting for New York firms: one set of numbers in Power BI, Looker Studio or Tableau, refreshed before the morning meeting.",
+  "eyebrow": "Business Intelligence and Data Analytics in New York",
+  "h1": "Business intelligence consulting for New York companies that need one version of the numbers",
+  "intro": "22 Signals provides business intelligence consulting for established New York companies: we agree the KPIs, connect your finance, CRM and operating systems into one warehouse, and build dashboards in Power BI, Looker Studio or Tableau that refresh overnight. Leaders open accurate numbers at 8:00 Eastern instead of waiting for someone to rebuild a spreadsheet.",
+  "sections": [
+    {
+      "h": "The Monday morning spreadsheet problem",
+      "p": [
+        "In many New York companies the weekly numbers still arrive as a spreadsheet someone stitched together on Sunday night. Finance pulls from the accounting system, sales from Salesforce, operations from a property or practice system, and marketing from three ad platforms. Each total is slightly different, so the first twenty minutes of the meeting go on arguing about which one is right.",
+        "The cost is not only the analyst's weekend. Decisions get made on last month's data, and nobody trusts a figure enough to act on it fast. The business intelligence consulting New York leaders tell us they need is less about prettier charts and more about a single, checked source that everyone agrees to use.",
+        "So we start small. The business intelligence consulting New York companies hire us for usually begins with the five to ten numbers the leadership team reviews every week, each defined once, sourced once and checked against the books, before a single extra chart is added. Breadth comes later, once people trust the core."
+      ]
+    },
+    {
+      "h": "What the service includes",
+      "list": [
+        "Data strategy and KPI design: which numbers matter, how each one is defined, and who owns it",
+        "A warehouse and pipelines that pull from finance, CRM, ERP, ad platforms and industry systems",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who will open them",
+        "Automated reporting: scheduled emails and board packs that build themselves",
+        "Forecasting for revenue, cash, occupancy or demand, with the assumptions written down",
+        "Data quality checks that flag missing or odd figures before a dashboard shows them"
+      ]
+    },
+    {
+      "h": "What New York industries measure",
+      "list": [
+        "Asset managers, lenders and insurers: AUM and flows, loan pipeline, claims ageing and the controls evidence that Part 500 examiners ask for",
+        "Commercial and residential real estate: occupancy, rent roll, arrears, capital projects and energy data for Local Law 97 emissions limits on larger buildings",
+        "Fashion and beauty brands: sell-through by retailer and by store, margin after returns, and stock that needs marking down before the season turns",
+        "Media and publishing: subscriptions, churn, ad yield and content performance by section",
+        "Hospitals, clinics and specialty practices: schedule fill, referral sources, payer mix and claim denials",
+        "Law firms and professional services: utilization, realization, matter profitability and intake by source"
+      ]
+    },
+    {
+      "h": "Access control and privacy, built in",
+      "p": [
+        "Dashboards make data easier to see, which also makes it easier to see the wrong data. We set row-level security so a regional manager sees their region and a partner sees their matters. For firms supervised by NYDFS, access follows the least-privilege rules in Part 500, and the BI platform and warehouse join your asset inventory with multi-factor authentication switched on.",
+        "Where dashboards hold personal information about New York residents, such as patients, tenants or policyholders, the SHIELD Act's reasonable safeguards apply. We keep identifying fields out of reporting layers unless someone has a clear need, and we record who can see what."
+      ]
+    },
+    {
+      "h": "Questions to ask any BI consultant before you sign",
+      "list": [
+        "Will they define the KPIs with us, or just draw the charts we describe?",
+        "Who owns the warehouse and the logins when the project ends?",
+        "Can they connect our industry system, not only the common ones?",
+        "How will they prove the dashboard total matches the ledger?",
+        "Who fixes a broken refresh at 7:00 Eastern on a board day?"
+      ]
+    },
+    {
+      "h": "How a BI project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we meet the people who use the numbers and collect the reports they already trust. Plan: we write a KPI dictionary, map every source, and agree the first dashboards and their dates in writing. Build: we set up the warehouse and pipelines, reconcile totals against your books, then release dashboards one team at a time. Grow: we train your staff, add forecasting once the history is clean, and keep the pipelines healthy if you want us to."
+      ]
+    },
+    {
+      "h": "Proof and how we work from London",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and reporting is part of almost every engagement, from monthly SEO reports to operating dashboards. We work with New York companies remotely from London. Because London is five hours ahead for most of the year, data refreshes and checks run while Manhattan sleeps, and a person on our side has reviewed the overnight load before your first meeting. Weekly reviews sit in your morning. We visit New York when the project needs it."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "How many data sources, and how clean and well documented they are",
+        "How many dashboards, audiences and KPIs are in the first release",
+        "Whether you need forecasting or only reporting",
+        "Security needs such as row-level security, NYDFS controls or HIPAA",
+        "Your platform choice and existing licenses",
+        "Whether we maintain the pipelines after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Our BI team works next to our AI, cloud and marketing teams. That means the warehouse we build can feed an AI assistant later, your ad spend data arrives already joined to revenue, and the cloud setup underneath is done by the same people. If Microsoft is your standard, see Power BI consulting. If the data plumbing is the real problem, see data engineering. If you want AI on top of the numbers, see AI consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which BI tool do New York companies usually pick?",
+      "a": "Firms already on Microsoft 365, which includes most New York finance and law firms, usually choose Power BI because licensing and sign-in are simpler. Google Workspace companies often start with Looker Studio. Tableau suits teams with heavy analysis needs or existing licenses. We recommend based on your stack, not on our preference."
+    },
+    {
+      "q": "Can you connect industry systems like Yardi, MRI or practice management software?",
+      "a": "Usually, yes. We have connected accounting, CRM, ad and practice systems through APIs, scheduled exports or database connections. Some real estate and healthcare systems limit access, so we check what your license allows during planning and tell you plainly if a source needs a workaround."
+    },
+    {
+      "q": "How do you make sure dashboard numbers are right?",
+      "a": "We reconcile every key total against the system of record, usually the ledger, before release, and build automated checks that flag gaps or unusual changes after launch. Each KPI has a written definition and an owner, so when a figure looks odd, people know where to look and who to ask."
+    },
+    {
+      "q": "Do NYDFS rules affect a BI project?",
+      "a": "If you are licensed by the Department, yes. Your warehouse and BI tool are information systems under Part 500, so they need multi-factor authentication, access limited to need, logging and a place in your asset inventory. We set those up from the start and document them for your CISO."
+    },
+    {
+      "q": "What does business intelligence consulting in New York cost?",
+      "a": "It depends on the number of sources, dashboards and users, the security you need, and whether we maintain the system afterwards. We do not publish prices. After a 15-minute call we can describe the likely scope and send a written proposal with dates."
+    },
+    {
+      "q": "Will our team be able to run it without you?",
+      "a": "Yes, if you want that. You own the warehouse, the dashboards and every login. We train your staff, write a short runbook for the pipelines, and hand over the KPI dictionary. Some clients keep us on to maintain and extend it; others run it themselves."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/new-york/ai-consulting",
+    "/locations/chicago/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence consulting new york",
+    "secondary": ["data analytics consulting new york", "power bi consultant nyc", "bi consulting new york", "dashboard consulting nyc"]
+  }
+}

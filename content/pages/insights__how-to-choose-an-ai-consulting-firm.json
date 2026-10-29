@@ -1,0 +1,152 @@
+{
+  "path": "/insights/how-to-choose-an-ai-consulting-firm",
+  "kind": "guide",
+  "region": "global",
+  "author": "Daniyal Mansur",
+  "datePublished": "2026-10-29",
+  "title": "How to Choose an AI Consulting Firm: 2026 Checklist | 22 Signals",
+  "description": "How to choose an AI consulting firm: a practical checklist, the questions to ask on the first call, red flags, and a simple way to compare proposals.",
+  "eyebrow": "Guide: choosing a partner",
+  "h1": "How to choose an AI consulting firm: a practical checklist",
+  "intro": "To choose an AI consulting firm, check four things. They start from your business problem, not a favorite tool. They can show systems they built that are still running. They put scope, dates and data rules in writing. And the people on the first call are the people who will do the work.",
+  "sections": [
+    {
+      "h": "What should a good AI consulting firm deliver?",
+      "p": [
+        "Most advice on how to choose an AI consulting firm starts with credentials and logos. We start with the outcome. Before comparing firms, be clear on the outcome you are buying. A useful engagement ends with decisions and working software, not a slide deck. At minimum you should come away with a ranked list of use cases, a roadmap with owners and dates, written rules on which tools and data are approved, and at least one pilot your staff use on real work.",
+        "If a firm cannot describe its deliverables in those concrete terms on the first call, it will struggle to describe them in a contract. That is the first filter, and it removes more candidates than you might expect."
+      ]
+    },
+    {
+      "h": "The checklist: how to choose an AI consulting firm",
+      "p": [
+        "Score each firm you speak to against these ten points. Anyone who fails three or more is not a fit, however polished the pitch."
+      ],
+      "list": [
+        "Problem first: their opening questions are about your processes, data and goals, not about a product they resell.",
+        "Builds as well as advises: they can show working systems, not only strategy documents.",
+        "Relevant examples: they have done similar work in your industry or on a similar process, and can describe it without naming clients they should not name.",
+        "A named lead: one person accountable for the engagement, with authority to make calls and fix problems.",
+        "Written scope: deliverables, dates, assumptions and what is out of scope, all in the proposal.",
+        "Data rules: a clear position on where your data goes, which providers process it and how long it is kept.",
+        "Measures agreed up front: the numbers the pilot must move, chosen before the build starts.",
+        "Vendor neutrality: they will recommend an off-the-shelf tool when it fits, even if it means less work for them.",
+        "Handover plan: documentation, training and access so you are not locked in when the engagement ends.",
+        "Honest limits: they will tell you which ideas on your list are not worth doing."
+      ]
+    },
+    {
+      "h": "What questions should you ask on the first call?",
+      "p": [
+        "The first call is where you learn the most for the least effort. These are the questions we would ask in your seat, with what a strong answer sounds like."
+      ],
+      "list": [
+        "\"What would you need to see before recommending anything?\" A strong answer names specific systems, data exports and people to interview.",
+        "\"Show me something you built that is still in use.\" Look for a live tool, a screen share or a detailed walkthrough, not a mockup.",
+        "\"Who exactly will work on this, and are they on this call?\" You want names and roles, not a promise of a team to be assigned later.",
+        "\"How do you decide between building and buying?\" Good firms describe criteria such as data sensitivity, running cost and how often the task changes.",
+        "\"Where does our data go during the pilot?\" Expect specifics: which model provider, which region, what is retained and for how long.",
+        "\"What will we have at the end of the first phase?\" The answer should be a list of deliverables you could check off.",
+        "\"How do you measure success?\" Listen for your own numbers (hours, response times, error rates), not vague talk of efficiency.",
+        "\"What happens when the model gets something wrong?\" Good answers cover human review, fallbacks and logging.",
+        "\"Which of our ideas would you not do?\" A firm that agrees with everything is selling, not advising.",
+        "\"What do you need from us, and how much of our time?\" Realistic firms ask for a named owner and regular access to the people who do the work.",
+        "\"How do you price, and what changes the price?\" You want the cost factors explained before you see a number.",
+        "\"What happens if the pilot does not hit its targets?\" Look for a plan to learn, adjust or stop, not an automatic second phase."
+      ]
+    },
+    {
+      "h": "Which red flags should end the conversation?",
+      "list": [
+        "Promises of a fixed percentage saving before they have seen your operation.",
+        "A recommendation for a specific platform on the first call, especially one they have a reseller arrangement with.",
+        "Senior people in the sales meeting and unnamed juniors on the delivery.",
+        "No written position on data privacy, or an answer that amounts to \"the AI provider handles that\".",
+        "Case studies with no detail on what was built, who used it or what changed.",
+        "Contracts that commit you to a long build before any discovery has happened.",
+        "Pressure to sign quickly because of a discount or a closing slot."
+      ]
+    },
+    {
+      "h": "Should you pick a strategy-only firm or one that also builds?",
+      "p": [
+        "Strategy-only firms can be excellent at framing the problem and getting leadership aligned. The risk is the handover. A second team has to learn your business again, and the assumptions in the roadmap meet real data for the first time without the people who made them.",
+        "Firms that both advise and build carry the same context from discovery into delivery. The risk there is bias toward building, so test their neutrality: ask for an example where they told a client to buy a tool instead.",
+        "For most established companies with 5 to 500 staff, a firm that does both is the more practical choice, because the first pilot should start within weeks of the roadmap, not after a second procurement round."
+      ]
+    },
+    {
+      "h": "How do you compare AI consulting proposals side by side?",
+      "p": [
+        "Put every proposal into the same simple grid so the comparison is about substance, not formatting. Score each row from one to five."
+      ],
+      "list": [
+        "Understanding: does the proposal describe your problem in your words, with details from the call?",
+        "Deliverables: are outputs specific and checkable, with dates?",
+        "Team: are the people named, and do their backgrounds fit the work?",
+        "Data and governance: is there a written approach to privacy, security and model providers?",
+        "Measures: are the success numbers stated and tied to your operation?",
+        "Exit: will you own the code, prompts, documentation and accounts at the end?",
+        "Cost clarity: is it clear what is fixed, what is variable and what would change the price?"
+      ]
+    },
+    {
+      "h": "What should you check about data, privacy and governance?",
+      "p": [
+        "This is where weak firms are easiest to spot. Ask for their standard AI usage policy, even as a template. Ask which model providers they work with and whether business terms prevent your data being used for training. Ask how access is controlled when a tool reads from your CRM, document store or inbox.",
+        "If you handle health records, legal files or financial data, ask how they have handled that category before and which rules applied. You are not looking for a lecture on regulation. You are looking for evidence they have built within those limits and know where the edges are."
+      ]
+    },
+    {
+      "h": "Large consultancy, specialist firm or independent consultant?",
+      "p": [
+        "Large consultancies bring scale, brand comfort for a board and deep benches for enterprise programs. They are usually priced and staffed for long engagements, and smaller companies can end up with junior teams.",
+        "Specialist firms tend to put senior people on smaller engagements and move faster from plan to pilot. Check that they have the range you need, since AI work often touches cloud, data, integrations and staff training at once.",
+        "Independent consultants can be sharp and flexible, but one person rarely covers strategy, data, development and change management. They work best when you already have a build team and need an experienced adviser on top."
+      ]
+    },
+    {
+      "h": "How we answer these questions ourselves",
+      "p": [
+        "We hold ourselves to the same list. At 22 Signals every engagement has one accountable lead, the Signal Lead, with specialist teams behind them, and every date we agree goes in writing. We advise and build, and we have shipped more than 30 AI builds for businesses that used to run the old way. If you want to test us against this checklist, book a 15-minute call and ask us the questions above."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the most important factor when choosing an AI consulting firm?",
+      "a": "Evidence that they build things that work in production. Plenty of firms can talk about AI; fewer can show a tool that staff use every day and explain what it changed. Ask for a live walkthrough of something they built, who uses it, and what they would do differently next time. That one request filters out most weak candidates."
+    },
+    {
+      "q": "How many AI consulting firms should I talk to?",
+      "a": "Three to five is usually enough. Fewer gives you nothing to compare against; more turns selection into a project of its own. Use the same first-call questions with each firm, ask for proposals in a similar format, and score them on the same grid so the decision rests on substance rather than presentation."
+    },
+    {
+      "q": "Should an AI consulting firm be tied to one platform?",
+      "a": "Not for advisory work. A firm with a strong preference for one platform may still be good, but you should know about any reseller or partner arrangement up front. The safest sign is a firm that can explain when it would recommend a competitor's product, and that has examples of doing exactly that for a client."
+    },
+    {
+      "q": "Do I need an AI consulting firm with experience in my industry?",
+      "a": "It helps, but process experience matters more. A firm that has automated intake, document review or reporting for a similar business will spot the hard parts quickly, even in a different sector. Where regulation is heavy, such as healthcare, legal or finance, prior work under the same rules is worth more than general industry familiarity."
+    },
+    {
+      "q": "What should be in an AI consulting contract?",
+      "a": "Deliverables with dates, named roles, assumptions, out-of-scope items, how changes are priced, data handling terms, ownership of code and prompts, confidentiality, and what happens at the end, including handover of documentation and account access. If any of these are missing from the proposal, ask for them in writing before you sign."
+    },
+    {
+      "q": "How do I know if an AI consultant is any good after hiring them?",
+      "a": "Within the first few weeks you should see interviews with your staff, a clear picture of your data and a ranked use-case list you can challenge. If the work stays abstract, with no specifics about your systems or processes, raise it early. Good consultants welcome the push and adjust; weak ones produce more slides."
+    }
+  ],
+  "related": [
+    "/services/ai-consulting",
+    "/services/custom-ai-development",
+    "/services/ai-automation",
+    "/insights/what-is-ai-consulting",
+    "/insights/ai-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "how to choose an ai consulting firm",
+    "secondary": ["questions to ask an ai consultant", "ai consulting firm checklist", "choosing an ai consultant", "ai consulting company selection"]
+  }
+}

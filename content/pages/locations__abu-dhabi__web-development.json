@@ -1,0 +1,140 @@
+{
+  "path": "/locations/abu-dhabi/web-development",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Abu Dhabi",
+  "citySlug": "abu-dhabi",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Abu Dhabi | 22 Signals",
+  "description": "Web development for Abu Dhabi organisations: bilingual Arabic and English sites, client portals, migrations that keep rankings, and security care after launch.",
+  "eyebrow": "Web Development in Abu Dhabi",
+  "h1": "Web development for Abu Dhabi organisations, in Arabic and English",
+  "intro": "We design and build websites, client portals and e-commerce for Abu Dhabi organisations, with Arabic and English treated as equals from the first wireframe. Sites are built to rank in Google, load quickly on mobile, pass procurement and security checks, and keep their search traffic when you move from an old platform.",
+  "sections": [
+    {
+      "h": "What goes wrong with websites in the capital",
+      "p": [
+        "These patterns are common. An English site with an Arabic version added later, where the right-to-left layout breaks on mobile and half the pages were never translated. A redesign that looked good but lost years of Google rankings because nobody mapped the old addresses. A WordPress site that has not been updated in two years and now shows up on a client's security scan.",
+        "For organisations that work with government entities, large employers or international partners, the website is often the first thing a procurement officer or investor checks. It has to look established and work properly in both languages."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Corporate websites and redesigns with full Arabic and English versions",
+        "Migrations from old platforms that keep rankings, with every URL redirected",
+        "Content management systems your team can update in both languages",
+        "E-commerce for retail, hospitality and lifestyle brands",
+        "Client and supplier portals with secure documents, forms and payments",
+        "Booking flows for clinics, tours, classes and events",
+        "Website care: updates, backups, security monitoring and fixes"
+      ]
+    },
+    {
+      "h": "Bilingual done properly",
+      "p": [
+        "Arabic is not a translation layer. Right-to-left layout flips navigation, icons, forms and carousels, and Arabic type needs its own sizes and line heights to read comfortably. We design both directions together and test them on real phones.",
+        "Search matters too. Each language gets its own URLs and hreflang tags so Google shows the right version, and page titles and descriptions are written for how people actually search in each language, not machine-translated. Native speakers review Arabic copy before anything goes live."
+      ]
+    },
+    {
+      "h": "Sites we build for Abu Dhabi sectors",
+      "p": [
+        "Contractors and service companies supplying the energy sector want a credible corporate site with capability statements, certifications they actually hold, project pages and a clean supplier contact route. Clinics need doctor profiles, insurance information and online booking that connects to their system. Advisory and investment firms on Al Maryah Island want restrained, fast sites with clear regulatory disclosures.",
+        "Hotels, galleries, tour operators and event organisers drawing visitors to Saadiyat Island, Yas Island and the Corniche need booking, multilingual content and pages that work for tourists searching from abroad. Schools and training centres need admissions information parents can find quickly in either language."
+      ]
+    },
+    {
+      "h": "Speed, accessibility and procurement checks",
+      "p": [
+        "Large Abu Dhabi organisations and the entities they supply often review a vendor's website before a meeting, and some run automated security or accessibility scans. We build to pass them: current software versions, HTTPS everywhere, security headers, accessible contrast and keyboard navigation, and image handling that keeps pages fast on mobile data.",
+        "We also keep the plugin and dependency list short. Every extra plugin is one more thing to patch, so we only add what the site genuinely needs and document why each one is there."
+      ]
+    },
+    {
+      "h": "Portals, logins and data",
+      "p": [
+        "Many projects here include a logged-in area: a client portal, a supplier registration flow or a patient area. These collect personal data, so we design to the UAE PDPL, or to the ADGM Data Protection Regulations for firms licensed there, with consent records, access logs and hosting in a UAE cloud region where required.",
+        "Some organisations want sign-in through UAE PASS, the national digital identity. Integration is available to approved service providers, so we confirm eligibility with you before we plan around it."
+      ]
+    },
+    {
+      "h": "How the build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: what the site must achieve, who uses it and in which language. Plan: sitemap in both languages, redirect map for existing pages, designs and a written schedule. Build: development, content entry, testing on devices and browsers, accessibility and speed checks. Grow: SEO, website care and improvements based on how people use the site.",
+        "Your Signal Lead runs the project from start to finish, with designers, developers, Arabic and English writers and SEO specialists behind them. Agreed dates are written down."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We built a client portal with secure documents and payments for a US law firm, and we have cleaned up compromised law-firm websites and kept them secure afterwards. The same discipline goes into every portal and every care plan we run."
+      ]
+    },
+    {
+      "h": "Working with us from London",
+      "p": [
+        "Our web development, Abu Dhabi projects included, runs remotely from London. Reviews happen in the overlap between London and Gulf Standard Time, which is 4 hours ahead in winter and 3 in summer, and you see progress on a staging site you can open any time. If a content workshop or a launch day needs us in the room, we come to Abu Dhabi when the project needs it. We have no office in the UAE."
+      ]
+    },
+    {
+      "h": "What drives cost",
+      "list": [
+        "Number of page templates and the volume of content in each language",
+        "Whether we write or adapt the Arabic and English copy",
+        "Migration size and the number of URLs to redirect",
+        "Portals, logins, payments and system integrations",
+        "Hosting and data residency needs",
+        "Ongoing care and support after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should web development in Abu Dhabi include?",
+      "a": "For web development, Abu Dhabi organisations should expect full Arabic and English versions with correct right-to-left layout, separate URLs per language for search, fast mobile pages, secure forms that follow UAE data law, and a redirect plan if an old site exists. Care and security updates after launch matter just as much as the build."
+    },
+    {
+      "q": "Will we lose Google rankings if we redesign?",
+      "a": "Not if the migration is planned. We crawl the current site, map every old address to its new one, keep the content that ranks, and monitor rankings and errors after launch. Most ranking losses come from skipped redirects, which is why the redirect map is a deliverable in our plan."
+    },
+    {
+      "q": "Can you build an Arabic and English site from scratch?",
+      "a": "Yes. We design both languages together, with right-to-left layouts tested on phones and native-speaker review of Arabic copy. Each language has its own URLs and metadata so it can rank on its own. Your team can edit both versions in the content management system."
+    },
+    {
+      "q": "Can our website integrate UAE PASS?",
+      "a": "UAE PASS sign-in is available to approved service providers. If your organisation is eligible, we can build the integration into a portal or service. If not, we design a secure standard login. We check eligibility with you at the start so the plan does not depend on something you cannot use."
+    },
+    {
+      "q": "Do you build websites for government suppliers in Abu Dhabi?",
+      "a": "Yes. Suppliers and contractors to Abu Dhabi entities often need a site that presents capabilities clearly in Arabic and English, passes a basic security scan and loads quickly for reviewers. We build that, and we only list certifications, approvals and project references you can prove, because procurement teams check."
+    },
+    {
+      "q": "Where will our website be hosted?",
+      "a": "It depends on the data it handles. A marketing site can sit on a fast global host. Portals that store personal or health data are usually better hosted in a UAE cloud region. We recommend hosting based on your licence, your clients' requirements and the data involved."
+    },
+    {
+      "q": "Do you look after the site after launch?",
+      "a": "Yes. Website care covers updates, backups, uptime and security monitoring, and fixes when something breaks. Web development Abu Dhabi organisations buy from us can also roll into monthly SEO and content, so the site keeps improving rather than ageing until the next redesign."
+    }
+  ],
+  "related": [
+    "/locations/abu-dhabi",
+    "/services/web-app-development",
+    "/locations/abu-dhabi/seo-geo",
+    "/locations/abu-dhabi/app-development",
+    "/locations/dubai/web-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development abu dhabi",
+    "secondary": [
+      "web design abu dhabi",
+      "website development abu dhabi",
+      "arabic website development",
+      "web development company abu dhabi"
+    ]
+  }
+}

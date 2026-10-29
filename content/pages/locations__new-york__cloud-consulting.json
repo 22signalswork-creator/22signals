@@ -1,0 +1,129 @@
+{
+  "path": "/locations/new-york/cloud-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in New York: AWS, Azure, GCP | 22 Signals",
+  "description": "Cloud consulting for New York companies on AWS, Azure and Google Cloud: secure architecture, NYDFS-ready access controls, monitoring and lower bills.",
+  "eyebrow": "Cloud Consulting in New York",
+  "h1": "Cloud consulting for New York companies on AWS, Azure and Google Cloud",
+  "intro": "22 Signals provides the cloud consulting New York companies can show their auditors, for established firms running on AWS, Azure or Google Cloud. We design the architecture, lock down access, set up monitoring and review the bill, then run it for you if you want. The result is a cloud setup your auditors can follow and your finance team can predict.",
+  "sections": [
+    {
+      "h": "The cloud estate most New York firms inherit",
+      "p": [
+        "Few New York companies planned their cloud. It grew. A developer opened an AWS account for a product in 2016, an acquisition brought an Azure tenant, marketing runs a site on a separate host, and somewhere there is a server in a closet in a Midtown building that nobody wants to switch off. Each piece works. Together they are hard to secure, hard to audit and expensive.",
+        "For regulated firms the stakes are higher. A broker-dealer, insurer or lender licensed in the state has to show NYDFS who can reach what, how fast it would detect an incident, and how it manages its vendors. A tangled estate makes every one of those answers slower. The cloud consulting New York firms need starts with a clear map, not a migration pitch."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Architecture reviews and designs on AWS, Microsoft Azure and Google Cloud",
+        "Identity, security and access control: single sign-on, multi-factor authentication, least-privilege roles and logging",
+        "Network design, backups and disaster recovery that has actually been tested",
+        "Monitoring and alerting so problems reach a person before they reach a customer",
+        "Cost reviews: idle resources, oversized instances, storage tiers and commitment discounts",
+        "Managed cloud operations: patching, changes, incident response and monthly reporting"
+      ]
+    },
+    {
+      "h": "NYDFS Part 500 and the SHIELD Act, in cloud terms",
+      "p": [
+        "If you are licensed by the Department of Financial Services, Part 500 is the rulebook your cloud has to meet. Since November 2025 that includes multi-factor authentication for anyone accessing your information systems, a maintained asset inventory, limits on privileged access, encryption of nonpublic information, and a 72-hour window to notify the Department of a qualifying cybersecurity incident. Your cloud provider is a third-party service provider, and so are we.",
+        "Outside financial services, the SHIELD Act still applies to any business holding private information about New York residents. It asks for reasonable safeguards, and in the cloud that means encryption, access reviews, logging and a tested response plan.",
+        "We translate each control into concrete settings, apply them, and give your compliance team a document that maps the requirement to the configuration."
+      ]
+    },
+    {
+      "h": "Cloud work we see across New York sectors",
+      "list": [
+        "Financial services in Midtown and Lower Manhattan: segmented accounts, privileged access workstations and evidence for annual certification",
+        "Media and streaming: storage and content delivery for large video libraries, with egress costs under control",
+        "Healthcare and health tech: HIPAA-eligible services, signed business associate agreements and audit logging",
+        "Real estate and proptech: tenant apps, building data and integrations with property systems",
+        "Fashion and e-commerce: traffic spikes around drops and Fashion Week, with autoscaling that does not double the bill",
+        "Law firms: document systems and client portals with tight access and full audit trails"
+      ]
+    },
+    {
+      "h": "Proof: cleaning up after attackers",
+      "p": [
+        "Part of our cloud and security work has been cleaning up compromised law-firm websites: finding how attackers got in, removing what they left, closing the gap and putting monitoring in place so it does not happen quietly again. That work shapes how we design new setups. We assume someone will try the door, and build so that a single stolen password does not open everything."
+      ]
+    },
+    {
+      "h": "How we run it: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a call to understand your estate, your regulators and what worries you most",
+        "Plan: an inventory of accounts, workloads, identities and costs, with risks ranked and dates agreed in writing",
+        "Build: fix the highest risks first, then rebuild the architecture in stages so nothing goes dark",
+        "Grow: monitoring, monthly cost reviews and managed operations if you want us to keep running it"
+      ]
+    },
+    {
+      "h": "Working with us from New York",
+      "p": [
+        "We work with New York companies remotely from London. Eastern Time is five hours behind London for most of the year, which suits cloud operations well. Maintenance windows that fall at 2:00 in Manhattan land in our working morning, so changes happen while your systems are quiet and with an engineer awake and watching. Alerts that fire before New York wakes up reach a person in London who can act.",
+        "Most AWS, Azure and Google Cloud workloads for New York companies run in US East regions in Virginia or Ohio, which keeps latency low for your users. Most of the cloud consulting New York clients ask us for is review and hardening work, which runs well remotely: we need read-only access to start, a list of system owners and a weekly call, not a desk in your building. Reviews and planning calls sit in your morning. We visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What cloud consulting costs depends on",
+      "list": [
+        "How many accounts, subscriptions and workloads you run",
+        "Your compliance scope: NYDFS, HIPAA, SOC 2 evidence or client audits",
+        "Whether you need a one-off review, a rebuild, or ongoing managed operations",
+        "How much existing documentation there is",
+        "Support hours and response times you need"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud consulting in New York",
+      "p": [
+        "We are not tied to one provider, so our advice on AWS versus Azure versus Google Cloud is about your workloads, not a partner quota. And because the same team builds AI tools, data pipelines, websites and apps, the cloud we design is ready for what you will run on it next. Related services: cloud migration, DevOps consulting, data engineering and web development."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you help us meet NYDFS Part 500 in the cloud?",
+      "a": "Yes. We map each Part 500 requirement that touches your cloud, such as multi-factor authentication, access privileges, asset inventory, encryption, logging and incident response, to specific settings, apply them, and document the result. Your CISO keeps responsibility for the program and the annual filing; we give them the evidence and the working controls."
+    },
+    {
+      "q": "AWS, Azure or Google Cloud: which is best for a New York company?",
+      "a": "It depends on what you already run. Firms deep in Microsoft 365 often find Azure simplest for identity and licensing. Product companies and media firms often prefer AWS for its range of services. Google Cloud is strong for data and analytics. Many clients use two. We recommend from your workloads and contracts."
+    },
+    {
+      "q": "Do you provide on-site support in New York?",
+      "a": "We work remotely from London, and nearly all cloud work is remote by nature. For a data center visit, a hardware decommission or a workshop with your leadership, we can come to New York when the project needs it, and we will agree that in writing at the plan stage."
+    },
+    {
+      "q": "How do you cut our cloud bill without risking uptime?",
+      "a": "We start with waste that carries no risk: idle resources, unattached storage, oversized test environments. Then we right-size busy systems using real usage data, move cold data to lower-cost storage tiers and buy commitments only for steady workloads. Every change has a rollback plan and is scheduled outside your busy hours."
+    },
+    {
+      "q": "What happens if something breaks overnight in New York?",
+      "a": "If we manage your cloud, monitoring sends alerts to an engineer. Because London is ahead of New York, the early hours in Manhattan are working hours for us, so many issues are fixed before your team logs in. We agree response times and escalation contacts in writing."
+    },
+    {
+      "q": "How much does cloud consulting in New York cost?",
+      "a": "Cost depends on the size of your estate, your compliance obligations, and whether you want a review, a rebuild or ongoing management. We do not publish prices. A 15-minute call is enough to tell you which of those apply and what a sensible first step would be."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/new-york/ai-consulting",
+    "/locations/dallas/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "cloud consulting new york",
+    "secondary": ["cloud consultant nyc", "aws consulting new york", "azure consulting new york", "nydfs cloud security"]
+  }
+}

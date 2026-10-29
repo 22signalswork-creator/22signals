@@ -1,0 +1,135 @@
+{
+  "path": "/locations/miami/business-intelligence",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Miami",
+  "citySlug": "miami",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence in Miami, FL | 22 Signals",
+  "description": "Business intelligence and data analytics for Miami firms: one set of numbers across sales, operations and finance, in Power BI, Looker Studio or Tableau.",
+  "eyebrow": "Business Intelligence and Data Analytics in Miami",
+  "h1": "Business intelligence for Miami companies that are tired of arguing about numbers",
+  "intro": "Our business intelligence and data analytics work gives established Miami companies one trusted set of numbers. We design the KPIs, connect your CRM, finance and operations data, and build dashboards in Power BI, Looker Studio or Tableau. Developers, hotel groups, trade firms and clinics use them to see revenue, margin and demand each morning without a spreadsheet hunt.",
+  "sections": [
+    {
+      "h": "The problem: five reports, five different answers",
+      "p": [
+        "Ask a Miami leadership team how last month went and you often get several versions of the truth. Sales has a CRM export, finance has QuickBooks or NetSuite, operations has a shared sheet, and marketing has an ad dashboard that counts leads differently from everyone else. Monday meetings turn into debates about whose number is right.",
+        "Business intelligence fixes the plumbing, not just the charts. We agree what each number means, pull it from the system that owns it, and refresh it automatically. The search for business intelligence Miami teams run usually starts with a dashboard request. The value comes from the definitions and data work underneath."
+      ]
+    },
+    {
+      "h": "What's included",
+      "list": [
+        "Data strategy and KPI design: the ten or so numbers leadership actually steers by, defined in writing",
+        "Data warehouse and pipelines that bring CRM, accounting, booking, ad and operations data together",
+        "Dashboards in Power BI, Looker Studio or Tableau, built for the people who read them",
+        "Automated reporting: weekly and monthly packs sent without anyone building them by hand",
+        "Forecasting for sales, occupancy, demand and cash, with the assumptions written down",
+        "Data quality checks that flag missing or duplicate records before they reach a report"
+      ]
+    },
+    {
+      "h": "The questions Miami industries want answered",
+      "p": [
+        "The business intelligence Miami companies need looks different from what a Chicago or Dallas firm needs, because the economy is different. These are the dashboards we would build first."
+      ],
+      "list": [
+        "Property developers and brokerages: pre-construction sales by tower and floor, reservation-to-contract conversion, buyer origin by country, and broker channel performance",
+        "Hotels and hospitality groups: occupancy, average daily rate and revenue per available room across properties, with the winter high season and event weeks shown clearly",
+        "Trade and logistics firms: volume and margin by lane to Latin America and the Caribbean, customer profitability, and exposure to currency swings in pesos or reais",
+        "Finance, crypto and fintech companies in Brickell: product KPIs, investor and board reporting, and compliance metrics with tight access rules",
+        "Clinics and aesthetics practices: cost per new patient by channel and language, consult-to-treatment rates, and provider utilization",
+        "Fashion and beauty brands: sell-through by product and channel, return rates, and the real return on influencer and paid social spend"
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we ask what decisions you make each week and which numbers you do not trust. That shapes everything after.",
+        "Plan: we list your data sources, write KPI definitions, choose the tool, and agree the first dashboards with dates in writing.",
+        "Build: we connect the sources, model the data, build the dashboards and check every figure against a number your finance team already trusts.",
+        "Grow: we train your team, add new reports as questions come up, and keep the pipelines healthy as your systems change."
+      ]
+    },
+    {
+      "h": "Seasonality, events and the Miami calendar",
+      "p": [
+        "Few US cities swing as much through the year. Tourism and hospitality peak in the winter months, Art Basel Miami Beach fills December, and hurricane season from June to November can pause construction, shipping and travel. A forecast that ignores those patterns is wrong before it starts.",
+        "We build the calendar into the model: prior-year comparisons by week, event flags, and scenario views so a developer or hotel group can see what a storm delay or a slow season does to cash. Leadership gets a plain view of risk, not just a trend line. For a developer selling a tower to buyers in five countries, that view shows which months carry the most deposit risk and which broker channels are worth more attention before the season turns."
+      ]
+    },
+    {
+      "h": "Bilingual data and Latin American operations",
+      "p": [
+        "Many Miami companies sell to or source from Latin America, so their data comes in mixed currencies, mixed languages and mixed date formats. Customer names, product descriptions and notes might be in English, Spanish or Portuguese.",
+        "We standardize currencies at agreed rates, clean up text fields, and label dashboards for the people who read them. If your Bogotá or São Paulo team needs reports in Spanish, we plan that from the start rather than translating at the end."
+      ]
+    },
+    {
+      "h": "Proof we can point to",
+      "p": [
+        "Over $1.5 million in projects managed means we have seen what happens when budgets, timelines and reporting are not joined up. We bring that discipline to every business intelligence Miami client: every figure traced to its source, every definition written down."
+      ]
+    },
+    {
+      "h": "Working with us from Miami",
+      "p": [
+        "Our head office is in London, and we work with Miami companies remotely. London is five hours ahead, so data jobs can run and be checked before your team logs on, and review calls sit in your morning.",
+        "A typical business intelligence Miami engagement has one owner: your Signal Lead, who is accountable for delivery. Analysts, data engineers and dashboard designers work behind them. If your finance team prefers a session in person in Brickell or Coral Gables, we arrange a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "p": [
+        "We price business intelligence work for Miami companies by scope rather than by the hour. The main drivers are:"
+      ],
+      "list": [
+        "Number of data sources and how clean they are",
+        "Whether you need a data warehouse or can report from existing systems",
+        "How many dashboards and audiences there are",
+        "Forecasting and scenario models",
+        "Licensing for Power BI, Tableau or cloud data tools, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a Miami company use Power BI, Looker Studio or Tableau?",
+      "a": "It depends on what you already run. If you are on Microsoft 365, Power BI is usually the natural choice. Looker Studio suits teams living in Google Workspace and Google Ads. Tableau fits companies with a data team and complex analysis. We recommend one in the planning stage and explain why in writing."
+    },
+    {
+      "q": "Can you build reports for our Latin American offices too?",
+      "a": "Yes. We handle multiple currencies, Spanish and Portuguese text fields, and access rules so each office sees its own numbers while head office in Miami sees everything. Dashboards can be labeled in Spanish where that helps the people reading them."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "For most mid-sized companies, the first useful dashboard arrives within a few weeks of planning, once data access is sorted. Larger warehouse projects take longer. We set the dates during planning, put them in writing, and show work in progress so you are never waiting for a big reveal."
+    },
+    {
+      "q": "Do you work with Miami companies in person?",
+      "a": "We deliver remotely from London, five hours ahead of Miami, with calls in your morning. Most BI work happens on screen anyway. When a workshop or handover would go better in a room, for example with your finance team, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How do you keep financial and patient data secure?",
+      "a": "We use role-based access, so people only see what their job needs, and keep sensitive data in approved systems. Florida's Information Protection Act requires breach notice within 30 days, so we keep access logs and remove accounts promptly. Healthcare data is handled with your compliance team's rules in place from day one."
+    },
+    {
+      "q": "Can you forecast around hurricane season?",
+      "a": "We can model it as scenarios. Using your history, we show what a delay of one, two or four weeks does to sales, occupancy or shipping volume and cash. It is not a weather forecast; it is a way to see your exposure and plan buffers before the season starts."
+    }
+  ],
+  "related": [
+    "/locations/miami",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/miami/ai-consulting",
+    "/locations/houston/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence miami",
+    "secondary": ["data analytics miami", "power bi consultant miami", "bi consulting miami", "data analytics consulting miami"]
+  }
+}

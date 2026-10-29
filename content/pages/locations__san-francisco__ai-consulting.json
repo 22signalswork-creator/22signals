@@ -1,0 +1,128 @@
+{
+  "path": "/locations/san-francisco/ai-consulting",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in San Francisco, CA | 22 Signals",
+  "description": "AI consulting for San Francisco companies that already use AI: pick the pilots worth finishing, set CCPA-ready rules, and get them into production.",
+  "eyebrow": "AI Consulting in San Francisco",
+  "h1": "AI consulting for San Francisco teams that already use AI",
+  "intro": "Our AI consulting helps San Francisco companies that already use ChatGPT, Claude or Copilot turn scattered pilots into tools people rely on. We review what you have, rank the next use cases by value and effort, write the data and privacy rules California expects, and build the pilots that earn a real budget.",
+  "sections": [
+    {
+      "h": "The problem: plenty of AI, very little finished",
+      "p": [
+        "In the Bay Area the first 80% of an AI project is easy to start. Your engineers have compared three model providers, sales has a prompt library, and someone built an agent over a weekend. The last 20% is where it stalls. The tool needs live data it cannot reach. Nobody has measured how often it is wrong. Legal has questions about customer data. The person who built it has moved on.",
+        "That last stretch is the job, and it is most of what we do in AI consulting. San Francisco firms rarely need a lecture on what a model is. They need help deciding which experiments deserve to become systems, which ones to switch off, and what has to be true before anything touches a customer."
+      ]
+    },
+    {
+      "h": "What AI consulting San Francisco teams get from us",
+      "list": [
+        "AI readiness review: which tools are in use, who pays for them, where company data goes and who can see it.",
+        "Use-case discovery ranked by value and effort, with a named owner and a measure of success for each one.",
+        "An AI roadmap for the next two to four quarters, tied to budget and hiring plans.",
+        "Tool and vendor selection: build or buy, and when a model provider's own product is enough.",
+        "AI policy, governance and data privacy, written for California rules and your customer contracts.",
+        "Pilot builds with an evaluation set, so you know the error rate before launch, not after.",
+        "Training by role, so finance, support and sales each learn what is useful to them."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we interview the people who will use the tools and the people who will be blamed if they go wrong, usually ops, security, legal and a product lead. Plan: we write the ranked use-case list and the rules, and agree dates in writing. Build: we ship one or two pilots with your data, in your cloud, behind your login. Grow: we measure them against the success line we set, then expand what works and retire what does not."
+      ]
+    },
+    {
+      "h": "Industries we work with in San Francisco",
+      "list": [
+        "SaaS and AI companies in SoMa: AI features customers will pay for, evaluation before release, and pricing that covers model costs.",
+        "Fintech and lenders in the Financial District: explainable decisions, audit trails, and care with anything that touches credit.",
+        "Biotech and health companies in Mission Bay and South San Francisco: search across papers, protocols and internal documents without exposing patient data.",
+        "Law firms, accountants and consultancies: drafting, research and knowledge retrieval that keeps client confidentiality intact.",
+        "Hardware and enterprise firms on the Peninsula and in the South Bay: support assistants trained on manuals, tickets and release notes."
+      ]
+    },
+    {
+      "h": "California rules your AI plan has to respect",
+      "p": [
+        "The California Consumer Privacy Act, as amended by the CPRA, already covers most data that AI tools read. On top of it, the California Privacy Protection Agency has finalized rules on automated decision-making technology, risk assessments and cybersecurity audits. If AI informs decisions about jobs, lending, housing, healthcare or education, those rules can mean notices, opt-outs and written risk assessments.",
+        "Health data adds the Confidentiality of Medical Information Act alongside HIPAA. We write your AI policy and data map with these in view, then hand them to your counsel. We are consultants, not lawyers, and we say so."
+      ]
+    },
+    {
+      "h": "Proof from our AI work",
+      "p": [
+        "We have shipped more than 30 AI builds: custom tools, systems and automations for businesses that used to run the old way. The lesson we carry into every Bay Area engagement is simple: the pilots that survive are the ones with an owner, live data and a number that says whether they work."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. London is usually eight hours ahead, so a 9 a.m. call in the city is 5 p.m. for us. Workshops run in that morning window, and written reviews, drafts and pilot code arrive in your shared channel overnight. If a workshop works better in person, we plan a visit when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many teams and tools the review covers.",
+        "Whether you want advice only, or advice plus pilot builds.",
+        "How clean and reachable your data is.",
+        "Security and legal review cycles on your side.",
+        "Training scope: one team or the whole company."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for AI consulting",
+      "p": [
+        "One accountable lead, the Signal Lead, owns the engagement, with specialists in AI, cloud and data behind them. Because the same company also runs marketing and video, the plan does not stop at the internal tool: if a pilot becomes a product feature, we can help with the launch page, the demo video and the ads. Related work we do for Bay Area clients includes AI automation, custom AI development, cloud consulting and business intelligence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "We already pay for ChatGPT Enterprise. Why would we need AI consulting?",
+      "a": "Because licenses are not the same as results. Most San Francisco teams we speak to have tools everywhere and no shared view of what works. We find the three or four uses that matter, connect them to the right data, measure them and write the rules, so the spend turns into work that gets done faster and checked properly."
+    },
+    {
+      "q": "Do you have AI consultants based in San Francisco?",
+      "a": "No. We work from London with teams across four regions, and keep live meetings in the Pacific morning, which is late afternoon in London. Reviews and pilot code move forward while the Bay Area sleeps. When a workshop works better face to face, we plan a visit for it."
+    },
+    {
+      "q": "How do you handle the CCPA and the new automated decision-making rules?",
+      "a": "We map which AI uses touch personal data and which ones help make significant decisions about people. Those get notices, opt-out routes and a written risk assessment drafted for your counsel. Everything else gets a lighter data policy. We are not a law firm, but we make your lawyer's review short."
+    },
+    {
+      "q": "Can you work with our engineering team rather than replace it?",
+      "a": "Yes. Most of our Bay Area AI consulting clients have strong engineers who are busy shipping the core product. We take the evaluation sets, data plumbing and governance they have no time for, and hand everything back documented, in your repository and your cloud account."
+    },
+    {
+      "q": "Which AI models and providers do you work with?",
+      "a": "We work with OpenAI, Anthropic and Google models, plus open models you host yourself when data must stay inside your cloud. We choose per use case on accuracy, cost, speed and data terms, and we test candidates against your own examples before recommending one."
+    },
+    {
+      "q": "How long does an AI readiness review take?",
+      "a": "It depends on how many teams, tools and data sources are involved. A single department is quicker than a whole company. After the first call we send a written scope with dates, and we keep to them. If something slips on our side, you hear it from the Signal Lead first."
+    },
+    {
+      "q": "What does AI consulting cost for a San Francisco company?",
+      "a": "It depends on scope: how many teams the review covers, whether pilots are included, the state of your data and how long your security review takes. We do not publish prices. We write a fixed scope after a 15-minute call, so you know the cost before work starts."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/ai-consulting",
+    "/locations/san-francisco/ai-automation",
+    "/locations/los-angeles/ai-consulting",
+    "/locations/california",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "ai consulting san francisco",
+    "secondary": ["ai consultant san francisco", "ai consulting bay area", "ai strategy consulting san francisco", "generative ai consulting san francisco"]
+  }
+}

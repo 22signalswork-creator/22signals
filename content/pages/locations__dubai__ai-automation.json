@@ -1,0 +1,138 @@
+{
+  "path": "/locations/dubai/ai-automation",
+  "kind": "location-service",
+  "region": "uae",
+  "city": "Dubai",
+  "citySlug": "dubai",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Agency for Dubai Businesses | 22 Signals",
+  "description": "An AI automation agency for Dubai firms: WhatsApp enquiries routed, bookings made, invoices read and reports written, with a person on hand when it matters.",
+  "eyebrow": "AI Automation in Dubai",
+  "h1": "An AI automation agency for Dubai's busiest inboxes",
+  "intro": "We build AI automations for Dubai companies that are drowning in WhatsApp messages, portal leads, supplier documents and daily reports. The tools answer, sort, book and write up the routine work in English and Arabic, sync it to your CRM, and pass anything sensitive or unusual to a person on your staff.",
+  "sections": [
+    {
+      "h": "The work that piles up in a Dubai business",
+      "p": [
+        "Walk through almost any Dubai company at 9am and you will find the same backlog. A brokerage has forty WhatsApp enquiries from overnight, half of them asking the same three questions about payment plans. A restaurant group has reservation requests spread across Instagram, WhatsApp and a booking widget. A freight forwarder near Jebel Ali has a sales coordinator retyping invoice lines into a spreadsheet. A retail chain has a manager in every mall sending sales figures by message so someone at head office can paste them together.",
+        "None of this needs a person's judgement most of the time. All of it eats the hours of people you hired for their judgement."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "WhatsApp Business API flows that answer common questions, capture details and book viewings, tables or appointments.",
+        "Lead routing from property portals, ad forms and your website into the CRM, with the right agent notified.",
+        "Document reading for invoices, purchase orders, packing lists and trade licences, with checks before anything is posted.",
+        "Workflow automation across email, CRM and spreadsheets, so data is entered once.",
+        "Research and reporting systems that write the daily or weekly summary your managers actually read.",
+        "Internal tools and dashboards for teams who currently run on shared spreadsheets.",
+        "AI assistants with a clear human hand-off, so a frustrated or high-value customer reaches a person quickly."
+      ]
+    },
+    {
+      "h": "Examples built for how Dubai works",
+      "p": [
+        "These are the kinds of automations Dubai companies ask us about most. Each one is scoped to your systems and your rules."
+      ],
+      "list": [
+        "A brokerage assistant that replies on WhatsApp within a minute, asks budget, area and timeline, then books a callback with the agent covering Dubai Marina or Downtown.",
+        "A hotel pre-arrival flow that confirms airport transfers, collects preferences and hands special requests to the front office.",
+        "A trading company workflow that reads supplier invoices in English or Arabic, matches them to purchase orders and flags differences in AED or USD before payment.",
+        "A clinic booking flow that offers slots, sends reminders and keeps every clinical question with qualified staff.",
+        "A sales report that pulls figures from point-of-sale systems across several malls and posts a short summary to the leadership chat each morning."
+      ]
+    },
+    {
+      "h": "Why WhatsApp sits at the centre",
+      "p": [
+        "In Dubai, customers message before they call and often before they fill in a form. Automations that ignore WhatsApp miss most of the conversation. We build on the official WhatsApp Business API rather than unofficial tools that get numbers banned, and we keep broadcast messages within WhatsApp's policies and the customer's opt-in.",
+        "Every conversation lands in your CRM, whether that is HubSpot, Zoho, Salesforce or Odoo, so your team sees the full history before they reply.",
+        "Language matters too. A single Dubai inbox might hold messages in English, Arabic, Hindi and Russian on the same morning. We set the assistant to reply in the customer's language where it can do so reliably, and to route the rest to a colleague who speaks it, rather than guessing."
+      ]
+    },
+    {
+      "h": "How we keep automation safe under UAE data rules",
+      "p": [
+        "Automations handle personal data all day, so the UAE PDPL applies to most of what we build for onshore companies, and the DIFC Data Protection Law applies to firms licensed there. We record what each automation collects, keep only what is needed, store data in the region your policy requires and log every action so it can be reviewed.",
+        "Anything high-stakes, such as a refund, a medical question, a pricing exception or an angry customer, goes to a named person. The AI drafts, the person decides."
+      ]
+    },
+    {
+      "h": "From first call to live automation",
+      "list": [
+        "Talk: we look at your inbox, your CRM and the hours your team spends on each task.",
+        "Plan: we pick the automation with the clearest payback and write the scope, the hand-off rules and the dates.",
+        "Build: we build and test with your real messages and documents, in English and Arabic where needed.",
+        "Grow: we watch the results, tune the replies and add the next workflow once the first is earning its keep."
+      ]
+    },
+    {
+      "h": "One result we can point to",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself, covering prospect research, sequencing, replies and CRM updates. We run our own pipeline on the same kind of automation we sell, which is the most honest test we know. If you are judging an AI automation agency, Dubai or elsewhere, ask to see the system it runs on itself."
+      ]
+    },
+    {
+      "h": "Working with a London team from Dubai",
+      "p": [
+        "We serve Dubai businesses from London, on-site when the project needs it. Gulf Standard Time sits four hours ahead of London in winter and three in summer, which leaves plenty of shared working hours from Monday to Friday. Testing a WhatsApp flow does not need anyone in the room, but mapping a warehouse or a front desk sometimes does, and we plan those visits in the scope when they add value."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "How many channels are involved: WhatsApp, email, web chat, portals.",
+        "How many systems we connect, and whether they have usable APIs.",
+        "Languages, and how much Arabic the flows must handle.",
+        "Volume of messages or documents per day.",
+        "How much ongoing tuning and support you want after launch."
+      ]
+    },
+    {
+      "h": "Choosing an AI automation agency: Dubai questions worth asking",
+      "p": [
+        "Ask any AI automation agency Dubai companies shortlist three things. Does it build on the official WhatsApp API? Who takes over when the AI should not answer? Will the same team also fix the landing page and ads that feed the inbox? We say yes to all three, because our team also covers web development, paid media and AI consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an AI automation agency do?",
+      "a": "An AI automation agency builds software that takes over repetitive work: answering routine messages, entering data, reading documents, booking appointments and writing reports. Good automations hand the unusual cases to a person. We scope each one around a measurable saving, such as hours per week or response time, and agree that target before we build."
+    },
+    {
+      "q": "Can you automate WhatsApp for a Dubai business?",
+      "a": "Yes. We build on the WhatsApp Business API, connect it to your CRM and set up AI replies, booking flows and lead capture. Broadcasts stay within WhatsApp's policies and your customers' opt-in. A person can take over any conversation at any time, and the full history stays visible to your staff."
+    },
+    {
+      "q": "Will the automations work in Arabic?",
+      "a": "They can handle Arabic and English messages and documents. Accuracy depends on dialect, handwriting and document quality, so we test with your real material before going live. Customer-facing Arabic replies are reviewed and approved by your team or a translator you choose during setup, and we monitor them after launch."
+    },
+    {
+      "q": "Is customer data safe under the UAE PDPL?",
+      "a": "We design for it. Each automation collects only the data it needs, stores it in the region your policy requires and keeps a log of what it did. For DIFC firms we follow the DIFC Data Protection Law. We also agree retention periods with you and leave the legal sign-off to your adviser."
+    },
+    {
+      "q": "Do you need to visit our Dubai premises?",
+      "a": "Usually not. Most automation work happens over video and screen share during shared GST and London hours. If understanding the process means seeing a warehouse floor, a clinic reception or a sales gallery in person, we plan a visit and include it in the written scope from the start."
+    },
+    {
+      "q": "How quickly can a first automation go live?",
+      "a": "A focused first automation, such as a WhatsApp enquiry flow connected to your CRM, often goes live within a few weeks. Timing depends on WhatsApp account approval, how clean your CRM is and how many approvals your side needs. We agree each date in writing at the start of the project."
+    }
+  ],
+  "related": [
+    "/locations/dubai",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/dubai/ai-consulting",
+    "/locations/abu-dhabi/ai-automation",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "ai automation agency dubai",
+    "secondary": ["ai agency dubai", "ai automation dubai", "whatsapp automation dubai", "ai automation company"]
+  }
+}

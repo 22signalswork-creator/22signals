@@ -1,0 +1,137 @@
+{
+  "path": "/locations/manchester/ai-consulting",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Manchester",
+  "citySlug": "manchester",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consultancy Manchester: Roadmap to Pilot | 22 Signals",
+  "description": "AI consultancy Manchester firms can act on: rank AI uses by value, set UK GDPR-safe rules, then pilot the first build. Run from London, in person as needed.",
+  "eyebrow": "AI Consultancy in Manchester",
+  "h1": "AI consultancy Manchester companies can act on, not just read",
+  "intro": "Our AI consultancy helps established Manchester companies work out where AI will genuinely save time or money, then plan and pilot it safely. We review your data and processes, rank the use cases by value and effort, write the roadmap and AI policy, and build the first pilot. Delivered from London, with meetings in UK hours.",
+  "sections": [
+    {
+      "h": "The problem: everyone has tried ChatGPT, nobody owns AI",
+      "p": [
+        "In many established Manchester businesses, AI already exists in a scattered way. A paralegal in Spinningfields pastes clauses into a chatbot. Marketing uses an image generator. Finance has heard Copilot can write board papers. None of it is planned, measured or covered by a policy, and the directors are uneasy about what client data is going where.",
+        "What these firms need is not another demo. They need someone to look at the business as it really runs, pick the two or three places where AI pays back, and make it safe to use."
+      ]
+    },
+    {
+      "h": "What our AI consultancy covers",
+      "list": [
+        "AI readiness review: your data, systems, people and appetite for change.",
+        "Use-case discovery, ranked by value and effort, so the shortlist is a business decision rather than a hunch.",
+        "An AI roadmap with owners, costs to estimate and dates in writing.",
+        "Tool and vendor selection, including the honest build-versus-buy call on Copilot, ChatGPT Enterprise, Gemini or a custom build.",
+        "AI policy, governance and data privacy rules your staff can actually follow.",
+        "A pilot build on one use case, measured against a baseline.",
+        "Team training so the pilot is used after we leave."
+      ]
+    },
+    {
+      "h": "AI consultancy Manchester sectors can put to work first",
+      "p": [
+        "Manchester's mix of industries means the right first AI project varies a lot from one company to the next. A few patterns we see:"
+      ],
+      "list": [
+        "Law, accountancy and insurance firms around Spinningfields: document review, first-draft letters, matter summaries and searchable knowledge, with strict rules on client confidentiality.",
+        "Media and production companies near MediaCityUK: transcription, logging footage, rights and metadata, and research for development teams.",
+        "Online fashion and beauty retailers: product descriptions at volume, customer service triage and returns analysis.",
+        "Manufacturers in Trafford Park and across Greater Manchester: reading supplier documents, quoting, and maintenance notes turned into searchable knowledge.",
+        "Health and life sciences organisations on the Oxford Road Corridor: literature search and admin automation, kept well away from clinical decisions unless the governance is in place."
+      ]
+    },
+    {
+      "h": "UK GDPR, the ICO and AI",
+      "p": [
+        "At the time of writing, the UK has no single AI statute in force. Instead, regulators apply the rules they already enforce, and for most Manchester firms that means UK GDPR and the Data Protection Act 2018. The ICO, headquartered down the road in Wilmslow, publishes detailed guidance on AI and data protection, including fairness, transparency and the safeguards around automated decisions about people.",
+        "We build your AI policy and roadmap around that guidance. If a use case touches personal data, we say whether you need a data protection impact assessment, where the data will be processed, and what the vendor contract must say. Financial firms regulated by the FCA get the same treatment with their own rules layered on top. We are not lawyers, so we work with your legal adviser for sign-off."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to check fit, then a short discovery session with the people who do the work.",
+        "Plan: the readiness review, ranked use cases and roadmap, agreed and written down with dates.",
+        "Build: one pilot, with a baseline measured first so the result is a number, not an opinion.",
+        "Grow: roll out what worked, retire what did not, and train the next group of staff."
+      ]
+    },
+    {
+      "h": "Proof from our own work",
+      "p": [
+        "We have delivered more than 30 AI builds: custom AI tools, systems and automations for businesses that used to run the old way. That matters for consultancy because our roadmaps are written by people who have built the thing, so the estimates and risks in them come from experience rather than vendor brochures. When you compare AI consultancy, Manchester suppliers included, ask each one which of its recommendations it has built and run itself, and ask to see the measured result. It is the quickest way to separate advisers from builders."
+      ]
+    },
+    {
+      "h": "Working with us from Manchester",
+      "p": [
+        "We are based in London and have no Manchester office, so most of the engagement runs on video calls and shared documents. Because Manchester and London keep the same clock, there is no awkward overlap to manage. The discovery stage often works better face to face, so when the project needs it your Signal Lead takes the two-hour train up and runs the workshop at your office."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We do not publish prices because the range is wide. These are the things that move it:"
+      ],
+      "list": [
+        "How many departments and processes the review covers.",
+        "The state of your data: tidy and in one system, or spread across inboxes and spreadsheets.",
+        "Whether you want a roadmap only, or a pilot build too.",
+        "Governance needs, such as FCA rules or NHS data standards.",
+        "How much training your teams need after the pilot."
+      ]
+    },
+    {
+      "h": "Why 22 Signals, and where to go next",
+      "p": [
+        "One Signal Lead owns the work from first call to pilot, and the same company can then build the AI tool, the automation, the dashboards or the marketing around it. That is rare in an AI consultancy: Manchester firms usually have to hand a strategy document to a second supplier and hope it survives the trip. Related services are AI automation, custom AI development, business intelligence and our Manchester hub page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you meet Manchester clients in person?",
+      "a": "Yes, when the project needs it. Our head office is in London and most work runs remotely in UK hours, but discovery workshops and pilot handovers often go better in a room. Your Signal Lead travels to Manchester for those sessions, and we agree the visits in the plan at the start rather than promising a fixed schedule."
+    },
+    {
+      "q": "How long does an AI consultancy engagement take?",
+      "a": "A readiness review and ranked roadmap usually takes a few weeks, depending on how many teams are involved and how quickly we can get access to systems and people. A pilot build adds more time on top. We give you a dated plan in writing before any work starts, so you know exactly when each part lands."
+    },
+    {
+      "q": "Can staff use ChatGPT with client data under UK GDPR?",
+      "a": "Sometimes, with the right setup. It depends on the plan you are on, where the data is processed, what the vendor contract says and whether you have a lawful basis and a data protection impact assessment. We review each tool against ICO guidance and write clear rules for staff. For regulated firms, your compliance team signs off the final policy."
+    },
+    {
+      "q": "We are a Spinningfields law firm. Where does AI usually help first?",
+      "a": "Usually in work that is repetitive and text heavy: summarising bundles, first drafts of standard letters, searching precedents and internal know-how, and intake triage. We start with tasks where a solicitor still reviews the output, so quality and professional duties are protected while the team saves hours each week."
+    },
+    {
+      "q": "Do you only advise, or do you build as well?",
+      "a": "Both. Many firms only want the roadmap and policy, and that is fine. If you want the pilot built, our own teams build it, and we can carry on with automation, custom AI development or dashboards afterwards. You never have to hand our strategy to another supplier to make it real."
+    },
+    {
+      "q": "Do you work with smaller Manchester businesses?",
+      "a": "We mostly work with established companies of roughly 5 to 500 staff, and we also take on founders and startups. For smaller teams we keep the review tight and focus on one or two high-value uses, so the cost and time stay in proportion to the business."
+    }
+  ],
+  "related": [
+    "/locations/manchester",
+    "/services/ai-consulting",
+    "/locations/manchester/ai-automation",
+    "/locations/manchester/business-intelligence",
+    "/locations/london/ai-consulting",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai consultancy manchester",
+    "secondary": [
+      "ai consulting manchester",
+      "ai consultant manchester",
+      "ai strategy manchester"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "path": "/locations/austin/3d-rendering",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in Austin, TX | 22 Signals",
+  "description": "3D rendering for Austin hardware, consumer and real estate companies: photoreal product renders, packaging, campaign visuals and architectural visualization.",
+  "eyebrow": "3D Rendering in Austin",
+  "h1": "3D rendering for Austin products, packaging and buildings that do not exist yet",
+  "intro": "Our 3D rendering service gives Austin companies photoreal images of products, packaging and spaces before they are made or built. We create product renders, packaging and campaign visuals, interior and architectural visualization, and 3D models for websites and ads, working from CAD files, drawings or sketches. Delivered remotely from London on Central Time hours.",
+  "sections": [
+    {
+      "h": "Why Austin companies render instead of photograph",
+      "p": [
+        "A hardware startup in East Austin wants a launch page while the first production run is still months away. A semiconductor equipment supplier needs to show what is inside a machine that is the size of a room and sits in a clean room nobody can photograph. A developer is pre-leasing an office building near the Domain that is still a steel frame. A consumer brand needs twelve packaging variants shot for a retailer by Friday.",
+        "Photography cannot do any of those. 3D rendering can, and once the model exists, every new angle, colorway or campaign image takes far less work than a new shoot.",
+        "That is the case for 3D rendering. Austin hardware makers, developers and consumer brands use it for the same reason: they need the image before the thing exists, and they need it to be accurate enough to sell from."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Photoreal product renders on white, in context or in exploded views.",
+        "Packaging visuals for retail listings, pitch decks and e-commerce.",
+        "Campaign visuals and hero images for ads and launches.",
+        "Interior visualization for offices, clinics, retail and hospitality spaces.",
+        "Architectural visualization for developers, architects and leasing teams.",
+        "3D models for websites, product configurators and ads, optimized to load quickly."
+      ]
+    },
+    {
+      "h": "3D rendering for Austin's industries",
+      "list": [
+        "Consumer electronics and hardware: launch imagery, exploded views showing internals, and lifestyle scenes, created from your CAD files before production units exist.",
+        "Semiconductor and equipment suppliers: cutaway renders of tools and components for trade shows, technical sales decks and investor presentations, checked by your engineers.",
+        "Real estate developers and architects: exterior and interior visualization for projects Downtown, in East Austin, around the Domain and out to Round Rock, for planning, leasing and marketing.",
+        "Consumer and beauty brands: packaging renders, flavor or shade variants and seasonal campaign imagery without reshoots.",
+        "Clinics and wellness groups: interior renders for new locations so patients can see the space before it opens."
+      ]
+    },
+    {
+      "h": "From CAD file to finished image",
+      "p": [
+        "Most hardware clients already have the data we need. We take STEP or other CAD exports, clean up the geometry, apply accurate materials and finishes, then light and compose each shot. If you only have sketches or photos of a prototype, we model from those. For buildings, we work from architectural drawings or models from your architect.",
+        "Accuracy matters more than drama. Your engineers or architects approve the model before we move to final images, so what goes on the website is what customers will actually receive. If a finish or part is still undecided, we render the options side by side so the decision can be made from the images."
+      ]
+    },
+    {
+      "h": "How a rendering project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about what you need to show, where the images will be used and your deadline.",
+        "Plan: shot list, reference images, file requirements and delivery dates in writing.",
+        "Build: model, materials, draft renders for review, then final images at the sizes you need.",
+        "Grow: the model stays on file, so new angles, variants and animation can follow quickly."
+      ]
+    },
+    {
+      "h": "Beyond still images",
+      "p": [
+        "Once a product or building exists in 3D, it can do more. The same model can become a product animation, a spinning 3D viewer on your website, a short video for social media or a visual in a paid campaign. Because our 3D team works alongside our video, web and paid media teams, those uses are planned from the start instead of being an afterthought."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and 3D work often sits inside a bigger launch: the renders feed the website, the ads and the sales deck at once. That is why we plan 3D rendering. Austin clients receive a file set organized for every channel that will use it, not one folder of hero shots."
+      ]
+    },
+    {
+      "h": "Working with us from Austin",
+      "p": [
+        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Files arrive through shared storage, draft renders come back with numbered notes, and review calls sit in your morning. Because we are six hours ahead, changes requested at the end of your day are often waiting for you the next morning. If we need to see a physical prototype or a site in person, we plan a visit for that stage when the project needs it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of products, variants and final images.",
+        "Whether usable CAD files exist or we model from scratch.",
+        "Complexity of materials, such as glass, liquids, fabrics or brushed metal.",
+        "Scene complexity: plain backgrounds versus full lifestyle or architectural settings.",
+        "Animation, 3D web models or other uses of the same model."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Plenty of studios make beautiful renders. Fewer can also put them to work: building the product page, cutting the launch video and running the ads that use them. With one Signal Lead and 3D, video and marketing teams in the same company, your renders are made for the channels they will appear in."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need a physical product to create 3D renders?",
+      "a": "No. CAD files are best, because they give exact dimensions. If you do not have CAD, we can model from technical drawings, sketches or photos of a prototype. For packaging, a dieline and artwork files are enough. Your team approves the model for accuracy before we move to final images."
+    },
+    {
+      "q": "How long does 3D rendering take for an Austin product launch?",
+      "a": "A small set of product renders from good CAD files often takes one to three weeks, including review rounds. Complex scenes, many variants or architectural projects take longer. We set the delivery date in writing during planning, working back from your launch or listing deadline, and flag anything that could put it at risk."
+    },
+    {
+      "q": "Can you render buildings for Austin real estate projects?",
+      "a": "Yes. We create exterior and interior visualization from architectural drawings or models for developers, architects and leasing teams. Renders can show the building in its real setting, different times of day and different finishes. We work with your architect so the images match the approved design."
+    },
+    {
+      "q": "Can engineers check technical renders for accuracy?",
+      "a": "They should, and we build that into the process. For semiconductor equipment, components or medical devices, your engineers review the model and draft renders before anything is finalized, and we mark which details are simplified. Nothing technical is published without their sign-off."
+    },
+    {
+      "q": "Do you visit Austin for 3D rendering projects?",
+      "a": "Most 3D rendering projects do not need a visit, since the work runs on files. We work with Austin clients remotely from London, with meeting hours that overlap Central Time. If seeing a prototype, material sample or site in person would make the renders more accurate, we plan a visit for that stage when the project needs it."
+    },
+    {
+      "q": "Who owns the 3D models and images?",
+      "a": "You do, once the project is paid. You receive the final images in the formats you need and, if agreed in the scope, the 3D source files. Keeping the model means future variants, angles and animations are quicker, whether we make them or someone else does."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/austin/video-animation",
+    "/locations/austin/web-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "3d rendering austin",
+    "secondary": ["3d rendering services austin", "product rendering austin tx", "architectural visualization austin", "3d product visualization austin"]
+  }
+}

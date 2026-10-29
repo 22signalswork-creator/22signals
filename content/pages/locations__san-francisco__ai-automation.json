@@ -1,0 +1,133 @@
+{
+  "path": "/locations/san-francisco/ai-automation",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in San Francisco, CA | 22 Signals",
+  "description": "AI automation for San Francisco ops, sales and support teams: workflows across email, CRM and spreadsheets, with a person in the loop where it counts.",
+  "eyebrow": "AI Automation in San Francisco",
+  "h1": "AI automation for San Francisco operations and revenue teams",
+  "intro": "We build AI automation for San Francisco companies whose people still copy data between inboxes, CRMs and spreadsheets. Each workflow does the repeated part, a person checks what matters, and everything is logged. The result is fewer manual steps for operations, sales, finance and support, without another tool for your team to babysit.",
+  "sections": [
+    {
+      "h": "Your team has tried the no-code version already",
+      "p": [
+        "San Francisco operations people are rarely new to this. Someone has connected a form to a spreadsheet, wired a model into a Slack channel and built a Zapier chain that works until a field name changes. The trouble starts at scale: the chain breaks silently, the model writes something odd into a customer record, and nobody knows which step failed.",
+        "That is the gap we close. The AI automation San Francisco teams keep using is the kind where each step is visible, failures raise an alert, and a named person can switch the flow off. We rebuild the experiments you already like so they survive real volume."
+      ]
+    },
+    {
+      "h": "Workflows we build",
+      "list": [
+        "Inbound lead triage: read the form or email, enrich the company, score it, route it to the right rep and draft the first reply.",
+        "Customer support: tag tickets, suggest answers from your help center and past tickets, and hand anything unusual to a person.",
+        "Finance operations: pull invoice data from PDFs, match it to purchase orders and flag mismatches for review.",
+        "Contract and intake work: extract key terms from documents and fill your matter or deal records.",
+        "Internal reporting: weekly summaries that pull from CRM, billing and product data and land in Slack or email.",
+        "Internal tools and dashboards for the jobs nobody wants a full product for.",
+        "AI assistants with human hand-off for website chat, email or WhatsApp."
+      ]
+    },
+    {
+      "h": "Where San Francisco companies get the most from AI automation",
+      "list": [
+        "SaaS revenue teams in SoMa: account research, renewal risk notes and CRM hygiene so reps spend their time selling.",
+        "Fintech operations in the Financial District: document collection and checks before an analyst signs off, with an audit trail.",
+        "Health and life sciences on the Peninsula and in Mission Bay: scheduling, referrals and document handling that keep patient data where it belongs.",
+        "Law and accounting firms: intake forms, conflict check preparation and status updates that clients stop chasing for.",
+        "Property and real estate firms: lead replies, viewing bookings and tenant requests sorted by urgency."
+      ]
+    },
+    {
+      "h": "A person stays in the loop, and California expects it",
+      "p": [
+        "California's bot disclosure law requires a bot that talks to people to say it is a bot when it is trying to sell something or influence a vote. We build that disclosure into every customer-facing assistant, with a clear route to a human.",
+        "Behind the scenes, California's privacy law governs the personal data these flows move. We keep a data map of every field each workflow reads and writes, log what the model did, and avoid sending personal data to providers whose terms do not fit. If a flow helps make decisions about people, such as screening applicants, we treat it as higher risk and keep a person approving each outcome. That caution is simply part of responsible AI automation. San Francisco customers and regulators both expect it."
+      ]
+    },
+    {
+      "h": "How we build it: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we sit with the people doing the work, by video in your morning, and record how the job is really done, including the exceptions. Plan: we pick the one workflow with the clearest payback and agree a written date. Build: we ship it with logging, alerts and an off switch, and run it next to the manual process until the numbers match. Grow: we add the next workflow only when the first one has run cleanly."
+      ]
+    },
+    {
+      "h": "An example from our own business",
+      "p": [
+        "We built a complete outbound sales engine for 22 Signals itself: lead lists, research, personalized first lines, sending, reply sorting and CRM updates, with a person approving what goes out. We use the same pattern for clients, because we have had to live with it ourselves."
+      ]
+    },
+    {
+      "h": "Working across the eight-hour gap",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Automation suits the gap well. You report a broken step at 5 p.m. in San Francisco, it is morning in London, and the fix is often waiting when you sign in. Live calls sit between 8 and 11 a.m. Pacific. On-site visits happen when the project needs them."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "list": [
+        "How many workflows, and how many systems each one touches.",
+        "Whether your tools have usable APIs or need workarounds.",
+        "Volume: ten documents a day or ten thousand.",
+        "How much human review each step needs.",
+        "Ongoing care: monitoring and changes after launch, or a clean handover."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "One Signal Lead owns your automation work and answers for it. Behind them are people who build cloud and data systems, so flows run in infrastructure you control rather than in a stack of personal accounts. When automation needs a plan first, our AI consulting work covers it; when it needs data, our business intelligence team does. Custom AI development and WhatsApp automation are the other pieces Bay Area clients add."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between AI automation and what we can build in Zapier?",
+      "a": "Zapier and similar tools are fine for simple chains. We use them when they fit. The difference is what happens at volume: we add logging, error alerts, retries, model checks and an approval step where it matters, and we document every flow. When a tool cannot cope, we build the step in code in your own cloud."
+    },
+    {
+      "q": "Do you work with San Francisco companies on site?",
+      "a": "We work remotely from London with teams across four regions. Calls run in the Pacific morning, and fixes often move forward overnight. If mapping a process needs us in the room with your team, we plan a visit to the Bay Area when the project needs it."
+    },
+    {
+      "q": "Which tools can you connect?",
+      "a": "Most of the tools San Francisco teams run on: Google Workspace and Microsoft 365, Slack, HubSpot and Salesforce, Notion, Airtable, Stripe, QuickBooks and NetSuite, help desks such as Zendesk and Intercom, and most systems with an API. If a tool has no API, we look at exports or browser steps and tell you how fragile that would be."
+    },
+    {
+      "q": "Will the AI make mistakes in our CRM?",
+      "a": "It can, which is why we design for it. High-risk steps need a person to approve. Every write is logged with what the model saw. We run new flows next to the manual process first and compare results. If the error rate is not good enough, the flow does not go live."
+    },
+    {
+      "q": "How do you handle California privacy rules in automated workflows?",
+      "a": "Each workflow gets a data map listing the personal data it reads, writes and sends to any provider. We keep sensitive data out of models where we can, honor CCPA deletion and access requests in the systems we touch, and add bot disclosure to customer-facing assistants. Your counsel gets the documentation to review."
+    },
+    {
+      "q": "How quickly can the first workflow be live?",
+      "a": "It depends on the workflow and the systems involved. A single flow across two tools with good APIs is quicker than one that touches finance and legal. We agree a written date after the discovery call and tell you early if anything on either side puts it at risk."
+    },
+    {
+      "q": "Can you maintain the automations after launch?",
+      "a": "Yes. Many clients keep us on monthly to watch alerts, adjust prompts when the model provider changes something, and add new steps. Others take a full handover with documentation and a recorded walkthrough. Either way, the flows live in accounts you own."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/ai-automation",
+    "/locations/san-francisco/ai-consulting",
+    "/services/custom-ai-development",
+    "/services/whatsapp-automation",
+    "/locations/los-angeles/ai-automation"
+  ],
+  "keywords": {
+    "primary": "ai automation san francisco",
+    "secondary": [
+      "ai automation agency san francisco",
+      "workflow automation san francisco",
+      "business process automation bay area",
+      "ai agents san francisco"
+    ]
+  }
+}

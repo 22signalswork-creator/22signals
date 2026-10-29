@@ -1,0 +1,133 @@
+{
+  "path": "/locations/san-francisco/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "San Francisco",
+  "citySlug": "san-francisco",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in San Francisco, CA | 22 Signals",
+  "description": "Web development for San Francisco companies: marketing sites, redesigns that keep rankings, client portals and site care, built with California privacy in mind.",
+  "eyebrow": "Web Development in San Francisco",
+  "h1": "Web development for San Francisco companies that have outgrown their site",
+  "intro": "We design and build websites for San Francisco companies: marketing sites your team can update without an engineer, redesigns and migrations that keep your search rankings, client portals with documents and payments, and ongoing care and security. Every build is accessible, fast, and set up so consent and tracking follow California privacy law.",
+  "sections": [
+    {
+      "h": "The site was built for the company you were two years ago",
+      "p": [
+        "Most Bay Area companies we meet have a site that made sense at the seed stage: a homepage, a pricing page and a blog that nobody updates because every change needs a developer. Since then the product has new features, the buyer is now a VP rather than a founder, and the sales team keeps sending prospects a PDF because the site does not say what they need.",
+        "The web development San Francisco companies need at this stage fixes that without throwing away what works. The pages that rank keep their addresses or get proper redirects. Marketing gets a CMS it can use. Engineering gets its time back."
+      ]
+    },
+    {
+      "h": "What web development San Francisco clients get from us",
+      "list": [
+        "Marketing sites and redesigns on Webflow, WordPress or a headless CMS with Next.js, chosen for who will edit it.",
+        "Migrations that keep rankings: URL maps, redirects, metadata carried across, and checks after launch.",
+        "Product, solution and comparison pages written answer-first, so they work for Google and AI assistants.",
+        "Client portals with logins, document sharing and payments.",
+        "E-commerce for consumer brands, from Shopify builds to custom checkouts.",
+        "Website care: updates, backups, uptime monitoring and security fixes on a monthly plan."
+      ]
+    },
+    {
+      "h": "California rules every Bay Area site should meet",
+      "p": [
+        "Three legal risks shape how we build sites for California companies. First, the California Consumer Privacy Act: your site needs a working \"Do Not Sell or Share\" option where it applies, a privacy policy that matches what the site actually collects, and support for the Global Privacy Control signal that browsers send. Second, accessibility: website accessibility claims are common in California, often brought under the ADA together with the state's Unruh Civil Rights Act. Third, tracking: chat widgets, session recording and ad pixels have drawn lawsuits under the California Invasion of Privacy Act.",
+        "We are not lawyers, but we build to WCAG accessibility standards, load trackers only after consent where your counsel says so, and keep a list of every script on the site."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk: we review your current site, analytics and search data, and interview sales to learn what prospects ask. Plan: sitemap, page briefs, redirect map and a written launch date. Build: design, content and development in parallel, with your team reviewing on a staging site. Grow: after launch we watch rankings, fix anything that dropped, and keep improving the pages that bring in leads."
+      ]
+    },
+    {
+      "h": "Who we build for in San Francisco",
+      "list": [
+        "SaaS and AI companies in SoMa that need product pages, docs links, pricing and security pages buyers can trust.",
+        "Fintech firms whose pages need disclosures in the right places and legal review built into the publishing flow.",
+        "Biotech and health tech companies in Mission Bay and South San Francisco with investor, pipeline and careers sections.",
+        "Law firms and professional services in the Financial District that want client portals and pages that rank for their practice areas.",
+        "Real estate and consumer brands on the Peninsula that need booking, listings or online sales."
+      ]
+    },
+    {
+      "h": "A portal we built",
+      "p": [
+        "For a US law firm we built a client portal where clients log in, upload and sign documents, see case updates and pay invoices, all behind a secure login. Portals like this suit San Francisco firms in law, finance and healthcare, where clients expect to help themselves and sensitive files should not travel as email attachments."
+      ]
+    },
+    {
+      "h": "Working with us from San Francisco",
+      "p": [
+        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Design reviews happen on a call in your morning. Feedback you leave on the staging site in the afternoon is usually actioned by the time you check again the next day. Launches are timed for low-traffic hours in California, which falls inside our working day. On-site visits happen when the project needs them."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of page templates and pages.",
+        "Whether we write the copy or you supply it.",
+        "Choice of content management system, and integrations with your CRM, billing or booking tools.",
+        "Migration complexity and how many URLs need redirects.",
+        "Portals, logins, payments or e-commerce.",
+        "Ongoing care after launch."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Plenty of shops offer web development. San Francisco companies tend to pick us because one accountable lead runs design, development, copy and search together, so your rankings are protected during the rebuild rather than repaired after it. Because we also run search, paid media and video, the site launches with the content and campaigns ready for it. App development, 3D product renders and launch videos are the other pieces San Francisco clients often add."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Webflow or WordPress for a San Francisco SaaS company?",
+      "a": "It depends on who edits the site and what it needs to connect to. Webflow suits marketing teams that want visual control. WordPress suits content-heavy sites and teams that need many plugins. A headless CMS with Next.js suits companies with engineers who want the site in their own stack. We recommend one after seeing your team and your content plan."
+    },
+    {
+      "q": "Will a redesign hurt our Google rankings?",
+      "a": "It should not, if it is planned properly. Before launch we map every ranking URL to its new address, carry over titles and metadata, and set redirects. After launch we monitor rankings and crawl errors and fix any drops quickly. Most ranking losses after redesigns come from skipped redirect work, and we do not skip it."
+    },
+    {
+      "q": "Do you build accessible websites?",
+      "a": "Yes. We build to WCAG standards: keyboard navigation, color contrast, labeled forms, alt text and screen reader testing. Accessibility claims are common in California, so it matters for risk as well as for your users. We can also audit your current site and fix the issues we find before or instead of a redesign."
+    },
+    {
+      "q": "How do you handle cookie consent and CCPA on the site?",
+      "a": "We set up a consent tool that respects the Global Privacy Control signal, add the opt-out links that apply to your business, and load ad and analytics scripts according to the rules your counsel sets. We document every tracking script and what it collects, which makes your privacy policy easier to keep accurate."
+    },
+    {
+      "q": "Do you meet San Francisco clients in person during a website project?",
+      "a": "Most website projects run well remotely. We work from London with teams across four regions, and review calls happen in the Pacific morning. If a kickoff workshop or a content day with your team needs us in the room, we plan a visit when the project needs it."
+    },
+    {
+      "q": "How long does a website project take?",
+      "a": "It depends on the number of templates, who writes the copy and how much content moves across. A focused marketing site is quicker than a redesign with hundreds of blog posts and a portal. We set a written launch date in the plan, and the Signal Lead tells you early if anything on either side puts it at risk."
+    },
+    {
+      "q": "Can you look after the site after launch?",
+      "a": "Yes. Our website care plans cover updates, backups, uptime and security monitoring, small changes and monthly checks on speed and search. You keep full ownership of the site, the hosting account and the domain. If you would rather run it in house, we hand over with documentation and training."
+    }
+  ],
+  "related": [
+    "/locations/san-francisco",
+    "/services/web-app-development",
+    "/locations/san-francisco/seo-geo",
+    "/locations/san-francisco/app-development",
+    "/locations/los-angeles/web-development",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "web development san francisco",
+    "secondary": [
+      "web design san francisco",
+      "website redesign bay area",
+      "webflow agency san francisco",
+      "web developer san francisco"
+    ]
+  }
+}

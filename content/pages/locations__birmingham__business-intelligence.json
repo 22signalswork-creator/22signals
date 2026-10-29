@@ -1,0 +1,145 @@
+{
+  "path": "/locations/birmingham/business-intelligence",
+  "kind": "location-service",
+  "region": "uk",
+  "city": "Birmingham",
+  "citySlug": "birmingham",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Consultancy Birmingham | 22 Signals",
+  "description": "Business intelligence and data analytics for Birmingham firms: one version of the numbers from your ERP, CRM and finance systems, in Power BI or Looker Studio.",
+  "eyebrow": "Business Intelligence and Data Analytics in Birmingham",
+  "h1": "Business intelligence consultancy Birmingham firms use to trust their numbers",
+  "intro": "We help Birmingham companies turn scattered data into reporting people believe. Our business intelligence and data analytics work connects your ERP, CRM, finance and operations systems, defines the KPIs that matter, and builds dashboards in Power BI, Looker Studio or Tableau that update themselves. Directors stop debating whose spreadsheet is right and start acting on one version of the truth.",
+  "sections": [
+    {
+      "h": "Three spreadsheets, three different answers",
+      "p": [
+        "Ask a Birmingham manufacturer how on-time delivery looked last month and you may get three numbers: one from production, one from the ERP and one from the customer's scorecard. Ask a professional services firm on Colmore Row about fee-earner utilisation and someone spends a day pulling it together. The data exists. It just lives in separate systems, defined differently, and joined by hand.",
+        "Business intelligence fixes that by agreeing what each measure means, pulling data from the source automatically, and putting it in front of the people who decide."
+      ]
+    },
+    {
+      "h": "What the work includes",
+      "list": [
+        "Data strategy and KPI design: a short list of measures, each with an agreed definition and an owner.",
+        "Data warehouse and pipelines: data copied from source systems on a schedule into one place built for reporting.",
+        "Dashboards in Power BI, Looker Studio or Tableau, designed for the board, managers and the shop floor separately.",
+        "Automated reporting: monthly packs and weekly emails produced without anyone exporting to Excel.",
+        "Forecasting: demand, cash and capacity projections built on your own history.",
+        "Data quality: checks that catch missing, duplicated or late data before it reaches a report."
+      ]
+    },
+    {
+      "h": "KPIs that matter in Birmingham's sectors",
+      "list": [
+        "Advanced manufacturing and automotive suppliers: on-time-in-full against customer schedules, scrap and rework, machine utilisation, and margin by part number.",
+        "Professional and financial services in the Colmore Business District: utilisation, work in progress, lock-up, matter or client profitability, and pipeline by partner.",
+        "Logistics and warehousing: cost per order or drop, dock-to-stock time, picking accuracy and vehicle fill.",
+        "Retail, from city-centre stores to online sellers: sales by channel and store, stock cover, returns and customer lifetime value.",
+        "Healthcare, clinics and life sciences: appointment utilisation, no-show rates, referral sources and revenue per clinician."
+      ],
+      "p": [
+        "We do not impose a template. We start with the decisions your leadership makes each month and work back to the numbers that inform them."
+      ]
+    },
+    {
+      "h": "Systems we connect",
+      "p": [
+        "Birmingham businesses run on a familiar mix: Sage, Xero or Dynamics for finance; Epicor, SAP Business One or a sector ERP on the shop floor; HubSpot or Salesforce for sales; practice management systems in law and accountancy; Shopify or a custom site in retail. We connect them through APIs, database connections or scheduled exports, and keep a record of where every number comes from so a figure on a dashboard can always be traced back."
+      ]
+    },
+    {
+      "h": "What a first phase usually looks like",
+      "p": [
+        "For most Birmingham clients the first phase is deliberately narrow. We pick the one report that causes the most pain, often the monthly board pack or a customer delivery scorecard, and rebuild it on automated data. That proves the pipelines, settles the definitions and gives directors something they use straight away.",
+        "Once that report is trusted, we add the next audience: operations managers, branch heads or partners. Forecasting comes later, because a forecast built on numbers nobody agrees on is worse than none at all."
+      ]
+    },
+    {
+      "h": "Data protection, access and hosting",
+      "p": [
+        "Reporting often contains personal data: employee hours, client names, patient appointments. Under UK GDPR and the Data Protection Act 2018, that data needs a purpose, limited access and sensible retention, and the ICO expects you to be able to explain all three. We use row-level security so a branch manager sees only their branch and a partner sees only their clients, and we can keep the warehouse in UK cloud regions where you or your customers require it."
+      ]
+    },
+    {
+      "h": "How we deliver: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: we interview the people who read reports and the people who produce them.",
+        "Plan: a written KPI list, data map and dashboard plan with every date in writing.",
+        "Build: pipelines first, then a first dashboard in front of real users within the first phase, refined with their feedback.",
+        "Grow: new data sources, forecasting and training so your own staff can build reports."
+      ]
+    },
+    {
+      "h": "Working with us from Birmingham",
+      "p": [
+        "We serve Birmingham from our London head office and do not have a Birmingham office. Data work suits remote delivery well: access is granted securely, sessions run over screen share in your working hours, and the dashboards are reviewed live. When a project needs a workshop with your directors or a walk round the site to see how data is captured, we travel up; it is about 80 minutes by train.",
+        "We have worked with more than 30 companies across four regions, and a business intelligence consultancy Birmingham clients hire from us gets the same structure each time: one Signal Lead, written scope and dated milestones."
+      ]
+    },
+    {
+      "h": "Cost factors",
+      "list": [
+        "How many source systems need connecting, and how clean their data is.",
+        "The number of dashboards and audiences.",
+        "Whether you already have a warehouse or need one built.",
+        "Licensing: Power BI, Looker Studio and Tableau are priced very differently.",
+        "Training and ongoing support."
+      ]
+    },
+    {
+      "h": "Why a broader team helps",
+      "p": [
+        "A business intelligence consultancy usually stops at the dashboard. We also run data engineering, cloud, AI automation and marketing, so when the numbers show a problem, the same team can fix it: automate the slow step, rebuild the leaky web funnel, or tune the ad campaign that is costing too much per lead. Related: Power BI consulting, data engineering, and AI automation in Birmingham."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a business intelligence consultancy Birmingham companies hire deliver?",
+      "a": "From us: agreed KPI definitions, automated data pipelines, dashboards for each audience, automated reports and data quality checks. The goal is that directors open one dashboard and trust what it says, without anyone rebuilding numbers in Excel each month."
+    },
+    {
+      "q": "Power BI, Looker Studio or Tableau: which should we use?",
+      "a": "If you already pay for Microsoft 365 and run Dynamics or Azure, Power BI is often the natural choice. Looker Studio suits businesses on Google Workspace and Google Ads data. Tableau suits teams that already use it. We recommend based on your systems, licences and who will maintain it."
+    },
+    {
+      "q": "Can you report from our manufacturing ERP?",
+      "a": "In most cases, yes. We connect to common ERPs through their APIs, databases or scheduled exports, then model the data for reporting. If an older system only offers limited exports, we work with those and tell you up front what is and is not possible."
+    },
+    {
+      "q": "Do you work on site in Birmingham?",
+      "a": "When the project needs it, yes, typically for KPI workshops with leadership or to see how data is captured on the floor. Most of the build is remote from London, in the same time zone, with live review sessions over screen share."
+    },
+    {
+      "q": "How do you protect personal data in dashboards?",
+      "a": "We include only the personal data a report needs, use row-level security so people see only what their role allows, and set retention rules. That supports your UK GDPR obligations and gives you a clear answer if the ICO or a client asks who can see what."
+    },
+    {
+      "q": "Can our own team maintain the reports afterwards?",
+      "a": "Yes, if you want that. We document the data model, name every measure clearly and train the people who will own it. Some clients keep us on for new reports and support; others take it fully in-house. Both are fine."
+    },
+    {
+      "q": "How much does business intelligence work cost?",
+      "a": "It depends on scope, so we price after a short call and a look at your systems. The main factors are how many sources need connecting, how clean the data is, whether a warehouse is needed, how many dashboards and audiences you want, licensing, and how much training and support you need afterwards."
+    }
+  ],
+  "related": [
+    "/locations/birmingham",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/birmingham/ai-automation",
+    "/locations/london/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "business intelligence consultancy birmingham",
+    "secondary": [
+      "data analytics consultancy birmingham",
+      "power bi consultancy birmingham",
+      "business intelligence birmingham",
+      "power bi consultant west midlands"
+    ]
+  }
+}

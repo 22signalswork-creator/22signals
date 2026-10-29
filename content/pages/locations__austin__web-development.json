@@ -1,0 +1,136 @@
+{
+  "path": "/locations/austin/web-development",
+  "kind": "location-service",
+  "region": "us",
+  "city": "Austin",
+  "citySlug": "austin",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Company in Austin, TX | 22 Signals",
+  "description": "A web development company for Austin businesses: new sites, redesigns, migrations that keep your rankings, client portals and ongoing website care and security.",
+  "eyebrow": "Web Development in Austin",
+  "h1": "A web development company Austin businesses can hand the whole website to",
+  "intro": "22 Signals is a web development company for Austin businesses that need a site which ranks, converts and stays secure. We build new websites and redesigns, migrate platforms without losing search rankings, add client portals and e-commerce, and look after the site once it is live. Remote delivery from London, with meeting hours that overlap Central Time.",
+  "sections": [
+    {
+      "h": "Most Austin websites have one of three problems",
+      "p": [
+        "The first is the site that was built for a younger company. It made sense at seed stage, but now the product has changed, the sales team is sending prospects a PDF instead of a link, and nobody wants to touch the code.",
+        "The second is the redesign that cost rankings. A new site launched, it looked better, and three months later organic leads had dropped because old URLs were never redirected. The third is the site nobody maintains: plugins out of date, forms quietly failing, and a security warning waiting to happen. A good web development company Austin firms can rely on should prevent all three."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "New websites and full redesigns, written and structured for search from day one.",
+        "Platform migrations, for example from an old WordPress build to a faster setup, with every URL mapped and redirected.",
+        "Content management that your marketing team can use without a developer.",
+        "E-commerce for consumer brands and parts or accessories stores.",
+        "Client portals with logins, documents and payments.",
+        "Website care: updates, backups, uptime monitoring and security fixes."
+      ]
+    },
+    {
+      "h": "Websites for Austin's industries",
+      "p": [
+        "We shape each build around how its buyers make decisions. For Austin, that usually means one of these:"
+      ],
+      "list": [
+        "B2B software companies: product pages that explain what the platform does in plain words, pricing and comparison pages, integration directories and a demo request flow connected to the CRM.",
+        "Semiconductor and hardware suppliers: technical catalogs, specification sheets that can be searched, request-for-quote forms and distributor or partner areas behind a login.",
+        "Firms bidding for Texas state agency contracts: credible capability pages, accessibility built in, and fast load times for buyers reviewing several vendors.",
+        "Clinics and wellness practices across Austin, Round Rock and Lakeway: location pages, online booking and clear service pages that answer patient questions.",
+        "Music venues, studios and creative agencies in East Austin: event listings, portfolios and media that loads quickly on a phone."
+      ]
+    },
+    {
+      "h": "Migrations that keep your rankings",
+      "p": [
+        "A redesign should not reset years of search work. Before we touch a live site, we crawl it, record every URL that earns traffic or links, and build a redirect map. We keep the content that ranks, improve what does not, and test redirects, page speed and structured data before launch. After launch we watch search console data for weeks, not days, and fix anything that slips.",
+        "This is where hiring a web development company that also runs SEO and generative engine optimization pays off. Austin buyers increasingly ask ChatGPT, Claude, Gemini and Google AI Overviews which vendor to shortlist, and pages built with clear answers and clean structure are easier for those systems to read."
+      ]
+    },
+    {
+      "h": "Accessibility and privacy",
+      "p": [
+        "We build to recognized accessibility standards so the site works for people using screen readers and keyboards, which also matters if you sell to public sector buyers. For forms and analytics, we follow the Texas Data Privacy and Security Act: clear privacy notices, consent where it is needed, and no collecting data you do not use."
+      ]
+    },
+    {
+      "h": "How a build runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a short call about what the current site is failing to do for the business.",
+        "Plan: sitemap, content plan, design direction, technical approach and launch date, agreed in writing.",
+        "Build: design, development and content in stages, with a staging site you can review at any time.",
+        "Grow: launch, monitoring, search improvements and website care."
+      ]
+    },
+    {
+      "h": "Work we can describe",
+      "p": [
+        "We built a client portal with documents and payments for a US law firm, so its clients have one secure place to find paperwork and pay. We have also carried out security clean-ups of compromised law-firm websites. Both are the kind of work an Austin professional services firm might need."
+      ]
+    },
+    {
+      "h": "Working with our team from Austin",
+      "p": [
+        "We work with Austin companies remotely from London. Your mornings, Central Time, overlap with our afternoons, so design reviews and content sign-offs happen early in your day and changes are often ready by the next morning. Staging links, written feedback and a shared timeline keep everyone working from the same version.",
+        "If a content workshop or photography day needs someone in Austin, we plan it for that stage when the project needs it. Otherwise, a recorded walkthrough of your current site and sales process gives us most of what we need."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "list": [
+        "Number of pages and templates, and how much content we write.",
+        "Platform choice and any migration from the current site.",
+        "Integrations: CRM, booking, payments, ERP or a client portal.",
+        "Design depth, custom illustration, photography or 3D product visuals.",
+        "Ongoing website care after launch."
+      ]
+    },
+    {
+      "h": "Why choose 22 Signals",
+      "p": [
+        "Search for a web development company in Austin and you mostly find design studios or developers. We bring both, plus the SEO, paid media, video and 3D teams who will use the site afterwards, all run by one Signal Lead. The website is built for the marketing it has to support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a new website take for an Austin company?",
+      "a": "A focused marketing site usually takes eight to twelve weeks from planning to launch. Larger sites with migrations, portals or e-commerce take longer and are phased. The biggest variable is usually content and approvals, so we agree dates in writing at the planning stage and show you what we need from your team, and when."
+    },
+    {
+      "q": "Will we lose our Google rankings if we redesign?",
+      "a": "Not if the migration is planned. We crawl the current site, keep or improve pages that rank, redirect every old URL to its best match and test before launch. After launch we monitor search data closely and fix anything that drops. Most ranking losses after a redesign come from skipped redirects, which is why that step is never optional."
+    },
+    {
+      "q": "Which platform do you build on?",
+      "a": "It depends on who will run the site. WordPress suits teams that want a familiar editor and many plugins. Webflow suits marketing teams who want design control. Custom builds suit portals, complex integrations or high traffic. We recommend the simplest platform that meets your needs and that your team can actually maintain."
+    },
+    {
+      "q": "Do you meet Austin clients in person during a website project?",
+      "a": "Most projects run remotely on video, during Central Time mornings, with staging links and written feedback. That keeps reviews quick and well documented. If a kickoff workshop or content day would benefit from being in the room, we plan a visit to Austin for that stage when the project needs it."
+    },
+    {
+      "q": "Can you look after our site after launch?",
+      "a": "Yes. Website care covers updates, backups, uptime and security monitoring, small content changes and fixes. Response times are agreed in writing. If your site was ever compromised, or you are worried it might be, we can run a security review and clean-up first, then keep it monitored."
+    },
+    {
+      "q": "Do you build sites that show up in AI answers?",
+      "a": "We build pages with clear structure, direct answers to buyer questions and accurate structured data, which makes them easier for ChatGPT, Claude, Gemini and Google AI Overviews to read and quote. Showing up in those answers also depends on how your business is described elsewhere on the web, which our SEO team handles."
+    }
+  ],
+  "related": [
+    "/locations/austin",
+    "/services/web-app-development",
+    "/locations/austin/seo-geo",
+    "/locations/austin/app-development",
+    "/locations/dallas/web-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development company austin",
+    "secondary": ["austin web development", "website design austin tx", "web developer austin", "website redesign austin"]
+  }
+}

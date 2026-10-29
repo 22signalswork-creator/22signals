@@ -1,0 +1,148 @@
+{
+  "path": "/services/business-intelligence",
+  "kind": "service",
+  "region": "global",
+  "serviceType": "Business intelligence and data analytics consulting",
+  "title": "Business Intelligence Consulting and Analytics | 22 Signals",
+  "description": "Business intelligence consulting and data analytics: one version of your numbers, KPIs that matter and dashboards in Power BI, Looker Studio or Tableau.",
+  "eyebrow": "Business Intelligence and Data Analytics",
+  "h1": "Business intelligence consulting for decisions made on data, not guesses",
+  "intro": "22 Signals provides business intelligence consulting for companies whose numbers live in too many places. We agree the KPIs that matter, connect your CRM, finance, ads and operations data into one warehouse, and build dashboards in Power BI, Looker Studio or Tableau that leadership reads every week. Then we keep the data clean and the reports current.",
+  "sections": [
+    {
+      "h": "The problem: three versions of the same number",
+      "p": [
+        "Ask finance, sales and marketing for last month's revenue and you get three answers, each correct by its own definition. Sales counts signed deals, finance counts invoiced amounts, marketing counts attributed conversions. Leadership meetings turn into arguments about whose spreadsheet is right instead of decisions about what to do next.",
+        "Behind that sits a familiar setup: exports pulled by hand from a CRM, an accounting package and a few ad platforms, joined in a spreadsheet that one person understands. It works until that person is on vacation, a column changes, or the business asks a question the spreadsheet was never built to answer."
+      ]
+    },
+    {
+      "h": "What our business intelligence consulting includes",
+      "list": [
+        "Data strategy and KPI design: which numbers run the business, how each is defined and who owns it",
+        "A data warehouse and pipelines that pull from your CRM, finance, ads, e-commerce and operations tools",
+        "Dashboards in Power BI, Looker Studio or Tableau, designed for the people who will open them",
+        "Automated reporting that lands on a schedule, by email or in the tools your team already uses",
+        "Forecasting and analysis for revenue, pipeline, marketing spend, capacity and churn",
+        "Data quality checks and governance: tests, alerts, access rules and a metric dictionary"
+      ]
+    },
+    {
+      "h": "KPI design comes before dashboards",
+      "p": [
+        "The most useful work in a BI project often happens before any chart is drawn. We sit with leadership and each department to agree a short list of measures that actually drive decisions, then write a definition for each one: the formula, the source system, the filters, the owner and how often it refreshes.",
+        "That metric dictionary becomes the reference everyone uses. When a number moves, people discuss why it moved, not how it was calculated. It also stops dashboard sprawl, because each new request is checked against the agreed definitions before anyone builds another report."
+      ]
+    },
+    {
+      "h": "The data foundation: warehouse, pipelines and quality",
+      "p": [
+        "Reliable dashboards need a reliable source. We set up a cloud data warehouse, usually BigQuery, Snowflake, Azure SQL or Microsoft Fabric depending on what you already run, and build pipelines that load data from each system on a schedule. Raw data is kept as it arrived, then cleaned and modeled into tables that match the metric definitions.",
+        "Quality checks run on every load: row counts, missing values, duplicates, and totals reconciled against the source system. When a check fails, the right person gets an alert before the Monday report goes out, not after someone spots a strange number in a board pack."
+      ]
+    },
+    {
+      "h": "Dashboards people actually read, in the right tool",
+      "p": [
+        "We are tool-neutral and recommend based on your stack. Power BI suits companies already on Microsoft 365 and Azure, and handles complex models and row-level security well. Looker Studio is a natural fit for teams living in Google Workspace, Google Ads and GA4. Tableau is strong for heavy visual analysis and for organizations that already own licenses.",
+        "Whichever tool you use, the design rules are the same. Each dashboard answers a defined set of questions for a defined audience. The headline numbers sit at the top, the detail sits one click below, and every figure can be traced back to its definition. Executives get a one-page view; managers get the drill-down they need to act.",
+        "Once the reporting is trusted, we add analysis on top. That can be a rolling revenue forecast built from pipeline stages and historical win rates, a view of marketing spend against new customers by channel, or capacity planning that shows when a team will run out of hours. Each model shows its assumptions, so leaders can see why the forecast says what it says and adjust it when they know something the data does not."
+      ]
+    },
+    {
+      "h": "How it works: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a fit call, then a review of your systems, current reports and the decisions you need data for",
+        "Plan: KPI definitions, the data model, a source-by-source pipeline plan and a delivery calendar in writing",
+        "Build: warehouse, pipelines, quality checks and the first dashboards, released in stages so leadership sees value early",
+        "Grow: training, new reports as questions come up, forecasting, and ongoing care so refreshes keep running"
+      ]
+    },
+    {
+      "h": "Industries we build reporting for",
+      "list": [
+        "Healthcare and wellness: bookings, no-shows, treatment mix, revenue per clinician and marketing cost per new patient",
+        "Law firms and professional services: case or matter pipeline, intake sources, time to resolution and fee forecasts",
+        "Fashion, beauty and retail: sales by channel, stock cover, returns, repeat purchase and margin by product",
+        "Technology and SaaS: recurring revenue, churn, expansion, trial conversion and support load",
+        "Real estate: lead source performance, viewings, conversion and listing time",
+        "Gaming, esports and entertainment: audience, viewership, sponsorship delivery and event revenue"
+      ]
+    },
+    {
+      "h": "Proof, and why the data team sits next to marketing and AI",
+      "p": [
+        "We have worked with more than 30 companies across four regions, and reporting runs through most of those engagements, including the monthly search and content reporting we produce for US personal injury law firms.",
+        "That is the difference with our business intelligence consulting. The same team runs cloud, AI and marketing, so the data we model is the data your business actually runs on. Dashboards feed the automations and AI tools built on top, marketing spend is reported next to revenue rather than in a separate agency report, and one Signal Lead answers for all of it."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "p": [
+        "We don't publish prices. Cost depends on scope, and we put the scope and dates in writing after the first conversation."
+      ],
+      "list": [
+        "The number of source systems and how easy their data is to extract",
+        "How many KPIs, dashboards and audiences are in scope",
+        "Data quality and how much cleaning historical data needs",
+        "Whether you need a new warehouse or we build on an existing one",
+        "Security needs such as row-level access, regulated data and audit trails",
+        "Ongoing support, new reports and training after launch"
+      ]
+    },
+    {
+      "h": "Cities where we deliver business intelligence",
+      "p": [
+        "Our head office is in London, where clients can meet us in person. Companies in the other cities below work with us remotely from London. Meeting hours are planned around each city's working day, and we come on site when the project needs it, for example for KPI workshops or a dashboard launch with leadership. In the United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami. In the United Kingdom: London, Manchester and Birmingham. In the UAE: Dubai and Abu Dhabi. In Pakistan: Lahore, Karachi and Islamabad."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a business intelligence consultant do?",
+      "a": "A business intelligence consultant brings a company's data together, defines the metrics that matter, and builds the dashboards and reports that let leaders see performance and decide quickly. At 22 Signals, business intelligence consulting also covers the warehouse, the pipelines and the quality checks underneath, so the numbers stay right after launch."
+    },
+    {
+      "q": "Which BI tools do you work with?",
+      "a": "Power BI, Looker Studio and Tableau for dashboards and reporting, and cloud warehouses such as BigQuery, Snowflake, Azure SQL and Microsoft Fabric for storage. We recommend based on the systems and licenses you already have, how many people need access and how complex your data model is, rather than pushing one platform."
+    },
+    {
+      "q": "What is the difference between business intelligence and data analytics?",
+      "a": "Business intelligence is mainly about reporting what is happening: agreed KPIs, dashboards and scheduled reports. Data analytics goes further into why it happened and what is likely next, using analysis, segmentation and forecasting. In practice they share the same data foundation, and most of our engagements include both."
+    },
+    {
+      "q": "Do we need a data warehouse for business intelligence?",
+      "a": "For a few simple sources, a BI tool can connect directly and that may be enough. Once you combine several systems, need history, or want numbers to match across reports, a warehouse becomes the simplest way to stay accurate. We size it to your data, and for most mid-sized companies the running cost is modest."
+    },
+    {
+      "q": "How long does a BI project take?",
+      "a": "A first set of executive dashboards from a handful of sources usually takes a few weeks, depending on data quality and how quickly KPI definitions are agreed. Larger rollouts with many departments run in stages. We agree each stage and date in writing, and leadership sees working dashboards early rather than at the end."
+    },
+    {
+      "q": "Can you fix our existing dashboards instead of starting again?",
+      "a": "Yes. Many projects start with an audit of current reports: which ones are used, which numbers disagree and why, and where refreshes break. We keep what works, fix the data model and definitions underneath, retire duplicate reports, and rebuild only where the design is past saving."
+    },
+    {
+      "q": "How much does business intelligence consulting cost?",
+      "a": "It depends on scope: the number of source systems, how many KPIs and dashboards you need, the state of your data, security requirements and how much support you want after launch. We don't publish prices. After a short call we send a written scope with dates, so you know what is included before committing."
+    }
+  ],
+  "related": [
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/services/ai-consulting",
+    "/services/business-optimization",
+    "/services/cloud"
+  ],
+  "keywords": {
+    "primary": "business intelligence consulting",
+    "secondary": [
+      "data analytics consulting",
+      "bi consulting",
+      "business intelligence consultant",
+      "bi dashboards",
+      "data analytics services",
+      "kpi dashboard design"
+    ]
+  }
+}

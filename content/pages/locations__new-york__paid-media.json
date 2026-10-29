@@ -1,0 +1,123 @@
+{
+  "path": "/locations/new-york/paid-media",
+  "kind": "location-service",
+  "region": "us",
+  "city": "New York",
+  "citySlug": "new-york",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media Agency for New York Brands | 22 Signals",
+  "description": "A paid media agency for New York brands: Google, Meta, LinkedIn and TikTok ads with in-house creative, call tracking and CRM data, so spend follows revenue.",
+  "eyebrow": "Paid Media in New York (Google, Meta, LinkedIn, TikTok ads)",
+  "h1": "A paid media agency for New York brands paying some of the highest click prices in the country",
+  "intro": "22 Signals is a paid media agency New York brands use for Google Search, Performance Max, YouTube, Meta, LinkedIn and TikTok. We make the creative ourselves, build the landing pages, track every call and form back to your CRM, and move budget toward the campaigns that bring in revenue rather than the ones that bring in clicks.",
+  "sections": [
+    {
+      "h": "Why ad spend disappears faster in New York",
+      "p": [
+        "Every major advertiser in the country wants the attention of buyers here, so the auctions are crowded. A personal injury firm bidding on accident searches in Queens, a cosmetic clinic on the Upper East Side or a B2B software firm targeting Midtown finance teams often pays more per click than the same business would in a smaller market. With costs like that, small leaks in tracking or targeting add up quickly.",
+        "The most common leak we find is measurement. Ads are judged on clicks or platform-reported conversions, while the calls, the consultations booked and the deals closed sit in a CRM nobody connected. The second is creative: one tired video running for months because making new ads takes too long. A good paid media agency, New York or anywhere else, fixes both before asking for more budget."
+      ]
+    },
+    {
+      "h": "Channels and what each is good for here",
+      "list": [
+        "Google Search: law firms, clinics, home services and anyone whose buyers type a need into a search box",
+        "Performance Max and Shopping: e-commerce and DTC fashion and beauty brands with clean product feeds",
+        "YouTube: brand and explainer video for financial products, health services and real estate launches",
+        "Meta (Facebook and Instagram): consumer brands, aesthetics, restaurants and property marketing with strong visuals",
+        "LinkedIn: B2B services selling to finance, legal, media and corporate buyers in Manhattan",
+        "TikTok: fashion, beauty and lifestyle brands reaching younger audiences across the city with short video"
+      ]
+    },
+    {
+      "h": "Targeting the way New Yorkers actually live",
+      "p": [
+        "The city is not one market. A clinic in Park Slope draws from a few neighborhoods. A Midtown law firm takes clients from all five boroughs plus Long Island, Westchester and northern New Jersey. A developer selling condos in Long Island City may find buyers in Manhattan and overseas. We set location targeting by real customer origin, using your CRM history, not a circle drawn on a map, and split budgets so a low-cost borough does not starve a valuable one.",
+        "Schedules follow behavior too. Commuter hours, lunch breaks and late evenings perform differently by sector, and we test them rather than guess."
+      ]
+    },
+    {
+      "h": "Ad rules that apply in New York",
+      "list": [
+        "Synthetic performers: since June 9, 2026, New York requires a conspicuous disclosure when an ad's producer knows it contains an AI-generated synthetic performer. We label any AI presenter we create",
+        "Attorney advertising: New York's professional conduct rules can require labeling and keeping copies of law firm ads, so we archive every version we run",
+        "Healthcare: Google and Meta restrict health claims and health-based targeting, so clinic campaigns are built on services and locations, not conditions",
+        "Privacy: tracking pixels and call recording are set up with your counsel, in line with the SHIELD Act and platform policies"
+      ]
+    },
+    {
+      "h": "Creative made in-house",
+      "p": [
+        "Ads wear out. We produce new static, video and motion creative in our own studio, including AI ad variations reviewed by a person and labeled clearly, so you can test new angles every few weeks instead of every few quarters.",
+        "Timing matters as much as the asset. Fashion and beauty brands need campaigns ready for the February and September Fashion Week windows, real estate launches need creative before the sales gallery opens, and retailers need holiday ads approved well before the season peaks. We plan creative calendars backward from those dates. The same team builds landing pages for each campaign, so the message on the ad matches the page someone lands on."
+      ]
+    },
+    {
+      "h": "Proof: ads that follow the full funnel",
+      "p": [
+        "For a beauty salon client we rebuilt the website, set up SEO and ran Google Ads as one program, so every click landed on a page built for that service and every booking could be traced. It is a different market from New York, but the method is the one we bring here: fix the page and the tracking first, then spend."
+      ]
+    },
+    {
+      "h": "How a paid media engagement works",
+      "p": [
+        "Talk: we review your accounts, tracking and CRM. Plan: channel mix, budgets, targeting, creative plan and a measurement setup agreed in writing. Build: conversion and call tracking, CRM connection, landing pages and the first creative. Grow: weekly optimization, new creative on a schedule and a monthly report on cost per lead, cost per client and revenue. We work with New York companies remotely from London, five hours ahead, so account checks happen before your morning and reviews sit in it."
+      ]
+    },
+    {
+      "h": "What shapes the cost of managing paid media",
+      "list": [
+        "Number of channels and campaigns",
+        "Monthly ad spend and how many locations or products it covers",
+        "How much creative you need each month",
+        "Landing page builds and testing",
+        "Tracking and CRM setup complexity"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Before choosing any agency, ask who owns the ad accounts and the data. With us, you do, from day one, and you can see every change we make. Most ad agencies buy media and send a report. We also build the site, make the video and run SEO, so paid and organic work from the same keyword data and the same pages. Related: SEO and GEO, video and animation, web development and strategy and go-to-market."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should a New York business spend on ads?",
+      "a": "It depends on what a new customer is worth to you and how competitive your searches are. We usually start with enough budget to get meaningful data within a few weeks on one or two channels, then scale what works. We will tell you honestly if your budget is too small for a channel to be worth it."
+    },
+    {
+      "q": "Which ad platform works best for New York B2B companies?",
+      "a": "For B2B services selling to finance, legal and corporate buyers, LinkedIn and Google Search usually do the heavy lifting: LinkedIn for reaching job titles at target companies, Search for capturing buyers already looking. YouTube helps with longer sales cycles. We test and shift budget based on pipeline data from your CRM."
+    },
+    {
+      "q": "Do I need to disclose AI-generated people in New York ads?",
+      "a": "Yes, if you know an ad contains a synthetic performer, meaning a realistic digital human created with AI or similar software. New York's law took effect on June 9, 2026 and requires a conspicuous disclosure. Audio-only ads and some expressive works are exempt. We label every AI presenter we produce."
+    },
+    {
+      "q": "Can you track calls from ads for a New York law firm or clinic?",
+      "a": "Yes. We set up call tracking numbers per campaign, connect them to your CRM or intake software, and report cost per signed case or booked patient, not just cost per call. Recording settings are agreed with your counsel to meet consent rules."
+    },
+    {
+      "q": "Do you work with New York brands in person?",
+      "a": "We work remotely from London, with reviews in your morning. Ad management is screen-based work, so distance does not affect results. For a creative shoot or a planning workshop, we come to New York when the project needs it, agreed in writing."
+    },
+    {
+      "q": "What does a paid media agency in New York charge?",
+      "a": "Our fees depend on channels, spend, creative volume, landing pages and tracking setup. We do not publish prices. After a 15-minute call and a look at your current accounts, we send a written proposal that separates our fee from your ad spend."
+    }
+  ],
+  "related": [
+    "/locations/new-york",
+    "/services/paid-media",
+    "/locations/new-york/seo-geo",
+    "/locations/new-york/video-animation",
+    "/services/go-to-market",
+    "/locations/miami/paid-media"
+  ],
+  "keywords": {
+    "primary": "paid media agency new york",
+    "secondary": ["ppc agency nyc", "google ads agency new york", "linkedin ads agency new york", "tiktok ads agency nyc"]
+  }
+}
