@@ -36,7 +36,7 @@ const RollingNumber = ({ target, duration = 2000 }) => {
       const progress = Math.min((timestamp - startTimestamp) / duration, 1);
       const easeOutQuad = (t) => t * (2 - t);
       const easedProgress = easeOutQuad(progress);
-      setCount(Math.floor(easedProgress * target));
+      setCount(Number.isInteger(target) ? Math.floor(easedProgress * target) : Math.round(easedProgress * target * 10) / 10);
       if (progress < 1) {
         window.requestAnimationFrame(step);
       }
@@ -59,10 +59,10 @@ interface Stat {
 
 // Fallback data — used if Supabase table is empty so the site never breaks
 const FALLBACK_STATS: Stat[] = [
-  { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
-  { id: 2, value: 98, suffix: "%", label: "Client Satisfaction" },
-  { id: 3, value: 50, suffix: "+", label: "Global Clients" },
-  { id: 4, value: 25, suffix: "+", label: "Industry Awards" },
+  { id: 1, value: 30, suffix: "+", label: "Companies worked with" },
+  { id: 2, value: 30, suffix: "+", label: "AI builds" },
+  { id: 3, value: 20, suffix: "+", label: "Live events broadcast" },
+  { id: 4, value: 1.5, suffix: "M+", label: "In projects managed", prefix: "$" } as Stat,
 ];
 
 const CompanyStatsCounts = () => {
@@ -77,11 +77,11 @@ const CompanyStatsCounts = () => {
         <FadeIn key={stat.id} delay={index * 0.2}>
           <Cardhovereffect>
             <div className="second-card flex flex-col items-center justify-center text-center stats-card-compact">
-              <h1 className="text-2xl md:text-4xl font-bold">
+              <p className="text-2xl md:text-4xl font-bold">
                 {stat.prefix || ""}
                 <RollingNumber target={stat.value} />
                 {stat.suffix}
-              </h1>
+              </p>
               <p className="dark-text text-xs md:text-base">{stat.label}</p>
             </div>
           </Cardhovereffect>

@@ -48,7 +48,7 @@ const FALLBACK_ARTICLES: Article[] = [
     id: "f3",
     title: "Reducing Manufacturing Cost Without Cutting Quality",
     description:
-      "A breakdown of supply chain strategies that delivered 40-60% savings for our retail clients in 2025.",
+      "How sourcing through partner factories can cut unit costs, and what to check before you commit.",
     bigImage: Bigimg1,
     category: "Manufacturing",
     author: "22 Signals Editorial",

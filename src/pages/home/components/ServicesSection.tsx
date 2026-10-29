@@ -504,15 +504,15 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(0)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Digital Solutions"
-                  description="High-performance web development, SEO, GEO and intelligent AI systems."
+                  title="Web and App Development"
+                  description="Websites, portals and apps built to rank, convert and last."
                   icon={Framed}
                   tone="dark"
                   size="tall"
                   highlight="01 / Pillar"
                   decoration={<DecoCircuit tone="dark" />}
                   buttonVariant="white"
-                  onClick={goToService("digital-solutions")}
+                  onClick={goToService("web-app-development")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -520,15 +520,15 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(1)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Data & AI"
-                  description="Predictive analytics, multi-agentic AI, and automation that scales."
+                  title="AI and Automation"
+                  description="Custom AI tools and automations that take a business off the old way of working."
                   icon={Framed}
                   tone="blue"
                   size="tall"
                   highlight="02 / Pillar"
                   decoration={<DecoData tone="blue" />}
                   buttonVariant="secondary"
-                  onClick={goToService("data-ai")}
+                  onClick={goToService("ai-automation")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -536,15 +536,15 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(2)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Cloud Solutions"
-                  description="Scalable cloud infrastructure, DevOps, and resilient backend systems."
+                  title="Cloud and Data"
+                  description="Cloud infrastructure, migrations, DevOps and data systems that keep up with the business."
                   icon={Framed}
                   tone="dark"
                   size="tall"
                   highlight="03 / Pillar"
                   decoration={<DecoCloud tone="dark" />}
                   buttonVariant="white"
-                  onClick={goToService("cloud-solutions")}
+                  onClick={goToService("cloud")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -554,13 +554,13 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(3)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Creative Solutions"
-                  description="Social media management, motion graphics, 2D/3D animations."
+                  title="Video, Motion and 3D"
+                  description="Reels, brand films, motion graphics, 3D and live broadcast."
                   icon={CreativeIcon}
                   tone="blue"
                   decoration={<DecoSparkle tone="blue" />}
                   buttonVariant="secondary"
-                  onClick={goToService("creative-solutions")}
+                  onClick={goToService("video-motion")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -568,13 +568,13 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(4)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Managed Services"
-                  description="Top-tier global talent with built-in supervision. Staff augmentation and employee outsourcing."
+                  title="Strategy and Go-to-Market"
+                  description="The plan for a new market or product, and the people to run it."
                   icon={Stafficon}
                   tone="dark"
                   decoration={<DecoTeam tone="dark" />}
                   buttonVariant="white"
-                  onClick={goToService("managed-services")}
+                  onClick={goToService("go-to-market")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -582,13 +582,13 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(5)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Broadcasting & Events"
-                  description="End-to-end online and offline tournament and broadcast management."
+                  title="SEO, GEO and Paid Media"
+                  description="Show up in Google and in ChatGPT, Claude and Gemini answers, and run ads tied to leads."
                   icon={Broadcastingicon}
                   tone="blue"
                   decoration={<DecoBroadcast tone="blue" />}
                   buttonVariant="secondary"
-                  onClick={goToService("broadcasting-events")}
+                  onClick={goToService("seo-geo")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -596,13 +596,13 @@ const ServicesSection = () => {
             <FadeIn delay={stagger(6)}>
               <Cardhovereffect>
                 <ServiceCard
-                  title="Global Manufacturing"
-                  description="Optimize your supply chain and reduce product costs by 40-60%."
+                  title="More We Do"
+                  description="Managed teams, live events, game development and product sourcing."
                   icon={Stafficon}
                   tone="dark"
                   decoration={<DecoFactory tone="dark" />}
                   buttonVariant="white"
-                  onClick={goToService("global-manufacturing")}
+                  onClick={goToService("more")}
                 />
               </Cardhovereffect>
             </FadeIn>
@@ -624,13 +624,13 @@ const ServicesSection = () => {
           ─────────────────────────────────────────────────────────────── */}
           <div className="grid md:hidden grid-cols-2 gap-3">
             {[
-              { title: "Digital Solutions",     short: "Web, SEO, GEO, AI systems.",                   tone: "dark" as const, slug: "digital-solutions",      label: "01" },
-              { title: "Data & AI",             short: "Predictive analytics & automation.",           tone: "blue" as const, slug: "data-ai",                 label: "02" },
-              { title: "Cloud Solutions",       short: "Cloud, DevOps, backend systems.",              tone: "dark" as const, slug: "cloud-solutions",        label: "03" },
-              { title: "Creative Solutions",    short: "Social, motion, 2D/3D animation.",             tone: "blue" as const, slug: "creative-solutions",     label: "04" },
-              { title: "Managed Services",      short: "Top-tier global talent, supervised.",          tone: "dark" as const, slug: "managed-services",       label: "05" },
-              { title: "Broadcasting & Events", short: "Tournaments & broadcast management.",          tone: "blue" as const, slug: "broadcasting-events",    label: "06" },
-              { title: "Global Manufacturing",  short: "Supply chain & cost reduction 40-60%.",        tone: "dark" as const, slug: "global-manufacturing",   label: "07" },
+              { title: "Web and App Development", short: "Sites, portals and apps.",                  tone: "dark" as const, slug: "web-app-development",    label: "01" },
+              { title: "AI and Automation",     short: "Custom AI tools and automations.",            tone: "blue" as const, slug: "ai-automation",           label: "02" },
+              { title: "Cloud and Data",        short: "Cloud, DevOps and data systems.",             tone: "dark" as const, slug: "cloud",                  label: "03" },
+              { title: "Video, Motion and 3D",   short: "Reels, motion, 3D and broadcast.",            tone: "blue" as const, slug: "video-motion",           label: "04" },
+              { title: "Strategy and Go-to-Market", short: "Plans for new markets and products.",   tone: "dark" as const, slug: "go-to-market",           label: "05" },
+              { title: "SEO, GEO and Paid Media", short: "Google, AI answers and ads.",               tone: "blue" as const, slug: "seo-geo",                label: "06" },
+              { title: "More We Do",            short: "Teams, events, games and sourcing.",          tone: "dark" as const, slug: "more",                   label: "07" },
             ].map((s, i) => {
               const isBlue = s.tone === "blue";
               const isLast = i === 6; // span 2 columns to terminate cleanly

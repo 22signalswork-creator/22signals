@@ -28,9 +28,9 @@ const FALLBACK_FAQS: Faq[] = [
   },
   {
     id: "s3",
-    question: "How are you able to offer 40-60% cost reductions in manufacturing and development?",
+    question: "Where do the 40-60% savings come from?",
     answer:
-      "We achieve this by strategically leveraging highly competitive global hubs. For physical product manufacturing, we utilize an extensive network in Pakistan and China to optimize your supply chain, reducing costs by 40-60%. For tech and game development, we operate out of Pakistan, a rapidly growing market producing over 30,000 software engineers annually, allowing us to offer up to 60% savings compared to North American or European markets without ever compromising on quality.",
+      "They apply to two services. Product sourcing through partner factories can cut unit costs by 40 to 60%, depending on product and volume. Managed specialist teams typically save 40 to 60% against hiring locally, depending on the role. Everything else is priced on scope.",
   },
   {
     id: "s4",

@@ -32,7 +32,7 @@ const FALLBACK_FAQS: Faq[] = [
     id: 3,
     question: "How much can I save?",
     answer:
-      "Expect 40-60% savings across all services with faster business growth.",
+      "Product sourcing and managed teams can save 40 to 60%, depending on product, volume and role. Everything else is priced on scope after a 15-minute call.",
   },
   {
     id: 4,

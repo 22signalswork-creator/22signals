@@ -33,7 +33,7 @@ const RollingNumber = ({ target, duration = 2000 }: RollingNumberProps) => {
       const progress = Math.min((timestamp - startTimestamp) / duration, 1);
       const easeOutQuad = (t: number) => t * (2 - t);
       const easedProgress = easeOutQuad(progress);
-      setCount(Math.floor(easedProgress * target));
+      setCount(Number.isInteger(target) ? Math.floor(easedProgress * target) : Math.round(easedProgress * target * 10) / 10);
       if (progress < 1) window.requestAnimationFrame(step);
     };
     window.requestAnimationFrame(step);
@@ -52,10 +52,10 @@ interface Stat {
 }
 
 const FALLBACK_STATS: Stat[] = [
-  { id: 1, value: 150, suffix: "+", label: "Projects Delivered" },
-  { id: 2, value: 98, suffix: "%", label: "Client Satisfaction" },
-  { id: 3, value: 50, suffix: "+", label: "Global Clients" },
-  { id: 4, value: 25, suffix: "+", label: "Industry Awards" },
+  { id: 1, value: 30, suffix: "+", label: "Companies worked with" },
+  { id: 2, value: 30, suffix: "+", label: "AI builds" },
+  { id: 3, value: 20, suffix: "+", label: "Live events broadcast" },
+  { id: 4, value: 1.5, suffix: "M+", label: "In projects managed", prefix: "$" } as Stat,
 ];
 
 const CompanyStatsCounts: React.FC = () => {
@@ -69,9 +69,9 @@ const CompanyStatsCounts: React.FC = () => {
       <FadeIn>
         <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 md:gap-6 mb-6 md:mb-10 items-center">
           <div>
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-              Our Successfully <br /> Growth
-            </h1>
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight">
+              In numbers we stand behind
+            </h2>
           </div>
           {/* Right-side paragraph removed per request */}
         </div>
@@ -82,11 +82,11 @@ const CompanyStatsCounts: React.FC = () => {
           <FadeIn key={stat.id} delay={(typeof stat.id === "number" ? stat.id : 1) * 0.1}>
             <Cardhovereffect>
               <div className="second-card flex flex-col items-center justify-center text-center stats-card-compact">
-                <h1 className="text-2xl md:text-4xl font-bold">
+                <p className="text-2xl md:text-4xl font-bold">
                   {stat.prefix || ""}
                   <RollingNumber target={stat.value} />
                   {stat.suffix}
-                </h1>
+                </p>
                 <p className="dark-text text-xs md:text-base">{stat.label}</p>
               </div>
             </Cardhovereffect>

@@ -1,5 +1,32 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/services/digital-solutions", "destination": "/services/web-app-development", "permanent": true },
+    { "source": "/services/data-ai", "destination": "/services/ai-automation", "permanent": true },
+    { "source": "/services/cloud-solutions", "destination": "/services/cloud", "permanent": true },
+    { "source": "/services/creative-solutions", "destination": "/services/video-motion", "permanent": true },
+    { "source": "/services/managed-services", "destination": "/services/more", "permanent": true },
+    { "source": "/services/broadcasting-events", "destination": "/services/more", "permanent": true },
+    { "source": "/services/broadcasting-esports", "destination": "/services/more", "permanent": true },
+    { "source": "/services/global-manufacturing", "destination": "/services/more", "permanent": true },
+    { "source": "/services/trading-investments", "destination": "/services", "permanent": true },
+    { "source": "/privacy", "destination": "/privacy-policy", "permanent": true },
+    { "source": "/terms", "destination": "/terms-of-service", "permanent": true },
+    { "source": "/work", "destination": "/portfolio", "permanent": true },
+    { "source": "/test", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/admin", "destination": "/app.html" },
+    { "source": "/admin/:path*", "destination": "/app.html" },
+    { "source": "/r&d", "destination": "/app.html" },
+    { "source": "/r&d/:path*", "destination": "/app.html" },
+    { "source": "/r%26d", "destination": "/app.html" },
+    { "source": "/r%26d/:path*", "destination": "/app.html" },
+    { "source": "/portfolio/:slug", "destination": "/app.html" }
+  ],
+  "headers": [
+    { "source": "/admin/:path*", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
+    { "source": "/llms.txt", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] }
   ]
 }

@@ -8,7 +8,6 @@ import {
 import Header from "../src/layout/header.tsx";
 import Footer from "../src/layout/footer.tsx";
 import Home from "./pages/home/home.tsx";
-import Service from "./pages/services/service.tsx";
 import Portfolio from "./pages/portfolio/portfolio.tsx";
 import Team from "./pages/team/team.tsx";
 import Readdetails from "./pages/r&d/r&d.tsx";
@@ -18,7 +17,11 @@ import ThankYou from "./pages/thank-you/thank-you.tsx";
 import PrivacyPolicy from "./pages/legal/PrivacyPolicy.tsx";
 import TermsOfService from "./pages/legal/TermsOfService.tsx";
 import Preloader from "./layout/Preloader.tsx";
-import Test from "./pages/test.tsx";
+import ContentPage from "./pages/content/ContentPage";
+import { useHead } from "./content/useHead";
+// @ts-ignore - plain JS content module
+import { PAGES } from "./content/site.js";
+import { Navigate } from "react-router-dom";
 import ProjectDetailPagesAdmin from "./admin/pages/ProjectDetailPagesAdmin";
 import ProjectDetailPage from "./pages/portfolio/ProjectDetailPage";
 
@@ -55,6 +58,7 @@ type HeaderTheme = "light" | "dark";
 const PublicLayout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const isHome = location.pathname === "/" || location.pathname === "";
+  useHead();
 
   useLayoutEffect(() => {
     // Disable smooth-scroll temporarily so navigation JUMPS instantly to the
@@ -77,6 +81,7 @@ const PublicLayout = ({ children }: { children: React.ReactNode }) => {
     // Service detail pages /services/:slug have a dark background → need light (white) text
     if (path.startsWith("/services/") || path.startsWith("/portfolio/")) return "light";
     if (path.startsWith("/r&d") || path.startsWith("/r%26d")) return "light";
+    if ((PAGES as { path: string }[]).some((p) => p.path === path)) return "light";
     switch (path) {
       case "/":
         return "light";
@@ -166,8 +171,12 @@ const AppShell = ({
       <PublicLayout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Service />} />
-          <Route path="/services" element={<Service />} />
+          <Route path="/work" element={<Navigate to="/portfolio" replace />} />
+          {(PAGES as { path: string }[])
+            .filter((p) => p.path !== "/")
+            .map((p) => (
+              <Route key={p.path} path={p.path} element={<ContentPage path={p.path} />} />
+            ))}
           <Route path="/services/:slug" element={<ServiceDetailPage />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/team" element={<Team />} />
@@ -178,8 +187,17 @@ const AppShell = ({
           <Route path="/thank-you" element={<ThankYou />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/test" element={<Test />} />
           <Route path="/portfolio/:slug" element={<ProjectDetailPage />} />
+          <Route path="/privacy" element={<Navigate to="/privacy-policy" replace />} />
+          <Route
+            path="*"
+            element={
+              <div className="bg-[#000202] min-h-screen pt-40 px-6 text-center text-white">
+                <h1 className="text-4xl mb-4">Page not found</h1>
+                <a href="/" className="text-[#6B92FF]">Go to the homepage</a>
+              </div>
+            }
+          />
         </Routes>
       </PublicLayout>
     </>

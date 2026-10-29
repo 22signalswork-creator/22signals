@@ -9,16 +9,16 @@ import LegalLayout, { LegalSection } from "./LegalLayout";
  *
  * NOTE: Plain-language template, not legal advice. Confirm the [BRACKET]
  * placeholders and have a qualified lawyer review before relying on it.
- * Governing law is set to Pakistan (Lahore) per the registered entity.
+ * Governing law: England and Wales (decided 29 Oct 2026; solicitor to review).
  */
 const TermsOfService: React.FC = () => {
   return (
-    <LegalLayout title="Terms of Service" lastUpdated="Last updated: 15 July 2026">
+    <LegalLayout title="Terms of Service" lastUpdated="Last updated: 29 October 2026">
       <p>
         These Terms of Service ("Terms") govern your access to and use of
         <strong> 22signals.com</strong> (the "Site"), operated by
-        <strong> 22 Signals</strong> ("22 Signals", "we", "us", or "our"), a business
-        registered in Lahore, Pakistan. By accessing or using the Site, you agree to
+        Daniyal Mansur, trading as <strong>22 Signals</strong> ("22 Signals", "we",
+        "us", or "our"), from London, United Kingdom. By accessing or using the Site, you agree to
         these Terms. If you do not agree, please do not use the Site.
       </p>
 
@@ -125,18 +125,18 @@ const TermsOfService: React.FC = () => {
 
       <LegalSection n={10} title="Governing law">
         <p>
-          These Terms are governed by the laws of the Islamic Republic of Pakistan.
-          Any disputes arising from these Terms or your use of the Site will be subject
-          to the exclusive jurisdiction of the courts of Lahore, Pakistan.
+          These Terms are governed by the laws of England and Wales. Any disputes
+          arising from these Terms or your use of the Site will be subject to the
+          jurisdiction of the courts of England and Wales.
         </p>
       </LegalSection>
 
       <LegalSection n={11} title="Contact us">
         <p>Questions about these Terms? Contact us at:</p>
         <p className="text-white/85">
-          22 Signals
+          22 Signals, London, United Kingdom
           <br />
-          Email: <a className="text-[#6B92FF] hover:underline" href="mailto:contact@22signals.com">contact@22signals.com</a>
+          Email: <a className="text-[#6B92FF] hover:underline" href="mailto:business@22signals.com">business@22signals.com</a>
         </p>
       </LegalSection>
     </LegalLayout>

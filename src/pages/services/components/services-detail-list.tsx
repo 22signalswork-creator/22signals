@@ -103,7 +103,7 @@ const FALLBACK_PILLARS: ServicePillar[] = [
     title: "Global Manufacturing Solutions",
     tagline: "Scaling physical product lines without bleeding margins.",
     body:
-      "We help businesses optimize their supply chains by leveraging an extensive international network. By outsourcing manufacturing to Pakistan and China, two of the world's most competitive production hubs, we deliver high-quality physical products while radically improving your profit margins.",
+      "Sourcing, sampling, production and quality control through partner factories for merchandise, apparel and physical products. Depending on product and volume, clients can cut unit costs by 40 to 60%.",
     bullets: [
       { label: "Production Capabilities", text: "Specialized manufacturing across various industries, with a primary focus on custom merchandise, apparel, shoes, sportswear, and accessories." },
       { label: "Supply Chain Optimization", text: "We handle everything from large-scale mass production runs to highly customized, specialized batch solutions." },
@@ -117,7 +117,7 @@ const FALLBACK_PILLARS: ServicePillar[] = [
     title: "Game Development",
     tagline: "Immersive gaming experiences built at highly competitive rates.",
     body:
-      "Bring your gaming visions to life. Operating out of Pakistan, a rapidly growing tech hub producing over 30,000 software engineers annually, we give you direct access to top-tier developers, 3D modelers, and animators.",
+      "Games, interactive experiences and esports products, from concept and design to build and launch.",
     bullets: [
       { label: "Comprehensive Development", text: "End-to-end creation of mobile and console hits, immersive 2D/3D game design, and AR/VR experiences." },
       { label: "Next-Gen Gaming", text: "Expertise in integrating AI-driven NPCs and blockchain gaming models (NFTs & Play-to-Earn)." },

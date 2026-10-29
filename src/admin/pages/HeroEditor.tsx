@@ -14,8 +14,8 @@ interface Hero {
 
 const EMPTY: Hero = {
   headline: "Create.",
-  tagline: "Your one stop business solution.",
-  cities_list: ["DUBAI", "LAHORE", "LONDON", "NEW YORK"],
+  tagline: "Ambitious ideas, executed.",
+  cities_list: ["LONDON"],
   gradient_word: "Create.",
 };
 
@@ -107,7 +107,7 @@ export default function HeroEditor() {
               })
             }
             className="w-full bg-white/[0.04] border border-white/15 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:border-blue-400 transition-colors"
-            placeholder="DUBAI, LAHORE, LONDON, NEW YORK"
+            placeholder="LONDON"
           />
           <div className="text-white/40 text-xs mt-1">
             Currently: {hero.cities_list.length} cities

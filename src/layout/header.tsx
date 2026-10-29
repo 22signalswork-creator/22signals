@@ -15,13 +15,14 @@ interface HeaderProps {
  * so both surfaces stay in sync with one source of truth.
  */
 const SERVICES_SUBMENU: { label: string; slug: string }[] = [
-  { label: "Digital Solutions", slug: "digital-solutions" },
-  { label: "Data & AI", slug: "data-ai" },
-  { label: "Cloud Solutions", slug: "cloud-solutions" },
-  { label: "Creative Solutions", slug: "creative-solutions" },
-  { label: "Managed Services", slug: "managed-services" },
-  { label: "Broadcasting & Events", slug: "broadcasting-events" },
-  { label: "Global Manufacturing", slug: "global-manufacturing" },
+  { label: "Strategy and Go-to-Market", slug: "go-to-market" },
+  { label: "AI and Automation", slug: "ai-automation" },
+  { label: "Cloud and Data", slug: "cloud" },
+  { label: "Web and App Development", slug: "web-app-development" },
+  { label: "SEO and GEO", slug: "seo-geo" },
+  { label: "Paid Media", slug: "paid-media" },
+  { label: "Video, Motion and 3D", slug: "video-motion" },
+  { label: "More We Do", slug: "more" },
 ];
 
 const PORTFOLIO_SUBMENU: { label: string; path: string }[] = [
@@ -78,8 +79,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     { label: "Home", path: "/" },
     { label: "Services", path: "/services" },
     { label: "Portfolio", path: "/portfolio" },
-    { label: "Team", path: "/team" },
-    { label: "R&D", path: "/r&d" },
+    { label: "About", path: "/about" },
     { label: "Blog", path: "/blog" },
     { label: "Contact", path: "/contact" },
   ];
@@ -210,7 +210,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                   onMouseLeave={scheduleClose}
                 >
                   <a
-                    href="#"
+                    href="/services"
                     onClick={(e) => {
                       e.preventDefault();
                       closeDropdown();
@@ -229,7 +229,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     {SERVICES_SUBMENU.map((s) => (
                       <a
                         key={s.slug}
-                        href="#"
+                        href={`/services/${s.slug}`}
                         onClick={(e) => {
                           e.preventDefault();
                           closeDropdown();
@@ -242,7 +242,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     ))}
                     <div className="header-dropdown-divider" />
                     <a
-                      href="#"
+                      href="/services"
                       onClick={(e) => {
                         e.preventDefault();
                         closeDropdown();
@@ -266,7 +266,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                   onMouseLeave={scheduleClose}
                 >
                   <a
-                    href="#"
+                    href="/portfolio"
                     onClick={(e) => {
                       e.preventDefault();
                       closeDropdown();
@@ -285,7 +285,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     {PORTFOLIO_SUBMENU.map((p) => (
                       <a
                         key={p.label}
-                        href="#"
+                        href={p.path}
                         onClick={(e) => {
                           e.preventDefault();
                           closeDropdown();
@@ -303,7 +303,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
             return (
               <a
                 key={tab.label}
-                href="#"
+                href={tab.path}
                 onClick={(e) => { e.preventDefault(); navigate(tab.path); }}
                 className={`menu-item ${getTextColorClass()} ${
                   activeTab === tab.label ? "active" : ""
@@ -428,7 +428,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                             >
                               <li>
                                 <a
-                                  href="#"
+                                  href="/services"
                                   onClick={(e) => { e.preventDefault(); goTo("/services"); }}
                                   className="mobile-submenu-item mobile-submenu-all"
                                 >
@@ -438,7 +438,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                               {SERVICES_SUBMENU.map((s) => (
                                 <li key={s.slug}>
                                   <a
-                                    href="#"
+                                    href={`/services/${s.slug}`}
                                     onClick={(e) => { e.preventDefault(); goTo(`/services/${s.slug}`); }}
                                     className="mobile-submenu-item"
                                   >
@@ -481,7 +481,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                               {PORTFOLIO_SUBMENU.map((p) => (
                                 <li key={p.label}>
                                   <a
-                                    href="#"
+                                    href={p.path}
                                     onClick={(e) => { e.preventDefault(); goTo(p.path); }}
                                     className="mobile-submenu-item"
                                   >
@@ -499,7 +499,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                   return (
                     <motion.li key={tab.label} variants={itemVariants}>
                       <a
-                        href="#"
+                        href={tab.path}
                         onClick={(e) => { e.preventDefault(); goTo(tab.path); }}
                         className={`mobile-menu-item ${
                           activeTab === tab.label ? "active" : ""

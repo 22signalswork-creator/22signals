@@ -24,8 +24,8 @@ interface HeroRow {
 // Fallback values used until the `hero_section` row exists in Supabase
 const FALLBACK_HERO: HeroRow = {
   headline: "Create.",
-  tagline: "Your one stop business solution.",
-  cities_list: ["DUBAI", "LAHORE", "LONDON", "NEW YORK"],
+  tagline: "Ambitious ideas, executed.",
+  cities_list: ["LONDON"],
   gradient_word: "Create.",
 };
 

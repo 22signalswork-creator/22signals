@@ -17,14 +17,41 @@ import LegalLayout, { LegalSection } from "./LegalLayout";
  */
 const PrivacyPolicy: React.FC = () => {
   return (
-    <LegalLayout title="Privacy Policy" lastUpdated="Last updated: 15 July 2026">
+    <LegalLayout title="Privacy Policy" lastUpdated="Last updated: 29 October 2026">
       <p>
         This Privacy Policy explains how <strong>22 Signals</strong> ("22 Signals",
         "we", "us", or "our") collects, uses, and protects information when you
         visit <strong>22signals.com</strong> (the "Site") or contact us through it.
-        22 Signals is a business registered in Lahore, Pakistan. By using the Site,
-        you agree to the practices described here.
+        22signals.com is operated by Daniyal Mansur, trading as 22 Signals, from
+        London, United Kingdom. By using the Site, you agree to the practices
+        described here.
       </p>
+
+      <section id="how-we-found-you">
+        <h2 className="text-white text-xl md:text-2xl font-semibold mb-3">
+          How we found you (business emails)
+        </h2>
+        <div className="space-y-3">
+          <p>
+            If we emailed you about our services, we found your business contact
+            details in public professional sources, such as your company's website,
+            LinkedIn and business directories, and through business data providers
+            that supply verified work emails and phone numbers.
+          </p>
+          <p>
+            We hold only business details: your name, job title, company, work email
+            and, where available, a work phone number. We use them to contact you
+            about services relevant to your business, on the basis of our legitimate
+            interest in reaching businesses that may benefit from our work.
+          </p>
+          <p>
+            You can object at any time. Reply "no" to any of our emails, or write to{" "}
+            <a className="text-[#6B92FF] hover:underline" href="mailto:business@22signals.com">business@22signals.com</a>,
+            and we will stop contacting you and keep only what we need to make sure
+            you are not contacted again.
+          </p>
+        </div>
+      </section>
 
       <LegalSection n={1} title="Information we collect">
         <p>
@@ -114,10 +141,11 @@ const PrivacyPolicy: React.FC = () => {
 
       <LegalSection n={6} title="International data transfers">
         <p>
-          Our providers may store and process data on servers located outside
-          Pakistan (for example in the EU or the US). Where information is transferred
-          internationally, we take reasonable steps to ensure it remains protected in
-          line with this Policy.
+          Our team works across several regions, and our providers may store and
+          process data on servers outside the United Kingdom (for example in the EU or
+          the US). Where information is transferred internationally, we take
+          reasonable steps to ensure it remains protected in line with this Policy and
+          applicable data-protection law.
         </p>
       </LegalSection>
 
@@ -178,9 +206,9 @@ const PrivacyPolicy: React.FC = () => {
           If you have questions about this Policy or your information, contact us at:
         </p>
         <p className="text-white/85">
-          22 Signals
+          22 Signals, London, United Kingdom
           <br />
-          Email: <a className="text-[#6B92FF] hover:underline" href="mailto:contact@22signals.com">contact@22signals.com</a>
+          Email: <a className="text-[#6B92FF] hover:underline" href="mailto:business@22signals.com">business@22signals.com</a>
         </p>
       </LegalSection>
     </LegalLayout>

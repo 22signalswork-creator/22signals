@@ -62,7 +62,7 @@ export const projects: Project[] = [
     category: "Manufacturing",
     subtitle: "Scaling physical product lines without bleeding margins.",
     description:
-      "We optimize supply chains by leveraging an extensive international network across Pakistan and China — two of the world's most competitive production hubs.",
+      "Sourcing, sampling, production and quality control through partner factories.",
     details: `<b>Production Capabilities:</b> Custom merchandise, apparel, shoes, sportswear, accessories.<br/><br/><b>Supply Chain Optimization:</b> Mass production runs to highly customized batch solutions.<br/><br/><b>The Impact:</b> Strict quality control + fast turnarounds = 30-60% product cost reductions.`,
     visual: <VisualManufacturing />,
   },
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     category: "Game Development",
     subtitle: "Immersive gaming experiences built at highly competitive rates.",
     description:
-      "Operating from Pakistan, a tech hub producing 30,000+ software engineers annually. Direct access to top-tier developers, 3D modelers, and animators.",
+      "Games, interactive experiences and esports products, from concept to launch.",
     details: `<b>Comprehensive Development:</b> End-to-end mobile and console games, 2D/3D, AR/VR.<br/><br/><b>Next-Gen Gaming:</b> AI-driven NPCs and blockchain models (NFTs & Play-to-Earn).<br/><br/><b>The Impact:</b> Up to 60% savings vs North American/European markets.`,
     visual: <VisualGame />,
   },

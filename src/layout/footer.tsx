@@ -26,15 +26,15 @@ interface Setting {
 // Contact details hidden temporarily — the company is remote, so there is no
 // office address to publish. Flip these back to `true` to show the rows again;
 // they render whatever `site_settings` holds for those keys.
-const SHOW_PHONE = false;
+const SHOW_PHONE = true;
 const SHOW_ADDRESS = false;
 
 // Defaults — used until rows are inserted into `site_settings`.
 // Phone and address are intentionally blank rather than hardcoded: the
 // literals would otherwise ship in the public JS bundle even while hidden.
 const FALLBACK_SETTINGS: Setting[] = [
-  { key: "phone", value: "" },
-  { key: "email", value: "contact@22signals.com" },
+  { key: "phone", value: "+44 7944 603108" },
+  { key: "email", value: "business@22signals.com" },
   { key: "address", value: "" },
   { key: "copyright_year", value: "2026" },
 ];
@@ -51,7 +51,7 @@ const Footer = () => {
     settings.find((s) => s.key === key)?.value ?? fallback;
 
   const phone = get("phone");
-  const email = get("email", "contact@22signals.com");
+  const email = get("email", "business@22signals.com");
   const address = get("address");
   const year = get("copyright_year", "2026");
 
@@ -166,9 +166,18 @@ const Footer = () => {
             <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Navigation</h4>
               <ul className="text-gray-400 space-y-3 text-sm">
-                {["Services", "Portfolio", "Team", "R&D", "Blog", "Contact"].map((item) => (
+                {[
+                  ["Services", "/services"],
+                  ["Portfolio", "/portfolio"],
+                  ["About", "/about"],
+                  ["How we work", "/how-we-work"],
+                  ["For agencies", "/partners"],
+                  ["FAQ", "/faq"],
+                  ["Blog", "/blog"],
+                  ["Contact", "/contact"],
+                ].map(([item, to]) => (
                   <li key={item}>
-                    <Link to={`/${item.toLowerCase()}`} className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">
+                    <Link to={to} className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">
                       {item}
                     </Link>
                   </li>
@@ -193,13 +202,14 @@ const Footer = () => {
                 {SHOW_PHONE && (
                   <li className="flex items-center justify-start gap-3 group">
                     <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                    <span className="text-gray-400 text-sm">{phone}</span>
+                    <a href={`tel:${phone.replace(/\s/g, "")}`} className="text-gray-400 text-sm hover:text-white">{phone}</a>
                   </li>
                 )}
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-400 text-sm">{email}</span>
+                  <a href={`mailto:${email}`} className="text-gray-400 text-sm hover:text-white">{email}</a>
                 </li>
+                <li className="text-gray-400 text-sm">London, United Kingdom</li>
                 {SHOW_ADDRESS && (
                   <li className="flex items-start justify-start gap-3 group">
                     <img src={Frame3} alt="" className="w-6 h-6 mt-1 group-hover:rotate-12 transition-transform" />
