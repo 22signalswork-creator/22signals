@@ -4,11 +4,14 @@ import Arrowright from "@/assets/image-removebg-preview (4).png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 
-const ProcessSteps: React.FC = () => {
+type Step = { number: string; title: string; desc: string };
+type Props = { steps?: Step[]; title?: React.ReactNode; text?: string };
+
+const ProcessSteps: React.FC<Props> = (props) => {
   const getStaggerDelay = (index: number) => index * 0.15;
 
   // Per brief: replace text + graphics with these 4 stages
-  const steps = [
+  const defaultSteps = [
     {
       number: "01",
       title: "Discovery",
@@ -30,6 +33,7 @@ const ProcessSteps: React.FC = () => {
       desc: "Scale your operations.",
     },
   ];
+  const steps = props.steps ?? defaultSteps;
 
   return (
     <section className="process-section py-24 flex items-center justify-center">
@@ -37,14 +41,17 @@ const ProcessSteps: React.FC = () => {
         <FadeIn>
           <div className="process-header">
             <RisingText end="80%">
-              <h1>
-                Our Process Step <br /> By Step Strategy
-              </h1>
+              <h2 className="faq-heading">
+                {props.title ?? (
+                  <>
+                    Our Process Step <br /> By Step Strategy
+                  </>
+                )}
+              </h2>
             </RisingText>
             <p className="dark-text">
-              Stop managing multiple agencies. Partner with us to gain a
-              dedicated supervisor and instant access to our full suite of
-              digital, creative, and manufacturing solutions.
+              {props.text ??
+                "Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions."}
             </p>
           </div>
         </FadeIn>

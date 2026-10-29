@@ -903,3 +903,62 @@ button.gray {
 /* Contact page: section headings at form size, not hero size */
 .contact-page h2 { --h2-size: clamp(24px, 2.4vw, 32px); line-height: 1.2; }
 .contact-page aside h2 { --h2-size: 20px; }
+
+/* Old services FAQ heading rendered as h2 (one h1 per page) but styled like the original h1 */
+h2.faq-heading {
+  font-weight: 300 !important;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+  background: var(--h1-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+  display: inline-block;
+}
+@media (max-width: 1024px) { h2.faq-heading { font-size: 48px; } }
+@media (max-width: 640px) { h2.faq-heading { font-size: 32px; line-height: 1.15; } }
+
+/* Detail pages: hover state for the cross-link cards (old sidebar style) */
+.detail-link-card:hover {
+  border-color: rgba(50, 95, 236, 0.35) !important;
+  box-shadow: 0 10px 24px -16px rgba(50, 95, 236, 0.35);
+  transform: translateY(-2px);
+}
+.detail-capability-card:hover {
+  border-color: rgba(50, 95, 236, 0.35) !important;
+  box-shadow: 0 20px 40px -20px rgba(50, 95, 236, 0.25) !important;
+}
+.detail-faq .faq-section { margin-top: 0; padding-top: 80px; }
+
+/* About page: the team hero title is the page h1 there, styled exactly like the team page h2 */
+h1.team-title {
+  font-weight: 300 !important;
+  font-size: 68px;
+  line-height: 1.1;
+  background: linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #325FEC 102.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+}
+@media (max-width: 1024px) { h1.team-title { font-size: 30px; padding: 19px 0; } }
+@media (max-width: 640px) { h1.team-title { font-size: 26px; line-height: 1.18; } }
+
+/* Team/About value cards: titles are h3 (one h1 per page), styled like the original h1 cards */
+h3.teamcard-title {
+  font-weight: 300 !important;
+  font-size: 35px;
+  line-height: 1.1;
+  background: linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 43.71%, #FFFFFF 61.62%, #325FEC 102.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+@media (max-width: 1024px) { h3.teamcard-title { font-size: 30px; } }
+@media (max-width: 640px) { h3.teamcard-title { font-size: 26px; } }

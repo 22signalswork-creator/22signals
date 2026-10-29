@@ -50,7 +50,7 @@ export function loadCalendly(): Promise<void> {
 export type Prefill = { name?: string; email?: string };
 
 // Builds the booking URL with display options and prefill parameters.
-export function bookingUrl(prefill: Prefill = {}, base = BOOKING_URL): string {
+export function bookingUrl(prefill: Prefill = {}, base = BOOKING_URL, extra: Record<string, string> = {}): string {
   // Encode with %20 for spaces: Calendly's embed re-encodes the URL, which
   // would turn a "+" space into a literal plus sign in the name field.
   const params: [string, string][] = [
@@ -61,6 +61,7 @@ export function bookingUrl(prefill: Prefill = {}, base = BOOKING_URL): string {
   ];
   if (prefill.name) params.push(["name", prefill.name]);
   if (prefill.email) params.push(["email", prefill.email]);
+  for (const [k, v] of Object.entries(extra)) params.push([k, v]);
   const q = params.map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join("&");
   return `${base.split("?")[0]}?${q}`;
 }

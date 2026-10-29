@@ -55,7 +55,28 @@ const values = [
   },
 ];
 
-export default function TeamSection() {
+export type TeamSectionProps = {
+  label?: string;
+  bigHeading?: string;
+  bigHeadingAs?: "h1" | "h2" | "p";
+  intro?: string;
+  valuesTitle?: string;
+  valuesText?: string;
+  valueItems?: { title: string; desc: string }[];
+  extraBlocks?: { h: string; p: string[] }[];
+};
+
+export default function TeamSection({
+  label = "Our Team",
+  bigHeading = "MEET THE TEAM",
+  bigHeadingAs = "h1",
+  intro = "As a result of our diverse experience, we are able to think creatively and find new solutions to problems — providing clients with memorable, purpose-driven experiences that cut through the noise and connect where it matters.",
+  valuesTitle = "The DNA of Our Standard.",
+  valuesText = "Our operational framework is built on precision, speed, and cross-departmental excellence to help you lead your market.",
+  valueItems = values,
+  extraBlocks = [],
+}: TeamSectionProps = {}) {
+  const BigHeading = bigHeadingAs;
   const [team, setTeam] = useState<TeamMember[]>([]);
 
   useEffect(() => {
@@ -109,13 +130,13 @@ export default function TeamSection() {
           <div className="flex items-center gap-3 mb-7">
             <div className="h-[2px] w-12 rounded-full bg-blue-400" />
             <span className="text-blue-300 text-[11px] tracking-[0.4em] uppercase font-medium">
-              Our Team
+              {label}
             </span>
           </div>
         </FadeIn>
 
         <RisingText>
-          <h1
+          <BigHeading
             className="font-bold leading-[0.95] tracking-tight whitespace-nowrap"
             style={{
               fontSize: "clamp(28px, 8vw, 124px)",
@@ -126,8 +147,8 @@ export default function TeamSection() {
               backgroundClip: "text",
             }}
           >
-            MEET THE TEAM
-          </h1>
+            {bigHeading}
+          </BigHeading>
         </RisingText>
 
         {/* Intro paragraph — relocated from beside the CEO portrait per brief
@@ -137,10 +158,7 @@ export default function TeamSection() {
             className="text-white/75 leading-relaxed mt-6 md:mt-8 max-w-3xl"
             style={{ fontSize: "clamp(15px, 1.1vw, 18px)" }}
           >
-            As a result of our diverse experience, we are able to think
-            creatively and find new solutions to problems — providing clients
-            with memorable, purpose-driven experiences that cut through the
-            noise and connect where it matters.
+            {intro}
           </p>
         </FadeIn>
       </div>
@@ -381,18 +399,17 @@ export default function TeamSection() {
       <div className="container relative z-10 flex flex-col gap-16 md:gap-20 pb-20 md:pb-28">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6 items-start">
           <div>
-            <h2>The DNA of Our Standard.</h2>
+            <h2>{valuesTitle}</h2>
           </div>
           <div>
             <p className="white-text">
-              Our operational framework is built on precision, speed, and
-              cross-departmental excellence to help you lead your market.
+              {valuesText}
             </p>
           </div>
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
-          {values.map((value, i) => (
+          {valueItems.map((value, i) => (
             <FadeIn key={i}>
               <Cardhovereffect>
                 <div
@@ -404,13 +421,31 @@ export default function TeamSection() {
                   className="rounded-[20px] p-6 flex flex-col gap-4 h-full"
                 >
                   <img src={Valuicon} width={"66px"} alt="" />
-                  <h1 className="teamcard-title">{value.title}</h1>
+                  <h3 className="teamcard-title">{value.title}</h3>
                   <p className="text-white text-left flex-grow">{value.desc}</p>
                 </div>
               </Cardhovereffect>
             </FadeIn>
           ))}
         </div>
+
+        {/* Extra text blocks (About page), in the same heading-left, text-right layout */}
+        {extraBlocks.map((b) => (
+          <FadeIn key={b.h}>
+            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6 items-start">
+              <div>
+                <h2>{b.h}</h2>
+              </div>
+              <div className="flex flex-col gap-4">
+                {b.p.map((t, i) => (
+                  <p key={i} className="white-text">
+                    {t}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
+        ))}
       </div>
     </section>
   );

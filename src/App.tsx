@@ -81,6 +81,8 @@ const PublicLayout = ({ children }: { children: React.ReactNode }) => {
     // Service detail pages /services/:slug have a dark background → need light (white) text
     if (path.startsWith("/services/") || path.startsWith("/portfolio/")) return "light";
     if (path.startsWith("/r&d") || path.startsWith("/r%26d")) return "light";
+    // /services uses the original light Services page design, so dark header text.
+    if (path === "/services") return "dark";
     if ((PAGES as { path: string }[]).some((p) => p.path === path)) return "light";
     switch (path) {
       case "/":

@@ -46,14 +46,16 @@ const FALLBACK_FAQS: Faq[] = [
   },
 ];
 
-export default function FaqSection() {
+export default function FaqSection({ items }: { items?: Faq[] } = {}) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  const { data: faqs } = useCMS<Faq>("faqs", {
+  const { data: cmsFaqs } = useCMS<Faq>("faqs", {
     filter: { page: "services", is_active: true },
     orderBy: "sort_order",
     fallback: FALLBACK_FAQS,
   });
+  // Pages pass their own FAQs; without them the CMS rows are used (old behaviour).
+  const faqs = items && items.length ? items : cmsFaqs;
 
   return (
     <section className="container">
@@ -66,9 +68,9 @@ export default function FaqSection() {
                 <span className="services-badge">
                   ANSWERS AT YOUR FINGERTIPS
                 </span>
-                <h1>
+                <h2 className="faq-heading">
                   Frequently <br /> Asked <br /> Questions
-                </h1>
+                </h2>
               </div>
               <span className="faq-subtext">
                 Still Have Questions? Chat With Us
@@ -101,11 +103,10 @@ export default function FaqSection() {
                   </span>
                 </div>
 
-                {openFaq === index && (
-                  <div className="faq-answer">
-                    <p>{faq.answer}</p>
-                  </div>
-                )}
+                {/* Kept in the page (hidden when closed) so search engines read every answer */}
+                <div className="faq-answer" hidden={openFaq !== index}>
+                  <p>{faq.answer}</p>
+                </div>
               </div>
             ))}
           </div>

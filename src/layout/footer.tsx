@@ -16,7 +16,6 @@ import Frame3 from "../assets/Frame3.svg";
 import { Link } from "react-router-dom";
 import FadeIn from "@/transitions/FadeIn.js";
 import { useCMS } from "@/hooks/useCMS";
-import { usePageContent } from "@/hooks/usePageContent";
 
 interface Setting {
   id?: string;
@@ -71,7 +70,6 @@ const FooterNewsletter = () => {
 };
 
 const Footer = () => {
-  const { t } = usePageContent();
 
   const { data: settings } = useCMS<Setting>("site_settings", {
     fallback: FALLBACK_SETTINGS,
@@ -131,11 +129,12 @@ const Footer = () => {
             className="text-left"
           >
             <h2 className="recentproject-title flex flex-col sm:flex-row items-start sm:items-center justify-start gap-4 text-[28px] sm:text-[32px] md:text-[44px] text-white font-bold leading-tight">
-              {t("footer_cta_title", "Schedule a call. Let's connect!")}
+              {/* Fixed copy (the CMS value carried a reel offer that belongs in emails and VSLs, not on the site) */}
+              Schedule a call. Let's connect!
               <img src={Union} alt="Union" className="w-8 h-8 md:w-10 md:h-10 animate-pulse" />
             </h2>
             <p className="text-gray-300 mt-4 max-w-lg">
-              {t("footer_cta_subtitle", "Get the signal for what's next... or get left behind in the digital age.")}
+              Get the signal for what's next... or get left behind in the digital age.
             </p>
           </motion.div>
 
@@ -180,10 +179,10 @@ const Footer = () => {
               <FooterNewsletter />
               <ul className="flex gap-4 justify-start">
                 {[
+                  { icon: Group88, href: "https://www.instagram.com/22signals.gg/", label: "22 Signals on Instagram" },
+                  { icon: Group87, href: "https://www.linkedin.com/company/22-signals/", label: "22 Signals on LinkedIn" },
                   { icon: Group85, href: "https://www.facebook.com/share/19uFyzBXmj/", label: "22 Signals on Facebook" },
                   { icon: Group86, href: "https://x.com/22Signals", label: "22 Signals on X" },
-                  { icon: Group87, href: "https://www.linkedin.com/company/22-signals/", label: "22 Signals on LinkedIn" },
-                  { icon: Group88, href: "https://www.instagram.com/22signals.gg/", label: "22 Signals on Instagram" },
                 ].map(({ icon, href, label }) => (
                   <motion.li 
                     key={href}
@@ -247,10 +246,6 @@ const Footer = () => {
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   <a href="https://wa.me/447944603108" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-white">WhatsApp</a>
-                </li>
-                <li className="flex items-center justify-start gap-3 group">
-                  <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  <a href="mailto:daniyal@22signals.com" className="text-gray-400 text-sm hover:text-white">daniyal@22signals.com</a>
                 </li>
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />

@@ -75,7 +75,8 @@ async function notify(body: Payload) {
 
 const Contact: React.FC = () => {
   const navigate = useNavigate();
-  const [showDetailed, setShowDetailed] = useState(false);
+  // Original contact page toggle, now with a booking tab first.
+  const [mode, setMode] = useState<"book" | "quick" | "detailed">("book");
 
   // Quick form
   const [f1, setF1] = useState({
@@ -121,33 +122,42 @@ const Contact: React.FC = () => {
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [sent, setSent] = useState<{ name: string; email: string } | null>(null);
-  const detailedRef = useRef<HTMLDivElement>(null);
+  const formRef = useRef<HTMLDivElement>(null);
   const inlineRef = useRef<HTMLDivElement>(null);
 
-  // Inline booking calendar at the top of the page.
+  // Inline booking calendar, shown on the "Book a Call" tab. Event details are
+  // hidden in the embed so the date picker and times fit without a scrollbar.
   useEffect(() => {
+    if (mode !== "book") return;
     let cancelled = false;
     loadCalendly()
       .then(() => {
         if (cancelled || !inlineRef.current || !window.Calendly) return;
         inlineRef.current.innerHTML = "";
-        window.Calendly.initInlineWidget({ url: bookingUrl(), parentElement: inlineRef.current });
+        window.Calendly.initInlineWidget({
+          url: bookingUrl({}, undefined, { hide_event_type_details: "1", hide_landing_page_details: "1" }),
+          parentElement: inlineRef.current,
+        });
       })
       .catch(() => {});
-    const off = onCalendlyBooked(() => navigate("/thank-you?booked=1"));
     return () => {
       cancelled = true;
-      off();
     };
-  }, [navigate]);
+  }, [mode]);
 
-  const openDetailed = () => {
-    setShowDetailed(true);
-    setTimeout(() => {
-      if (!detailedRef.current) return;
-      const y = detailedRef.current.getBoundingClientRect().top + window.scrollY - 90;
-      window.scrollTo({ top: y, behavior: "smooth" });
-    }, 120);
+  useEffect(() => onCalendlyBooked(() => navigate("/thank-you?booked=1")), [navigate]);
+
+  // Switch tab and, on mobile, scroll the panel into view (as the original did).
+  const switchMode = (next: "book" | "quick" | "detailed") => {
+    setMode(next);
+    setSubmitError(null);
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        if (!formRef.current || window.innerWidth >= 768) return;
+        const y = formRef.current.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      })
+    );
   };
 
   const handleSubmit1 = async (e: React.FormEvent) => {
@@ -280,9 +290,15 @@ const Contact: React.FC = () => {
     </div>
   );
 
+  const TABS: { key: "book" | "quick" | "detailed"; label: string }[] = [
+    { key: "book", label: "Book a Call" },
+    { key: "quick", label: "Quick Connect" },
+    { key: "detailed", label: "Project Discovery" },
+  ];
+
   return (
     <div className="contact-page bg-[#000202] min-h-screen pt-32 pb-24 text-white">
-      {/* HERO */}
+      {/* HERO (original design) */}
       <div className="container">
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -297,40 +313,76 @@ const Contact: React.FC = () => {
                   backgroundClip: "unset",
                 }}
               >
-                Let's build what's next.
+                Let's Build the Future.
               </h1>
             </RisingText>
             <AnimatedText className="text-white/65 text-base md:text-lg mt-6">
-              Book a 15-minute call below, or send us a message and we will
-              get back to you.
+              Book a 15-minute call, send a quick message, or share the full
+              project brief. Whichever suits you.
             </AnimatedText>
           </div>
         </FadeIn>
 
-        {/* 1. BOOK A CALL */}
+        {/* Mode toggle (original pill design, plus a booking tab) */}
         <FadeIn>
-          <section className="max-w-5xl mx-auto rounded-3xl p-3 md:p-6 mb-16" style={cardStyle} aria-labelledby="book-heading">
-            <div className="px-3 md:px-4 pt-3 pb-2 flex flex-col md:flex-row md:items-end md:justify-between gap-2">
-              <h2 id="book-heading" className="text-2xl md:text-3xl text-white">
-                Book a 15-minute call.
-              </h2>
-              <p className="text-white/55 text-sm">Pick a time that suits you. Times show in your own time zone.</p>
+          <div className="flex justify-center mb-6">
+            <div
+              className="inline-flex flex-wrap justify-center p-1 rounded-full"
+              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(80,140,255,0.2)" }}
+              role="tablist"
+            >
+              {TABS.map((t) => (
+                <button
+                  key={t.key}
+                  role="tab"
+                  aria-selected={mode === t.key}
+                  onClick={() => switchMode(t.key)}
+                  className="px-5 md:px-6 py-2.5 text-sm rounded-full transition-all"
+                  style={{
+                    background: mode === t.key ? "#325FEC" : "transparent",
+                    color: mode === t.key ? "#fff" : "rgba(255,255,255,0.6)",
+                  }}
+                >
+                  {t.label}
+                </button>
+              ))}
             </div>
-            <div ref={inlineRef} className="w-full rounded-2xl overflow-hidden" style={{ minWidth: 300, height: 700 }}>
-              <div className="h-full flex items-center justify-center text-center p-8">
-                <a href={BOOKING_URL} className="text-blue-300 underline">
-                  Open the booking calendar
-                </a>
-              </div>
-            </div>
-          </section>
+          </div>
         </FadeIn>
 
-        {/* 2. QUICK MESSAGE + DIRECT CONTACT */}
-        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-6 items-start">
+        {/* Direct contact details, next to every form */}
+        <FadeIn>
+          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm text-white/60 mb-12">
+            <a href={`tel:${PHONE_TEL}`} className="hover:text-white">{PHONE_DISPLAY}</a>
+            <span aria-hidden className="text-white/20">·</span>
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white">WhatsApp</a>
+            <span aria-hidden className="text-white/20">·</span>
+            <a href={`mailto:${DIRECT_EMAIL}`} className="hover:text-white">{DIRECT_EMAIL}</a>
+          </div>
+        </FadeIn>
+
+        <div ref={formRef} className="scroll-mt-24" />
+
+        {/* BOOK A CALL */}
+        {mode === "book" && (
+          <FadeIn>
+            <div className="max-w-5xl mx-auto rounded-3xl overflow-hidden" style={cardStyle}>
+              <div ref={inlineRef} className="w-full calendly-inline" style={{ minWidth: 300, height: 720 }}>
+                <div className="h-full flex items-center justify-center text-center p-8">
+                  <a href={BOOKING_URL} className="text-blue-300 underline">
+                    Open the booking calendar
+                  </a>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        )}
+
+        {/* QUICK CONNECT */}
+        {mode === "quick" && (
           <FadeIn>
             {sent ? (
-              <div className="rounded-3xl p-8 md:p-12" style={cardStyle} role="status">
+              <div className="max-w-3xl mx-auto rounded-3xl p-8 md:p-12" style={cardStyle} role="status">
                 <h2 className="text-2xl md:text-3xl text-white mb-4">Thanks, {sent.name.split(" ")[0]}. We have your message.</h2>
                 <p className="text-white/65 leading-relaxed">
                   We will get back to you at {sent.email}. The quickest next step
@@ -338,18 +390,14 @@ const Contact: React.FC = () => {
                   filled in.
                 </p>
                 <div className="mt-8">
-                  <CustomButton
-                    text="BOOK A CALL"
-                    variant="primary"
-                    onClick={() => openCalendly({ name: sent.name, email: sent.email })}
-                  />
+                  <CustomButton text="BOOK A CALL" variant="primary" onClick={() => openCalendly({ name: sent.name, email: sent.email })} />
                 </div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit1} className="relative rounded-3xl p-8 md:p-12" style={cardStyle} noValidate>
-                <h2 className="text-2xl md:text-3xl text-white mb-2">Or send us a message.</h2>
+              <form onSubmit={handleSubmit1} className="relative max-w-3xl mx-auto rounded-3xl p-8 md:p-12" style={cardStyle} noValidate>
+                <h2 className="text-2xl md:text-3xl text-white mb-2">Quick Connect.</h2>
                 <p className="text-white/55 text-sm mb-8">
-                  When you send it, the booking calendar opens with your details filled in.
+                  A few details and we will get back to you. When you send it, the booking calendar opens with your details filled in.
                 </p>
                 {trapField(f1.trap, (v) => updateF1("trap", v))}
 
@@ -389,10 +437,10 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
 
-                {submitError && !showDetailed && <p className="text-red-300 text-sm mt-5" role="alert">{submitError}</p>}
+                {submitError && <p className="text-red-300 text-sm mt-5" role="alert">{submitError}</p>}
 
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mt-8">
-                  <button type="button" onClick={openDetailed} className="text-blue-300 text-sm underline underline-offset-4 text-left">
+                  <button type="button" onClick={() => switchMode("detailed")} className="text-blue-300 text-sm underline underline-offset-4 text-left">
                     Want to share the full project brief instead?
                   </button>
                   <CustomButton
@@ -404,43 +452,14 @@ const Contact: React.FC = () => {
               </form>
             )}
           </FadeIn>
+        )}
 
-          {/* Direct contact */}
+        {/* PROJECT DISCOVERY */}
+        {mode === "detailed" && (
           <FadeIn>
-            <aside className="rounded-3xl p-8" style={cardStyle} aria-label="Contact details">
-              <h2 className="text-xl text-white mb-6">Talk to us directly</h2>
-              <ul className="space-y-5 text-sm">
-                <li>
-                  <div className="text-white/45 text-xs uppercase tracking-[0.2em] mb-1">Phone</div>
-                  <a href={`tel:${PHONE_TEL}`} className="text-white hover:text-blue-300">{PHONE_DISPLAY}</a>
-                </li>
-                <li>
-                  <div className="text-white/45 text-xs uppercase tracking-[0.2em] mb-1">WhatsApp</div>
-                  <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300">Message us on WhatsApp</a>
-                </li>
-                <li>
-                  <div className="text-white/45 text-xs uppercase tracking-[0.2em] mb-1">Email</div>
-                  <a href={`mailto:${DIRECT_EMAIL}`} className="text-white hover:text-blue-300 break-all">{DIRECT_EMAIL}</a>
-                </li>
-                <li className="text-white/55">London, United Kingdom</li>
-              </ul>
-            </aside>
-          </FadeIn>
-        </div>
-
-        {/* 3. DETAILED BRIEF (secondary) */}
-        <div ref={detailedRef} className="scroll-mt-24" />
-        {!showDetailed ? (
-          <div className="max-w-5xl mx-auto text-center mt-12">
-            <button type="button" onClick={openDetailed} className="text-white/60 hover:text-white text-sm">
-              Have a full brief ready? <span className="text-blue-300 underline underline-offset-4">Open the project discovery form</span>
-            </button>
-          </div>
-        ) : (
-          <FadeIn>
-            <form onSubmit={handleSubmit2} className="relative max-w-5xl mx-auto rounded-3xl p-8 md:p-12 mt-12" style={cardStyle} noValidate>
+            <form onSubmit={handleSubmit2} className="relative max-w-4xl mx-auto rounded-3xl p-8 md:p-12" style={cardStyle} noValidate>
               {trapField(f2.trap, (v) => updateF2("trap", v))}
-              <h2 className="text-2xl md:text-3xl text-white mb-3">Project discovery.</h2>
+              <h2 className="text-2xl md:text-3xl text-white mb-3">Project Discovery.</h2>
               <p className="text-white/55 text-sm md:text-base mb-10 max-w-3xl">
                 Tell us about the project in as much detail as you like. We read
                 every brief and come back with questions or a written plan.
@@ -552,7 +571,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              {submitError && showDetailed && <p className="text-red-300 text-sm mb-5" role="alert">{submitError}</p>}
+              {submitError && <p className="text-red-300 text-sm mb-5" role="alert">{submitError}</p>}
 
               <div className="flex justify-center md:justify-end mt-8">
                 <CustomButton

@@ -239,7 +239,7 @@
 
 }
 
-.process-header h1 {
+.process-header h1, .process-header h2.faq-heading {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -735,7 +735,7 @@
     gap: 24px;                    /* smaller spacing */
   }
 
-  .process-header h1 {
+  .process-header h1, .process-header h2.faq-heading {
     font-size: 32px;
   }
 
@@ -892,7 +892,7 @@
     gap: 20px;
   }
 
-  .process-header h1 {
+  .process-header h1, .process-header h2.faq-heading {
     font-size: 26px;
   }
 

@@ -109,7 +109,7 @@ export const MARKETS = [
 
 const CTA = {
   heading: "Book a 15-minute call.",
-  text: "A fit check, not a pitch. A few questions, an honest answer, and if your business qualifies, your first motion graphics reel is on us. Not every call ends in a proposal.",
+  text: "A fit check, not a pitch. A few questions, an honest answer and a clear next step. Not every call ends in a proposal.",
   button: "Book 15 minutes",
 };
 
@@ -171,11 +171,34 @@ export const PAGES = [
     description:
       "Strategy and go-to-market, AI and automation, cloud and data, web and app development, SEO and GEO, paid media, and video, motion and 3D.",
     eyebrow: "What we do",
-    h1: "One team instead of ten.",
+    h1: "Ambitious ideas, executed.",
     intro:
       "22 Signals builds the systems a business runs on, then grows it. Seven core services, plus managed teams, live events, game development and product sourcing, all run by one accountable lead with specialist teams behind them.",
-    sections: [],
-    faqs: [],
+    sections: [
+      {
+        h: "One team instead of ten. One accountable lead.",
+        p: [
+          "Pick the service you need today. Strategy and AI, data and cloud, websites and apps, search and paid media, and video and 3D all sit under one team, so the next service is already in the room when you need it.",
+        ],
+      },
+      {
+        h: "How we work, step by step",
+        p: ["One accountable lead, specialist teams behind them, and every date in writing. Discovery and a roadmap take 5 to 7 days."],
+        list: [
+          "Talk: a 15-minute call to see if we fit.",
+          "Plan: discovery and a written roadmap in 5 to 7 days.",
+          "Build: specialist teams build it, dates in writing.",
+          "Grow: we run it, measure it and grow it with you.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Can I hire 22 Signals for just one service?", a: "Yes. Most clients start with one service, such as an AI build, a website or search. Because the other services sit in the same team, adding one later does not mean briefing a new supplier." },
+      { q: "Who runs my project?", a: "One accountable lead, the Signal Lead, runs your project and the specialist teams behind it. You get one person to call, a written scope and dates in writing." },
+      { q: "How quickly can you start?", a: "After a 15-minute call, discovery and a written roadmap take 5 to 7 days. The build starts on the dates agreed in that roadmap." },
+      { q: "Which industries do you work with?", a: "Mostly established companies in healthcare, fashion and beauty, technology and AI, law and professional services, gaming and entertainment, and real estate, plus founders and startups." },
+      { q: "What does it cost?", a: "It depends on scope, so we price after a 15-minute call and put it in writing before any work starts. For product sourcing and managed teams, savings of 40 to 60% are typical, depending on product, volume and role." },
+    ],
     related: [],
   },
 
@@ -601,11 +624,11 @@ export const PAGES = [
     serviceType: "Video production, motion graphics and 3D animation",
     title: "Video Production, AI Video, Animation and 3D Renders | 22 Signals",
     description:
-      "Video production, AI video, motion graphics, animation and photoreal 3D renders. Qualifying businesses get their first motion graphics reel on us.",
+      "Video production, AI video, motion graphics, animation and photoreal 3D renders for brands that need content at volume, every week.",
     eyebrow: "Video, AI Video, Animation and 3D",
     h1: "Video, animation and 3D that stops the scroll.",
     intro:
-      "22 Signals produces video, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call, and if your business qualifies, your first motion graphics reel is on us.",
+      "22 Signals produces video, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call to talk through what you need.",
     sections: [
       {
         h: "What we make",
@@ -621,12 +644,6 @@ export const PAGES = [
         ],
       },
       { h: "Live events and broadcast", p: [PROOF.events] },
-      {
-        h: "Send the assets, let's roll.",
-        p: [
-          "Your first motion graphics reel is on us: one per company, for qualifying businesses, no purchase needed, delivered after the call with a short note on how we made it.",
-        ],
-      },
     ],
     faqs: [
       {
@@ -996,32 +1013,35 @@ export const PAGES = [
     title: "About 22 Signals: Business Solutions Company, London",
     description:
       "22 Signals is a global business solutions company based in London. We solve the problems that hold businesses back: slow operations, scattered data, missing capability.",
-    eyebrow: "About",
-    h1: "Built for the next era of business.",
+    eyebrow: "Who we are",
+    h1: "The Engine Behind 22 Signals.",
+    subtitle: "A global business solutions company based in London, built for the next era of business.",
     intro:
       "22 Signals is a global business solutions company based in London. Established companies, founders and startups bring us in when they need capability they don't have in-house: AI, cloud, data, technology, marketing and go-to-market. We build intelligent systems so they can operate in the new era of business, then we grow them and execute with them.",
     sections: [
       {
-        h: "What we solve",
+        h: "What we solve.",
+        p: ["The problems that hold established businesses back, and the ones founders hit early."],
         list: [
-          "Operations still running on spreadsheets, email and manual work",
-          "Data spread across tools, so decisions run on guesses",
-          "Infrastructure that's slow, insecure or costs too much",
-          "Plans bigger than the team that has to deliver them",
-          "Customers who can't find you in Google or in AI answers",
-          "Too many suppliers and nobody owning the result",
-          "Launches that slip because nobody owned the date",
+          "Manual operations: work still running on spreadsheets, email and copy-paste. We build the systems and AI that take it off your team.",
+          "Scattered data: numbers spread across tools, so decisions run on guesses. We put data in one place, with dashboards leaders actually read.",
+          "Slow infrastructure: systems that are slow, insecure or cost too much. We fix the cloud underneath and keep it running.",
+          "Missing capability: plans bigger than the team that has to deliver them. Our specialist teams fill the gap without a hiring round.",
+          "Hard to find: customers can't find you in Google or in AI answers. We fix search, content and ads so they do.",
+          "Too many suppliers: nobody owns the result. One accountable lead runs everything under one team.",
+          "Slipping launches: dates that move because nobody owned them. Every date we agree goes in writing.",
+          "Ideas without execution: an ambitious idea and no team to build it. We plan it, build it and grow it with you.",
         ],
       },
       {
-        h: "How we solve it",
+        h: "How we solve it.",
         p: [
           "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions: AI, cloud and data, consulting, engineering, search, paid media, and video and 3D. Talk, plan, build, grow. Every date we agree goes in writing.",
         ],
       },
-      { h: "In numbers we stand behind", p: [PROOF.scale + " " + PROOF.projects] },
+      { h: "In numbers we stand behind.", p: [PROOF.scale + " " + PROOF.projects] },
       {
-        h: "Where we work",
+        h: "Where we work.",
         p: ["Our head office is in London. We work with companies across the United States, the United Kingdom and the UAE."],
       },
     ],
@@ -1122,7 +1142,7 @@ export const PAGES = [
       },
       {
         q: "What happens on the 15-minute call?",
-        a: "Four or five questions, an honest fit verdict, and if your business qualifies, a brief for your motion graphics reel, which is on us.",
+        a: "Four or five questions, an honest fit verdict, and a clear next step, whether that is a proposal or a pointer to someone better suited.",
       },
     ],
     related: ["/about", "/how-we-work", "/contact"],
@@ -1151,7 +1171,7 @@ export const CMS_ROUTES = [
     path: "/contact",
     title: "Contact 22 Signals: Book a 15-Minute Call",
     description: "Book a 15-minute fit call, or email business@22signals.com.",
-    h1: "Let's build what's next.",
+    h1: "Let's Build the Future.",
   },
   {
     path: "/team",
