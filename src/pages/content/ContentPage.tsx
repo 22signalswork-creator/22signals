@@ -134,6 +134,16 @@ const ContentPage: React.FC<{ path?: string }> = ({ path }) => {
               >
                 See the work
               </Link>
+              {page.kind === "person" && (
+                <a
+                  href="https://www.linkedin.com/in/daniyal-mansur/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full border border-white/20 px-7 py-3 text-white/90 hover:border-white/50 transition-colors"
+                >
+                  Connect on LinkedIn
+                </a>
+              )}
             </div>
           </FadeIn>
 

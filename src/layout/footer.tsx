@@ -179,14 +179,19 @@ const Footer = () => {
               </p>
               <FooterNewsletter />
               <ul className="flex gap-4 justify-start">
-                {[Group85, Group86, Group87, Group88].map((icon, i) => (
+                {[
+                  { icon: Group85, href: "https://www.facebook.com/share/19uFyzBXmj/", label: "22 Signals on Facebook" },
+                  { icon: Group86, href: "https://x.com/22Signals", label: "22 Signals on X" },
+                  { icon: Group87, href: "https://www.linkedin.com/company/22-signals/", label: "22 Signals on LinkedIn" },
+                  { icon: Group88, href: "https://www.instagram.com/22signals.gg/", label: "22 Signals on Instagram" },
+                ].map(({ icon, href, label }) => (
                   <motion.li 
-                    key={i}
+                    key={href}
                     whileHover={{ y: -5 }}
                     transition={{ type: "spring", stiffness: 300 }}
                   >
-                    <a href="#" className="hover:opacity-80 transition-opacity">
-                      <img src={icon} alt="social" className="w-8 h-8" />
+                    <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="hover:opacity-80 transition-opacity">
+                      <img src={icon} alt="" className="w-8 h-8" />
                     </a>
                   </motion.li>
                 ))}

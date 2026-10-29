@@ -43,6 +43,12 @@ const organization = {
   areaServed: ["US", "GB", "AE"],
   email: SITE.email,
   telephone: SITE.phone,
+  sameAs: [
+    "https://www.linkedin.com/company/22-signals/",
+    "https://x.com/22Signals",
+    "https://www.instagram.com/22signals.gg/",
+    "https://www.facebook.com/share/19uFyzBXmj/",
+  ],
   knowsAbout: [
     "AI automation",
     "Cloud infrastructure",
@@ -65,6 +71,7 @@ const person = {
   alumniOf: { "@type": "CollegeOrUniversity", name: "Queen Mary University of London" },
   workLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: "London", addressCountry: "GB" } },
   url: abs("/about/daniyal-mansur"),
+  sameAs: ["https://www.linkedin.com/in/daniyal-mansur/"],
 };
 
 function breadcrumbs(p) {
@@ -195,6 +202,7 @@ function body(page) {
   if (page.eyebrow) h += `<p>${esc(page.eyebrow)}</p>`;
   h += `<h1>${esc(page.h1)}</h1>`;
   if (page.intro) h += `<p>${esc(page.intro)}</p>`;
+  if (page.kind === "person") h += `<p><a href="https://www.linkedin.com/in/daniyal-mansur/" rel="me">Daniyal Mansur on LinkedIn</a></p>`;
   if (page.kind === "hub") {
     h += `<h2>Services</h2><ul>${SERVICES.map((s) => `<li><a href="${s.path}">${esc(s.label)}</a>: ${esc(s.blurb || "")}</li>`).join("")}</ul>`;
     h += `<h2>Industries</h2><ul>${INDUSTRIES.map((s) => `<li><a href="${s.path}">${esc(s.label)}</a></li>`).join("")}</ul>`;

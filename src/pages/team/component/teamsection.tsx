@@ -270,6 +270,14 @@ export default function TeamSection() {
                   </p>
                 ))}
               </div>
+              <div className="flex flex-wrap gap-5 mt-6 text-sm">
+                <a href="https://www.linkedin.com/in/daniyal-mansur/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white underline underline-offset-4">
+                  Connect on LinkedIn
+                </a>
+                <a href="/about/daniyal-mansur" className="text-blue-300 hover:text-white underline underline-offset-4">
+                  Read Daniyal's full profile
+                </a>
+              </div>
             </div>
           </FadeIn>
         </div>
