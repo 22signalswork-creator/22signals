@@ -210,7 +210,13 @@ function body(page) {
   for (const s of page.sections || []) {
     h += `<section${s.id ? ` id="${s.id}"` : ""}><h2>${esc(s.h)}</h2>`;
     for (const p of s.p || []) h += `<p>${esc(p)}</p>`;
-    if (s.list) h += `<ul>${s.list.map((li) => `<li>${esc(li)}</li>`).join("")}</ul>`;
+    // List items may carry "text|/link" (link to a page) or "value|label" (numbers, timelines).
+    const li = (x) => {
+      const [a, b] = String(x).split("|");
+      if (b && b.startsWith("/")) return `<li><a href="${b}">${esc(a)}</a></li>`;
+      return `<li>${esc(b ? `${a}: ${b}` : a)}</li>`;
+    };
+    if (s.list) h += `<ul>${s.list.map(li).join("")}</ul>`;
     h += `</section>`;
   }
   if (page.faqs && page.faqs.length) {

@@ -22,6 +22,7 @@ import {
   VisualOutsourcing,
 } from "@/pages/services/components/service-visuals";
 import { openCalendly } from "@/lib/calendly";
+import { visualForService } from "@/pages/services/components/service-visuals-by-service";
 // @ts-ignore - plain JS content module shared with the prerender script
 import { SERVICES, CITY_SERVICES, CTA } from "@/content/site.js";
 
@@ -58,6 +59,15 @@ const CREATIVE = /video|motion|animation|3d|render|fashion|beauty|real-estate/;
 const EVENTS = /gaming|esports|entertainment/;
 const TEAMS = /\/services\/more|partners|how-we-work/;
 function visualFor(path: string): React.ReactNode {
+  // Each service has its own visual; city service pages use their parent service's.
+  let slug: string | undefined;
+  if (path.startsWith("/services/")) slug = path.split("/")[2];
+  else if (/^\/locations\/[^/]+\/[^/]+$/.test(path)) {
+    const cs = (CITY_SERVICES as { slug: string; global: string }[]).find((c) => c.slug === path.split("/")[3]);
+    slug = cs?.global.split("/")[2];
+  }
+  const own = slug ? visualForService(slug) : null;
+  if (own) return own;
   if (EVENTS.test(path)) return <VisualBroadcast />;
   if (CREATIVE.test(path)) return <VisualCreative />;
   if (TEAMS.test(path)) return <VisualOutsourcing />;
@@ -399,7 +409,7 @@ const DetailPage: React.FC<{
                           {section.h}
                         </h2>
                         {(section.p || []).map((t, k) => (
-                          <p key={k} className="text-black/65 text-base md:text-[17px] leading-relaxed max-w-3xl mb-5">
+                          <p key={k} className="text-base md:text-[17px] leading-relaxed max-w-3xl mb-5" style={{ color: "rgba(10,21,48,0.72)" }}>
                             {t}
                           </p>
                         ))}

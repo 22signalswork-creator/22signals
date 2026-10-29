@@ -1,17 +1,84 @@
 /**
  * /about in the original Team page design (src/pages/team/team.tsx):
- * same hero ("The Engine Behind 22 Signals."), same founder block, same team
- * grid and value cards, with the About copy in place of the team copy.
+ * same hero ("The Engine Behind 22 Signals."), same dark grid background,
+ * blue labels, gradient headings and value cards, filled with the About copy.
+ * Ends with the founder's portrait card linking to his page.
  * The /team page itself is unchanged.
  */
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "@/index.css";
 import HeroSection from "@/pages/team/component/hero-section.tsx";
-import TeamSection from "@/pages/team/component/teamsection.tsx";
 import PreCtaSections from "@/components/PreCtaSections";
+import RisingText from "@/transitions/RisingText";
+import FadeIn from "@/transitions/FadeIn";
+import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
+import Valuicon from "@/assets/valueicon.png";
+import { PortraitCard } from "./FounderPage";
 
-type Section = { h: string; p?: string[]; list?: string[] };
+type Section = { id?: string; h: string; p?: string[]; list?: string[] };
 type AboutData = { h1: string; subtitle?: string; intro: string; sections: Section[] };
+
+const titled = (item: string) => {
+  const [main, link] = item.split("|");
+  const i = main.indexOf(": ");
+  const title = i > 0 ? main.slice(0, i) : main;
+  const rest = i > 0 ? main.slice(i + 2) : "";
+  return { title, desc: rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : "", link };
+};
+
+const Label: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div className="flex items-center gap-3 mb-6">
+    <div className="h-[2px] w-12 rounded-full bg-blue-400" />
+    <span className="text-blue-300 text-[11px] tracking-[0.4em] uppercase font-medium">{children}</span>
+  </div>
+);
+
+const Para: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <p className="leading-relaxed" style={{ fontSize: "clamp(15px, 1.15vw, 18px)", color: "rgba(255,255,255,0.75)" }}>
+    {children}
+  </p>
+);
+
+// Heading left, text right: the team page "DNA of Our Standard" layout.
+const Split: React.FC<{ s?: Section; children?: React.ReactNode }> = ({ s, children }) =>
+  s ? (
+    <FadeIn>
+      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-6 md:gap-12 items-start">
+        <h2>{s.h}</h2>
+        <div className="flex flex-col gap-4">
+          {(s.p || []).map((t, i) => (
+            <Para key={i}>{t}</Para>
+          ))}
+          {children}
+        </div>
+      </div>
+    </FadeIn>
+  ) : null;
+
+const ValueCards: React.FC<{ items: string[] }> = ({ items }) => (
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
+    {items.map((item, i) => {
+      const v = titled(item);
+      return (
+        <FadeIn key={i} delay={(i % 4) * 0.05}>
+          <Cardhovereffect>
+            <div
+              style={{ background: "linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)", border: "1px solid #FFFFFF" }}
+              className="rounded-[20px] p-6 flex flex-col gap-4 h-full"
+            >
+              <img src={Valuicon} width={"66px"} alt="" />
+              <h3 className="teamcard-title">{v.title}</h3>
+              <p className="text-left flex-grow" style={{ color: "#ffffff" }}>
+                {v.desc}
+              </p>
+            </div>
+          </Cardhovereffect>
+        </FadeIn>
+      );
+    })}
+  </div>
+);
 
 const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
   useEffect(() => {
@@ -21,28 +88,216 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
     };
   }, []);
 
-  const solve = page.sections.find((s) => s.list && s.list.length) || null;
-  const rest = page.sections.filter((s) => s !== solve);
-  const cards = (solve?.list || []).map((item) => {
-    const i = item.indexOf(": ");
-    return i > 0
-      ? { title: item.slice(0, i), desc: item.charAt(i + 2).toUpperCase() + item.slice(i + 3) }
-      : { title: item, desc: "" };
-  });
+  const get = (id: string) => page.sections.find((s) => s.id === id);
+  const who = get("who");
+  const solve = get("solve");
+  const doo = get("do");
+  const how = get("how");
+  const withS = get("with");
+  const numbers = get("numbers");
+  const values = get("values");
+  const founder = get("founder");
 
   return (
     <div>
       <HeroSection titleAs="h1" subtitle={page.subtitle} />
-      <TeamSection
-        label="About 22 Signals"
-        bigHeading="WHO WE ARE"
-        bigHeadingAs="h2"
-        intro={page.intro}
-        valuesTitle={solve?.h}
-        valuesText={solve?.p?.[0]}
-        valueItems={cards}
-        extraBlocks={rest.map((s) => ({ h: s.h, p: s.p || [] }))}
-      />
+
+      <section className="relative bg-black text-white overflow-hidden">
+        <div
+          className="absolute inset-0 opacity-[0.05] pointer-events-none"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(80,140,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(80,140,255,0.6) 1px, transparent 1px)",
+            backgroundSize: "80px 80px",
+          }}
+        />
+        <div
+          className="absolute top-0 right-0 w-[700px] h-[700px] rounded-full pointer-events-none"
+          style={{ background: "radial-gradient(circle, rgba(50,95,236,0.18) 0%, rgba(50,95,236,0) 65%)", filter: "blur(50px)", transform: "translate(25%, -35%)" }}
+        />
+
+        {/* WHO WE ARE: big single-line heading, as "MEET THE TEAM" on /team */}
+        <div className="container relative z-10 pt-16 md:pt-24 pb-16 md:pb-24">
+          <FadeIn>
+            <Label>About 22 Signals</Label>
+          </FadeIn>
+          <RisingText>
+            <h2
+              className="font-bold leading-[0.95] tracking-tight whitespace-nowrap"
+              style={{
+                fontSize: "clamp(28px, 8vw, 124px)",
+                letterSpacing: "-0.035em",
+                background: "linear-gradient(91deg, #325FEC 0%, #FFFFFF 50%, #325FEC 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
+                padding: 0,
+              }}
+            >
+              WHO WE ARE
+            </h2>
+          </RisingText>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mt-8 md:mt-10">
+            <FadeIn delay={0.1}>
+              <p className="leading-relaxed" style={{ fontSize: "clamp(18px, 1.6vw, 24px)", color: "rgba(255,255,255,0.88)" }}>
+                {page.intro}
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.15}>
+              <div className="flex flex-col gap-4">
+                {(who?.p || []).map((t, i) => (
+                  <Para key={i}>{t}</Para>
+                ))}
+              </div>
+            </FadeIn>
+          </div>
+        </div>
+
+        <div className="container relative z-10 flex flex-col gap-20 md:gap-28 pb-20 md:pb-28">
+          {/* WHAT WE SOLVE */}
+          {solve && (
+            <div className="flex flex-col gap-10">
+              <Split s={solve} />
+              <ValueCards items={solve.list || []} />
+            </div>
+          )}
+
+          {/* WHAT WE DO: seven areas, each linking to its services */}
+          {doo && (
+            <div className="flex flex-col gap-10">
+              <Split s={doo} />
+              <div className="flex flex-col">
+                {(doo.list || []).map((item, i) => {
+                  const v = titled(item);
+                  return (
+                    <FadeIn key={i} delay={i * 0.03}>
+                      <Link
+                        to={v.link || "/services"}
+                        className="group grid grid-cols-[48px_1fr_auto] md:grid-cols-[64px_1.1fr_1.6fr_auto] gap-4 md:gap-8 items-center py-6 md:py-7 border-t border-white/15 no-underline"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <span className="text-blue-400/80 text-sm tabular-nums tracking-[0.2em]">{String(i + 1).padStart(2, "0")}</span>
+                        <span
+                          className="transition-colors"
+                          style={{
+                            fontSize: "clamp(20px, 2.2vw, 34px)",
+                            lineHeight: 1.15,
+                            background: "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #325FEC 102.48%)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                          }}
+                        >
+                          {v.title}
+                        </span>
+                        <span className="hidden md:block text-[15px] leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
+                          {v.desc}
+                        </span>
+                        <span className="text-blue-300 text-xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                        <span className="md:hidden col-span-3 -mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
+                          {v.desc}
+                        </span>
+                      </Link>
+                    </FadeIn>
+                  );
+                })}
+                <div className="border-t border-white/15" />
+              </div>
+            </div>
+          )}
+
+          {/* HOW WE WORK: four steps */}
+          {how && (
+            <div className="flex flex-col gap-10">
+              <Split s={how} />
+              <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                {(how.list || []).map((item, i) => {
+                  const v = titled(item);
+                  return (
+                    <FadeIn key={i} delay={i * 0.06}>
+                      <div className="rounded-[20px] p-6 h-full" style={{ background: "rgba(50,95,236,0.08)", border: "1px solid rgba(80,140,255,0.3)" }}>
+                        <div className="text-blue-300 text-xs tracking-[0.3em] mb-6">{String(i + 1).padStart(2, "0")}</div>
+                        <h3 className="teamcard-title mb-3">{v.title}</h3>
+                        <p style={{ color: "rgba(255,255,255,0.75)" }}>{v.desc}</p>
+                      </div>
+                    </FadeIn>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* WHO WE WORK WITH */}
+          <Split s={withS} />
+
+          {/* NUMBERS */}
+          {numbers && (
+            <div className="flex flex-col gap-10">
+              <FadeIn>
+                <h2>{numbers.h}</h2>
+              </FadeIn>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                {(numbers.list || []).map((n, i) => {
+                  const [value, label] = n.split("|");
+                  return (
+                    <FadeIn key={i} delay={i * 0.05}>
+                      <div className="border-t border-white/20 pt-6">
+                        <div
+                          className="font-light leading-none mb-3"
+                          style={{
+                            fontSize: "clamp(44px, 5vw, 80px)",
+                            background: "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #325FEC 102.48%)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                          }}
+                        >
+                          {value}
+                        </div>
+                        <div className="text-xs tracking-[0.25em] uppercase" style={{ color: "rgba(255,255,255,0.6)" }}>
+                          {label}
+                        </div>
+                      </div>
+                    </FadeIn>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* WHAT WE STAND FOR: team value cards */}
+          {values && (
+            <div className="flex flex-col gap-10">
+              <Split s={values} />
+              <ValueCards items={values.list || []} />
+            </div>
+          )}
+
+          {/* FOUNDER: portrait card and title only, linking to his page */}
+          {founder && (
+            <FadeIn>
+              <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-10 items-center">
+                <div>
+                  <Label>The founder</Label>
+                  <h2>{founder.h}</h2>
+                  <div className="mt-5 max-w-md">
+                    <Para>{founder.p?.[0]}</Para>
+                  </div>
+                  <Link
+                    to="/about/daniyal-mansur"
+                    className="inline-flex items-center gap-2 mt-8 text-blue-300 hover:text-white text-xs tracking-[0.25em] uppercase transition-colors group no-underline"
+                  >
+                    Read Daniyal's story
+                    <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+                  </Link>
+                </div>
+                <Link to="/about/daniyal-mansur" className="block max-w-[380px] w-full md:ml-auto no-underline" aria-label="Daniyal Mansur, Founder and CEO">
+                  <PortraitCard />
+                </Link>
+              </div>
+            </FadeIn>
+          )}
+        </div>
+      </section>
+
       <PreCtaSections testimonialsOnly testimonialsTitle="What Our Clients Say" />
     </div>
   );

@@ -1012,14 +1012,24 @@ export const PAGES = [
     kind: "about",
     title: "About 22 Signals: Business Solutions Company, London",
     description:
-      "22 Signals is a global business solutions company based in London. We solve the problems that hold businesses back: slow operations, scattered data, missing capability.",
+      "22 Signals is a global business solutions company based in London. We build intelligent systems for businesses, then grow them and execute with them.",
     eyebrow: "Who we are",
     h1: "The Engine Behind 22 Signals.",
     subtitle: "A global business solutions company based in London, built for the next era of business.",
     intro:
-      "22 Signals is a global business solutions company based in London. Established companies, founders and startups bring us in when they need capability they don't have in-house: AI, cloud, data, technology, marketing and go-to-market. We build intelligent systems so they can operate in the new era of business, then we grow them and execute with them.",
+      "22 Signals is a global business solutions company based in London. We build the intelligent systems a business runs on, then we grow it and execute with it: AI, cloud, data, websites and apps, marketing, video and the launches that tie them together.",
     sections: [
       {
+        id: "who",
+        h: "Who we are.",
+        p: [
+          "Most businesses don't need another supplier. They need the capability they don't have in-house, run by someone who owns the result. That is what 22 Signals is: one team with the strategists, engineers, marketers and creatives to take an idea from a plan to a working system, and then grow it.",
+          "We work mainly with established companies that are ready to move off the old way of working: manual processes, scattered data, slow systems and marketing nobody can measure. Founders and startups come to us too, usually to build and launch something new without hiring a whole team first.",
+          "We started in live events and esports, where the start time never moves and the audience is watching. That is still how we run every project: one accountable lead, specialist teams behind them, and every date in writing.",
+        ],
+      },
+      {
+        id: "solve",
         h: "What we solve.",
         p: ["The problems that hold established businesses back, and the ones founders hit early."],
         list: [
@@ -1027,22 +1037,67 @@ export const PAGES = [
           "Scattered data: numbers spread across tools, so decisions run on guesses. We put data in one place, with dashboards leaders actually read.",
           "Slow infrastructure: systems that are slow, insecure or cost too much. We fix the cloud underneath and keep it running.",
           "Missing capability: plans bigger than the team that has to deliver them. Our specialist teams fill the gap without a hiring round.",
-          "Hard to find: customers can't find you in Google or in AI answers. We fix search, content and ads so they do.",
+          "Hard to find: customers can't find you in Google, in AI answers or on social. We fix search, content, social and ads so they do.",
           "Too many suppliers: nobody owns the result. One accountable lead runs everything under one team.",
           "Slipping launches: dates that move because nobody owned them. Every date we agree goes in writing.",
           "Ideas without execution: an ambitious idea and no team to build it. We plan it, build it and grow it with you.",
         ],
       },
       {
-        h: "How we solve it.",
-        p: [
-          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions: AI, cloud and data, consulting, engineering, search, paid media, and video and 3D. Talk, plan, build, grow. Every date we agree goes in writing.",
+        id: "do",
+        h: "What we do.",
+        p: ["Seven areas, one team. Pick the one you need today; the rest are already in the room when you need them."],
+        list: [
+          "Strategy and Consulting: go-to-market plans, AI consulting and business process optimization.|/services/go-to-market",
+          "AI and Automation: custom AI tools and agents, workflow automation and WhatsApp automation.|/services/ai-automation",
+          "Data and Cloud: business intelligence, Power BI, data engineering, cloud, migrations and DevOps.|/services/business-intelligence",
+          "Web and App Development: websites, portals, e-commerce and iOS and Android apps.|/services/web-app-development",
+          "Growth Marketing: SEO and GEO, paid media, social media management, influencer campaigns and content.|/services/seo-geo",
+          "Creative Studio: video and motion graphics, AI video, 2D and 3D animation, 3D rendering and brand identity.|/services/video-motion",
+          "Managed Services and Events: managed specialist teams, live events and broadcast, game development and product sourcing.|/services/more",
         ],
       },
-      { h: "In numbers we stand behind.", p: [PROOF.scale + " " + PROOF.projects] },
       {
-        h: "Where we work.",
-        p: ["Our head office is in London. We work with companies across the United States, the United Kingdom and the UAE."],
+        id: "how",
+        h: "How we work.",
+        p: [
+          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions. You get one person to call, a written scope, and dates you can hold us to.",
+        ],
+        list: [
+          "Talk: a 15-minute call to see if we fit.",
+          "Plan: discovery and a written roadmap in 5 to 7 days.",
+          "Build: specialist teams build it, dates in writing.",
+          "Grow: we run it, measure it and grow it with you.",
+        ],
+      },
+      {
+        id: "with",
+        h: "Who we work with.",
+        p: [
+          "Established companies first, then founders and startups. Most of our clients are in healthcare and wellness, fashion and beauty, technology and AI, law and professional services, gaming and entertainment, and real estate.",
+          "Our head office is in London, and we work with companies across the United States, the United Kingdom and the UAE.",
+        ],
+      },
+      {
+        id: "numbers",
+        h: "In numbers we stand behind.",
+        list: ["30+|Companies worked with", "30+|AI builds", "20+|Live events broadcast", "$1.5M+|In projects managed"],
+      },
+      {
+        id: "values",
+        h: "What we stand for.",
+        p: ["The rules every project runs on, whoever is on the team."],
+        list: [
+          "One owner: every result has one accountable lead, so nothing falls between suppliers.",
+          "Dates in writing: we agree the dates up front and hold ourselves to them.",
+          "Build, then grow: we don't stop at the plan. We build it, then we help it grow.",
+          "Plain answers: if something isn't worth doing, we say so on the first call.",
+        ],
+      },
+      {
+        id: "founder",
+        h: "Meet the founder.",
+        p: ["Daniyal Mansur, Founder and CEO, leads 22 Signals from London."],
       },
     ],
     faqs: [],
