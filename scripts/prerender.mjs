@@ -342,7 +342,7 @@ fs.writeFileSync(
 
 > ${SITE.description} Not affiliated with 2Signals of Tampa, Florida.
 
-Founder: Daniyal Mansur (founder and CEO), London. Contact: ${SITE.email}, ${SITE.phone}. Markets: United States, United Kingdom, UAE.
+Head office: London. Contact: ${SITE.email}, ${SITE.phone}. Markets: United States, United Kingdom, UAE.
 
 ## Services
 ${SERVICES.map((s) => line(s.path)).join("\n")}

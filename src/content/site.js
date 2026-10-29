@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://www.22signals.com",
   tagline: "Ambitious ideas, executed.",
   description:
-    "22 Signals is a global business solutions company founded by Daniyal Mansur and based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: technology, AI, cloud, marketing and go-to-market, with one accountable lead and specialist teams across four regions.",
+    "22 Signals is a global business solutions company based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across four regions.",
   short:
     "We do the tech, the marketing and the execution for ambitious businesses, so they don't have to hire a whole team for it.",
   email: "business@22signals.com",
@@ -34,12 +34,15 @@ export const PROOF = {
 
 export const SERVICES = [
   { path: "/services/go-to-market", label: "Strategy and Go-to-Market", blurb: "The plan for a new market or product, and the people to run it." },
+  { path: "/services/ai-consulting", label: "AI Consulting", blurb: "Find where AI pays off, plan it safely, then build it." },
+  { path: "/services/business-optimization", label: "Business Optimization", blurb: "Map how work runs, remove the waste, automate what repeats." },
+  { path: "/services/business-intelligence", label: "Business Intelligence", blurb: "Data in one place, KPIs that matter and dashboards leaders read." },
   { path: "/services/ai-automation", label: "AI and Automation", blurb: "Custom AI tools and automations that take a business off the old way of working." },
   { path: "/services/cloud", label: "Cloud and Data", blurb: "Infrastructure, migrations, DevOps and data systems that stay fast and keep costs in check." },
   { path: "/services/web-app-development", label: "Web and App Development", blurb: "Sites, portals and apps built to rank, convert and last." },
   { path: "/services/seo-geo", label: "SEO and GEO", blurb: "Show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers." },
   { path: "/services/paid-media", label: "Paid Media", blurb: "Google, Meta, LinkedIn and TikTok campaigns tied to leads you can count." },
-  { path: "/services/video-motion", label: "Video, Motion and 3D", blurb: "Reels, brand films, motion graphics, 3D and live broadcast." },
+  { path: "/services/video-motion", label: "Video, AI Video, Animation and 3D", blurb: "Reels, brand films, AI video, 2D and 3D animation, 3D renders and live broadcast." },
   { path: "/services/more", label: "More We Do", blurb: "Managed teams, live events, game development and product sourcing." },
 ];
 
@@ -58,8 +61,8 @@ export const MARKETS = [
 ];
 
 const CTA = {
-  heading: "Talk to Daniyal for 15 minutes.",
-  text: "A fit check, not a pitch. Four or five questions, an honest answer, and if there's a fit, your first motion graphics reel is on us. Not every call ends in a proposal.",
+  heading: "Book a 15-minute call.",
+  text: "A fit check, not a pitch. A few questions, an honest answer, and if there's a fit, your first motion graphics reel is on us. Not every call ends in a proposal.",
   button: "Book 15 minutes",
 };
 
@@ -70,55 +73,47 @@ const CTA = {
 
 export const PAGES = [
   // ======================= HOME (head + crawlable fallback only) ===========
+  // Mirrors the live homepage (CMS-driven) so crawlers see what visitors see.
   {
     path: "/",
     kind: "home",
     title: "22 Signals: Ambitious Ideas, Executed",
     description:
-      "22 Signals builds intelligent systems for ambitious companies, then grows them: AI, cloud, web and apps, SEO and GEO, paid media, video and go-to-market.",
+      "22 Signals builds intelligent systems for ambitious companies, then grows them: AI, cloud, data, web and apps, SEO and GEO, paid media, video and go-to-market.",
     eyebrow: "Business solutions company",
     h1: "Ambitious ideas, executed.",
     intro:
-      "22 Signals is a global business solutions company founded by Daniyal Mansur and based in London. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them. One accountable lead, specialist teams behind them, across four regions.",
+      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company based in London, with one accountable lead and specialist teams across four regions.",
     sections: [
       {
         h: "One team instead of ten.",
-        p: [
-          "Most businesses end up managing a developer, an ads freelancer, a video editor, an SEO agency and someone for the cloud bill. Nobody owns the whole thing, and things fall between suppliers.",
-          "Businesses hire us to handle their tech, marketing and launches instead. You deal with one lead. They run the specialist teams behind them.",
-        ],
-      },
-      {
-        h: "What we do",
+        p: ["Seven core services under one accountable lead: strategy, AI, cloud, builds, search, paid media and video."],
         list: [
-          "Strategy and go-to-market: the plan for a new market or a new product, and the people to run it.",
-          "AI and automation: custom AI tools and automations that take a business off the old way of working.",
-          "Cloud and data: infrastructure, migrations and data systems that stay fast and keep costs in check.",
-          "Web and app development: sites, portals and apps built to rank, convert and last.",
-          "SEO and GEO: show up in Google and in the answers ChatGPT, Claude, Gemini and Google's AI Overviews give.",
-          "Paid media: Google, Meta, LinkedIn and TikTok campaigns tied to leads you can count.",
-          "Video, motion and 3D: reels, brand films, motion graphics, 3D and live broadcast.",
+          "Web and App Development: websites, portals and apps built to rank, convert and last.",
+          "AI and Automation: custom AI tools and automations that take a business off the old way of working.",
+          "Cloud and Data: cloud infrastructure, migrations, DevOps and data systems that keep up with the business.",
+          "Video, Motion and 3D: reels, brand films, motion graphics, 3D and live broadcast.",
+          "Strategy and Go-to-Market: the plan for a new market or product, and the people to run it.",
+          "SEO, GEO and Paid Media: show up in Google and in ChatGPT, Claude and Gemini answers, and run ads tied to leads.",
+          "More We Do: managed teams, live events, game development and product sourcing.",
         ],
       },
       {
-        h: "There's no prompt for experience.",
-        p: [
-          "AI gets a project most of the way. The last 20% is where you leave the competition behind, and it comes from people who have done it before. " +
-            PROOF.ai,
-        ],
+        h: "How we work.",
+        p: ["Talk, plan, build, grow. One lead, dates in writing."],
       },
-      { h: "Ten businesses, this month.", p: [PROOF.search] },
-      { h: "The date doesn't move.", p: [PROOF.events + " Every date we agree goes in writing."] },
       {
-        h: "Who we work with",
-        p: [
-          "New companies that want to be built properly from day one, and established businesses moving off the old way of working. Healthcare and wellness, fashion and beauty, technology and AI companies, law firms and professional services, gaming and entertainment. " +
-            PROOF.scale,
-        ],
+        h: "In numbers we stand behind",
+        list: ["30+ companies worked with", "30+ AI builds", "20+ live events broadcast", "$1.5M+ in projects managed"],
       },
     ],
-    faqs: [],
-    related: ["/services/ai-automation", "/services/seo-geo", "/services/video-motion", "/about"],
+    faqs: [
+      { q: "Who do I work with day to day?", a: "One accountable lead, the Signal Lead, who runs the specialist teams behind your project. One person to call, a written scope and dates." },
+      { q: "What if I need multiple services?", a: "One lead runs all of it. Technology, AI, cloud, marketing and go-to-market sit under one team, so you deal with one team instead of ten." },
+      { q: "What does it cost?", a: "It depends on scope, so we price after a 15-minute call. For product sourcing and managed teams, savings of 40 to 60% are typical, depending on product, volume and role." },
+      { q: "What does 22 Signals do?", a: "Businesses hire us to handle their tech, marketing and launches, so they deal with one team instead of ten and don't have to hire a whole team for it." },
+    ],
+    related: [],
   },
 
   // ======================= SERVICES HUB ====================================
@@ -144,7 +139,7 @@ export const PAGES = [
     serviceType: "Go-to-market strategy",
     title: "Go-to-Market Strategy and Launch | 22 Signals",
     description:
-      "Positioning, pricing, launch plans and sales pipelines for new products and new markets, then the teams to execute them. Founder-led from London.",
+      "Positioning, pricing, launch plans and sales pipelines for new products and new markets, then the teams to execute them. Run from London.",
     eyebrow: "Strategy and Go-to-Market",
     h1: "Go-to-market strategy that ships.",
     intro:
@@ -164,7 +159,7 @@ export const PAGES = [
       {
         h: "Who it's for",
         p: [
-          "Founders launching a product, startups entering a new market, and established companies opening a new region or category. We've taken a neurotech device from idea to a full business, operating and marketing plan, and built a complete outbound sales engine for ourselves first.",
+          "Established companies opening a new region, product line or category come first. We also work with founders launching a product and startups entering a new market. We've taken a neurotech device from idea to a full business, operating and marketing plan, and built a complete outbound sales engine for ourselves first.",
         ],
       },
       {
@@ -185,6 +180,139 @@ export const PAGES = [
       },
     ],
     related: ["/services/paid-media", "/services/video-motion", "/industries/technology-ai"],
+  },
+  {
+    path: "/services/ai-consulting",
+    kind: "service",
+    serviceType: "AI consulting",
+    title: "AI Consulting Services: Strategy to Working Systems | 22 Signals",
+    description:
+      "AI consulting for established companies: find where AI pays off, plan it, then build it. Readiness reviews, roadmaps, governance and working pilots.",
+    eyebrow: "AI Consulting",
+    h1: "AI consulting that ends in working systems.",
+    intro:
+      "22 Signals helps companies work out where AI will actually pay off, then builds it. We review how the business runs today, find the processes worth automating or augmenting, pick the right tools, set the rules for using them safely, and ship a working pilot. Most AI strategies stop at a slide deck. Ours stop at a system your team uses.",
+    sections: [
+      { h: "Proof", p: [PROOF.ai] },
+      {
+        h: "What's included",
+        list: [
+          "AI readiness review: data, systems, people and risk",
+          "Use-case discovery, ranked by value and effort",
+          "AI roadmap with owners, budgets and dates",
+          "Tool and vendor selection, including build versus buy",
+          "AI policy, governance and data-privacy rules for your team",
+          "Pilot builds that prove the value before you scale",
+          "Team training so people actually use what's built",
+        ],
+      },
+      {
+        h: "Who it's for",
+        p: [
+          "Established companies that know AI matters but haven't turned it into results yet, and leadership teams that need a clear plan before they spend. Founders and startups building AI into a product use the same process, faster.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What does an AI consultant do?",
+        a: "An AI consultant finds where AI can save time, cut cost or create revenue in a business, plans how to adopt it safely, and helps put it in place. At 22 Signals, the same team that advises also builds, so the plan ends in a working system.",
+      },
+      {
+        q: "Where should a company start with AI?",
+        a: "Start with one process your team repeats every day that runs on documents, email or data. A focused pilot there proves value quickly and shows what the next step should be.",
+      },
+      {
+        q: "Do we need clean data before using AI?",
+        a: "Not perfect data, but usable data. Part of the readiness review is checking what you have and fixing the gaps that matter for the first use cases.",
+      },
+    ],
+    related: ["/services/ai-automation", "/services/business-intelligence", "/services/business-optimization"],
+  },
+  {
+    path: "/services/business-optimization",
+    kind: "service",
+    serviceType: "Business process optimization consulting",
+    title: "Business Optimization Consulting | 22 Signals",
+    description:
+      "Business process optimization for established companies: map how work really runs, remove the waste, automate what repeats and measure the result.",
+    eyebrow: "Business Optimization Consulting",
+    h1: "Move off the old way of working.",
+    intro:
+      "22 Signals helps established businesses run leaner. We map how work actually flows through your teams and tools, find the delays, duplication and manual steps that cost time and money, then fix them: new processes, connected systems, automation and the dashboards to prove it worked. It's business optimization consulting with the build included.",
+    sections: [
+      {
+        h: "What's included",
+        list: [
+          "Process mapping across sales, operations, finance and delivery",
+          "Bottleneck, cost and time analysis",
+          "Operating model and roles: who owns what",
+          "Systems review and consolidation, so tools stop overlapping",
+          "Workflow automation and AI where it pays off",
+          "KPIs and dashboards to track the improvement",
+        ],
+      },
+      { h: "Proof", p: [PROOF.ai] },
+      {
+        h: "Advice that gets built",
+        p: [
+          "Most consultants hand over a report. We hand over a business that runs differently, because the team that recommends the change is the team that makes it.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is business process optimization?",
+        a: "It is the work of finding where time and money leak out of the way a business operates, through manual steps, duplicated effort or disconnected tools, and redesigning those processes so they run faster, cheaper and with fewer errors.",
+      },
+      {
+        q: "How do you measure the result?",
+        a: "We agree the measures before we start, such as hours spent, turnaround time, error rate or cost per task, and track them on a dashboard before and after the change.",
+      },
+    ],
+    related: ["/services/ai-consulting", "/services/ai-automation", "/services/business-intelligence"],
+  },
+  {
+    path: "/services/business-intelligence",
+    kind: "service",
+    serviceType: "Business intelligence and data analytics consulting",
+    title: "Business Intelligence and Data Analytics Consulting | 22 Signals",
+    description:
+      "BI consulting, dashboards and data analytics: bring your numbers into one place, report on what matters and decide on data, not guesses.",
+    eyebrow: "Business Intelligence Consulting",
+    h1: "Decisions on data, not guesses.",
+    intro:
+      "22 Signals builds business intelligence for companies whose numbers live in too many places. We connect your systems, build the data warehouse and pipelines, design the KPIs that matter, and deliver dashboards and reports in Power BI, Looker Studio or Tableau that leadership actually reads. Then we keep the data clean and the reports current.",
+    sections: [
+      {
+        h: "What's included",
+        list: [
+          "Data strategy and KPI design",
+          "Data warehouse and pipelines from your CRM, finance, ads and operations tools",
+          "Dashboards in Power BI, Looker Studio or Tableau",
+          "Automated reporting on a schedule",
+          "Forecasting and analysis for sales, marketing and operations",
+          "Data quality checks and governance",
+        ],
+      },
+      {
+        h: "Connected to the rest of the business",
+        p: [
+          "Because the same team runs cloud, AI and marketing, the data we model is the data your business actually runs on, and the dashboards feed the automations and AI tools built on top.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What does a business intelligence consultant do?",
+        a: "A BI consultant brings a company's data together, defines the metrics that matter, and builds the dashboards and reports that let leaders see performance and make decisions quickly.",
+      },
+      {
+        q: "Which BI tools do you work with?",
+        a: "Power BI, Looker Studio and Tableau for reporting, and cloud data warehouses such as BigQuery, Snowflake and Azure for storage. We recommend what fits your stack and budget.",
+      },
+    ],
+    related: ["/services/cloud", "/services/ai-consulting", "/services/business-optimization"],
   },
   {
     path: "/services/ai-automation",
@@ -424,13 +552,13 @@ export const PAGES = [
     path: "/services/video-motion",
     kind: "service",
     serviceType: "Video production, motion graphics and 3D animation",
-    title: "Video, Motion Graphics and 3D Animation | 22 Signals",
+    title: "Video Production, AI Video, Animation and 3D Renders | 22 Signals",
     description:
-      "Reels, brand films, motion graphics, 3D animation and live broadcast for ambitious brands. Your first motion graphics reel is on us after a 15-minute call.",
-    eyebrow: "Video, Motion and 3D",
-    h1: "Video, motion and 3D that stops the scroll.",
+      "Video production, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for ambitious brands. Your first motion graphics reel is on us.",
+    eyebrow: "Video, AI Video, Animation and 3D",
+    h1: "Video, animation and 3D that stops the scroll.",
     intro:
-      "22 Signals produces short-form video, reels, brand films, motion graphics, 3D animation and AI-assisted video for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call, and if there's a fit, your first motion graphics reel is on us.",
+      "22 Signals produces video, AI video, motion graphics, 2D and 3D animation and photoreal 3D renders for brands that need content at volume without losing the standard. We also run and broadcast live events. Book a 15-minute call, and if there's a fit, your first motion graphics reel is on us.",
     sections: [
       {
         h: "What we make",
@@ -438,8 +566,10 @@ export const PAGES = [
           "Short-form video and reels for Instagram, TikTok, YouTube and LinkedIn",
           "Motion graphics and animated explainers",
           "Brand films and launch videos",
-          "3D modeling and animation for products and explainers",
-          "AI-assisted video and presenter content, clearly labeled",
+          "AI video: AI presenters, AI ads and AI-generated scenes, clearly labeled",
+          "2D and 3D animation and animated explainers",
+          "3D modeling and photoreal 3D renders for products, packaging and campaigns",
+          "Technical and product 3D animation that explains how something works",
           "Managed video editing teams for ongoing volume",
         ],
       },
@@ -583,11 +713,11 @@ export const PAGES = [
     kind: "industry",
     title: "Technology, SaaS and AI Companies | 22 Signals",
     description:
-      "Product builds, cloud, go-to-market, launch content and growth for startups, SaaS and AI companies. The team founders bring in before they build their own.",
+      "Product builds, cloud, AI, go-to-market and growth for technology, SaaS and AI companies, from established firms to funded startups.",
     eyebrow: "Technology and AI Companies",
-    h1: "The team founders bring in before they build their own.",
+    h1: "Build, launch and scale technology products.",
     intro:
-      "22 Signals works with startups, SaaS and AI companies on product, brand, launch and growth. We build the product and the cloud it runs on, position it, launch it, and bring in users through search, paid media and outbound. Founders get one lead and a team that already works together.",
+      "22 Signals works with established technology companies, SaaS businesses and AI companies, as well as funded startups, on product, cloud, launch and growth. We build the product and the cloud it runs on, position it, launch it, and bring in users through search, paid media and outbound, with one lead and a team that already works together.",
     sections: [
       {
         h: "What we do for tech companies",
@@ -726,7 +856,7 @@ export const PAGES = [
     eyebrow: "United States",
     h1: "The team behind ambitious US companies.",
     intro:
-      "22 Signals works with founder-led US companies in healthcare and aesthetics, technology, professional services, fashion and gaming that need more done than their team can carry. Most of our client work is in the US, with meeting hours that overlap Eastern and Pacific time and one lead who answers.",
+      "22 Signals works with established US companies, and with founders and startups, in healthcare and aesthetics, technology, professional services, fashion and gaming that need more done than their team can carry. Most of our client work is in the US, with meeting hours that overlap Eastern and Pacific time and one lead who answers.",
     sections: [
       { h: "Where our clients stand today", p: [PROOF.search] },
       {
@@ -758,7 +888,7 @@ export const PAGES = [
     eyebrow: "United Kingdom",
     h1: "London-led. Built for UK businesses.",
     intro:
-      "22 Signals is a business solutions company based in London. UK businesses bring us in for AI tools and automation, cloud, websites and apps, SEO and GEO, paid media and video, when they want more output without adding to payroll. Meet Daniyal in London, deal with one lead, and get specialist teams behind them.",
+      "22 Signals is a business solutions company based in London. UK businesses bring us in for AI tools and automation, cloud, websites and apps, SEO and GEO, paid media and video, when they want more output without adding to payroll. Meet us in London, deal with one lead, and get specialist teams behind them.",
     sections: [
       {
         h: "What UK businesses hire us for",
@@ -816,31 +946,40 @@ export const PAGES = [
   {
     path: "/about",
     kind: "about",
-    title: "About 22 Signals",
+    title: "About 22 Signals: Business Solutions Company, London",
     description:
-      "22 Signals is a global business solutions company founded by Daniyal Mansur and based in London. One accountable lead, specialist teams across four regions.",
+      "22 Signals is a global business solutions company based in London. We solve the problems that hold businesses back: slow operations, scattered data, missing capability.",
     eyebrow: "About",
     h1: "Built for the next era of business.",
     intro:
-      "22 Signals is a global business solutions company founded by Daniyal Mansur and based in London. We give ambitious businesses, from new startups to established firms, the capability they don't have in-house: technology, AI, cloud, marketing and go-to-market. Then we do the work.",
+      "22 Signals is a global business solutions company based in London. Established companies, founders and startups bring us in when they need capability they don't have in-house: AI, cloud, data, technology, marketing and go-to-market. We build intelligent systems so they can operate in the new era of business, then we grow them and execute with them.",
     sections: [
       {
-        h: "Why it exists",
-        p: [
-          "At his first company, an esports organization, Daniyal needed developers, marketers, an ads team and partnerships, and couldn't afford any of them in-house. So he built the team he wished he'd had.",
-          "It started with one team and one rule: a client who is ahead of the market never hears \"we don't do that.\" They hear \"Monday.\" One team became many. Eight years on, they sit behind leaders with bigger plans than headcount.",
+        h: "What we solve",
+        list: [
+          "Operations still running on spreadsheets, email and manual work",
+          "Data spread across tools, so decisions run on guesses",
+          "Infrastructure that's slow, insecure or costs too much",
+          "Plans bigger than the team that has to deliver them",
+          "Customers who can't find you in Google or in AI answers",
+          "Too many suppliers and nobody owning the result",
+          "Launches that slip because nobody owned the date",
         ],
       },
       {
-        h: "How we work",
+        h: "How we solve it",
         p: [
-          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions. Talk, plan, build, grow.",
+          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions: AI, cloud and data, consulting, engineering, search, paid media, and video and 3D. Talk, plan, build, grow. Every date we agree goes in writing.",
         ],
       },
-      { h: "In numbers we'll stand behind", p: [PROOF.scale + " " + PROOF.projects] },
+      { h: "In numbers we stand behind", p: [PROOF.scale + " " + PROOF.projects] },
+      {
+        h: "Where we work",
+        p: ["Our head office is in London. We work with companies across the United States, the United Kingdom and the UAE."],
+      },
     ],
     faqs: [],
-    related: ["/about/daniyal-mansur", "/how-we-work", "/contact"],
+    related: ["/how-we-work", "/services", "/contact"],
   },
   {
     path: "/about/daniyal-mansur",
@@ -882,7 +1021,7 @@ export const PAGES = [
       {
         h: "Talk, plan, build, grow",
         list: [
-          "Talk: 15 minutes with Daniyal to see if there's a fit.",
+          "Talk: a 15-minute call to see if there's a fit.",
           "Plan: a written scope, owners and dates.",
           "Build: your Signal Lead runs the specialist teams.",
           "Grow: we report what moved, in plain words, and keep improving it.",
@@ -902,7 +1041,7 @@ export const PAGES = [
     eyebrow: "FAQ",
     h1: "Questions, answered straight.",
     intro:
-      "Short, honest answers to what people ask most about 22 Signals. If yours isn't here, book 15 minutes with Daniyal.",
+      "Short, honest answers to what people ask most about 22 Signals. If yours isn't here, book a 15-minute call.",
     sections: [],
     faqs: [
       { q: "What is 22 Signals?", a: SITE_DESC() },
@@ -917,10 +1056,6 @@ export const PAGES = [
       {
         q: "Is 22 Signals the same as 2Signals?",
         a: "No. 22 Signals (22signals.com) is a separate company from 2Signals in Tampa, Florida.",
-      },
-      {
-        q: "Who founded 22 Signals?",
-        a: "Daniyal Mansur, who is the founder and CEO. He is based in London.",
       },
       {
         q: "Where is 22 Signals based?",
@@ -962,13 +1097,13 @@ export const CMS_ROUTES = [
   {
     path: "/blog",
     title: "Insights: Search, AI and Growth | 22 Signals",
-    description: "Field notes from Daniyal Mansur and the 22 Signals team on AI, search, cloud and growth.",
+    description: "Field notes from the 22 Signals team on AI, cloud, data, search and growth.",
     h1: "Insights",
   },
   {
     path: "/contact",
-    title: "Contact 22 Signals: Book 15 Minutes With Daniyal",
-    description: "Book a 15-minute fit call with Daniyal Mansur, or email business@22signals.com.",
+    title: "Contact 22 Signals: Book a 15-Minute Call",
+    description: "Book a 15-minute fit call, or email business@22signals.com.",
     h1: "Let's build what's next.",
   },
   {
