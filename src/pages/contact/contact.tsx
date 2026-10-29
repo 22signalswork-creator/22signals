@@ -333,8 +333,8 @@ const Contact: React.FC = () => {
               <div className="rounded-3xl p-8 md:p-12" style={cardStyle} role="status">
                 <h2 className="text-2xl md:text-3xl text-white mb-4">Thanks, {sent.name.split(" ")[0]}. We have your message.</h2>
                 <p className="text-white/65 leading-relaxed">
-                  A confirmation is on its way to {sent.email}. The quickest next
-                  step is to pick a time for a call, and your details are already
+                  We will get back to you at {sent.email}. The quickest next step
+                  is to pick a time for a call, and your details are already
                   filled in.
                 </p>
                 <div className="mt-8">
