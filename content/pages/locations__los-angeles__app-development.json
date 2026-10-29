@@ -61,7 +61,7 @@
     {
       "h": "Remote app delivery between London and LA",
       "p": [
-        "Our head office is in London and our engineers work across four regions; we deliver to Los Angeles clients remotely. London is 8 hours ahead of LA most of the year, so sprint reviews and demos sit in your morning. Fixes discussed on a call are often in a new test build by the time you start the next day, sent straight to your phone through TestFlight or an internal Android track.",
+        "Our head office is in London and our engineers work across several time zones; we deliver to Los Angeles clients remotely. London is 8 hours ahead of LA most of the year, so sprint reviews and demos sit in your morning. Fixes discussed on a call are often in a new test build by the time you start the next day, sent straight to your phone through TestFlight or an internal Android track.",
         "We do not need to be in your office to build your app, but if user testing with real customers in LA or a launch event needs us there, we plan a visit when the project needs it."
       ]
     },

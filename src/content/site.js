@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://www.22signals.com",
   tagline: "Ambitious ideas, executed.",
   description:
-    "22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across four regions.",
+    "22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across the US, UK and UAE.",
   short:
     "We do the tech, the marketing and the execution for ambitious businesses, so they don't have to hire a whole team for it.",
   email: "business@22signals.com",
@@ -28,7 +28,7 @@ export const PROOF = {
   ai: "We've done more than 30 AI builds for businesses that used to run the old way. They don't anymore.",
   events:
     "We've run and broadcast more than 20 large-scale live events. The date never moves, so we treat every deadline like a live date.",
-  scale: "We've worked with 30+ companies across four regions.",
+  scale: "We've worked with 30+ companies across several time zones.",
   projects: "Over $1.5 million in projects managed.",
 };
 
@@ -130,7 +130,7 @@ export const PAGES = [
     eyebrow: "Business solutions company",
     h1: "Ambitious ideas, executed.",
     intro:
-      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company, with one accountable lead and specialist teams across four regions.",
+      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company, with one accountable lead and specialist teams across the US, UK and UAE.",
     sections: [
       {
         h: "One team instead of ten.",
@@ -937,7 +937,7 @@ export const PAGES = [
     faqs: [
       {
         q: "Do you have a US office?",
-        a: "We work with US clients remotely, with meeting hours that overlap Eastern and Pacific time. Our head office is in London and our teams operate across four regions.",
+        a: "We work with US clients remotely, with meeting hours that overlap Eastern and Pacific time. Our head office is in London and our teams operate across several time zones.",
       },
     ],
     related: ["/services/seo-geo", "/industries/healthcare", "/industries/technology-ai"],
@@ -969,7 +969,7 @@ export const PAGES = [
     faqs: [
       {
         q: "Where is 22 Signals based?",
-        a: "Our head office is in London, and our teams operate across four regions.",
+        a: "Our head office is in London, and our teams operate across several time zones.",
       },
     ],
     related: ["/services/ai-automation", "/services/cloud", "/about"],
@@ -1000,7 +1000,7 @@ export const PAGES = [
     faqs: [
       {
         q: "Do you have an office in Dubai?",
-        a: "We work with UAE clients from London and across our four regions, with meeting hours that suit the Gulf.",
+        a: "We work with UAE clients from London and across our several time zones, with meeting hours that suit the Gulf.",
       },
     ],
     related: ["/services/ai-automation", "/services/seo-geo", "/industries/fashion-beauty"],
@@ -1061,7 +1061,7 @@ export const PAGES = [
         id: "how",
         h: "How we work.",
         p: [
-          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across four regions. You get one person to call, a written scope, and dates you can hold us to.",
+          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across several time zones. You get one person to call, a written scope, and dates you can hold us to.",
         ],
         list: [
           "Talk: a 15-minute call to see if we fit.",
@@ -1180,7 +1180,7 @@ export const PAGES = [
       },
       {
         q: "Where is 22 Signals based?",
-        a: "Our head office is in London and our teams operate across four regions. We work with companies in the United States, the United Kingdom and the UAE.",
+        a: "Our head office is in London and our teams operate across several time zones. We work with companies in the United States, the United Kingdom and the UAE.",
       },
       {
         q: "What industries do you work with?",
