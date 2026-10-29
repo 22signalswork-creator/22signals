@@ -9,14 +9,15 @@
 //   2. A short confirmation to the visitor with the booking link, with
 //      Reply-To set to CONFIRM_REPLY_TO.
 //
-// Mail is sent from a sending subdomain (notify.22signals.com), never the
-// main domain, so the main domain's reputation is not affected.
+// Both emails are sent from business@22signals.com, so the team can reply to
+// the visitor from that inbox. The sending service must be authorised for
+// 22signals.com (SPF/DKIM) without breaking the domain's existing mail setup.
 //
 // Secrets (Supabase Dashboard > Edge Functions > Secrets):
 //   RESEND_API_KEY     required. From resend.com > API Keys.
-//   NOTIFY_FROM        optional. Default "22 Signals <hello@notify.22signals.com>"
+//   NOTIFY_FROM        optional. Default "22 Signals <business@22signals.com>"
 //   NOTIFY_TO          optional. Comma-separated list. Default: the four inboxes below.
-//   CONFIRM_REPLY_TO   optional. Default "daniyal@22signals.com"
+//   CONFIRM_REPLY_TO   optional. Default "business@22signals.com"
 //   BOOKING_URL        optional. Default the 15-minute Calendly link.
 //
 // Deploy:
@@ -45,13 +46,13 @@ const DEFAULT_TO = [
   "daniyalmansur.work@gmail.com",
   "22signals.work@gmail.com",
   "business@22signals.com",
-  "daniyal@22signals.com",
+  "ataulkarim2003@gmail.com",
 ];
 
 const env = (k: string, d = "") => Deno.env.get(k) ?? d;
-const FROM = env("NOTIFY_FROM", "22 Signals <hello@notify.22signals.com>");
+const FROM = env("NOTIFY_FROM", "22 Signals <business@22signals.com>");
 const TO = env("NOTIFY_TO") ? env("NOTIFY_TO").split(",").map((s) => s.trim()).filter(Boolean) : DEFAULT_TO;
-const CONFIRM_REPLY_TO = env("CONFIRM_REPLY_TO", "daniyal@22signals.com");
+const CONFIRM_REPLY_TO = env("CONFIRM_REPLY_TO", "business@22signals.com");
 const BOOKING_URL = env("BOOKING_URL", "https://calendly.com/business-22signals/15min");
 
 const ALLOWED_ORIGIN = /^https:\/\/((www\.)?22signals\.com|[a-z0-9-]+\.vercel\.app)$|^http:\/\/localhost(:\d+)?$/;
@@ -133,8 +134,7 @@ ${BOOKING_URL}
 
 If there is anything you want to add, just reply to this email.
 
-Daniyal Mansur
-22 Signals
+The 22 Signals team
 +44 7944 603108 (phone and WhatsApp)
 https://22signals.com`;
 
@@ -147,7 +147,7 @@ const confirmationHtml = (p: ContactPayload) => `<!doctype html><html><body styl
 <p style="margin:0 0 22px;"><a href="${esc(BOOKING_URL)}" style="display:inline-block;background:#325FEC;color:#fff;text-decoration:none;padding:12px 22px;border-radius:999px;font-size:14px;">Book a 15-minute call</a></p>
 <p style="margin:0 0 14px;">If there is anything you want to add, just reply to this email.</p>
 </td></tr>
-<tr><td style="padding:8px 28px 26px;font-size:14px;line-height:1.5;color:#444;">Daniyal Mansur<br>22 Signals<br>+44 7944 603108 (phone and WhatsApp)<br><a href="https://22signals.com" style="color:#325FEC;">22signals.com</a></td></tr>
+<tr><td style="padding:8px 28px 26px;font-size:14px;line-height:1.5;color:#444;">The 22 Signals team<br>+44 7944 603108 (phone and WhatsApp)<br><a href="https://22signals.com" style="color:#325FEC;">22signals.com</a></td></tr>
 </table></body></html>`;
 
 async function send(apiKey: string, mail: Record<string, unknown>) {
