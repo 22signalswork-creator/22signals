@@ -28,7 +28,7 @@ const LABELS = UMBRELLAS.map((u, i) => {
 
 const pct = (v: number, of: number) => `${(v / of) * 100}%`;
 
-const START = 4; // Growth Marketing
+const START = 0; // Strategy; the idle drift then runs clockwise from here
 
 const GlobeLines: React.FC = () => (
   <svg aria-hidden="true" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="absolute inset-0 w-full h-full pointer-events-none">

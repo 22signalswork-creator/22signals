@@ -3,9 +3,7 @@ import HeroSection from "./components/hero-section.tsx";
 import PortfolioSection from "./components/portfoliosection.tsx";
 import ServicesSection, { BackgroundWindingLine } from "./components/ServicesSection.tsx";
 import CursorFx from "@/components/fx/CursorFx";
-import SmoothScroll from "@/components/fx/SmoothScroll";
 import RevealFx from "@/components/fx/RevealFx";
-import ServiceMarquee from "@/components/fx/ServiceMarquee";
 import PanelReveal from "@/components/fx/PanelReveal";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
@@ -26,7 +24,6 @@ const Home = () => {
     <>
       <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
       <CursorFx />
-      <SmoothScroll />
       <RevealFx />
       {/* Everything below the hero. The scroll trace runs down the left
           margin of all of it and names each section as you reach it. */}
@@ -34,10 +31,6 @@ const Home = () => {
         <BackgroundWindingLine />
         <div ref={nextSectionRef} className="relative z-10">
           <ServicesSection />
-        </div>
-
-        <div className="relative z-10">
-          <ServiceMarquee />
         </div>
 
         {/* Companies We Have Worked With, straight after What We Do */}
