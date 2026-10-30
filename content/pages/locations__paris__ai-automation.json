@@ -1,0 +1,129 @@
+{
+  "path": "/locations/paris/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Paris: Invoices, Inboxes, Reports | 22 Signals",
+  "description": "AI automation for Paris companies: supplier invoices, bilingual inboxes, reports and CRM updates handled by tools your team checks, built to fit French rules.",
+  "eyebrow": "AI Automation in Paris",
+  "h1": "AI automation in Paris offices: the repeat work, handled and checked",
+  "intro": "We build AI automation for Paris companies that lose hours every week to invoices, inboxes, reports and data entry. Each tool reads the documents and messages your team handles today, does the routine part, and passes anything unusual to a person. It fits French workplace rules, connects to the software you already use and is measured against the old way.",
+  "sections": [
+    {
+      "h": "The work that eats a Paris office's week",
+      "p": [
+        "Walk through the back office of almost any established Paris business and the same jobs come up. Someone types supplier invoices into the accounting software. Someone copies orders from emails into the ERP. A client services team answers the same twenty questions in French and in English. A manager spends Monday morning building a report from four spreadsheets.",
+        "None of this is hard work, which is exactly why it suits automation. It follows rules, it repeats, and mistakes in it are costly mainly because nobody has time to check. Taking it off people's desks frees them for the part of the job that needs judgement."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Supplier invoices: read from PDF or e-invoice, matched to purchase orders, coded and queued for approval.",
+        "Inbox triage: emails sorted by type and urgency, with draft replies in the sender's language.",
+        "Order and booking intake: details pulled from emails, forms and attachments into your ERP, CRM or booking system.",
+        "Reporting: weekly and monthly reports assembled from several sources and written up in plain language.",
+        "CRM hygiene: contacts deduplicated, notes summarised and follow-ups scheduled after each meeting.",
+        "Document handling: contracts, certificates and HR files classified, named and filed where they belong.",
+        "Customer service: routine questions answered on the website or by email, with a clear handover to a person."
+      ]
+    },
+    {
+      "h": "France's e-invoicing reform is a good moment to automate",
+      "p": [
+        "France is moving business-to-business invoicing onto electronic formats, with the reform phasing in from September 2026 and smaller companies following later. Invoices arrive as structured data through approved platforms instead of as PDFs in an inbox.",
+        "That change helps automation. Structured invoices are easier to match, code and check than scanned documents, so the work of preparing for the reform overlaps with the work of automating accounts payable. We look at the platform you have chosen or are choosing, the accounting software behind it, such as Sage, Cegid or Pennylane, and design the approval flow around both. Your accountant or finance lead confirms the compliance side."
+      ]
+    },
+    {
+      "h": "French and English in the same inbox",
+      "p": [
+        "Paris companies rarely work in one language. A fashion brand gets wholesale orders in English from buyers abroad and retail questions in French. A firm at La Défense receives contracts in both. Hotels and event venues get messages in half a dozen languages in a single morning.",
+        "The tools we build read and draft in French and English, and handle other languages where your traffic needs it. Templates and approved wording for French replies are written or checked by people who know the language, through partners where needed, since our own delivery is in English. You approve the tone before anything goes to a customer."
+      ]
+    },
+    {
+      "h": "People stay in charge",
+      "p": [
+        "Every automation we build has a person at the points that matter. Low-risk steps, such as filing a document, run on their own. Anything that affects money, a customer relationship or an employee goes to someone for approval, with the reasons shown.",
+        "GDPR gives people rights around decisions made purely by automated means that significantly affect them. We design around that: the tool prepares, a person decides. Every action is logged, so you can see what the system did, when and why. If the tool is unsure, it says so and stops rather than guessing."
+      ]
+    },
+    {
+      "h": "Fitting French workplace rules",
+      "p": [
+        "Two French rules shape how we design automation for Paris teams. First, in larger companies the CSE, the staff representative body, usually expects to be consulted before new tools change how people work. We provide a plain description of each tool for that discussion.",
+        "Second, French employees in larger companies have a right to disconnect outside working hours. An automation that sends alerts to staff at 22:00 works against that. We set notification rules so after-hours items wait for the morning or go to the person on duty, and we agree those rules with you before launch."
+      ]
+    },
+    {
+      "h": "Tools and systems we connect",
+      "p": [
+        "We pick the simplest tool that does the job. Some workflows run well on Make, n8n, Zapier or Microsoft Power Automate. Others need custom code with a language model at the centre, hosted in an EU cloud region. We connect to the accounting, ERP and CRM systems common in France, including Sage, Cegid, Pennylane, Salesforce, HubSpot and Microsoft Dynamics, and to banking tools where your finance team allows it.",
+        "You own the accounts, the code and the documentation. If you later want your own team to run it, nothing is locked away."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: a 15-minute call about the work that wastes the most time.",
+        "Plan: we map the process step by step, count the volume and write a roadmap in 5 to 7 days, starting with the task that pays back fastest.",
+        "Build: the first automation runs alongside your team before it takes over, with dates agreed in writing.",
+        "Grow: we track time saved and error rates each month, then move to the next process."
+      ]
+    },
+    {
+      "h": "Proof, and how we work with Paris teams",
+      "p": [
+        "We have delivered more than 30 AI builds, many of them automations that replaced manual office work. We will talk you through comparable examples on a call; we do not publish client names.",
+        "We have no office in Paris. Process mapping often works best with a day on site, so we plan a visit into the scope when it helps, and the rest runs remotely. Paris is one hour ahead of London, which gives us the whole working day together."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which tasks are worth automating first?",
+      "a": "High-volume tasks that follow rules and currently need retyping: supplier invoices, order intake, inbox sorting and routine reports. We count how often each happens and how long it takes, then start with the one that pays back fastest."
+    },
+    {
+      "q": "How does AI automation in Paris fit with the e-invoicing reform?",
+      "a": "Well. The reform moves invoices onto structured electronic formats, which are easier to match and code automatically. We design the automation around your chosen platform and accounting software, and your finance lead or accountant confirms the compliance details."
+    },
+    {
+      "q": "Will the tools work in French?",
+      "a": "Yes. The automations read and draft in French and English, and other languages where needed. French templates and approved wording are prepared or checked through partners, and you sign off the tone before anything reaches a customer."
+    },
+    {
+      "q": "What happens when the automation gets something wrong?",
+      "a": "It is designed to flag uncertainty and stop rather than guess. Anything involving money, customers or staff goes to a person for approval, and every action is logged so mistakes can be traced and fixed quickly."
+    },
+    {
+      "q": "Do we need to involve our CSE?",
+      "a": "In larger French companies, staff representatives usually expect to be consulted when tools change how people work. Your HR team decides whether that applies. We provide a clear description of what each tool does and does not do to support the discussion."
+    },
+    {
+      "q": "Where is our data processed?",
+      "a": "Where you choose. We can host automations in EU cloud regions, including regions in France, and select AI providers whose terms keep your data out of model training. The choices are written into the plan before we build."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/ai-automation",
+    "/locations/paris/ai-consulting",
+    "/locations/paris/business-intelligence",
+    "/services/custom-ai-development",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation in paris",
+    "secondary": [
+      "ai automation agency paris",
+      "business process automation paris",
+      "invoice automation france",
+      "workflow automation paris"
+    ]
+  }
+}

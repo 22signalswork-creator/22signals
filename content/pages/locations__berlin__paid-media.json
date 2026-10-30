@@ -1,0 +1,135 @@
+{
+  "path": "/locations/berlin/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media Agency Berlin: Ads Measured on Pipeline | 22 Signals",
+  "description": "Paid media agency for Berlin and German firms: Google, LinkedIn, Meta and TikTok ads measured against real pipeline, with consent and German ad rules respected.",
+  "eyebrow": "Paid media in Berlin",
+  "h1": "A paid media agency for Berlin firms that count customers, not clicks",
+  "intro": "We plan and run Google, LinkedIn, Meta and TikTok campaigns for Berlin scale-ups and German mid-sized companies, and judge them by the leads, sales and hires they produce. Measurement is rebuilt for a market where many visitors decline tracking, ad copy follows German advertising rules, and every month you get a plain report on what the money did.",
+  "sections": [
+    {
+      "h": "Consent changed the numbers German advertisers see",
+      "p": [
+        "German visitors decline tracking cookies more often than many marketers expect. When a large share of visitors say no, ad platforms see fewer conversions, automated bidding gets weaker signals and reports undercount what campaigns actually produce. Some advertisers react by cutting campaigns that were working. Others ignore consent rules and take on legal risk.",
+        "We take a third route. Consent banners are set up properly, with refusal as easy as acceptance. Google's consent mode and modelled conversions fill part of the gap. Server-side tagging gives cleaner data within the limits of consent. Most importantly, we import real outcomes from your CRM, such as qualified leads, signed deals or completed orders, so the platforms optimise for revenue instead of form fills."
+      ]
+    },
+    {
+      "h": "Channels and what they suit in Germany",
+      "list": [
+        "Google Search: high intent queries in German and English, from industrial parts to Berlin restaurant bookings",
+        "Google Shopping and Performance Max: product feeds for German shops, with prices including VAT and correct delivery costs",
+        "LinkedIn: B2B targeting by industry, company size and job role across Germany, Austria and Switzerland",
+        "Meta: Facebook and Instagram for consumer brands, events and recruiting in Berlin and beyond",
+        "TikTok: younger audiences, consumer products and employer branding for apprenticeships and entry roles",
+        "YouTube: product explainers and demand building ahead of launches and trade fairs"
+      ]
+    },
+    {
+      "h": "Ad copy that holds up to German rules",
+      "p": [
+        "German competition law is strict about misleading advertising, and enforcement often comes from competitors and associations rather than a regulator. A claim like 'the lowest prices in Germany' or 'market leader' needs evidence. Consumer prices must include VAT. Health, finance and legal services have extra limits on what ads may say.",
+        "We write claims you can back up, keep landing pages consistent with the ad, and flag anything that looks risky for your legal adviser before it goes live. Our own work is delivered in English. German ad copy is written or adapted by localisation partners and approved by you, because a literal translation of a headline almost always reads badly."
+      ]
+    },
+    {
+      "h": "Recruiting campaigns for skilled staff",
+      "p": [
+        "Many German companies, especially in engineering, trades, care and IT, find hiring harder than selling. Job boards alone often do not reach people who are not actively looking. Paid social and search campaigns can put a well made job ad in front of qualified people in a specific region, with a short application flow that works on a phone.",
+        "We run these campaigns with the same discipline as sales campaigns: cost per qualified applicant, not cost per click, and close work with your HR team on what happens after someone applies. Job ads follow anti-discrimination rules, and we keep targeting within platform rules for employment ads."
+      ]
+    },
+    {
+      "h": "Trade fairs and B2B launch periods",
+      "p": [
+        "Germany hosts many of the world's leading trade fairs, and Berlin has its own major events. For a manufacturer, the weeks before a fair are often the most valuable advertising period of the year. We plan campaigns that drive appointment bookings at your stand, retarget visitors after the event and follow up leads with your sales team while interest is still warm. The paid media agency Berlin firms bring in for this should coordinate with whoever produces the stand video, landing pages and email, which is why we often handle those too."
+      ]
+    },
+    {
+      "h": "Berlin scale-ups and consumer brands",
+      "p": [
+        "Venture-backed companies in Berlin usually have a different problem from the Mittelstand: plenty of budget, pressure to grow, and acquisition costs that creep up every quarter. Investors ask for customer acquisition cost and payback by channel, and the answer often depends on which dashboard you open.",
+        "Our work here starts with one agreed definition of a customer and one source of truth for spend and revenue. Then we focus on creative, because on Meta and TikTok the ad itself does most of the targeting now. Our own video, motion and AI video teams produce new variants every week, so tired ads are replaced before results fall off. A paid media agency Berlin start-ups hire should be able to show what each new creative changed, not just how much was spent."
+      ]
+    },
+    {
+      "h": "What you get each month",
+      "list": [
+        "Spend, leads, sales and cost per result by channel and campaign",
+        "Pipeline and revenue from paid media, matched against CRM data where available",
+        "What we tested, what won and what we stopped",
+        "Plans and budget proposals for the next month",
+        "A short call to discuss the numbers with whoever owns them on your side"
+      ]
+    },
+    {
+      "h": "How campaigns start",
+      "list": [
+        "Talk: 15 minutes on what a good customer is worth and what you have tried before.",
+        "Plan: account and tracking review, audience and channel plan, and a written roadmap in 5 to 7 days.",
+        "Build: tracking fixed, campaigns built, creative prepared, launch dates in writing.",
+        "Grow: weekly optimisation and monthly reviews, moving budget to what produces customers."
+      ]
+    },
+    {
+      "h": "Remote management, same working day",
+      "p": [
+        "We have no office in Berlin. Campaigns are managed remotely, and since Berlin is one hour ahead of London, our team works the same hours as your marketing and sales staff. Ad accounts stay in your name, and you keep full access. Ad spend is paid by you directly to the platforms, so you always see what was spent."
+      ]
+    },
+    {
+      "h": "Proof and pricing factors",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects. We do not publish client names, but we will walk through relevant accounts on a call. Fees depend on the number of channels and markets, monthly spend, how much creative and landing page work is needed, tracking complexity and whether German and English campaigns run side by side."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a paid media agency in Berlin need from us to start?",
+      "a": "Access to your ad accounts and analytics, an idea of what a customer is worth, and a contact in sales or the CRM. If you have no accounts yet, we set them up in your name."
+    },
+    {
+      "q": "How do you measure results when visitors decline cookies?",
+      "a": "We combine consented tracking, Google's consent mode, server-side tagging where appropriate and outcome data imported from your CRM. That gives a far clearer view of what ads produce than relying on browser tracking alone."
+    },
+    {
+      "q": "Do you write ads in German?",
+      "a": "We deliver in English. German ad copy and landing page text are written or adapted by localisation partners, then approved by you before anything runs."
+    },
+    {
+      "q": "Is LinkedIn worth it for German B2B companies?",
+      "a": "Often, if the deal value is high enough. LinkedIn clicks cost more than most channels, but its targeting by role, industry and company size suits complex B2B sales across Germany, Austria and Switzerland. We test with a set budget and judge it on pipeline."
+    },
+    {
+      "q": "What monthly ad budget do we need?",
+      "a": "Enough to collect meaningful data in the channels you pick. We suggest a starting budget during planning based on your market, costs per click and goals, and you pay platforms directly."
+    },
+    {
+      "q": "Can you run recruiting ads?",
+      "a": "Yes. We run recruiting campaigns on Meta, LinkedIn, TikTok and Google, measured on qualified applicants, with job ad wording checked against anti-discrimination rules and platform policies."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/paid-media",
+    "/locations/berlin/seo-geo",
+    "/locations/berlin/video-animation",
+    "/services/social-media-management",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "paid media agency berlin",
+    "secondary": [
+      "ppc agency berlin",
+      "google ads agency germany",
+      "linkedin ads dach",
+      "performance marketing berlin"
+    ]
+  }
+}

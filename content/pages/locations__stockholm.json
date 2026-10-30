@@ -1,0 +1,129 @@
+{
+  "path": "/locations/stockholm",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "title": "Digital Agency for Stockholm Companies | 22 Signals",
+  "description": "AI, data, cloud, web, apps, SEO and GEO, paid media, video and 3D for Stockholm companies, delivered remotely in English on CET-friendly hours.",
+  "eyebrow": "Stockholm",
+  "h1": "22 Signals for Stockholm: one team for tech, growth and creative work",
+  "intro": "22 Signals works with Stockholm companies that want AI, data, cloud, websites, apps, search, paid media, video and 3D from one team. We are a global business solutions company registered in London, one hour behind Stockholm. Work runs remotely in English, with travel to Stockholm when a project needs people in the room.",
+  "sections": [
+    {
+      "h": "Why a Stockholm company would look outside Sweden",
+      "p": [
+        "Stockholm is not short of talent. The city produced Spotify, Klarna, King and Mojang, and its engineers and designers are in demand across Europe. That is exactly the problem for many established firms. Good people are expensive and hard to hire, and the strongest local studios often have waiting lists or focus on one discipline.",
+        "So a mid-sized exporter, a retail brand or a funded scaleup ends up with a web studio for the site, a performance shop for ads, a data consultant for reporting and a production house for video. Four contracts, four sets of status meetings, and nobody responsible for how the pieces fit. We exist to replace that pattern with one team and one plan. If you are about to search for a digital agency, Stockholm has plenty that do one thing well. Ask first whether you really need four of them."
+      ]
+    },
+    {
+      "h": "What Stockholm businesses bring us in for",
+      "list": [
+        "AI consulting: picking the few use cases worth funding, then building a working pilot",
+        "AI automation: tools that remove repeated admin from finance, sales and support teams",
+        "Business intelligence: one set of numbers across entities, currencies and systems",
+        "Cloud consulting: AWS, Azure and Google Cloud set up inside the EU, secured and cost-reviewed",
+        "Web development: fast, accessible websites and e-commerce that work in Swedish and English",
+        "App development: iOS, Android and web apps, from first MVP to a product with paying users",
+        "SEO and GEO: ranking in Google and being named in ChatGPT, Claude, Gemini and Google AI Overviews",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns across Sweden and the Nordics",
+        "Video and animation: explainers, motion graphics, AI video and 2D and 3D animation",
+        "3D rendering: product, interior and architectural CGI"
+      ]
+    },
+    {
+      "h": "The Stockholm economy we plan around",
+      "p": [
+        "Two business cultures sit side by side in the Stockholm region. One is the startup and scaleup scene in places like Södermalm, Norrmalm and the tech cluster at Kista, strong in fintech, gaming, music streaming, health tech and climate tech. These companies move fast, test constantly and expect partners who can read a product roadmap.",
+        "The other is the large industrial and consumer exporters that built modern Sweden, with headquarters across the city and its suburbs. They sell machines, telecoms equipment, vehicles and household brands to the whole world, and most of their revenue comes from outside Sweden. Their digital work is about explaining complex products to foreign buyers, keeping data straight across dozens of subsidiaries, and running search and campaigns in many languages at once.",
+        "Between the two is a large layer of property firms, consultancies, clinics, retailers and design brands. We work across all three groups, and we tailor the plan to whichever one you are in."
+      ]
+    },
+    {
+      "h": "How decisions get made in Swedish companies, and how we fit",
+      "p": [
+        "Swedish firms tend to have flat structures and a strong habit of building agreement before acting. A project is often discussed with the people who will use it before anyone signs. Outsiders sometimes read this as slow. In our experience it is the reason Swedish projects, once approved, rarely get abandoned halfway.",
+        "We plan for it. Our written roadmap is meant to be shared and argued over. It names the trade-offs openly, lists what we need from each team and avoids sales language that a sceptical Swedish reader would strike through. If your process needs a workshop with the people affected, we build that into the timeline instead of pushing to skip it."
+      ]
+    },
+    {
+      "h": "What a digital agency Stockholm firms hire has to handle: language, currency and rules",
+      "p": [
+        "We deliver in English, which is widely used in Swedish business and is the working language of many Stockholm tech companies. Where customer-facing copy has to be in Swedish, or in Norwegian, Danish or Finnish for Nordic rollouts, we arrange native localisation with partners and review it against the English source.",
+        "Sweden is in the EU but keeps the Swedish krona, so budgets, ad spend and reporting often need to show SEK alongside euros. Personal data falls under the GDPR, supervised in Sweden by IMY, the Swedish Authority for Privacy Protection. The EU AI Act has been in force since 2024, with its obligations phasing in over several years. We design with these rules in mind and make sure your legal advisers see the questions early."
+      ]
+    },
+    {
+      "h": "Sustainability is part of the brief",
+      "p": [
+        "Stockholm buyers ask about sustainability more than most. That affects digital work in practical ways: lighter websites that load quickly on less energy, cloud regions powered largely by renewables, fewer physical photo shoots when 3D renders will do, and marketing claims that can be backed up. EU rules on vague green claims are tightening, so we keep environmental wording specific and checkable."
+      ]
+    },
+    {
+      "h": "Our process: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to see whether we are the right fit for the problem.",
+        "Plan: discovery and a written roadmap within 5 to 7 days, ready to circulate internally.",
+        "Build: specialist teams do the work, with dates agreed in writing.",
+        "Grow: regular reporting on what changed and what we will improve next."
+      ]
+    },
+    {
+      "h": "Working across the Stockholm and London time zones",
+      "p": [
+        "Stockholm runs on Central European Time, one hour ahead of London all year because both cities change their clocks on the same dates. A 09:00 start in Stockholm is 08:00 for us, so your whole working day overlaps with ours. Calls, reviews and launch windows sit inside normal office hours on both sides.",
+        "We do not have an office in Stockholm. Most work happens through shared documents, short video calls and a weekly written update. For kick-offs, workshops, filming or a launch that needs people on site, we travel."
+      ]
+    },
+    {
+      "h": "What we can show you",
+      "p": [
+        "We have worked with more than 30 companies, delivered more than 30 AI builds, broadcast more than 20 live events and managed more than $1.5M in projects. We do not publish client names, but we are happy to walk through relevant examples on a call, including what went wrong and how it was fixed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Stockholm?",
+      "a": "No. We work with Stockholm clients remotely, from one hour behind CET. We travel to Stockholm for workshops, filming or launches when the project calls for it, and we agree that in the plan."
+    },
+    {
+      "q": "Do you work in Swedish?",
+      "a": "Our team delivers in English, which most Stockholm companies already use for internal and international work. For Swedish or other Nordic customer-facing copy, we arrange native localisation through partners and check it against the agreed English version."
+    },
+    {
+      "q": "What size of Stockholm company do you work with?",
+      "a": "Mostly established businesses with a clear project and a small internal team that is already stretched, plus ambitious founders building a product. Size matters less than having a problem worth solving and someone on your side who can make decisions."
+    },
+    {
+      "q": "Can you invoice in Swedish kronor?",
+      "a": "Pricing and currency are agreed in the proposal. Third-party costs such as ad spend, cloud bills and software licences are usually paid by you directly, in whatever currency the supplier charges, so you keep full control of them."
+    },
+    {
+      "q": "How do you handle GDPR for Swedish clients?",
+      "a": "We design systems and campaigns around the GDPR from the first plan: data mapping, EU hosting where it matters, consent handling and access controls. We are not lawyers, so we flag decisions that need your legal adviser and document our choices for them."
+    },
+    {
+      "q": "Can you work alongside our existing agencies?",
+      "a": "Yes. Many clients keep a current supplier for one area and bring us in for another. We agree in writing who owns what, share access properly and keep everyone informed so nothing falls between teams."
+    }
+  ],
+  "related": [
+    "/locations/stockholm/ai-consulting",
+    "/locations/stockholm/web-development",
+    "/locations/stockholm/seo-geo",
+    "/locations/stockholm/cloud-consulting",
+    "/locations/london",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "digital agency stockholm",
+    "secondary": [
+      "digital byrå stockholm",
+      "ai consulting stockholm",
+      "web development stockholm",
+      "tech and marketing partner sweden"
+    ]
+  }
+}

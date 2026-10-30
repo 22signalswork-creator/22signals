@@ -1,0 +1,143 @@
+{
+  "path": "/locations/amsterdam/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting Amsterdam: Plans Built for the AI Act | 22 Signals",
+  "description": "AI consulting for Amsterdam companies: find the AI uses worth funding, plan them around GDPR and the EU AI Act, then build a pilot your team will use.",
+  "eyebrow": "AI Consulting in Amsterdam",
+  "h1": "AI consulting for Amsterdam companies that want a plan the regulator would accept",
+  "intro": "22 Signals gives Amsterdam companies AI consulting that ends in a working system, not a slide deck. We find where AI will save time or money in your business, plan it around GDPR and the EU AI Act, then build the first pilot with your team. Delivery is remote and in English, from one hour behind Amsterdam.",
+  "sections": [
+    {
+      "h": "The question Amsterdam boards are asking",
+      "p": [
+        "Most Amsterdam management teams have moved past asking whether AI matters. The question now is narrower: which three or four uses are worth the money, who signs off on the risk, and how do we stop twenty small experiments from running without anyone watching them.",
+        "European headquarters feel this most. The US parent wants AI adoption figures for the next board pack. The Dutch works council (ondernemingsraad) wants to know what changes for staff. Legal wants to know which systems count as high risk under the EU AI Act. Our job is to give all three a single answer they can live with."
+      ]
+    },
+    {
+      "h": "What the work covers",
+      "p": [
+        "The AI consulting Amsterdam companies buy from us covers seven pieces of work, usually in this order:"
+      ],
+      "list": [
+        "Use case review: we interview the teams, look at where time actually goes and rank AI opportunities by value, effort and risk",
+        "Data check: whether the data a use case needs exists, is clean enough and can lawfully be used for that purpose",
+        "Risk mapping: a first view of where each use case sits under the EU AI Act, and which GDPR questions it raises",
+        "Tool choice: Microsoft Copilot, ChatGPT Enterprise, Claude, Gemini or a custom build, judged on your systems and contracts",
+        "Governance: a short AI policy, an approval route for new tools and a register of what is in use",
+        "Pilot build: one working system, built with the team that will use it, with success measures agreed up front",
+        "Roll-out plan: what to scale, what to drop and what it will cost to run"
+      ]
+    },
+    {
+      "h": "GDPR, the AP and the EU AI Act in plain terms",
+      "p": [
+        "GDPR already covers most AI projects, because most useful AI touches personal data somewhere. In the Netherlands the Autoriteit Persoonsgegevens enforces it. The AP has a track record of large fines and also coordinates oversight of algorithms, so Dutch companies tend to take automated decision-making seriously. A data protection impact assessment is often needed before a pilot goes live, and we prepare the inputs for it.",
+        "The EU AI Act entered into force in 2024. It sorts AI systems by risk: some practices are banned, some uses such as hiring and credit scoring are high risk with heavy duties, and many everyday tools carry lighter transparency duties. Its obligations are phasing in over several years, so the rules that apply to you depend on what you build and when. We map each use case to the likely category, flag anything that needs specialist legal advice and design the pilot so the records the Act expects are kept from day one. Your legal adviser confirms the final position."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first for Amsterdam sectors",
+      "list": [
+        "Payments and fintech: summarising merchant onboarding files, drafting first replies to disputes and checking documents against policy before a human reviews them",
+        "E-commerce: product descriptions in Dutch, English and German drafted from one source, and customer service answers grounded in your own help centre",
+        "Logistics and trade around Schiphol and the Port of Rotterdam: reading shipping documents, matching them to orders and flagging mismatches",
+        "Professional services in the Zuidas: searching precedent, drafting first versions of standard documents and summarising long files",
+        "Creative and advertising agencies: research, pitch preparation and first drafts of copy variants, with clear rules on client data",
+        "Life sciences near the EMA: literature searches and document comparison, kept inside tightly controlled environments"
+      ]
+    },
+    {
+      "h": "From call to pilot",
+      "p": [
+        "Talk is a 15-minute call. You tell us what prompted the conversation and we tell you honestly whether AI is the right tool for it. If it is, Plan follows: two or three workshops, interviews with the people doing the work and a look at your data. Within 5 to 7 days you get a written roadmap with ranked use cases, risks, costs and a recommended first pilot.",
+        "Build is the pilot itself, run by specialists who have built AI systems before, with dates in writing. Grow covers what happens once it works: training, measuring results against the targets we agreed and deciding together what to scale next."
+      ]
+    },
+    {
+      "h": "Track record",
+      "p": [
+        "We have delivered more than 30 AI builds and worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE. That experience is why our roadmaps are realistic about data quality, adoption and running costs. We will walk you through comparable work on a call."
+      ]
+    },
+    {
+      "h": "Remote delivery, with travel when it helps",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. Most of the work happens on video calls and in shared documents. For kick-off workshops or a session with the works council, we can come to Amsterdam in person. London runs one hour behind CET, so our day lines up with yours.",
+        "All work is delivered in English. If staff training or user guides need to be in Dutch, we arrange localisation with partners."
+      ]
+    },
+    {
+      "h": "Questions worth asking any AI consultant",
+      "p": [
+        "Whoever you hire for AI consulting, Amsterdam or elsewhere, these questions separate useful advice from theatre:"
+      ],
+      "list": [
+        "Will you build something, or only advise?",
+        "How will you decide which use cases come first?",
+        "How do you handle the EU AI Act categories for our use cases?",
+        "Who owns the code, prompts and data after the project?",
+        "What will this cost to run each month once it is live?"
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "How many teams and processes the review covers",
+        "The state of your data and how many systems need connecting",
+        "Whether the pilot uses an existing tool or a custom build",
+        "The level of risk under the AI Act and the documentation that follows",
+        "How much training and change support your staff need"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the EU AI Act apply to companies that only use AI tools?",
+      "a": "Often, yes. The Act places duties on deployers as well as providers, although the heaviest duties fall on high-risk uses. Which rules apply depends on the use case and the timetable. We map this for each case and your legal adviser confirms it."
+    },
+    {
+      "q": "Do we need to involve our works council?",
+      "a": "If AI changes how staff work or how they are monitored, Dutch works councils often have a right to be consulted. We help you prepare a clear explanation of the pilot, its purpose and its safeguards. Your HR and legal teams decide on the formal process."
+    },
+    {
+      "q": "Can you meet us in Amsterdam?",
+      "a": "Yes, when it helps. We have no office in the city, but we travel for workshops and key meetings. The rest of the work runs remotely in English."
+    },
+    {
+      "q": "Should we choose Microsoft Copilot or build our own?",
+      "a": "It depends on where the value is. Copilot suits general office work for teams already on Microsoft 365. Custom builds suit specific processes with your own data and rules. Many Amsterdam companies end up with both, and we help you decide where each fits."
+    },
+    {
+      "q": "How long does AI consulting take before we see something working?",
+      "a": "The written roadmap arrives 5 to 7 days after discovery starts. A focused pilot usually follows within weeks, depending on data access and approvals. The roadmap gives you dates in writing."
+    },
+    {
+      "q": "Will our data be used to train public AI models?",
+      "a": "Not if the tools are set up correctly. We choose business plans and settings that exclude your data from model training, keep processing in the EU where possible and document it for your GDPR records."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/ai-consulting",
+    "/locations/amsterdam/ai-automation",
+    "/locations/amsterdam/business-intelligence",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/insights/ai-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "ai consulting amsterdam",
+    "secondary": [
+      "ai consultant amsterdam",
+      "ai consultancy netherlands",
+      "eu ai act consulting",
+      "ai strategy amsterdam",
+      "ai governance gdpr"
+    ]
+  }
+}

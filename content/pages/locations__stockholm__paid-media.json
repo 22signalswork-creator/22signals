@@ -1,0 +1,150 @@
+{
+  "path": "/locations/stockholm/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "paid-media",
+  "serviceType": "Paid media and performance advertising",
+  "title": "Paid Media Agency Stockholm: Ads Across the Nordics | 22 Signals",
+  "description": "Paid media for Stockholm companies: Google, Meta, LinkedIn and TikTok campaigns across Sweden and the Nordics, measured on enquiries and sales, not clicks.",
+  "eyebrow": "Paid Media in Stockholm",
+  "h1": "Paid media for Stockholm brands growing from Sweden into the Nordics",
+  "intro": "We plan, run and report paid campaigns for Stockholm companies on Google, Meta, LinkedIn and TikTok, measured on enquiries and sales rather than clicks. Most clients start in Sweden and expand into Norway, Denmark and Finland, so we build campaigns that work across languages, currencies and audiences. Work is delivered remotely in English, with plain monthly reporting.",
+  "sections": [
+    {
+      "h": "Small market, high costs, clear choices",
+      "p": [
+        "Sweden has just over ten million people, and the Stockholm region holds a large share of the buyers in many sectors. That makes audiences small by European standards. On LinkedIn, a tightly targeted Swedish B2B audience can be a few thousand people. On Meta, a narrow consumer segment can be exhausted within weeks if the same ad runs too often.",
+        "Competition for those people is high, because well-funded scaleups and global brands bid on the same audiences. The answer is not to spend more. It is to choose the right channels, rotate creative often and track results all the way to revenue, so budget moves to what works. A paid media agency Stockholm firms hire should be able to tell you which campaigns made money last month, not just which ones got clicks."
+      ]
+    },
+    {
+      "h": "Channels we run",
+      "list": [
+        "Google Ads: search, Performance Max and shopping campaigns, in Swedish and other Nordic languages",
+        "Meta: Facebook and Instagram campaigns for consumer brands, events and recruitment",
+        "LinkedIn: account-based and lead generation campaigns for B2B companies and exporters",
+        "TikTok: short-form video campaigns for consumer brands, apps and games reaching younger Swedes",
+        "YouTube: video campaigns for awareness and remarketing",
+        "Microsoft Ads: search campaigns where B2B buyers still use Bing at work"
+      ]
+    },
+    {
+      "h": "Planning for four Nordic markets at once",
+      "p": [
+        "Sweden, Norway, Denmark and Finland look similar from a distance and behave differently up close. Each has its own language, and Finland's is unrelated to the other three. Norway and Denmark use their own kroner, Finland uses the euro, and Sweden uses the Swedish krona. Search volumes, costs per click and the platforms people favour differ between them.",
+        "We set up separate campaigns for each market, with ads written natively for that audience and budgets in the right currency. Shared reporting then shows the whole region in one view, converted to SEK or euros, so you can compare markets fairly and decide where the next krona should go."
+      ]
+    },
+    {
+      "h": "Measurement that survives consent banners",
+      "p": [
+        "Many Swedish visitors decline tracking cookies, which leaves gaps in platform data. We set up consent properly under the GDPR, use server-side tracking and enhanced conversions where they fit and consented data allows, and connect ad platforms to your CRM so offline sales count too. That gives the bidding systems better signals and gives you numbers you can defend in a budget meeting.",
+        "For B2B firms with long sales cycles, we track each stage: form submitted, meeting booked, proposal sent, deal won. A campaign that brings fewer leads but more won deals is the better campaign, and the reporting should show that clearly."
+      ]
+    },
+    {
+      "h": "Rules on advertising in Sweden",
+      "p": [
+        "Swedish marketing law requires that advertising is clearly identifiable as advertising, and the Swedish Consumer Agency, Konsumentverket, takes an active interest in misleading claims. Influencer and creator content must be clearly labelled when it is paid. Environmental claims draw close attention in Sweden, and EU rules on vague green claims are tightening.",
+        "We write ads that make specific, checkable statements and keep evidence for any claim about price, performance or sustainability. Sectors with extra rules, such as financial services, alcohol, gambling and healthcare, need extra care, and we check those campaigns with your compliance team before launch."
+      ]
+    },
+    {
+      "h": "Creative that keeps up",
+      "p": [
+        "Small audiences tire of the same ad quickly. Our team includes video, motion and design specialists, so new creative arrives on a schedule rather than when someone finds time. We test hooks, formats and offers in small batches, keep what works and retire the rest. Copy in Swedish and other Nordic languages is written or adapted by native partners."
+      ]
+    },
+    {
+      "h": "What campaigns look like by Stockholm sector",
+      "list": [
+        "Consumer and design brands: shopping and Instagram campaigns timed around Swedish paydays, which fall on the 25th of the month, and seasonal peaks",
+        "Apps and games: install campaigns on TikTok, Meta and Google, judged on retained users rather than downloads",
+        "Industrial exporters: LinkedIn and search campaigns aimed at engineers and buyers abroad, often in English and German",
+        "Property developers: lead campaigns for new builds, linked to the sales team's CRM",
+        "Clinics and professional services: local search campaigns covering the city and nearby municipalities",
+        "Employers: recruitment campaigns for hard-to-fill technical roles"
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about your targets, current spend and what is not working.",
+        "Plan: an account audit, tracking review and written campaign plan in 5 to 7 days.",
+        "Build: tracking fixes, new structure and creative, launched on dates agreed in writing.",
+        "Grow: weekly optimisation, monthly reporting tied to revenue, and testing new channels and markets."
+      ]
+    },
+    {
+      "h": "Remote management, Stockholm hours",
+      "p": [
+        "We have no Stockholm office. Campaigns are managed remotely, with a weekly written update and a monthly review call. Stockholm is one hour ahead of London, so launches, budget changes and urgent fixes happen during your working day. Ad accounts stay in your name, and you pay ad spend to the platforms directly."
+      ]
+    },
+    {
+      "h": "What sets the fee",
+      "list": [
+        "Number of channels and markets",
+        "Monthly ad spend and campaign complexity",
+        "Volume of new creative needed",
+        "Tracking and CRM integration work",
+        "Reporting depth and how often you want reviews"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We connect paid media to everything around it: the website and landing pages, the CRM, SEO and GEO, and the video team making the ads. Fixes happen inside one team rather than across four suppliers. If you want a paid media agency Stockholm leadership can hold to revenue, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ad platform works best in Sweden?",
+      "a": "It depends on who you sell to. Google search catches active demand, Meta and TikTok reach consumers at scale, and LinkedIn reaches B2B decision makers. Most clients use two or three channels, chosen in the plan based on targets and budget."
+    },
+    {
+      "q": "Do you run ads in Norwegian, Danish and Finnish?",
+      "a": "Yes. We plan and manage the campaigns, and native partners write or adapt the ad copy for each market. Each country gets its own campaigns, budget and currency."
+    },
+    {
+      "q": "Who owns the ad accounts?",
+      "a": "You do. Accounts are set up in your company's name, you pay the platforms directly and we work with access you grant. If we part ways, you keep all history and data."
+    },
+    {
+      "q": "How do you report results?",
+      "a": "Monthly, in plain English, with enquiries, sales and cost per result by channel and market. Where your CRM is connected, we show won deals and revenue, not just leads."
+    },
+    {
+      "q": "Can you help with influencer campaigns too?",
+      "a": "Yes. We run influencer and creator campaigns alongside paid media, with paid posts clearly labelled as advertising, as Swedish rules require."
+    },
+    {
+      "q": "What is the minimum ad budget?",
+      "a": "There is no fixed minimum, but the budget has to be large enough for the platforms to learn and for results to be meaningful. We give an honest view in the plan, including when a smaller test makes more sense."
+    },
+    {
+      "q": "Can you take over our current Google Ads account?",
+      "a": "Yes. We start with an audit of structure, tracking and spend, keep what works and fix the rest in stages, so performance does not drop while we learn the account."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/paid-media",
+    "/locations/stockholm/seo-geo",
+    "/locations/stockholm/video-animation",
+    "/services/influencer-campaigns",
+    "/services/social-media-management"
+  ],
+  "keywords": {
+    "primary": "paid media agency stockholm",
+    "secondary": [
+      "google ads byrå stockholm",
+      "ppc agency sweden",
+      "linkedin ads nordics",
+      "performance marketing stockholm"
+    ]
+  }
+}

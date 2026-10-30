@@ -1,0 +1,131 @@
+{
+  "path": "/locations/dublin/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Dublin: AWS and Azure in the EU | 22 Signals",
+  "description": "Cloud consulting for Dublin companies: AWS and Azure set up in EU regions, security and access reviews, resilience planning for DORA, and cost control.",
+  "eyebrow": "Cloud Consulting in Dublin",
+  "h1": "Cloud consulting Dublin companies use to keep data in the EU and bills in check",
+  "intro": "22 Signals offers cloud consulting to Dublin and Irish businesses running on AWS, Microsoft Azure or Google Cloud. We design and secure environments in EU regions, many of them in Dublin itself, plan resilience for regulated firms, move workloads off ageing servers, and review spend every month so the bill reflects what you actually use.",
+  "sections": [
+    {
+      "h": "Some of the world's largest cloud regions are already in your city",
+      "p": [
+        "Dublin has been a major European cloud location for years. AWS runs its Europe (Ireland) region here, and Microsoft Azure's North Europe region is in Ireland too. For an Irish company that means low latency, data that stays inside the EU without much effort, and a wide choice of services.",
+        "It also means the decisions that matter are rarely about geography. They are about how your accounts are structured, who can access what, whether backups have ever been tested, how the environment would recover from an outage, and why the monthly invoice keeps creeping up. That is where cloud consulting earns its keep."
+      ]
+    },
+    {
+      "h": "What we cover",
+      "list": [
+        "Architecture: account and subscription structure, networking and environments sized for real load.",
+        "Migration: moving servers, databases and applications from on-premise or older hosting with tested rollback.",
+        "Identity and access: single sign-on, least-privilege roles, and regular reviews of who holds admin rights.",
+        "Security baseline: encryption, logging, patching, vulnerability scanning and alerting to the right person.",
+        "Backup and recovery: documented recovery objectives, and restore tests on a schedule.",
+        "Cost management: rightsizing, scheduling non-production environments, commitment discounts and tagging so each team sees its own spend.",
+        "Managed operations after launch, with response times agreed in writing."
+      ]
+    },
+    {
+      "h": "Data residency, transfers and the GDPR",
+      "p": [
+        "The GDPR does not require personal data to stay in Ireland, but it does control transfers outside the European Economic Area. Many Dublin firms choose EU regions to keep things simple, and some contracts, especially in financial services, health and the public sector, make that a requirement. The EU-US Data Privacy Framework, adopted in 2023, gives a route for transfers to certified US companies, but many Irish buyers still prefer to avoid the question where they can.",
+        "We map which systems hold personal data, where support staff access it from, and which third-party services sit in the data path. Then we choose regions and settings to match, and write the decisions down so your DPO, auditors and customers can follow them."
+      ]
+    },
+    {
+      "h": "Resilience for financial firms",
+      "p": [
+        "Dublin's banks, insurers, payment firms and fund administrators now work under the EU Digital Operational Resilience Act, known as DORA, which applies across the EU from January 2025. It asks financial entities to manage ICT risk, test their resilience, report major incidents and keep a close eye on critical third-party providers, including cloud platforms. The Central Bank of Ireland supervises how Irish firms apply it.",
+        "We help with the technical side: mapping dependencies, documenting recovery plans, running failover and restore tests, setting up the logging an incident report needs, and preparing the information your risk team asks for about each cloud service. Interpretation of the regulation stays with your compliance function and advisers."
+      ]
+    },
+    {
+      "h": "Typical Dublin starting points",
+      "list": [
+        "A professional services firm with a server cupboard in a Georgian office, a lease ending and no appetite to move the hardware.",
+        "A fast-growing SaaS company whose first AWS account has become a tangle of test resources nobody wants to delete.",
+        "The Irish subsidiary of a US group that must align with a global landing zone while meeting EU data rules.",
+        "A funds or insurance business preparing evidence for a DORA review.",
+        "A retailer whose online store slows to a crawl every Black Friday and Christmas.",
+        "A company paying for three overlapping backup tools and still unsure it could recover."
+      ]
+    },
+    {
+      "h": "Cost control that keeps going",
+      "p": [
+        "Cloud bills drift. Someone launches a large database for a test and forgets it; logs are kept forever by default; a development environment runs all weekend. A one-off review finds the obvious waste, but the savings slip away within months unless someone keeps watching.",
+        "So we set up tagging and budgets that show each team its own spend, schedule non-production systems to switch off out of hours, and review the account every month. Each saving is listed with its risk and effort, safe changes go first, and you see the result on the next invoice. We do not promise a percentage before we have seen your account."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "list": [
+        "Talk: a 15-minute call about what you run, what worries you and what it costs.",
+        "Plan: discovery and a written roadmap in 5 to 7 days, covering architecture, security, residency and costs.",
+        "Build: our specialist teams set up the environment or carry out the migration, with cutover dates agreed in writing.",
+        "Grow: monthly cost and security reviews, and changes as you add products, sites or markets."
+      ]
+    },
+    {
+      "h": "Remote work, same hours as Dublin",
+      "p": [
+        "Cloud work is almost entirely remote, and Ireland shares London's time zone, so planned changes can run early in the morning or after close with engineers fully awake. We have no Dublin office. When a project involves physical kit, such as decommissioning servers or wiring a new site, we either visit or coordinate with your facilities or IT provider, and we agree which at the planning stage."
+      ]
+    },
+    {
+      "h": "Why bring us in",
+      "p": [
+        "Most cloud partners stop at infrastructure. Our team also builds the applications, data platforms and AI tools that run on top, so design choices are made with the whole system in view. We have managed more than $1.5M in projects and broadcast more than 20 live events, which teaches a useful habit for cutovers: the date does not move, so the preparation has to be right. Related services include cloud migration, DevOps consulting and data engineering."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does cloud consulting Dublin companies buy usually include?",
+      "a": "Most projects cover an architecture review, identity and security setup, backup and recovery planning, migration of one or more workloads and a cost review. Many clients then keep us on for monthly operations and cost checks."
+    },
+    {
+      "q": "Which cloud regions are in Ireland?",
+      "a": "AWS operates its Europe (Ireland) region in the Dublin area, and Microsoft Azure's North Europe region is also in Ireland. Google Cloud has EU regions in other member states. We choose based on the services you need, your contracts and your data rules."
+    },
+    {
+      "q": "Does the GDPR require our data to stay in Ireland?",
+      "a": "No. The GDPR controls transfers outside the European Economic Area rather than requiring data to stay in one country. Many Irish firms still choose EU regions for simplicity or because contracts require it. Your legal adviser confirms the position for each system."
+    },
+    {
+      "q": "Can you help us prepare for DORA?",
+      "a": "We handle the technical work DORA calls for, such as dependency mapping, recovery plans, resilience testing, logging and information about cloud providers. Your compliance team and advisers own the regulatory interpretation and the dealings with the Central Bank."
+    },
+    {
+      "q": "Can you reduce our current cloud bill?",
+      "a": "Often. Reviews usually find idle resources, oversized machines, long log retention and missed commitment discounts. We list each saving with its effort and risk, make the safe changes first and report the effect monthly."
+    },
+    {
+      "q": "How do you migrate without disrupting the business?",
+      "a": "We test the new environment with real data, plan the cutover for a quiet window, keep a rollback ready and agree the date in writing. Most migrations need a short pause rather than a long outage."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/dublin/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting dublin",
+    "secondary": [
+      "aws consultant ireland",
+      "azure consultant dublin",
+      "cloud migration ireland",
+      "dora cloud resilience"
+    ]
+  }
+}

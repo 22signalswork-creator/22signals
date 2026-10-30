@@ -1,0 +1,143 @@
+{
+  "path": "/locations/dublin/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Dublin: MVPs, SaaS and Mobile Apps | 22 Signals",
+  "description": "App development for Dublin founders and companies: iOS, Android and web apps, MVPs and SaaS products built for EU payments, GDPR and real users.",
+  "eyebrow": "App Development in Dublin",
+  "h1": "App development Dublin founders and product teams can ship on time",
+  "intro": "22 Signals delivers app development for Dublin startups and established Irish companies: iOS, Android and web apps, first MVPs and SaaS products. We scope the smallest version worth releasing, design and build it, handle EU payments and data rules, launch it in the stores, and keep improving it once real users arrive.",
+  "sections": [
+    {
+      "h": "Dublin's product scene and where we fit",
+      "p": [
+        "Dublin has one of the busiest startup communities in Europe, helped by the engineers, product managers and sales people who pass through the large technology companies in the Docklands. Many founders here have built products inside big firms and now want to do it for themselves, with far less money and time.",
+        "That is where we usually come in. A founding team has a clear idea and a first set of customers lined up, but no in-house engineering yet, or a small team that cannot cover mobile, backend and design at once. We provide the product build so the founders can spend their time on customers and investors."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "MVPs: the smallest product that tests the core idea with paying or committed users.",
+        "SaaS platforms: multi-tenant web apps with sign-up, billing, roles and an admin console.",
+        "Mobile apps: native-quality iOS and Android apps, usually from one shared codebase.",
+        "Internal apps: field service, inspections, ordering and approvals for teams away from a desk.",
+        "Customer apps for established brands: loyalty, booking, account management and notifications.",
+        "AI features inside products: search, summaries, assistants and document handling.",
+        "APIs and integrations with payment providers, CRMs, accounting tools and partner systems."
+      ]
+    },
+    {
+      "h": "Scoping an MVP that is actually minimum",
+      "p": [
+        "The most expensive mistake in early product work is building too much. We start by writing down the one or two things a user must be able to do for the product to prove its point, then cut everything else to a later list. Sign-in, one core workflow, payment if money changes hands, and enough analytics to see what people do.",
+        "The scope, the screens and the release date go in a written roadmap during the planning stage. If an investor meeting or a pilot customer sets the deadline, we plan backwards from it and tell you early what fits and what does not."
+      ]
+    },
+    {
+      "h": "EU details that affect the build",
+      "list": [
+        "Payments: card payments in the EU usually need Strong Customer Authentication under PSD2, and many Irish users expect Apple Pay, Google Pay and SEPA options.",
+        "Data protection: the GDPR shapes sign-up flows, consent for marketing, data export and account deletion, and we build those in from the first release.",
+        "Hosting: AWS and Azure both run cloud regions in Ireland, which keeps latency low and personal data inside the EU.",
+        "App stores: the EU Digital Markets Act has changed some rules for app distribution and payments in Europe, which can matter for consumer apps.",
+        "Accessibility: we design to WCAG guidelines, which also helps with the accessibility duties some consumer services now carry in the EU.",
+        "Language: we deliver in English and arrange localisation through partners when you launch in other European markets."
+      ]
+    },
+    {
+      "h": "Regulated products",
+      "p": [
+        "Some Dublin products sit in regulated spaces: payments and fintech supervised by the Central Bank of Ireland, health and wellness apps that edge towards medical device rules, insurance tools and HR products that make decisions about people. We are not regulatory advisers, but we know where the questions are. We build audit logs, role-based access, data minimisation and clear records of what the software does, so your advisers and any regulator can see how the product behaves. Where AI features are involved, we note how the EU AI Act might apply to that use."
+      ]
+    },
+    {
+      "h": "For established Irish companies",
+      "p": [
+        "Not every app project is a startup. Irish distributors want ordering apps for trade customers. Clinic groups want booking and reminders. Property managers want tenants to log maintenance requests with a photo. Field teams want to replace paper forms. These apps usually need to connect to an ERP, CRM or booking system the company already relies on, and the integration matters more than the interface.",
+        "We map those systems in the planning stage and test the integration first, before any polish goes on the screens."
+      ]
+    },
+    {
+      "h": "App development: Dublin briefs by type",
+      "list": [
+        "Fintech founders: onboarding with identity checks, account views and payments, built with an audit trail from day one.",
+        "Health and wellness startups: booking, reminders and progress tracking, with sensitive data kept to the minimum the product needs.",
+        "B2B SaaS teams: a web app first, with a mobile companion only once customers ask for it.",
+        "Hospitality and events: ticketing, ordering and loyalty that must cope with sudden peaks on match days and festival weekends.",
+        "Trade and distribution: reordering apps that pull prices and stock from the ERP so sales reps stop phoning the office."
+      ],
+      "p": [
+        "Each type carries different risks, so the roadmap starts with the hardest technical question, not the easiest screen."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the product, the users and the deadline.",
+        "Plan: discovery and a written roadmap in 5 to 7 days, with scope, screens, technology and dates.",
+        "Build: our specialist teams design, build and test in short cycles you can try on your own phone, with release dates agreed in writing.",
+        "Grow: store launch, analytics, fixes and new features based on what users actually do."
+      ]
+    },
+    {
+      "h": "Working with a Dublin team remotely",
+      "p": [
+        "Ireland shares London's time zone, so stand-ups, demos and urgent fixes happen in your working day. We have no Dublin office and work remotely. For kick-off workshops, user testing sessions or an investor demo where it helps to have us present, we travel to Dublin and include that in the plan."
+      ]
+    },
+    {
+      "h": "Track record and what drives cost",
+      "p": [
+        "We have worked with more than 30 companies and completed more than 30 AI builds, including product work from MVP stage onwards. Cost depends mainly on the number of platforms (web, iOS, Android), the depth of the core workflow, integrations, payments, AI features and the level of ongoing support you want after launch. Third-party costs such as store accounts, hosting and API usage are paid by you, so you own the accounts from day one."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What should a first release include?",
+      "a": "Usually sign-in, one core workflow that proves the idea, payments if money changes hands, basic analytics and the GDPR essentials such as consent, data export and account deletion. Everything else goes on a later list."
+    },
+    {
+      "q": "Do you build native or cross-platform apps?",
+      "a": "Most of our mobile apps use one shared codebase for iOS and Android, which keeps cost and timelines down while still feeling native. Where a product needs deep device features or top performance, we recommend native builds and explain why."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. The code sits in your repository, the cloud and store accounts are in your company's name, and documentation is handed over so another team could take it on if you ever choose."
+    },
+    {
+      "q": "Can you add AI features to our app?",
+      "a": "Yes. We build search, summaries, assistants and document tools into products, and we design them with clear limits, logging and human review where decisions affect people. We note how the EU AI Act might apply to each feature."
+    },
+    {
+      "q": "How long does an MVP take?",
+      "a": "It depends on scope, but a focused MVP is planned in weeks, not months. The written roadmap after the 5 to 7 day planning stage sets the release date and what is in it."
+    },
+    {
+      "q": "Can you work with our in-house developers?",
+      "a": "Yes. Some clients have a technical co-founder or a small team and need extra capacity for mobile, design or backend. We agree who owns what in writing and work in your repository and tools."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/app-development",
+    "/services/custom-ai-development",
+    "/locations/dublin/web-development",
+    "/locations/dublin/cloud-consulting",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "app development dublin",
+    "secondary": [
+      "app developers dublin",
+      "mobile app development ireland",
+      "mvp development dublin",
+      "saas development ireland"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "path": "/locations/paris/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Paris: MVPs and Customer Apps | 22 Signals",
+  "description": "App development for Paris founders and brands: iOS, Android and web apps, MVPs built to a fixed scope, with GDPR, EU payments and accessibility planned in.",
+  "eyebrow": "App Development in Paris",
+  "h1": "App development in Paris for founders shipping a first version and brands adding one",
+  "intro": "We build iOS, Android and web apps for Paris founders who need a first version in users' hands and for established brands adding an app to their business. Each project starts with a fixed scope and a written roadmap in 5 to 7 days, and every build handles GDPR consent, EU payment rules and accessibility from the start.",
+  "sections": [
+    {
+      "h": "Two kinds of Paris client, two different problems",
+      "p": [
+        "The first is the founder. Perhaps they came through a programme at Station F, raised a pre-seed round or secured early Bpifrance support, and now need a product that real users can try before the next round. Their risk is building too much: six months of features nobody asked for, and no time left to learn from customers.",
+        "The second is the established company. A beauty brand wants a loyalty app, a luxury house wants a tool for client advisers on the shop floor, a property manager wants residents to report repairs from their phone. Their risk is different: an app that does not connect to the systems behind it, or one that nobody downloads. App development in Paris has to handle both, and we scope each one differently."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "MVPs: the smallest product that tests the idea with real users, on a fixed scope and date.",
+        "Native iOS and Android apps where performance, camera or device features matter.",
+        "Cross-platform apps in React Native or Flutter when one codebase serves both stores well.",
+        "Web apps and SaaS platforms with accounts, subscriptions and admin dashboards.",
+        "Internal apps for staff: client adviser tools, stock lookups, field reports and approvals.",
+        "Customer apps for loyalty, bookings, orders and account management.",
+        "AI features inside the product, such as search, recommendations and assistants, where they earn their place."
+      ]
+    },
+    {
+      "h": "For founders: build the version that teaches you something",
+      "p": [
+        "A good MVP is defined by the question it answers. Will clinics pay for this booking tool? Will shoppers use this styling feature twice? We work backwards from that question to the fewest screens that answer it, then cut again. Everything else goes on a later list with a rough cost next to it.",
+        "We also set up the basics investors will ask about: analytics that respect consent, a clean data model, code in your own repository and accounts in your company's name. When you hire your first in-house engineers, they inherit a codebase they can work with rather than one they want to rewrite."
+      ]
+    },
+    {
+      "h": "For established brands: connect the app to the business",
+      "p": [
+        "An app for a Paris retailer or luxury house is only as good as the data behind it. Loyalty points must match the till. Stock shown to a client adviser must match the warehouse. A booking must appear in the system the boutique already uses. We spend real time on these connections, because they decide whether staff and customers trust the app.",
+        "We also plan for adoption. A customer app needs a reason to be installed and a reason to come back: early access to a collection, faster checkout, a booking that takes ten seconds. Without one, the download numbers stay small however good the code is."
+      ]
+    },
+    {
+      "h": "EU rules built into the app",
+      "list": [
+        "GDPR: consent collected before tracking, a clear privacy screen, account deletion inside the app and data stored in EU regions.",
+        "CNIL expectations on consent apply to app trackers and SDKs as well as website cookies, so we audit every third-party library.",
+        "Payments: strong customer authentication under EU payment rules, with Cartes Bancaires, Visa, Mastercard, Apple Pay and Google Pay supported where relevant.",
+        "App store rules: we follow Apple's and Google's review guidelines, including the options that apply in the EU for in-app payments and distribution.",
+        "Accessibility: WCAG-based design, screen reader labels and dynamic text sizes, in line with the European Accessibility Act for consumer services.",
+        "The EU AI Act: any AI feature is described, categorised and documented before release."
+      ]
+    },
+    {
+      "h": "Designing for French and English",
+      "p": [
+        "Most Paris apps launch in French, often with English alongside for tourists, international staff or a European roll-out. French text tends to run longer than English, so we design screens with room to grow and test them with real translations rather than placeholder text. Dates, currency and number formats follow the user's language.",
+        "Our work is delivered in English. In-app French copy comes from your team or from translators we arrange through partners, and you approve it before release. App store listings get the same treatment, since they are what French users read before installing."
+      ]
+    },
+    {
+      "h": "After launch",
+      "p": [
+        "An app is never finished at release. We monitor crashes, reviews and usage, ship fixes quickly, keep the app working through new versions of iOS and Android, and plan updates around what users actually do. Founders get a short report each month showing which features are used and where people drop off, which makes the next funding conversation easier. Established brands get the same view tied to sales or service figures."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: a 15-minute call about the idea or the problem the app should solve.",
+        "Plan: discovery, user flows, technical choices and a fixed scope in a written roadmap within 5 to 7 days.",
+        "Build: design and development in short cycles with a test build you can try every week, and dates agreed in writing.",
+        "Grow: store submission, launch, monitoring and a roadmap for the next release."
+      ]
+    },
+    {
+      "h": "Proof, and working with us from Paris",
+      "p": [
+        "We have managed more than $1.5M in projects, including apps, SaaS platforms and AI products, and we will walk you through relevant examples on a call without naming clients.",
+        "We have no office in Paris. We work remotely on shared hours, with Paris one hour ahead of London, and come to Paris for discovery workshops or user testing when the project benefits from it. Founders at Station F and teams across the city can meet us in person when it matters."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does app development in Paris take with you?",
+      "a": "The roadmap takes 5 to 7 days. Build time depends on scope: a focused MVP is far quicker than a full customer app with several integrations. Every date is set in writing at the planning stage, and you see a working test build each week."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "Cross-platform suits most business apps and MVPs, because one codebase serves both stores. Native makes sense when performance, advanced camera use or deep device features matter. We recommend one after discovery and explain why."
+    },
+    {
+      "q": "Do we own the code?",
+      "a": "Yes. Code lives in your repository, app store accounts are in your company's name and you receive the documentation. You can bring development in-house at any point."
+    },
+    {
+      "q": "How do you handle GDPR in an app?",
+      "a": "Consent before tracking, a clear privacy screen, in-app account deletion, EU data storage and an audit of every third-party SDK. Your DPO or legal adviser reviews the setup before release."
+    },
+    {
+      "q": "Can the app be in French?",
+      "a": "Yes. We design screens for French and English and handle local formats. Our delivery is in English, so French copy is supplied by your team or by translators we arrange through partners, and you approve it before launch."
+    },
+    {
+      "q": "Do you work with early-stage startups?",
+      "a": "Yes. We work with founders who need a focused first version, as well as established companies. For startups we keep the scope tight, set up investor-ready analytics and leave a codebase your future team can build on."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/app-development",
+    "/locations/paris/web-development",
+    "/locations/paris/ai-consulting",
+    "/industries/technology-ai",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "app development in paris",
+    "secondary": [
+      "app developer paris",
+      "mobile app agency paris",
+      "mvp development paris",
+      "saas development france"
+    ]
+  }
+}

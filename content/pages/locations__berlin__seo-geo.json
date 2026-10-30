@@ -1,0 +1,137 @@
+{
+  "path": "/locations/berlin/seo-geo",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimisation",
+  "title": "SEO Agency Berlin: Google and AI Answers, DE and EN | 22 Signals",
+  "description": "SEO agency Berlin and German firms use to rank in Google and appear in ChatGPT, Claude, Gemini and AI Overview answers, in German and English markets.",
+  "eyebrow": "SEO and GEO in Berlin",
+  "h1": "An SEO agency for Berlin companies searched in German and English",
+  "intro": "22 Signals is an SEO agency for Berlin and German companies that need to be found in Google and named when buyers ask ChatGPT, Claude, Gemini or Google AI Overviews for a recommendation. We fix technical problems, plan content for German and English searches, tidy your listings on the directories German buyers use and report every month in plain language.",
+  "sections": [
+    {
+      "h": "Searching in Germany works differently",
+      "p": [
+        "German queries are built from long compound nouns. A buyer might search 'Wartungsvertrag Druckluftanlage' rather than a phrase of four short words, and the same need can be written as one word, two words or a hyphenated version. Search volumes per phrase are often small, but intent is precise. Keyword research done by translating an English list misses most of this.",
+        "Berlin adds a second layer. A large part of the city's business life runs in English: start-ups, international hires, investors and the many residents who moved here from abroad. A Berlin software company may need to rank for 'HR software for start-ups' and 'Personalverwaltung Software' at the same time. Treating those as one audience rarely works."
+      ]
+    },
+    {
+      "h": "GEO: being named in AI answers",
+      "p": [
+        "Generative engine optimisation, or GEO, is the work of making sure AI assistants describe your business correctly and include it when they recommend suppliers. It sits on top of SEO. Assistants rely on pages they can crawl and on what other trusted sources say about you, so the basics still matter most.",
+        "In Germany that means consistent details on your site, your Impressum, Google Business Profile and the directories that matter in your sector. It means service pages that answer a question directly in the first lines. And it means mentions in German trade press, association member lists and comparison sites that assistants already read. Assistants increasingly answer in German when asked in German, so German content needs the same care as English."
+      ]
+    },
+    {
+      "h": "What we do each month",
+      "list": [
+        "Track a fixed set of buyer questions in Google and in ChatGPT, Claude, Gemini and Google AI Overviews, in German and English",
+        "Technical SEO: crawling, indexing, speed, structured data and language signals for German, Austrian and Swiss versions where you need them",
+        "Keyword research in German built from real search data and customer language, not translated lists",
+        "Answer-first service pages, guides and FAQs, with German copy written or adapted by localisation partners",
+        "Listings and reviews: Google Business Profile, sector directories and review platforms kept accurate",
+        "Outside mentions: trade press, associations, event listings and partner pages",
+        "A monthly written report on what moved, why and what comes next"
+      ]
+    },
+    {
+      "h": "Where German buyers check you out",
+      "list": [
+        "Google: still the dominant search engine in Germany, including Maps and local results",
+        "B2B supplier platforms such as wlw (formerly Wer liefert was) for industrial and trade buyers",
+        "Business directories including Gelbe Seiten and Das Örtliche for local service searches",
+        "Review platforms such as Google reviews, ProvenExpert and Trustpilot",
+        "Kununu and similar employer review sites, which shape how candidates and sometimes customers see you",
+        "LinkedIn company and founder profiles, heavily used by Berlin's start-up and B2B scene"
+      ]
+    },
+    {
+      "h": "Local search across Berlin's districts",
+      "p": [
+        "Berlin is split into twelve districts and many neighbourhoods with strong identities, from Prenzlauer Berg to Neukölln. For clinics, studios, restaurants, law firms and other local businesses, the map results near a searcher decide most enquiries. We set up and maintain each Google Business Profile with correct categories, hours, photos and a steady review process.",
+        "We do not create dozens of thin pages that only swap the district name. Google treats those as doorway pages. Where you have a real location or a real customer base in a district, we write a page that says something specific about it."
+      ]
+    },
+    {
+      "h": "What we change first for industrial firms",
+      "p": [
+        "Mittelstand websites often hide their best content in PDF catalogues and data sheets that search engines and assistants read poorly. The products lead their niche, yet the site ranks for little beyond the company name. The first months of work with an SEO agency Berlin or Bavarian manufacturers hire should turn those PDFs into proper product and application pages, each answering what the product does, which industries use it and which standards it meets. That single change often does more than any amount of blog posts."
+      ]
+    },
+    {
+      "h": "Rules that affect SEO in Germany",
+      "p": [
+        "German law shapes some technical choices. Tracking needs consent, which reduces the data analytics tools see, so we combine consented analytics with Search Console data and server-side measurement where appropriate. Review gathering must follow platform rules and competition law: no buying reviews, no gating reviews to only happy customers. Comparative and superlative claims on service pages can attract warning letters from competitors if they cannot be backed up. We write accordingly."
+      ]
+    },
+    {
+      "h": "How we work",
+      "list": [
+        "Talk: 15 minutes on which searches and questions bring you customers, and which markets you sell in.",
+        "Plan: an audit of the site, listings and current presence in AI answers, with a ranked plan in 5 to 7 days.",
+        "Build: technical fixes, page work and listing cleanup in priority order, with dates in writing.",
+        "Grow: monthly content, outreach and reporting, adjusted as results come in."
+      ]
+    },
+    {
+      "h": "Remote, on Berlin's working hours",
+      "p": [
+        "We have no office in Berlin, and search work does not need one. Strategy sessions and monthly reviews run by video call, and Central European Time is one hour ahead of London, so we share your working day. Our work is delivered in English, and German content goes through localisation partners and your approval."
+      ]
+    },
+    {
+      "h": "Honest about results",
+      "p": [
+        "Nobody controls what an AI assistant says, and anyone promising a set number of mentions is guessing. We control the signals assistants read and report what changes. We have worked with more than 30 companies, and we do not name them here, but we will show you real reports on a call. Because our team also builds sites, a technical fix does not wait weeks for another supplier. If you are comparing any SEO agency, Berlin or elsewhere, ask to see their monthly report format before you sign."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you write German SEO content?",
+      "a": "Our work is delivered in English. German content is written or adapted by localisation partners and approved by your team, based on keyword research done in German. We check the final German pages for structure, internal links and technical setup."
+    },
+    {
+      "q": "Should we target Austria and Switzerland too?",
+      "a": "If you sell there, often yes. German-speaking markets share a language but differ in vocabulary, prices, legal details and sometimes spelling. We set up language and country signals so each version reaches the right audience."
+    },
+    {
+      "q": "How do businesses appear in ChatGPT answers in Germany?",
+      "a": "Assistants rely on crawlable pages and on what trusted sources say: directories, reviews, trade press and association lists. Firms described consistently everywhere, with clear answer-first pages in German and English, get named more often. We work on all of those signals."
+    },
+    {
+      "q": "What does an SEO agency in Berlin report each month?",
+      "a": "Rankings for priority searches, search traffic and enquiries, Google Business Profile performance and how often you appear in answers to a fixed set of buyer questions across ChatGPT, Claude, Gemini and Google AI Overviews, with what we did and what we will do next."
+    },
+    {
+      "q": "How long does SEO take in Germany?",
+      "a": "Technical fixes show once pages are recrawled. Rankings for competitive German searches and regular inclusion in AI answers take longer, often several months. We report progress monthly from the start."
+    },
+    {
+      "q": "Can you guarantee first place on Google?",
+      "a": "No, and you should be careful with anyone who does. We can promise a clear plan, honest reporting and steady work on the signals that matter."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/seo-geo",
+    "/insights/geo-vs-seo",
+    "/locations/berlin/web-development",
+    "/locations/berlin/paid-media",
+    "/services/content-marketing"
+  ],
+  "keywords": {
+    "primary": "seo agency berlin",
+    "secondary": [
+      "seo and geo agency berlin",
+      "seo agentur berlin",
+      "generative engine optimisation germany",
+      "local seo berlin",
+      "german seo"
+    ]
+  }
+}

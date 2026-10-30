@@ -1,0 +1,143 @@
+{
+  "path": "/locations/amsterdam/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence",
+  "title": "Business Intelligence Amsterdam: Power BI and Data | 22 Signals",
+  "description": "Business intelligence for Amsterdam firms: Power BI dashboards and data models built on Exact Online, AFAS, Shopify and Bol.com data, in euros.",
+  "eyebrow": "Business Intelligence in Amsterdam",
+  "h1": "Business intelligence for Amsterdam companies that report to more than one boss",
+  "intro": "We build business intelligence for Amsterdam companies that need one set of numbers everyone agrees on. That means Power BI dashboards, a clean data model and reliable feeds from Exact Online, AFAS, Shopify, Bol.com, your CRM and your bank. Local teams see their detail, the parent company sees the group view, and both come from the same source.",
+  "sections": [
+    {
+      "h": "Two audiences, one version of the truth",
+      "p": [
+        "A lot of Amsterdam businesses report in two directions. A European headquarters reports up to a parent in New York, Tokyo or Seoul in dollars or yen, under a fiscal calendar that may not match the Dutch one. At the same time, country managers in Germany, France and the Nordics want their own numbers in euros, every Monday, without waiting for finance.",
+        "When those reports are built in separate spreadsheets, the totals stop matching and every review meeting starts with an argument about whose figure is right. Good business intelligence fixes the plumbing, so the argument goes away and the meeting can be about decisions."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Data audit: which systems hold which numbers, who trusts them and where the gaps are",
+        "Data pipelines: scheduled loads from your ERP, CRM, web shop, marketplaces, ad platforms and bank feeds into one store",
+        "Data model: a single definition for revenue, margin, active customer and every other metric that causes debate",
+        "Power BI dashboards: group, country, team and product views, with row-level security so people only see what they should",
+        "Currency and calendar logic: euro reporting alongside parent currency, with the exchange rate rules your auditors expect",
+        "Training and handover: your team learns to read, edit and extend the reports"
+      ],
+      "p": [
+        "The business intelligence Amsterdam headquarters ask us for usually includes these parts:"
+      ]
+    },
+    {
+      "h": "Dutch systems we connect to",
+      "p": [
+        "The Netherlands has its own software habits. Exact Online, AFAS and Twinfield are common in finance teams. Retailers often sell through Bol.com as well as their own Shopify or Magento store. Payments may run through a Dutch payment provider with iDEAL as the main method. CRM is usually HubSpot, Salesforce or Microsoft Dynamics.",
+        "Most of these offer an API or a scheduled export, and we use whichever is more reliable for your setup. Where a system has no good connection, we say so early and suggest a practical workaround rather than promising a live feed that will break."
+      ]
+    },
+    {
+      "h": "Questions our dashboards tend to answer",
+      "list": [
+        "Which product lines make money after returns, marketplace fees and shipping?",
+        "How does Dutch revenue compare with Belgium and Germany this quarter, in euros and in parent currency?",
+        "Which customers are buying less than last year, and who owns each account?",
+        "How long do orders take from Schiphol or the warehouse to the customer, by carrier?",
+        "Which marketing channels bring customers who stay, not only customers who click?",
+        "Where is cash tied up in stock that has not moved for 90 days?"
+      ]
+    },
+    {
+      "h": "Data protection without slowing reporting down",
+      "p": [
+        "Most reporting does not need personal data at the row level, so we design models that aggregate or pseudonymise it where possible. That keeps reports useful and reduces the GDPR exposure the Autoriteit Persoonsgegevens expects you to manage. Where personal data is needed, for example in a sales team view, access is limited by role and logged.",
+        "We also check where your data is stored. Power BI and Microsoft Fabric can be set up in European regions, and we document those choices for your records. Legal questions about transfers to a parent outside the EU stay with your legal adviser; we make sure the technical setup matches their advice."
+      ]
+    },
+    {
+      "h": "Why BI projects stall, and how we avoid it",
+      "p": [
+        "Much of the business intelligence Amsterdam firms commission stalls for the same handful of reasons. None of them are about the dashboard software."
+      ],
+      "list": [
+        "Definitions never agreed: sales and finance each count revenue differently, so the dashboard is distrusted from week one. We settle definitions in writing before building.",
+        "Too much at once: forty reports scoped, none finished. We ship the most used view first and add from there.",
+        "No owner: nobody on the client side is responsible after launch. We name one during planning.",
+        "Fragile feeds: a manual export someone forgets on holiday. We automate loads and alert when one fails.",
+        "Reports nobody opens: built for the steering group, ignored by the people doing the work. We test every view with the people who will use it."
+      ]
+    },
+    {
+      "h": "How a BI project runs",
+      "p": [
+        "Talk is a 15-minute call where you describe the report you wish you had. Plan is a short discovery: we list sources, test access, agree definitions and send a written roadmap in 5 to 7 days. Build happens in stages, usually starting with the finance view because everything else depends on it. Each stage has a date in writing. Grow means monthly check-ins, new reports as questions change and fixes when a source system changes its export without warning."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE and managed more than $1.5M in projects. We will happily show you sample dashboards and data models on a call."
+      ]
+    },
+    {
+      "h": "Remote, in English, on Amsterdam hours",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. BI work suits remote delivery well, because most of it happens in your data platform and in short review calls. We are one hour behind Amsterdam time, so reviews fit the Dutch working day, and we travel when a workshop with finance and country leads is better in person. Reports and documentation are in English; Dutch labels can be added where local teams prefer them."
+      ]
+    },
+    {
+      "h": "Why pick 22 Signals for the work",
+      "p": [
+        "Because the people who build your dashboards also understand the systems feeding them, the cloud they run on and the marketing that drives the numbers. When a report shows a problem, we can usually help fix the cause too, whether that is a broken checkout, a badly set up ad account or an ERP export that drops rows."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you only work with Power BI?",
+      "a": "Power BI is what most Amsterdam companies already license through Microsoft 365, so we use it most. We also work with Looker Studio, Tableau and Microsoft Fabric where they fit better."
+    },
+    {
+      "q": "Can you connect to Exact Online and AFAS?",
+      "a": "Yes. Both offer APIs we can load from on a schedule. We test access and data quality during planning so there are no surprises later."
+    },
+    {
+      "q": "Can reports show euros and our parent company currency?",
+      "a": "Yes. We agree the exchange rate source and rules with your finance team, then build both views from the same data, so totals reconcile."
+    },
+    {
+      "q": "How long does a first dashboard take?",
+      "a": "You get a written roadmap 5 to 7 days after discovery starts. A first working finance or sales view usually follows within a few weeks, depending on source access. Dates are set in writing."
+    },
+    {
+      "q": "Can we see Bol.com and Shopify sales together?",
+      "a": "Yes. We combine marketplace and web shop data into one model, including fees and returns, so you see true margin by channel."
+    },
+    {
+      "q": "Who maintains the reports afterwards?",
+      "a": "Your choice. We train your team to run them, or we keep maintaining them as part of the Grow stage."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/amsterdam/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence amsterdam",
+    "secondary": [
+      "power bi consultant amsterdam",
+      "power bi netherlands",
+      "data analytics amsterdam",
+      "exact online power bi",
+      "bi consultancy netherlands"
+    ]
+  }
+}

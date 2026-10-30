@@ -1,0 +1,141 @@
+{
+  "path": "/locations/stockholm/seo-geo",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimisation",
+  "title": "SEO Agency Stockholm: Google and AI Answers | 22 Signals",
+  "description": "SEO and GEO for Stockholm companies: rank in Swedish and international Google results and get named in ChatGPT, Claude, Gemini and AI Overview answers.",
+  "eyebrow": "SEO and GEO in Stockholm",
+  "h1": "SEO and GEO for Stockholm companies selling in Sweden and abroad",
+  "intro": "We help Stockholm companies rank in Google and get named when buyers ask ChatGPT, Claude, Gemini or Google AI Overviews for a recommendation. For local firms that means Swedish-language search done properly. For exporters it means ranking in several countries and languages at once. Every month you get a plain English report on what moved and why.",
+  "sections": [
+    {
+      "h": "Two search problems, one city",
+      "p": [
+        "Stockholm companies tend to face one of two search problems. A clinic, law firm, restaurant group or property agent needs to win searches inside the city: Swedish phrases, neighbourhood names like Södermalm, Vasastan or Solna, and the local map results. An industrial exporter or SaaS company needs the opposite. Most of its buyers are abroad, searching in English, German or other languages, and Swedish search barely matters.",
+        "Many firms sit in both camps. A design brand sells to Swedes in Swedish and to the rest of the world in English. A good SEO agency, Stockholm based or not, should start by working out which searches actually bring revenue before writing a single page."
+      ]
+    },
+    {
+      "h": "Swedish-language search done properly",
+      "p": [
+        "Swedish has its own habits that affect search. Compound words are common, so buyers might type one long word or split it into two, and both versions need to be covered. The letters å, ä and ö matter: some users drop them, some type them, and your pages should read naturally either way. Keyword tools also show much lower volumes for Swedish terms than English ones, which makes it easy to dismiss a search that brings in valuable clients.",
+        "Local listings play a role too. Alongside Google Business Profile, Swedish searchers use directories such as Hitta.se and Eniro, and review sites such as Reco and Trustpilot. For e-commerce, price comparison sites like Prisjakt can send serious traffic. We check that your details are accurate and consistent across all of them.",
+        "We also look at intent. A Stockholm searcher typing a service plus 'pris' wants a price, while one adding 'bäst' wants a comparison. Pages that answer those signals directly tend to win both the click and the enquiry."
+      ]
+    },
+    {
+      "h": "What GEO adds for Swedish buyers",
+      "p": [
+        "Generative engine optimisation, or GEO, is the work of getting your company named and described correctly when someone asks an AI assistant for advice. Swedes are early adopters of new tools, and many now ask an assistant questions such as which Stockholm firms handle a certain type of project, or which suppliers make a certain machine.",
+        "Assistants rely on many of the same signals as Google: clear, crawlable pages, consistent facts about your company and what trusted sources say about you. We make sure key pages state the answer in the first lines, that your company description matches across the web, and that you are mentioned in the trade press, directories and lists your sector reads. Nobody controls what an assistant says, but those signals shape it."
+      ]
+    },
+    {
+      "h": "Exporters: ranking across the Nordics and beyond",
+      "p": [
+        "For a Stockholm exporter, the website often has to rank in Sweden, Norway, Denmark, Finland, Germany and English-speaking markets at once. That needs a clear site structure, correct hreflang tags, translated pages that are written for local searches rather than translated word for word, and links from respected sites in each market.",
+        "We plan each market separately, because search terms differ. The phrase a German engineer uses for a component is not a direct translation of the Swedish one. Native partners handle the copy in each language, and we handle the research, structure and technical set-up."
+      ]
+    },
+    {
+      "h": "Monthly work",
+      "list": [
+        "Tracking: rankings in each target market and a fixed set of buyer questions checked in ChatGPT, Claude, Gemini and Google AI Overviews",
+        "Technical SEO: crawl errors, speed, structured data, hreflang and indexing, fixed by people who also build websites",
+        "Local SEO: Google Business Profile, Hitta.se and Eniro listings, reviews and location pages with real detail",
+        "Content: answer-first service pages and guides written for the questions buyers actually ask",
+        "Mentions: outreach to trade press, industry directories and publications in each market",
+        "Reporting: a plain English summary of what moved, why, and what comes next"
+      ]
+    },
+    {
+      "h": "How we start: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the searches and questions that bring you clients.",
+        "Plan: an audit of your site, listings and current presence in AI answers, with a written plan in 5 to 7 days.",
+        "Build: technical fixes, page improvements and listing work, in order of impact, with dates in writing.",
+        "Grow: monthly content, outreach and reporting that compound over time."
+      ]
+    },
+    {
+      "h": "Remote, with a weekly rhythm",
+      "p": [
+        "We have no Stockholm office. SEO and GEO work is done remotely, with a short monthly review call and written updates in between. Stockholm is one hour ahead of London, so calls are easy to place. Reports are in English. If your leadership prefers Swedish summaries, partners can translate them."
+      ]
+    },
+    {
+      "h": "What we will not do",
+      "p": [
+        "We will not promise a number of AI mentions or a top ranking by a certain date, buy links, write fake reviews or publish dozens of near-identical suburb pages. Those shortcuts tend to backfire, and Swedish buyers are quick to spot thin content. We focus on the signals that last and report honestly, including in months when results dip."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of markets and languages",
+        "Competition for your main searches",
+        "Technical condition of the site",
+        "Volume of new content each month",
+        "Outreach and listing work",
+        "Whether development fixes are done by us or your team"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We fix what we find. Our team also builds websites, runs paid media and makes video, so a technical problem does not wait for another supplier, and content can include visuals that earn links. If you are comparing every SEO agency Stockholm has to offer, add one more: book a 15-minute call and we will show you how you appear in Google and in AI answers today."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you do SEO in Swedish?",
+      "a": "We do the research, structure and technical work ourselves and deliver in English. Swedish content is written by native partners and reviewed against the brief, so pages read naturally to Swedish searchers."
+    },
+    {
+      "q": "How do Stockholm companies show up in ChatGPT answers?",
+      "a": "Assistants lean on your website and on what other sources say about you: reviews, directories, trade press and lists. Firms described consistently, well reviewed and with clear pages answering buyer questions get named more often."
+    },
+    {
+      "q": "We sell mostly abroad. Is Swedish SEO worth it?",
+      "a": "Sometimes not. If most revenue comes from Germany or the US, we focus there first. Swedish search still helps with recruitment, local partners and brand searches, so we keep the Swedish pages in good order."
+    },
+    {
+      "q": "How long does SEO take?",
+      "a": "Technical fixes show once pages are recrawled. Ranking for competitive searches and appearing in AI answers takes longer and depends on the market. We report progress monthly from the start."
+    },
+    {
+      "q": "Can you guarantee a first-page ranking?",
+      "a": "No, and be wary of anyone who does. Nobody controls Google or what an assistant says. We control the work on the signals they rely on, and we show you the results honestly."
+    },
+    {
+      "q": "Do you handle Hitta.se and Eniro listings?",
+      "a": "Yes. We check and correct your company details there, alongside Google Business Profile and review sites, so the same facts appear everywhere buyers and assistants look."
+    },
+    {
+      "q": "What does the monthly report include?",
+      "a": "Rankings for priority searches in each market, organic traffic and enquiries, Google Business Profile results, and how often you appear in answers to a fixed set of buyer questions across ChatGPT, Claude, Gemini and Google AI Overviews. Each figure comes with what we did and what we plan next."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/seo-geo",
+    "/locations/stockholm/web-development",
+    "/locations/stockholm/paid-media",
+    "/insights/geo-vs-seo",
+    "/services/content-marketing"
+  ],
+  "keywords": {
+    "primary": "seo agency stockholm",
+    "secondary": [
+      "seo byrå stockholm",
+      "geo agency sweden",
+      "generative engine optimisation",
+      "international seo nordics"
+    ]
+  }
+}

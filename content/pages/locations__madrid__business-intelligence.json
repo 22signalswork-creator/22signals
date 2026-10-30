@@ -1,0 +1,147 @@
+{
+  "path": "/locations/madrid/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence in Madrid: Group Reporting | 22 Signals",
+  "description": "Business intelligence for Madrid groups: one set of numbers across Spain and Latin America, in Power BI, Looker Studio or Tableau, built on clean data.",
+  "eyebrow": "Business Intelligence in Madrid",
+  "h1": "Business intelligence in Madrid for groups that report across Spain and Latin America",
+  "intro": "We build reporting for Madrid companies that need one trusted set of numbers: sales, margin, cash and operations across Spanish regions and, often, Latin American subsidiaries. That means joining ERP, CRM and spreadsheet data, cleaning it, converting currencies properly and publishing dashboards in Power BI, Looker Studio or Tableau that managers open every morning.",
+  "sections": [
+    {
+      "h": "The month-end problem we keep seeing",
+      "p": [
+        "A typical Madrid group has a head office near the Castellana, operations across several Spanish regions and, quite often, a subsidiary or two in Mexico, Colombia, Peru or Chile. Each unit closes its books on its own ERP, sends a spreadsheet to head office, and a controller spends days stitching them together. By the time the board sees the figures, they are three weeks old and nobody quite agrees on the definitions.",
+        "Business intelligence fixes that by agreeing the definitions once, pulling data from the source systems automatically and showing the result in dashboards that refresh on their own. The value is less about charts and more about the time and arguments it saves."
+      ]
+    },
+    {
+      "h": "What a BI project with us includes",
+      "list": [
+        "Metric definitions: what counts as revenue, margin, an active customer or a late order, written down and approved",
+        "Data connections: ERP, CRM, e-commerce, ad platforms, HR and spreadsheets brought into one model",
+        "Data cleaning: duplicate customers merged, product codes mapped and missing values handled",
+        "Currency handling: euro reporting with local currency views and agreed exchange rate rules",
+        "Dashboards: board, finance, sales and operations views in Power BI, Looker Studio or Tableau",
+        "Access rules: each country, region or store manager sees their own numbers, head office sees everything",
+        "Training and handover: your team learns to read, change and extend the reports"
+      ]
+    },
+    {
+      "h": "Reporting across Spain and Latin America",
+      "p": [
+        "Groups with Latin American operations face problems a purely domestic company never sees. Results arrive in pesos, soles and other currencies that move sharply against the euro. Fiscal calendars and accounting rules differ by country. Product and customer codes rarely match between subsidiaries that were bought rather than built.",
+        "We set up a common data model with mapping tables for products, customers and accounts, and we agree whether the board sees figures at budget rates, monthly average rates or closing rates. Local managers can still view their results in their own currency. The point is that a figure means the same thing in Madrid as it does in Bogotá or Lima."
+      ]
+    },
+    {
+      "h": "Spanish data sources we work with",
+      "p": [
+        "Spanish companies run on a wide range of systems: SAP at the larger end, Microsoft Dynamics, Sage and Spanish accounting packages in the middle, and plenty of Excel everywhere. Larger companies already send VAT records to the Spanish tax agency almost in real time under the SII system, which means their invoice data is usually well structured and a good starting point for sales and margin reporting.",
+        "We also connect retail point-of-sale systems, hotel property management systems, CRM platforms, Google and Meta ad accounts, and field service tools. Where a system has no API, we agree a reliable export routine rather than relying on someone remembering to email a file."
+      ]
+    },
+    {
+      "h": "Dashboards people actually open",
+      "p": [
+        "A good dashboard answers the questions a manager asks on Monday morning, in the order they ask them. We build each view around a short list of decisions: which regions are behind plan, which products are losing margin, which customers have gone quiet, where cash is tied up. Labels can be shown in Spanish or English, number formats follow Spanish conventions, and every figure links back to the detail behind it.",
+        "We keep the first release small. It is better to have five reports that everyone trusts than forty that nobody opens."
+      ]
+    },
+    {
+      "h": "Reports Madrid sectors ask for",
+      "list": [
+        "Retail chains: sales per square metre by store, stock cover by size and colour, and the effect of the January and July sales on margin",
+        "Hotel groups: occupancy, average daily rate and revenue per room by property, compared with the same week last year",
+        "Construction and engineering firms: cost against budget by project, certified work and cash collection",
+        "Energy and utilities: consumption, billing and field service response times by region",
+        "Professional services: billable hours, write-offs and partner margin by office and client"
+      ]
+    },
+    {
+      "h": "Data protection in the reporting layer",
+      "p": [
+        "Reporting systems often hold more personal data than people expect: customer names, employee costs, contact histories. Under the GDPR and Spain's LOPDGDD, that data needs a purpose, access limits and a retention period. We design row-level security so people see only what their role needs, keep personal fields out of the reporting model where they add nothing, and host data in EU regions when that is the right call."
+      ]
+    },
+    {
+      "h": "How the work is organised",
+      "list": [
+        "Talk: a 15-minute call on the decisions your reports should support and the systems involved.",
+        "Plan: a data audit, agreed metric definitions and a written roadmap in 5 to 7 days.",
+        "Build: data engineers and BI developers build the model and dashboards, with dates in writing.",
+        "Grow: monthly checks on data quality and usage, plus new reports as the business asks for them."
+      ]
+    },
+    {
+      "h": "Remote work, Madrid hours",
+      "p": [
+        "We work remotely and have no office in Madrid. That suits BI well, since most of the work is in your data rather than your building. Madrid is one hour ahead of London, so workshops and reviews fit inside a normal Spanish working day. For definition workshops with several department heads, we can come to Madrid so the decisions get made in one session."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects, many involving data and reporting alongside AI, web and marketing work. We do not name clients publicly, but we can show relevant examples on a call. If your data is not ready for dashboards, we will say so and fix the foundation first."
+      ]
+    },
+    {
+      "h": "Cost drivers",
+      "list": [
+        "Number of source systems and how clean they are",
+        "Number of countries, currencies and legal entities",
+        "How many dashboards and user groups are needed",
+        "Refresh frequency and data volume",
+        "Licences for Power BI, Tableau or cloud data storage, paid by you directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which tool is best for business intelligence in Madrid companies?",
+      "a": "Power BI is the most common choice for firms already on Microsoft 365. Looker Studio suits companies on Google Workspace and Google Ads. Tableau is strong in larger groups with established data teams. We recommend based on your systems and licences, not a preference of ours."
+    },
+    {
+      "q": "Can you combine euro and Latin American currency results?",
+      "a": "Yes. We agree exchange rate rules with your finance team, store rates centrally and show board figures in euros while local managers see their own currency. Every conversion is traceable."
+    },
+    {
+      "q": "Can you connect to SAP?",
+      "a": "Yes, through standard connectors or a data warehouse layer, depending on your SAP version and licences. We also connect Dynamics, Sage, Spanish accounting packages and spreadsheets."
+    },
+    {
+      "q": "Are dashboards available in Spanish?",
+      "a": "Yes. Labels, number formats and dates can follow Spanish conventions. Our team delivers documentation in English, and Spanish training material can be localised with partners if needed."
+    },
+    {
+      "q": "How long does a first BI release take?",
+      "a": "Planning takes 5 to 7 days. A first release covering the main finance and sales reports usually follows within weeks, depending on how quickly we get system access. Dates are agreed in writing."
+    },
+    {
+      "q": "Can we maintain the reports ourselves afterwards?",
+      "a": "Yes. We document the model, train your team and keep the design simple enough to extend. Many clients keep us on for support and new reports, but that is optional."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/madrid/cloud-consulting",
+    "/locations/madrid/ai-consulting"
+  ],
+  "keywords": {
+    "primary": "business intelligence in madrid",
+    "secondary": [
+      "power bi consulting madrid",
+      "data analytics madrid",
+      "bi consultants spain",
+      "group reporting spain latin america",
+      "dashboard development madrid"
+    ]
+  }
+}

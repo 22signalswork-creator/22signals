@@ -1,8 +1,13 @@
 /* global.css */
-html,
-body {
+/* The document (window) is the scroller. Body must not have a fixed height
+   plus overflow, or it becomes its own scroll box and scroll-driven
+   animations (which listen to the window) never update. */
+html {
   scroll-behavior: smooth;
   height: 100%;
+}
+body {
+  min-height: 100%;
 }
 
 :root {
@@ -324,7 +329,7 @@ h3 {
 html {
   max-width: 1928px;
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 
@@ -336,7 +341,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
+  overflow-x: clip;
   font-family: 'Aeonik-regular', sans-serif;
   font-weight: lighter;
   font-style: Regular;
@@ -943,8 +948,8 @@ h1.team-title {
   background-clip: text;
   display: block;
 }
-@media (max-width: 1024px) { h1.team-title { font-size: 30px; padding: 19px 0; } }
-@media (max-width: 640px) { h1.team-title { font-size: 26px; line-height: 1.18; } }
+@media (max-width: 1024px) { h1.team-title { font-size: 44px; padding: 12px 0; } }
+@media (max-width: 640px) { h1.team-title { font-size: 36px; line-height: 1.1; } }
 
 /* Team/About value cards: titles are h3 (one h1 per page), styled like the original h1 cards */
 h3.teamcard-title {
@@ -1150,3 +1155,16 @@ h3.teamcard-title {
 .legal-body th, .legal-body td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(10,21,48,0.1); color: rgba(10,21,48,0.75); }
 .legal-link { color: rgba(10, 21, 48, 0.6) !important; text-decoration: none !important; }
 .legal-link:hover { color: #325fec !important; }
+.wwd-pills { display: flex; gap: 8px; overflow-x: auto; padding: 0 20px 4px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.wwd-pills::-webkit-scrollbar { display: none; }
+.wwd-pill { flex: 0 0 auto; scroll-snap-align: center; padding: 10px 16px; min-height: 44px; border-radius: 999px; font-size: 14px; color: rgba(255,255,255,0.7); background: rgba(255,255,255,0.04); border: 1px solid rgba(147,184,255,0.25); white-space: nowrap; }
+.wwd-pill.is-on { color: #fff; background: #325FEC; border-color: #325FEC; }
+.wwd-fade { animation: wwd-in .35s ease both; }
+/* Phones: slider dots instead of side arrows that cover the cards */
+@media (max-width: 767px) {
+  .featured-slider .slick-dots { position: static; margin-top: 14px; }
+  .featured-slider .slick-dots li button:before { color: #93b8ff; }
+}
+@media (max-width: 767px) {
+  .featured-slider .slick-arrow, .featured-slider .slick-prev, .featured-slider .slick-next { display: none !important; }
+}

@@ -1,0 +1,142 @@
+{
+  "path": "/locations/madrid/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "ai-consulting",
+  "serviceType": "AI consultancy",
+  "title": "AI Consulting in Madrid: Plans for the EU AI Act | 22 Signals",
+  "description": "AI consulting for Madrid companies: choose the AI uses worth funding, plan them under the GDPR and the EU AI Act, then build a pilot your team will use.",
+  "eyebrow": "AI Consulting in Madrid",
+  "h1": "AI consulting in Madrid that ends with a working system, not a slide deck",
+  "intro": "We help Madrid companies decide where AI will pay off, set rules that fit the GDPR and the EU AI Act, and build the first system so it is used every day. The work suits established firms in banking, telecoms, energy, construction, retail and tourism, and founders who need a clear AI plan before they raise or hire.",
+  "sections": [
+    {
+      "h": "The question Madrid boards are asking",
+      "p": [
+        "Ask a management committee in Madrid about AI and you tend to hear the same story. There are a dozen trials running. Customer service is testing a chatbot. Finance has a forecasting proof of concept. Someone in legal is summarising contracts with a public tool, and the data protection officer is uneasy about it. Nobody can say which of these deserves a real budget next year.",
+        "That is the point where AI consulting earns its place. The job is not to add more trials. It is to pick the two or three uses that will move a number the business already tracks, such as response times, cost per order or days to close a month, and to stop the rest politely. Our AI consulting in Madrid starts with that shortlist and ends with one of those uses built and running."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Readiness review: your data, systems, skills and risk appetite, written up in plain language",
+        "Use-case shortlist: ideas from every department, scored for value, effort and risk",
+        "Rules of use: which tools staff may use, what data may go into them, and who approves new uses",
+        "EU AI Act check: where each planned use sits under the Act and what that means for documentation",
+        "Vendor choice: when to buy a licensed product, when to build on a model API, and when to wait",
+        "Roadmap: owners, budgets and dates for the next 6 to 12 months",
+        "Pilot build: the first use case built, tested with real users and measured"
+      ]
+    },
+    {
+      "h": "The EU AI Act, in plain terms",
+      "p": [
+        "The EU AI Act entered into force in 2024 and its obligations phase in over several years. It sorts AI uses by risk. A few practices are banned outright. Some uses, for example in hiring, credit scoring or access to essential services, count as high risk and carry heavier duties on data quality, human oversight and record keeping. Many everyday uses, such as drafting emails or summarising documents, carry lighter duties, often about telling people when they are dealing with AI.",
+        "For a Madrid bank, insurer or utility, that sorting matters early, because it changes what you build and how you document it. Spain has also set up a national AI supervisory agency, AESIA. We map each planned use against the Act in general terms, flag the ones that need legal review, and design logging and human checks into the build. Your lawyers give the final view; we make sure they get the right questions in time."
+      ]
+    },
+    {
+      "h": "Spanish-language data changes the plan",
+      "p": [
+        "Most of what a Madrid company knows lives in Spanish: contracts, call notes, customer emails, tenders, technical reports. Large language models handle Spanish well, but quality still varies with regional vocabulary, legal terms and abbreviations used inside one company. A model that reads Mexican customer emails well may stumble on internal Spanish engineering shorthand.",
+        "So we test with your own documents before recommending a tool, and we measure accuracy on Spanish material rather than on English examples from a vendor demo. Our consultants deliver their work in English. If your teams need Spanish training material or user guides, we arrange localisation with partners or work with your internal communications team."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay off in Madrid sectors",
+      "list": [
+        "Banking and insurance: first drafts of customer replies, document checks on applications, and summaries of long case files for review by staff",
+        "Telecoms: sorting service tickets by cause, suggesting fixes to agents and spotting customers likely to leave",
+        "Energy and utilities: reading meter and field reports, answering billing questions and preparing regulatory filings",
+        "Construction and infrastructure: searching past tenders, checking bids against specifications and summarising site reports",
+        "Retail: product descriptions in several languages, demand forecasts by store and faster handling of returns",
+        "Tourism and hotels: guest messages answered in several languages, reviews grouped by theme and revenue reports written each morning"
+      ]
+    },
+    {
+      "h": "Fitting into large-company procurement",
+      "p": [
+        "Many of our likely clients in Madrid are large groups with formal supplier onboarding. That usually means security questionnaires, data processing agreements, proof of insurance and a review by the information security team before anyone sees real data. We expect that process and plan the first weeks around it, using sample or masked data until approvals arrive.",
+        "Mid-sized firms and startups move faster. For them we often compress the readiness review and use-case work into the 5 to 7 day planning stage, then start the pilot straight away."
+      ]
+    },
+    {
+      "h": "How we run it: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the decisions you need to make and the deadline behind them.",
+        "Plan: interviews, a data and systems review, and a written roadmap within 5 to 7 days.",
+        "Build: specialist teams build the pilot, with milestones and dates in writing.",
+        "Grow: we measure the pilot against the target agreed at the start, then plan the next use case."
+      ]
+    },
+    {
+      "h": "Remote by default, in the room when it counts",
+      "p": [
+        "We have no office in Madrid. Interviews, data reviews and build work run remotely, and Madrid is only one hour ahead of London, so the whole working day overlaps. For the workshops where leaders choose between options, we can travel to Madrid so the decision happens with everyone present. We put any travel into the scope up front."
+      ]
+    },
+    {
+      "h": "Proof and limits",
+      "p": [
+        "We have delivered more than 30 AI builds: custom tools, automations and assistants that replaced manual work. We do not name clients, but we will walk you through relevant examples on a call. We will not promise a percentage saving before we have seen your processes, and we will tell you when the right answer is not to use AI at all."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "How many departments and use cases are in scope",
+        "The state of your data and how hard it is to reach",
+        "Security and procurement requirements in your group",
+        "Whether a pilot build is included, and how complex it is",
+        "Licence and model usage fees, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting in Madrid usually include?",
+      "a": "A review of your data and systems, a ranked list of AI uses, rules for staff, an EU AI Act check, a roadmap with owners and dates, and usually one pilot built and measured. We aim to finish with something your team uses, not only a report."
+    },
+    {
+      "q": "Do we need to comply with the EU AI Act already?",
+      "a": "The Act has been in force since 2024 and its obligations apply in stages. Some already apply, others arrive later. Which ones matter to you depends on how you use AI. We map your planned uses in general terms and your legal adviser confirms the position."
+    },
+    {
+      "q": "Can you work with our Spanish documents?",
+      "a": "Yes. We test models on your own Spanish material before recommending one, because accuracy on internal language and legal terms varies. Our team delivers in English, and Spanish user material can be localised with partners if needed."
+    },
+    {
+      "q": "How long does an AI consulting project take?",
+      "a": "Planning takes 5 to 7 days for most mid-sized firms. Large groups may need longer because of security reviews and supplier onboarding. A pilot typically follows over several weeks, with dates agreed in writing."
+    },
+    {
+      "q": "Will our data be used to train public AI models?",
+      "a": "Not if we set it up. We use business accounts and API settings that keep your data out of model training, store it in the EU where needed and limit who can see it. We document those settings for your data protection officer."
+    },
+    {
+      "q": "Do you only advise, or do you also build?",
+      "a": "Both. The same team that writes the plan builds the first system, which keeps the advice realistic. If you prefer your own developers to build, we can hand over a detailed design instead."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/ai-consulting",
+    "/locations/madrid/ai-automation",
+    "/locations/madrid/business-intelligence",
+    "/services/custom-ai-development",
+    "/insights/how-to-choose-an-ai-consulting-firm"
+  ],
+  "keywords": {
+    "primary": "ai consulting in madrid",
+    "secondary": [
+      "ai consultancy madrid",
+      "eu ai act consulting spain",
+      "ai strategy madrid",
+      "ai consultants spain",
+      "generative ai consulting madrid"
+    ]
+  }
+}

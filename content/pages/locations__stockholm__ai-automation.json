@@ -1,0 +1,137 @@
+{
+  "path": "/locations/stockholm/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Stockholm: Less Admin, Same Team | 22 Signals",
+  "description": "AI automation for Stockholm firms: invoice handling, CRM updates, support triage and reporting built around Fortnox, Visma, Peppol and the tools you use.",
+  "eyebrow": "AI Automation in Stockholm",
+  "h1": "AI automation for Stockholm teams with too much admin and too few hands",
+  "intro": "We build AI automation that takes repeated admin off Stockholm teams: reading invoices, updating the CRM, sorting support emails, preparing reports and moving data between systems. Each tool is built around the software you already run, tested on your real cases and handed over with clear ownership. Work is delivered remotely, in English, one hour behind CET.",
+  "sections": [
+    {
+      "h": "Why automation pays quickly in Sweden",
+      "p": [
+        "Hiring in Stockholm is expensive. Salaries are high, employer social charges add a large share on top, and experienced staff are hard to find in finance, operations and customer support. Every hour a skilled controller spends retyping supplier invoices or a sales rep spends logging calls is an hour of costly time spent on work a machine can handle.",
+        "At the same time, Swedish businesses already run on digital rails. E-invoicing is standard with the public sector, cloud accounting is common, identity is verified with BankID and payments go through Swish or bank transfer. The data is usually digital from the start. That makes AI automation in Stockholm less about digitising paper and more about joining up systems that already exist."
+      ]
+    },
+    {
+      "h": "The AI automation Stockholm clients ask for most often",
+      "list": [
+        "Supplier invoices: read PDFs and e-invoices, match them to purchase orders, code them and queue exceptions for a human",
+        "Customer emails: classify incoming messages, draft replies from your knowledge base and route urgent cases to the right person",
+        "CRM hygiene: log meetings, update deal stages and enrich company records with data from public registers",
+        "Order and delivery updates: pull status from carriers and warehouse systems and tell customers before they ask",
+        "Monthly reporting: gather figures from accounting, CRM and ad platforms into a draft report for review",
+        "HR admin: answer common policy questions and prepare onboarding checklists, with personal data handled carefully",
+        "Document checks: compare contracts, tenders or certificates against a checklist and flag gaps"
+      ]
+    },
+    {
+      "h": "Built around the Swedish software stack",
+      "p": [
+        "Many Stockholm companies run accounting in Fortnox or Visma, sales in HubSpot or Salesforce, support in Zendesk or Freshdesk, and internal chat in Slack or Microsoft Teams. Larger groups add SAP, Microsoft Dynamics or IFS. We connect to these through their official APIs where they exist, and through secure exports where they do not.",
+        "For finance flows we work with the formats Swedish teams already use, such as Peppol e-invoices and SIE files for moving accounting data. For customer-facing steps, we design around familiar habits like BankID sign-in and Swish payments rather than inventing new ones. The aim is that your staff notice less admin, not a new system to learn. If a tool needs a new screen at all, we keep it inside the apps people already open each morning, such as Teams, Slack or the CRM."
+      ]
+    },
+    {
+      "h": "Humans stay in charge of the decisions",
+      "p": [
+        "Good automation does the routine part and stops at the judgement call. An AI can read an invoice and propose the cost centre. A person approves anything above a threshold or anything unusual. An AI can draft a reply to a complaint. A person sends it until the drafts have proved reliable.",
+        "We set those boundaries with you before building. Every tool logs what it did and why, so a controller or auditor can trace any decision. Where personal data is involved, we design under the GDPR, keep processing inside the EU where possible and limit what the model can see. For tools that touch hiring or other sensitive areas, we check the use against the EU AI Act early and involve your legal adviser."
+      ]
+    },
+    {
+      "h": "Getting staff on board",
+      "p": [
+        "In a flat Swedish workplace, an automation that arrives without warning tends to meet quiet resistance. We start by sitting with the people who do the work today, mapping each step and asking what annoys them. Their answers usually point to the best first project.",
+        "We then show a working version early, collect feedback and adjust. People are far more willing to trust a tool they helped shape. Where the change affects job roles, we leave room for your normal consultation with staff representatives."
+      ]
+    },
+    {
+      "h": "Our method: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the process that eats the most time.",
+        "Plan: process mapping, a baseline of time and errors, and a written automation plan within 5 to 7 days.",
+        "Build: specialist engineers build and test the automation on your real cases, with delivery dates in writing.",
+        "Grow: we track hours saved and error rates, tune the tool and pick the next process."
+      ]
+    },
+    {
+      "h": "What we have built before",
+      "p": [
+        "We have delivered more than 30 AI builds across more than 30 companies, ranging from internal assistants to multi-step workflows that pass work between systems and people. The lesson that carries over to every AI automation Stockholm project we take on: measure the process before you touch it, so the saving is a number rather than a feeling."
+      ]
+    },
+    {
+      "h": "How remote delivery works",
+      "p": [
+        "We have no Stockholm office, and automation rarely needs one. We work through screen-share sessions with your team, a test environment and a weekly written update. Stockholm is one hour ahead of London, so the working day lines up almost entirely. When a project benefits from a day of on-site process mapping, we travel.",
+        "Documentation and training are in English. If staff need guides in Swedish, we can arrange translation through partners."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "How many systems the automation connects and whether they have usable APIs",
+        "Volume and variety of cases, such as how many invoice layouts or email types",
+        "How much human review the process needs",
+        "Hosting and model usage, which you pay to the provider",
+        "Whether you want us to run and maintain the automation after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We are not a software reseller. We pick the tool that fits, build what is missing, and stay to keep it working. Because the same team handles data, cloud and dashboards, the hours saved show up in a report your finance director can check. Book a 15-minute call and bring the process your team complains about most."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you connect automation to Fortnox or Visma?",
+      "a": "Yes, through their official integrations where available. We check what your subscription allows first, because some API access depends on the plan. For older systems without an API, we use scheduled exports and imports instead."
+    },
+    {
+      "q": "What is the first process we should automate?",
+      "a": "Usually the one with high volume, clear rules and annoyed staff: supplier invoices, support email sorting or CRM updates are common starting points. We measure a few candidates during planning and recommend the one with the clearest return."
+    },
+    {
+      "q": "Is AI automation safe under the GDPR?",
+      "a": "It can be, if it is designed for it. We minimise the personal data the model sees, keep processing in the EU where possible, log every action and agree retention periods. Your privacy lead approves the design before anything goes live."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "In our work it mostly removes the tasks people dislike, so skilled staff spend time on judgement and customers. Any change to roles is your decision, and we leave room for normal consultation with staff representatives."
+    },
+    {
+      "q": "What happens when the AI gets something wrong?",
+      "a": "It flags uncertainty and passes the case to a person. We set confidence thresholds, keep a full log and review errors weekly in the early months, adjusting the tool until it meets the accuracy you agreed."
+    },
+    {
+      "q": "Do you support the tool after launch?",
+      "a": "If you want us to. Many clients keep us on to monitor, update prompts and models, and add new processes. Others take it in-house with our documentation and a handover session."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/ai-automation",
+    "/locations/stockholm/ai-consulting",
+    "/locations/stockholm/business-intelligence",
+    "/services/custom-ai-development",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation stockholm",
+    "secondary": [
+      "process automation sweden",
+      "invoice automation fortnox",
+      "ai automatisering stockholm",
+      "workflow automation stockholm"
+    ]
+  }
+}

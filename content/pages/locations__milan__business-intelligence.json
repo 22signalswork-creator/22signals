@@ -1,0 +1,144 @@
+{
+  "path": "/locations/milan/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence in Milan: Power BI and Data | 22 Signals",
+  "description": "Business intelligence in Milan for groups with plants, shops and agents abroad: Power BI, Looker Studio or Tableau dashboards built on one set of figures.",
+  "eyebrow": "Business Intelligence in Milan",
+  "h1": "Business intelligence in Milan: one set of numbers the whole family trusts",
+  "intro": "We build business intelligence for Milan companies whose figures live in too many places: the ERP, the e-commerce platform, agents' spreadsheets and the accountant's files. We connect the sources, agree the definitions with you, and deliver dashboards in Power BI, Looker Studio or Tableau that owners, managers and the bank can all read the same way.",
+  "sections": [
+    {
+      "h": "The Monday meeting problem",
+      "p": [
+        "In many Lombardy companies the week starts with a meeting where three people bring three versions of the sales figure. Finance has the invoiced number from the ERP. Sales has orders from the agents' spreadsheets. E-commerce has its own report from Shopify or Magento. Everyone is right by their own definition, and an hour goes on reconciling instead of deciding.",
+        "Good business intelligence in Milan firms fixes that first. Before we draw a single chart, we agree what a sale is, when it counts, which currency it is reported in and who owns each figure. Then we build the pipeline so the numbers arrive the same way every day."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Data connections to your ERP, CRM, e-commerce, marketing and accounting systems",
+        "A clean data model with agreed definitions for orders, revenue, margin, stock and returns",
+        "Dashboards for owners and the board, with the few figures that matter on one screen",
+        "Working reports for sales, production, purchasing and customer service",
+        "Agent and market views, so each country manager sees their own territory",
+        "Alerts when a figure moves outside its normal range",
+        "Training and written guides so your team can change reports themselves"
+      ]
+    },
+    {
+      "h": "What Milan businesses want to see",
+      "p": [
+        "The questions change by sector, and they are rarely about vanity metrics."
+      ],
+      "list": [
+        "Fashion and luxury: sell-through by collection, store and wholesale account, and how much of the season's stock is left before the sales period",
+        "Furniture and design: order book by dealer and country, lead times by finish, and the effect of Salone del Mobile on enquiries and orders",
+        "Manufacturers: margin by product family and customer, machine utilisation, and orders that are late against the promised date",
+        "Distributors: stock rotation by warehouse, slow movers and the cost of carrying them",
+        "Financial and professional firms: billable hours, collections and pipeline by partner or team",
+        "Retail groups with shops in Milan and online: footfall, conversion and basket value side by side"
+      ]
+    },
+    {
+      "h": "Exporters, currencies and seasonality",
+      "p": [
+        "Most Milan companies we speak to earn a large share of revenue abroad. That brings its own reporting needs. Sales in dollars, pounds or Swiss francs need converting consistently, using a rate everyone has agreed. Agents on commission need figures that match their statements. Seasonal businesses need comparisons with the same week last year, not the previous month.",
+        "We build those rules into the model once, so they do not have to be argued about in every meeting. The board sees results in euro, country managers see local currency where it helps, and the method is written down."
+      ]
+    },
+    {
+      "h": "Data rules and where the data sits",
+      "p": [
+        "Customer and staff data in a dashboard is still personal data under the GDPR. We keep personal detail out of reports that do not need it, set access by role so each person sees only what they should, and host the data in EU regions. The Garante has issued guidance on employee monitoring, so dashboards that track individual staff need particular care and a conversation with your adviser before they go live."
+      ]
+    },
+    {
+      "h": "From spreadsheet to dashboard: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the decisions you want better numbers for.",
+        "Plan: a review of your sources and a written roadmap with definitions, owners and dates in 5 to 7 days.",
+        "Build: data engineers and analysts build the pipeline and dashboards, with each delivery date in writing.",
+        "Grow: we add sources and reports as needs change, and check the figures keep matching the books."
+      ]
+    },
+    {
+      "h": "Reporting for the bank, the board and the next generation",
+      "p": [
+        "Italian banks still play a large part in funding family companies, and they increasingly ask for regular, reliable figures: cash flow forecasts, order books and margin trends. A dashboard that produces those figures on demand saves the finance team days at every review, and it makes the company look as well run as it is.",
+        "There is often a second audience too. When a son or daughter joins the business after working abroad, they usually want to see the numbers properly before changing anything. A good model gives them that view without asking the people who built the company to change how they work overnight. Old reports can keep running alongside the new ones until everyone is comfortable switching."
+      ]
+    },
+    {
+      "h": "Choosing a tool",
+      "p": [
+        "Power BI suits most Milan companies already on Microsoft 365, which is a large share of them. Looker Studio is a good fit when marketing and e-commerce data sit in Google's tools. Tableau makes sense for larger groups with analysts who already know it. We recommend one based on your licences, your team and what you want to do next, and we explain the running costs before you commit."
+      ]
+    },
+    {
+      "h": "How we deliver for a Milan client",
+      "p": [
+        "We do not have an office in Milan, and dashboard projects rarely need one. Workshops run over video during the Italian working day, which overlaps almost completely with ours because Milan is one hour ahead of London. We visit when it helps, for example to meet the finance team before the first board pack or to see how the warehouse records stock.",
+        "Our work is delivered in English. Dashboards can carry Italian labels and number formats, with commas for decimals and dates the way your team reads them, and we arrange native review where reports go to Italian-speaking staff."
+      ]
+    },
+    {
+      "h": "What decides the cost",
+      "list": [
+        "Number of data sources and how clean they are",
+        "How many dashboards and user groups you need",
+        "Whether historic data must be cleaned and loaded",
+        "Licence choice, paid directly to the vendor",
+        "Ongoing support and changes after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does business intelligence in Milan cost?",
+      "a": "It depends mainly on the number of sources and dashboards. We price after reviewing your systems and set every cost out in the written plan. Software licences are paid directly to Microsoft, Google or Salesforce for Tableau."
+    },
+    {
+      "q": "Can you connect to our Italian ERP?",
+      "a": "In most cases, yes. We connect through the database, an interface or scheduled exports, depending on the system and what your IT supplier allows. We test on a copy before using live data."
+    },
+    {
+      "q": "Can dashboards be in Italian?",
+      "a": "Yes. Labels, number formats and date formats can follow Italian conventions. Our team works in English, and we arrange native Italian review with partners when needed."
+    },
+    {
+      "q": "How do you keep figures matching the accounts?",
+      "a": "We agree definitions in writing first, then reconcile the dashboard with your accounts every month for the first few months. Any gap is explained and fixed at the source."
+    },
+    {
+      "q": "Is Power BI the right choice for us?",
+      "a": "Often, if you already use Microsoft 365. It is not the only option. We compare Power BI, Looker Studio and Tableau against your licences, skills and plans before recommending one."
+    },
+    {
+      "q": "Who maintains the dashboards after launch?",
+      "a": "Your choice. We train your staff and hand over written guides, or we keep supporting the reports and data pipeline on an agreed monthly basis."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/insights/power-bi-consulting-cost",
+    "/locations/milan/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "business intelligence in milan",
+    "secondary": [
+      "business intelligence milano",
+      "power bi consulting italy",
+      "data analytics milan",
+      "dashboard reporting italy"
+    ]
+  }
+}

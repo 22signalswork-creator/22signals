@@ -40,7 +40,7 @@ const organization = {
   disambiguatingDescription: "Not affiliated with 2Signals of Tampa, Florida.",
   founder: { "@id": PERSON_ID },
   address: { "@type": "PostalAddress", addressLocality: "London", addressCountry: "GB" },
-  areaServed: ["US", "GB", "AE"],
+  areaServed: ["US", "GB", "Europe", "AE"],
   email: SITE.email,
   telephone: SITE.phone,
   sameAs: [
@@ -110,7 +110,7 @@ function schemaFor(page) {
       serviceType: page.serviceType,
       description: page.intro,
       provider: { "@id": ORG_ID },
-      areaServed: ["US", "GB", "AE"],
+      areaServed: ["US", "GB", "Europe", "AE"],
       url: abs(page.path),
     });
   }

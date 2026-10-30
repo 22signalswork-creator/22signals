@@ -1,0 +1,128 @@
+{
+  "path": "/locations/dublin/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "PPC Agency Dublin: Google, Meta, LinkedIn, TikTok | 22 Signals",
+  "description": "PPC agency Dublin firms hire for Google, Meta, LinkedIn and TikTok campaigns sized for the Irish market, tracked to real leads and sales, not clicks.",
+  "eyebrow": "Paid Media in Dublin",
+  "h1": "The PPC agency Dublin teams use to turn ad spend into enquiries",
+  "intro": "22 Signals is a PPC agency for Dublin and Irish businesses running Google, Meta, LinkedIn and TikTok ads. We plan campaigns for the size of the Irish market, set up tracking that respects consent rules, write and test the ads, and report spend against the leads and sales it produced, so you can see what each euro is doing.",
+  "sections": [
+    {
+      "h": "A small market changes how ads behave",
+      "p": [
+        "Ireland has a population of around five million, and Dublin and its commuter belt account for a large share of it. That is a healthy market, but it is small next to Britain or the US, and it behaves differently. Audiences on Meta and TikTok tire of the same ad quickly. Search volumes for niche B2B terms can be tiny. Cost per click on legal, financial and insurance searches can be high, because many firms chase the same few thousand buyers.",
+        "Campaigns built from UK or US playbooks often waste money here. They target broad audiences that are too thin, run one creative for months, or bid on generic phrases that pull in visitors from the wrong country. We plan around Irish realities from the start: tighter geography, more creative variety, and a hard focus on search terms with real buying intent."
+      ]
+    },
+    {
+      "h": "What we run",
+      "list": [
+        "Google Ads: search, Performance Max, shopping and YouTube, with negative keyword lists built for Irish searches.",
+        "Meta: Facebook and Instagram campaigns with frequent creative rotation to avoid fatigue.",
+        "LinkedIn: B2B campaigns aimed at job titles, industries and company lists, useful when your buyers work in Dublin's financial and tech headquarters.",
+        "TikTok: short video campaigns for consumer brands and recruitment.",
+        "Retargeting across platforms, with frequency caps so people are not followed for weeks.",
+        "Landing pages built and tested by the same team that runs the ads.",
+        "Monthly creative refreshes planned in advance, so new ads are ready before performance starts to fall."
+      ]
+    },
+    {
+      "h": "Ireland, Northern Ireland or the whole island",
+      "p": [
+        "One question comes up in almost every Irish account: what does 'Ireland' mean for this business? Northern Ireland is part of the UK, uses sterling and has different delivery, tax and sometimes regulatory terms. Some Dublin businesses want all-island campaigns; others need to exclude Northern Ireland entirely; others need separate campaigns with sterling pricing and their own landing pages.",
+        "We settle this in the plan, set up location targeting by presence rather than interest where it matters, and build reporting that separates the two markets so you can see where results come from."
+      ]
+    },
+    {
+      "h": "Tracking that holds up under EU consent rules",
+      "p": [
+        "Under the GDPR and the ePrivacy rules, most ad tracking depends on consent. Ireland's Data Protection Commission expects cookie banners to offer a genuine choice, so a share of visitors will always decline. That makes careful setup more important, not less.",
+        "We configure Google Consent Mode, server-side tagging where it makes sense, offline conversion imports from your CRM, and enhanced conversions where the platforms allow it within your consent settings. The aim is a reliable picture of which campaigns produce leads and sales, built in a way your DPO can review."
+      ]
+    },
+    {
+      "h": "Advertising rules we respect",
+      "list": [
+        "The Advertising Standards Authority for Ireland code on truthful, fair advertising and clear identification of ads.",
+        "Law Society of Ireland rules on solicitor advertising, which limit how personal injuries services can be promoted.",
+        "Restrictions on promoting prescription-only medicines to the public, which matter for clinics and pharma brands.",
+        "Central Bank expectations on financial promotions for regulated products.",
+        "Alcohol advertising restrictions under Irish public health law, which affect hospitality and drinks brands.",
+        "Platform policies, which are often stricter than the law for finance, health and gambling."
+      ]
+    },
+    {
+      "h": "The Irish calendar",
+      "p": [
+        "Irish demand has its own rhythm. January brings gym, finance and career searches. St Patrick's Day lifts hospitality and tourism. Spring and early summer are busy for home improvement and property. The Leaving Cert and CAO season shapes education advertising. Black Friday and the run to Christmas dominate retail, and Irish bank holidays shift booking patterns for clinics and services. We plan budgets and creative around these peaks rather than spreading spend evenly across the year."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk is a 15-minute call about your goals, margins and current results. Plan is an audit of your accounts, tracking and landing pages, delivered as a written roadmap within 5 to 7 days. Build is the new account structure, tracking, creative and landing pages, launched on dates agreed in writing. Grow is weekly optimisation and a monthly report showing spend, leads, sales and cost per result, with what we will change next.",
+        "Ireland shares London's time zone, so we can react to a campaign problem the same morning. We work remotely and come to Dublin for planning sessions when that is useful."
+      ]
+    },
+    {
+      "h": "Creative from the same team",
+      "p": [
+        "Paid social lives or dies on creative, and Irish audiences tire of ads quickly. Our team also produces video, motion graphics, AI video, animation and 3D, so new ad variations do not wait on another supplier. We test hooks, formats and offers in small batches, keep what works and retire what does not. Ads are written in Irish and British English; where you need other European languages, we arrange translation through partners."
+      ]
+    },
+    {
+      "h": "Proof and pricing",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects across marketing and technology. Fees depend on the number of platforms, markets and campaigns, how much creative is needed, and whether landing pages and tracking need rebuilding. Ad spend is paid by you directly to the platforms, so you own the accounts and the data."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a PPC agency Dublin firms hire usually manage?",
+      "a": "Account structure, keywords and audiences, ad copy and creative, bids and budgets, landing pages, conversion tracking and reporting. We also connect your CRM so you can see which campaigns produce real customers, not just form fills."
+    },
+    {
+      "q": "Which platform works best for Irish businesses?",
+      "a": "It depends on the buyer. Google search usually wins when people already know what they need. LinkedIn suits B2B sales into larger companies. Meta and TikTok suit consumer brands, events and recruitment. Most accounts use two or three platforms."
+    },
+    {
+      "q": "Should we include Northern Ireland in our campaigns?",
+      "a": "Only if you can serve customers there on the terms your ads and landing pages offer. Northern Ireland uses sterling and different delivery and tax terms, so we often run it as a separate campaign or exclude it."
+    },
+    {
+      "q": "How do you track results if visitors reject cookies?",
+      "a": "We set up Google Consent Mode, import offline conversions from your CRM and use the platforms' privacy-respecting measurement features. Reporting will never be perfect under consent rules, but it can be reliable enough to make good decisions."
+    },
+    {
+      "q": "How much should we spend on ads in Ireland?",
+      "a": "It depends on your margins, the cost per click in your sector and how many customers you can handle. We recommend a test budget in the plan, show the expected range of results and adjust once real data arrives."
+    },
+    {
+      "q": "Who owns the ad accounts?",
+      "a": "You do. Accounts are set up in your company's name and we work with access you grant. If you ever move on, everything stays with you."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/paid-media",
+    "/locations/dublin/seo-geo",
+    "/locations/dublin/video-animation",
+    "/services/social-media-management",
+    "/services/influencer-campaigns"
+  ],
+  "keywords": {
+    "primary": "ppc agency dublin",
+    "secondary": [
+      "google ads agency dublin",
+      "paid social agency ireland",
+      "linkedin ads ireland",
+      "paid media agency dublin"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "path": "/locations/dublin",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "title": "Digital Agency for Dublin and Ireland | 22 Signals",
+  "description": "22 Signals works with Dublin firms on AI, automation, data, cloud, web, apps, SEO and GEO, paid media, video and 3D. Same clock as London, priced in euro.",
+  "eyebrow": "Dublin",
+  "h1": "A digital agency for Dublin companies that need more than one skill",
+  "intro": "22 Signals is a global business solutions company that works with Dublin and Irish businesses on AI, automation, data, cloud, websites, apps, search, paid media, video and 3D. We are registered in London, keep the same clock as Ireland, work remotely and travel to Dublin when a project needs people in the room.",
+  "sections": [
+    {
+      "h": "Why Dublin companies look beyond a single-skill digital agency",
+      "p": [
+        "Ask around for a digital agency, Dublin gives you plenty of strong names. Most do one thing well: a web studio in Smithfield, a PPC team in Ranelagh, a data consultancy near the IFSC. That works until a project touches three of them at once. A new booking portal needs design, cloud hosting, analytics, search and a launch campaign, and suddenly you are the person holding five contracts together.",
+        "We cover that whole span with one team. Strategy, AI and automation, data and cloud, web and apps, SEO and GEO, paid media, social, influencer work, content, video, motion, AI video, 2D and 3D animation and 3D rendering all sit with the same people. You brief once, the plan is written once, and the parts are built to fit each other."
+      ]
+    },
+    {
+      "h": "Two kinds of Dublin client",
+      "p": [
+        "The first is the Irish company that has grown past its first systems. A logistics firm in Ballycoolin still running on spreadsheets. A clinic group across south Dublin with three websites and no shared booking data. A family-owned distributor in Naas Road that wants its sales team to stop retyping orders. These firms usually have a capable core team and more projects than people.",
+        "The second is the European or EMEA office of a larger international group. Dublin hosts the regional headquarters of many US technology, pharma, medtech and financial services companies, and those teams often need work done locally that head office will not prioritise: a recruitment site, an internal reporting tool, a product launch film for European markets. We also work with Dublin founders and funded startups who need a product built and taken to market without hiring a department for every step."
+      ]
+    },
+    {
+      "h": "Sectors where Dublin has real depth",
+      "list": [
+        "Technology: the Silicon Docks area around Grand Canal Dock and the wider Docklands, plus a busy startup scene feeding off those companies.",
+        "Financial services: funds administration, insurance, payments and banking around the IFSC, supervised by the Central Bank of Ireland.",
+        "Aircraft leasing: Ireland is one of the main centres of the global leasing industry, and many lessors run their head offices from Dublin.",
+        "Pharma and medtech: large sites around Dublin, Cork, Galway and Limerick, with careful rules on what can be said about products.",
+        "Property and construction: housing, apartments and build-to-rent schemes that need visuals and sales support before anything is built.",
+        "Professional services, retail, hospitality and food and drink brands selling at home and abroad."
+      ]
+    },
+    {
+      "h": "What Dublin teams bring us in for",
+      "list": [
+        "AI consulting: picking the few uses of AI worth paying for, with GDPR and the EU AI Act in the plan.",
+        "AI automation: tools that remove repeated admin from finance, operations and customer service.",
+        "Business intelligence: reporting in Power BI, Looker Studio or Tableau that works across euro, sterling and dollar entities.",
+        "Cloud consulting: AWS and Azure environments, often in the EU regions that sit in Dublin itself.",
+        "Web development: accessible websites, e-commerce and portals, with WCAG built in by default.",
+        "App development: iOS, Android and web apps, from first MVP to a product with paying users.",
+        "SEO and GEO: ranking in Google and appearing in answers from ChatGPT, Claude, Gemini and Google AI Overviews.",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns sized for a small, competitive market.",
+        "Video and animation: explainers, recruitment films, motion graphics, AI video and live event broadcasts.",
+        "3D rendering: CGI for property schemes, devices, products and packaging."
+      ]
+    },
+    {
+      "h": "EU rules are part of the brief from day one",
+      "p": [
+        "Ireland follows the GDPR, and its Data Protection Commission is the lead supervisory authority for many of the largest technology companies with EU headquarters in the city. Irish businesses of every size feel that attention, and they expect suppliers to know the basics: lawful basis, retention, cookie consent and where data is stored.",
+        "The EU AI Act has been in force since 2024, with its obligations phasing in over several years. Financial firms also face EU rules on operational resilience, and consumer-facing websites have accessibility duties under the European Accessibility Act. We build with these in mind and flag questions early, but we are not lawyers, and your legal adviser has the final word."
+      ]
+    },
+    {
+      "h": "Same clock, same currency habits",
+      "p": [
+        "Ireland shares London's time zone all year, so a 09:00 call in Dublin is a 09:00 call for us. There is no lag on feedback and no late-night meetings. Scopes and invoices can be agreed in euro, and we are used to Irish companies that also trade in sterling with Northern Ireland and Britain, or report in dollars to a US parent.",
+        "We have no Dublin office and no local staff. Work runs remotely through shared documents, short calls and written updates. When a discovery workshop, a shoot or a launch needs us on site, we travel to Dublin and plan that visit into the scope from the start."
+      ]
+    },
+    {
+      "h": "Language and tone",
+      "p": [
+        "All our work is delivered in English, written in Irish and British spelling for Irish audiences. Some public bodies and community organisations need Irish language versions of pages or materials, and companies selling across Europe may need French, German or Spanish. We do not claim those skills in-house. Where localisation is needed, we arrange it with partners and build the site or campaign so translated versions slot in properly."
+      ]
+    },
+    {
+      "h": "How an engagement runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to see if there is a real fit. No pitch deck.",
+        "Plan: discovery and a written roadmap within 5 to 7 days, with owners, costs and dates.",
+        "Build: specialist teams do the work, with every date confirmed in writing.",
+        "Grow: plain-English reporting on what moved and what we change next."
+      ]
+    },
+    {
+      "h": "What we can point to",
+      "p": [
+        "We have worked with more than 30 companies, delivered more than 30 AI builds, broadcast more than 20 live events and managed more than $1.5M in projects. We do not publish client names. On a call we will walk you through examples close to your sector and tell you plainly if your project is outside what we do well."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does 22 Signals have an office in Dublin?",
+      "a": "No. We work with Dublin companies remotely and travel to Ireland when a project needs it, for example a discovery workshop, a filming day or a launch. Because Ireland and London share a time zone, calls and reviews happen during your normal working day."
+    },
+    {
+      "q": "Is 22 Signals a digital agency or a technology company?",
+      "a": "Both. As a digital agency, Dublin clients use us for marketing and production, and as a technology company we build AI tools, automations, data and cloud systems, websites and apps, and we also run SEO and GEO, paid media, social, content, video, animation and 3D. Most Dublin clients need several of these together, and having them planned by one team saves a lot of handovers."
+    },
+    {
+      "q": "Can you invoice in euro?",
+      "a": "Yes. Scopes and invoices can be agreed in euro. Third-party costs such as ad spend, software licences and cloud bills are usually paid by you directly, so you keep ownership of the accounts."
+    },
+    {
+      "q": "Do you work with the Irish offices of international companies?",
+      "a": "Yes. Many Dublin teams belong to US or global groups and need local projects delivered without waiting for head office. We work within your group's brand, security and procurement rules, and we keep regional and global stakeholders informed in writing."
+    },
+    {
+      "q": "How do you handle GDPR for Irish projects?",
+      "a": "We plan each build around the GDPR from the start: what personal data is collected, the lawful basis, where it is stored, who can see it and how long it is kept. Your data protection officer or legal adviser confirms the position, and we document our choices so they are easy to review."
+    },
+    {
+      "q": "What does a Dublin project cost?",
+      "a": "It depends on scope. The main factors are which services are involved, how many systems connect, any regulatory requirements and whether you want a single project or ongoing support. We price after the first call and a short discovery, and you get the figure in writing before work starts."
+    }
+  ],
+  "related": [
+    "/locations/dublin/ai-consulting",
+    "/locations/dublin/web-development",
+    "/locations/dublin/seo-geo",
+    "/locations/dublin/cloud-consulting",
+    "/locations/london",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "digital agency dublin",
+    "secondary": [
+      "business solutions company dublin",
+      "ai agency ireland",
+      "web and marketing agency dublin",
+      "digital agency ireland"
+    ]
+  }
+}

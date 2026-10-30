@@ -1,0 +1,139 @@
+{
+  "path": "/locations/berlin/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting Berlin: EU AI Act Ready Plans | 22 Signals",
+  "description": "AI consulting for Berlin and German companies: use cases ranked by value, EU AI Act and GDPR questions answered early, and a working pilot your team can test.",
+  "eyebrow": "AI consulting in Berlin",
+  "h1": "AI consulting in Berlin, written down before anything is built",
+  "intro": "We help Berlin scale-ups and German mid-sized firms decide where AI is worth the effort, then prove it with a working pilot. You get a ranked list of use cases, the data and compliance questions answered in writing, and a build plan with dates. The work is remote, in English, and planned around GDPR, the EU AI Act and your works council.",
+  "sections": [
+    {
+      "h": "The two AI problems we see most in Germany",
+      "p": [
+        "The first is the Berlin version. A scale-up has given everyone access to chat assistants, a few engineers have built prototypes, and the board now asks what all of it is worth. Nobody can say, because nothing was measured and nothing reached production.",
+        "The second is the Mittelstand version. A machine builder in Brandenburg or Saxony has heard about AI at every trade fair for three years. The managing director is interested but sceptical, the IT team is small, and the data sits in SAP, a document server and the heads of people close to retirement. They do not want a vision. They want to know which process to start with, what it costs, and what happens if it goes wrong.",
+        "Good AI consulting, Berlin start-up or Swabian manufacturer, should answer those questions in plain terms. That is what our engagement is built to do."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Process review: interviews with the people who do the work, so we find where time is really lost",
+        "Use case ranking: each idea scored on value, effort, data readiness and risk, with the top three explained",
+        "Data check: what exists, where it lives, who owns it and whether it is good enough to use",
+        "Compliance questions: GDPR, the EU AI Act risk categories and works council points raised early, for your advisers to confirm",
+        "Build or buy: when an off-the-shelf tool is enough and when a custom build pays back",
+        "Pilot: a working version of the best use case, tested by real users on real data",
+        "Roadmap: what to build next, in what order, with owners and dates in writing"
+      ]
+    },
+    {
+      "h": "The paperwork German companies ask for",
+      "p": [
+        "German buyers often expect a Lastenheft, a client-side statement of requirements, followed by a Pflichtenheft that describes how the supplier will meet them. Not every company uses those words, but most expect the same discipline: write it down, agree it, then build it.",
+        "Our discovery phase produces that document. Within 5 to 7 days you have a written roadmap that states the problem, the proposed solution, the data involved, the risks, the acceptance criteria and the dates. Your IT lead, your data protection officer and your managing director can all read the same version and sign it off. If something changes later, the change is logged against that document rather than agreed in passing on a call."
+      ]
+    },
+    {
+      "h": "GDPR, the EU AI Act and the works council",
+      "p": [
+        "Three sets of questions come up in almost every German AI project, and it costs far less to raise them in week one than in month four.",
+        "GDPR decides what personal data a model may see, where it is processed and how long anything is kept. German companies with enough staff handling personal data must also have a data protection officer, and that person should see the plan early. Supervision sits with the authority in your federal state, so a Berlin company answers to the Berlin commissioner and a Bavarian firm to the Bavarian authority.",
+        "The EU AI Act entered into force in 2024, with obligations phasing in over several years. Most business uses, such as drafting, search and document handling, fall into the lower risk groups, but some uses, for example in hiring or credit decisions, carry heavier duties. We map each use case to the likely category so your legal adviser can confirm it.",
+        "If your company has a works council, it usually has a say when new technical systems could be used to monitor staff performance or behaviour. An AI tool that reads emails or logs work steps can fall into that. We prepare a clear description of what the tool does and does not record, which makes the conversation with the works council shorter and calmer."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first in German firms",
+      "list": [
+        "Industrial sales: drafting quotes from customer drawings, specs and past orders, with an engineer approving each one",
+        "Technical documentation: finding answers in manuals, service reports and norms instead of asking the one person who knows",
+        "Customer service: sorting and answering routine enquiries in German and English, with a person taking over complex cases",
+        "Finance: matching incoming invoices and payments, and preparing exports for the tax adviser",
+        "Scale-up operations: summarising customer calls, tagging support tickets and keeping the CRM accurate",
+        "Recruiting: screening support and job ad drafting, handled carefully because hiring uses carry extra AI Act duties"
+      ]
+    },
+    {
+      "h": "How we work with Berlin clients",
+      "list": [
+        "Talk: a 15-minute call. You describe the pressure, we tell you honestly whether AI is the right answer.",
+        "Plan: interviews, data review and a written roadmap in 5 to 7 days.",
+        "Build: specialist engineers deliver the pilot against dates you hold in writing.",
+        "Grow: we measure the pilot against the baseline, then extend what works and stop what does not."
+      ]
+    },
+    {
+      "h": "Remote delivery, on CET working hours",
+      "p": [
+        "We do not have a Berlin office. The work runs remotely, and because Berlin is only one hour ahead of London, our day matches yours almost hour for hour. Interviews with your staff happen by video call, documents are shared in your systems where you prefer, and progress reports arrive weekly.",
+        "Some steps work better in person: a kick-off with the management team, a half-day on the shop floor watching how orders are actually processed, or a workshop with the works council. When that is true, we plan the visit into the scope so it is not a surprise later."
+      ]
+    },
+    {
+      "h": "Proof from real builds",
+      "p": [
+        "We have shipped more than 30 AI builds and worked with more than 30 companies. Those builds range from document tools and internal assistants to automations that replaced manual reporting. We do not publish client names, but we can show you comparable work on a call and talk through what went wrong as well as what worked."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "p": ["We price the AI consulting Berlin and German clients ask for once we have seen the processes and the data. These are the main factors:"],
+      "list": [
+        "Number of departments and processes in scope",
+        "State of the data and how many systems it sits in",
+        "Compliance depth, such as AI Act classification work or works council preparation",
+        "Whether German language interfaces or documents need localisation through partners",
+        "Whether you want a pilot only or a pilot followed by a production build"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting in Berlin usually start with?",
+      "a": "A short call, then interviews with the people who do the work and a review of the data. Within 5 to 7 days you get a written roadmap that ranks use cases by value and risk and names the one we suggest piloting first."
+    },
+    {
+      "q": "Does the EU AI Act stop us using AI?",
+      "a": "For most business uses, no. The Act sorts AI systems by risk. Common tools for drafting, search and document handling sit in lower categories with lighter duties, while uses in areas such as hiring or credit carry heavier ones. We map each use case so your legal adviser can confirm the position."
+    },
+    {
+      "q": "Do we need to involve our works council?",
+      "a": "If you have one, very likely. Works councils usually have a say over technical systems that could monitor staff performance or behaviour. We write a plain description of what the tool records and why, which helps the discussion move quickly."
+    },
+    {
+      "q": "Can our data stay in Germany or the EU?",
+      "a": "Usually, yes. The major cloud providers run regions in Frankfurt and elsewhere in the EU, and many AI models can be used through EU hosted services. We choose the setup based on your data, your contracts and your data protection officer's view."
+    },
+    {
+      "q": "Do you deliver in German?",
+      "a": "We deliver in English. Where staff or customers need German interfaces, prompts or documents, we arrange localisation with partners and test that the tool handles German input properly, including long compound words and formal address."
+    },
+    {
+      "q": "How is your AI consulting different for Berlin start-ups and Mittelstand firms?",
+      "a": "The method is the same, the pace is not. Scale-ups usually want a pilot in weeks and investor-ready metrics. Mittelstand firms usually want more documentation, a slower rollout and a clear fallback if the tool fails. We plan for whichever you are."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/ai-consulting",
+    "/locations/berlin/ai-automation",
+    "/locations/berlin/business-intelligence",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/insights/what-is-ai-consulting"
+  ],
+  "keywords": {
+    "primary": "ai consulting berlin",
+    "secondary": [
+      "ai consultant germany",
+      "eu ai act consulting",
+      "ai strategy mittelstand",
+      "ai beratung berlin"
+    ]
+  }
+}

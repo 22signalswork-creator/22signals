@@ -1,0 +1,139 @@
+{
+  "path": "/locations/paris/3d-rendering",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in Paris: Packaging, Products, Spaces | 22 Signals",
+  "description": "3D rendering for Paris brands, designers and developers: perfume and cosmetics packaging, jewellery, products, Haussmann interiors and new-build CGI.",
+  "eyebrow": "3D Rendering in Paris",
+  "h1": "3D rendering in Paris for products, packaging and spaces not yet made",
+  "intro": "We create photoreal 3D renders for Paris companies that need to show something before it exists or before it can be photographed well: perfume bottles, cosmetics packaging, jewellery, furniture, boutique interiors, renovated Haussmann apartments and new buildings. Renders are delivered as stills, animations or 3D files for websites, campaigns, sales and approvals.",
+  "sections": [
+    {
+      "h": "Why Paris brands use CGI instead of a studio shoot",
+      "p": [
+        "Photographing a glass perfume bottle well is famously hard. Every reflection shows the studio, the liquid colour shifts under the lights, and retouching takes days. Cosmetics packaging has metallic finishes and tiny text that need to be perfect. Jewellery and watches demand sharp detail at sizes a camera struggles with. And often the product is not manufactured yet when the campaign has to be planned.",
+        "CGI solves those problems. Once a product is modelled and its materials are matched, it can be shown from any angle, in any setting and in every colourway, without reshooting. For the beauty, fragrance and luxury houses in and around Paris, that makes 3D rendering a practical production choice, not a gimmick."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Fragrance and cosmetics: bottles, caps, compacts, tubes and gift sets, with accurate glass, liquid and metal finishes.",
+        "Jewellery, watches and leather goods: close-up detail, materials and colour variations.",
+        "Packaging: concepts for approval, final artwork on the pack and exploded views.",
+        "Furniture and design objects: catalogue images, settings and configurators.",
+        "Retail interiors: boutiques, pop-ups, window displays and shop-in-shops before they are built.",
+        "Residential interiors: renovations and staging for apartments and houses.",
+        "Architecture: new buildings, facades and aerial views for developers and architects."
+      ]
+    },
+    {
+      "h": "Fragrance, beauty and luxury packaging",
+      "p": [
+        "The Paris region is home to some of the world's largest beauty and luxury groups, and their suppliers in packaging and design. Their work runs on approvals: a bottle shape, a cap finish, a box colour, each signed off before tooling starts. Renders let teams compare options side by side and approve with confidence, then reuse the same models for e-commerce and campaigns.",
+        "We match materials carefully to physical samples or supplier specifications, so the gold of a cap or the frost of a glass looks the same in the render as in the hand. Artwork is applied from your print files, so legal mentions and ingredient lists are exactly as they will appear on the product."
+      ]
+    },
+    {
+      "h": "Interiors, from Haussmann apartments to boutiques",
+      "p": [
+        "Much of central Paris is built from Haussmann-era apartment buildings, with mouldings, parquet, tall windows and fireplaces that buyers value. Renovation projects need to show how a modern kitchen or bathroom will sit inside that character. Renders let architects, designers and owners agree on materials and layout before work starts and help agents sell or let a property while it is still under works.",
+        "Retail interiors are the other half of this work. Boutiques, pop-up stores and department store concessions are often designed in weeks around a launch. A set of renders, or a short walkthrough, gets sign-off from the brand and the landlord faster than drawings alone."
+      ]
+    },
+    {
+      "h": "New builds and the changing Grand Paris",
+      "p": [
+        "The Grand Paris Express, the large new metro network being built around the capital, is bringing development to districts around its new stations. Many new homes in France are sold off-plan under the VEFA system, before construction is finished, which makes high-quality visuals central to sales.",
+        "We produce exterior and interior CGIs, aerial views that place a building in its neighbourhood and short animations for sales suites and websites. Every image is built from your architect's drawings and clearly presented as a visualisation of a project, not a photograph."
+      ]
+    },
+    {
+      "h": "Trade fairs, catalogues and online stores",
+      "p": [
+        "Paris hosts major design and trade events, including Maison et Objet, where furniture and homeware brands launch new collections. Renders let a brand show a full range, in every finish, before all the samples exist. After the fair, the same models feed catalogues, online stores and 3D product viewers, so the investment keeps working all year."
+      ]
+    },
+    {
+      "h": "Stills, animation or interactive 3D",
+      "p": [
+        "Not every project needs the same output. A packaging approval needs a handful of high-resolution stills on a neutral background. A launch campaign may need a slow turntable, a liquid pour or a cap opening in slow motion, which our animation team builds from the same model. An online store may want a 3D viewer that lets shoppers turn a bag or a lamp on their phone, which needs a lighter, optimised version of the model.",
+        "We agree the outputs at the start, because they change how a model is built. Planning for all three from day one costs far less than rebuilding later."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: a 15-minute call about what you need to show, to whom and by when.",
+        "Plan: we review drawings, CAD files, samples and references and set out views, formats and dates in a written roadmap within 5 to 7 days.",
+        "Build: modelling, materials, lighting and rendering, with draft views for comment before final quality, and delivery dates agreed in writing.",
+        "Grow: new colourways, angles, animations and formats from the same models whenever you need them."
+      ]
+    },
+    {
+      "h": "What we need from you",
+      "list": [
+        "CAD files, technical drawings or dimensions for each product or space.",
+        "Physical samples or material references for finishes, colours and textures.",
+        "Print-ready artwork for packaging and labels.",
+        "Mood boards or past campaigns that show the look you want.",
+        "Where each image will be used, so we set the right resolution and format."
+      ]
+    },
+    {
+      "h": "Proof, and working with us from Paris",
+      "p": [
+        "We have worked with more than 30 companies across products, property, events and technology, and 3D is often part of a larger launch that also includes video, websites and ads. We will show you relevant examples on a call, without naming clients.",
+        "We have no office in Paris, and most rendering work runs fully remotely. Physical samples can be shipped to us, or reviewed together on a call, and we visit Paris when a project needs site photography or an in-person review. Paris is one hour ahead of London, so feedback rounds fit the working day."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can 3D rendering in Paris replace product photography?",
+      "a": "For many uses, yes: e-commerce, packaging approval, catalogues and campaigns with complex products like glass bottles or jewellery. Some brands still shoot lifestyle images with models and use renders for the product itself. We advise on the best mix for each project."
+    },
+    {
+      "q": "How accurate are the materials and colours?",
+      "a": "We match them to physical samples, supplier specifications or reference colours, and review drafts with you before final rendering. Screens vary, so we recommend checking key colours on a calibrated display."
+    },
+    {
+      "q": "Do you work from architects' drawings?",
+      "a": "Yes. Architectural and interior renders are built from your architect's plans, elevations and specifications. Where details are missing, we ask rather than guess."
+    },
+    {
+      "q": "Can you render Haussmann-style interiors?",
+      "a": "Yes. We model period details such as mouldings, parquet, fireplaces and tall windows, and show how new kitchens, bathrooms and furniture will sit within them."
+    },
+    {
+      "q": "What does 3D rendering in Paris cost with you?",
+      "a": "It depends on the number of products or spaces, the complexity of materials, the number of views and whether animation is needed. We price from your brief and files and confirm the scope in writing."
+    },
+    {
+      "q": "Can we reuse the 3D models later?",
+      "a": "Yes. Once a product or space is modelled, new angles, colourways and animations cost less to produce. You can also receive the models for use in 3D viewers or configurators."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/paris/video-animation",
+    "/industries/real-estate",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "3d rendering in paris",
+    "secondary": [
+      "cgi studio paris",
+      "product rendering paris",
+      "packaging rendering france",
+      "architectural visualisation paris",
+      "perfume bottle 3d render"
+    ]
+  }
+}

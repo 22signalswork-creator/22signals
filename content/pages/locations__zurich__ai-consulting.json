@@ -1,0 +1,147 @@
+{
+  "path": "/locations/zurich/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting Zurich: Confidential by Design | 22 Signals",
+  "description": "AI consulting for Zurich banks, insurers and professional firms: decide where AI pays, set rules on client data under the FADP, then build a working pilot.",
+  "eyebrow": "AI Consulting in Zurich",
+  "h1": "AI consulting for Zurich firms where confidentiality comes first",
+  "intro": "We help Zurich companies decide which AI uses are worth paying for, write the rules on what client data those tools may see, and then build the first working pilot. That suits banks, insurers, wealth managers and professional firms that cannot afford a leak or a vague answer. You get a written roadmap in 5 to 7 days and a pilot your staff actually use.",
+  "sections": [
+    {
+      "h": "The real question in Zurich is not whether, but what the model may see",
+      "p": [
+        "Most Zurich firms have moved past asking whether AI is useful. Staff already paste drafts into chat tools, IT has blocked some sites and allowed others, and a working group has a long list of ideas. What holds the work back is a harder question: which data can go near a model, under which contract, and who answers for the output.",
+        "In a city built on private banking and insurance, that question carries weight. Client identities, portfolio details, medical information in claims files and deal documents are exactly the material that makes AI useful and exactly the material that must not leak. The AI consulting Zurich firms can rely on starts by drawing those lines clearly, then picks the uses that still pay once the lines are in place."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Readiness review: data, systems, contracts, skills and risk appetite, written in plain language",
+        "Data classification for AI: what is public, internal, confidential and off limits for each tool",
+        "Use-case shortlist ranked by value, effort and risk, kept to the few worth funding",
+        "Build or buy decisions across Microsoft Copilot, OpenAI, Anthropic, Google and specialist vendors",
+        "An AI policy and governance model staff can follow without a lawyer at their desk",
+        "A pilot on one process, measured against figures agreed before we start",
+        "Training for the people who will use the tool every day, and the people who check it"
+      ]
+    },
+    {
+      "h": "Rules that shape AI plans in Switzerland",
+      "p": [
+        "The revised Federal Act on Data Protection, in force since September 2023, applies whenever an AI tool processes personal data. It asks for transparency towards the people affected, privacy by design and by default, appropriate security and, for high-risk processing, a data protection impact assessment. It also sets conditions for sending personal data abroad, which matters because many AI services run outside Switzerland.",
+        "Banks, insurers and other supervised firms answer to FINMA as well. FINMA has made clear it expects AI to sit inside proper governance, with risks identified, responsibilities assigned and results that can be explained. Banking secrecy and professional confidentiality rules add their own limits. Swiss firms that sell AI-based products or services into the EU may also fall under the EU AI Act. We are not your legal advisers, but we write plans your compliance team can test line by line."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first in Zurich",
+      "list": [
+        "Private banks and wealth managers: drafting client reports, summarising research, preparing meeting notes, with an adviser approving every word that reaches a client",
+        "Insurers and reinsurers: reading claims files, pulling key facts from long policy wordings and routing cases to the right handler",
+        "Asset managers: monitoring documents and filings, comparing fund documents and answering internal questions from approved sources",
+        "Law firms and consultancies: search across your own precedents and know-how, first drafts of routine documents and intake summaries",
+        "Technology companies and scale-ups: AI features inside the product, support automation and internal knowledge search",
+        "Life sciences and medtech: literature summaries and document control, with scientific content checked by your experts"
+      ]
+    },
+    {
+      "h": "Choosing where the model runs",
+      "p": [
+        "For a Zurich firm, the hosting decision is often the whole decision. Some uses can run on public AI services under enterprise terms that exclude training on your data. Others need models hosted in a cloud tenancy you control, in a Swiss or European region, with logs you can hand to an auditor. A few should not use external models at all.",
+        "We set out the options for each shortlisted use case: where the data travels, what the provider may keep, how access is controlled and what it costs to run. Then you choose with the trade-offs in front of you, rather than finding them after launch."
+      ]
+    },
+    {
+      "h": "How it runs: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk is a 15-minute call to check there is a fit. Plan is discovery: interviews with the people who do the work, a look at the systems and documents involved, and a written roadmap within 5 to 7 days. Build is the pilot, run by specialist teams with dates agreed in writing. Grow is measuring the result, fixing what users complain about and deciding together what goes next.",
+        "Workshops can run remotely or in Zurich. When your partners or board want to meet in person, we plan the visit into the scope."
+      ]
+    },
+    {
+      "h": "Built by people who ship",
+      "p": [
+        "We have delivered more than 30 AI builds: custom tools, automations and internal systems for businesses that used to do the work by hand. That is why our consulting ends in a working pilot rather than a slide deck. Advice from people who have watched a model fail in production tends to be more careful about where it should be trusted."
+      ]
+    },
+    {
+      "h": "Questions worth asking any AI consultant",
+      "list": [
+        "Which of your recommendations have you built yourselves?",
+        "Where will our data be processed, and what will the provider keep?",
+        "How will we know the pilot worked, and who owns that figure?",
+        "What happens after the pilot: handover, ongoing support or both?",
+        "Who will actually do the work, and can we speak to them before we sign?"
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "How many teams and processes the readiness review covers",
+        "How scattered your data is, and how many systems hold it",
+        "Whether the work ends at a roadmap or includes a pilot",
+        "Supervisory weight: a FINMA-regulated bank needs more governance work than a design studio",
+        "Model and licence costs, which you pay to providers directly"
+      ]
+    },
+    {
+      "h": "Why Zurich firms work with 22 Signals",
+      "p": [
+        "We cover AI, cloud and data, and also websites, apps, search, paid media and video. When the roadmap says the next step is a client-facing assistant, a cleaner data pipeline or a launch campaign for a new AI feature, the same team carries it on. We deliver in English, one hour behind Zurich time, with every date in writing. Related Zurich pages: AI automation, business intelligence and cloud consulting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting Zurich companies buy usually include?",
+      "a": "A readiness review, a short ranked list of use cases, rules on which data AI tools may use, build or buy recommendations and, in most cases, a pilot on one process. Supervised firms also get a governance model that fits their existing risk framework, so the compliance team can sign off the plan."
+    },
+    {
+      "q": "How do you keep client data confidential when using AI?",
+      "a": "We classify data before choosing tools, use enterprise terms that exclude training on your data, prefer hosting in a tenancy you control for sensitive work, and keep logs of what the system saw and produced. Anything covered by banking secrecy or professional confidentiality gets the strictest treatment, and some uses may be ruled out entirely."
+    },
+    {
+      "q": "Do you work with FINMA-supervised firms?",
+      "a": "Yes. We design pilots so they fit inside your governance: a named owner, documented risks, human review where it matters and results that can be explained. We do not give regulatory advice, so your compliance function stays the final word on what goes live."
+    },
+    {
+      "q": "Does the EU AI Act apply to Swiss companies?",
+      "a": "It can. Switzerland is not in the EU, but the Act can apply to Swiss firms that place AI systems on the EU market or whose AI output is used in the EU. We flag where that may be the case for each use case, and your legal advisers confirm the position."
+    },
+    {
+      "q": "Can workshops happen in Zurich?",
+      "a": "Yes, when it helps. Most discovery work runs well over video calls in Swiss working hours, since London is only one hour behind. For a board session or a workshop with several partners, we plan a visit to Zurich and agree it in the scope."
+    },
+    {
+      "q": "Do you work in German?",
+      "a": "We consult and deliver in English. If your staff need training material or interfaces in German, French or Italian, we arrange localisation through partners or use your own translators. AI tools themselves can handle several languages; we test them in the languages your teams actually use."
+    },
+    {
+      "q": "Should we start with Microsoft Copilot?",
+      "a": "If you already run Microsoft 365 and your data settings are in order, Copilot often covers general drafting and search well. Custom work makes sense when the task depends on your own data, a specific workflow or strict hosting rules. The readiness review answers this per use case, with costs for both routes."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/ai-consulting",
+    "/locations/zurich/ai-automation",
+    "/locations/zurich/business-intelligence",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai consulting zurich",
+    "secondary": [
+      "ai consultant zurich",
+      "ai strategy switzerland",
+      "ai governance finma",
+      "ai consulting switzerland",
+      "fadp ai compliance"
+    ]
+  }
+}

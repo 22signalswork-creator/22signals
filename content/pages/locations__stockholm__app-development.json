@@ -1,0 +1,136 @@
+{
+  "path": "/locations/stockholm/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Stockholm: iOS, Android and Web | 22 Signals",
+  "description": "App development for Stockholm founders and firms: iOS, Android and web apps with BankID, Swish and Klarna flows, built in stages with dates agreed in writing.",
+  "eyebrow": "App Development in Stockholm",
+  "h1": "App development for Stockholm founders and companies building their next product",
+  "intro": "We design and build iOS, Android and web apps for Stockholm founders and established companies, from a first MVP to a product with paying users. That includes sign-in with BankID, payments through Swish or Klarna, accessible design and the cloud back end behind it. Work is delivered remotely in English, in stages you can test, with every date agreed in writing.",
+  "sections": [
+    {
+      "h": "Building apps in a city that set the bar",
+      "p": [
+        "Stockholm users have grown up with some of the best-known apps in the world. Music streaming, mobile games and buy-now-pay-later checkouts all have deep roots here. That shapes expectations. A Swedish user who opens your app compares it, consciously or not, with products built by some of the strongest product teams in Europe.",
+        "The local hiring market reflects that. Senior mobile developers and product designers are in high demand and command high salaries, and the best ones often prefer to join a product company rather than an agency. For a founder with a seed round, or an industrial firm adding its first customer app, building a full in-house team before the product is proven is a large bet. That is the gap we fill: app development Stockholm users will rate highly, without taking on the full hiring risk before the product has proved itself. When the product works, we help you hire and hand over."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "MVPs: the smallest version that tests your core idea with real users",
+        "Consumer apps: iOS and Android apps with clean onboarding, payments and push notifications",
+        "B2B and field apps: tools for service engineers, sales teams or dealers, often working offline",
+        "Customer portals as web apps: account, orders, documents and support in one place",
+        "SaaS products: multi-tenant web apps with subscriptions, roles and admin dashboards",
+        "Companion apps for hardware: connecting machines, sensors or devices to a phone"
+      ]
+    },
+    {
+      "h": "Swedish features users expect",
+      "p": [
+        "Some features are close to standard in Sweden. BankID is the default way to prove identity for banking, government services and many private apps, so a login or signing flow that supports it removes friction. Swish is how people pay each other and many small merchants, and Klarna is a familiar option at checkout. We integrate these through their official providers and test the full flow, including what happens when a user cancels halfway.",
+        "Accessibility matters too. The European Accessibility Act now covers many consumer-facing digital services, including e-commerce and banking apps. We design to WCAG as standard: readable text sizes, proper labels for screen readers, enough contrast and controls that are large enough to tap."
+      ]
+    },
+    {
+      "h": "Native, cross-platform or web",
+      "p": [
+        "Not every product needs two native apps. For many MVPs and B2B tools, a cross-platform framework such as React Native or Flutter gives one codebase for iOS and Android at lower cost. For products that depend on heavy graphics, device sensors or very smooth animation, native Swift and Kotlin can be worth it. Sometimes a progressive web app is enough to test the idea before going to the app stores at all.",
+        "We recommend an approach in the written plan, with the reasons and trade-offs set out. Founders tend to appreciate that openness, and Swedish teams in particular expect the reasoning behind a technical choice, not just the answer."
+      ]
+    },
+    {
+      "h": "Privacy by design",
+      "p": [
+        "Apps collect a lot of personal data, often more than their makers realise. We plan data flows from the first sprint: what is collected, where it is stored, who can see it and when it is deleted. Back ends are hosted in EU cloud regions by default, and analytics is set up to respect consent. In Sweden the GDPR is supervised by IMY, and app store privacy labels must match what the app actually does. If your app uses AI features, we also check where they sit under the EU AI Act."
+      ]
+    },
+    {
+      "h": "The four stages: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the product, the users and what you need to learn first.",
+        "Plan: discovery, user flows, a feature list and a technical approach, written up in 5 to 7 days.",
+        "Build: designers and engineers deliver in short cycles with test builds you can install, each milestone dated in writing.",
+        "Grow: app store launch, crash monitoring, analytics and a backlog of improvements based on real use."
+      ]
+    },
+    {
+      "h": "Launching beyond Sweden",
+      "p": [
+        "Sweden has just over ten million people, so most Stockholm products plan to grow abroad early, usually into the other Nordic countries, Germany, the UK or the US. We build with that in mind: separate language files, currency handling, region-aware pricing and app store listings that can be localised.",
+        "Our team delivers in English. Swedish and other in-app copy is translated by native partners and checked in context, because a translated button label that is too long can break a layout."
+      ]
+    },
+    {
+      "h": "Remote delivery",
+      "p": [
+        "We have no Stockholm office. You get regular test builds through TestFlight and Google Play testing, a shared board of tasks, short video demos and a weekly written update. Stockholm is one hour ahead of London, so stand-ups and reviews fall within normal hours for both teams. For a design sprint or user testing in person, we travel to Stockholm."
+      ]
+    },
+    {
+      "h": "What shapes the budget",
+      "list": [
+        "Number of platforms and whether the app is native, cross-platform or web",
+        "Complexity of sign-in, payments and integrations",
+        "Amount of design work and number of screens",
+        "Back end, admin tools and reporting needs",
+        "App store, hosting and third-party service fees, paid by you",
+        "Support, updates and new features after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We do more than write code. The same team sets up the cloud, builds the data and AI features and can run the launch campaign, the app store pages and the video. For app development, Stockholm founders and product leads get one plan from idea to first users. Book a 15-minute call and bring your product idea or your current backlog."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you add BankID login to our app?",
+      "a": "Yes. We integrate BankID through an approved provider for login and signing, and test both the mobile and same-device flows. You will need an agreement with the provider, and we help you set that up."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "For most MVPs and business apps, cross-platform with React Native or Flutter is the practical choice. Native makes sense for graphics-heavy products or deep device features. We set out the trade-offs in the plan."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. Code lives in your repository, app store accounts are in your company's name and all credentials are handed over. That is agreed in the contract from the start."
+    },
+    {
+      "q": "Can you take over an app another team started?",
+      "a": "Yes. We start with a code and architecture review, list the risks and agree what to fix before adding features. Sometimes a partial rebuild costs less than patching, and we say so honestly."
+    },
+    {
+      "q": "Do you help with App Store and Google Play approval?",
+      "a": "Yes. We prepare the listings, privacy labels and review notes, submit the builds and handle any feedback from the reviewers until the app is live."
+    },
+    {
+      "q": "Can the app be in Swedish and English?",
+      "a": "Yes. We build multilingual support from the start, with copy delivered in English and Swedish translations arranged through native partners and checked inside the app."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/app-development",
+    "/locations/stockholm/web-development",
+    "/locations/stockholm/cloud-consulting",
+    "/industries/technology-ai",
+    "/industries/gaming-entertainment"
+  ],
+  "keywords": {
+    "primary": "app development stockholm",
+    "secondary": [
+      "app developer stockholm",
+      "apputveckling stockholm",
+      "mvp development sweden",
+      "bankid app integration"
+    ]
+  }
+}

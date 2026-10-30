@@ -1,0 +1,132 @@
+{
+  "path": "/locations/zurich/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Zurich: Swiss Regions, Clear Costs | 22 Signals",
+  "description": "Cloud consulting for Zurich firms on AWS, Azure and Google Cloud: Swiss regions, FADP data transfers, FINMA outsourcing needs, security and cost reviews.",
+  "eyebrow": "Cloud Consulting in Zurich",
+  "h1": "Cloud consulting for Zurich firms that want data kept in Switzerland",
+  "intro": "We design, secure and run cloud environments for Zurich companies on AWS, Microsoft Azure and Google Cloud, all of which operate regions in Switzerland. We decide with you which workloads must stay in the country, document the reasoning for auditors and cut spend that does no work. A written architecture and plan arrive within 5 to 7 days of discovery.",
+  "sections": [
+    {
+      "h": "Three hyperscalers now run Swiss regions",
+      "p": [
+        "Not long ago, a Zurich firm that wanted its data in Switzerland had to choose between its own server room and a local hosting provider. That changed. Google Cloud runs a region in Zurich, Microsoft Azure runs Switzerland North near Zurich and Switzerland West near Geneva, and AWS opened its Europe (Zurich) region in 2022. Most mainstream services are available in-country, although new features sometimes arrive in Swiss regions later than in larger ones.",
+        "That gives Swiss companies real choice. It also creates new questions: which workloads must stay in Switzerland, which can run in the EU, which provider fits the systems you already have, and how to stop costs growing quietly once everything is in the cloud."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Audit of what runs today, where, at what cost and with which risks",
+        "Architecture on AWS, Azure or Google Cloud, sized for real load rather than worst-case guesses",
+        "A residency map showing which data stays in Swiss regions and why",
+        "Identity, least-privilege access, encryption, key management and backups that are actually tested",
+        "Monitoring and alerting that reaches the right person before clients notice",
+        "Cost reviews: idle resources, oversized machines, unused licences and missed commitment discounts",
+        "Managed operations after launch, with response times agreed in writing"
+      ]
+    },
+    {
+      "h": "FADP, data transfers and when Swiss regions matter",
+      "p": [
+        "The revised Federal Act on Data Protection does not ban storing personal data abroad. It sets conditions: transfers are straightforward to countries the Federal Council recognises as having adequate protection, which includes EU and EEA states, and need extra safeguards elsewhere. So an EU region is often fine on data protection grounds alone.",
+        "The stronger drivers are usually contractual and sector-specific. Banks deal with banking secrecy and client expectations. Insurers and health businesses hold sensitive data. Public-sector and many enterprise clients write Swiss hosting into their contracts. Swiss firms serving EU customers also carry GDPR duties. We map each requirement to each system, choose regions on that basis and record it so legal, compliance and auditors can follow the decision."
+      ]
+    },
+    {
+      "h": "Cloud for supervised firms",
+      "p": [
+        "For FINMA-supervised banks and insurers, a move to the cloud is also an outsourcing decision. FINMA expects firms to choose providers carefully, keep control of outsourced functions, protect client data, plan for exit and make sure audit and supervisory access stays possible. Those expectations shape the contract, the architecture and the documentation.",
+        "We build environments with that in mind: clear separation between environments, logging that supports audit, access reviews, tested recovery and a documented exit path. We are not your regulatory adviser, and your risk and compliance teams make the final call, but we hand them material they can work with."
+      ]
+    },
+    {
+      "h": "Cloud work by Zurich sector",
+      "list": [
+        "Private banks and wealth managers: client portals and analytics hosted in Swiss regions, with strict access separation",
+        "Insurers: claims and document platforms that scale with storm or seasonal peaks without overpaying the rest of the year",
+        "Technology scale-ups: environments that grow from first customers to enterprise contracts, with the security evidence buyers ask for",
+        "Life sciences and medtech: controlled environments for documents and data, with traceable change history",
+        "Professional services: Microsoft 365 and Azure tenancies set up properly, with identity and device policies",
+        "Manufacturers and exporters: ERP and partner integrations kept reliable across sites in Switzerland and abroad"
+      ]
+    },
+    {
+      "h": "How a cloud project runs",
+      "list": [
+        "Talk: a 15-minute call about what you run, what worries you and any deadlines such as a contract renewal or data centre exit.",
+        "Plan: discovery, then a written architecture, residency map, security baseline and cost estimate within 5 to 7 days.",
+        "Build: specialist teams set up accounts, networks, identity and monitoring, then migrate or deploy with tested rollback and dates in writing.",
+        "Grow: monthly cost and security reviews, plus changes as you add products, markets or entities."
+      ]
+    },
+    {
+      "h": "Keeping the bill in Swiss francs under control",
+      "p": [
+        "Cloud bills in Switzerland arrive in a mix of currencies and grow in small steps that nobody approves individually: a test environment left running, a database sized for a launch that ended, storage that never expires. We tag resources by owner and project, set budgets and alerts, and review spend with you each month so finance can see what each team uses.",
+        "We do not promise a saving before we have seen your account. We list each change with its effort and risk, make the safe ones first and report the result."
+      ]
+    },
+    {
+      "h": "Remote delivery, Swiss working hours",
+      "p": [
+        "We are registered in London and run cloud work remotely, which is how most cloud work happens anyway. London is one hour behind Zurich, so planned changes can run early in the Swiss morning or after close of business with engineers fully alert. Where a project involves physical hardware, such as retiring servers in a Zurich data centre, we coordinate with your facilities provider or plan a visit, and we say which at the scoping stage."
+      ]
+    },
+    {
+      "h": "Why 22 Signals for cloud",
+      "p": [
+        "We do not stop at infrastructure. The same team builds the apps, data platforms and AI tools that run on top, so the cloud is designed around what it has to carry. We have run more than 20 live event broadcasts, where the date never moves, and we plan cutovers with the same discipline. For cloud consulting Zurich firms can hand to their auditors with confidence, start with a short call. Related services: cloud migration, DevOps consulting and data engineering."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud providers have regions in Switzerland?",
+      "a": "Google Cloud has a region in Zurich, Microsoft Azure runs Switzerland North and Switzerland West, and AWS runs Europe (Zurich). Service availability differs by region, so we check that every service you need exists in the region you pick before committing to an architecture."
+    },
+    {
+      "q": "Does the FADP require us to keep data in Switzerland?",
+      "a": "Not as a general rule. The FADP allows transfers to countries with adequate protection, including EU and EEA states, and requires safeguards for others. Sector rules, client contracts and confidentiality duties often push sensitive data into Swiss regions anyway. Your legal advisers confirm the position for your case."
+    },
+    {
+      "q": "What does cloud consulting Zurich banks need look like?",
+      "a": "It treats the move as an outsourcing project as well as a technical one: provider due diligence, control and audit access, client data protection, tested recovery and a documented exit plan. We build the technical side to support that and give your risk team the documentation they need."
+    },
+    {
+      "q": "Can you cut our current cloud spend?",
+      "a": "Often. Reviews usually find idle resources, oversized machines, old snapshots and missed commitment discounts. We list each saving with its risk, make safe changes first and report results monthly. We give no figure until we have seen your account."
+    },
+    {
+      "q": "AWS, Azure or Google Cloud?",
+      "a": "It depends on what you already run and what your team knows. Microsoft-heavy firms often fit Azure best, data-heavy teams sometimes prefer Google Cloud, and AWS has the widest service range. We compare them for your workloads and write down the reasoning."
+    },
+    {
+      "q": "Do you provide on-site support in Zurich?",
+      "a": "Support is remote, during Swiss working hours. For hardware tasks we work with your data centre or facilities provider, or plan a visit, and agree which before the project begins. We do not have staff based in Zurich."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/zurich/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting zurich",
+    "secondary": [
+      "cloud consultant switzerland",
+      "swiss cloud hosting",
+      "azure switzerland north",
+      "aws zurich region",
+      "finma cloud outsourcing"
+    ]
+  }
+}

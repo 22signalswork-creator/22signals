@@ -1,0 +1,136 @@
+{
+  "path": "/locations/stockholm/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Stockholm: Fast, Accessible Sites | 22 Signals",
+  "description": "Web development for Stockholm companies: fast, accessible websites, stores and portals in Swedish and English, built to WCAG and the European Accessibility Act.",
+  "eyebrow": "Web Development in Stockholm",
+  "h1": "Web development for Stockholm companies: fast, accessible and ready for Nordic buyers",
+  "intro": "We build websites, e-commerce stores and client portals for Stockholm companies that need them to load fast, work for everyone and bring in business. Every build follows WCAG accessibility guidelines by default, supports Swedish and English, and is planned around how Nordic buyers actually browse and pay. Work is delivered remotely, in English, with dates agreed in writing.",
+  "sections": [
+    {
+      "h": "Swedish users expect a lot from a website",
+      "p": [
+        "Sweden is one of the most connected countries in Europe. People bank, sign contracts and pay on their phones every day, using BankID to prove who they are and Swish to send money. They are used to public services and retailers with clean, quick, well-designed sites, and they notice when a company falls short.",
+        "Design expectations are high too. Stockholm is a city of design studios, furniture brands and fashion labels, and Swedish buyers are quick to judge a cluttered or slow site. So the bar for web development, Stockholm market included, is simple pages, fast loading, honest copy and nothing that gets in the way of the task."
+      ]
+    },
+    {
+      "h": "Accessibility is now a legal question, not only a good habit",
+      "p": [
+        "The European Accessibility Act has applied since June 2025, and Sweden has written it into national law. It covers many consumer-facing digital services, including e-commerce, banking services and some transport and communications services. Public sector bodies in Sweden already had their own accessibility rules for websites and apps.",
+        "We build to WCAG on every project as standard, not as an add-on. That means proper heading structure, keyboard navigation, colour contrast that passes, text alternatives for images, clear form errors and testing with screen readers. If your current site falls short, we can audit it and fix the issues in order of risk. Whether a specific obligation applies to your business is a question for your legal adviser, and we give them a clear report to work from."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites: clear service pages, case studies, careers sections and fast load times on mobile",
+        "E-commerce: Shopify, WooCommerce or headless builds, with Klarna, Swish and card checkout options",
+        "B2B product sites: large catalogues, technical specs, dealer locators and quote requests for exporters",
+        "Client portals: secure areas for documents, orders or reports, with sign-in options that fit your users",
+        "Recruitment sites: employer branding and job pages for companies competing for Stockholm talent",
+        "Migrations: moving from an old CMS without losing search rankings, with redirects mapped page by page"
+      ]
+    },
+    {
+      "h": "Swedish, English and the rest of the Nordics",
+      "p": [
+        "Most Stockholm companies need at least two languages. Swedish for local customers and English for international buyers, investors and job applicants. Exporters often add Norwegian, Danish, Finnish and German. We set up the site so each language has its own clean URLs, correct hreflang tags and a workflow your team can manage without a developer.",
+        "Our team delivers in English. Swedish and other Nordic copy is written or translated by native partners, then checked against the English version so the meaning stays the same. Small details matter here, such as prices in kronor with the right formatting and dates written the Swedish way."
+      ]
+    },
+    {
+      "h": "Lighter pages, lower footprint",
+      "p": [
+        "Sustainability comes up in almost every Stockholm brief. A website has a real, if small, footprint: every heavy image, video and script uses energy on servers and devices. Lighter pages are also faster pages, and faster pages convert and rank better. We compress images, avoid unnecessary scripts and tracking tags, choose efficient hosting and report page weight, so the sustainability claim and the performance gain point the same way."
+      ]
+    },
+    {
+      "h": "Privacy and cookie consent",
+      "p": [
+        "Swedish visitors see cookie banners on almost every site, and many decline tracking. We set up consent that meets GDPR expectations, keep non-essential tags off until people agree and configure analytics to make the most of the data you can lawfully collect. In Sweden, the GDPR is supervised by IMY. We keep forms short and only ask for the data you need."
+      ]
+    },
+    {
+      "h": "From first call to launch",
+      "list": [
+        "Talk: a 15-minute call about what the site must achieve and what is wrong with the current one.",
+        "Plan: discovery, a sitemap, content plan and technical approach in a written roadmap within 5 to 7 days.",
+        "Build: designers and developers work in stages you can review, with launch dates in writing.",
+        "Grow: we watch speed, enquiries and sales after launch, fix what we find and keep improving."
+      ]
+    },
+    {
+      "h": "Working with a team outside Stockholm",
+      "p": [
+        "We have no Stockholm office, and web projects run well remotely. Design reviews happen over video, feedback goes into a shared tool and you get a weekly written update. Stockholm is one hour ahead of London, so a morning review in Sweden is an early start for us, not a late night. For a kick-off workshop or a photo shoot, we can travel.",
+        "If you already work with a Stockholm design studio, we can build their designs. Clear ownership is agreed in writing at the start. The studio keeps the creative lead, we own the build, and both sides see the same task list, so design intent is not lost between the Figma file and the live page."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "Number of page templates and languages",
+        "E-commerce features, payment options and integrations with ERP or stock systems",
+        "Amount of content to write, translate or migrate",
+        "Accessibility fixes needed on existing content",
+        "Hosting, licences and plugins, paid to the provider by you",
+        "Support and development after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Our team also runs SEO, GEO and paid media, so a new site is built to be found and to convert from day one, not handed to a marketing agency to fix afterwards. If you need web development Stockholm buyers will judge kindly, start with a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the European Accessibility Act apply to our website?",
+      "a": "It depends on what you sell and to whom. It covers many consumer services, including e-commerce, and Sweden has made it national law. Very small businesses providing services can be exempt. We build to WCAG regardless and give your legal adviser a clear audit to judge from."
+    },
+    {
+      "q": "Can you add Klarna and Swish to our store?",
+      "a": "Yes. Most e-commerce platforms support Klarna and Swish through official plugins or payment providers. We set them up, test the full checkout and make sure order data flows into your accounting or ERP."
+    },
+    {
+      "q": "Do you write the Swedish copy?",
+      "a": "We deliver in English and arrange Swedish copy through native partners, or work with copy your team supplies. Either way, we check the Swedish against the agreed English so the message stays consistent."
+    },
+    {
+      "q": "Which CMS do you recommend?",
+      "a": "It depends on your team and the site. WordPress suits content-heavy sites, Shopify suits most online stores, and a headless CMS suits complex products or several markets. We recommend after discovery, based on who will edit the site day to day."
+    },
+    {
+      "q": "Will we lose rankings when we move to a new site?",
+      "a": "Not if the move is planned. We map every old URL to a new one, carry over metadata and structured data, test redirects before launch and watch Search Console closely afterwards."
+    },
+    {
+      "q": "Can you work from our designer's files?",
+      "a": "Yes. We often build from Figma files made by a client's own designers or a local studio. We review them early for accessibility and build issues, so there are no surprises in development."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/web-app-development",
+    "/locations/stockholm/seo-geo",
+    "/locations/stockholm/app-development",
+    "/industries/fashion-beauty",
+    "/locations/london/web-development"
+  ],
+  "keywords": {
+    "primary": "web development stockholm",
+    "secondary": [
+      "webbyrå stockholm",
+      "website development sweden",
+      "accessible website eaa",
+      "e-commerce development stockholm"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "path": "/locations/madrid/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Madrid: Spanish Regions, DORA | 22 Signals",
+  "description": "Cloud consulting for Madrid companies: AWS, Azure and Google Cloud in Spanish regions, security for DORA and NIS2, cost reviews and steady operations.",
+  "eyebrow": "Cloud Consulting in Madrid",
+  "h1": "Cloud consulting in Madrid, now that all three big clouds run regions in Spain",
+  "intro": "We design, move, secure and run cloud environments for Madrid companies on AWS, Microsoft Azure and Google Cloud. Since all three now operate regions in Spain, data can usually stay in the country when that matters. We pick regions on evidence, build security that stands up to auditors, and review your bill every month so spend stays under control.",
+  "sections": [
+    {
+      "h": "What changed for Spanish cloud buyers",
+      "p": [
+        "For years, a Madrid company that wanted its data hosted in Spain had to use a local data centre or a smaller provider. That is no longer the case. Google Cloud opened its Madrid region in 2022. AWS opened its Europe (Spain) region in Aragón the same year. Microsoft opened its Spain Central region in the Madrid area in 2024. Oracle runs a Madrid region as well.",
+        "This changes the conversation. Data residency in Spain is now a design choice rather than a reason to stay on old servers. It also means more Spanish companies are reviewing where their workloads should live, and many are finding that their existing cloud setup grew without a plan."
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Current-state review: what runs where, who has access, what it costs and what breaks",
+        "Architecture: landing zones, networks and identity on AWS, Azure or Google Cloud, sized for real demand",
+        "Region choice: when to use a Spanish region, another EU region or a mix, and why",
+        "Migration: moving servers, databases and applications with tested rollback plans",
+        "Security: least-privilege access, encryption, logging and backups that have been restored at least once",
+        "Cost control: idle resources removed, machines right-sized and commitments planned",
+        "Ongoing operations: monitoring, patching and monthly reviews, with response times agreed in writing"
+      ]
+    },
+    {
+      "h": "Choosing a region: Spain, elsewhere in the EU, or both",
+      "p": [
+        "Keeping personal data inside the EU is what the GDPR cares about most. Keeping it inside Spain is usually a business or contract choice rather than a legal must, but it can matter a great deal for public sector work, regulated clients and customers who simply ask for it.",
+        "Spanish regions are newer, so not every service is available in all of them yet, and prices can differ from long-established regions such as Frankfurt, Paris or Ireland. We check which services you need, compare cost and latency, and then recommend a region or a combination. The decision and the reasons behind it are documented, so your auditors and customers can follow the logic."
+      ]
+    },
+    {
+      "h": "Security rules Madrid firms are working through",
+      "p": [
+        "Banks, insurers and investment firms headquartered in Madrid now operate under DORA, the EU Digital Operational Resilience Act, which has applied since January 2025. It asks for tested resilience, incident reporting and close oversight of technology suppliers, including cloud providers. NIS2 brings stricter security duties to many other sectors, such as energy, transport, health and digital infrastructure, across the EU.",
+        "Companies that supply the Spanish public sector are often asked about the Esquema Nacional de Seguridad, Spain's national security framework. We build environments with the controls these frameworks expect: logged access, segregated environments, documented recovery tests and clear supplier records. We do not certify you, but we make the evidence easy to collect."
+      ]
+    },
+    {
+      "h": "Typical Madrid cloud projects",
+      "list": [
+        "Moving an ERP and file servers from an ageing on-premises room to a Spanish cloud region",
+        "Building a secure data platform for group reporting across Spain and Latin America",
+        "Hosting a customer portal or e-commerce site that has to stay up through Black Friday and the January sales",
+        "Cleaning up a cloud account that grew over five years without tagging, budgets or access reviews",
+        "Setting up separate development, testing and production environments for an in-house software team",
+        "Preparing evidence for a DORA or NIS2 supplier review"
+      ]
+    },
+    {
+      "h": "Keeping the bill under control",
+      "p": [
+        "Cloud bills grow quietly. Test environments are left running, storage builds up, and machines chosen for a launch stay oversized for years. A monthly cost review usually finds savings without touching performance. We tag every resource by owner and project, set budgets with alerts, and show the bill by department so each team sees what it spends. We do not promise a figure until we have seen your account."
+      ]
+    },
+    {
+      "h": "Talk, Plan, Build, Grow for cloud",
+      "list": [
+        "Talk: 15 minutes on what you run, what worries you and any deadlines such as a contract renewal or an audit.",
+        "Plan: an assessment, region recommendation, security baseline and migration plan in writing within 5 to 7 days.",
+        "Build: engineers set up the foundation and move workloads in planned windows, with rollback ready.",
+        "Grow: monthly cost, security and performance reviews, and changes as you add systems or markets."
+      ]
+    },
+    {
+      "h": "How we support Madrid from outside the city",
+      "p": [
+        "Cloud work is remote by nature, and we have no office in Madrid. Madrid is one hour ahead of London, so planned changes can run early in the morning or after the working day with our engineers fully alert. When a project includes physical work, such as retiring servers from a Madrid data centre, we either plan a visit or coordinate with your facilities provider, and we agree which at the scoping stage."
+      ]
+    },
+    {
+      "h": "Proof that we hold dates",
+      "p": [
+        "We have broadcast more than 20 live events, where nothing can slip, and managed more than $1.5M in projects. The same discipline goes into migration windows and launch dates. We do not name clients publicly but will walk through relevant examples on a call."
+      ]
+    },
+    {
+      "h": "What sets the price",
+      "list": [
+        "Number and complexity of workloads, and whether they are migrated or built new",
+        "Regions needed and any residency requirements",
+        "Security frameworks in scope, such as DORA, NIS2 or ENS",
+        "Whether you want ongoing managed operations and the response times you need",
+        "Your cloud provider charges, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud regions are in Spain?",
+      "a": "Google Cloud runs a Madrid region, AWS runs its Europe (Spain) region in Aragón, Microsoft Azure runs Spain Central in the Madrid area, and Oracle has a Madrid region. Service availability varies by region, so we check what you need before recommending one."
+    },
+    {
+      "q": "Does the GDPR require our data to stay in Spain?",
+      "a": "No. The GDPR is mainly concerned with data leaving the EU. Keeping data in Spain is often a business, contract or public sector requirement rather than a legal one. Your legal adviser confirms what applies to you."
+    },
+    {
+      "q": "What does cloud consulting in Madrid cost?",
+      "a": "It depends on the number of workloads, the security frameworks involved and whether you want ongoing support. We price after the planning stage, and provider charges are paid by you directly."
+    },
+    {
+      "q": "Can you help with DORA requirements?",
+      "a": "We build cloud environments with the controls DORA expects, such as tested recovery, logged access and supplier documentation, and help gather evidence. Your compliance team and advisers remain responsible for the overall DORA position."
+    },
+    {
+      "q": "Do you work with AWS, Azure and Google Cloud?",
+      "a": "Yes, all three. We recommend based on your existing licences, skills and the services you need. Many Madrid companies on Microsoft 365 lean towards Azure, but that is not always the best fit."
+    },
+    {
+      "q": "Can you migrate without downtime?",
+      "a": "Most migrations need only a short planned pause. We test the new environment with real data first, schedule cutover in a quiet window and keep a rollback ready. Dates are agreed in writing."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/madrid/business-intelligence",
+    "/insights/cloud-migration-checklist"
+  ],
+  "keywords": {
+    "primary": "cloud consulting in madrid",
+    "secondary": [
+      "aws consulting spain",
+      "azure spain central",
+      "cloud migration madrid",
+      "dora cloud compliance spain",
+      "google cloud madrid region"
+    ]
+  }
+}

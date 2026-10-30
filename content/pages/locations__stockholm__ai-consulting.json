@@ -1,0 +1,140 @@
+{
+  "path": "/locations/stockholm/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting Stockholm: From Use Case to Pilot | 22 Signals",
+  "description": "AI consulting for Stockholm companies: choose the use cases worth funding, plan for the EU AI Act and GDPR, and build a working pilot your teams agree on.",
+  "eyebrow": "AI Consulting in Stockholm",
+  "h1": "AI consulting for Stockholm companies that want results their teams will back",
+  "intro": "We help Stockholm companies decide where AI is worth the money, then build a pilot that proves it. That means a short list of use cases tied to real costs, a plan that fits the GDPR and the EU AI Act, and a working tool your staff have helped shape. We are registered in London and work with Swedish teams remotely, in English.",
+  "sections": [
+    {
+      "h": "The Stockholm problem is not a lack of ideas",
+      "p": [
+        "Most Stockholm firms we speak to have already tried AI. Staff use chat assistants every day, someone has built a prototype in a hackathon, and a vendor has pitched a platform with a three-year licence. What is missing is a decision about which two or three things deserve real budget, who owns them, and how anyone will know whether they worked.",
+        "Sweden adds its own twist. Teams are flat and people expect to be consulted. An AI project announced from the top, without the customer service team or the controllers being asked, tends to stall quietly. Good AI consulting, Stockholm or anywhere else, has to produce a case strong enough that the people affected agree with it, not just a deck for the board."
+      ]
+    },
+    {
+      "h": "What the AI consulting Stockholm clients buy from us covers",
+      "list": [
+        "Use case review: we interview the teams doing the work, measure where time and money go, and rank AI opportunities by value and difficulty",
+        "Data readiness: what data exists, where it lives, who can access it and whether it is good enough to use",
+        "Risk and rules: a first view of where each use case sits under the EU AI Act and what the GDPR requires",
+        "Build or buy: an honest comparison of off-the-shelf tools, configured platforms and custom builds",
+        "Pilot: a working tool tested with real users and real data, with numbers recorded before and after",
+        "Rollout plan: training, ownership, monitoring and what it costs to run each month"
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first in Stockholm sectors",
+      "list": [
+        "Industrial exporters: searching technical manuals and service histories, drafting quotes and answering dealer questions in several languages",
+        "Fintech and payments: sorting support tickets, summarising disputes and checking documents during onboarding, with humans making the final call",
+        "Gaming studios: tagging player feedback, triaging bug reports and helping community teams answer faster",
+        "Property and construction: reading tenders, comparing contract terms and pulling key data from inspection reports",
+        "Retail and design brands: product descriptions in Swedish and English, sizing questions and returns handling",
+        "Professional services: first drafts of reports, research summaries and internal knowledge search"
+      ]
+    },
+    {
+      "h": "The EU AI Act and GDPR, in plain terms",
+      "p": [
+        "The EU AI Act entered into force in 2024, and its obligations phase in over several years. It sorts AI systems by risk. Some uses are banned, some count as high risk and carry heavy duties, and many everyday business tools face lighter transparency rules, such as telling people when they are dealing with a chatbot. Uses touching hiring, credit decisions or access to essential services deserve careful review.",
+        "The GDPR still applies to any personal data the system touches. In Sweden that is supervised by IMY, the Swedish Authority for Privacy Protection. In practice this shapes choices about which model provider you use, where data is processed, how long prompts are stored and who can see the outputs. We map each use case against these rules early, write down our reasoning and hand the open questions to your legal team. We do not replace legal advice, but we stop surprises reaching them late."
+      ]
+    },
+    {
+      "h": "Building agreement without slowing down",
+      "p": [
+        "We run discovery in a way that suits Swedish working culture. Short interviews with the people closest to the work, a shared document where anyone can comment on the ranking, and a workshop where the trade-offs are argued openly. Union representatives or works councils may need to be consulted on changes to how people work, so we flag that early and leave room for it in the timeline.",
+        "The result is a roadmap that has already been discussed by the people who will use the tool. That tends to make the pilot faster, not slower, because objections surface on paper instead of in week six."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the process or cost you want to change.",
+        "Plan: interviews, data review and a written roadmap in 5 to 7 days, ranked by value and risk.",
+        "Build: our AI engineers build the pilot, with milestones and dates agreed in writing.",
+        "Grow: we measure the result against the baseline, fix what users report and plan the next use case."
+      ]
+    },
+    {
+      "h": "Evidence from real builds",
+      "p": [
+        "We have delivered more than 30 AI builds and worked with more than 30 companies. The pattern holds across them: the projects that work start small, measure honestly and are owned by someone inside the business. We bring that discipline to every engagement."
+      ]
+    },
+    {
+      "h": "Remote delivery, one hour apart",
+      "p": [
+        "We do not have a Stockholm office. Work runs through video calls, shared documents and a weekly written update. Stockholm is one hour ahead of London all year, so your working day and ours overlap almost completely. For the discovery workshop or a rollout session with a large team, we can travel to Stockholm and run it in person.",
+        "All deliverables are in English. If the AI tool itself must answer customers in Swedish or other Nordic languages, we test it with native speakers through partners before launch."
+      ]
+    },
+    {
+      "h": "What shapes the cost",
+      "list": [
+        "How many use cases we assess and how many teams we interview",
+        "The state of your data and how much cleaning or connecting it needs",
+        "Whether the pilot uses an existing platform or a custom build",
+        "Risk level under the EU AI Act and the review work that follows",
+        "Ongoing model and hosting costs, which you pay to the provider directly"
+      ]
+    },
+    {
+      "h": "Why Stockholm teams choose 22 Signals",
+      "p": [
+        "Many AI consultants stop at the strategy. We also build the tools, connect them to your systems, set up the cloud they run on and design the dashboards that show whether they work. That keeps the advice grounded in what is buildable. If your board wants an AI plan and your teams want proof, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting in Stockholm usually start with?",
+      "a": "A short discovery. We interview the teams doing the work, look at your data and rank possible use cases by value and risk. You get a written roadmap in 5 to 7 days that you can circulate internally before committing to a pilot."
+    },
+    {
+      "q": "Does the EU AI Act apply to our chatbot or internal tool?",
+      "a": "Probably, but often lightly. Many business tools only face transparency duties, such as telling users they are talking to AI. Uses in hiring, credit or access to services can be high risk. We map each use case and pass the open points to your legal adviser."
+    },
+    {
+      "q": "Can our data stay inside the EU?",
+      "a": "Usually, yes. Major model providers and cloud platforms offer EU processing options, and some workloads can run on models hosted in your own EU cloud account. We choose the set-up based on the data involved and document the choice for your privacy team."
+    },
+    {
+      "q": "How long does a pilot take?",
+      "a": "It depends on the use case and the data, so we set the timeline in the written plan rather than guess here. A focused pilot is scoped to run for weeks, not quarters, and every milestone date goes in writing."
+    },
+    {
+      "q": "Do you only advise, or do you build as well?",
+      "a": "We build. The same team that writes the roadmap builds the pilot, connects it to your systems and sets up the hosting. That means the plan is based on what we know we can deliver."
+    },
+    {
+      "q": "Will our staff be involved?",
+      "a": "Yes, and early. Swedish teams expect to be consulted, and tools built with their input get used. We interview the people closest to the work and test the pilot with them before any wider rollout."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/ai-consulting",
+    "/locations/stockholm/ai-automation",
+    "/locations/stockholm/business-intelligence",
+    "/insights/what-is-ai-consulting",
+    "/insights/how-to-choose-an-ai-consulting-firm"
+  ],
+  "keywords": {
+    "primary": "ai consulting stockholm",
+    "secondary": [
+      "ai consultant stockholm",
+      "ai strategy sweden",
+      "eu ai act readiness",
+      "ai konsult stockholm"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "path": "/locations/amsterdam/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media Amsterdam: Google, Meta, LinkedIn Ads | 22 Signals",
+  "description": "Paid media for Amsterdam companies: Google, Meta, LinkedIn and TikTok campaigns across the Netherlands and Europe, measured with consent-aware tracking.",
+  "eyebrow": "Paid Media in Amsterdam",
+  "h1": "Paid media for Amsterdam brands that have outgrown the Dutch audience",
+  "intro": "We plan, run and report paid media for Amsterdam companies on Google, Meta, LinkedIn and TikTok. Campaigns start in the Netherlands and extend into Belgium, Germany and the rest of Europe when the numbers support it. Tracking is built around consent rules, so you can trust the figures, and reporting is tied to leads and revenue.",
+  "sections": [
+    {
+      "h": "The small-market problem",
+      "p": [
+        "The Netherlands has under 20 million people. That is a large, wealthy market, but in paid social a narrow B2B audience or a niche consumer segment can be exhausted quickly. After a few weeks the same people see the same ad six times, costs rise and results fall. Many Amsterdam brands hit this wall earlier than they expect.",
+        "The fix is rarely a bigger budget. It is usually a better structure: fresher creative on a schedule, frequency limits, audiences built on first-party data, and a plan for when and how to expand into Flanders, Germany or the Nordics. The paid media Amsterdam companies need from a partner is one that knows when to stop spending in a saturated audience and where to put the money next."
+      ]
+    },
+    {
+      "h": "Channels we run",
+      "list": [
+        "Google Ads: search, Performance Max, Shopping and YouTube, with Dutch and English keyword sets kept separate",
+        "Meta: Facebook and Instagram campaigns for consumer brands, built on a steady supply of tested creative",
+        "LinkedIn: B2B campaigns aimed at job titles and companies across Europe, often the main channel for European headquarters and SaaS firms",
+        "TikTok: reach and conversion campaigns for brands with a younger audience",
+        "Microsoft Ads and programmatic display where the audience justifies it",
+        "Retargeting across channels with frequency caps that respect people's patience"
+      ]
+    },
+    {
+      "h": "Measurement that survives consent rules",
+      "p": [
+        "Dutch and EU rules mean many visitors will decline tracking cookies, and they are entitled to. Since 2024 Google has required advertisers serving users in the European Economic Area to send consent signals, through Consent Mode, to use features such as remarketing and full conversion measurement. Accounts without a proper setup lose data and often bid blind.",
+        "We set up a consent platform that gives visitors a real choice, connect Consent Mode correctly, add server-side tagging where it makes sense and send offline conversions from your CRM back to the ad platforms. The result is fewer gaps, more honest numbers and bidding that learns from actual customers rather than form fills. The Digital Services Act also restricts some types of targeting, including ads profiled on minors or on sensitive personal data, and we plan audiences within those limits."
+      ]
+    },
+    {
+      "h": "Dutch creative, not translated English",
+      "p": [
+        "An English ad shown to Dutch consumers usually underperforms the same idea written in Dutch. Dutch audiences also respond poorly to hype; they prefer a clear offer, a real price and a bit of dry humour. We deliver strategy and reporting in English and arrange Dutch and other language copy with native localisation partners, so ads sound like they came from a Dutch company.",
+        "Our video and motion team can produce ad creative in volume, including short vertical cuts, product animations and AI video variants for testing. That matters on Meta and TikTok, where fresh creative is the main lever left."
+      ]
+    },
+    {
+      "h": "Planning around the Dutch calendar",
+      "list": [
+        "Koningsdag in late April: orange everything, and a busy day for hospitality and events",
+        "Summer holidays: B2B demand dips in July and August as much of the country takes leave",
+        "Amsterdam Dance Event in October: heavy competition for younger audiences in the city",
+        "Black Friday and Sinterklaas: the main gift season runs from late November to 5 December, ahead of Christmas",
+        "January: a strong month for financial services, health and education offers"
+      ]
+    },
+    {
+      "h": "How the mix changes by sector",
+      "p": [
+        "There is no standard channel split. The paid media Amsterdam businesses run should follow how their buyers decide, which looks very different from one sector to the next:"
+      ],
+      "list": [
+        "Consumer e-commerce: Shopping and Performance Max for demand that already exists, Meta and TikTok to create new demand, with product feeds kept clean and margins fed into bidding",
+        "SaaS and payments: LinkedIn to reach decision makers across Europe, Google search for comparison terms, and retargeting with case studies and demos",
+        "Professional services: tightly controlled search campaigns on high-intent Dutch terms, plus a small LinkedIn budget for brand among target firms",
+        "Hospitality and events: short, local bursts on Meta and Google around dates, with creative changed weekly",
+        "Recruitment and employer branding: LinkedIn and Meta campaigns aimed at international talent considering a move to the Netherlands",
+        "Logistics and B2B suppliers: search for service and route terms, with lead quality checked against the CRM before budgets grow"
+      ]
+    },
+    {
+      "h": "How a paid media engagement runs",
+      "p": [
+        "Talk is a 15-minute call about your targets, margins and current results. Plan is an audit of your accounts, tracking and creative, followed by a written roadmap within 5 to 7 days: channels, budget split, test plan and measurement fixes. Build is the setup and launch, with dates in writing. Grow is weekly optimisation and a monthly review where we decide together what to scale, what to cut and which market to test next."
+      ]
+    },
+    {
+      "h": "Reporting you can act on",
+      "p": [
+        "Our reports start with the numbers your finance team cares about: cost per qualified lead, cost per sale, return on ad spend and, where we can connect the data, revenue and margin by channel. Platform metrics such as clicks and reach come after, as diagnostics. Budgets and results are shown in euros."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE and managed more than $1.5M in projects. We can show you real account structures and reports on a call."
+      ]
+    },
+    {
+      "h": "Remote, on your working day",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. Campaigns are run remotely, with check-ins scheduled during the Dutch working day; we sit one hour behind CET. When a launch or a creative shoot calls for it, we travel to Amsterdam."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should we spend on ads in the Netherlands?",
+      "a": "It depends on your margins, the cost per click in your sector and how fast you want to learn. We set a test budget in the roadmap, with clear decision points for scaling up or stopping."
+    },
+    {
+      "q": "Do you run ads in Dutch?",
+      "a": "Yes. Strategy and reporting are in English, and Dutch ad copy is written by native localisation partners or your own team."
+    },
+    {
+      "q": "What is Consent Mode and do we need it?",
+      "a": "It is Google's way of passing visitors' consent choices to its ad and analytics tools. Advertisers targeting the EEA need it to use features such as remarketing and full conversion tracking, so in practice most do."
+    },
+    {
+      "q": "Should B2B companies in Amsterdam use LinkedIn ads?",
+      "a": "Often, yes. LinkedIn costs more per click, but it reaches the right job titles across Europe with little waste. We usually pair it with Google search for buyers already looking."
+    },
+    {
+      "q": "Can you take over our existing accounts?",
+      "a": "Yes. We start with an audit, keep what works and fix tracking first, so changes are measured properly. You keep ownership of all accounts."
+    },
+    {
+      "q": "When should we expand ads beyond the Netherlands?",
+      "a": "When Dutch campaigns are profitable and frequency is climbing, or when you already sell abroad. Belgium is often the first step, then Germany."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/paid-media",
+    "/locations/amsterdam/seo-geo",
+    "/locations/amsterdam/video-animation",
+    "/services/social-media-management",
+    "/services/influencer-campaigns"
+  ],
+  "keywords": {
+    "primary": "paid media amsterdam",
+    "secondary": [
+      "google ads bureau amsterdam",
+      "ppc agency amsterdam",
+      "linkedin ads agency netherlands",
+      "meta ads amsterdam",
+      "consent mode setup"
+    ]
+  }
+}

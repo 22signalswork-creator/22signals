@@ -1,0 +1,143 @@
+{
+  "path": "/locations/stockholm/3d-rendering",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering and CGI",
+  "title": "3D Rendering Stockholm: Products and Property | 22 Signals",
+  "description": "3D rendering for Stockholm brands, developers and exporters: product CGI, Scandinavian interiors and architectural visuals that replace shoots and samples.",
+  "eyebrow": "3D Rendering in Stockholm",
+  "h1": "3D rendering for Stockholm design brands, developers and manufacturers",
+  "intro": "We create 3D rendering and CGI for Stockholm companies that need product, interior and architectural images without the cost of physical samples and photo shoots. Furniture and lighting brands, property developers and industrial exporters use our renders for websites, catalogues, sales decks and ads. Work runs remotely from your CAD files, drawings or reference photos, with review rounds agreed in writing.",
+  "sections": [
+    {
+      "h": "Why CGI suits Scandinavian design",
+      "p": [
+        "Stockholm is home to a dense cluster of furniture, lighting, textile and homeware brands, and Scandinavian design has a very particular look: soft daylight, pale wood, natural materials, quiet colour and plenty of space. Getting that right in a photo studio is expensive. Every new colourway needs a new sample, every room set needs building, and the low winter light in Sweden limits when natural-light shoots are possible.",
+        "Rendering solves much of that. Once a product is modelled, it can be shown in every finish, in any room and in any light, and updated when the range changes. For many brands, the 3D rendering Stockholm design teams now order has quietly replaced a large share of catalogue photography."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Product CGI: packshots on white, close-up material details and exploded views",
+        "Lifestyle scenes: products placed in realistic Nordic interiors, styled to your brand",
+        "Colour and material variants: every finish and fabric from one model, for web shops and configurators",
+        "Interior visuals: offices, hotels, restaurants and retail spaces before they are fitted out",
+        "Architectural exteriors: new apartment blocks, offices and mixed-use developments in their real setting",
+        "Industrial equipment: machines, components and cutaways for sales and training",
+        "360 and interactive views: spin images and real-time models for product pages"
+      ]
+    },
+    {
+      "h": "Property: selling homes that do not exist yet",
+      "p": [
+        "New-build apartments in the Stockholm region are often sold off-plan, long before the building is finished. Buyers browsing listings on Hemnet or a developer's own site judge the project on a handful of images. Those images need to be accurate as well as attractive: the right floor plan, the right materials, the right view from the balcony and daylight that matches the orientation.",
+        "We work from architects' drawings and BIM or CAD models, and match each scene to the specification sheet. Where the final finish is not decided, we say so in the image notes rather than guessing. Accuracy protects the developer as much as the buyer."
+      ]
+    },
+    {
+      "h": "Exporters: showing machines to buyers abroad",
+      "p": [
+        "Many of Sweden's best-known companies sell heavy, complex equipment to customers on other continents. Shipping a machine to a trade fair is costly, and photographing it inside a factory rarely shows what matters. A 3D model can show the inside of a pump, the layout of a production line or how a component fits, in clean images and animations that work in any language.",
+        "We build from your engineering CAD files, simplify them for rendering and keep confidential details out of the final images where you ask. The same model can feed sales visuals, manuals, training material and trade fair screens."
+      ]
+    },
+    {
+      "h": "The sustainability case",
+      "p": [
+        "Swedish brands are often asked to show how they cut waste. Rendering can help in a concrete way. Fewer physical samples need making and shipping, fewer room sets are built and thrown away, and fewer shoots involve travel. We do not put a carbon figure on that for you, because it depends on your current process, but the reduction in samples and shoots is easy to count."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: a 15-minute call about the products or spaces, the use of the images and the look you want.",
+        "Plan: a brief, reference board, shot list and file requirements in a written plan within 5 to 7 days.",
+        "Build: modelling, materials, lighting and rendering, with draft and final review rounds dated in writing.",
+        "Grow: new variants, seasonal scenes, animations and interactive views from the same models over time."
+      ]
+    },
+    {
+      "h": "Getting the look right",
+      "p": [
+        "The difference between a good render and a believable one is in the detail: the slight grain of oak, the way linen creases, the colour of Nordic daylight at different times of year. We build a look reference with you before rendering, using your existing photography, brand guidelines and mood boards, and test it on one hero image before producing the full set.",
+        "Accurate colour matters for e-commerce, because returns rise when a product looks different on arrival. We match materials to physical samples or colour references you supply."
+      ]
+    },
+    {
+      "h": "One model, many uses",
+      "p": [
+        "We plan each model for every place it will appear. A web shop needs square packshots and zoom detail. A print catalogue needs high-resolution files with colour profiles for the printer. Social ads need vertical crops with room for text. A configurator needs a lighter real-time version. Setting this out at the start means you pay for modelling once and reuse the asset for years, adding new scenes as the range or the season changes."
+      ]
+    },
+    {
+      "h": "Remote production",
+      "p": [
+        "We have no Stockholm office, and rendering does not need one. You share CAD files, drawings, sample photos and references through a secure folder, and review drafts in a shared tool where you can mark up exact areas. Stockholm is one hour ahead of London, so review calls fit easily into your day. If physical samples are essential for matching, you can courier them to us."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "Number of products, variants and scenes",
+        "Whether usable CAD or 3D files exist or models are built from drawings and photos",
+        "Level of detail and image resolution",
+        "Interior or exterior scenes, and how much styling they need",
+        "Animation, 360 views or interactive models on top of stills",
+        "Review rounds and turnaround time"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Our 3D team works alongside web developers, paid media specialists and video producers. Renders go straight into product pages, ads and animations without passing between suppliers, and file formats are planned for every use from the start. If you need 3D rendering Stockholm buyers will take for a photograph, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What files do you need to start?",
+      "a": "CAD or 3D files are ideal, such as STEP, OBJ, FBX or native files from your design software. If you only have drawings and photos, we can model from those, which adds time to the plan."
+    },
+    {
+      "q": "Can renders replace our product photography?",
+      "a": "For packshots, variants and many lifestyle scenes, yes. Some brands still prefer photography for people and certain textures. Many mix both, with renders covering the variants a shoot cannot."
+    },
+    {
+      "q": "Can you render new-build apartments for sale listings?",
+      "a": "Yes. We work from the architect's drawings and the specification, and note anything not yet decided. Images are produced at the sizes listing sites and print brochures need."
+    },
+    {
+      "q": "Do you keep our CAD files confidential?",
+      "a": "Yes. Files are stored securely, shared only with the people working on your project and covered by confidentiality terms in the contract. We can also remove sensitive internal detail from final images."
+    },
+    {
+      "q": "Can the same model be used for animation?",
+      "a": "Yes. One model can produce stills, 360 views, animations and real-time product viewers. Planning for that at the start keeps later work faster and consistent."
+    },
+    {
+      "q": "How many review rounds are included?",
+      "a": "We agree the number in the plan, usually a round at the look-test stage, at draft and at final. Clear rounds keep the project on schedule and avoid late surprises."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/stockholm/video-animation",
+    "/industries/real-estate",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "3d rendering stockholm",
+    "secondary": [
+      "3d visualisering stockholm",
+      "product cgi sweden",
+      "architectural rendering stockholm",
+      "interior rendering scandinavian"
+    ]
+  }
+}

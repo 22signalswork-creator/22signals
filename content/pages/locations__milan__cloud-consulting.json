@@ -1,0 +1,131 @@
+{
+  "path": "/locations/milan/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Milan: AWS, Azure, Google | 22 Signals",
+  "description": "Cloud consulting in Milan: AWS, Azure and Google Cloud in their Italian regions, migration off old servers, security, NIS2 readiness and monthly cost reviews.",
+  "eyebrow": "Cloud Consulting in Milan",
+  "h1": "Cloud consulting in Milan, with Italian regions where you need them",
+  "intro": "We plan, move and run cloud infrastructure for Milan companies on AWS, Microsoft Azure and Google Cloud. All three now run regions in Milan, so data can stay in Italy when a contract or a customer asks for it. We secure access, test backups, cut waste from the monthly bill and stay on hand once the systems are live.",
+  "sections": [
+    {
+      "h": "Servers in the basement, bills nobody reads",
+      "p": [
+        "Plenty of Lombardy businesses still run their ERP, file shares and email archive on servers in a room next to the warehouse. The machines were bought years ago, the person who set them up has retired, and the backup has not been restored in living memory. Others moved to the cloud quickly during the pandemic and now pay a bill that grows every quarter without anyone knowing why.",
+        "Both cases call for the same work: understand what is running, decide what should run where, secure it and put someone in charge of it. That is the core of the cloud consulting Milan companies ask us for."
+      ]
+    },
+    {
+      "h": "Cloud regions in Milan and Italy",
+      "p": [
+        "Italy is well served. AWS has run its Europe (Milan) region since 2020. Google Cloud opened a Milan region in 2022 and also has one in Turin. Microsoft launched Azure Italy North, based in the Milan area, in 2023. Several Italian providers also run their own data centres around the city.",
+        "For most workloads, any EU region is fine under the GDPR. Some situations make an Italian region the better choice: public sector tenders, banking and insurance clients with strict outsourcing terms, healthcare data, or simply customers who ask in their contracts. Latency for users in Italy is lower too. We decide region by region, write the reasons down and make sure the choice will satisfy an auditor."
+      ]
+    },
+    {
+      "h": "What the work covers",
+      "list": [
+        "Assessment: an inventory of servers, applications, licences and data, with what each costs today",
+        "Architecture on AWS, Azure or Google Cloud, sized to real use rather than guesses",
+        "Migration of ERP, file servers, websites and databases, with tested rollback",
+        "Identity and access: single sign-on, multi-factor sign-in and least-privilege roles",
+        "Backups and disaster recovery that are restored on a schedule, not just taken",
+        "Monitoring and alerts that reach a named person",
+        "Monthly cost reviews to remove idle resources and right-size the rest",
+        "Managed operations after go-live, with response times agreed in writing"
+      ]
+    },
+    {
+      "h": "Security, NIS2 and what customers now ask",
+      "p": [
+        "Italy transposed the EU NIS2 directive in 2024, and it widened the range of companies with formal cybersecurity duties, including many medium and large manufacturers, food producers and suppliers to critical sectors. Even companies outside its scope feel the effect, because their larger customers now send security questionnaires before renewing contracts.",
+        "Cloud work is a good time to close the gaps those questionnaires expose. We set up logging, access reviews, encryption and incident procedures as part of the build, and document them so you can answer a customer or an auditor without starting from scratch. Your legal adviser decides whether NIS2 applies to you; we make sure the technical side is ready either way."
+      ]
+    },
+    {
+      "h": "Typical Milan cloud projects",
+      "list": [
+        "A family manufacturer moving its ERP and file server from an ageing on-site server to Azure, with the factory network linked securely",
+        "A fashion brand preparing its online store for the traffic spike around Milan Fashion Week and the seasonal sales",
+        "A design company moving large image and 3D libraries to cloud storage that dealers and agencies can reach safely",
+        "A financial services firm building a separate, logged environment for an AI pilot, kept in an Italian region",
+        "A distributor connecting warehouse, e-commerce and accounting systems through managed cloud services"
+      ]
+    },
+    {
+      "h": "How we run a cloud project",
+      "list": [
+        "Talk: a 15-minute call about what you run today and what worries your IT lead.",
+        "Plan: an assessment and written roadmap in 5 to 7 days, covering architecture, region, security and expected cost.",
+        "Build: engineers set up accounts, networks and identity, then migrate workloads in agreed windows, with dates in writing.",
+        "Grow: monthly reviews of cost, security and performance, and changes as the business adds sites or systems."
+      ]
+    },
+    {
+      "h": "Cutovers around the Italian calendar",
+      "p": [
+        "Timing matters. A migration in the week before Salone del Mobile, at the end of a financial quarter or before the August shutdown is asking for trouble. We plan cutovers around your busy periods, often over a weekend or in the quiet days of August when many Italian companies close. Every step has a tested way back.",
+        "We have broadcast more than 20 live events, where the date does not move and failure is public. The same discipline applies here: rehearse, check, then switch."
+      ]
+    },
+    {
+      "h": "Remote by design, on site when needed",
+      "p": [
+        "Cloud work is largely remote, and we do not have an office in Milan. Planned changes run during agreed windows on Central European Time, one hour ahead of London, so our engineers are working the same hours as your team. When hardware is involved, such as retiring servers or replacing a firewall at a plant, we plan a visit to Milan or the site, or coordinate with your local IT provider, and say which at the planning stage."
+      ]
+    },
+    {
+      "h": "Why one team for cloud and what runs on it",
+      "p": [
+        "The same company builds the websites, apps, dashboards and AI tools that sit on the infrastructure. That means fewer hand-offs when something changes and a cloud design shaped by how the applications really behave. When your e-commerce team plans a campaign or your analysts add a new data source, the people running the infrastructure already know about it, because they sit in the same planning calls. Problems that cross the line between application and infrastructure get solved by one group instead of being passed between two suppliers who each blame the other. Related services include cloud migration, DevOps consulting and data engineering."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud providers have regions in Milan?",
+      "a": "AWS runs its Europe (Milan) region, Microsoft runs Azure Italy North in the Milan area and Google Cloud has a Milan region plus one in Turin. We choose based on your systems, licences, residency needs and the services each region offers."
+    },
+    {
+      "q": "Do we have to keep our data in Italy?",
+      "a": "Usually not. The GDPR allows any EU region. Specific contracts, sector rules or public tenders may ask for Italian hosting. We map those needs first and your legal adviser confirms the position."
+    },
+    {
+      "q": "What does cloud consulting in Milan cost?",
+      "a": "It depends on how many workloads you have, how complex the migration is and whether you want ongoing management. We price after the assessment. Cloud provider bills are paid by you directly, and we work to reduce them."
+    },
+    {
+      "q": "Can you migrate our ERP without stopping the business?",
+      "a": "Most migrations need only a short planned pause. We test on a copy first, pick a quiet window such as a weekend or the August shutdown, and keep a rollback ready. Dates are agreed in writing beforehand."
+    },
+    {
+      "q": "Can you help us answer customer security questionnaires?",
+      "a": "Yes. We set up and document access control, logging, backups and incident steps as part of the work, which gives you evidence for questionnaires and NIS2 discussions."
+    },
+    {
+      "q": "Do you provide on-site support in Milan?",
+      "a": "Support is remote, during Italian working hours. For hardware tasks we plan a visit or work with your local IT provider. We have no staff based in Milan and will not suggest otherwise."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/milan/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting in milan",
+    "secondary": [
+      "consulenza cloud milano",
+      "aws milan region",
+      "azure italy north",
+      "cloud migration italy"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "path": "/locations/berlin/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Berlin: German Regions, Clear Costs | 22 Signals",
+  "description": "Cloud consulting for Berlin and German companies: AWS, Azure and Google Cloud in German regions, documented for auditors, secured, and reviewed for cost.",
+  "eyebrow": "Cloud consulting in Berlin",
+  "h1": "Cloud consulting in Berlin for firms that want data in Germany",
+  "intro": "We plan, secure and run cloud environments for Berlin scale-ups and German mid-sized companies on AWS, Microsoft Azure and Google Cloud. All three run regions in Germany, so most workloads can stay in the country. We document every choice for your auditors and data protection officer, cut spend nobody can explain, and can keep running the setup after launch.",
+  "sections": [
+    {
+      "h": "Two starting points we meet often",
+      "p": [
+        "The first is the server in the basement. A family-owned manufacturer runs its ERP, file shares and email archive on hardware bought eight years ago, maintained by one IT administrator and a local service partner. It works. It also means one failed controller, one flooded cellar or one ransomware attack away from a week without invoicing. The managing director knows this, but moving feels risky and nobody has had time to plan it.",
+        "The second is the Berlin start-up whose cloud credits have run out. The platform was built quickly on AWS or Google Cloud, with test environments nobody switched off, databases sized for a growth curve that has not arrived yet and no clear owner for the monthly bill. Now the CFO wants it halved without breaking anything.",
+        "Both need the same discipline: know what runs, decide where it should run, secure it, and make the cost visible. Good cloud consulting, Berlin scale-up or Mittelstand plant, starts with that inventory rather than a sales pitch for one provider. We work with all three major platforms and recommend the one that fits your systems, skills and contracts."
+      ]
+    },
+    {
+      "h": "Cloud regions in Germany",
+      "p": [
+        "Data location is usually the first question German clients ask, and the good news is that there are plenty of options. AWS, Microsoft Azure and Google Cloud all operate regions in Frankfurt, and Google opened a second German region in Berlin-Brandenburg in 2023. For most workloads that means data can stay in Germany, with backups in a second German or EU location.",
+        "Whether data must stay in Germany, or whether an EU region is fine, depends on your sector, your customer contracts and your own policy. Public sector and healthcare clients often write strict location clauses into tenders. Many B2B customers simply ask in their supplier questionnaires. We map those requirements first, then choose regions, and write the reasoning down."
+      ]
+    },
+    {
+      "h": "The questions your auditors and DPO will ask",
+      "list": [
+        "Where exactly is personal data stored and processed, including backups and logs?",
+        "Is there a data processing agreement with each provider, as Article 28 of the GDPR requires?",
+        "What happens to data access requests from outside the EU, and which transfer safeguards apply?",
+        "Do the services hold the C5 attestation, the cloud security criteria published by the German Federal Office for Information Security (BSI)?",
+        "Who has administrator access, how is it logged and how often is it reviewed?",
+        "Are backups tested, and how long does a full restore take?"
+      ]
+    },
+    {
+      "h": "What our cloud consulting covers",
+      "list": [
+        "Assessment: an inventory of what runs today, what it costs and where the risks are",
+        "Architecture: a design on AWS, Azure or Google Cloud sized for your real load",
+        "Migration: moving servers, databases and files with tested rollback and an agreed cutover window",
+        "Security baseline: identity and access, encryption, network rules, logging and backups you have actually restored",
+        "Cost review: idle resources, oversized machines, storage tiers and commitment discounts",
+        "Managed operations: monitoring, patching and incident response after launch, with response times agreed in writing"
+      ]
+    },
+    {
+      "h": "Security duties are widening",
+      "p": [
+        "The EU's NIS2 directive extends cybersecurity duties to many more mid-sized companies than the rules it replaced, including firms in manufacturing, logistics, food and digital services. Whether it applies to you depends on your size and sector, and your legal adviser should confirm that. Either way, the practical steps are the same ones a sensible cloud setup includes: know your systems, control access, log what happens, keep tested backups and have a written plan for incidents.",
+        "We build those into the design and hand over the documentation, so that when a customer, an insurer or an auditor asks, the answers already exist."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "list": [
+        "Talk: 15 minutes on what you run and what worries you most about it.",
+        "Plan: inventory, region decision, security baseline and cost estimate in a written roadmap within 5 to 7 days.",
+        "Build: environment setup and migration in stages, each with a date in writing and a rollback ready.",
+        "Grow: monthly cost and security reviews, and changes as you add sites, products or markets."
+      ]
+    },
+    {
+      "h": "Remote cloud work on Berlin hours",
+      "p": [
+        "We do not have a Berlin office, and cloud work is remote by nature. Berlin is one hour ahead of London, so planned changes can run early in the German morning or after close of business with our engineers on the same clock as your team. We plan cutovers away from month-end closing, peak order weeks and German public holidays.",
+        "When a migration involves physical hardware, such as switching off servers at your site, we either plan a visit or coordinate with your local IT service partner. We agree which one at the planning stage."
+      ]
+    },
+    {
+      "h": "Proof that dates hold",
+      "p": [
+        "We have broadcast more than 20 live events, where a missed deadline is visible to everyone watching. That habit carries into cloud work: cutover windows are fixed, rehearsed and kept. We have also delivered more than 30 AI builds that run on the cloud platforms we set up. We do not publish client names; examples are available on a call."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "p": [
+        "The cloud consulting Berlin and German clients buy from us is priced after the assessment. The main factors are the number and size of workloads, migration versus new build, location and compliance requirements, the security level needed and whether you want managed operations afterwards. Your own cloud bill is a separate cost, and reducing it is part of the job."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can our data stay in Germany?",
+      "a": "In most cases, yes. AWS, Azure and Google Cloud all run regions in Frankfurt, and Google also runs one in Berlin-Brandenburg. We choose services available in those regions and confirm that backups and logs stay where your policy says."
+    },
+    {
+      "q": "Is a US cloud provider allowed under GDPR?",
+      "a": "Many German companies use them lawfully, with EU regions, data processing agreements and recognised transfer safeguards in place. The details depend on your data and your risk view, so your data protection officer or legal adviser should confirm the position. We supply the technical documentation they need."
+    },
+    {
+      "q": "What is C5 and do we need it?",
+      "a": "C5 is a catalogue of cloud security criteria published by the BSI, Germany's federal cyber security office. Major providers hold C5 attestations. Some customers and public bodies ask for it, so we check which services in your design are covered."
+    },
+    {
+      "q": "Can you reduce our cloud bill?",
+      "a": "Often. Reviews usually find idle test environments, oversized databases, old snapshots and missed commitment discounts. We list each saving with its risk, make safe changes first and report results monthly. We do not promise a figure before seeing your account."
+    },
+    {
+      "q": "Do you offer cloud consulting in Berlin on site?",
+      "a": "The work is remote, on hours that match Berlin's working day. For hardware tasks or a planning workshop we can travel, or work with your local IT partner, and we agree which approach applies before the project starts."
+    },
+    {
+      "q": "How do you avoid downtime during migration?",
+      "a": "We test the new environment with real data first, plan the cutover for a quiet window, rehearse it and keep a rollback ready. Most moves need a short pause rather than a long outage, and the timing is agreed in writing."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/berlin/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting berlin",
+    "secondary": [
+      "cloud consultant germany",
+      "aws frankfurt region consulting",
+      "gdpr cloud hosting germany",
+      "cloud migration mittelstand"
+    ]
+  }
+}

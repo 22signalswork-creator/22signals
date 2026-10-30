@@ -1,0 +1,135 @@
+{
+  "path": "/locations/paris/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Paris: Strategy, EU AI Act, Pilots | 22 Signals",
+  "description": "AI consulting in Paris for established firms: find where AI pays off, plan around the EU AI Act and GDPR, choose the right models and build a working pilot.",
+  "eyebrow": "AI Consulting in Paris",
+  "h1": "AI consulting in Paris for firms that want a decision, not another demo",
+  "intro": "We help established Paris companies decide where AI is worth the money, set rules that fit the EU AI Act and GDPR, choose between European and American models, and build a first working pilot. You get a ranked shortlist and a written roadmap in 5 to 7 days, from a team that also builds what it recommends.",
+  "sections": [
+    {
+      "h": "Paris has the AI talent. Most companies still lack a plan",
+      "p": [
+        "Few cities have more AI activity than Paris. Mistral AI is based here, several of the largest technology groups run research labs in the city, Station F hosts a long list of AI startups, and France hosted the AI Action Summit in February 2025. The talent and the tools are close by.",
+        "Inside a typical company the picture is different. A luxury house has a chatbot trial in client services, a finance team at La Défense is testing contract review, marketing writes first drafts with ChatGPT, and the DPO wants to know where all that data goes. Nobody has decided which two or three uses deserve a real budget, who owns them and what the rules are.",
+        "That gap is what AI consulting in Paris should close. Strategy firms can write the board paper and leave the build to someone else. Developers can build but rarely ask whether the process is worth automating at all. We do both, so the people who recommend a change are answerable for whether it works."
+      ]
+    },
+    {
+      "h": "What our AI consulting covers",
+      "list": [
+        "Readiness review: your data, systems, people and risk, written in plain language.",
+        "Use-case discovery: every idea scored on value, effort and risk, cut down to a short list.",
+        "EU AI Act and GDPR mapping: what each planned system does, which category it falls into and what that requires.",
+        "Model and vendor choice: Mistral, OpenAI, Anthropic, Google, Microsoft Copilot or open-weight models, with build versus buy compared honestly.",
+        "AI policy and staff guidance that people can follow without a law degree.",
+        "A pilot on one real process, measured against the way it runs today.",
+        "Training for the teams who will use the system every day."
+      ]
+    },
+    {
+      "h": "The EU AI Act, in practical terms",
+      "p": [
+        "The EU AI Act entered into force in 2024, and its obligations phase in over several years. It sorts AI systems by risk. A small set of uses is banned outright, some uses count as high risk and carry heavy duties around data, documentation and human oversight, and many everyday tools only need transparency, such as telling people when they are talking to a chatbot. One of the first duties to apply asks companies to make sure staff who use AI understand it well enough to use it properly.",
+        "For most Paris businesses the work is less dramatic than the headlines. We list every AI system you use or plan to use, describe what it does, place it in a category and write down what that means for you. A recruitment screening tool needs far more care than a tool that drafts product descriptions. Your lawyers confirm the legal reading, and we make sure they get the facts they need early."
+      ]
+    },
+    {
+      "h": "GDPR and the CNIL when AI touches personal data",
+      "p": [
+        "Most useful AI touches personal data somewhere: customer histories, emails, CVs, call notes. In France the CNIL enforces GDPR and has published guidance on building and using AI systems that handle personal data. Before a pilot starts, we agree the legal basis, what data the model may see, how long anything is kept, whether a data protection impact assessment is needed and what a customer can ask you to delete.",
+        "This is also where model choice matters. Some providers let you keep prompts and outputs in EU data centres and switch off training on your data; others do not by default. We check the contract terms, not just the marketing page."
+      ]
+    },
+    {
+      "h": "Choosing models: European, American or open weights",
+      "p": [
+        "Paris companies often ask whether they should use a French model. Sometimes that is the right call. Mistral's models handle French well and can be hosted in Europe, which matters to some boards and some clients. In other cases a model from OpenAI, Anthropic or Google is better for the task, or an open-weight model running on your own infrastructure gives you the most control.",
+        "We test the candidates on your actual documents and questions, in French and in English, and compare accuracy, cost per task, hosting options and contract terms. The recommendation comes with the test results, so you can see why we made it."
+      ]
+    },
+    {
+      "h": "Bringing staff and the CSE with you",
+      "p": [
+        "In larger French companies, the CSE, the staff representative body, usually expects to be consulted before new technology changes how people work. AI tools that sort applications, monitor output or reshape a job fall squarely into that. Treating the consultation as an afterthought is the quickest way to stall a project.",
+        "We prepare clear material for that conversation: what the tool does, what it does not do, what data it uses and where a person stays in control. The same material becomes your internal AI policy and the basis of staff training."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay off in Paris sectors",
+      "list": [
+        "Luxury and fashion: client advisers who get a short brief on a client's history before an appointment, and product knowledge answers across collections.",
+        "Beauty: ingredient and claims questions answered consistently, with regulated wording checked by a person.",
+        "Finance and corporate teams at La Défense: contract and document review, policy search and first drafts of reports, with full audit trails.",
+        "Retail: product data cleaned and enriched across thousands of references, and customer service replies drafted in French and English.",
+        "Hospitality and events: enquiries sorted, quotes drafted and exhibitor or guest questions answered around the clock.",
+        "Startups and scale-ups: AI features scoped into the product properly, with the compliance questions answered before investors ask."
+      ]
+    },
+    {
+      "h": "How an engagement runs",
+      "list": [
+        "Talk: a 15-minute call about what you have tried, what worked and what worries you.",
+        "Plan: interviews, a review of your data and systems, and a written roadmap with a ranked shortlist in 5 to 7 days.",
+        "Build: a pilot on the top use case, with dates agreed in writing and progress shown weekly.",
+        "Grow: we measure the pilot against the old way, fix what needs fixing, then extend it or move to the next use case."
+      ]
+    },
+    {
+      "h": "Proof and how we work with Paris clients",
+      "p": [
+        "We have delivered more than 30 AI builds for companies that used to run on manual work: custom tools, assistants and automations now in daily use. We do not name clients, but we will walk you through relevant examples on a call.",
+        "We have no office in Paris. Workshops can run remotely or in person, with a Eurostar trip planned into the scope, and the rest of the work runs on shared hours, since Paris is one hour ahead of London. Work is delivered in English; French versions of policies or training material can be prepared with partners."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting in Paris usually cost?",
+      "a": "It depends on scope: how many teams are involved, how much data review is needed, whether the EU AI Act mapping covers one system or many, and whether a pilot build is included. We give a written scope and price after the first call, and third-party model costs are billed to you directly."
+    },
+    {
+      "q": "Does the EU AI Act apply to us if we only use ChatGPT or Copilot?",
+      "a": "Probably in a limited way. Companies that use AI tools, rather than build them, have fewer duties, but staff awareness and transparency still apply, and some uses such as recruitment or credit decisions carry more. We map what you use and what each use requires, and your lawyers confirm it."
+    },
+    {
+      "q": "Should a French company use Mistral?",
+      "a": "Sometimes. Mistral's models are strong in French and can be hosted in Europe, which can matter to your board or your clients. For some tasks another provider performs better or costs less. We test the options on your own material and show you the results before recommending one."
+    },
+    {
+      "q": "Do we need to consult the CSE before an AI project?",
+      "a": "In larger French companies, staff representatives usually expect consultation when new technology changes working conditions. Whether it applies to your project is a question for your HR and legal teams. We prepare clear, factual material about the tool to make that conversation easier."
+    },
+    {
+      "q": "Can you run workshops in Paris?",
+      "a": "Yes. Discovery workshops can be run in person in Paris, with travel planned into the scope, or remotely if your team prefers. Paris is one hour ahead of London, so remote sessions fit easily into a normal working day."
+    },
+    {
+      "q": "Do you only advise, or do you build too?",
+      "a": "We build. Most engagements end with a working pilot rather than a slide deck, and the same team can carry it into production, connect it to your systems and support it afterwards."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/ai-consulting",
+    "/locations/paris/ai-automation",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/services/custom-ai-development",
+    "/locations/london/ai-consulting"
+  ],
+  "keywords": {
+    "primary": "ai consulting in paris",
+    "secondary": [
+      "ai consultant paris",
+      "ai strategy paris",
+      "eu ai act consulting",
+      "ai consulting france",
+      "generative ai consulting paris"
+    ]
+  }
+}

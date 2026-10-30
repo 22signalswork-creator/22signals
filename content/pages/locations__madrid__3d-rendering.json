@@ -1,0 +1,148 @@
+{
+  "path": "/locations/madrid/3d-rendering",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering in Madrid: Property and Product CGI | 22 Signals",
+  "description": "3D rendering for Madrid developers, architects, interior designers and brands: photoreal CGI for off-plan homes, interiors, products, packaging and stands.",
+  "eyebrow": "3D Rendering in Madrid",
+  "h1": "3D rendering in Madrid for homes, interiors and products that do not exist yet",
+  "intro": "We create photoreal 3D renders for Madrid property developers, architects, interior designers, retailers and product brands. That covers exterior and interior CGI for off-plan homes, office and hotel fit-outs, product and packaging visuals, and trade fair stands, delivered as stills, animations and interactive views ready for portals, brochures, ads and sales suites.",
+  "sections": [
+    {
+      "h": "Selling what is still a drawing",
+      "p": [
+        "Madrid's property market has a steady pipeline of new homes and offices. Large urban schemes such as Madrid Nuevo Norte, newer districts such as Valdebebas and El Cañaveral, and many smaller infill projects across the city all need to sell or let space long before anyone can walk through it. Buyers decide from images, and the quality of those images shapes both the price and the speed of a sale.",
+        "The same is true outside property. A retailer planning a new store layout, a brand launching new packaging, or a manufacturer showing a machine at a trade fair all need convincing visuals before the physical thing exists. 3D rendering in Madrid serves all of these, and the fundamentals are the same: accurate models, believable light and materials, and images composed to sell."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Exterior CGI: buildings in their real setting, with Madrid's light, streets and views",
+        "Interior CGI: living spaces, kitchens, bathrooms and show flats for each home type",
+        "Commercial interiors: offices, hotel rooms, lobbies, restaurants and retail fit-outs",
+        "Product renders: hero shots, exploded views and detail close-ups for web shops and catalogues",
+        "Packaging: new designs shown on shelf and in hand before printing",
+        "Trade fair stands: layouts and finishes approved before build",
+        "Animations and walkthroughs: camera paths through a building or around a product"
+      ]
+    },
+    {
+      "h": "Renders for Spanish property portals and sales suites",
+      "p": [
+        "Most Spanish home buyers start on Idealista or Fotocasa, so renders have to work as listing photos first: sharp at small sizes, honest about the view and the space, and consistent across every home type in a development. For the sales suite, the same models can produce large-format prints, brochure spreads, video walkthroughs and interactive views for tablets.",
+        "We plan the full image set with the sales team before modelling starts: which homes, which rooms, which views and which seasons. That keeps the set consistent and avoids paying twice for the same scene."
+      ]
+    },
+    {
+      "h": "Accuracy you can stand behind",
+      "p": [
+        "Property renders are marketing, but buyers rely on them. Spanish consumer rules expect off-plan advertising not to mislead, and an image that shows a bigger terrace, a different finish or a view that will be blocked can cause disputes later. We build models from architectural drawings, use the real specification for finishes, and mark images as illustrative where details may change. Your team approves every image before it is published."
+      ]
+    },
+    {
+      "h": "Working with Madrid architects and interior designers",
+      "p": [
+        "Many Madrid architecture and interior design studios have strong design skills but limited time to produce high-end visuals for competitions and client presentations. We work from your drawings, models and material boards in common formats such as Revit, ArchiCAD, SketchUp, Rhino and AutoCAD, and return renders in your style. For competition deadlines, we schedule backwards from the submission date, with draft views for comment before final renders.",
+        "Hotel groups and restaurant operators use the same approach to approve concepts with owners and investors before committing to a fit-out budget."
+      ]
+    },
+    {
+      "h": "Product and packaging CGI for Spanish brands",
+      "p": [
+        "For food, drink, cosmetics, fashion accessories and homeware brands, product CGI replaces many studio shoots. Once a product is modelled, it can be shown in every colour, on any background and from any angle, which suits web shops, marketplaces and paid social. New packaging can be shown on a supermarket shelf or in a lifestyle scene before a single box is printed, which makes retailer pitches and internal approvals faster."
+      ]
+    },
+    {
+      "h": "Light, materials and the Madrid look",
+      "p": [
+        "Madrid has a recognisable light: clear, strong sun for much of the year, long shadows in winter afternoons and warm evenings on terraces. Buyers know it, and renders that use a grey northern sky look wrong straight away. We match the sun path to the site and the season, use local materials such as brick, stone and the pale render common on newer blocks, and add street life that fits the neighbourhood rather than a generic city."
+      ]
+    },
+    {
+      "h": "From model to campaign",
+      "p": [
+        "Because the same team runs video, 3D animation, paid media and web development, renders do not stop at a folder of JPEGs. The models can become a launch film, a set of social ads, a development website with home-by-home views, or an interactive product viewer on a web shop. Planning these uses from the start saves remodelling later."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: a 15-minute call on the project, the audience and the deadline, such as a launch, a portal listing or a fair.",
+        "Plan: we review drawings and references, agree the image list, styles and schedule, and send a written plan within 5 to 7 days.",
+        "Build: modelling, materials, lighting and drafts for comment, then final renders, with dates in writing.",
+        "Grow: extra views, seasonal updates, animations and new home types as the project develops."
+      ]
+    },
+    {
+      "h": "Remote production for Madrid clients",
+      "p": [
+        "We do not have an office in Madrid. Rendering is produced remotely from drawings, photos and site information, with review links and short calls. Madrid is one hour ahead of London, so comments sent in the morning can often be reflected the same day. If a project needs site photography or a drone plate for an exterior, we arrange it with local partners or work from what your team provides."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We produce 3D rendering, 3D animation and video for clients in several countries, and have managed more than $1.5M in projects. We do not name clients publicly, but on a call we will show renders close to your project type."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of images, views and home types",
+        "How complete and accurate the drawings and specifications are",
+        "Level of detail in landscaping, furniture and surroundings",
+        "Animations, walkthroughs or interactive views",
+        "Deadline and number of revision rounds"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What files do you need for 3D rendering in Madrid projects?",
+      "a": "Architectural drawings or a 3D model in formats such as Revit, ArchiCAD, SketchUp, Rhino or AutoCAD, plus a finishes specification, site photos and any references for style. We tell you what is missing at the planning stage."
+    },
+    {
+      "q": "How long does a set of property renders take?",
+      "a": "Planning takes 5 to 7 days. A typical set of exterior and interior views follows over a few weeks, depending on the number of images and the state of the drawings. Dates are agreed in writing."
+    },
+    {
+      "q": "Can the renders be used on Idealista and Fotocasa?",
+      "a": "Yes. We size and compose images to work as portal listing photos, as well as for brochures, websites, ads and large-format prints in the sales suite."
+    },
+    {
+      "q": "Do you show the real Madrid surroundings?",
+      "a": "Yes, where the brief calls for it. We use site photos, drone plates or map data to place the building in its real setting, and we keep views honest so buyers are not misled."
+    },
+    {
+      "q": "Can you render products and packaging, not only buildings?",
+      "a": "Yes. Product and packaging CGI is a large part of our 3D work, used for web shops, marketplaces, retailer pitches and paid social."
+    },
+    {
+      "q": "Can the 3D models be reused for animation?",
+      "a": "Yes. Once a building or product is modelled, we can produce walkthroughs, launch films and social clips from the same files, which costs far less than starting again."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/madrid/video-animation",
+    "/locations/madrid/paid-media",
+    "/industries/real-estate"
+  ],
+  "keywords": {
+    "primary": "3d rendering in madrid",
+    "secondary": [
+      "architectural rendering madrid",
+      "cgi property spain",
+      "interior renders madrid",
+      "product rendering spain",
+      "3d visualisation madrid"
+    ]
+  }
+}

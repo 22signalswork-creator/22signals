@@ -1,0 +1,138 @@
+{
+  "path": "/locations/dublin/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Dublin: Accessible Sites and Portals | 22 Signals",
+  "description": "Web development for Dublin businesses: accessible websites, e-commerce in euro and client portals, built to WCAG by default with GDPR-ready cookie consent.",
+  "eyebrow": "Web Development in Dublin",
+  "h1": "Web development Dublin businesses can launch with confidence",
+  "intro": "22 Signals handles web development for Dublin and Irish companies that need a site, shop or portal that is fast, accessible and easy to run. We plan the structure, design and build it, meet WCAG accessibility by default, set up cookie consent properly under EU rules, and prepare it to rank in Google and in AI answers.",
+  "sections": [
+    {
+      "h": "Accessibility is no longer optional for many Irish sites",
+      "p": [
+        "The European Accessibility Act has applied since June 2025 to a wide range of consumer-facing digital services, including e-commerce and banking, across EU member states, Ireland among them. Irish public sector bodies were already covered by earlier EU rules on website accessibility. In practice that means more Dublin companies are being asked by customers, partners and procurement teams to show their site works for people using screen readers, keyboards or magnification.",
+        "Every site we build meets WCAG accessibility guidelines as standard. That covers colour contrast, headings in the right order, labelled forms, keyboard navigation, captions and alt text, and we test with real assistive technology before launch. If you have an existing site, we can audit it and fix the gaps. We do not offer legal opinions on whether you fall under a particular law; your adviser does that."
+      ]
+    },
+    {
+      "h": "Web development: Dublin projects we see most often",
+      "p": [
+        "Three briefs come up again and again. The first is the established Irish firm whose site was built eight years ago, looks dated on a phone and cannot be edited without calling the original developer. The second is the startup that launched on a template and now needs proper product pages, pricing and integrations before a funding round. The third is the regional office that needs its own careers or product site, separate from the global one but consistent with it.",
+        "Each needs a different plan. The first is mostly content and structure, the second mostly integration and speed, the third mostly governance. We scope accordingly rather than selling the same package to all three."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites: clear service pages, team and sector pages, and content your staff can update.",
+        "E-commerce: Shopify or WooCommerce stores, prices in euro with VAT shown correctly, and shipping set up for Ireland, Northern Ireland and Britain.",
+        "Client portals: secure logins for documents, bookings, statements or project updates.",
+        "Recruitment sites: careers pages for Dublin teams competing for scarce technical and finance talent.",
+        "Headless and custom builds in React and similar frameworks, when speed or integration needs justify them.",
+        "Integrations with CRMs, booking tools, payment providers and your own systems.",
+        "Hosting, monitoring, updates and security patching after launch."
+      ]
+    },
+    {
+      "h": "Cookie consent done the Irish way",
+      "p": [
+        "Ireland's Data Protection Commission has been clear for some years that cookie banners must give people a real choice: no pre-ticked boxes, a reject option as easy to find as accept, and no non-essential tracking before consent. Plenty of Irish sites still get this wrong, usually because an analytics or ad tag fires on page load.",
+        "We audit every tag on the site, set up a consent platform that blocks non-essential scripts until people agree, connect Google Consent Mode where you run Google Ads, and write a cookie notice that matches what the site actually does. Your marketing data stays useful, and the site matches the rules the regulator has set out."
+      ]
+    },
+    {
+      "h": "Built for Irish searches and buyers",
+      "p": [
+        "A site for an Irish audience needs small details right. Prices in euro. Spelling that reads as Irish and British English, not American. Addresses with Eircodes and Dublin postal districts. Phone numbers in Irish format. Opening hours that reflect bank holidays such as St Patrick's Day and St Brigid's Day. These things affect trust, conversions and how Google matches your pages to local searches.",
+        "If you sell across the island, we plan how Northern Ireland visitors see sterling prices and UK delivery terms. If you sell across Europe, we plan the language structure so translations, arranged through partners, slot in cleanly. Our own work is delivered in English. Public bodies needing Irish language versions get the same treatment."
+      ]
+    },
+    {
+      "h": "For the Irish offices of global groups",
+      "p": [
+        "Many Dublin sites belong to the regional arm of a larger company: an EMEA careers site, a local product microsite, an Irish entity's regulatory pages. These projects come with brand guidelines, security reviews and a group IT team that wants to see how the site is hosted. We work inside those rules, document our choices and hand over a site your global team can audit."
+      ]
+    },
+    {
+      "h": "Speed, security and search from the start",
+      "list": [
+        "Core Web Vitals checked on mobile before launch.",
+        "Structured data so search engines and AI assistants understand your services, people and locations.",
+        "Redirect maps when replacing an old site, so existing rankings are not lost.",
+        "Security headers, form spam protection and regular plugin or dependency updates.",
+        "Analytics set up to respect consent and report the enquiries that matter."
+      ]
+    },
+    {
+      "h": "How the project runs: Talk, Plan, Build, Grow",
+      "p": [
+        "It starts with a 15-minute Talk about what the site needs to do. In Plan we run discovery and deliver a written roadmap with sitemap, content needs, integrations and dates within 5 to 7 days. Build happens in stages you can review, with launch dates set in writing. Grow covers improvements after launch: new pages, search work, conversion testing and support.",
+        "Ireland shares London's time zone, so design reviews and launch calls happen in your working day. We work remotely and travel to Dublin for workshops when a project needs people around one table."
+      ]
+    },
+    {
+      "h": "Our work so far",
+      "p": [
+        "We have worked with more than 30 companies on websites, portals, e-commerce, search and the systems behind them, including site rebuilds and malware clean-ups for law firms. We do not name clients, but we will show you comparable builds on a call."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "Number of page templates and how much content needs writing.",
+        "E-commerce scope: products, variants, markets and payment options.",
+        "Integrations with CRMs, booking or finance systems.",
+        "Portal features such as logins, roles and document storage.",
+        "Ongoing hosting, support and search work."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a new website take?",
+      "a": "A focused company website usually takes a few weeks from approved roadmap to launch. E-commerce and portals take longer, depending on integrations and content. You get the dates in writing after the 5 to 7 day planning stage."
+    },
+    {
+      "q": "Do your sites meet accessibility standards?",
+      "a": "Yes. WCAG accessibility is built into every site we deliver, and we test with screen readers and keyboard navigation before launch. We can also audit and fix an existing site."
+    },
+    {
+      "q": "Does the European Accessibility Act apply to my website?",
+      "a": "It applies to many consumer-facing digital services, such as e-commerce and banking, though there are exemptions, including some for very small businesses. Your legal adviser should confirm whether it covers you. Either way, an accessible site reaches more customers."
+    },
+    {
+      "q": "Can you set up cookie consent correctly?",
+      "a": "Yes. We audit every tracking tag, block non-essential scripts until consent, make rejecting as easy as accepting and connect Google Consent Mode where needed, in line with the Data Protection Commission's guidance."
+    },
+    {
+      "q": "Can you sell to Northern Ireland and Britain from an Irish store?",
+      "a": "Yes. We set up currency, tax display and shipping rules for each market, so visitors from Northern Ireland or Britain see sterling and the right delivery terms while Irish customers see euro."
+    },
+    {
+      "q": "Which platforms do you build on?",
+      "a": "WordPress, Shopify, WooCommerce and custom React builds are the most common. We recommend the platform based on who will edit the site, what it must connect to and how fast it needs to be."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/web-app-development",
+    "/locations/dublin/seo-geo",
+    "/locations/dublin/app-development",
+    "/case-studies/personal-injury-law-firm-website-rebuild",
+    "/case-studies/law-firm-website-malware-cleanup"
+  ],
+  "keywords": {
+    "primary": "web development dublin",
+    "secondary": [
+      "web design dublin",
+      "website developers ireland",
+      "accessible website ireland",
+      "ecommerce developer dublin"
+    ]
+  }
+}

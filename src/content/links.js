@@ -31,25 +31,26 @@ export function linkBlocks(page, manifest) {
   if (page.kind === "service") {
     const svc = CITY_SERVICES.find((s) => s.global === page.path);
     if (svc)
-      for (const r of ["us", "uk", "uae", "pk"])
+      for (const r of ["us", "uk", "eu", "uae", "pk"])
         add(`${svc.label} in ${REGION_LABELS[r]}`, CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}/${svc.slug}`, label: x.name })));
   }
   if (page.kind === "state-hub") {
     const state = page.path.endsWith("texas") ? "Texas" : page.path.endsWith("california") ? "California" : "";
     add(`Cities in ${state}`, CITIES.filter((x) => x.state === state).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
-  if (page.kind === "market" || ["/united-states", "/united-kingdom", "/uae", "/pakistan"].includes(page.path)) {
-    const r = { "/united-states": "us", "/united-kingdom": "uk", "/uae": "uae", "/pakistan": "pk" }[page.path];
+  if (page.kind === "market" || ["/united-states", "/united-kingdom", "/europe", "/uae", "/pakistan"].includes(page.path)) {
+    const r = { "/united-states": "us", "/united-kingdom": "uk", "/europe": "eu", "/uae": "uae", "/pakistan": "pk" }[page.path];
     if (r) add(`Cities we serve in ${REGION_LABELS[r]}`, CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
   if (page.kind === "locations-index") {
     add("Regions", [
       { path: "/united-states", label: "United States" },
       { path: "/united-kingdom", label: "United Kingdom" },
+      { path: "/europe", label: "Europe" },
       { path: "/uae", label: "UAE" },
       { path: "/pakistan", label: "Pakistan" },
     ]);
-    for (const r of ["us", "uk", "uae", "pk"])
+    for (const r of ["us", "uk", "eu", "uae", "pk"])
       add(REGION_LABELS[r], CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
   if (page.kind === "industry") add("Services", SERVICES.slice(0, 12).map((s) => ({ path: s.path, label: s.label })));

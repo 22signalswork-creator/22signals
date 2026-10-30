@@ -1,0 +1,140 @@
+{
+  "path": "/locations/milan/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in Milan: Google, Meta, LinkedIn, TikTok | 22 Signals",
+  "description": "Paid media in Milan planned around Fashion Week, Salone and the sales seasons: Google, Meta, LinkedIn and TikTok campaigns measured on enquiries and sales.",
+  "eyebrow": "Paid Media in Milan",
+  "h1": "Paid media in Milan, timed to the city's calendar",
+  "intro": "We plan and run paid media for Milan brands and B2B companies on Google, Meta, LinkedIn and TikTok. Budgets follow the moments that matter in Milan, such as Fashion Week, Salone del Mobile and the seasonal sales, and results are measured on enquiries, orders and revenue rather than clicks. You see every figure, and your spend stays in your own ad accounts.",
+  "sections": [
+    {
+      "h": "A city that runs on fixed dates",
+      "p": [
+        "Few cities have a commercial calendar as clear as Milan's. Fashion Week arrives twice a year for womenswear, with menswear in January and June. Salone del Mobile and Fuorisalone fill the city every April. The regional sales periods start in January and July. Each of these moments brings a surge of searches, social traffic and competition for the same audience.",
+        "Campaigns that ignore that calendar waste money. Costs per click rise when every brand bids at once, and creative made for a quiet month looks flat beside the launches. Good paid media in Milan plans the year around these dates: when to build an audience, when to spend hard and when to step back."
+      ]
+    },
+    {
+      "h": "Channels and what we use them for",
+      "list": [
+        "Google Search and Shopping: people already looking for your product or service, in Italian and in your export markets",
+        "Performance Max and YouTube: reach and remarketing for brands with strong video and product feeds",
+        "Meta (Instagram and Facebook): product launches, collections, events and retargeting for consumer brands, where Instagram carries most of the weight",
+        "LinkedIn: B2B buyers, architects, specifiers, distributors and procurement teams across Europe",
+        "TikTok: younger audiences for fashion, beauty, food and lifestyle brands, with creative made for the format"
+      ]
+    },
+    {
+      "h": "Consumer brands and B2B need different plans",
+      "p": [
+        "A fashion or beauty brand selling online measures success in orders, return rates and repeat customers. Creative refreshes often, and product feeds must stay accurate as stock sells through. For these clients we focus on Meta and Google Shopping, with clear tracking from ad to checkout.",
+        "A machinery maker in Bergamo or a lighting manufacturer in Brianza sells through quotes and long conversations. A click is worth nothing until it becomes a qualified enquiry. Here we lean on Google Search for specific technical terms and LinkedIn for reaching the right roles, and we connect the ad accounts to your CRM so we can see which campaigns produce real opportunities."
+      ]
+    },
+    {
+      "h": "Italian creative and Italian rules",
+      "p": [
+        "Ads aimed at Italian customers need Italian copy that sounds natural, and visuals that feel at home next to Milan's own brands. Our team plans, builds and runs campaigns in English. Italian ad copy is written or reviewed by native partners we arrange, and we test several versions to see which one performs.",
+        "Advertising in Italy follows the consumer code and the self-regulatory code of the Istituto dell'Autodisciplina Pubblicitaria, and AGCOM has set rules for larger influencers. Price claims, discounts during sales periods and environmental claims all need care. We flag anything risky and your adviser has the final word."
+      ]
+    },
+    {
+      "h": "Tracking that respects consent",
+      "p": [
+        "Measurement in Italy has to work within the GDPR and the Garante's cookie guidelines. That means no tracking before consent, and a growing share of visitors who say no. We set up consent mode, server-side tagging where it fits and conversion imports from your CRM or shop, so campaigns can still be judged on real outcomes. We tell you what can and cannot be measured, instead of filling the gap with guesses."
+      ]
+    },
+    {
+      "h": "How campaigns run: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about your targets, margins and season.",
+        "Plan: an account audit and a written media plan with budgets, channels and dates, in 5 to 7 days.",
+        "Build: tracking, audiences, feeds, creative and campaigns set up and checked before spend starts.",
+        "Grow: weekly optimisation, monthly reporting and a quarterly review of where the budget goes next."
+      ]
+    },
+    {
+      "h": "Planning a Milan event campaign",
+      "p": [
+        "For a launch at Salone or during Fashion Week, the work starts months before. We build audiences of past visitors, buyers and press in the weeks ahead, prepare creative for each stage, and plan the spend to peak in the days when people are in the city and searching for showrooms, events and stands. After the event, remarketing follows up with the people who came and those who did not.",
+        "We have broadcast more than 20 live events, so we know how much depends on planning and how little room there is for a late fix on the day itself."
+      ]
+    },
+    {
+      "h": "Reporting you can act on",
+      "p": [
+        "Every month you get a short written report: spend, results against target, what changed and what we will do next. For B2B clients we report pipeline and won deals where your CRM allows. For e-commerce we report revenue and return on ad spend after returns where your data allows. Accounts stay in your name, so the history belongs to you if you ever move on."
+      ]
+    },
+    {
+      "h": "Creative is most of the result",
+      "p": [
+        "On Meta and TikTok especially, the ad itself decides more than the targeting. A strong product video or a clear before-and-after image will beat a clever audience setting almost every time. Because our team also produces video, motion graphics, AI video and 3D renders, we can make new creative quickly when results show fatigue, rather than waiting weeks for an outside studio.",
+        "We test in a simple, disciplined way: a few clear variations at a time, enough budget to read the result, then the winner gets more spend and the next test begins. You see which versions won and why, so the lessons feed into your wider brand work as well."
+      ]
+    },
+    {
+      "h": "Remote management for Milan businesses",
+      "p": [
+        "We do not have an office in Milan. Campaigns run remotely on Central European Time, one hour ahead of London, so changes happen during your working day. We visit for planning sessions or event launches when it makes a real difference."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "Number of channels and markets",
+        "Volume of creative and how often it changes",
+        "Tracking and CRM integration work",
+        "Ad spend, which you pay directly to each platform"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much should we spend on paid media in Milan?",
+      "a": "It depends on your margins, targets and how competitive your market is. We propose a test budget in the media plan, then scale what works. Ad spend is paid directly by you to each platform."
+    },
+    {
+      "q": "Which platform works best for Italian consumer brands?",
+      "a": "For most fashion, beauty and lifestyle brands, Instagram through Meta and Google Shopping carry the most weight, with TikTok growing for younger audiences. We test and shift budget based on results."
+    },
+    {
+      "q": "Can you run campaigns in several countries?",
+      "a": "Yes. Many Milan brands sell across Europe, the UK, the US and the Gulf. We set up campaigns by market with the right language and budget for each."
+    },
+    {
+      "q": "Who writes the Italian ads?",
+      "a": "Our team runs the campaigns in English. Italian copy is written or reviewed by native partners we arrange, so ads sound natural to Italian customers."
+    },
+    {
+      "q": "How do you measure results if people refuse cookies?",
+      "a": "We use consent mode, server-side tagging where it fits and conversion imports from your shop or CRM. We are also clear about what cannot be measured, so decisions rest on solid data."
+    },
+    {
+      "q": "Do we keep our ad accounts?",
+      "a": "Yes. All ad accounts, pixels and data stay in your company's name. We work inside them with the access you grant."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/paid-media",
+    "/locations/milan/seo-geo",
+    "/locations/milan/video-animation",
+    "/services/influencer-campaigns",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media in milan",
+    "secondary": [
+      "agenzia google ads milano",
+      "meta ads italy",
+      "ppc agency milan",
+      "linkedin ads italy"
+    ]
+  }
+}

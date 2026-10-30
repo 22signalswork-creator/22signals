@@ -1,0 +1,128 @@
+{
+  "path": "/locations/paris/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting in Paris: Sovereignty and Cost | 22 Signals",
+  "description": "Cloud consulting for Paris companies: AWS, Azure, Google Cloud or French providers, data kept in France when needed, security for DORA and NIS2, lower bills.",
+  "eyebrow": "Cloud Consulting in Paris",
+  "h1": "Cloud consulting in Paris, starting with where your data should live",
+  "intro": "We design, secure and run cloud infrastructure for Paris companies on AWS, Azure, Google Cloud and French providers. The first question in France is usually sovereignty, so we settle where data lives and who can reach it, then build the environment, harden it, cut wasted spend and stay on to run it if you want us to.",
+  "sections": [
+    {
+      "h": "In France, the sovereignty question comes first",
+      "p": [
+        "Ask a Paris IT director about the cloud and the conversation soon turns to sovereignty. Where is the data physically stored? Which country's law can reach the provider? Will a public sector client or a large customer accept an American hyperscaler, or will the tender ask for a French or European one? These questions come up far more often in France than in most other markets.",
+        "There is no single right answer. A fashion e-commerce site may run perfectly well on AWS in Paris. A health platform needs certified hosting. A supplier to French government bodies may need a provider with a specific national qualification. Good cloud consulting in Paris starts by sorting each system into the right bucket, before anyone opens a console."
+      ]
+    },
+    {
+      "h": "What our cloud work covers",
+      "list": [
+        "Audit of what runs today: servers, services, licences, costs and the people who hold the passwords.",
+        "Sovereignty and residency decisions for each system, written down so auditors and clients can follow them.",
+        "Architecture on AWS, Azure, Google Cloud, OVHcloud or Scaleway, sized for real load.",
+        "Identity, access, encryption, logging and backups that have actually been restored in a test.",
+        "Migration plans with rollback, timed around your business calendar.",
+        "Cost reviews that remove idle resources and right-size the rest.",
+        "Managed operations after launch, with response times agreed in writing."
+      ]
+    },
+    {
+      "h": "Cloud regions in and around Paris",
+      "p": [
+        "All three large American providers run regions in France. AWS has its Europe (Paris) region, Microsoft Azure runs France Central in the Paris area and France South near Marseille, and Google Cloud has a Paris region. French providers such as OVHcloud and Scaleway run their own data centres in France and are often shortlisted when a client prefers a European company.",
+        "Keeping data in France is therefore usually possible whichever route you take. The harder question is legal reach and contract terms, which differ between providers and between their standard and sovereign offers. We compare them on your actual workloads, including the services you need, the support you get and the price."
+      ]
+    },
+    {
+      "h": "SecNumCloud, HDS and when they matter",
+      "p": [
+        "Two French labels come up regularly. SecNumCloud is a security qualification issued by ANSSI, the national cybersecurity agency, for cloud offers that meet strict technical and legal requirements. Public bodies and some large companies ask for it for sensitive data. HDS is the certification required to host personal health data in France, so clinics, health apps and insurers handling medical information need an HDS-certified host.",
+        "Many businesses need neither. We check your contracts, your sector and your customers' demands, recommend the level that applies and avoid paying for a qualification nobody asked for. Your legal and compliance teams confirm the final position."
+      ]
+    },
+    {
+      "h": "Finance at La Défense: DORA and NIS2",
+      "p": [
+        "Banks, insurers, investment firms and payment companies in the EU have applied DORA, the Digital Operational Resilience Act, since January 2025. It sets rules for managing technology risk, testing resilience, reporting incidents and overseeing cloud and software suppliers. For a finance team at La Défense, that means exit plans from each provider, tested recovery and a register of third-party technology.",
+        "NIS2, the wider EU cybersecurity directive, brings security and incident reporting duties to many more sectors, including energy, transport, health, digital services and some manufacturers. We design environments with these in mind: clear ownership, logging you can produce on request, recovery tested on a schedule and supplier details written down."
+      ]
+    },
+    {
+      "h": "Keeping the bill under control",
+      "p": [
+        "The second most common complaint after sovereignty is cost. Environments grow, test servers are forgotten, storage is never cleaned and a monthly invoice in euros nobody can explain lands on the CFO's desk. A cost review usually finds savings in idle resources, oversized machines and missed commitment discounts.",
+        "We list each saving with the effort and risk involved, make the safe changes first and set up tagging and budgets so costs stay visible by team or product. We do not promise a figure before we have seen your account. Savings that need code changes, such as moving a batch job to lower-priced capacity, go on the roadmap with the effort shown, so you decide whether they are worth it."
+      ]
+    },
+    {
+      "h": "How a cloud project runs",
+      "list": [
+        "Talk: a 15-minute call about what you run, what it costs and what keeps your IT lead awake.",
+        "Plan: an audit, a residency decision per system, a security baseline and a cost estimate, written up in 5 to 7 days.",
+        "Build: accounts, networks, identity and monitoring set up, then workloads moved with a tested rollback, on dates agreed in writing.",
+        "Grow: monthly cost and security reviews, and changes as you add systems, sites or markets."
+      ]
+    },
+    {
+      "h": "Proof that dates hold",
+      "p": [
+        "We have broadcast more than 20 live events, where the start time never moves and everything behind the camera has to work first time. We plan cloud cutovers the same way: rehearsed, timed and with a fallback ready. For Paris retailers that means avoiding the soldes and the Christmas peak; for finance teams, avoiding the quarter close."
+      ]
+    },
+    {
+      "h": "Working with us from Paris",
+      "p": [
+        "Cloud work is mostly remote by nature, and Paris is one hour ahead of London, so planned changes can run early in the Paris morning or after close of business with engineers alert. We have no office in Paris. When a project involves physical hardware, such as retiring servers in a data centre in the Paris region, we either plan a visit or coordinate with your hosting provider, and we agree which at the scoping stage. Documentation is written in English."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can our data stay in France?",
+      "a": "Usually, yes. AWS, Azure and Google Cloud all run regions in France, and French providers such as OVHcloud and Scaleway operate French data centres. We choose regions per system and record the decision so auditors and clients can follow it."
+    },
+    {
+      "q": "Do we need a SecNumCloud provider?",
+      "a": "Only if your contracts, sector or customers require it, which is most common for public bodies and very sensitive data. Many businesses do not. We review what applies to you and recommend accordingly, and your compliance team confirms it."
+    },
+    {
+      "q": "We handle health data. What changes?",
+      "a": "Personal health data in France must be hosted by an HDS-certified provider. Several large and French providers offer certified services. We build the environment on one of them and design access and logging to match."
+    },
+    {
+      "q": "How does cloud consulting in Paris help with DORA?",
+      "a": "For financial entities, DORA requires tested resilience, incident reporting and oversight of technology suppliers. We design and document the cloud side: exit plans, recovery tests, logging and a supplier register your risk team can use."
+    },
+    {
+      "q": "Can you reduce our current cloud costs?",
+      "a": "Often. Reviews usually find idle resources, oversized machines and missed discounts. We rank each saving by effort and risk, make the safe ones first and report the result monthly."
+    },
+    {
+      "q": "Do you offer support after migration?",
+      "a": "Yes. We can run the environment for you with response times agreed in writing, or hand it over to your own team with documentation and training. Many clients start with managed support and take over later."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/paris/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting in paris",
+    "secondary": [
+      "cloud consultant paris",
+      "sovereign cloud france",
+      "aws partner paris",
+      "cloud migration france",
+      "secnumcloud"
+    ]
+  }
+}

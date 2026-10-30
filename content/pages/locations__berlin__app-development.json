@@ -1,0 +1,139 @@
+{
+  "path": "/locations/berlin/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Berlin: MVPs and Business Apps | 22 Signals",
+  "description": "App development for Berlin founders and German firms: iOS, Android and web apps, from first MVP to field service and customer apps, with privacy designed in.",
+  "eyebrow": "App development in Berlin",
+  "h1": "App development in Berlin, from first MVP to apps that run a business",
+  "intro": "We design and build iOS, Android and web apps for Berlin founders who need a product in users' hands, and for established German companies that need apps for customers, dealers or service technicians. Scope is fixed in writing before code starts, privacy is planned for EU users from day one, and the same team can market the app once it ships.",
+  "sections": [
+    {
+      "h": "Two very different app briefs",
+      "p": [
+        "A Berlin founder with a pre-seed round usually has one question: what is the smallest product that proves people want this? The risk is building too much. Six months of features, no users, and a runway that is now half gone. The job is to cut the idea down to the core loop, ship it to real users and learn fast.",
+        "A Mittelstand company has a different risk. A machine builder wants an app for its service technicians, or a wholesaler wants customers to reorder from their phones. The users are known, the processes exist and the app must fit around SAP, a ticket system and decades of habits. The risk here is not building too much. It is building something people will not adopt because it ignores how they actually work.",
+        "We handle both, and the first conversation decides which kind of project yours is."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "MVPs: a focused first version for founders, built to test demand and raise the next round",
+        "Consumer apps: iOS and Android apps with sign-up, payments, notifications and analytics set up correctly",
+        "Field service apps: job lists, checklists, photos, signatures and spare part orders for technicians, working offline when the signal drops",
+        "Customer and dealer apps: ordering, order tracking, documentation and support for B2B buyers",
+        "Internal tools: web apps that replace spreadsheets and paper forms on the shop floor or in the warehouse",
+        "SaaS products: multi-tenant web apps with billing, roles and admin tools"
+      ]
+    },
+    {
+      "h": "Payments and sign-up the German way",
+      "p": [
+        "German users have strong payment habits. PayPal is widely used, SEPA direct debit is normal for subscriptions, and purchase on invoice remains popular in many categories. Card-only checkouts lose people. For B2B apps, customers often expect ordering on account with their agreed terms rather than any checkout at all.",
+        "Sign-up matters just as much. German users notice when an app asks for more data than it needs. We keep onboarding short, explain why each permission is requested, and make account deletion easy to find, which app stores also require."
+      ]
+    },
+    {
+      "h": "Privacy and tracking inside apps",
+      "p": [
+        "Mobile apps often ship with analytics, crash reporting and advertising libraries that send data to third parties. Under the GDPR and German rules on device access, most of that needs a legal basis, and much of it needs consent before it runs. Apple and Google also require accurate privacy labels in their stores.",
+        "We list every third-party library in the app, what it sends and where, then configure consent and data flows to match. Back ends run in EU regions by default, and data processing agreements are in place. Your data protection officer gets a clear record they can check, rather than reverse engineering the app after launch."
+      ]
+    },
+    {
+      "h": "Health apps and the DiGA route",
+      "p": [
+        "Berlin has a large health tech community, and Germany offers a route few other countries do. Digital health applications, known as DiGA, can be prescribed by doctors and paid for by statutory health insurance once the federal drug and medical devices institute, BfArM, has listed them. Listing requires the app to meet medical device, data protection, security and evidence requirements.",
+        "We are not a regulatory consultancy, and a DiGA needs specialist advice on medical device rules and clinical evidence. What we bring is the product build: clean architecture, careful data handling and documentation habits that make the regulatory work easier for your advisers rather than harder."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "list": [
+        "Talk: 15 minutes on the problem, the users and the deadline that matters, such as a funding round or a trade fair.",
+        "Plan: user flows, a feature cut, technical choices and a written roadmap in 5 to 7 days.",
+        "Build: specialist teams design and develop in short cycles, with a test build in your hands early and dates in writing.",
+        "Grow: store listings, launch campaigns, analytics review and the next round of improvements."
+      ]
+    },
+    {
+      "h": "Remote build, real user testing",
+      "p": [
+        "We have no office in Berlin. Product reviews happen over video calls, test builds go out through TestFlight and Google Play testing tracks, and feedback lands in one shared board. With Berlin one hour ahead of London, daily or weekly check-ins sit inside normal working hours.",
+        "For field and shop floor apps, watching real users matters. When a technician's day or a warehouse routine needs to be seen in person before we design, we plan a site visit into the scope."
+      ]
+    },
+    {
+      "h": "Questions to ask any app partner",
+      "p": [
+        "Whoever you hire for app development, Berlin agency or remote team, ask the same few questions before signing. Who owns the code and the store accounts? What happens when Apple or Google release a new operating system? How are bugs reported and how fast are they fixed? What does the first test build contain, and when will you hold it?",
+        "We answer each of these in the written roadmap, so you can compare us fairly with anyone else on your shortlist."
+      ]
+    },
+    {
+      "h": "Launch is the middle, not the end",
+      "p": [
+        "Many app development Berlin projects stall after release because nobody planned how users would find the app. Our team also runs app store optimisation, paid campaigns, social content and video, so launch planning starts during the build rather than the week before.",
+        "We have worked with more than 30 companies and managed more than $1.5M in projects. We do not publish client names, but we will walk you through relevant builds on a call."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "Platforms: iOS, Android, web, or a shared code base across them",
+        "Number of screens, user roles and integrations with ERP, CRM or payment providers",
+        "Offline needs, device features and security requirements",
+        "Localisation into German or other languages through partners",
+        "Ongoing maintenance, updates for new operating system versions and support"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does an MVP take?",
+      "a": "It depends on the core feature set. A focused MVP often takes a few months from the approved roadmap. We cut scope hard during planning so the first version tests the main idea without months of extras."
+    },
+    {
+      "q": "Native or cross-platform?",
+      "a": "For most business and MVP apps, a cross-platform framework such as React Native or Flutter covers iOS and Android from one code base. Native builds make sense for heavy device use or very demanding performance. We recommend after seeing the requirements."
+    },
+    {
+      "q": "Can you deliver a German version of the app?",
+      "a": "Yes. We build in English and arrange German localisation of interface text, store listings and help content with partners you approve. Layouts are tested with real German text, which often runs longer than English."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. At handover you receive the source code, store accounts, credentials and documentation, so your own team or another supplier can continue the work."
+    },
+    {
+      "q": "Can you connect an app to SAP?",
+      "a": "Usually, through the interfaces your SAP setup provides or through middleware. We confirm what your version and licences allow during planning, and agree the connection method in writing before building."
+    },
+    {
+      "q": "Do you build DiGA apps?",
+      "a": "We build the product, with data handling and documentation suited to regulated health software. Medical device classification, clinical evidence and the BfArM application need specialist regulatory advisers, and we work alongside them."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/app-development",
+    "/locations/berlin/web-development",
+    "/industries/healthcare",
+    "/industries/technology-ai",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "app development berlin",
+    "secondary": [
+      "app agency berlin",
+      "mvp development berlin",
+      "app developer germany",
+      "field service app development"
+    ]
+  }
+}

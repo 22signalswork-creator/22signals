@@ -1,0 +1,141 @@
+{
+  "path": "/locations/zurich/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Zurich: Back-Office Work, Checked | 22 Signals",
+  "description": "AI automation for Zurich insurers, banks and service firms: multilingual inbox triage, document checks, onboarding and reporting, with people signing off.",
+  "eyebrow": "AI Automation in Zurich",
+  "h1": "AI automation for Zurich back offices that handle four languages",
+  "intro": "We build AI automations that take repeated back-office work off Zurich teams: sorting emails that arrive in German, French, Italian and English, reading documents, preparing onboarding files and drafting routine reports. Your staff stay in control and approve anything that matters. Each build starts with one process, a written plan in 5 to 7 days and dates agreed before work begins.",
+  "sections": [
+    {
+      "h": "Where Zurich teams lose their hours",
+      "p": [
+        "Walk through the operations floor of a Zurich insurer, bank or trust company and the pattern repeats. Skilled people spend the morning reading emails to work out who should handle them, copying details from PDFs into core systems, chasing missing documents and building the same weekly report by hand. Salaries in Zurich are high, and hiring good operations staff is slow, so every hour of copy and paste is an expensive hour.",
+        "A Swiss twist makes it harder. The same mailbox receives a claim in German from Winterthur, a complaint in French from Lausanne, a question in Italian from Lugano and a broker email in English. Rules-based tools struggle with that mix. Language models handle it well, which is why this is often the first place AI automation pays in Switzerland."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Inbox triage: classify incoming mail by topic, urgency and language, then route it to the right team with a short summary",
+        "Document intake: pull names, dates, amounts and policy or account numbers from PDFs, scans and forms into your systems",
+        "Client onboarding: assemble the file, check it is complete, flag what is missing and draft the follow-up request",
+        "Claims preparation: gather the facts of a case so a handler starts with a summary instead of a stack of attachments",
+        "Reporting: weekly and monthly reports drafted from your data, ready for a person to check and send",
+        "Internal questions: an assistant that answers staff from approved policies and manuals, and says when it does not know"
+      ]
+    },
+    {
+      "h": "People stay in the loop",
+      "p": [
+        "We do not build systems that quietly make decisions about your clients. Each automation has a clear point where a person reviews, approves or corrects the output, and the system records what it did and why. Confidence thresholds send unclear cases straight to a human instead of guessing.",
+        "This matters in Switzerland for practical and legal reasons. The revised FADP gives people rights around automated individual decisions that have significant effects on them, and FINMA expects supervised firms to keep AI risks under control. Beyond the rules, Zurich clients expect a person to stand behind every answer they receive. Our designs keep that true."
+      ]
+    },
+    {
+      "h": "Working with the systems you already have",
+      "p": [
+        "Zurich companies rarely start from a blank page. Banks run core banking platforms, insurers run policy and claims systems, many firms run SAP or Abacus for finance, and almost everyone runs Microsoft 365. We connect automations through the interfaces those systems already offer, and where there is no interface, we agree a safe fallback such as a structured export or a review queue.",
+        "We also decide early where the AI part runs. For sensitive material that often means a model hosted in a cloud tenancy you control, in a Swiss or European region, rather than a public service. The trade-offs in cost and capability are written down before you choose."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "list": [
+        "Talk: a 15-minute call about the process that hurts most and who owns it.",
+        "Plan: we sit with the people who do the work, measure how long it takes today and deliver a written roadmap within 5 to 7 days.",
+        "Build: specialist teams build the automation on real samples, test it with your staff and agree go-live dates in writing.",
+        "Grow: we track time saved and error rates against the starting figures, then pick the next process."
+      ]
+    },
+    {
+      "h": "Examples by Zurich sector",
+      "list": [
+        "Insurance and reinsurance: first notice of loss sorted and summarised, policy wordings searched, broker submissions checked for missing items",
+        "Private banking and wealth management: onboarding packs assembled, documents checked against your internal list, meeting notes turned into structured records",
+        "Trust and fiduciary companies: recurring filings prepared, entity data kept consistent across systems",
+        "Professional services: matter intake, time entry suggestions, first drafts of routine letters",
+        "Technology companies: support tickets classified and answered from your documentation, with escalation to an engineer",
+        "Property managers: tenant requests in several languages logged and routed to the right contractor"
+      ]
+    },
+    {
+      "h": "Proof from real work",
+      "p": [
+        "We have delivered more than 30 AI builds, from internal tools to automations that run every day in businesses that used to do the work by hand. We have also managed more than $1.5M in projects across the United States, the United Kingdom, Europe and the UAE. Client names stay private, but we will walk you through examples close to your process on a call."
+      ]
+    },
+    {
+      "h": "Remote delivery on Swiss hours",
+      "p": [
+        "We are registered in London and work with Zurich clients remotely. London is one hour behind Central European Time all year, so testing sessions, reviews and go-live calls happen inside your working day. When it helps to watch a process in person, such as a claims team at work, we plan a visit into the scope.",
+        "We deliver in English. Interfaces, prompts and training material can be prepared in German, French or Italian through localisation partners or your own translators, and we test the automation on real messages in each language you receive."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "How many steps, systems and document types the process touches",
+        "How many languages the automation must handle reliably",
+        "Hosting requirements for sensitive data",
+        "The level of logging and review your risk team needs",
+        "Ongoing model and licence costs, paid to providers directly"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for AI automation",
+      "p": [
+        "Automation rarely lives on its own. It needs clean data, a sensible cloud setup and sometimes a client-facing front end. Because we cover AI, data, cloud, web and apps, the same team can fix what sits around the automation instead of handing you a list of problems for other suppliers. The AI automation Zurich operations teams need is the kind they barely notice: work arrives sorted and ready to act on. Related pages: AI consulting and business intelligence in Zurich."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What can AI automation Zurich firms deploy safely first?",
+      "a": "Low-risk, high-volume work: sorting and summarising incoming email, pulling data from standard documents and drafting internal reports. Each has a person reviewing the output, clear figures to measure and little exposure if the model is unsure, since unclear cases go straight to staff."
+    },
+    {
+      "q": "Can the automation handle Swiss German, French and Italian emails?",
+      "a": "Modern language models handle German, French, Italian and English well, including the informal Swiss German phrasing people sometimes use in writing. We test on your real messages in each language before go-live and set thresholds so uncertain cases go to a person."
+    },
+    {
+      "q": "Where does our data go?",
+      "a": "That is decided in the plan, not after. For sensitive material we usually recommend models hosted in a cloud tenancy you control, in a Swiss or European region, under terms that exclude training on your data. Every data flow is documented so your data protection officer can review it."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "That is not how we design it. The aim is to remove copying, sorting and chasing so experienced people spend their time on judgement and clients. Most Zurich teams we speak to are short of people already, so the time saved goes to work that was waiting."
+    },
+    {
+      "q": "How long does a first automation take?",
+      "a": "The written roadmap takes 5 to 7 days. Build time depends on the number of systems involved and how easy they are to connect. We agree dates in writing before we start and tell you early if anything threatens them."
+    },
+    {
+      "q": "Do you integrate with SAP, Abacus or core banking systems?",
+      "a": "We connect through whatever interfaces your systems provide, such as APIs, export files or Microsoft 365 connectors. Where a system has no safe interface, we design a review queue or a structured handover instead of forcing access. Your IT team approves each connection."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/ai-automation",
+    "/locations/zurich/ai-consulting",
+    "/locations/zurich/business-intelligence",
+    "/services/custom-ai-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "ai automation zurich",
+    "secondary": [
+      "process automation switzerland",
+      "ai document processing zurich",
+      "insurance claims automation",
+      "back office automation zurich",
+      "multilingual email triage"
+    ]
+  }
+}

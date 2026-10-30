@@ -75,7 +75,7 @@ const ServiceCard: React.FC<{ s: NavItem; number: string; index: number }> = ({ 
   >
     <Link
       to={s.path}
-      className="service-card group text-left w-full h-full rounded-2xl p-5 md:p-7 relative overflow-hidden flex flex-col no-underline"
+      className="service-card group text-left w-full h-full rounded-2xl p-4 md:p-7 relative overflow-hidden flex flex-col no-underline"
       style={{
         background: "#ffffff",
         border: "1px solid rgba(80, 140, 255, 0.18)",
@@ -133,13 +133,13 @@ const ServiceCard: React.FC<{ s: NavItem; number: string; index: number }> = ({ 
       </h3>
       {s.blurb && (
         <p
-          className="relative z-10 text-[12.5px] md:text-[14px] leading-relaxed line-clamp-3 flex-grow"
+          className="relative z-10 hidden sm:block text-[12.5px] md:text-[14px] leading-relaxed line-clamp-3 flex-grow"
           style={{ color: "rgba(10, 21, 48, 0.65)" }}
         >
           {s.blurb}
         </p>
       )}
-      <div className="relative z-10 mt-4 md:mt-5 inline-flex items-center gap-2 self-start">
+      <div className="relative z-10 mt-4 md:mt-5 hidden sm:inline-flex items-center gap-2 self-start">
         <span className="text-[10px] md:text-[11px] tracking-[0.25em] uppercase font-semibold relative pb-0.5" style={{ color: "#325FEC" }}>
           Read more
           <span aria-hidden className="absolute left-0 bottom-0 h-[1px] w-0 group-hover:w-full transition-all duration-400" style={{ background: "#325FEC" }} />
@@ -255,7 +255,7 @@ const ServicesGrid: React.FC<{ heading: string; intro: string }> = ({ heading, i
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {visible.map((s, i) => (
             <ServiceCard key={s.path} s={s} number={numberOf(s.path)} index={i} />
           ))}

@@ -1,0 +1,137 @@
+{
+  "path": "/locations/berlin/video-animation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "video-animation",
+  "serviceType": "Video production and animation",
+  "title": "Video Production Berlin: Explainers and Animation | 22 Signals",
+  "description": "Video production for Berlin and German firms: 2D and 3D explainers for complex products, trade fair films, recruiting videos, AI video and live broadcasts.",
+  "eyebrow": "Video and animation in Berlin",
+  "h1": "Video production and animation for Berlin and German companies",
+  "intro": "We make video and animation that explains what German companies build and sells what Berlin scale-ups launch: 2D and 3D explainers, motion graphics, trade fair loops, recruiting films, social cuts, AI video variants and live event broadcasts. Scripts are agreed before production, every version is planned for the languages you need, and the same team can put the finished film into your campaigns.",
+  "sections": [
+    {
+      "h": "The product is brilliant. Explaining it is hard.",
+      "p": [
+        "Many German engineering firms make things that are difficult to film. The interesting part of a pump, a sensor or a packaging line is inside the housing, happens in milliseconds, or only makes sense once you see the whole process. A camera on the factory floor shows a grey box. Animation can open the box, slow the process down and show the customer exactly why your design is better.",
+        "Berlin software and fintech companies have the opposite problem. Their product is a screen, and a screen recording rarely sells anything. Motion graphics turn an interface into a story: the problem, the moment the product helps, and the result. Both kinds of client need the same thing from video production. Berlin or Baden-Württemberg, the job is to make something complicated look obvious."
+      ]
+    },
+    {
+      "h": "What we produce",
+      "list": [
+        "3D product animation: cutaways, exploded views and process sequences built from your CAD data",
+        "2D explainers and motion graphics: software, services and processes explained in under two minutes",
+        "Trade fair loops: silent, subtitled films designed to stop people walking past your stand",
+        "Recruiting and employer films: real staff, real workplaces, cut for careers pages and social ads",
+        "Social cuts: short vertical versions for LinkedIn, Instagram, TikTok and YouTube Shorts",
+        "AI video: fast variants for testing, localisation and campaigns where speed matters more than a full shoot",
+        "Live event broadcasts: conferences, launches and internal events streamed with graphics and multiple cameras",
+        "Managed editing: ongoing editing of footage your team shoots"
+      ]
+    },
+    {
+      "h": "Trade fairs set the calendar",
+      "p": [
+        "For many German manufacturers, the year runs around a handful of trade fairs, and the stand film is one of the most watched pieces of content they make. Berlin itself hosts large events such as IFA for consumer electronics and ITB for travel, and the major industrial fairs across Germany draw buyers from around the world.",
+        "Stand films have their own rules. Most visitors watch without sound, from a few metres away, for a few seconds. So we design for that: clear visuals, big text, short loops, subtitles in the languages your visitors speak. Then the same assets are cut into pre-fair campaigns and post-fair follow-ups, so the production budget works for months rather than four days."
+      ]
+    },
+    {
+      "h": "One film, several languages",
+      "p": [
+        "German companies often need the same video in German, English and a few export languages. Planning for that at script stage saves a lot of money later. We keep on-screen text in editable layers, leave room for German, which usually runs longer than English, and record or generate voiceovers per language.",
+        "Our work is delivered in English. German scripts, subtitles and voiceovers are prepared with localisation partners and approved by your team. AI voice and lip-sync tools can produce extra language versions quickly; we use them where quality is good enough and say clearly where a human voice actor is the better choice."
+      ]
+    },
+    {
+      "h": "Rights, music and AI disclosure",
+      "list": [
+        "Music is properly licensed. In Germany, music rights are largely managed by GEMA, so we use licensed libraries or clear rights for your channels and territories",
+        "Everyone who appears on camera signs a release covering how and where the film will be used",
+        "Staff in recruiting films agree in writing, and we plan what happens to footage if someone leaves",
+        "AI-generated faces, voices or scenes are labelled where platform rules or the EU AI Act's transparency duties call for it",
+        "You receive the final masters and project files at handover"
+      ]
+    },
+    {
+      "h": "Accessible by default",
+      "p": [
+        "Every film we deliver comes with accurate subtitles, and we keep key information readable on screen rather than only in the voiceover. That helps viewers who are deaf or hard of hearing, the large share of people who watch social video muted, and visitors at a noisy trade fair stand. Where a video sits on your website, we add a text summary or transcript so search engines and AI assistants can understand what it covers."
+      ]
+    },
+    {
+      "h": "How a production runs",
+      "list": [
+        "Talk: 15 minutes on the audience, where the video will play and what it must make people do.",
+        "Plan: concept, script, storyboard, language plan and schedule in a written roadmap within 5 to 7 days.",
+        "Build: animation, shoot or AI production, with review rounds and delivery dates in writing.",
+        "Grow: cutdowns, campaign versions and performance review once the film is live."
+      ]
+    },
+    {
+      "h": "Shoots in Berlin and across Germany",
+      "p": [
+        "We have no office or crew based in Berlin. Animation, motion graphics, AI video and editing are done remotely, and reviews happen in a shared viewer where you comment on exact frames. When a project needs filming at your site, we either plan the trip into the scope or work with a local crew you choose, directing remotely if that suits the shoot.",
+        "Berlin is one hour ahead of London, so review calls and remote direction fit into a normal German working day."
+      ]
+    },
+    {
+      "h": "Proof from live work",
+      "p": [
+        "We have broadcast more than 20 live events, where there is no second take and the schedule does not move. That discipline shapes every production: scripts signed off before work starts, review rounds fixed in advance and delivery dates kept. We have worked with more than 30 companies; we do not publish client names but can share relevant work on a call."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "p": [
+        "Video production, Berlin shoot or fully animated, is priced after the concept stage. The main factors are length and style, 2D versus 3D animation, whether filming and travel are needed, the number of language versions, music and voice licensing, and how many cutdowns you need for campaigns."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you animate our machine from CAD files?",
+      "a": "Yes. We work from common CAD exports such as STEP files, simplify the geometry for animation and keep confidential parts hidden where needed. That gives accurate visuals without filming a prototype."
+    },
+    {
+      "q": "How long does an explainer video take?",
+      "a": "A short 2D explainer often takes a few weeks from approved script. 3D animation and multi-language versions take longer. The schedule is agreed in writing during planning."
+    },
+    {
+      "q": "Do you offer video production in Berlin with a film crew?",
+      "a": "We do not keep a crew in Berlin. For on-site filming we travel when the project needs it, or work with a local crew you choose while we direct, edit and finish the film."
+    },
+    {
+      "q": "Can you deliver German voiceovers?",
+      "a": "Yes, through localisation partners. We deliver in English, and German scripts and voiceovers are prepared by partners and approved by you. AI voices are an option for some versions, and we will tell you when a human voice works better."
+    },
+    {
+      "q": "Can you stream our conference or product launch?",
+      "a": "Yes. We have broadcast more than 20 live events, with multiple cameras, graphics and remote speakers. We plan the technical setup with the venue in advance and test everything before going live."
+    },
+    {
+      "q": "When should we use AI video?",
+      "a": "For fast variants, ad testing, language versions and concepts. For flagship brand films, or footage of your real staff and products, filmed or animated work is usually the better choice. We advise per project."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/video-motion",
+    "/services/3d-animation",
+    "/services/ai-video-production",
+    "/locations/berlin/3d-rendering",
+    "/locations/berlin/paid-media"
+  ],
+  "keywords": {
+    "primary": "video production berlin",
+    "secondary": [
+      "explainer video berlin",
+      "animation studio germany",
+      "trade fair video production",
+      "3d product animation germany"
+    ]
+  }
+}

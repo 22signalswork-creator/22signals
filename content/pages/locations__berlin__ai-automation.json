@@ -1,0 +1,145 @@
+{
+  "path": "/locations/berlin/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Berlin: Back Office Work Done Right | 22 Signals",
+  "description": "AI automation for Berlin and German firms: e-invoices, order entry, enquiries and reports processed by tools your staff check, with GDPR built into the design.",
+  "eyebrow": "AI automation in Berlin",
+  "h1": "AI automation for Berlin and German back offices",
+  "intro": "We build AI automation that takes repeated office work off German teams: reading incoming e-invoices, entering orders from PDFs and emails, sorting customer enquiries and writing routine reports. Every tool has a person checking the output where it matters, a log of what it did, and a design agreed with your data protection officer before it touches live data.",
+  "sections": [
+    {
+      "h": "Where the hours go in a German office",
+      "p": [
+        "Walk through the order desk of a mid-sized German supplier and you will see skilled people retyping. Orders arrive as PDF attachments, faxes that someone scanned, or emails that say 'same as last time, but 40 units'. Each one is entered into SAP or another ERP by hand, checked, then confirmed back to the customer.",
+        "The finance team has its own version. Supplier invoices arrive in several formats, get matched against orders and delivery notes, and are prepared for the tax adviser, often in a DATEV format. Customer service answers the same twenty questions in German and English every week. Nobody hired these people to copy data between windows, yet that is where a large part of their week goes.",
+        "Berlin scale-ups have the same problem in a different shape: support tickets, sales notes, onboarding checklists and weekly metrics pulled together by hand every Monday."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Order intake: reading orders from PDFs, emails and portals, matching customer and article numbers, and drafting the ERP entry for approval",
+        "Invoice processing: reading structured e-invoices and PDF invoices, matching them to orders and preparing accounting exports",
+        "Enquiry handling: sorting incoming emails and form messages by topic and urgency, drafting replies and routing the rest to the right person",
+        "Document search: answering staff questions from manuals, contracts, price lists and past service reports",
+        "Reporting: weekly and monthly summaries written from your own systems instead of copied by hand",
+        "CRM upkeep: logging calls and meetings, filling missing fields and flagging deals that have gone quiet"
+      ]
+    },
+    {
+      "h": "E-invoicing changes the timing",
+      "p": [
+        "Germany is moving business invoices between companies to structured electronic formats. Since January 2025, German businesses must be able to receive e-invoices in formats such as XRechnung and ZUGFeRD, and the duty to issue them phases in over the following years. Many firms responded by installing a mailbox that accepts the files and little else.",
+        "That is a good moment to automate properly. A structured invoice is far easier for software to read than a scanned PDF, so matching against orders and delivery notes can become mostly automatic. We build the step between receipt and booking: check the invoice, match it, flag anything odd for a person, and hand clean data to your accounting system or your tax adviser. Your adviser confirms what your obligations are; we make the process run."
+      ]
+    },
+    {
+      "h": "The AI automation Berlin scale-ups ask for",
+      "p": [
+        "Start-ups and scale-ups in Berlin usually come to us later than they should. The company has grown from 20 to 120 people, the tools that worked at seed stage are stitched together with spreadsheets, and the operations lead spends Monday morning building the same board report.",
+        "For these teams we automate the glue: new customer onboarding that creates accounts, sends the welcome sequence and books the kick-off call; support tickets tagged and summarised so the product team sees patterns; sales calls transcribed and logged to the CRM with next steps; weekly metrics compiled from Stripe, HubSpot and the product database into one written update. Each of these saves a few hours a week on its own. Together they give a growing team back a day."
+      ]
+    },
+    {
+      "h": "People stay in charge of the decisions",
+      "p": [
+        "German companies are rightly wary of software that acts on its own. Our tools draft, sort and suggest. A person approves anything that commits money, changes a price or sends a binding message to a customer, at least until the error rate is proven low enough to relax that rule, and you decide when that is.",
+        "Every action is logged: what came in, what the tool did, who approved it. That record helps with internal audits, with your tax adviser and with any works council questions about what the system sees. If your company has a works council, we describe the tool in writing before rollout, including what it records about staff, because new systems that could track performance usually need its agreement."
+      ]
+    },
+    {
+      "h": "Built around GDPR from the first sketch",
+      "list": [
+        "Data minimisation: the tool sees only the fields it needs for its task",
+        "EU processing: models and storage hosted in EU regions where your policy requires it",
+        "Retention rules: inputs and outputs deleted on a schedule you set",
+        "Data processing agreements: in place with us and with any service the automation uses",
+        "Access control: staff see only the queues and documents their role allows",
+        "Documentation: a record of processing your data protection officer can file"
+      ]
+    },
+    {
+      "h": "How an automation project runs",
+      "list": [
+        "Talk: 15 minutes on the process that costs you most time. We ask for a sample of real documents.",
+        "Plan: we map the process, measure the current effort and write a roadmap in 5 to 7 days.",
+        "Build: the automation runs in parallel with the manual process first, so you can compare results safely.",
+        "Grow: once the numbers hold, the manual step is retired and we move to the next process."
+      ]
+    },
+    {
+      "h": "Working remotely with Berlin teams",
+      "p": [
+        "We have no office in Berlin. Process mapping happens by video call and screen share, with staff showing us exactly how they handle a real order or invoice. Central European Time is one hour ahead of London, so our working hours match your order desk and finance team.",
+        "For a larger rollout, such as several sites of a manufacturing group, a day on site often saves a week of calls. We plan that travel into the scope when it makes sense."
+      ]
+    },
+    {
+      "h": "Proof and honesty",
+      "p": [
+        "We have completed more than 30 AI builds, many of them automations that replaced manual work in operations, reporting and customer handling. We do not name clients. We will show you comparable examples on a call and tell you where automation is not worth it, which happens. A process that runs five times a month rarely justifies a build."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "Number of document types and how varied they are",
+        "Which systems the automation reads from and writes to, such as SAP, DATEV, a CRM or a ticket tool",
+        "Approval steps and logging requirements",
+        "Language needs, including German and English inputs",
+        "Volume, and whether you want us to run and monitor the tool afterwards"
+      ],
+      "p": [
+        "We quote AI automation, Berlin firm or factory elsewhere in Germany, after we have seen sample documents and the systems involved. The main factors:"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What processes suit AI automation in Berlin companies?",
+      "a": "High volume, rule-heavy work with clear inputs: orders, invoices, enquiries, reports and CRM updates. If staff can explain the steps and there are enough cases each week, it is usually a candidate. One-off judgement calls are not."
+    },
+    {
+      "q": "Can you connect to SAP and DATEV?",
+      "a": "Yes, through their supported interfaces, exports or middleware, depending on your version and licences. We check what your setup allows during planning and agree the connection method in writing before building."
+    },
+    {
+      "q": "Does the automation handle German documents?",
+      "a": "Yes. Modern models read German well, including long compound words and formal phrasing. We test on your real documents before go-live. Our project work is delivered in English, and German interface text can be localised through partners."
+    },
+    {
+      "q": "What happens when the tool gets something wrong?",
+      "a": "It flags uncertainty and routes the case to a person instead of guessing. During the parallel run we track every error, fix the cause and only reduce human checks when you are satisfied with the results."
+    },
+    {
+      "q": "Do we need works council approval for AI automation?",
+      "a": "Often, if you have a works council and the tool could be used to monitor staff. We provide a plain description of what it records and why, so the council can assess it. Your HR or legal adviser leads that process."
+    },
+    {
+      "q": "How long does an automation take to pay back?",
+      "a": "It depends on volume and how much time the manual process takes today. We measure the current effort during planning, so the roadmap states the expected time saving before you commit to a build."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/ai-automation",
+    "/locations/berlin/ai-consulting",
+    "/services/custom-ai-development",
+    "/locations/berlin/business-intelligence",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation berlin",
+    "secondary": [
+      "process automation germany",
+      "invoice automation germany",
+      "e-rechnung automation",
+      "ai workflow automation mittelstand"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "path": "/locations/zurich",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "title": "Digital Agency for Zurich: AI, Cloud, Web, Growth | 22 Signals",
+  "description": "22 Signals works with Zurich and Swiss companies on AI, cloud, data, web, apps, search, paid media, video and 3D, delivered in English with dates in writing.",
+  "eyebrow": "Zurich",
+  "h1": "A digital agency for Zurich companies that also builds AI, data and cloud",
+  "intro": "22 Signals works with Zurich companies as one team for AI, automation, data, cloud, websites, apps, search, paid media, video and 3D. We are registered in London, one hour behind Zurich, and work remotely with visits when a project needs them. Work is delivered in English, plans come in writing within a week, and every date we agree is written down.",
+  "sections": [
+    {
+      "h": "The honest version first",
+      "p": [
+        "We do not have a Zurich office, a Swiss phone number or staff living in the city. We will not borrow an address on the Bahnhofstrasse to look closer than we are. We work with Zurich and Swiss clients remotely, plan trips for workshops, shoots and launches when they are worth it, and tell you up front which parts of a project need someone in the room.",
+        "What you get instead is range. Search for a digital agency, Zurich gives you plenty of studios that do one thing well: a web shop, a performance marketing team, a video house, an IT partner. 22 Signals covers technology and marketing together, so the AI tool, the data underneath it, the website it sits on and the campaign that sends people there are planned by the same people."
+      ]
+    },
+    {
+      "h": "What Zurich companies bring us in for",
+      "list": [
+        "AI consulting: a short, ranked list of uses worth money, with rules on what data AI may touch",
+        "AI automation: claims, onboarding, document checks and inbox triage handled by tools your staff supervise",
+        "Business intelligence: one set of figures across entities, cantons and currencies",
+        "Cloud consulting: AWS, Azure and Google Cloud, including the Swiss regions those providers run",
+        "Web development: multilingual websites and client portals, accessible by default",
+        "App development: iOS, Android and web apps for customers and staff",
+        "SEO and GEO: showing up in Google and in ChatGPT, Claude, Gemini and Google AI Overviews",
+        "Paid media: Google, LinkedIn, Meta and YouTube campaigns tied to qualified enquiries",
+        "Video and animation: explainers, motion graphics, AI video and 2D and 3D animation",
+        "3D rendering: product, architectural and interior visuals with the detail Swiss buyers expect"
+      ]
+    },
+    {
+      "h": "A city that runs on trust",
+      "p": [
+        "Zurich is Switzerland's largest city and its financial centre. Private banks, wealth managers, asset managers, global insurers and reinsurers sit within a few tram stops of each other, alongside fintechs, consultancies and law firms that serve them. Large global technology companies run major engineering sites here, and ETH Zurich turns out engineers and researchers that the whole region competes for.",
+        "Further out, the Swiss economy adds pharma and life sciences around Basel, commodity trading in Geneva, Zug and Lugano, medtech, precision manufacturing and a long list of family-owned industrial firms. The common thread is a client base that expects precision, discretion and work that holds up under audit. Loose promises do not last long here, and neither do suppliers who miss dates."
+      ]
+    },
+    {
+      "h": "Four languages, one market",
+      "p": [
+        "Switzerland has four national languages. Zurich speaks German, with Swiss German in daily conversation and standard German in writing. Geneva and Lausanne work in French, Ticino in Italian, and English is the working language of many banks, tech firms and international teams. A company selling across the country often needs its site, ads and support in at least two of those.",
+        "We deliver our own work in English. When you need German, French or Italian versions, we arrange localisation with specialist partners or work with your own translators, and we build the structure so each language version is set up properly for search and for people. We will not tell you our team writes Swiss German copy, because it does not."
+      ]
+    },
+    {
+      "h": "Swiss data rules, not EU ones by default",
+      "p": [
+        "Switzerland is not in the European Union, so GDPR is not its home law. Swiss companies follow the revised Federal Act on Data Protection, the FADP, which came into force in September 2023. It covers transparency, data security, privacy by design and what happens when personal data leaves the country, and the Federal Data Protection and Information Commissioner oversees it.",
+        "GDPR still matters for any Swiss firm that serves customers in the EU, and so does the EU AI Act for anyone placing AI systems on the EU market. Banks and insurers add FINMA's expectations on outsourcing, operational risk and confidentiality. We are not your lawyers. We build so that your legal and compliance people can review a clear record of what data goes where, and sign it off without chasing us."
+      ]
+    },
+    {
+      "h": "How projects run from London",
+      "list": [
+        "Talk: a 15-minute call to see whether we are the right fit. No pitch deck.",
+        "Plan: discovery and a written roadmap within 5 to 7 days, with owners, scope and dates.",
+        "Build: specialist teams do the work, and every delivery date goes in writing.",
+        "Grow: we measure what changed, report it plainly and keep improving what works."
+      ]
+    },
+    {
+      "h": "Working hours that line up",
+      "p": [
+        "Zurich runs on Central European Time, one hour ahead of London all year, because both cities change their clocks on the same weekends. A 9:00 meeting in Zurich is 8:00 in London, so the full Swiss working day sits inside ours. Calls, reviews and releases happen in your hours without anyone working at odd times.",
+        "When a visit adds real value, such as a discovery workshop with your partners, a product shoot or a launch, we include it in the scope and agree the dates with you. Zurich is a short flight from London, so a day on site is easy to arrange when the work calls for it."
+      ]
+    },
+    {
+      "h": "Proof we can stand behind",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE, delivered more than 30 AI builds, broadcast more than 20 live events and managed more than $1.5M in projects. We do not publish client names. If you want to see work close to your own problem, ask on the first call and we will walk you through it."
+      ]
+    },
+    {
+      "h": "Who this suits",
+      "p": [
+        "Our best Zurich fits are established companies with a capable core team and more projects than people: a wealth manager rebuilding its client portal, an insurer automating parts of claims handling, a medtech firm launching a product in three languages, a property developer that needs renders and a sales site, a scale-up out of the ETH ecosystem that needs its product built and marketed. Ambitious founders use the same process, only faster."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Zurich?",
+      "a": "No. We work with Zurich clients remotely, from a team one hour behind Swiss time. When a workshop, shoot or launch needs us there in person, we plan the trip as part of the scope and agree it in writing before the project starts."
+    },
+    {
+      "q": "Do you work in German?",
+      "a": "We deliver in English. Where you need German, French or Italian, we arrange localisation through specialist partners or work with your own translators, and we set up each language version properly for search and accessibility. Many Zurich companies already run key projects in English, so this rarely slows things down."
+    },
+    {
+      "q": "Do you follow the Swiss FADP or GDPR?",
+      "a": "Both, where each applies. The revised FADP is the Swiss baseline. GDPR also applies when you serve people in the EU. We map which rules touch each system, keep data in the regions you choose and document it so your legal team can review it. Final legal sign-off stays with your advisers."
+    },
+    {
+      "q": "How are you different from a digital agency Zurich firms already use?",
+      "a": "Range. Most agencies cover marketing or technology. We build AI tools, cloud systems, data pipelines, websites and apps, and we also run search, paid media, video and 3D. When one team owns all of it, a problem gets fixed instead of passed between suppliers."
+    },
+    {
+      "q": "Which Swiss industries do you know best?",
+      "a": "Financial services, insurance and wealth management, professional services, technology and AI companies, healthcare and life sciences, property and manufacturing. We also work with consumer brands selling across Switzerland and into the EU."
+    },
+    {
+      "q": "How do you price work for Zurich clients?",
+      "a": "After the first call, once we understand scope. The main factors are which services you need, how many systems or languages are involved, compliance requirements and whether the work is a project or ongoing. Third-party costs such as licences and ad spend are paid by you directly."
+    },
+    {
+      "q": "How quickly can a project start?",
+      "a": "The first call can usually happen within days. Discovery and a written roadmap take 5 to 7 days after that. Build dates are agreed in writing once the roadmap is approved, and you hear early if anything puts one at risk."
+    }
+  ],
+  "related": [
+    "/locations/zurich/ai-consulting",
+    "/locations/zurich/cloud-consulting",
+    "/locations/zurich/web-development",
+    "/locations/zurich/seo-geo",
+    "/locations/london",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "digital agency zurich",
+    "secondary": [
+      "digital agency switzerland",
+      "ai agency zurich",
+      "web agency zurich",
+      "marketing agency zurich",
+      "english speaking agency zurich"
+    ]
+  }
+}

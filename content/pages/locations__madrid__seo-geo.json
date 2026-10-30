@@ -1,0 +1,142 @@
+{
+  "path": "/locations/madrid/seo-geo",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimisation",
+  "title": "SEO and GEO in Madrid: Google and AI Answers | 22 Signals",
+  "description": "SEO and GEO for Madrid companies: rank in Google Spain and get named in ChatGPT, Claude, Gemini and AI Overviews answers to Spanish buyer questions.",
+  "eyebrow": "SEO and GEO in Madrid",
+  "h1": "SEO and GEO in Madrid: get found in Spanish searches and named in AI answers",
+  "intro": "We help Madrid companies rank in Google Spain and appear when buyers ask ChatGPT, Claude, Gemini or Google AI Overviews who to choose. The work covers technical fixes, Spanish keyword research, local search across Madrid districts, answer-first pages and consistent mentions on the Spanish sites assistants read. You get a monthly report in plain English.",
+  "sections": [
+    {
+      "h": "Spanish search is its own market",
+      "p": [
+        "Search habits in Spain differ from those in English-speaking markets, and from Latin America. People in Madrid search for 'abogado laboralista Madrid', 'clínica dental Chamberí' or 'empresa de reformas cerca de mí', and the words they use often differ from Mexican or Argentine Spanish for the same thing. Keyword lists translated from English miss most of this. Search volumes, competitors and the sites that rank are all specific to Spain.",
+        "Google is by far the main search engine in Spain, and Google AI Overviews now appear above many Spanish results. At the same time, more professionals ask ChatGPT, Claude or Gemini for a shortlist of providers before they search at all. SEO and GEO in Madrid has to cover both the ranked list and the written answer."
+      ]
+    },
+    {
+      "h": "What GEO adds for a Spanish business",
+      "p": [
+        "Generative engine optimisation, GEO, is the work of getting your business named and described correctly in AI assistant answers. Assistants build those answers from your own site and, heavily, from what other sources say about you: Spanish press, sector directories, review sites, association listings and comparison articles.",
+        "For a Madrid company that means three things. Your name, services and locations must match everywhere they appear. Your key pages should answer common buyer questions in the first lines, in natural Spanish. And you need mentions on the Spanish sources assistants already trust in your sector, not only on English-language ones."
+      ]
+    },
+    {
+      "h": "Our monthly work",
+      "list": [
+        "Baseline: how you rank in Google Spain and how you appear in AI answers, using a fixed set of Spanish buyer questions",
+        "Technical SEO: indexing, speed, structured data, hreflang and site structure, fixed by people who also build sites",
+        "Spanish keyword research: real search terms in Spain, separated from Latin American variants",
+        "Local SEO: Google Business Profile for each site, categories, photos, reviews and district pages with real local detail",
+        "Answer-first content: service pages and guides that answer what buyers ask, in the order they ask it",
+        "Citations and mentions: consistent listings and outside mentions on Spanish directories, press and sector sites",
+        "Reporting: rankings, traffic, enquiries and AI answer appearances, with what we did and what comes next"
+      ]
+    },
+    {
+      "h": "Local search across Madrid",
+      "p": [
+        "Google treats Madrid as many small local markets. A search for a dentist in Salamanca shows a different map pack from the same search in Carabanchel or Las Rozas. Businesses with several branches need a properly managed Google Business Profile for each, real reviews from real customers, and a page for each location that says something useful: the street, the nearest metro stop, opening hours, the team there and the services offered.",
+        "We avoid the common shortcut of publishing dozens of near-identical district pages. Google treats them as doorway pages and they rarely rank. A handful of strong location pages tends to do far better."
+      ]
+    },
+    {
+      "h": "Spanish sources that matter by sector",
+      "list": [
+        "Healthcare and clinics: Google reviews and Doctoralia profiles, plus treatment pages that follow Spanish health advertising rules",
+        "Property: Idealista and Fotocasa agency profiles, neighbourhood guides and consistent branch listings",
+        "Restaurants and hospitality: TheFork, Tripadvisor and Google reviews, with menus and booking links kept current",
+        "Professional services: Colegio membership listings, legal and business directories and Spanish business press",
+        "B2B and industrial: trade association directories, trade fair exhibitor pages and sector publications",
+        "Ecommerce: product data in Google Merchant Center, category pages that match Spanish search terms and editorial buying guides"
+      ]
+    },
+    {
+      "h": "Writing in Spanish, reporting in English",
+      "p": [
+        "Our team delivers its work in English. For a Spanish site, we produce the keyword research, page structure and content briefs, and the Spanish copy is written or reviewed by native localisation partners or by your own writers. We never publish machine translation unchecked, because both Google and readers can tell, and a page that reads badly in Spanish will not be quoted by an assistant either.",
+        "If you also target English-speaking visitors, such as tourists, expats or international buyers, we plan separate English pages with the right hreflang tags, rather than mixing languages on one page."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: 15 minutes on the searches and questions that bring you your best clients.",
+        "Plan: an audit of your site, profiles, citations and AI answer presence, with a written plan ranked by impact in 5 to 7 days.",
+        "Build: technical fixes, pages and profile work done in priority order, with dates in writing.",
+        "Grow: monthly reports, new content and outside mentions that build trust over time."
+      ]
+    },
+    {
+      "h": "Remote, with Madrid in mind",
+      "p": [
+        "We have no office in Madrid and run search work remotely. Madrid is one hour ahead of London, so monthly reviews fit easily into the day. We plan content around the Spanish calendar, such as the August slowdown, the back-to-work rush in September, Black Friday and the January sales, so pages are live and indexed before demand peaks."
+      ]
+    },
+    {
+      "h": "What we will not do",
+      "p": [
+        "We will not promise a set number of AI mentions, buy links, write fake reviews or flood your site with thin pages. Nobody controls what an assistant writes. We work on the signals it reads and report the results honestly, including the months that go sideways."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "How competitive your Spanish searches are",
+        "Number of locations and Google Business Profiles",
+        "Technical state of the current site",
+        "Volume of Spanish content each month, including localisation",
+        "Outreach for mentions and directory work"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between SEO and GEO?",
+      "a": "SEO gets your pages ranked in Google. GEO gets your business named and described correctly in AI assistant answers. They share most foundations, and GEO adds work on consistency, answer-first content and mentions on sources assistants read."
+    },
+    {
+      "q": "Do you write Spanish content?",
+      "a": "Our team delivers in English. We produce the research, structure and briefs, and Spanish copy is written or reviewed by native localisation partners or your own writers. Nothing is published as unchecked machine translation."
+    },
+    {
+      "q": "How long does SEO and GEO in Madrid take to show results?",
+      "a": "Technical and profile fixes show once pages are recrawled. Ranking for competitive Madrid searches and appearing in AI answers takes longer, often several months in crowded sectors. We report progress monthly from the start."
+    },
+    {
+      "q": "Can you target Spain and Latin America separately?",
+      "a": "Yes. We research keywords for each market, build separate country pages with hreflang tags and track rankings by country, so a Madrid page is not competing with your Mexico page."
+    },
+    {
+      "q": "Can you guarantee we will appear in ChatGPT answers?",
+      "a": "No, and be wary of anyone who says they can. We track a fixed set of buyer questions across ChatGPT, Claude, Gemini and Google AI Overviews each month and improve the signals those tools rely on."
+    },
+    {
+      "q": "Do you work with businesses that have several Madrid branches?",
+      "a": "Yes. Each branch gets its own Google Business Profile, a review process and a location page with genuine local detail. We manage the set together so information stays consistent."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/seo-geo",
+    "/locations/madrid/web-development",
+    "/locations/madrid/paid-media",
+    "/insights/geo-vs-seo",
+    "/services/content-marketing"
+  ],
+  "keywords": {
+    "primary": "seo and geo in madrid",
+    "secondary": [
+      "seo agency madrid",
+      "local seo madrid",
+      "generative engine optimisation spain",
+      "ai search optimisation spain",
+      "spanish seo"
+    ]
+  }
+}

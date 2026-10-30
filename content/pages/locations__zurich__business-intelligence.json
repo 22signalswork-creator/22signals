@@ -1,0 +1,139 @@
+{
+  "path": "/locations/zurich/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Zurich: Multi-Entity Reporting | 22 Signals",
+  "description": "Business intelligence for Zurich groups: Power BI, Looker Studio and Tableau dashboards that reconcile entities and CHF, EUR and USD into one set of numbers.",
+  "eyebrow": "Business Intelligence in Zurich",
+  "h1": "Business intelligence for Zurich groups that report in more than one currency",
+  "intro": "We build business intelligence for Zurich companies that run several entities, currencies or sites and still close the month in spreadsheets. We connect your systems, agree definitions with finance, and deliver dashboards in Power BI, Looker Studio or Tableau that management trusts. You get a written plan in 5 to 7 days and figures that reconcile to the ledger.",
+  "sections": [
+    {
+      "h": "Why reporting is harder than it looks in Switzerland",
+      "p": [
+        "A typical mid-sized Swiss group is not one company. It might have a holding company in Zurich, an operating company in another canton, a subsidiary in Germany and a sales office in the US. Revenue arrives in Swiss francs, euros and dollars. Each entity keeps its own books, sometimes on different systems, and the head office team pulls it together by hand every month.",
+        "The result is familiar. The CFO's figure and the sales director's figure disagree, nobody is sure which exchange rate was used, and the board pack takes a week. Business intelligence fixes this, not by adding more charts, but by agreeing what each number means and building one pipeline everyone uses."
+      ]
+    },
+    {
+      "h": "What we deliver",
+      "list": [
+        "A data audit: which systems hold which figures, how often they update and where they disagree",
+        "Agreed definitions for revenue, margin, headcount and the other measures your leadership actually uses",
+        "Data pipelines from ERP, CRM, banking and operational systems into a single model",
+        "Currency handling with documented rates and rules, so CHF, EUR and USD figures can be traced",
+        "Dashboards in Power BI, Looker Studio or Tableau for the board, finance, sales and operations",
+        "Access control so each person sees only the entities, clients or regions they should",
+        "Training and documentation so your team can maintain and extend the reports"
+      ]
+    },
+    {
+      "h": "Numbers that pass an audit",
+      "p": [
+        "Swiss finance teams are used to scrutiny from auditors, boards and, for supervised firms, regulators. A dashboard that cannot be traced back to the ledger is worse than no dashboard, because people stop trusting the numbers and go back to their own spreadsheets.",
+        "So every figure we deliver has a lineage: which system it came from, which transformations were applied and which rate converted it. Finance signs off the definitions before we build visuals. Where source data is poor, we show the gap rather than hide it, and we suggest how to fix it at the source."
+      ]
+    },
+    {
+      "h": "Where the data lives, and who can see it",
+      "p": [
+        "Dashboards often contain client names, salaries or deal details, so they fall under the revised FADP when they include personal data. We plan where the model and the data are stored, often in a Swiss or European cloud region, and set role-based access so a branch manager in Basel does not see the private client book of a relationship manager in Zurich.",
+        "For banks and wealth managers, client-identifying data may need to stay out of reporting tools entirely, or be masked. We design for that from the start. Your data protection officer gets a written record of what flows where."
+      ]
+    },
+    {
+      "h": "What Zurich sectors measure",
+      "list": [
+        "Wealth and asset managers: assets under management by desk and client segment, net new money, fee margins and adviser activity",
+        "Insurers: claims frequency and severity, loss ratios by line and region, broker performance and backlog by team",
+        "Professional services firms: utilisation, realisation, work in progress and debtor days by partner and office",
+        "Technology companies and scale-ups: recurring revenue, churn, unit economics and product usage in one place",
+        "Manufacturers and exporters: order intake, margin by product and market, inventory and supplier delivery times",
+        "Property companies: occupancy, rent roll, maintenance cost and portfolio value by canton"
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "p": [
+        "Talk is a 15-minute call to hear which decisions are being made without good numbers. Plan is discovery: we interview finance and the main report users, review the source systems and deliver a written roadmap within 5 to 7 days. Build is pipelines, model and dashboards, released in stages so leadership sees real figures early, with each date in writing. Grow is monthly reviews of what people use, what they ignore and what they still ask for.",
+        "We deliver in English. Labels and report text can be prepared in German or French through localisation partners if your users need it."
+      ]
+    },
+    {
+      "h": "Choosing a tool",
+      "p": [
+        "Many Swiss companies already pay for Microsoft 365, which makes Power BI the obvious starting point. Companies built around Google Workspace and Google Analytics often do well with Looker Studio. Tableau suits teams that already know it or need its particular strengths. The tool matters less than the model underneath; a clean model can move between tools, and a messy one fails in all of them. We recommend based on your licences, skills and data, and we put the reasoning in writing."
+      ]
+    },
+    {
+      "h": "Proof and approach",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects, which means we have seen how reporting breaks when systems, people and entities change. We keep our client list private, but on a call we can walk through the kind of models and dashboards we build and the problems they solved."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of source systems and how easy they are to connect",
+        "Number of entities, currencies and consolidation rules",
+        "How much data cleaning is needed before reporting can be trusted",
+        "Number of dashboards and user groups, and the access rules between them",
+        "Tool licences and cloud costs, which you pay directly"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "Business intelligence often reveals other work: a slow ERP export, a cloud setup that needs tidying, a process that could be automated. We cover data, cloud, AI and automation, so those fixes do not wait for another supplier. Remote delivery works well here; London is one hour behind Zurich, and most BI work happens in shared workspaces and short reviews. If you want business intelligence Zurich leadership teams will act on, the first step is a short call. Related pages: AI automation and cloud consulting in Zurich."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does business intelligence Zurich companies buy usually cover?",
+      "a": "A data audit, agreed definitions, pipelines from the main systems, a reporting model and a set of dashboards for leadership, finance and operations. Groups with several entities also need consolidation rules and currency handling, which we document so auditors can follow them."
+    },
+    {
+      "q": "Can you handle CHF, EUR and USD reporting?",
+      "a": "Yes. We agree with finance which rates apply to which figures, such as monthly average rates for income and closing rates for balances, store those rates with the data and show both local and reporting currency where it helps. Every converted number can be traced."
+    },
+    {
+      "q": "Do you work with Abacus, SAP or Bexio data?",
+      "a": "We work with whatever exports or interfaces your systems offer. Swiss accounting and ERP systems usually provide reports, files or APIs we can use. Where access is limited, we agree a scheduled export with your IT team rather than pulling data in fragile ways."
+    },
+    {
+      "q": "Power BI or Tableau?",
+      "a": "If you run Microsoft 365, Power BI is usually the sensible default, because licences and sign-in are already in place. Tableau suits teams that already use it. We compare costs and fit for your case and put the recommendation in writing."
+    },
+    {
+      "q": "How do you protect client data in dashboards?",
+      "a": "With role-based access, masking or removal of client-identifying fields where they are not needed, and storage in the region you choose. For banks and wealth managers we design with confidentiality rules in mind from day one, and your data protection officer reviews the setup."
+    },
+    {
+      "q": "How soon do we see real numbers?",
+      "a": "The written roadmap arrives within 5 to 7 days of discovery starting. We release dashboards in stages, starting with the figures leadership needs most, so useful reports appear well before the full build is complete. Dates are agreed in writing."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/zurich/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence zurich",
+    "secondary": [
+      "power bi consultant zurich",
+      "data analytics switzerland",
+      "bi consulting zurich",
+      "multi-currency reporting",
+      "financial dashboards switzerland"
+    ]
+  }
+}

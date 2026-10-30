@@ -1,6 +1,5 @@
 /**
- * Team page: founder first, then every team member as a card in a filterable
- * grid. Real members come from the `team_members` table (admin). Until the
+ * Team page: every member as a card in one grid, founder first. Real members come from the `team_members` table (admin). Until the
  * team is filled in, sample cards show the layout; switch SHOW_SAMPLES off
  * (or add real members) before this goes live.
  */
@@ -23,9 +22,16 @@ type Member = {
   image_url?: string | null;
   linkedin?: string | null;
   sample?: boolean;
+  href?: string;
 };
 
-const TEAMS = ["Strategy", "AI and Engineering", "Data and Cloud", "Growth Marketing", "Creative Studio", "Operations"];
+const FOUNDER: Member = {
+  name: "Daniyal Mansur",
+  role: "Founder and CEO",
+  team: "Leadership",
+  image_url: CEOPortrait,
+  href: "/about/daniyal-mansur",
+};
 
 const SAMPLES: Member[] = [
   { name: "Team member", role: "Head of Strategy", team: "Strategy" },
@@ -50,7 +56,8 @@ const initials = (name: string) =>
     .map((w) => w[0]?.toUpperCase())
     .join("");
 
-const MemberCard: React.FC<{ m: Member }> = ({ m }) => (
+const MemberCard: React.FC<{ m: Member }> = ({ m }) => {
+  const body = (
   <div className="group">
     <div
       className="relative rounded-[20px] overflow-hidden"
@@ -108,11 +115,18 @@ const MemberCard: React.FC<{ m: Member }> = ({ m }) => (
       </div>
     </div>
   </div>
-);
+  );
+  return m.href ? (
+    <Link to={m.href} className="block no-underline" style={{ textDecoration: "none" }} aria-label={`${m.name}, ${m.role}`}>
+      {body}
+    </Link>
+  ) : (
+    body
+  );
+};
 
 const Team: React.FC = () => {
   const [members, setMembers] = useState<Member[]>([]);
-  const [filter, setFilter] = useState("All");
 
   useEffect(() => {
     document.body.classList.add("team-page");
@@ -131,9 +145,7 @@ const Team: React.FC = () => {
       });
   }, []);
 
-  const all = useMemo(() => [...members, ...(SHOW_SAMPLES ? SAMPLES : [])], [members]);
-  const tabs = ["All", ...TEAMS.filter((t) => all.some((m) => m.team === t))];
-  const visible = filter === "All" ? all : all.filter((m) => m.team === filter);
+  const visible = useMemo(() => [FOUNDER, ...members, ...(SHOW_SAMPLES ? SAMPLES : [])], [members]);
 
   return (
     <div>
@@ -150,60 +162,8 @@ const Team: React.FC = () => {
         />
 
         <div className="container relative z-10 py-16 md:py-24">
-          {/* Leadership */}
-          <FadeIn>
-            <div className="text-blue-300 text-[11px] tracking-[0.35em] uppercase mb-6">Leadership</div>
-            <Link
-              to="/about/daniyal-mansur"
-              className="group grid grid-cols-1 md:grid-cols-[minmax(0,300px)_1fr] gap-6 md:gap-12 items-center no-underline rounded-[24px] p-4 md:p-6"
-              style={{ textDecoration: "none", background: "rgba(50,95,236,0.06)", border: "1px solid rgba(80,140,255,0.2)" }}
-            >
-              <div className="rounded-[18px] overflow-hidden" style={{ aspectRatio: "4 / 5", background: "#0a1230" }}>
-                <img src={CEOPortrait} alt="Daniyal Mansur, founder and CEO of 22 Signals" className="w-full h-full object-cover object-top" />
-              </div>
-              <div className="pb-2">
-                <div className="text-[13px] tracking-[0.2em] uppercase" style={{ color: "#93b8ff" }}>
-                  Founder and CEO
-                </div>
-                <div className="mt-3 text-white" style={{ fontSize: "clamp(30px, 3.4vw, 48px)", lineHeight: 1.05, letterSpacing: "-0.02em" }}>
-                  Daniyal Mansur
-                </div>
-                <p className="mt-4 max-w-lg text-[16px] leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-                  Sets the direction for 22 Signals and works with clients on strategy, AI and growth.
-                </p>
-                <span className="inline-flex items-center gap-2 mt-6 text-blue-300 group-hover:text-white text-xs tracking-[0.25em] uppercase transition-colors">
-                  Read his story <span className="transition-transform group-hover:translate-x-1">→</span>
-                </span>
-              </div>
-            </Link>
-          </FadeIn>
-
-          {/* Everyone else */}
-          <div className="mt-20 md:mt-28">
-            <FadeIn>
-              <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
-                <h2 className="whitespace-nowrap shrink-0" style={{ margin: 0, fontSize: "clamp(28px, 3vw, 44px)", fontWeight: 400, lineHeight: 1.1 }}>The team.</h2>
-                <div className="flex flex-wrap md:justify-end gap-2" role="tablist" aria-label="Filter by team">
-                  {tabs.map((t) => (
-                    <button
-                      key={t}
-                      type="button"
-                      role="tab"
-                      aria-selected={filter === t}
-                      onClick={() => setFilter(t)}
-                      className="rounded-full px-4 py-2 text-[13px] transition-colors"
-                      style={{
-                        background: filter === t ? "#325FEC" : "transparent",
-                        color: filter === t ? "#ffffff" : "rgba(255,255,255,0.7)",
-                        border: `1px solid ${filter === t ? "#325FEC" : "rgba(255,255,255,0.18)"}`,
-                      }}
-                    >
-                      {t}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </FadeIn>
+          {/* Everyone, founder first */}
+          <div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-6 md:gap-y-12">
               {visible.map((m, i) => (

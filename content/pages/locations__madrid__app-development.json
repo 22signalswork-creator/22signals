@@ -1,0 +1,140 @@
+{
+  "path": "/locations/madrid/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Madrid: iOS, Android, Web Apps | 22 Signals",
+  "description": "App development for Madrid startups and established firms: iOS, Android and web apps, MVPs and SaaS, built for Spanish users and Latin American launches.",
+  "eyebrow": "App Development in Madrid",
+  "h1": "App development in Madrid for products that launch in Spain and travel to Latin America",
+  "intro": "We design and build iOS, Android and web apps for Madrid founders and established companies, from a first MVP to a customer app used every day. Apps are built for how Spanish users pay, sign in and give consent, ready for app store review, and structured so a launch in Mexico or Colombia does not mean starting again.",
+  "sections": [
+    {
+      "h": "Two kinds of Madrid app projects",
+      "p": [
+        "The first kind comes from founders. Madrid's startup scene has grown quickly, helped by events such as South Summit, a deep pool of engineering graduates and Spain's 2022 Startup Law, which made it easier to set up and attract talent. Founders here often have a validated idea, early funding and a short runway. They need an MVP that real users can try within weeks, built well enough that it does not have to be thrown away after the first round.",
+        "The second kind comes from established Madrid companies: a retailer that wants a loyalty app, an energy supplier that wants customers to read their bills and report meter readings, a property manager that wants tenants to log repairs, a clinic group that wants online booking. These projects have fewer unknowns about the market and more about integration with existing systems."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "MVPs: the smallest version that tests your idea with real users, with analytics from day one",
+        "Customer apps: accounts, orders, bookings, loyalty and notifications, connected to your systems",
+        "SaaS products: web apps with subscriptions, roles, admin areas and usage billing",
+        "Internal tools: field service, inspection, stock and sales apps for staff on the move",
+        "Cross-platform apps in Flutter or React Native, and native iOS or Android when the product needs it",
+        "Back ends and APIs, hosted in EU cloud regions"
+      ]
+    },
+    {
+      "h": "Built for Spanish users",
+      "p": [
+        "Spanish users expect certain things. Bizum is widely used for payments between people and is spreading to online checkouts, alongside cards, Apple Pay and Google Pay. Many people prefer to sign in with Google or Apple rather than create a password. WhatsApp is the natural place for support and updates. Spanish phone numbers, DNI and NIE formats, postcodes and addresses all need proper validation.",
+        "We design each flow around those habits and test with users who match your audience. Our team delivers in English, so in-app copy is written or reviewed in Spanish by localisation partners or by your team, and the app is built so every string can be translated without code changes."
+      ]
+    },
+    {
+      "h": "From Madrid to Latin America",
+      "p": [
+        "Madrid is a natural base for products aimed at the Spanish-speaking world. If your plan includes Mexico, Colombia, Argentina or Chile, we build the app so that each country can have its own language variant, currency, payment methods, tax rules and app store listing. Payment options differ a lot: card instalments matter in some markets, cash vouchers and local wallets in others.",
+        "Planning this early costs little. Retrofitting it later, after the code assumes one country and one currency everywhere, is not."
+      ]
+    },
+    {
+      "h": "Privacy, consent and app store rules",
+      "p": [
+        "Apps collect more data than websites, often without people noticing. Under the GDPR and Spain's LOPDGDD, each piece of data needs a purpose and a legal basis, and tracking for advertising needs consent. Apple's tracking permission prompt and privacy labels, and Google Play's data safety section, must match what the app actually does, or the app can be rejected.",
+        "We map data flows before coding, keep analytics to what you will use, host personal data in the EU and write the store disclosures with you. Where a product falls under the European Accessibility Act, such as some banking or e-commerce apps, we design to WCAG from the first screen."
+      ]
+    },
+    {
+      "h": "How an app project runs",
+      "list": [
+        "Talk: 15 minutes on the problem, the users and the date that matters, such as a funding round or a season.",
+        "Plan: discovery, user flows, a feature list split into must-have and later, and a written roadmap within 5 to 7 days.",
+        "Build: design, development and testing in short cycles, with a working build to try every few weeks and dates in writing.",
+        "Grow: launch, app store optimisation, analytics, crash monitoring and a backlog of improvements based on real use."
+      ]
+    },
+    {
+      "h": "Launching and growing the app",
+      "p": [
+        "An app with no users is a cost. Because our team also runs SEO, paid media, video and social media, the launch plan sits alongside the build: app store listings in Spanish and English, a landing page, short videos for social, and paid campaigns on Meta, Google and TikTok to bring the first users in. We measure installs, sign-ups and retention so you know which channels bring people who stay."
+      ]
+    },
+    {
+      "h": "Remote build, Madrid rhythm",
+      "p": [
+        "We work remotely and do not have an office in Madrid. Product teams in Madrid are used to remote collaboration, and with Madrid one hour ahead of London, daily stand-ups and sprint reviews fit comfortably inside the working day. For the discovery workshop and user testing sessions, we can travel to Madrid when it makes the product better."
+      ]
+    },
+    {
+      "h": "What we can show you",
+      "p": [
+        "We have worked with more than 30 companies and delivered more than 30 AI builds, many inside apps and web products. We do not name clients publicly, but on a call we can walk through apps and products relevant to yours. We will also tell you if a web app would serve your users better than a native one, which it often does at the start."
+      ]
+    },
+    {
+      "h": "What decides the budget",
+      "list": [
+        "Number of platforms: iOS, Android, web or all three",
+        "Number of features and user roles",
+        "Integrations with payments, CRM, ERP or booking systems",
+        "Countries, languages and currencies at launch",
+        "Ongoing support, hosting and app store fees, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does app development in Madrid take?",
+      "a": "Planning takes 5 to 7 days. A focused MVP usually follows within a few months, depending on features and integrations. Larger customer apps take longer. Every milestone is agreed in writing."
+    },
+    {
+      "q": "Should we build native or cross-platform?",
+      "a": "Most products start well with Flutter or React Native, which give one codebase for iOS and Android. Native makes sense for heavy graphics, deep device features or very high performance needs. We recommend based on your product, not habit."
+    },
+    {
+      "q": "Can the app accept Bizum?",
+      "a": "Bizum for online payments is offered through participating banks and payment providers. We integrate it where your provider supports it, alongside cards, Apple Pay and Google Pay."
+    },
+    {
+      "q": "Can you build an MVP for a Madrid startup?",
+      "a": "Yes. We scope the smallest version that tests your key assumption, build it so it can grow, and set up analytics so you have real numbers for investors. We also help plan the launch."
+    },
+    {
+      "q": "Can you add AI features to our app?",
+      "a": "Yes. We have delivered more than 30 AI builds, and common app features include smart search, assistants that answer account questions, document scanning and personalised recommendations. We keep personal data in the EU and tell users clearly when they are talking to AI."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. Code, designs and accounts are yours, and we set up repositories and app store accounts in your company's name from the start."
+    },
+    {
+      "q": "Can the app launch in Latin America later?",
+      "a": "Yes, if it is planned that way. We build country, currency and language support into the structure so adding Mexico, Colombia or another market is a configuration job rather than a rebuild."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/app-development",
+    "/locations/madrid/web-development",
+    "/locations/madrid/ai-automation",
+    "/industries/technology-ai",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "app development in madrid",
+    "secondary": [
+      "app developers madrid",
+      "mvp development spain",
+      "mobile app company madrid",
+      "flutter developers spain",
+      "saas development madrid"
+    ]
+  }
+}

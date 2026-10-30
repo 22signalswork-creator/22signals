@@ -1,0 +1,148 @@
+{
+  "path": "/locations/amsterdam/3d-rendering",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering Amsterdam: New-Build, Interior, Product | 22 Signals",
+  "description": "3D rendering for Amsterdam developers, architects and brands: new-build visuals for launch, interiors, planning images and product renders for e-commerce.",
+  "eyebrow": "3D Rendering in Amsterdam",
+  "h1": "3D rendering for Amsterdam developers, architects and product brands",
+  "intro": "We create 3D renders and animations for Amsterdam property developers, architects and product brands. That includes new-build exteriors and interiors for sales launches, images for planning consultations, floor plan visuals for listings and photoreal product renders for online stores. Every project starts with your drawings or CAD files and ends with images ready for print, web and social.",
+  "sections": [
+    {
+      "h": "Selling homes that do not exist yet",
+      "p": [
+        "The Netherlands has a well-known housing shortage, and new-build projects across the Amsterdam region often sell, or at least register interest, long before the first pile goes into the ground. Buyers commit to a home they cannot walk through. What they see instead are renders: the street view, the living room at golden hour, the view from the balcony, the shared garden.",
+        "Those images carry a lot of weight. They appear on the project website, on property portals such as Funda, on hoardings around the site and in the sales brochure. If they look generic, or do not match what gets built, buyers notice. The 3D rendering Amsterdam developers commission from us is built from the architect's actual drawings and material choices, so the images are both attractive and honest."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Exterior visuals: street views, aerial views and courtyards for apartment blocks, townhouses and mixed-use schemes",
+        "Interior visuals: living spaces, kitchens and bathrooms in the finish options buyers can choose from",
+        "3D floor plans: furnished plans that make room sizes and layouts easy to read on a phone",
+        "Animations and fly-throughs: short films for launch events, project websites and social media",
+        "Planning and consultation images: accurate views of a scheme in its surroundings for municipalities and residents",
+        "Product renders: photoreal images of furniture, lighting, bikes, electronics and packaging for e-commerce and catalogues"
+      ]
+    },
+    {
+      "h": "Building in a city with strict rules",
+      "p": [
+        "Amsterdam takes its streetscape seriously. Large parts of the centre are protected, and the canal ring is a UNESCO World Heritage site. New schemes elsewhere in the city often go through detailed review of height, materials and how they sit next to existing buildings. Residents expect to be consulted, and Dutch planning culture puts real weight on that consultation.",
+        "Good visuals help everyone in that process. We produce views from agreed eye-level positions, with accurate massing, shadows for specific dates and times, and materials matched to the drawings. They show what the scheme will look like, not a flattering version that causes trouble later. Where a process calls for verified views, we work from survey data and camera positions your planning consultant provides."
+      ]
+    },
+    {
+      "h": "Interiors and finish options",
+      "p": [
+        "Dutch new-build buyers often choose their own kitchen, bathroom and flooring from a set of options, a process known as kopersbegeleiding or buyer guidance. Renders of each package make that choice easier and reduce questions to the sales team. We set up a scene once and swap materials efficiently, so showing several finish levels or colour schemes does not mean paying for each image from scratch.",
+        "The same approach works for show homes that exist only on screen, and for hotel, office and retail interiors where a client needs to sign off a design before fit-out."
+      ]
+    },
+    {
+      "h": "Product renders for Dutch brands and online stores",
+      "p": [
+        "The Netherlands has a strong tradition of product and furniture design, and a large e-commerce sector to sell it through. Photography for every colour, size and variation adds up quickly. A 3D model of the product, built once from CAD files or reference photos, can produce clean packshots, lifestyle scenes, turntable spins and animated details for every variant, and the same model can be updated when the product changes.",
+        "We deliver images sized for your web shop, marketplaces such as Bol.com, Amazon and social channels, with consistent lighting and angles so the catalogue looks like one set."
+      ]
+    },
+    {
+      "h": "From drawings to final images",
+      "list": [
+        "Talk: a 15-minute call about the project, the audience for the images and the dates that matter, such as a sales launch or a planning submission",
+        "Plan: we review your drawings, CAD files and references, agree camera angles, mood and image list, and send a written roadmap with delivery dates in 5 to 7 days",
+        "Build: modelling, materials, lighting and first drafts, with set review rounds before final high-resolution renders",
+        "Grow: new angles, finish options, animations and updates as the design develops or the next phase launches"
+      ]
+    },
+    {
+      "h": "Who uses our renders, and for what",
+      "p": [
+        "Most 3D rendering Amsterdam clients ask us for falls into one of these uses. Knowing the use early shapes the camera angles, the level of detail and the file formats we deliver:"
+      ],
+      "list": [
+        "Developers and sales agents: launch campaigns, project websites, brochures, hoardings and portal listings",
+        "Architects: competition entries, design reviews with clients and presentations to welstand or planning committees",
+        "Housing corporations: consultation material that helps existing tenants understand a renovation or replacement scheme",
+        "Interior designers and fit-out firms: sign-off images for offices, hotels and shops before work starts",
+        "Furniture, lighting and bike brands: catalogue packshots, variant images and launch animations",
+        "Agencies: campaign visuals where a product needs to appear in a setting that would be costly to photograph"
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of images and animations, and their resolution",
+        "How complete your drawings and material specifications are",
+        "Complexity of the scheme, landscaping and surroundings",
+        "Number of finish options or product variants",
+        "Review rounds and the number of people approving the work"
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE and managed more than $1.5M in projects. We will share a portfolio of relevant renders on a call."
+      ]
+    },
+    {
+      "h": "Remote delivery for Amsterdam projects",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. Rendering is produced remotely from your files, with drafts shared for comment in a review tool. We work one hour behind CET, so feedback rounds happen in your working day. If a site visit or a meeting with the architect will make the images more accurate, we travel to Amsterdam for it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What files do you need to start?",
+      "a": "Architectural drawings, CAD or BIM files from Revit, ArchiCAD or SketchUp, material specifications and any mood references. For products, CAD files or good reference photos and dimensions."
+    },
+    {
+      "q": "Can you produce renders for Funda listings?",
+      "a": "Yes. We size and format exterior views, interiors and 3D floor plans for property portals, project websites and brochures."
+    },
+    {
+      "q": "How long does a set of new-build renders take?",
+      "a": "The written roadmap arrives 5 to 7 days after discovery starts and sets the delivery dates. A typical set of exterior and interior images takes a few weeks, depending on the scheme and the review rounds."
+    },
+    {
+      "q": "Can you show several kitchen or flooring options?",
+      "a": "Yes. We build the scene once and swap materials, so finish options cost far less than separate images."
+    },
+    {
+      "q": "Do you create animations as well as still images?",
+      "a": "Yes. We produce fly-throughs and short films for launches, websites and social media, often using the same models as the stills."
+    },
+    {
+      "q": "Can product renders replace our photography?",
+      "a": "For packshots, variants and detail shots, often yes. Many brands keep some lifestyle photography and use renders for the rest of the catalogue."
+    },
+    {
+      "q": "Can renders be used in sales contracts and brochures?",
+      "a": "Yes, and many developers do. We recommend adding a short note that images are artist impressions and finishes may differ, which is standard practice in Dutch new-build sales. Your sales agent or legal adviser can confirm the exact wording for your project."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/industries/real-estate",
+    "/locations/amsterdam/video-animation",
+    "/locations/amsterdam/web-development"
+  ],
+  "keywords": {
+    "primary": "3d rendering amsterdam",
+    "secondary": [
+      "3d visualisatie amsterdam",
+      "architectural rendering netherlands",
+      "nieuwbouw renders",
+      "3d product rendering",
+      "interior rendering amsterdam"
+    ]
+  }
+}

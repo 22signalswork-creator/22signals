@@ -1,0 +1,125 @@
+{
+  "path": "/locations/paris/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence in Paris: Power BI, Tableau | 22 Signals",
+  "description": "Business intelligence for Paris companies: Power BI, Looker Studio and Tableau dashboards built on French accounting data, boutique sales and stock, in euros.",
+  "eyebrow": "Business Intelligence in Paris",
+  "h1": "Business intelligence in Paris: one set of numbers the whole company trusts",
+  "intro": "We build business intelligence for Paris companies that close the month in spreadsheets and argue about which figure is right. We connect your accounting, sales, stock and marketing data, clean it, and publish dashboards in Power BI, Looker Studio or Tableau that show margin, sell-through and cash in euros, by entity, boutique or channel.",
+  "sections": [
+    {
+      "h": "Why so many Paris finance teams still close the month in Excel",
+      "p": [
+        "The story repeats across sectors. A fashion brand sells through its own boutiques, department store concessions, wholesale partners and an online store, and each channel reports in its own format. A group with three French entities and a subsidiary abroad consolidates by hand. A hotel group pulls occupancy from one system, revenue from another and payroll from a third.",
+        "The finance team ends up spending the first week of every month copying, pasting and reconciling. By the time the numbers reach the management meeting they are two weeks old, and someone still asks why the sales figure differs from the one in the CRM. A proper business intelligence setup fixes the plumbing, so the numbers arrive on time and match."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Data connections from your ERP, accounting, point of sale, e-commerce, CRM and ad platforms.",
+        "A clean data model with agreed definitions for revenue, margin, stock and customer.",
+        "Dashboards for leadership, finance, retail, marketing and operations, each showing what that team acts on.",
+        "Consolidation across entities and currencies, with euros as the reporting base.",
+        "Automated refreshes, so the morning numbers are ready before the first meeting.",
+        "Row-level security, so a boutique manager sees their store and a regional director sees the region.",
+        "Handover and training, so your team can add a page without calling us."
+      ]
+    },
+    {
+      "h": "French accounting data, handled properly",
+      "p": [
+        "French books follow the plan comptable général, the national chart of accounts, and French companies must be able to produce an FEC, the standard file of accounting entries that the tax authorities can ask for during an audit. That file turns out to be a useful source for reporting: it is complete, structured and the same shape whichever accounting software produced it.",
+        "We map your accounts to management categories your board understands, keep the statutory view and the management view side by side, and handle the details that trip up tools built for other markets: comma decimals, French date formats, VAT at its different rates, and fiscal years that do not always match the calendar. Once e-invoicing data starts flowing through approved platforms, we can add it as a cleaner source for payables and receivables."
+      ]
+    },
+    {
+      "h": "Dashboards for the way Paris sectors work",
+      "list": [
+        "Luxury and fashion: sell-through by collection, boutique and concession, stock ageing, and how full-price and outlet sales compare across the season.",
+        "Beauty: sell-out by retailer and door, launch tracking in the weeks after release, and sample and gift spend against sales.",
+        "Retail and e-commerce: online and store sales in one view, returns by reason and contribution margin after delivery costs.",
+        "Finance and corporate teams at La Défense: entity consolidation, budget against actual, and cash forecasting with a clear audit trail.",
+        "Hospitality and events: occupancy, average rate and revenue per available room, plus exhibitor and visitor numbers around trade fair dates.",
+        "Startups and scale-ups: monthly recurring revenue, churn, cohorts and burn, ready for a board pack or an investor update."
+      ]
+    },
+    {
+      "h": "Customer data and GDPR",
+      "p": [
+        "The most valuable data in many Paris businesses is about people: clienteling notes in a luxury house, loyalty records in a beauty brand, guest histories in a hotel. GDPR applies to all of it, and the CNIL expects companies to collect only what they need, keep it only as long as they need it and limit who can see it.",
+        "We design reporting around those rules. Customer-level detail stays with the teams who need it, everyone else sees totals, and personal fields are masked or removed where a dashboard does not need them. Data is hosted in an EU region, in France if you prefer, and access is logged. When a client asks a boutique to delete their details, the deletion flows through to the reporting layer too, instead of lingering in an old extract on someone's laptop."
+      ]
+    },
+    {
+      "h": "Picking the tool",
+      "p": [
+        "Power BI is the usual choice for companies already on Microsoft 365, and it handles finance models and row-level security well. Looker Studio suits marketing teams living in Google Ads and Google Analytics, and costs little to start. Tableau is strong for analysts who explore data visually and is common in larger groups. We recommend one based on the systems you already run, who will maintain it and what your licences already cover, and we will say so if your current tool is fine. Switching tools costs time and goodwill, so it has to earn its place in the plan."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: a 15-minute call about the decisions your numbers should support.",
+        "Plan: we audit your data sources, agree the definitions and write a roadmap with the first dashboards in 5 to 7 days.",
+        "Build: data connections, model and dashboards built in stages, with dates in writing and a review at each stage.",
+        "Grow: we watch which pages people use, fix what confuses them and add new sources as the business changes."
+      ]
+    },
+    {
+      "h": "Proof, and how we work with Paris finance teams",
+      "p": [
+        "We have managed more than $1.5M in projects across our work, and reporting is often the first thing we fix, because every later decision depends on it. We will talk you through examples on a call; client names stay private.",
+        "We have no office in Paris and work remotely on shared hours, with Paris one hour ahead of London. Definition workshops with finance and operations can run on site when that helps, with travel planned into the scope. Dashboards and documentation are delivered in English, and French labels can be added for teams who prefer them."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can business intelligence in Paris work with French accounting software?",
+      "a": "Yes. We connect to the systems common in France, such as Sage, Cegid and Pennylane, as well as SAP and Microsoft Dynamics, and we can use the FEC export as a reliable source of accounting entries."
+    },
+    {
+      "q": "Do you handle multi-entity and multi-currency groups?",
+      "a": "Yes. We consolidate entities in France and abroad, convert currencies using rates you approve and report in euros, while keeping each entity's own view available for local teams."
+    },
+    {
+      "q": "Can dashboards show French labels and number formats?",
+      "a": "Yes. Dashboards can use French labels, comma decimals and French date formats for teams who prefer them. Our documentation is in English, and French versions can be prepared with partners."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "The roadmap takes 5 to 7 days. The first dashboard usually follows once the main data sources are connected and the definitions agreed, and every date is set out in writing at the planning stage."
+    },
+    {
+      "q": "Is our customer data safe in a dashboard?",
+      "a": "We limit customer-level detail to the people who need it, mask personal fields elsewhere, host in an EU region and log access. The setup follows GDPR principles, and your DPO reviews it before launch."
+    },
+    {
+      "q": "Which is better for us: Power BI, Looker Studio or Tableau?",
+      "a": "It depends on your existing systems and team. Power BI fits Microsoft-based finance teams, Looker Studio fits Google-based marketing teams and Tableau suits analysts in larger groups. We recommend one after reviewing what you already pay for."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/paris/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence in paris",
+    "secondary": [
+      "power bi consultant paris",
+      "data analytics paris",
+      "dashboard agency paris",
+      "bi consulting france"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "path": "/locations/berlin/3d-rendering",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "3d-rendering",
+  "serviceType": "3D rendering",
+  "title": "3D Rendering Berlin: Product and Architectural CGI | 22 Signals",
+  "description": "3D rendering for Berlin and German companies: product CGI from CAD files, architectural and interior visuals, packaging and trade fair imagery, all photoreal.",
+  "eyebrow": "3D rendering in Berlin",
+  "h1": "3D rendering in Berlin for products, buildings and interiors",
+  "intro": "We create photoreal 3D renders for German manufacturers, property developers, architects and consumer brands. Machines and components are rendered from your CAD files, buildings and flats are shown before construction finishes, and packaging is visualised before the first print run. Every image is built to an agreed brief, delivered in the formats each channel needs and kept as a reusable 3D asset.",
+  "sections": [
+    {
+      "h": "Why render instead of photograph",
+      "p": [
+        "A product photo shoot sounds simple until you list what it needs: finished samples of every variant, a studio, a photographer, a retoucher, and another shoot every time a colour or component changes. For a German machine builder with hundreds of configurations, or a furniture brand with dozens of fabrics, that adds up quickly and still leaves gaps in the catalogue.",
+        "A 3D model built once can produce every variant, every angle and every background. When the design changes, the model changes and the images follow. For buildings, rendering is the only option until the scaffolding comes down. Buyers of a new flat in Berlin want to see the light in the living room long before anyone can stand in it."
+      ]
+    },
+    {
+      "h": "What we render",
+      "list": [
+        "Product CGI: machines, components, tools and consumer goods, rendered from CAD for catalogues, websites and shops",
+        "Exploded and cutaway views: the inside of a product, shown clearly for sales and technical documentation",
+        "Architectural exteriors: new builds, extensions and conversions shown in their real street context",
+        "Interiors: flats, offices, hotels and showrooms with materials and light that match the specification",
+        "Packaging: boxes, bottles and labels visualised before print, for retail pitches and online listings",
+        "Trade fair and print visuals: large-format images with the resolution a stand wall needs",
+        "Configurator assets: lightweight models for online product configurators and interactive viewers"
+      ]
+    },
+    {
+      "h": "Built from engineering data German firms already have",
+      "p": [
+        "Most German manufacturers have precise CAD models of everything they sell. Those files are usually far too detailed for rendering, with every screw and thread modelled, and they are often confidential. We take common exports such as STEP files, simplify the geometry, remove internal parts you do not want shown and add realistic materials: brushed steel, powder coating, cast aluminium, rubber seals.",
+        "The result is accurate to the engineering, which matters to technical buyers who will spot a wrong flange in seconds, and it looks like a studio photograph. Confidential files stay in agreed storage, access is limited to the people working on your project, and we can sign a non-disclosure agreement before you send anything."
+      ]
+    },
+    {
+      "h": "Property and architecture in Berlin",
+      "p": [
+        "Berlin's property market mixes new residential projects, office conversions and the renovation of older buildings with high ceilings and ornate facades. Each needs different visuals. A developer selling flats off-plan needs exteriors, interiors and floor plan views that help buyers commit. An architect presenting to a client or a planning committee needs images that show proportions and materials honestly. A renovation project needs before and after views that respect what is already there.",
+        "We work from architectural drawings, BIM or CAD models and material schedules. Lighting is set for the real orientation of the building where you provide it, so a north-facing flat is not shown bathed in afternoon sun. Honest images avoid disappointed buyers, and in Germany misleading property advertising can also cause legal trouble."
+      ]
+    },
+    {
+      "h": "Consistent catalogue images at scale",
+      "p": [
+        "German online shops and B2B catalogues often need thousands of images that look like they belong together: same camera angle, same lighting, same shadow, same background. That is hard to achieve with photography across several years and photographers. With rendering, the setup is saved once and every new product uses it.",
+        "We deliver images in the sizes and formats each channel needs, from transparent backgrounds for marketplaces to large crops for print, with file names that match your article numbers so they drop straight into your product information system."
+      ]
+    },
+    {
+      "h": "How a rendering project runs",
+      "list": [
+        "Talk: 15 minutes on what you need to show, to whom and by when.",
+        "Plan: file review, shot list, style references and schedule in a written roadmap within 5 to 7 days.",
+        "Build: modelling, materials and lighting, with draft renders for review before final output, dates in writing.",
+        "Grow: new variants, animations and configurator assets built from the same models over time."
+      ]
+    },
+    {
+      "h": "Remote production, clear reviews",
+      "p": [
+        "We have no studio in Berlin, and rendering does not need one. Files arrive through secure transfer, drafts are shared for comments on exact areas of an image, and changes are tracked against each review round. Berlin is one hour ahead of London, so feedback given in the morning is usually picked up the same day.",
+        "German clients often want a clear approval process, and so do we. The number of review rounds is agreed in the roadmap, along with what counts as a change of brief rather than a correction."
+      ]
+    },
+    {
+      "h": "Beyond still images",
+      "p": [
+        "The models we build can become much more than stills. The same asset can drive a product animation for a trade fair, an interactive viewer on your website, AR previews on a phone or a social campaign. Because our team also produces video, motion graphics, web builds and paid media, the 3D work does not need to be handed to another supplier to be used. We have worked with more than 30 companies and managed more than $1.5M in projects; we do not name clients, but we can show relevant renders on a call."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "p": [
+        "We price 3D rendering, Berlin property or industrial product, after reviewing your files. The main factors are the number of products or rooms, the state of the source files, how many variants and angles you need, material complexity, image resolution, the number of review rounds and whether you want animations or configurator assets from the same models."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which file formats can you work from?",
+      "a": "Common CAD and 3D exports such as STEP, IGES, OBJ and FBX, plus architectural drawings, BIM exports and material schedules. If you only have drawings or photos, we can model from those, though it takes longer."
+    },
+    {
+      "q": "How realistic will the renders look?",
+      "a": "Photoreal when the brief calls for it, meaning most viewers cannot tell them from photographs. We match real materials and lighting and review drafts with you before final output."
+    },
+    {
+      "q": "Is 3D rendering in Berlin cheaper than photography?",
+      "a": "It depends on volume. For a single product with one variant, a shoot can be simpler. For many variants, frequent design changes or products not yet built, rendering usually costs less over time because the model is reused."
+    },
+    {
+      "q": "Can you keep our CAD data confidential?",
+      "a": "Yes. We sign a non-disclosure agreement before receiving files, limit access to the project team, store files in agreed locations and remove internal parts you do not want shown from the render models."
+    },
+    {
+      "q": "How long does a set of renders take?",
+      "a": "A handful of product images from clean CAD files can take days. Full property marketing sets or large catalogue projects take longer. The schedule is agreed in writing during planning."
+    },
+    {
+      "q": "Can the same models be used for animation?",
+      "a": "Yes. Once a model is built, our animation team can use it for product films, trade fair loops and social content, which saves rebuilding it later."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/3d-rendering",
+    "/services/3d-animation",
+    "/locations/berlin/video-animation",
+    "/industries/real-estate",
+    "/locations/berlin/web-development"
+  ],
+  "keywords": {
+    "primary": "3d rendering berlin",
+    "secondary": [
+      "product cgi germany",
+      "architectural visualisation berlin",
+      "cad to render",
+      "3d visualisierung berlin"
+    ]
+  }
+}

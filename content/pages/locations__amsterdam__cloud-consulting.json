@@ -1,0 +1,132 @@
+{
+  "path": "/locations/amsterdam/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Amsterdam: Azure, Google Cloud, AWS | 22 Signals",
+  "description": "Cloud consulting for Amsterdam companies: region choice, NIS2 and DORA readiness, security, cost reviews and migrations on Azure, Google Cloud and AWS.",
+  "eyebrow": "Cloud Consulting in Amsterdam",
+  "h1": "Cloud consulting for Amsterdam companies weighing cost, control and sovereignty",
+  "intro": "We design, secure and run cloud environments for Amsterdam companies on Microsoft Azure, Google Cloud and AWS. That covers which European region to use, how to meet NIS2 and DORA expectations, how to cut a bill that has crept up, and how to migrate without a weekend of outages. We stay on to run the platform if you want us to.",
+  "sections": [
+    {
+      "h": "Three conversations we keep having in Amsterdam",
+      "p": [
+        "The first is about money. A company moved to the cloud five years ago, the bill has grown every year and nobody can say which team or product is driving it. The second is about rules. A payments firm or a supplier to one has realised that DORA and NIS2 expect evidence it does not yet have: tested backups, documented recovery plans, a list of critical providers. The third is about control. Boards in the Netherlands now ask openly how dependent they are on a small number of US cloud providers, and what they would do if a contract or a political decision changed overnight.",
+        "The cloud consulting Amsterdam companies need deals with all three at once, because the architecture that saves money is usually the one that is easier to secure and easier to move."
+      ]
+    },
+    {
+      "h": "Cloud regions close to Amsterdam",
+      "p": [
+        "The Netherlands is one of Europe's main data centre hubs, helped by the Amsterdam Internet Exchange and dense fibre. Microsoft Azure's West Europe region is in the Netherlands, and Google Cloud runs its europe-west4 region in Eemshaven in the north of the country. AWS does not run a region inside the Netherlands; Dutch workloads on AWS usually sit in Frankfurt or Ireland, both inside the EU.",
+        "For most companies any EU region satisfies GDPR on its own. The choice then comes down to latency, which services are available, price and what your customers or regulators have written into contracts. We set out those trade-offs in plain terms and record the decision so an auditor can follow it later."
+      ]
+    },
+    {
+      "h": "What our cloud consulting Amsterdam clients use most",
+      "list": [
+        "Cloud assessment: an inventory of what runs where, what it costs, who can access it and what would fail first",
+        "Landing zone: accounts or subscriptions, networks, identity and guardrails set up properly before workloads arrive",
+        "Migration: moving servers, databases and applications from a colocation rack or another cloud, with tested rollback",
+        "Security baseline: single sign-on, least-privilege roles, encryption, logging and backups you have actually restored",
+        "Cost review: idle resources, oversized machines, missed reservations and tagging so each team sees its own spend",
+        "Exit and portability planning: containers, infrastructure as code and documented dependencies, so switching provider is possible",
+        "Managed operations: monitoring, patching and incident response after launch, with response times agreed in writing"
+      ]
+    },
+    {
+      "h": "NIS2, DORA and GDPR, kept general",
+      "p": [
+        "The EU NIS2 directive widens the group of companies that must manage cyber risk formally and report serious incidents, and the Netherlands is bringing it into national law. DORA has applied to most EU financial entities since January 2025 and sets out expectations for ICT risk, testing and the oversight of third-party providers, including cloud. GDPR, enforced in the Netherlands by the Autoriteit Persoonsgegevens, sits underneath both.",
+        "We do not give legal opinions. What we do is translate the technical side of these rules into a working setup: logging that shows who did what, recovery plans with tested times, a register of critical suppliers and an architecture diagram your compliance team can attach to its files. Your legal and compliance advisers decide which obligations apply to you."
+      ]
+    },
+    {
+      "h": "Sectors and what they need from the cloud",
+      "list": [
+        "Payments and fintech: segregated environments, strong audit trails, recovery tests that satisfy DORA reviews and capacity for peak transaction days",
+        "E-commerce: shops that scale for Black Friday and Sinterklaas season, then scale down so you stop paying for idle servers",
+        "Logistics and distribution: tracking and warehouse systems with dependable links to carriers, customs and customer portals",
+        "SaaS scale-ups: infrastructure as code, staging environments and cost per customer you can show investors",
+        "Creative and media companies: storage and rendering capacity that grows for a big project and shrinks afterwards",
+        "Professional services: secure document platforms with access reviews and retention rules"
+      ]
+    },
+    {
+      "h": "How a cloud engagement runs",
+      "p": [
+        "Talk is a 15-minute call about what you run and what worries you most. Plan is a discovery of your current setup, ending in a written roadmap within 5 to 7 days: target architecture, region choice, security gaps, migration order and a cost estimate. Build is carried out by cloud specialists in planned stages, each with a date in writing and a rollback plan. Grow is the ongoing part: monthly cost and security reviews, patching, and changes as you add products, countries or customers."
+      ]
+    },
+    {
+      "h": "Migrations without drama",
+      "p": [
+        "Most migration pain comes from surprises: an application nobody knew depended on an old file share, a licence that does not allow cloud hosting, a database that takes eight hours to copy. We find those in the planning stage by mapping dependencies and running a test migration first. Cut-overs are scheduled for quiet hours in Amsterdam, with a clear go or no-go decision and a way back if something goes wrong."
+      ]
+    },
+    {
+      "h": "Proof that we keep to dates",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE, managed more than $1.5M in projects and broadcast more than 20 live events, where infrastructure has no second chance. We are happy to discuss comparable cloud work on a call."
+      ]
+    },
+    {
+      "h": "Remote cloud delivery for Amsterdam",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. Cloud work is almost entirely remote by nature. We keep the same working day as you, one hour behind CET, and travel to the Netherlands for workshops or a major cut-over if that helps. All documentation is in English."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud regions are in the Netherlands?",
+      "a": "Microsoft Azure's West Europe region and Google Cloud's europe-west4 region in Eemshaven are both in the Netherlands. AWS has no Dutch region, so AWS workloads usually run in Frankfurt or Ireland."
+    },
+    {
+      "q": "Do we have to keep our data in the Netherlands?",
+      "a": "Usually not. GDPR treats the EU as one area, so any EU region is generally fine. Some contracts, public sector tenders or sector rules ask for more, and we check those during planning with your legal adviser."
+    },
+    {
+      "q": "Can you help us prepare for DORA or NIS2?",
+      "a": "We handle the technical side: logging, recovery testing, access control, supplier registers and architecture documents. Your compliance and legal teams decide what applies and sign off on the result."
+    },
+    {
+      "q": "Can you lower our cloud bill?",
+      "a": "Usually, yes. Most environments we review have idle resources, oversized machines or missed reservation savings. The Plan stage gives you a written list of changes and the expected effect before anything is touched."
+    },
+    {
+      "q": "How do we reduce dependence on one cloud provider?",
+      "a": "Start with portability, not a second cloud. Containers, infrastructure as code and documented dependencies make a move possible if you ever need one. Running two clouds at once adds cost and is only worth it for specific needs."
+    },
+    {
+      "q": "Do you offer on-site support in Amsterdam?",
+      "a": "Support is remote, which suits cloud work. We travel to Amsterdam for planning workshops or major migrations when it helps."
+    },
+    {
+      "q": "When should we bring in cloud consulting?",
+      "a": "Before a migration, when the bill keeps rising without explanation, when an auditor or customer asks questions you cannot answer, or when one engineer is the only person who understands the setup."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/insights/cloud-migration-checklist",
+    "/locations/amsterdam/business-intelligence"
+  ],
+  "keywords": {
+    "primary": "cloud consulting amsterdam",
+    "secondary": [
+      "cloud consultant netherlands",
+      "azure consultant amsterdam",
+      "cloud migration netherlands",
+      "dora cloud compliance",
+      "nis2 cloud security"
+    ]
+  }
+}

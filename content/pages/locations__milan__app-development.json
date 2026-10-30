@@ -1,0 +1,142 @@
+{
+  "path": "/locations/milan/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development in Milan: iOS, Android and Web | 22 Signals",
+  "description": "App development in Milan for brands, field teams and founders: iOS, Android and web apps planned around real users, GDPR consent and EU accessibility rules.",
+  "eyebrow": "App Development in Milan",
+  "h1": "App development in Milan, from sales tools to customer apps",
+  "intro": "We plan, design and build iOS, Android and web apps for Milan companies and founders. Some are customer apps for loyalty, bookings or after-sales service. Others are tools for sales agents, technicians and showroom staff. Each one starts with a clear job to do, is tested with the people who will use it and is built to stay maintainable after launch.",
+  "sections": [
+    {
+      "h": "Most apps fail on purpose, not on code",
+      "p": [
+        "The app stores are full of brand apps that were downloaded once. They were built because a competitor had one, not because customers needed one. Before we quote for app development in Milan, we ask a blunt question: what will someone do in this app every week that they cannot do as easily on your website? If there is no good answer, we will say so and suggest a better web experience instead.",
+        "When there is a good answer, an app can be one of the most useful things a company owns. It lives on the customer's phone, it can send a timely reminder, and it can work in a showroom basement with no signal."
+      ]
+    },
+    {
+      "h": "Apps Milan companies ask us about",
+      "list": [
+        "Sales agent apps: catalogues, price lists and order entry that work offline at a trade fair or a customer's office",
+        "Showroom tools: tablets that show every finish and configuration, then send a quote to the customer before they leave",
+        "Technician apps: service history, manuals and parts ordering for machinery installed in customer plants across Europe",
+        "Customer apps for fashion and retail: loyalty, appointments, stock checks and after-sales care",
+        "Booking apps for clinics, salons, gyms and hospitality",
+        "MVPs for founders: a focused first version of a product, built to test demand before raising more money",
+        "Internal apps that replace paper forms and spreadsheets on the factory floor"
+      ]
+    },
+    {
+      "h": "Built for how Italians pay and sign in",
+      "p": [
+        "Customer apps need to feel local. In Italy that means card payments plus the wallets people already use, such as Apple Pay, Google Pay, PayPal and the Italian app Satispay where it fits. It means delivery addresses that follow Italian formats, invoices with the right tax details for business buyers and support for the codice fiscale where a service needs it.",
+        "For business apps, sign-in usually connects to Microsoft 365 or Google Workspace, so staff use one account and access ends when someone leaves. We plan these details in discovery, because they are expensive to change later."
+      ]
+    },
+    {
+      "h": "Privacy, consent and accessibility",
+      "p": [
+        "An app collects more personal data than most websites: location, contacts, photos, purchase history. Under the GDPR every piece needs a reason, and the Garante expects consent screens that are honest and easy to refuse. We design data collection with that in mind and keep a record of what the app stores, where and for how long.",
+        "Accessibility is part of the build from the start. Screen reader labels, scalable text, sufficient contrast and large touch targets are standard. The European Accessibility Act now covers many consumer apps, including e-commerce and banking services, so this matters legally as well as commercially."
+      ]
+    },
+    {
+      "h": "How we decide between native, cross-platform and web",
+      "p": [
+        "There is no single right answer. Native iOS and Android code gives the best performance and full access to the phone's features. Cross-platform frameworks such as React Native or Flutter let one codebase serve both stores, which suits most business and customer apps. A progressive web app avoids the app stores entirely and can be enough for internal tools. We recommend one in the written plan, with the trade-offs in plain language."
+      ]
+    },
+    {
+      "h": "From idea to the app stores: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to understand the job the app must do.",
+        "Plan: discovery, user flows and a written roadmap in 5 to 7 days, with features, platforms and dates.",
+        "Build: design, development and testing in short rounds, so you see working screens early. Dates go in writing.",
+        "Grow: store listings, launch, crash monitoring and updates based on how people actually use it."
+      ]
+    },
+    {
+      "h": "Store listings and launch",
+      "p": [
+        "Getting an app approved by Apple and Google takes planning. We prepare the listings, screenshots, privacy labels and review notes, in Italian and other languages where you need them, with native copy arranged through partners. Launch timing can follow your calendar, such as a new season, a Salone collection or a trade fair where agents will use the app for the first time."
+      ]
+    },
+    {
+      "h": "One team behind the app and everything around it",
+      "p": [
+        "An app rarely stands alone. It needs a back end, an admin panel, a link to the ERP or e-commerce platform and, for customer apps, marketing to get it installed. Our team covers the cloud, the data and the campaigns as well as the app, which keeps the pieces consistent and the timeline under one plan. We have delivered more than 30 AI builds, so features such as smart search or assisted support can be added when they make sense."
+      ]
+    },
+    {
+      "h": "Working with us from Milan",
+      "p": [
+        "We do not have an office in Milan. Design reviews and sprint demos run over video in the Italian working day, one hour ahead of London, and you install test versions on your own phone as the build progresses. We come to Milan for user testing with your agents or showroom staff when the project needs it, because watching someone use an app in their real setting teaches more than any report."
+      ]
+    },
+    {
+      "h": "After launch: the part most budgets forget",
+      "p": [
+        "Apple and Google release new versions of their systems every year, and apps that are not updated start to break or get flagged in the stores. Payment providers change their requirements. Users ask for features nobody thought of in the plan. We agree a support arrangement before launch, so updates, security fixes and small improvements happen on a schedule rather than in a panic.",
+        "We also watch the numbers that show whether the app is doing its job: weekly active users, completed orders or bookings, crash rates and the screens where people give up. Those figures decide what goes into the next release, not opinions in a meeting."
+      ]
+    },
+    {
+      "h": "What sets the budget",
+      "list": [
+        "Platforms: iOS, Android, web or all three",
+        "Number of features and screens in the first version",
+        "Integrations with your ERP, CRM, payments or e-commerce",
+        "Offline use and how much data must sync",
+        "Languages, and ongoing support and updates after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does app development in Milan cost?",
+      "a": "It depends on platforms, features and integrations. We price after discovery and set out each phase in the written plan. A focused first version costs much less than a full product, and is usually the right place to start."
+    },
+    {
+      "q": "Should we build a native app or a web app?",
+      "a": "It depends on what the app must do. If it needs offline use, the camera or push notifications, a store app usually wins. For simple internal tools a web app may be enough. We explain the trade-offs before you decide."
+    },
+    {
+      "q": "Can the app work offline at trade fairs?",
+      "a": "Yes. Catalogues, price lists and order forms can be stored on the device and synced when a connection returns, which is often essential in exhibition halls."
+    },
+    {
+      "q": "Can the app be in Italian?",
+      "a": "Yes. Apps can launch in Italian and any other languages you sell in. Our team works in English, and native Italian copy is arranged with partners."
+    },
+    {
+      "q": "Do you handle App Store and Google Play approval?",
+      "a": "Yes. We prepare listings, privacy details and review notes, submit the app and deal with any questions from Apple or Google."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. Code, designs and store accounts belong to your company, and we hand over documentation so another team could maintain it if you ever chose to."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/app-development",
+    "/locations/milan/web-development",
+    "/locations/milan/cloud-consulting",
+    "/services/custom-ai-development",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "app development in milan",
+    "secondary": [
+      "sviluppo app milano",
+      "mobile app developers italy",
+      "ios and android apps milan",
+      "b2b sales app"
+    ]
+  }
+}

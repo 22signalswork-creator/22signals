@@ -1,0 +1,139 @@
+{
+  "path": "/locations/milan/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting in Milan: Plans Within EU Rules | 22 Signals",
+  "description": "AI consulting in Milan for established firms: pick the uses that pay off, plan them within GDPR, the Garante and the EU AI Act, then build a working pilot.",
+  "eyebrow": "AI Consulting in Milan",
+  "h1": "AI consulting in Milan for firms that want results, not experiments",
+  "intro": "We help established Milan companies decide where AI will save time or win revenue, then build the first working system. That means a short list of uses ranked by value, a plan that respects GDPR, the Garante and the EU AI Act, and a pilot your staff actually use. Strategy and build come from the same team.",
+  "sections": [
+    {
+      "h": "Where Milan companies stand with AI",
+      "p": [
+        "Talk to a finance director in Porta Nuova or an operations manager at a machinery maker near Bergamo and you hear the same story. People already use ChatGPT for drafts and translations, often on personal accounts. The IT lead worries about where customer data ends up. The owners have read about AI at every conference since 2023, and nobody can say which project is worth a real budget.",
+        "That is the moment AI consulting in Milan should earn its fee. Not with a slide deck about the future of work, but with a clear answer to three questions: which processes are worth changing, what the rules are, and what the first build should be."
+      ]
+    },
+    {
+      "h": "Why the Italian context changes the advice",
+      "p": [
+        "Italy has a data regulator that acts. The Garante per la protezione dei dati personali temporarily restricted ChatGPT in 2023 and has continued to look closely at how AI tools handle personal data. Italian boards remember that, and so do their lawyers. Any plan we write for a Milan company assumes the Garante may one day ask how a system works, and makes the answer easy to give.",
+        "The EU AI Act has been in force since 2024, with its obligations coming in over several years, and Italy has added its own national AI law on top. Most business uses, such as drafting, search, classification and forecasting, sit in the lower risk tiers. Some do not: AI used in hiring, credit decisions or worker monitoring carries much heavier duties. Part of our job is sorting your ideas into those buckets early, so a promising pilot does not stall in legal review."
+      ]
+    },
+    {
+      "h": "What the engagement covers",
+      "list": [
+        "Readiness review: data, systems, skills and risk, written in plain language for the owners and the board",
+        "Use-case shortlist: every idea scored on value, effort and risk, so you fund two or three, not twelve",
+        "Rules for staff: which tools are approved, what data can go into them, and who signs off new uses",
+        "Tool and vendor choice: Microsoft Copilot, OpenAI, Anthropic, Google or a custom build, with the trade-offs set out",
+        "Data protection groundwork: records of processing, data location and the questions your DPO should see",
+        "A pilot build on one real process, measured against the way it works today",
+        "A roadmap with owners, costs and dates for what follows the pilot"
+      ]
+    },
+    {
+      "h": "Uses that tend to pay off in Milan",
+      "p": [
+        "The best first projects are boring in a good way. They sit on a process that happens hundreds of times a month, where the answer can be checked. A few patterns come up again and again across Lombardy:"
+      ],
+      "list": [
+        "Fashion and luxury: product descriptions and care information drafted in several languages from one master record, with a human editor approving every line",
+        "Manufacturers and exporters: quotes and technical answers prepared from past orders, manuals and price lists, so the sales office replies the same day",
+        "Furniture and design brands: sorting and tagging thousands of product images and finishes before a new collection goes online",
+        "Banks, insurers and asset managers: search over internal policies and procedures, kept inside the company's own cloud environment",
+        "Professional firms: first drafts of routine documents and summaries of long files, reviewed by a qualified person",
+        "Distributors: reading incoming orders from email and PEC and preparing them for the ERP"
+      ]
+    },
+    {
+      "h": "Family ownership and AI decisions",
+      "p": [
+        "Many Milan businesses are family-owned, and AI decisions there are rarely made by a committee. They are made at the kitchen table, or over lunch, by two or three people who have run the company for decades and one who has just joined from abroad. Our written material is shaped for that audience: short, specific, honest about what will not work, and clear on cost.",
+        "We also plan for the people who will use the tools. A sales office that has worked the same way for twenty years needs to see that the new system makes their day easier. That is why a pilot is measured on real work with real staff before anyone talks about rolling it out."
+      ]
+    },
+    {
+      "h": "From advice to a working pilot",
+      "p": [
+        "Plenty of consultancies stop at the recommendation. We go on to build it. Our teams have delivered more than 30 AI builds, so the plan is written by people who know what a model can and cannot do with your data, how long integration really takes and where costs grow.",
+        "A typical pilot connects a language model to one source of company knowledge, such as past quotes or product data, sets clear limits on what it may answer, logs every response and reports accuracy weekly. If the numbers are good, we extend it. If they are not, you have spent a small amount to learn something useful, and you know why."
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about the problem you want solved, not a sales pitch.",
+        "Plan: discovery with your team and a written AI roadmap within 5 to 7 days.",
+        "Build: specialist engineers build the pilot, with dates agreed in writing.",
+        "Grow: we measure results, train staff and extend what works."
+      ]
+    },
+    {
+      "h": "Working with a Milan team from London",
+      "p": [
+        "We do not have an office in Milan. Workshops and reviews run over video, and we travel to Milan for the sessions that are better in a room, such as a discovery day with the owners or a walk through the warehouse to see how orders really move. Milan is one hour ahead of London, so our calls fit comfortably into the Italian working day.",
+        "Our work is delivered in English. If your pilot has to read and write Italian, which it often does, we test it on Italian material from the start and arrange native Italian review with partners where the output goes to customers."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "How many departments and processes the review covers",
+        "The state of your data and how many systems the pilot must connect to",
+        "Risk level under the EU AI Act and the amount of documentation it needs",
+        "Whether the pilot needs Italian language testing and native review",
+        "Licence and usage costs for the AI platform, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting in Milan usually cost?",
+      "a": "It depends on scope, so we price after the first call. A focused review with one pilot costs far less than a company-wide programme. The written roadmap sets out each cost before anything is built, and platform fees are billed to you directly."
+    },
+    {
+      "q": "Does the EU AI Act stop us using ChatGPT or Copilot?",
+      "a": "No. Most everyday business uses are allowed with sensible rules on data and human review. Heavier duties apply to uses such as hiring or credit decisions. We sort your ideas by risk level and your lawyers confirm the position."
+    },
+    {
+      "q": "Will the Garante be a problem for our AI plans?",
+      "a": "Not if you plan for it. The Garante expects a clear legal basis, transparency with the people whose data is used, and proper security. We design pilots so those points are documented from day one, which makes any later question easier to answer."
+    },
+    {
+      "q": "Can AI tools work well in Italian?",
+      "a": "The leading models handle Italian well for drafting, summaries and search. Quality still varies with technical vocabulary, so we test on your own documents and add native review where output reaches customers."
+    },
+    {
+      "q": "Do you only advise, or do you also build?",
+      "a": "Both. The same team that writes the plan builds the pilot, which keeps the advice realistic. If you prefer to build in-house, we hand over a clear specification instead."
+    },
+    {
+      "q": "Can you meet us in Milan?",
+      "a": "Yes, when the project needs it. Most work runs remotely on Italian hours, and we travel to Milan for discovery days, workshops and key reviews. We will agree which sessions are in person during planning."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/ai-consulting",
+    "/locations/milan/ai-automation",
+    "/locations/milan/business-intelligence",
+    "/insights/what-is-ai-consulting",
+    "/insights/how-to-choose-an-ai-consulting-firm"
+  ],
+  "keywords": {
+    "primary": "ai consulting in milan",
+    "secondary": [
+      "consulenza intelligenza artificiale milano",
+      "ai consultancy italy",
+      "eu ai act consulting",
+      "ai strategy milan"
+    ]
+  }
+}

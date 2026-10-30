@@ -1,0 +1,148 @@
+{
+  "path": "/locations/amsterdam/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Amsterdam: Bilingual, Accessible | 22 Signals",
+  "description": "Web development for Amsterdam companies: fast Dutch and English sites, iDEAL checkout, proper cookie consent and WCAG accessibility built in.",
+  "eyebrow": "Web Development in Amsterdam",
+  "h1": "Web development for Amsterdam companies selling in more than one language",
+  "intro": "We design and build websites and web apps for Amsterdam companies that sell to Dutch customers and to the rest of Europe. Every build is fast, accessible to WCAG standards by default, set up for Dutch and English from day one, and ready for iDEAL, cookie consent and search. You get dates in writing and a site your team can update.",
+  "sections": [
+    {
+      "h": "What a Dutch buyer expects from a website",
+      "p": [
+        "Dutch shoppers are some of the most practical online buyers in Europe. They compare prices, read the delivery and returns terms before adding anything to a basket, and expect to pay with iDEAL, the bank payment method that dominates Dutch online checkout. If the site is slow on a phone, has no Dutch version or only accepts cards, many simply leave.",
+        "Business buyers are not much different. A procurement lead in Utrecht or a founder in Amsterdam Oost wants a clear offer, honest pricing signals and a way to book a call without filling in a twelve-field form. The web development Amsterdam companies get from us starts with those expectations, not with a template."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites: fast, clear sites for B2B firms, European headquarters and professional services",
+        "E-commerce: Shopify, WooCommerce and headless stores with iDEAL, cards, Klarna and other methods your payment provider supports",
+        "Web apps and portals: customer dashboards, booking tools, partner portals and internal systems",
+        "Multilingual setups: Dutch, English and further EU languages with correct hreflang tags and translated URLs",
+        "Integrations: CRM, ERP, marketplace and payment connections, so orders and leads flow without retyping",
+        "Care plans: updates, security patches, backups and small changes after launch"
+      ]
+    },
+    {
+      "h": "Sites we are often asked to build in Amsterdam",
+      "p": [
+        "Most requests for web development Amsterdam firms send us fall into a few familiar shapes, each with its own priorities:"
+      ],
+      "list": [
+        "European headquarters sites: one corporate site serving several countries, with local contact routes and careers pages that recruiters actually use",
+        "Direct-to-consumer brands: Shopify stores that sell in the Netherlands first, then Belgium and Germany, with local delivery promises and returns terms",
+        "Payments and fintech products: marketing sites with clear pricing, developer documentation and sign-up flows that hand off cleanly to the product",
+        "Creative and advertising agencies: portfolio sites that load large video quickly and let the team publish new work in minutes",
+        "Logistics and B2B suppliers: quote request flows, track-and-trace pages and dealer portals connected to the ERP",
+        "Property developers: project microsites with availability tables and registration forms for new-build launches"
+      ]
+    },
+    {
+      "h": "Accessibility is now a legal question, not only a good habit",
+      "p": [
+        "The European Accessibility Act has applied since June 2025 to many consumer-facing digital products and services sold in the EU, including a large part of e-commerce. The Netherlands has written it into national law. Very small businesses have some exemptions, and the detail depends on what you sell and to whom, so your legal adviser should confirm where you stand.",
+        "For us, the answer is the same either way. WCAG accessibility is the default on every web build: proper heading structure, keyboard navigation, readable contrast, labelled forms, alt text and testing with screen readers. Building it in from the start costs far less than fixing it after launch, and it tends to make the site better for everyone, including search engines."
+      ]
+    },
+    {
+      "h": "Cookies, consent and tracking done properly",
+      "p": [
+        "Dutch rules on cookies are strict, and the Autoriteit Persoonsgegevens has made clear that consent banners must offer a real choice. That means no pre-ticked boxes, a reject option as easy to find as accept, and no tracking scripts firing before the visitor agrees.",
+        "We set up a consent platform that matches those expectations, connect it to Google Consent Mode so your analytics and ads still get the modelling data they can lawfully use, and document which scripts load when. Marketing keeps its measurement, and legal keeps its sleep."
+      ]
+    },
+    {
+      "h": "Two languages, one site that ranks",
+      "p": [
+        "Plenty of Amsterdam companies run an English site because the team works in English, then wonder why Dutch customers do not find them. Others bolt on a translation plugin that produces stiff Dutch and duplicate pages. We plan the structure for both languages up front: separate URLs, hreflang tags, translated page titles and navigation that makes sense in each language.",
+        "We deliver our work in English. For Dutch copy, we arrange native localisation with partners, or work with your own copywriters, so the Dutch pages read like they were written in Dutch."
+      ]
+    },
+    {
+      "h": "Speed, hosting and security",
+      "p": [
+        "Sites are built to pass Core Web Vitals on a mid-range phone, not just on a developer laptop. We host on European infrastructure by default, use a content delivery network for images and scripts, and set up backups, uptime monitoring and security headers before launch. Forms are protected against spam without forcing visitors through puzzles."
+      ]
+    },
+    {
+      "h": "How a web project runs",
+      "list": [
+        "Talk: a 15-minute call to understand what the site must achieve and what is wrong with the current one",
+        "Plan: discovery, sitemap, content plan, technical choices and a written roadmap with dates, delivered in 5 to 7 days",
+        "Build: design, development, content entry, accessibility and speed testing, then launch with redirects mapped from the old site",
+        "Grow: analytics review, conversion fixes, new pages and care plan support after go-live"
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE and managed more than $1.5M in projects. We can walk you through live sites and the decisions behind them on a call."
+      ]
+    },
+    {
+      "h": "Remote delivery, aligned with Amsterdam hours",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. Design reviews, stand-ups and launches all happen online, one hour behind your time, so they fit the Dutch working day. We travel to Amsterdam for a kick-off workshop when a project is large enough to benefit from one."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you build sites in Dutch?",
+      "a": "We build the site for Dutch and English from the start. Our own work is delivered in English, and Dutch copy is written by localisation partners or your own team, so it reads naturally."
+    },
+    {
+      "q": "Can you add iDEAL to our checkout?",
+      "a": "Yes. iDEAL is available through most payment providers used in the Netherlands, and we connect it alongside cards and other methods your provider supports."
+    },
+    {
+      "q": "Does the European Accessibility Act apply to us?",
+      "a": "It applies to many consumer-facing digital services, including much of e-commerce, with exemptions for some very small businesses. Your legal adviser should confirm. Either way, our builds follow WCAG by default."
+    },
+    {
+      "q": "Which platforms do you use?",
+      "a": "WordPress, Shopify, WooCommerce, Webflow and custom React or Next.js builds. We pick based on who will edit the site, how complex it is and what it needs to connect to."
+    },
+    {
+      "q": "Will we lose search rankings when we move to a new site?",
+      "a": "Not if the move is planned. We map every old URL to its new home, keep important content and check search console after launch to catch problems early."
+    },
+    {
+      "q": "Can our marketing team edit the site without a developer?",
+      "a": "Yes. We set up the editor so marketing can add pages, change copy, swap images and publish blog posts on their own, using components we design for that purpose. We also record short training videos for the team, so new staff can learn the editor later without needing us."
+    },
+    {
+      "q": "How long does a new website take?",
+      "a": "The written roadmap arrives 5 to 7 days after discovery starts and sets the build dates. A company site usually takes a few weeks; larger shops and portals take longer."
+    },
+    {
+      "q": "Can you meet us in Amsterdam?",
+      "a": "We work remotely and have no office in the city, but we travel for workshops on larger projects."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/web-app-development",
+    "/locations/amsterdam/seo-geo",
+    "/locations/amsterdam/app-development",
+    "/locations/amsterdam/paid-media",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "web development amsterdam",
+    "secondary": [
+      "website laten maken amsterdam",
+      "web developer amsterdam",
+      "web design amsterdam",
+      "ecommerce development netherlands",
+      "european accessibility act website"
+    ]
+  }
+}

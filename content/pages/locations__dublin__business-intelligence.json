@@ -1,0 +1,145 @@
+{
+  "path": "/locations/dublin/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Dublin: One Set of Numbers | 22 Signals",
+  "description": "Business intelligence for Dublin firms: Power BI, Looker Studio and Tableau dashboards that pull euro, sterling and dollar entities into one set of numbers.",
+  "eyebrow": "Business Intelligence in Dublin",
+  "h1": "Business intelligence Dublin finance teams can trust at month end",
+  "intro": "22 Signals builds business intelligence for Dublin and Irish companies that are tired of arguing over whose spreadsheet is right. We connect your finance, sales and operations systems, clean the data, handle euro, sterling and dollar entities properly, and deliver dashboards in Power BI, Looker Studio or Tableau that managers actually open.",
+  "sections": [
+    {
+      "h": "The multi-entity, multi-currency problem",
+      "p": [
+        "Irish businesses rarely report in one currency. A Dublin distributor sells in euro at home and in sterling to Northern Ireland and Britain. A software company bills customers in dollars and pays staff in euro. The Irish arm of a US group reports locally under Irish rules and upwards in dollars on a different calendar. Each of those situations creates the same mess: exports from several ledgers, exchange rates pasted in by hand, and a month-end pack that only one person knows how to build.",
+        "Good business intelligence fixes the plumbing before it draws a single chart. We define which rate applies to which figure, how intercompany transactions net off, and which version of revenue each audience sees. Then the dashboards follow."
+      ]
+    },
+    {
+      "h": "Signs your reporting has outgrown spreadsheets",
+      "list": [
+        "The board pack takes more than two days to assemble each month.",
+        "Sales and finance quote different revenue figures for the same period.",
+        "Exchange rates are typed into a workbook by hand.",
+        "Only one person can update the main report, and holidays are a risk.",
+        "Managers ask for exports and build their own versions.",
+        "Nobody can say quickly which customers, products or sites are losing money."
+      ],
+      "p": [
+        "If three or more of these sound familiar, the issue is rarely the charting tool. It is usually that the business has never agreed, in writing, what each core number means and where it comes from. That agreement is the first thing we produce, and it often settles arguments that have run for years."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Data audit: where your numbers live today, who owns each source and where they disagree.",
+        "A clean model of your business: entities, currencies, products, customers and cost centres defined once.",
+        "Automated pipelines from systems such as Business Central, Sage, Xero, NetSuite, Salesforce, HubSpot and your own databases.",
+        "Dashboards in Power BI, Looker Studio or Tableau for the board, finance, sales and operations.",
+        "Row-level security, so each manager sees their own region, branch or fund and nothing else.",
+        "Scheduled reports and alerts, sent when a number moves outside its normal range.",
+        "Handover documentation and training, so your team can add a report without calling us."
+      ]
+    },
+    {
+      "h": "Sector reporting we see in Dublin",
+      "list": [
+        "Funds and financial services: investor, fund and fee reporting with an audit trail back to source.",
+        "Aircraft leasing: fleet, lease and maintenance reserve views across lessees and jurisdictions.",
+        "Pharma and medtech: production, quality and supply chain metrics, separated from any personal data.",
+        "Retail and hospitality: daily trading by store or venue, with labour cost against sales.",
+        "Property and construction: project cost, sales progress and rental income by scheme.",
+        "Technology companies: recurring revenue, churn and pipeline, reconciled to finance figures."
+      ]
+    },
+    {
+      "h": "Choosing the tool",
+      "p": [
+        "Most Dublin companies already pay for Microsoft 365, which makes Power BI the default choice, and we build in it more than anything else. Looker Studio suits teams that live in Google Workspace and Google Ads. Tableau suits groups where it is already the standard. If your US parent has mandated a platform, we use that. The choice matters less than the data model underneath, which is why we spend most of our time there."
+      ]
+    },
+    {
+      "h": "Data protection and where the data sits",
+      "p": [
+        "Many BI projects touch personal data: customer names, employee costs, patient volumes. Under the GDPR, the reporting layer needs the same care as the source system. We keep personal data out of dashboards unless there is a reason for it, aggregate where possible, restrict access by role and keep the data platform in an EU cloud region where your policy requires it. Microsoft and AWS both run cloud regions in Dublin, which often makes that straightforward.",
+        "We note the choices in plain language so your DPO and auditors can see what was done and why."
+      ]
+    },
+    {
+      "h": "How the project runs",
+      "p": [
+        "We start with a 15-minute Talk to understand which decisions you struggle to make with today's numbers. In the Plan stage we run discovery with finance and operations, then deliver a written roadmap within 5 to 7 days, usually with the first dashboard defined in detail. Build is staged: one area goes live, gets used and gets corrected before the next one starts, with dates agreed in writing. Grow covers new reports, new data sources and quarterly reviews of what people actually use.",
+        "Ireland runs on London time, so working sessions with your finance team happen during the normal day, including the busy close week. We work remotely and travel to Dublin for kick-off workshops when that helps."
+      ]
+    },
+    {
+      "h": "What we bring",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects, so we know how a reporting project slips: unclear definitions, late access and too many dashboards. We guard against all three. Because the same team also builds AI tools, cloud platforms and automations, your BI work can grow into forecasting or automated reporting later without starting again."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "Number of source systems and how clean their data is.",
+        "Number of entities, currencies and reporting calendars.",
+        "How many dashboards and audiences are in scope.",
+        "Security and audit requirements.",
+        "Licensing for Power BI, Tableau or cloud data services, paid directly by you."
+      ]
+    },
+    {
+      "h": "Related services",
+      "p": [
+        "Business intelligence often sits alongside cloud consulting, data engineering and AI automation. If your team keeps rebuilding the same weekly pack, an automation may solve part of the problem first. See our Dublin pages for those services, or our guide to Power BI consulting cost."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a business intelligence Dublin project usually include?",
+      "a": "A data audit, a clean data model, automated pipelines from your main systems, a first set of dashboards and training. Most projects start with finance or sales reporting, because that is where the arguments over numbers cost the most time."
+    },
+    {
+      "q": "Can you report across euro, sterling and dollar entities?",
+      "a": "Yes. We agree the exchange rate rules with your finance team, such as month-end, average or budget rates, and apply them in the data model so every dashboard uses the same logic. Intercompany flows are handled once, not in each report."
+    },
+    {
+      "q": "Do you only work in Power BI?",
+      "a": "No. Power BI is the most common choice for Irish companies on Microsoft 365, but we also build in Looker Studio and Tableau, and we work with whatever platform a parent company requires."
+    },
+    {
+      "q": "Can our data stay in the EU?",
+      "a": "Yes. Microsoft and AWS both operate cloud regions in Dublin, and other EU regions are available. We set up the data platform in the region your policy requires and document it for your DPO."
+    },
+    {
+      "q": "How long before we see the first dashboard?",
+      "a": "The roadmap arrives within 5 to 7 days of discovery. The first live dashboard usually follows within a few weeks, depending on system access and data quality. Dates are agreed in writing."
+    },
+    {
+      "q": "Will our own team be able to maintain it?",
+      "a": "That is the aim. We document the data model, name every measure clearly and train the people who will own it. Many clients keep us on for new reports, but you are never locked in."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/dublin/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence dublin",
+    "secondary": [
+      "power bi consultant dublin",
+      "data analytics ireland",
+      "bi consulting ireland",
+      "dashboard developer dublin"
+    ]
+  }
+}

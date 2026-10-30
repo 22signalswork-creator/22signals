@@ -1,0 +1,143 @@
+{
+  "path": "/locations/milan/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Milan: Multilingual B2B Sites | 22 Signals",
+  "description": "Web development in Milan for exporters and brands: multilingual sites, B2B catalogues and dealer portals, accessible by default and built for GDPR consent.",
+  "eyebrow": "Web Development in Milan",
+  "h1": "Web development in Milan for brands that sell in five languages",
+  "intro": "We design and build websites, online stores and B2B portals for Milan companies that sell across Italy and abroad. Each site is planned for several languages, built to WCAG accessibility standards, set up for proper cookie consent and fast on a phone. It also connects to the ERP, PIM or catalogue your team already maintains.",
+  "sections": [
+    {
+      "h": "A website that has to work for very different visitors",
+      "p": [
+        "A Milan company's website often serves four audiences at once. An Italian customer looking for a showroom. A dealer in Munich checking a finish code. An architect in Dubai downloading a 3D model. A journalist preparing a Salone del Mobile preview. Each wants something different, in their own language, in under a minute.",
+        "Many sites we review were built for one of those visitors and stretched to fit the rest. The Italian version is complete, the English is half translated, the German was added for one trade fair and never updated, and the product data is copied by hand from a spreadsheet. Good web development in Milan businesses starts by deciding who the site is for and building the structure around them."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Corporate and brand sites with a clear structure for each market and language",
+        "Online stores on Shopify, WooCommerce or a custom build, with Italian and EU payment and shipping options",
+        "B2B catalogues where dealers see their own prices, stock and documents after signing in",
+        "Dealer and agent portals for orders, price lists, marketing assets and training material",
+        "Product configurators for furniture, lighting and equipment with many options",
+        "Press and trade areas with downloadable images, data sheets and 3D files",
+        "Migrations from old platforms without losing search rankings"
+      ]
+    },
+    {
+      "h": "Multilingual done properly",
+      "p": [
+        "Languages are the part most often got wrong. We set up each language with its own address structure and the correct hreflang tags, so Google shows Italian pages to Italian searchers and English pages to buyers in London or New York. Menus, forms, error messages and emails are translated as well as page text. Prices, dates and units follow each market's conventions.",
+        "Our team builds and delivers in English. Italian copy and other languages are arranged with native partners where you need them, or written by your own staff in a simple editing screen. We build the site so adding a language later does not mean rebuilding it."
+      ]
+    },
+    {
+      "h": "Product data that stays in one place",
+      "p": [
+        "For manufacturers and design brands the catalogue is the website. Thousands of products, finishes, sizes and certificates, often held in an ERP or a PIM system. We connect the site to that source so a change made once appears everywhere: on the site, in the dealer portal and in the downloadable price list. No more copying by hand before each collection launch."
+      ]
+    },
+    {
+      "h": "Accessibility, consent and Italian rules",
+      "p": [
+        "WCAG accessibility is the default on every site we build: proper headings, keyboard navigation, readable contrast, labelled forms and alt text. The European Accessibility Act has applied since June 2025 to many consumer websites and online stores, and Italy already had its own accessibility law, so this is no longer optional for many businesses.",
+        "Cookie consent follows the Garante's guidelines: no tracking before consent, a clear way to refuse, and a choice that is remembered. Contact forms collect only what is needed and say how the data is used. Company details required on Italian business websites, such as the VAT number, are placed where they belong. Your adviser signs off the legal text; we make sure the site does what it says."
+      ]
+    },
+    {
+      "h": "Built for launch dates that do not move",
+      "p": [
+        "Milan runs on fixed dates. A new collection goes live for Fashion Week. A furniture brand needs its site ready before Salone opens in April. Trade fairs elsewhere in Europe follow their own calendar. We plan backwards from those dates, put each milestone in writing and tell you early if anything threatens them.",
+        "We have managed more than $1.5M in projects, and the lesson is consistent: launches go well when content, design and development run to the same plan, not when the content arrives the week before."
+      ]
+    },
+    {
+      "h": "How the project runs",
+      "list": [
+        "Talk: a 15-minute call about your audiences, markets and deadlines.",
+        "Plan: discovery and a written roadmap within 5 to 7 days, covering structure, languages, integrations and launch date.",
+        "Build: designers and developers work in stages you can review, with dates in writing.",
+        "Grow: after launch we track speed, enquiries and sales, and keep improving the site."
+      ]
+    },
+    {
+      "h": "Speed and search from day one",
+      "p": [
+        "Design-led brands love large images and video, and visitors on a phone in a showroom or at a trade fair do not love waiting. We compress and size images properly, load video only when needed and keep the code light. Every page gets the technical basics for search: clean addresses, structured data, sitemaps for each language and redirects from the old site, so the rankings you have earned are kept."
+      ]
+    },
+    {
+      "h": "Handing over a site your team can run",
+      "p": [
+        "A website should not depend on its builder for every small change. We set up an editing screen your marketing team can use without code, with page templates that keep the design consistent when someone adds a news story or a new product line. Roles control who can publish in each language, so the German agent can update German pages without touching the Italian home page.",
+        "At handover you get written guides, a short training session and the logins for every account, held in your company's name. If you want ongoing help, we offer a monthly arrangement for updates, security patches and improvements. If not, the site is yours to run."
+      ]
+    },
+    {
+      "h": "Remote delivery for Milan clients",
+      "p": [
+        "We do not have an office in Milan. Reviews run over video during the Italian working day, one hour ahead of London, and you can see progress on a staging site at any time. We travel to Milan for discovery or launch planning when the project needs it."
+      ]
+    },
+    {
+      "h": "What sets the cost",
+      "list": [
+        "Number of languages and markets",
+        "Size of the catalogue and the systems it must connect to",
+        "Whether you need dealer log-ins, configurators or custom features",
+        "Who writes and translates the content",
+        "Hosting, support and ongoing improvement after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does web development in Milan cost with 22 Signals?",
+      "a": "It depends on languages, catalogue size, integrations and custom features. We price after discovery and put every cost in the written plan. Third-party costs such as platform subscriptions are paid directly by you."
+    },
+    {
+      "q": "Can you build the site in Italian?",
+      "a": "Yes, the site can be fully Italian or multilingual. Our team works in English, and Italian copy is written by your staff or by native partners we arrange. Every interface element is translated, not just the main text."
+    },
+    {
+      "q": "Will we lose our Google rankings when we move platforms?",
+      "a": "Not if the migration is planned. We map every old address to its new one, keep the content that ranks and check the results after launch."
+    },
+    {
+      "q": "Can dealers see their own prices?",
+      "a": "Yes. A B2B area lets each dealer sign in and see their own price list, stock, orders and documents, drawn from your ERP so nothing is copied by hand."
+    },
+    {
+      "q": "Is the site accessible and GDPR compliant?",
+      "a": "WCAG accessibility is the default on every build, and cookie consent follows the Garante's guidelines. Your adviser approves the legal text, and we make sure the site behaves as it describes."
+    },
+    {
+      "q": "Can the site be ready for Salone del Mobile?",
+      "a": "If we start in time, yes. We plan backwards from the launch date and confirm in writing what is achievable before we begin."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/web-app-development",
+    "/locations/milan/seo-geo",
+    "/locations/milan/3d-rendering",
+    "/locations/milan/app-development",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "web development in milan",
+    "secondary": [
+      "sviluppo siti web milano",
+      "web agency milano",
+      "multilingual website italy",
+      "b2b ecommerce italy"
+    ]
+  }
+}

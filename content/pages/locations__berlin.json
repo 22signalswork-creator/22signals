@@ -1,0 +1,130 @@
+{
+  "path": "/locations/berlin",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "title": "Digital Agency for Berlin and German Firms | 22 Signals",
+  "description": "A digital agency for Berlin scale-ups and German Mittelstand firms: AI, data, cloud, web, search, paid media, video and 3D, delivered remotely in English.",
+  "eyebrow": "Berlin",
+  "h1": "A digital agency for Berlin scale-ups and the German Mittelstand",
+  "intro": "22 Signals is a global business solutions company that Berlin startups, scale-ups and established German firms hire for AI, automation, data, cloud, websites, apps, search, paid media, video and 3D. We work remotely in English, one hour behind Central European Time, put every date in writing and travel to Berlin when a project needs people in the room.",
+  "sections": [
+    {
+      "h": "Why a Berlin company would look beyond its own city",
+      "p": [
+        "Type digital agency Berlin into Google and you get pages of results. Kreuzberg, Mitte and Friedrichshain are full of studios that do one thing well: a brand shop, a performance marketing team, a Webflow builder, a data consultancy. The problem we hear about is not quality. It is coordination. A scale-up with four suppliers spends a lot of founder time keeping them in step, and nobody owns the result when the new site, the ad account and the CRM disagree.",
+        "We cover strategy, AI and automation, data and cloud, web and apps, SEO and GEO, paid media, social media, influencer campaigns, content, video, motion, AI video, 2D and 3D animation and 3D rendering with one team. That range is the reason most clients talk to us. You get a single plan, a single set of dates and one place to send feedback."
+      ]
+    },
+    {
+      "h": "Two kinds of German client, two different briefs",
+      "p": [
+        "Berlin's startup and scale-up scene moves fast. Fintech, e-commerce, mobility, health tech, climate and B2B software companies here often run in English, hire from all over the world and raise money on growth numbers. They need product builds, launch campaigns, investor-grade reporting and search work that covers both English and German queries.",
+        "The wider German Mittelstand is a different conversation. These are family-owned and mid-sized firms, often in engineering, manufacturing, logistics and industrial supply, with decades of reputation and products that lead their niche worldwide. Many still run on SAP or older ERP systems, spreadsheets, PDF catalogues and websites that have not changed in ten years. They are careful buyers, and they are right to be. Digital work that breaks a working process costs them more than it saves.",
+        "We work with both. The brief, the pace and the documentation differ, and we adjust to each rather than forcing one way of working on everyone."
+      ]
+    },
+    {
+      "h": "What Berlin and German companies hire us for",
+      "list": [
+        "AI consulting: a ranked list of AI uses that fit your business, with the EU AI Act and your works council in mind",
+        "AI automation: invoices, orders, enquiries and reports handled by tools your team can check and correct",
+        "Business intelligence: one reporting layer over SAP, DATEV, your CRM and the spreadsheets nobody wants to give up",
+        "Cloud consulting: AWS, Azure and Google Cloud set up in German or EU regions, documented for audits",
+        "Web development: sites with the Impressum, privacy notice and consent setup German law expects, accessible by default",
+        "App development: MVPs and mobile products for founders, plus customer and field service apps for established firms",
+        "SEO and GEO: ranking in Google and appearing in ChatGPT, Claude, Gemini and Google AI Overviews, in English and German",
+        "Paid media: Google, LinkedIn, Meta and TikTok campaigns measured against pipeline, with consent rules respected",
+        "Video and animation: explainers for complex products, trade fair films, recruiting videos and AI video variants",
+        "3D rendering: product CGI from CAD files, architectural visuals and packaging for German and export markets"
+      ]
+    },
+    {
+      "h": "What German buyers expect from a supplier",
+      "p": [
+        "German clients tend to read the proposal properly. They want a clear scope, named responsibilities, realistic dates and a written record of what was agreed. Many will ask for a requirements document before any build starts, and they expect changes to be logged rather than discussed once on a call and forgotten.",
+        "That suits us. Our discovery phase ends with a written roadmap within 5 to 7 days, and every build has dates in writing. We document decisions, hand over credentials and source files at the end, and write handover notes so your own team or a future supplier can take over without guessing."
+      ]
+    },
+    {
+      "h": "Data protection is part of the brief, not an afterthought",
+      "p": [
+        "Germany takes data protection seriously, and so do its customers. The GDPR applies across the EU, and Germany adds its own Federal Data Protection Act. Supervision is split: each of the 16 federal states has its own data protection authority, and Berlin has its own commissioner for data protection and freedom of information. Companies above a certain size also need a data protection officer.",
+        "In practice this shapes the work from the first week. We agree where data is stored, sign a data processing agreement where we handle personal data, keep tracking behind proper consent and record what an AI tool may read or keep. The EU AI Act, in force since 2024 with obligations phasing in over several years, adds questions for some AI uses. We are not lawyers, and we tell you when a point needs your legal adviser or data protection officer."
+      ]
+    },
+    {
+      "h": "How the work runs",
+      "list": [
+        "Talk: a 15-minute call to see whether we are the right fit. No pitch deck.",
+        "Plan: discovery and a written roadmap in 5 to 7 days, with scope, owners and risks.",
+        "Build: specialist teams do the work against dates you have in writing.",
+        "Grow: we measure what changed, report it plainly and keep improving it."
+      ]
+    },
+    {
+      "h": "Remote by default, in Berlin when it counts",
+      "p": [
+        "We do not have an office in Berlin, and we will not invent one. 22 Signals is registered in London, and our teams work remotely across several time zones. Berlin runs on Central European Time, one hour ahead of London all year, so a Berlin working day and a London working day overlap almost entirely. A 9:00 call in Berlin is 8:00 in London, which rarely causes trouble.",
+        "Workshops, shoots and launch weeks are different. When a project needs us in the room, we plan the trip into the scope, whether that is a kick-off in Mitte, a product shoot at a factory in Brandenburg or a stand at a trade fair."
+      ]
+    },
+    {
+      "h": "Language, currency and practical details",
+      "p": [
+        "Our work is delivered in English. Many Berlin companies already work in English, and for those that need German copy, interfaces or voiceovers, we arrange localisation with partners and build the site or app so both languages work properly. We quote and invoice in euro when you prefer, and we plan around German public holidays and the August slowdown so launches do not land in an empty week."
+      ]
+    },
+    {
+      "h": "Proof, without the name-dropping",
+      "p": [
+        "We have worked with more than 30 companies, shipped more than 30 AI builds, broadcast more than 20 live events and managed more than $1.5M in projects. We do not publish client names. On a call we can walk you through work that is close to your situation and explain what we would do differently for a German company. That is the first thing to ask any digital agency, Berlin or elsewhere: show me work like mine."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office or staff in Berlin?",
+      "a": "No. We work remotely, and our hours overlap almost fully with Berlin because Central European Time is only one hour ahead of London. When a workshop, shoot or launch needs us there, we plan a visit as part of the project."
+    },
+    {
+      "q": "Do you work in German?",
+      "a": "Our work is delivered in English. When you need German copy, subtitles, voiceover or interface text, we arrange localisation with partners and you approve the final wording. Sites and apps are built so both languages work, including URLs, forms and search setup."
+    },
+    {
+      "q": "Can you work with Mittelstand companies outside Berlin?",
+      "a": "Yes. Many of the firms we can help most are mid-sized manufacturers and engineering companies across Germany. Remote work means the city matters less than the brief. We travel to a plant or head office when a site visit makes the work better."
+    },
+    {
+      "q": "How do you handle GDPR for German clients?",
+      "a": "We plan it from the start: data location, data processing agreements, consent for tracking, access rights and what AI tools may store. Your data protection officer or legal adviser confirms the legal position, and we give them the documentation they need to do that."
+    },
+    {
+      "q": "What does a project with 22 Signals cost?",
+      "a": "It depends on scope, so we price after the first call and discovery. The main factors are which services you need, how many systems are involved, localisation and compliance needs, and whether you want a one-off project or ongoing work. We can quote in euro."
+    },
+    {
+      "q": "How fast can a project start?",
+      "a": "After a 15-minute call, discovery and a written roadmap take 5 to 7 days. Build dates are agreed in writing once the roadmap is approved, and we flag any risk to them early."
+    }
+  ],
+  "related": [
+    "/locations/berlin/ai-consulting",
+    "/locations/berlin/web-development",
+    "/locations/berlin/seo-geo",
+    "/locations/berlin/cloud-consulting",
+    "/locations/london",
+    "/industries/technology-ai"
+  ],
+  "keywords": {
+    "primary": "digital agency berlin",
+    "secondary": [
+      "digital agency germany",
+      "english speaking agency berlin",
+      "ai and web agency berlin",
+      "mittelstand digital partner",
+      "berlin startup agency"
+    ]
+  }
+}

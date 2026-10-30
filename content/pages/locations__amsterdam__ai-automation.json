@@ -1,0 +1,135 @@
+{
+  "path": "/locations/amsterdam/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Amsterdam: Less Admin, More Output | 22 Signals",
+  "description": "AI automation for Amsterdam teams: invoices, shipping papers, multilingual inboxes and reporting handled by tools your staff check, not chase.",
+  "eyebrow": "AI Automation in Amsterdam",
+  "h1": "AI automation for Amsterdam teams buried in repeat work",
+  "intro": "We build AI automation for Amsterdam companies whose teams spend hours on the same tasks every week: reading invoices, sorting inboxes in four languages, matching shipping papers to orders and copying data between systems. The tools do the first pass, your people check and approve, and every step is logged for GDPR.",
+  "sections": [
+    {
+      "h": "Where the hours go in a typical Amsterdam office",
+      "p": [
+        "Walk through the finance team of a European headquarters in Amstelveen or the customer service floor of a Dutch online retailer and the pattern is the same. Skilled people spend a large share of their week on work a well-built tool could prepare for them: keying supplier invoices into Exact Online, tagging emails from German, French and Dutch customers, chasing proof of delivery, building the same Monday report by hand.",
+        "That work is rarely anyone's job title, which is why it survives. Our AI automation Amsterdam projects start by finding it, timing it and putting a number on what it costs."
+      ]
+    },
+    {
+      "h": "Processes we automate most often",
+      "list": [
+        "Accounts payable: reading invoices and credit notes in any EU language, checking VAT and order numbers, and posting drafts to Exact Online, AFAS, Twinfield or your ERP for approval",
+        "Multilingual inboxes: sorting and tagging customer emails by language, topic and urgency, then drafting replies from your own policies",
+        "Shipping and customs paperwork: extracting data from CMR waybills, packing lists and commercial invoices, and flagging anything that does not match the order",
+        "Sales operations: enriching new leads, logging calls to HubSpot or Salesforce and preparing account summaries before meetings",
+        "HR admin: answering routine staff questions from the handbook and preparing onboarding packs",
+        "Reporting: pulling numbers from several systems into a weekly summary with the exceptions highlighted"
+      ]
+    },
+    {
+      "h": "Built for a multilingual country",
+      "p": [
+        "The Netherlands trades with all of Europe, and Amsterdam companies receive documents and messages in many languages every day. Language models now handle that mix well, which makes them more useful here than older rule-based tools that needed a template per supplier.",
+        "We design each tool to recognise the language, extract what matters and hand your team a clean summary in English or Dutch. The working language of the project itself is English. If you need Dutch user guides or training sessions, we arrange that with localisation partners."
+      ]
+    },
+    {
+      "h": "What this looks like in different Amsterdam sectors",
+      "list": [
+        "Online retail: returns requests read and sorted by reason, with refund drafts prepared against your returns policy and stock updated once a person approves",
+        "Payments and fintech: merchant onboarding documents checked for completeness, with missing items listed in a draft email to the applicant",
+        "Logistics near Schiphol: delivery exceptions pulled from carrier emails and portals into one daily list, so planners start the morning with the problems, not the search",
+        "Property management: tenant repair requests classified by urgency and trade, with contractor job sheets drafted automatically",
+        "Advertising and creative agencies: timesheets, briefs and media plans checked for missing fields before they reach finance",
+        "Recruitment firms: CVs summarised against the job brief, with a person making every shortlist decision"
+      ]
+    },
+    {
+      "h": "People stay in charge",
+      "p": [
+        "Dutch regulators pay close attention to automated decisions. The Autoriteit Persoonsgegevens enforces GDPR, which gives people rights when decisions about them are made purely by automated means. The EU AI Act, in force since 2024 with obligations phasing in, adds duties for certain higher-risk uses.",
+        "So we build automation that prepares and proposes, while a named person approves anything that affects a customer, a supplier payment or an employee. Each tool keeps a record of what it read, what it suggested and who approved it. That record helps with audits, with GDPR requests and with improving the tool over time."
+      ]
+    },
+    {
+      "h": "How an automation project runs",
+      "list": [
+        "Talk: a 15-minute call about the process that annoys your team most",
+        "Plan: we map the process step by step, measure volumes and error rates, and send a written roadmap with expected time savings in 5 to 7 days",
+        "Build: specialists build the tool against your real documents and systems, test it on past data, then run it alongside the current process before switching",
+        "Grow: we track accuracy and time saved each month and add the next process once the first one is stable"
+      ]
+    },
+    {
+      "h": "What makes automation stick",
+      "p": [
+        "Most failed automation projects fail for dull reasons. The tool was trained on clean samples and then met real documents. Nobody owned it after launch. The team was never asked what they actually needed. We avoid those traps by testing on a few months of your real history, naming an owner on your side and building the screens your staff will use with them, not for them.",
+        "We also tell you when a process should not be automated yet. Sometimes the fix is a better form or a cleaner supplier list, and AI would only hide the mess."
+      ]
+    },
+    {
+      "h": "Experience behind the work",
+      "p": [
+        "Our team has delivered more than 30 AI builds for more than 30 companies across the United States, the United Kingdom, Europe and the UAE. We are happy to show relevant examples on a call."
+      ]
+    },
+    {
+      "h": "Working with us from Amsterdam",
+      "p": [
+        "22 Signals is registered in London and has no office in the Netherlands. Projects run remotely, and we travel to Amsterdam when mapping a process is easier in the room. Our hours sit one hour behind CET, so your team gets answers during the Dutch working day. Pricing for AI automation Amsterdam clients is quoted in euros and depends on the number of processes, document volumes and systems involved."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which systems can you connect to?",
+      "a": "Most systems with an API or a reliable export, including Exact Online, AFAS, Twinfield, Microsoft Dynamics, SAP Business One, HubSpot, Salesforce, Shopify and Microsoft 365. We check access during planning, before any build starts."
+    },
+    {
+      "q": "Can AI read invoices in German, French and Dutch?",
+      "a": "Yes. Current models handle most European languages well. We test accuracy on your own documents and keep a person in the approval step until the numbers show the tool is reliable."
+    },
+    {
+      "q": "Is AI automation allowed under GDPR?",
+      "a": "Yes, when it is set up properly. You need a lawful basis, clear records and safeguards for decisions that affect people. We design for that and your data protection officer or legal adviser confirms the details."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "In our projects it usually removes the dull parts of a role so people can handle exceptions, customers and judgement calls. If roles will change, involve your works council early. We can help you explain the change clearly."
+    },
+    {
+      "q": "How quickly can we see results?",
+      "a": "You get a written roadmap 5 to 7 days after discovery starts. A first tool for a single process is often running alongside the old process within weeks, with dates set in writing."
+    },
+    {
+      "q": "What is the difference between this and RPA?",
+      "a": "RPA follows fixed rules on screens. AI automation can read unstructured documents and messages and cope with variation. We often combine both, using AI to understand the input and simple rules to act on it."
+    },
+    {
+      "q": "What happens if the tool makes a mistake?",
+      "a": "It will sometimes, which is why a person approves anything that matters. Each tool logs its inputs and suggestions, so errors are easy to trace. We review those cases each month and adjust the tool, the prompts or the rules to stop the same mistake happening again."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/ai-automation",
+    "/locations/amsterdam/ai-consulting",
+    "/locations/amsterdam/business-intelligence",
+    "/services/custom-ai-development",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation amsterdam",
+    "secondary": [
+      "ai automation agency amsterdam",
+      "business process automation netherlands",
+      "invoice automation exact online",
+      "ai workflow automation",
+      "document automation amsterdam"
+    ]
+  }
+}

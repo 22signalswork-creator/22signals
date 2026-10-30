@@ -1,0 +1,137 @@
+{
+  "path": "/locations/berlin/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Berlin: Sites Built for German Law | 22 Signals",
+  "description": "Web development for Berlin and German companies: fast, accessible sites and shops with the Impressum, privacy notice and consent setup German law expects.",
+  "eyebrow": "Web development in Berlin",
+  "h1": "Web development in Berlin, with German legal basics built in",
+  "intro": "We build websites, online shops and customer portals for Berlin scale-ups and German mid-sized firms that load fast, rank, convert and meet the rules German sites live under. Impressum, privacy notice, proper cookie consent and accessibility to WCAG are part of every build, not extras. Work is delivered in English, with German versions prepared through localisation partners.",
+  "sections": [
+    {
+      "h": "Why German websites carry more legal weight",
+      "p": [
+        "A website in Germany is not just marketing. German law requires most commercial sites to carry an Impressum, a legal notice naming who runs the site and how to reach them. A privacy notice must explain what data is collected and why. Cookies and tracking that are not strictly necessary need consent first, and the option to refuse should be as easy to find as the option to accept.",
+        "Getting this wrong has a cost beyond the regulator. Competitors and associations in Germany can send a formal warning letter, an Abmahnung, over breaches such as a missing legal notice or a misleading price display, often with legal fees attached. Many Berlin founders discover this only after launch. We build the legal structure in from the start, and your lawyer or a specialist service supplies the final legal wording."
+      ]
+    },
+    {
+      "h": "Small technical details that matter in Germany",
+      "list": [
+        "Fonts hosted on your own server rather than loaded from third parties, a habit many German sites adopted after a 2022 Munich court ruling",
+        "Embedded maps, videos and chat widgets that load only after consent",
+        "Analytics configured for consent, with server locations documented",
+        "Contact forms that collect only what you need and explain why",
+        "Hosting in German or EU data centres, with a data processing agreement in place",
+        "Clear prices including VAT for consumer shops, with delivery costs shown before checkout"
+      ]
+    },
+    {
+      "h": "Accessibility is now a legal question too",
+      "p": [
+        "We build to WCAG accessibility standards on every project by default: readable contrast, keyboard navigation, alt text, proper headings, form labels and error messages screen readers can announce. That was good practice for years. Since June 2025, the European Accessibility Act, applied in Germany through the Barrierefreiheitsstärkungsgesetz, has made accessibility a requirement for many consumer-facing digital services, including a large share of online shops. Small businesses below certain thresholds are exempt, so check with your adviser where you stand.",
+        "Either way, an accessible site is easier for everyone to use, tends to perform better in search and avoids an expensive retrofit later."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites for Mittelstand firms that need to explain complex products clearly and recruit skilled staff",
+        "Marketing sites for Berlin scale-ups that change weekly and need a CMS the growth team can use without developers",
+        "Online shops with the payment methods German buyers expect, such as PayPal, SEPA direct debit and purchase on invoice",
+        "B2B portals for dealers and distributors: price lists, order history, documentation and spare parts",
+        "Product catalogues fed from your ERP or product information system, so specifications stay correct",
+        "Careers sites that make applying quick, because skilled applicants rarely finish a long form"
+      ]
+    },
+    {
+      "h": "English, German or both",
+      "p": [
+        "Many Berlin start-ups run in English, sell across Europe and need German only for some pages. Many Mittelstand firms need German first, with English for export customers and sometimes French, Spanish or Polish for key markets. We set up the site structure, URLs and language signals for search engines so each version is found by the right audience.",
+        "We deliver our own work in English. German copy is written or translated by localisation partners you approve, or supplied by your team. German text often runs noticeably longer than English, with compound words that break narrow layouts, so we design and test every template with real German content before launch."
+      ]
+    },
+    {
+      "h": "Speed, structure and what happens after launch",
+      "p": [
+        "Much of the web development Berlin companies ask us for is a rebuild of a site that has become slow and hard to edit. Page speed affects both rankings and patience, especially on mobile connections on the U-Bahn or at a trade fair stand. We keep templates light, compress images, load scripts only where they are used and check Core Web Vitals before and after launch.",
+        "Structure matters as much as speed. Clear navigation, one topic per page and headings that say what follows help visitors, search engines and AI assistants understand what you offer."
+      ]
+    },
+    {
+      "h": "How a web project runs",
+      "list": [
+        "Talk: a 15-minute call about what the site must achieve and what is wrong with the current one.",
+        "Plan: discovery, sitemap, content plan and technical approach in a written roadmap within 5 to 7 days.",
+        "Build: design, development and content in stages, each signed off against dates in writing.",
+        "Grow: after launch we track speed, search and conversion, and keep improving the pages that matter."
+      ]
+    },
+    {
+      "h": "Built remotely, reviewed together",
+      "p": [
+        "We have no office in Berlin. Design reviews run on shared screens, staging sites are available for your whole team to test, and feedback is collected in one place so nothing gets lost in email threads. With Berlin one hour ahead of London, review calls fit inside a normal German working day.",
+        "German clients often expect a thorough specification and a careful acceptance process. We are happy to work that way: acceptance criteria are listed in the roadmap, and each stage is checked against them before we move on. At handover you receive access to everything, along with documentation for editors and developers."
+      ]
+    },
+    {
+      "h": "Proof and approach",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects. We do not name clients on this site. Because the same team handles SEO, paid media and video, the site we build is ready for the campaigns and content that follow, rather than handed to a separate agency to rework."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "p": [
+        "Web development, Berlin start-up site or multilingual Mittelstand catalogue, is priced after discovery. The main factors are the number of templates and languages, integrations with ERP, CRM or product data, e-commerce scope, content creation and localisation, and whether you want ongoing support and hosting management after launch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does every German website need an Impressum?",
+      "a": "Most commercial websites aimed at German users do. It names the operator, address and contact details, plus registration details where relevant. We build the page and its placement; the legal content should come from your lawyer or a specialist service."
+    },
+    {
+      "q": "What does web development in Berlin usually include with you?",
+      "a": "Strategy, design, development, content structure, technical SEO, accessibility to WCAG, the legal page structure German sites need, consent setup, testing and handover. Copywriting and German localisation can be added through partners."
+    },
+    {
+      "q": "Which CMS do you use?",
+      "a": "It depends on who will edit the site. We often use WordPress, headless CMS platforms or Webflow for marketing sites, and Shopify or custom builds for shops. We recommend based on your team, integrations and budget for upkeep."
+    },
+    {
+      "q": "Do we need to meet the accessibility rules?",
+      "a": "Many consumer-facing shops and digital services must since June 2025, with exemptions for some small businesses. Our builds follow WCAG by default, so in most cases the work is already done. Your adviser can confirm whether the law applies to you."
+    },
+    {
+      "q": "Can you redesign our site without losing search rankings?",
+      "a": "Yes, with care. We map old URLs to new ones, keep content that ranks, set up redirects, check structured data and monitor search performance after launch. Most ranking drops after a relaunch come from skipping these steps."
+    },
+    {
+      "q": "How long does a website take?",
+      "a": "A focused company site often takes a few weeks after the roadmap. Shops, portals and multilingual sites take longer. Discovery takes 5 to 7 days, and the build timeline is agreed in writing from there."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/web-app-development",
+    "/locations/berlin/seo-geo",
+    "/locations/berlin/app-development",
+    "/case-studies/personal-injury-law-firm-website-rebuild",
+    "/case-studies/law-firm-website-malware-cleanup"
+  ],
+  "keywords": {
+    "primary": "web development berlin",
+    "secondary": [
+      "web design agency berlin",
+      "website development germany",
+      "impressum website setup",
+      "barrierefreie website"
+    ]
+  }
+}

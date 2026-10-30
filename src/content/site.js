@@ -87,11 +87,19 @@ export const CITIES = [
   { slug: "birmingham", name: "Birmingham", region: "uk" },
   { slug: "dubai", name: "Dubai", region: "uae" },
   { slug: "abu-dhabi", name: "Abu Dhabi", region: "uae" },
+  { slug: "dublin", name: "Dublin", region: "eu", country: "Ireland" },
+  { slug: "amsterdam", name: "Amsterdam", region: "eu", country: "Netherlands" },
+  { slug: "berlin", name: "Berlin", region: "eu", country: "Germany" },
+  { slug: "paris", name: "Paris", region: "eu", country: "France" },
+  { slug: "madrid", name: "Madrid", region: "eu", country: "Spain" },
+  { slug: "milan", name: "Milan", region: "eu", country: "Italy" },
+  { slug: "stockholm", name: "Stockholm", region: "eu", country: "Sweden" },
+  { slug: "zurich", name: "Zurich", region: "eu", country: "Switzerland" },
   { slug: "lahore", name: "Lahore", region: "pk" },
   { slug: "karachi", name: "Karachi", region: "pk" },
   { slug: "islamabad", name: "Islamabad", region: "pk" },
 ];
-export const REGION_LABELS = { us: "United States", uk: "United Kingdom", uae: "United Arab Emirates", pk: "Pakistan" };
+export const REGION_LABELS = { us: "United States", uk: "United Kingdom", eu: "Europe", uae: "United Arab Emirates", pk: "Pakistan" };
 
 
 export const INDUSTRIES = [

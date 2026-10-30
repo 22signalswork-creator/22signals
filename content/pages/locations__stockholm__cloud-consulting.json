@@ -1,0 +1,127 @@
+{
+  "path": "/locations/stockholm/cloud-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "cloud-consulting",
+  "serviceType": "Cloud consulting",
+  "title": "Cloud Consulting Stockholm: AWS, Azure, GCP in EU | 22 Signals",
+  "description": "Cloud consulting for Stockholm companies: AWS, Azure and Google Cloud set up in Nordic and EU regions, secured, documented and reviewed for cost in kronor.",
+  "eyebrow": "Cloud Consulting in Stockholm",
+  "h1": "Cloud consulting for Stockholm companies that want EU hosting and a bill that makes sense",
+  "intro": "We design, migrate, secure and run cloud environments for Stockholm companies on AWS, Microsoft Azure and Google Cloud. Most clients want data kept in Nordic or EU regions, a security set-up their auditors accept and a monthly bill someone can explain. We deliver remotely, document everything in English and stay on to run the platform if you want.",
+  "sections": [
+    {
+      "h": "Two kinds of cloud problem we see in Stockholm",
+      "p": [
+        "The first belongs to fast-growing tech companies. They launched on a cloud account set up by a founding engineer, added services as the product grew, and now have dozens of environments, broad admin rights and a bill that rises every quarter. Nobody has time to tidy it because the roadmap always wins.",
+        "The second belongs to established firms, often industrial or professional services, still running core systems on servers in a basement or a hosting contract signed a decade ago. They want to move, but they worry about downtime, data location and losing control. Any cloud consulting Stockholm firms buy has to handle clean-up and migration equally well, because the city has plenty of both."
+      ]
+    },
+    {
+      "h": "Regions close to home",
+      "p": [
+        "Sweden is well served for hosting. AWS runs its Europe (Stockholm) region, Microsoft Azure runs Sweden Central, and Google Cloud has a Nordic region in Finland. All three run many EU regions beyond these. For most Stockholm workloads, that means data can stay in Sweden or elsewhere in the EU with low latency to Swedish users.",
+        "Choosing a region is not only about distance. Some services launch later in smaller regions, prices differ between regions, and your customers or public sector contracts may specify where data must sit. We compare the options for each workload and write down the reasons, so the decision is clear to the next engineer and the next auditor."
+      ]
+    },
+    {
+      "h": "Data transfers and the GDPR",
+      "p": [
+        "Hosting in an EU region solves part of the question. The other part is who can access the data and from where. Support staff, monitoring tools and third-party services may sit outside the EU, which can count as a transfer under the GDPR. Swedish organisations, especially in the public sector, pay close attention to this, and IMY, the Swedish privacy regulator, has looked at it in past cases.",
+        "We map every service that touches personal data, check where it is processed and recommend safeguards such as encryption keys you hold yourself, EU-only support options or alternative tools. Your legal adviser makes the final call. We make sure they have accurate facts to work with."
+      ]
+    },
+    {
+      "h": "What cloud consulting from us covers",
+      "list": [
+        "Architecture: a design sized for your real load, growth plans and budget",
+        "Migration: moving servers, databases and applications with tested rollback and planned cutovers",
+        "Account structure: separate environments for production, testing and development, with clear ownership",
+        "Identity and access: single sign-on, least-privilege roles and regular access reviews",
+        "Security baseline: encryption, logging, patching and backups that are actually restored in tests",
+        "Infrastructure as code: environments defined in Terraform or the provider's tools so they can be rebuilt",
+        "Cost reviews: removing idle resources, right-sizing machines and using commitment discounts where they fit",
+        "Managed operations: monitoring, alerting and changes after launch, with response times in writing"
+      ]
+    },
+    {
+      "h": "Cost in kronor, not surprises",
+      "p": [
+        "Cloud providers usually bill in US dollars or euros, while Swedish budgets are set in kronor. Exchange rate moves alone can change the monthly figure. We set up cost reporting by team and product, tag resources properly and show spend in SEK so finance can follow it.",
+        "Cost work is often where a cloud review pays for itself. Common findings include test environments left running at night, databases sized for a peak that never came and storage nobody has looked at in years. We list each saving with its risk and effort, make the safe changes first and track the result monthly. Budget alerts go to named people, so a runaway service is caught in days, not at the end of the quarter."
+      ]
+    },
+    {
+      "h": "Energy and sustainability",
+      "p": [
+        "Swedish buyers often ask about the climate impact of their hosting. The Nordic region is known for data centres running largely on renewable power and cooled by a cold climate, and the major providers publish carbon data for their regions. We can include that data in region choices and cost reviews, alongside the simplest saving of all: switching off what you do not use."
+      ]
+    },
+    {
+      "h": "How a cloud engagement runs",
+      "list": [
+        "Talk: a 15-minute call about what you run, what worries you and what it costs today.",
+        "Plan: an audit and a written roadmap covering regions, security, migration order and budget, in 5 to 7 days.",
+        "Build: cloud engineers set up the foundations and move workloads in stages, each date agreed in writing.",
+        "Grow: monthly cost and security reviews, and changes as products, teams and markets are added."
+      ]
+    },
+    {
+      "h": "Remote by design",
+      "p": [
+        "Cloud work is remote by nature, and we have no Stockholm office. Stockholm is one hour ahead of London all year, so planned changes can run early in the Swedish morning or after office hours with our engineers fully awake. Where a project involves physical hardware, such as clearing out an on-premises server room in the city, we plan a site visit or work with your facilities provider and agree which in the plan."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "We have broadcast more than 20 live events, where a date cannot move and a system cannot fail. That habit carries into migrations and launches. The same team also builds the web apps, data platforms and AI tools that run on the cloud, so infrastructure is designed for what sits on top of it. For cloud consulting, Stockholm companies get engineers who can explain every line of the bill. Book a 15-minute call to start."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which cloud regions are in Sweden?",
+      "a": "AWS operates its Europe (Stockholm) region and Microsoft Azure operates Sweden Central. Google Cloud's nearest Nordic region is in Finland. All three run further regions across the EU, and we choose based on services needed, price and your data requirements."
+    },
+    {
+      "q": "Does hosting in Sweden make us GDPR compliant?",
+      "a": "Not on its own. Location matters, but so do access from outside the EU, the tools you connect and how personal data is handled. We map those points and give your legal adviser a clear picture to decide on."
+    },
+    {
+      "q": "Can you migrate us without downtime?",
+      "a": "Most migrations need only a short planned pause rather than an outage. We test with real data first, schedule the cutover for a quiet window and keep a rollback ready. The plan and dates are agreed in writing before we start."
+    },
+    {
+      "q": "Can you reduce our cloud costs?",
+      "a": "Often, yes. Reviews usually find idle resources, oversized machines and missed discounts. We list each saving with its risk, make the safe changes first and report the effect monthly. We do not promise a figure before seeing your account."
+    },
+    {
+      "q": "Do you work with AWS, Azure and Google Cloud?",
+      "a": "Yes. We recommend the platform that fits your systems, skills and contracts. Many Stockholm firms on Microsoft 365 lean towards Azure, while product companies often run on AWS or Google Cloud."
+    },
+    {
+      "q": "Will our own team understand the set-up?",
+      "a": "That is the goal. We define infrastructure as code, document decisions in English and run handover sessions, so your engineers can run the platform themselves or keep us on for managed operations."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/stockholm/business-intelligence",
+    "/insights/cloud-migration-checklist"
+  ],
+  "keywords": {
+    "primary": "cloud consulting stockholm",
+    "secondary": [
+      "cloud migration sweden",
+      "aws stockholm region",
+      "azure sweden central",
+      "molntjänster konsult stockholm"
+    ]
+  }
+}

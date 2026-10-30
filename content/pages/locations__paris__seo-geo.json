@@ -1,0 +1,132 @@
+{
+  "path": "/locations/paris/seo-geo",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "seo-geo",
+  "serviceType": "SEO and generative engine optimisation",
+  "title": "SEO Agency in Paris: Google and AI Answers | 22 Signals",
+  "description": "SEO and GEO for Paris companies: rank in Google.fr and get named in ChatGPT, Claude, Gemini and AI Overviews when French and international buyers ask.",
+  "eyebrow": "SEO and GEO in Paris",
+  "h1": "SEO agency in Paris work for French searches and AI answers",
+  "intro": "We help Paris companies rank in Google and get named when buyers ask ChatGPT, Claude, Gemini or Google AI Overviews who to choose. That means French-language pages that answer real questions, local search by arrondissement, correct language versions for international visitors and consistent descriptions across the sites assistants read, reported every month in plain English.",
+  "sections": [
+    {
+      "h": "French search is its own market",
+      "p": [
+        "A common mistake is to translate an English site and expect it to rank in France. French buyers do not search with translated English phrases. They use their own words, their own abbreviations and often their own spelling habits, typing words without accents or mixing English terms into French queries. A page built on a direct translation targets searches that barely exist.",
+        "So the work starts with French keyword research: the terms people in France actually type, how often and with what intent. Then each important page is planned around those terms, rather than around the English original. Hiring an SEO agency in Paris that skips this step means paying to rank for the wrong words."
+      ]
+    },
+    {
+      "h": "Being named in AI answers, in French",
+      "p": [
+        "More French buyers now ask an assistant before they search. A procurement manager might ask ChatGPT for the best IT service firms near La Défense; a bride might ask Gemini for bridal boutiques in the Marais. Generative engine optimisation, or GEO, is the work of making sure your business is named and described correctly in those answers.",
+        "Assistants rely on the same signals as search, plus what other trusted sources say about you. The work is about clear, quotable pages, consistent facts about your business across the web and mentions in the French publications, directories and lists your sector reads. We track a fixed set of buyer questions every month, in French and English, across ChatGPT, Claude, Gemini and Google AI Overviews, and can add Mistral's Le Chat for audiences that use it."
+      ]
+    },
+    {
+      "h": "Local search by arrondissement",
+      "p": [
+        "Paris searchers think in arrondissements and neighbourhoods. People search for a dentist in the 11th, a restaurant near Saint-Germain or a florist close to Bastille, and the map results change from one street to the next. A business with branches in several arrondissements needs a properly managed Google Business Profile for each, with accurate categories, hours, photos and a steady flow of reviews.",
+        "French directories matter too. PagesJaunes is still widely used, health practitioners appear on Doctolib, restaurants on TheFork and hotels on the booking platforms. Assistants read these listings, so wrong hours or an old address in one place can undo good work elsewhere."
+      ]
+    },
+    {
+      "h": "What we do each month",
+      "list": [
+        "Technical SEO: crawling, indexing, speed, structured data and language tags, fixed by people who also build sites.",
+        "French keyword research and page plans built around how people in France search.",
+        "Answer-first service pages and guides that assistants can quote accurately.",
+        "Google Business Profile management for each Paris location.",
+        "Citations and listings on French directories and sector platforms, kept consistent.",
+        "Outreach for mentions in French trade press, guides and industry lists.",
+        "Monthly tracking of a fixed question set in AI assistants, alongside rankings and enquiries.",
+        "A plain-English report: what moved, why and what happens next."
+      ]
+    },
+    {
+      "h": "International sites and language versions",
+      "p": [
+        "Paris attracts visitors and buyers from everywhere, and many companies here sell abroad. That raises structural questions: a .fr domain or a /fr/ folder, how to separate French content for France from French content for Belgium, Switzerland or Canada, and how to make sure Google shows the right version to the right person.",
+        "We set up hreflang correctly, keep each language version complete rather than half translated and make sure English pages for tourists or international buyers do not compete with your French pages. For brands with shops in Paris and online sales across Europe, this structure is often the single biggest fix."
+      ]
+    },
+    {
+      "h": "Who writes the French content",
+      "p": [
+        "We are upfront about this. Our own delivery is in English: strategy, technical work, briefs and reporting. French content is written by native French copywriters we arrange through partners, or by your own team, working from our briefs. Every piece is reviewed by you before it goes live.",
+        "That split works well in practice. The brief sets the search terms, the questions to answer and the structure assistants can quote; the native writer makes it read naturally to a French buyer."
+      ]
+    },
+    {
+      "h": "Sectors and where their buyers look",
+      "list": [
+        "Luxury and fashion: brand searches, collection pages, boutique listings and the fashion press that shapes what assistants say.",
+        "Beauty: product and ingredient questions, retailer listings and claims that stay within advertising rules.",
+        "Professional services at La Défense and in the 8th: expertise pages, rankings, directories and trade publications.",
+        "Hospitality and restaurants: Google Business Profile, TheFork, reviews and guides for visitors.",
+        "Startups and SaaS: comparison searches, review platforms and the tech press.",
+        "Health and clinics: Doctolib profiles and careful, accurate treatment pages."
+      ]
+    },
+    {
+      "h": "What we will not do",
+      "p": [
+        "Buy links, publish hundreds of near-identical arrondissement pages, write fake reviews or promise a number of AI mentions. Nobody controls what an assistant says. We control the signals it reads and report the results honestly, including slow months. Search in France rewards patience and accuracy far more than tricks, and the tricks tend to come back to bite when Google updates its systems."
+      ]
+    },
+    {
+      "h": "Proof, and how we work with Paris teams",
+      "p": [
+        "We have worked with more than 30 companies, and search is part of most of those engagements, often alongside the website itself. We will share relevant examples on a call; we do not publish client names.",
+        "We have no office in Paris and work remotely on shared hours, with Paris one hour ahead of London. Strategy sessions can be held in person when useful, with travel planned into the scope."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you rank us in French searches if you work in English?",
+      "a": "Yes. Strategy, technical work and keyword research do not depend on writing the copy ourselves. French content is written by native copywriters arranged through partners, or by your team, from our briefs, and you approve everything before publishing."
+    },
+    {
+      "q": "How do businesses get named in ChatGPT answers in France?",
+      "a": "Assistants draw on your site and on what other sources say about you: reviews, directories, press and lists. Businesses described consistently, well reviewed and with clear French pages answering buyer questions tend to be named more often. We work on all of those signals."
+    },
+    {
+      "q": "Do we need a page for each arrondissement?",
+      "a": "Only where you have a real presence or something specific to say. A branch, local team or local projects justify a page. Pages that only swap the arrondissement number rarely rank and can harm the rest of the site."
+    },
+    {
+      "q": "Should we use a .fr domain or a /fr/ folder?",
+      "a": "Both can work. A .fr domain signals France clearly; a folder on one domain concentrates authority. The right choice depends on your current setup, markets and resources. We recommend one after the audit."
+    },
+    {
+      "q": "What does an SEO agency in Paris report each month?",
+      "a": "Rankings for priority French and English searches, traffic and enquiries from search, Google Business Profile performance, and how often you appear in AI answers to a fixed set of buyer questions, with what we did and what comes next."
+    },
+    {
+      "q": "Can you guarantee results in AI answers?",
+      "a": "No. Nobody controls what an assistant writes. We track a fixed question set every month and improve the signals assistants rely on, and we report honestly on what changed."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/seo-geo",
+    "/insights/geo-vs-seo",
+    "/locations/paris/web-development",
+    "/locations/paris/paid-media",
+    "/services/content-marketing"
+  ],
+  "keywords": {
+    "primary": "seo agency in paris",
+    "secondary": [
+      "seo paris",
+      "geo agency france",
+      "local seo paris",
+      "french seo",
+      "ai search optimisation france"
+    ]
+  }
+}

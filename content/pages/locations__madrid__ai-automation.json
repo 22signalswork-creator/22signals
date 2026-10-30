@@ -1,0 +1,137 @@
+{
+  "path": "/locations/madrid/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Madrid: Invoices, Email, WhatsApp | 22 Signals",
+  "description": "AI automation for Madrid teams: Spanish invoices, delivery notes, inbox triage and WhatsApp replies handled by software, with staff approving what matters.",
+  "eyebrow": "AI Automation in Madrid",
+  "h1": "AI automation in Madrid for the paperwork and messages that fill your week",
+  "intro": "We build AI automations that take repeated work off Madrid teams: reading Spanish invoices and delivery notes, sorting shared inboxes, answering routine WhatsApp and email questions, and writing up reports. Each automation hands anything unusual to a person, keeps a record of what it did, and stores data in line with the GDPR and AEPD guidance.",
+  "sections": [
+    {
+      "h": "Where the hours go in a Madrid office",
+      "p": [
+        "Walk through the back office of almost any mid-sized company in Madrid and you will see the same jobs. Someone keys supplier invoices into the ERP by hand, checking the NIF and VAT lines against a purchase order. Someone else copies delivery notes into a spreadsheet. A customer service team answers the same twenty questions all day by email and WhatsApp. A manager spends Monday morning building a report from four exports.",
+        "None of this is hard work, which is exactly why it suits automation. The rules are known, the volume is high and mistakes are costly when they slip through. AI automation in Madrid companies pays off fastest in these unglamorous places, long before anyone needs a clever chatbot."
+      ]
+    },
+    {
+      "h": "What we automate most often",
+      "list": [
+        "Supplier invoices: reading Spanish facturas in PDF or image form, checking tax IDs, totals and VAT, and posting them to your accounting system for approval",
+        "Delivery notes and orders: matching albaranes to purchase orders and flagging gaps before they turn into disputes",
+        "Shared inboxes: sorting incoming email by type and urgency, drafting replies and routing the rest to the right person",
+        "Customer messages: answering routine questions on WhatsApp, web chat or email in Spanish and English, with a person taking over when needed",
+        "Bookings and appointments: confirming, rescheduling and reminding without staff time",
+        "Reports: weekly sales, operations or service summaries written from your own data and sent before the Monday meeting",
+        "Document checks: comparing contracts, tenders or applications against a checklist and listing what is missing"
+      ]
+    },
+    {
+      "h": "WhatsApp is where Spanish customers write",
+      "p": [
+        "In Spain, WhatsApp is the default way many people contact a business, from a clinic or an estate agent to a hotel or a parts supplier. Messages arrive at all hours, often as voice notes or photos, and customers expect a quick reply. A form on the website rarely competes.",
+        "We connect the WhatsApp Business Platform to your CRM or booking system, so routine questions are answered straight away and every conversation is logged against the right customer. Questions about money, complaints and anything sensitive go to a person, with the history attached. Templates for reminders and updates follow WhatsApp's own approval rules, and opt-in is recorded so marketing messages respect consent."
+      ]
+    },
+    {
+      "h": "Built for Spanish documents and formats",
+      "p": [
+        "Spanish paperwork has its own details. Tax IDs come as NIF, NIE or CIF. Invoices must show specific fields. Dates are written day first, decimals use commas, and supplier names may appear with or without the S.L. or S.A. suffix. Many companies also deal with documents in Catalan, Basque or Galician from suppliers elsewhere in Spain, and in English from international partners.",
+        "We train and test each automation on a sample of your real documents, measure how often it reads them correctly, and set a confidence threshold below which a person checks the result. That is how you get speed without letting errors through to the ledger."
+      ]
+    },
+    {
+      "h": "People stay in charge, and data stays protected",
+      "p": [
+        "Every automation we build has a human checkpoint where it matters: approving payments, sending sensitive replies or changing customer records. Each action is logged with the input, the output and who approved it, so you can answer questions from auditors or customers later.",
+        "On data, we follow the GDPR and Spain's LOPDGDD. We keep personal data in EU regions where that is the right choice, use business model accounts that do not train on your data, and limit what each automation can see. Where an automation talks to customers, it says that it is automated, which matches the transparency direction of the EU AI Act."
+      ]
+    },
+    {
+      "h": "Systems we connect",
+      "p": [
+        "Most Madrid companies run a mix of Microsoft 365 or Google Workspace, an ERP such as SAP, Sage or a Spanish accounting package, a CRM such as Salesforce or HubSpot, and a handful of sector tools. We connect to what you have through official APIs where possible, and through careful workarounds where not. We do not ask you to change your core systems to suit the automation."
+      ]
+    },
+    {
+      "h": "From first call to running automation",
+      "list": [
+        "Talk: 15 minutes on the task that annoys your team most and how often it happens.",
+        "Plan: we watch the process, collect sample documents and deliver a written plan in 5 to 7 days, with the expected time saved and the checkpoints.",
+        "Build: specialists build and test the automation against your real data, with dates in writing.",
+        "Grow: we track accuracy and volume each month and widen the automation once it has earned trust."
+      ]
+    },
+    {
+      "h": "Remote delivery for Madrid teams",
+      "p": [
+        "We do not have an office in Madrid. Automation work runs remotely, and with Madrid one hour ahead of London, our working days line up closely. We schedule launches outside your busiest weeks, which in Spain often means avoiding the end of a quarter and the August holiday when teams are thin. If a process is easier to understand on site, we plan a visit."
+      ]
+    },
+    {
+      "h": "Proof, and what we will not claim",
+      "p": [
+        "We have delivered more than 30 AI builds, many of them automations that replaced manual work in operations, finance and customer service. We will not quote a saving before seeing your process, and we will tell you if a simple rule or a better form would solve the problem without AI."
+      ]
+    },
+    {
+      "h": "What affects the cost",
+      "list": [
+        "Number of processes and how many systems each one touches",
+        "Document variety and the accuracy you need",
+        "Volume of messages or documents each month",
+        "Whether WhatsApp, voice notes or images are involved",
+        "Ongoing support and monitoring after launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best first project for AI automation in Madrid?",
+      "a": "Usually supplier invoices, a shared inbox or routine customer questions. They are high volume, rule based and easy to measure, so you see the time saved within weeks and can build trust before automating anything sensitive."
+    },
+    {
+      "q": "Can the automation read Spanish invoices accurately?",
+      "a": "Yes, once it is tested on your own documents. We measure accuracy on a real sample, and anything below an agreed confidence level goes to a person for checking, so errors do not reach your accounts."
+    },
+    {
+      "q": "Can you automate WhatsApp for a Spanish business?",
+      "a": "Yes, through the WhatsApp Business Platform. We connect it to your CRM or booking system, answer routine questions automatically, record consent and pass anything sensitive to your staff with the full conversation."
+    },
+    {
+      "q": "Is this compliant with the GDPR?",
+      "a": "We design every automation around the GDPR and the LOPDGDD: limited data access, EU storage where appropriate, logging and clear retention periods. Your data protection officer or legal adviser confirms the final setup."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "It replaces tasks, not judgement. Most clients use the time saved to answer customers faster or take on more work with the same team. People keep approval over payments, complaints and anything that needs care."
+    },
+    {
+      "q": "How long does a first automation take to build?",
+      "a": "Planning takes 5 to 7 days. A focused automation, such as invoice capture or inbox sorting, typically follows within a few weeks, depending on system access. Dates are agreed in writing before work starts."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/ai-automation",
+    "/services/whatsapp-automation",
+    "/locations/madrid/ai-consulting",
+    "/locations/madrid/business-intelligence",
+    "/services/custom-ai-development"
+  ],
+  "keywords": {
+    "primary": "ai automation in madrid",
+    "secondary": [
+      "business process automation madrid",
+      "invoice automation spain",
+      "whatsapp automation spain",
+      "ai agents for business madrid",
+      "back office automation spain"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "path": "/locations/paris",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "title": "Digital Agency for Paris Companies: AI to 3D | 22 Signals",
+  "description": "22 Signals works with Paris companies on AI, cloud, data, websites, apps, search, paid media, video and 3D, with GDPR and French market needs planned in.",
+  "eyebrow": "Paris",
+  "h1": "Digital agency work for Paris companies, from AI to 3D",
+  "intro": "22 Signals works with Paris companies that want one team for AI, cloud and data, websites and apps, search, paid media, video and 3D. We are registered in London, a little over two hours away by Eurostar, and we work remotely on Paris hours, with visits when a project needs them. Work is delivered in English, and French localisation is arranged through partners.",
+  "sections": [
+    {
+      "h": "What a digital agency in Paris usually means, and what we do differently",
+      "p": [
+        "Paris has no shortage of agencies. Most of them are very good at one thing: a branding studio in the Marais, a performance shop near Sentier, a data consultancy at La Défense, a production house in the 11th. A growing company ends up with four or five of them, and somebody in-house spends half their week passing briefs between suppliers who never meet.",
+        "We were set up to cover the technical side and the marketing side together. The same team that builds an AI tool, a cloud setup or a customer portal also runs the search, the ads and the video that bring people to it. That is the main reason a Paris firm would pick us over a closer digital agency in Paris: fewer handovers, one plan, and one set of numbers to judge it by."
+      ]
+    },
+    {
+      "h": "What Paris companies bring us in for",
+      "list": [
+        "AI consulting: deciding which uses of AI are worth paying for, with the EU AI Act and GDPR in view from day one.",
+        "AI automation: invoices, inboxes, reports and customer replies handled by tools your staff can check and override.",
+        "Business intelligence: one view of sales, stock and margin across boutiques, entities and channels, in euros.",
+        "Cloud consulting: AWS, Azure, Google Cloud or a French provider, with data kept in France when that matters.",
+        "Web development: sites and online stores that meet French legal and accessibility rules and still load fast.",
+        "App development: MVPs for founders and customer apps for established brands, on iOS, Android and the web.",
+        "SEO and GEO: being found in Google and named in ChatGPT, Claude, Gemini and Google AI Overviews when buyers ask in French or English.",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns planned around French advertising law and consent rules.",
+        "Video and animation: launch films, motion graphics, 2D and 3D explainers and AI video for French and international audiences.",
+        "3D rendering: packaging, products, interiors and buildings shown before anything is made or built."
+      ]
+    },
+    {
+      "h": "The Paris economy we plan for",
+      "p": [
+        "Luxury, fashion and beauty shape a large part of the city's business. The big houses and their suppliers cluster around the 8th arrondissement and the streets off the Champs-Élysées, and the calendar runs on fashion weeks, launches and the Christmas season. Those companies care about image quality, brand control and getting the details right in every market.",
+        "Retail is the second thread, from the department stores on Boulevard Haussmann to independent boutiques and online brands selling across Europe. Finance and corporate headquarters sit at La Défense, one of the largest business districts in Europe, where the questions are about security, audit trails and regulation.",
+        "Then there is the startup scene. Station F, the campus in a former railway depot in the 13th, houses thousands of founders, and Paris has become one of the main places in Europe for AI research. Mistral AI is based in the city, and several large technology groups run research labs here. Hospitality, tourism and events fill out the rest, with trade fairs, hotels and restaurants that depend on visitors finding them online."
+      ]
+    },
+    {
+      "h": "French first: language and the local market",
+      "p": [
+        "Paris is an international city, but the French market buys in French. Buyers search in French, read reviews in French and expect a site, an app or an advert aimed at them to speak their language. French law also expects consumer information and advertising aimed at people in France to be available in French, under what is known as the Loi Toubon.",
+        "We are open about how we handle this. Our work is delivered in English. Where a project needs French copy, French voiceover or French subtitles, we arrange localisation with partners and you approve the final text. Many of our Paris conversations are with teams who already work in English across Europe, and that suits both sides."
+      ]
+    },
+    {
+      "h": "The rules we build around",
+      "p": [
+        "GDPR applies to almost everything we touch, and in France it is enforced by the CNIL. The CNIL has been particularly strict on cookies: refusing tracking should be as easy as accepting it, and it has fined large companies that made refusal harder. That shapes how we build consent banners, analytics and ad tracking for every French site.",
+        "The EU AI Act has been in force since 2024, with its obligations phasing in over several years, so any AI work we plan starts with what the system does and which category it falls into. On the web side, WCAG accessibility is our default, which lines up with the European Accessibility Act and the French RGAA standard. We are not your lawyers, and we flag the questions that need one early."
+      ]
+    },
+    {
+      "h": "Working across the Channel",
+      "p": [
+        "Paris runs on Central European Time, one hour ahead of London all year, since both cities change their clocks on the same weekends. In practice that means a full shared working day. A 9:00 call in Paris is 8:00 in London, and nothing waits overnight for a reply.",
+        "We have no office in Paris and we do not pretend to. Most of the work runs remotely through shared documents, short calls and written weekly updates. When a workshop, a shoot or a launch needs people in the room, the Eurostar from St Pancras to Gare du Nord makes a day trip easy, and we plan visits into the scope so you know when to expect them."
+      ]
+    },
+    {
+      "h": "How a project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to see whether there is a fit.",
+        "Plan: discovery and a written roadmap in 5 to 7 days, with owners and costs.",
+        "Build: specialist teams do the work, and every date is agreed in writing.",
+        "Grow: we measure what changed, report it plainly and keep improving it."
+      ]
+    },
+    {
+      "h": "What we can show you",
+      "p": [
+        "We have worked with more than 30 companies, delivered more than 30 AI builds, broadcast more than 20 live events and managed over $1.5M in projects. We do not publish client names, but on a call we will walk you through examples close to what your Paris business needs."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Paris?",
+      "a": "No. We are a London-registered company and we serve Paris clients remotely, on overlapping hours. When a project needs us on site, for a workshop, a shoot or a launch, we travel and plan the visit into the scope. We do not use a Paris address or phone number to look closer than we are."
+    },
+    {
+      "q": "Do you work in French?",
+      "a": "Our work is delivered in English. When you need French copy, subtitles or voiceover, we arrange localisation with partners and you sign off the final French text. Layouts, forms, search setup and ad accounts are all built to work properly in French."
+    },
+    {
+      "q": "Which Paris sectors do you work with?",
+      "a": "Mostly luxury, fashion and beauty, retail and e-commerce, finance and corporate teams around La Défense, startups and scale-ups, hospitality and events, and professional services. Each gets a plan built around its own customers and rules rather than a standard package."
+    },
+    {
+      "q": "How do you handle GDPR and the CNIL?",
+      "a": "We design for GDPR from the start: what data is collected, where it is stored, who can see it and how consent is recorded. For French sites we follow CNIL guidance on cookies closely, including making refusal as easy as acceptance. Your legal adviser confirms the final position."
+    },
+    {
+      "q": "Can you work alongside our existing agencies?",
+      "a": "Yes. Some Paris clients bring us in for one service and keep their current partners for the rest. We agree in writing who owns what, share access properly and keep everyone informed, so nothing falls between suppliers."
+    },
+    {
+      "q": "What does working with you cost?",
+      "a": "It depends on scope. The main factors are the services involved, how many systems and markets they touch, whether French localisation is needed, and whether you want a one-off project or ongoing support. You get a written scope and price after the first conversation."
+    }
+  ],
+  "related": [
+    "/locations/paris/ai-consulting",
+    "/locations/paris/web-development",
+    "/locations/paris/seo-geo",
+    "/locations/paris/3d-rendering",
+    "/industries/fashion-beauty",
+    "/locations/london"
+  ],
+  "keywords": {
+    "primary": "digital agency in paris",
+    "secondary": [
+      "digital agency paris",
+      "ai company paris",
+      "web development paris",
+      "seo agency paris",
+      "english speaking agency paris"
+    ]
+  }
+}

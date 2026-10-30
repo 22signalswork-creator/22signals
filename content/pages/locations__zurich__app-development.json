@@ -1,0 +1,141 @@
+{
+  "path": "/locations/zurich/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Zurich: iOS, Android and Web Apps | 22 Signals",
+  "description": "App development for Zurich firms and founders: secure iOS, Android and web apps for clients and staff, with Swiss payments, languages and data rules planned in.",
+  "eyebrow": "App Development in Zurich",
+  "h1": "App development for Zurich companies when hiring an in-house team is slow",
+  "intro": "We design and build iOS, Android and web apps for Zurich companies and founders who need a product shipped without spending a year hiring mobile engineers. That covers client apps for banks and insurers, staff tools, MVPs and SaaS products, with security, Swiss payment options and multilingual interfaces planned from the start. Scope arrives in writing within 5 to 7 days.",
+  "sections": [
+    {
+      "h": "Why Zurich companies outsource app builds",
+      "p": [
+        "Zurich has a deep pool of engineers. ETH Zurich trains many of them, and large global technology firms run big engineering sites in the city. That is good for the ecosystem, but it makes hiring hard for everyone else. A mid-sized insurer, a wealth manager or a young company out of a university spin-off programme competes with those employers for the same people, at Zurich salaries.",
+        "For a first product or a defined app project, building a permanent team often makes little sense. You need designers, iOS and Android developers, backend engineers and testers for a period, then a smaller team to maintain and improve the product. That is the gap we fill."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Client apps for banks, wealth managers and insurers: portfolio views, documents, claims submission and secure messaging",
+        "Staff and field apps: inspections, site visits, approvals and internal tools that replace paper and email",
+        "MVPs for founders: the smallest product that tests the idea with real users and investors",
+        "SaaS products: web apps with accounts, billing, roles and admin tools",
+        "Companion apps for medtech and industrial products, connecting to devices and data platforms",
+        "Booking and loyalty apps for consumer brands, clinics and service businesses"
+      ]
+    },
+    {
+      "h": "Swiss specifics we plan for",
+      "list": [
+        "Payments: TWINT is widely used in Switzerland, alongside cards and Apple Pay and Google Pay, so we plan payment options Swiss users expect",
+        "Languages: interfaces and app store listings in German, French, Italian and English where your users need them",
+        "Data: personal data handled under the revised FADP, with storage in Swiss or European regions where clients or contracts require it",
+        "Security: strong sign-in, device binding and session controls that financial and health users expect",
+        "Accessibility: WCAG principles applied to app screens, with support for screen readers and larger text",
+        "Formats: Swiss addresses, phone numbers, CHF amounts and date formats handled properly"
+      ]
+    },
+    {
+      "h": "Security and confidentiality from day one",
+      "p": [
+        "Apps for Zurich banks and insurers hold exactly the information clients care most about. We design security into the architecture rather than testing it in at the end: encrypted storage on the device and in the backend, least-privilege access, audit logs, secure update channels and protection against common mobile attacks. Before launch, we support independent penetration testing if your risk team requires it.",
+        "For FINMA-supervised firms, app development can also involve outsourcing and operational risk questions. We provide documentation on architecture, data flows and access so your compliance team can assess the project properly. Apps that process health data, or that might count as medical device software, need careful scoping with your regulatory specialists before build."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "list": [
+        "Talk: a 15-minute call about the app, its users and the deadline that matters.",
+        "Plan: discovery workshops, user flows, a technical approach and a written roadmap within 5 to 7 days.",
+        "Build: specialist teams design and build in short cycles, with a working version to test every few weeks and release dates in writing.",
+        "Grow: after launch we watch crash reports, reviews and usage, fix issues fast and plan the next release with you."
+      ]
+    },
+    {
+      "h": "Native, cross-platform or web",
+      "p": [
+        "Not every app needs to be built twice. Cross-platform frameworks such as React Native and Flutter suit many client and staff apps and keep costs down. Native iOS and Android builds make sense when the app relies heavily on device features, demanding performance or strict security controls. Sometimes a well-built web app is enough, especially for internal tools.",
+        "We recommend an approach in the written plan, with the trade-offs in cost, speed and maintenance spelled out. You decide with the facts in front of you."
+      ]
+    },
+    {
+      "h": "Proof and approach",
+      "p": [
+        "We have worked with more than 30 companies, delivered more than 30 AI builds and managed more than $1.5M in projects. Many of our app builds include AI features, such as document reading or smart search, because we build those too. Client names stay private; on a call we can show work close to what you are planning."
+      ]
+    },
+    {
+      "h": "Working with a London-registered team",
+      "p": [
+        "We are registered in London and build remotely for Zurich clients. London is one hour behind Swiss time, so sprint reviews, testing sessions and release calls happen in your working day. When user testing or a stakeholder workshop benefits from being in the room, we plan a visit to Zurich and agree it in the scope.",
+        "We deliver in English. Interface text in other languages comes from your team, your translators or partners we arrange, and we test every language version on real devices."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of platforms and whether the build is native or cross-platform",
+        "Number of screens, user roles and integrations with your systems",
+        "Security and compliance requirements, including testing",
+        "Languages and accessibility scope",
+        "Hosting, app store accounts and third-party services, which you pay directly"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for app development",
+      "p": [
+        "Launching an app is only half the job. People need to find it, understand it and keep using it. We cover web, search, paid media, video and animation as well as the build, so the launch campaign, the explainer video and the app store pages come from the same team that knows the product. For app development Zurich companies can plan around, book a short call. Related pages: web development, AI automation and video in Zurich."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does app development Zurich founders need for an MVP?",
+      "a": "A clear problem, a small set of features that test it, a usable design and a build that can grow if the idea works. We help cut the feature list to what proves the case, build it on one or both platforms and set up analytics so you learn from real users quickly."
+    },
+    {
+      "q": "Can you add TWINT payments?",
+      "a": "Yes, through payment providers that support TWINT alongside cards and wallets. The exact setup depends on your payment provider and business model. We plan payments in the discovery phase so the provider contract and the build line up."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. Code, designs and accounts belong to your company, and we work in repositories and app store accounts you control. If you later build an in-house team, we hand over with documentation."
+    },
+    {
+      "q": "Can you build apps for regulated firms?",
+      "a": "Yes. We design with security, logging and access controls that supervised firms expect, and document architecture and data flows for your risk and compliance teams. Your compliance function decides what is acceptable, and we support penetration testing before launch."
+    },
+    {
+      "q": "Do you maintain apps after launch?",
+      "a": "Yes. Most clients keep us on for fixes, operating system updates, security patches and new features. We agree response times and the scope of support in writing."
+    },
+    {
+      "q": "How long does an app take to build?",
+      "a": "It depends on scope. The written roadmap takes 5 to 7 days. A focused MVP is much faster than a full client app with several integrations. We agree release dates in writing and show you working versions throughout."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/app-development",
+    "/locations/zurich/web-development",
+    "/locations/zurich/ai-automation",
+    "/industries/technology-ai",
+    "/services/custom-ai-development"
+  ],
+  "keywords": {
+    "primary": "app development zurich",
+    "secondary": [
+      "app developer zurich",
+      "mobile app development switzerland",
+      "ios android app zurich",
+      "mvp development switzerland",
+      "fintech app development"
+    ]
+  }
+}

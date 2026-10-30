@@ -1,0 +1,146 @@
+{
+  "path": "/locations/madrid/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media in Madrid: Google, Meta, LinkedIn, TikTok | 22 Signals",
+  "description": "Paid media for Madrid companies: Google, Meta, LinkedIn and TikTok campaigns planned around the Spanish calendar, consent rules and real leads or sales.",
+  "eyebrow": "Paid Media in Madrid",
+  "h1": "Paid media in Madrid, planned around Spanish buyers and the Spanish calendar",
+  "intro": "We plan, run and report Google, Meta, LinkedIn and TikTok campaigns for Madrid companies, judged on leads, bookings and sales rather than clicks. Campaigns are timed to the Spanish buying year, built with Spanish creative, set up for EU consent rules so tracking stays accurate, and can extend from Spain into Latin America when you are ready.",
+  "sections": [
+    {
+      "h": "Why many Madrid ad accounts underperform",
+      "p": [
+        "We often inherit accounts with the same problems. Campaigns target all of Spain when the business serves Madrid and its commuter towns. Ads are written in English or translated word for word. Conversion tracking stopped working after a cookie banner change, so the platforms optimise for the wrong thing. Budgets stay flat through the year, so money is spent in a quiet August and runs out before the sales.",
+        "None of this needs a bigger budget to fix. It needs clean tracking, sharper targeting and a plan that follows how people in Spain actually buy. That is where paid media in Madrid usually gains the most."
+      ]
+    },
+    {
+      "h": "Channels we run",
+      "list": [
+        "Google Ads: search, Performance Max, shopping and YouTube, built on Spanish search terms",
+        "Meta: Facebook and Instagram, where many Spanish consumer brands find most of their buyers",
+        "LinkedIn: for B2B firms selling to the banks, utilities, builders and corporate head offices in Madrid",
+        "TikTok: for younger audiences, retail, food, beauty and entertainment brands",
+        "Retargeting and remarketing across these platforms, within consent rules",
+        "Landing pages built for each campaign, so traffic has somewhere good to go"
+      ]
+    },
+    {
+      "h": "The Spanish buying year",
+      "p": [
+        "Spain has a distinct commercial calendar, and campaigns that ignore it waste money. Christmas shopping runs on to Reyes on 6 January, the main gift day for many families. The winter sales follow straight after, and the summer sales start around the beginning of July. Black Friday has become a major week. August is quiet for most B2B buyers and many local services, while tourism, travel and coastal businesses peak. September brings a back-to-school and back-to-work rush.",
+        "We set budgets and creative around those moments for each client, with B2B plans built around the September to June working year and consumer plans built around the sales, holidays and local events such as San Isidro in May."
+      ]
+    },
+    {
+      "h": "Tracking that survives EU consent rules",
+      "p": [
+        "In Spain, as elsewhere in the EU, ad tracking depends on consent. The AEPD enforces cookie rules actively, and Google requires Consent Mode for personalised advertising to users in the European Economic Area. If consent is not set up properly, either you break the rules or your conversion data collapses, and the platforms start optimising blind.",
+        "We set up consent banners, Google Consent Mode, server-side tagging where it helps, and offline conversion imports from your CRM, so the platforms learn from real enquiries and sales. We also respect the EU limits on ad targeting, such as the ban on profiling minors and on using sensitive personal data under the Digital Services Act."
+      ]
+    },
+    {
+      "h": "Spanish creative that does not feel translated",
+      "p": [
+        "Ads that read like a translation lose attention in a second. Spanish buyers respond to direct offers, real people and a tone that fits the brand, whether that is formal for a bank or relaxed for a restaurant group. Because our team also produces video, motion graphics and AI video, we make ad creative in-house and test several versions at once.",
+        "Our team works in English. Spanish ad copy and voiceovers are written or reviewed by native localisation partners or by your own team, and we check every claim against Spanish advertising rules for your sector."
+      ]
+    },
+    {
+      "h": "Targeting Madrid, Spain and Latin America",
+      "p": [
+        "Madrid campaigns often perform best with tight geography: the city, the wider Community of Madrid and specific commuter areas, with different bids for each. National brands may need separate campaigns for Madrid, Barcelona, Valencia and other regions. When you are ready to test Mexico, Colombia or other Latin American markets, we build separate campaigns with local Spanish, local currency and local landing pages, rather than stretching one Spanish campaign across an ocean."
+      ]
+    },
+    {
+      "h": "What different Madrid sectors need from ads",
+      "list": [
+        "Clinics and aesthetics: search campaigns for each treatment, with claims checked against Spanish health advertising rules",
+        "Property: lead forms and retargeting for new developments, with leads sent straight to the sales team's CRM",
+        "Hotels and restaurants: direct booking campaigns that cut reliance on portals, timed to events at IFEMA and the city's peak weekends",
+        "Retail and fashion: catalogue and shopping campaigns that scale up for the sales and Black Friday, then scale back",
+        "B2B services: LinkedIn and search campaigns aimed at named job titles in Madrid head offices, measured on meetings booked"
+      ]
+    },
+    {
+      "h": "How we work: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: 15 minutes on your goals, margins and what a good lead or sale is worth.",
+        "Plan: an account and tracking audit, channel mix, budget plan and creative brief, written up in 5 to 7 days.",
+        "Build: tracking fixed, campaigns and landing pages launched, creative produced, with dates in writing.",
+        "Grow: weekly optimisation, monthly reporting on leads and revenue, and steady creative testing."
+      ]
+    },
+    {
+      "h": "Remote management for Madrid accounts",
+      "p": [
+        "We manage campaigns remotely and have no office in Madrid. Madrid is one hour ahead of London, so we watch accounts during Spanish working hours, including the evening hours when many Spanish consumers browse and buy. For a campaign shoot or a launch planning day, we can come to Madrid as part of the scope."
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies on paid media, search, social and content, and managed more than $1.5M in projects. We do not name clients publicly or promise a return on ad spend before seeing your data, but on a call we will show relevant accounts and how we report them."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of platforms and campaigns",
+        "Volume of creative needed each month",
+        "Tracking and CRM integration work",
+        "Number of countries and languages",
+        "Ad spend, which you pay directly to the platforms"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which platforms work best for paid media in Madrid?",
+      "a": "It depends on who you sell to. Google search suits people already looking for a service. Meta and TikTok suit consumer brands. LinkedIn suits B2B sales to large Madrid companies. Most clients use two or three channels together."
+    },
+    {
+      "q": "What budget do we need?",
+      "a": "Enough to gather useful data in a few weeks on each channel you test. We suggest a starting budget after the audit, based on your market, margins and goals. Ad spend is paid by you directly to the platforms."
+    },
+    {
+      "q": "How do you handle cookie consent and tracking?",
+      "a": "We set up consent banners that meet AEPD expectations, Google Consent Mode and, where useful, server-side tagging and CRM conversion imports, so tracking stays accurate without breaking the rules."
+    },
+    {
+      "q": "Can you write ads in Spanish?",
+      "a": "Our team works in English, and Spanish ad copy is written or reviewed by native localisation partners or your own team. We produce the creative and test versions in-house."
+    },
+    {
+      "q": "Do you run campaigns in Latin America too?",
+      "a": "Yes. We build separate campaigns for each Latin American market, with local vocabulary, currency and landing pages, and report them alongside your Spanish campaigns."
+    },
+    {
+      "q": "How do you report results?",
+      "a": "Monthly, in plain English, focused on leads, bookings, sales and cost per result, not just clicks and impressions. Each report says what we changed and what we will try next."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/paid-media",
+    "/locations/madrid/seo-geo",
+    "/locations/madrid/video-animation",
+    "/services/social-media-management",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media in madrid",
+    "secondary": [
+      "ppc agency madrid",
+      "google ads madrid",
+      "meta ads spain",
+      "linkedin ads spain",
+      "paid social madrid"
+    ]
+  }
+}

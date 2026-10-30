@@ -1,0 +1,136 @@
+{
+  "path": "/locations/dublin/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation Dublin: Take Admin Off Your Team | 22 Signals",
+  "description": "AI automation for Dublin businesses and EMEA service centres: invoices, inboxes, reports and handoffs automated, with people kept in charge of decisions.",
+  "eyebrow": "AI Automation in Dublin",
+  "h1": "AI automation Dublin teams use to clear the repeat work",
+  "intro": "22 Signals builds AI automation for Dublin companies and the EMEA service teams based in the city. We find the tasks your people repeat every day, such as keying invoices, sorting inboxes, chasing approvals and building weekly reports, and replace them with tools that run inside your existing systems, with a person approving anything that matters.",
+  "sections": [
+    {
+      "h": "Where the hours go in a Dublin office",
+      "p": [
+        "Walk through almost any finance or operations team in Dublin and you will find the same pattern. Skilled people spend part of every day copying data from one screen to another, reading emails to decide who should deal with them, and building the same report every Monday from four exports. Hiring is hard in a tight labour market, and Dublin salaries and rents make every extra hire expensive. So the backlog grows.",
+        "Automation will not fix a broken process, but it is very good at the dull, rule-heavy parts of a working one. The aim is simple: your people spend their time on judgement, customers and exceptions, and the software handles the rest."
+      ]
+    },
+    {
+      "h": "What we typically automate",
+      "list": [
+        "Accounts payable: reading supplier invoices, matching them to purchase orders and posting drafts to your finance system for approval.",
+        "Shared inboxes: classifying incoming email, pulling out reference numbers and routing each message to the right queue.",
+        "Reporting: assembling weekly and month-end packs from your ERP, CRM and spreadsheets without anyone copying cells.",
+        "Customer service: drafting replies to common questions for an agent to check and send.",
+        "Onboarding: collecting documents from new customers, suppliers or staff, checking they are complete and chasing gaps.",
+        "Sales operations: logging calls, updating CRM records and preparing quotes from a template.",
+        "Document handling: extracting fields from contracts, certificates and forms into structured records."
+      ]
+    },
+    {
+      "h": "Built for EMEA service centres",
+      "p": [
+        "Dublin is home to a large number of shared service and operations centres that support customers and colleagues across Europe, the Middle East and Africa. These teams run high volumes of tickets, invoices and requests, often in several languages, under service levels set by a parent company.",
+        "For these centres we focus on measurable throughput: time to first response, touches per case, backlog age and error rate. We build automations that sit inside the ticketing, ERP or CRM platform the group already uses, so nothing new has to be rolled out across twenty countries. Our work is delivered in English. Where a workflow needs to handle other European languages, the AI models involved can often read them, and we arrange native-speaker checking and localisation with partners for anything customer-facing."
+      ]
+    },
+    {
+      "h": "Automation for Irish-owned businesses",
+      "p": [
+        "Smaller Irish firms have a different problem. There is no central IT team, the systems are a mix of Xero or Sage, a CRM, Microsoft 365 and a couple of spreadsheets, and the owner knows exactly which jobs eat the week. Here we start small: one process, one measurable result, live within weeks. A distributor in west Dublin might begin with order entry; a clinic group might start with appointment reminders and intake forms; a property manager might begin with maintenance requests.",
+        "Local Enterprise Offices and Enterprise Ireland run digitalisation supports from time to time. Check what is currently available with them directly; we can supply the scope and costings an application needs, but we do not advise on grant eligibility."
+      ]
+    },
+    {
+      "h": "People stay in charge",
+      "p": [
+        "Every automation we build has a clear point where a person reviews, approves or overrides. Payments, refunds, credit decisions, anything sent to a regulator and anything that changes a customer's contract stay with a named member of your team. Under the GDPR, decisions with significant effects on individuals need meaningful human involvement, and the EU AI Act adds duties for some uses. We design for that from the start and log what the system did, so you can explain any outcome later."
+      ]
+    },
+    {
+      "h": "An illustration: month-end at a mid-sized distributor",
+      "p": [
+        "Picture a typical Irish wholesale business with a finance team of four. At month end, two of them spend three days pulling supplier statements, matching them to invoices in the ledger, chasing missing credit notes by email and building a reconciliation in Excel. Nothing about the work is hard. It is just slow, and it lands in the same week as VAT returns and management accounts.",
+        "An automation here reads each statement as it arrives, matches lines to the ledger, lists the differences and drafts the chase emails for a person to send. The team then spends its time on the ten items that need a phone call, not the four hundred that already agree. That is the kind of result we look for: fewer hours on checking, faster close, and the same people in control of every figure that leaves the building."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "list": [
+        "Talk: 15 minutes on the tasks that cost your team the most time.",
+        "Plan: we watch the process, measure a baseline and deliver a written roadmap in 5 to 7 days.",
+        "Build: specialist teams build and test against real examples, with go-live dates agreed in writing.",
+        "Grow: we track the numbers against the baseline, fix edge cases and pick the next process."
+      ]
+    },
+    {
+      "h": "Remote delivery, Irish hours",
+      "p": [
+        "Ireland and London share a time zone, so testing sessions, approvals and support all happen during your working day. We have no Dublin office and do the work remotely. If a process is easier to understand by sitting with the team doing it, we come to Dublin for a day or two during discovery."
+      ]
+    },
+    {
+      "h": "Our track record",
+      "p": [
+        "We have completed more than 30 AI builds, many of them automations that replaced manual work in finance, operations and customer service. Client names stay private, but we will walk you through examples that resemble your process on a call."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of processes and steps per process.",
+        "How many systems need connecting, and whether they have usable APIs.",
+        "Volume of documents or messages handled each month.",
+        "Review and audit requirements in your sector.",
+        "Ongoing support and monitoring after launch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI automation Dublin businesses commission usually start with?",
+      "a": "Most start with one high-volume, rule-heavy process such as invoice entry, inbox sorting or weekly reporting. It gives a clear baseline to measure against and a quick result, which makes the case for the next process much easier."
+    },
+    {
+      "q": "Will automation work with our existing systems?",
+      "a": "Usually, yes. We connect to common platforms such as Microsoft 365, Xero, Sage, Business Central, Salesforce, HubSpot and most ticketing tools through their APIs. Where a system has no API, we look at exports or other safe options and tell you the trade-offs."
+    },
+    {
+      "q": "Can the automations handle languages other than English?",
+      "a": "Many AI models read and draft in major European languages, so internal routing and extraction often work across them. We deliver in English and arrange native-speaker checks and localisation through partners for anything that reaches customers."
+    },
+    {
+      "q": "Is AI automation compliant with the GDPR?",
+      "a": "It can be, if it is designed that way. We document what personal data each automation uses, keep processing in EU regions where required, limit retention and keep a person in charge of significant decisions. Your DPO or legal adviser confirms the position."
+    },
+    {
+      "q": "How quickly can an automation go live?",
+      "a": "A single process can often go live within a few weeks of the roadmap being agreed, depending on system access and testing. We set the dates in writing at the planning stage and flag any risk to them early."
+    },
+    {
+      "q": "What happens when the automation gets something wrong?",
+      "a": "Exceptions go to a person, not into a void. Each automation has confidence checks, a review queue and a log of every action, so errors are caught, corrected and used to improve the rules."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/ai-automation",
+    "/locations/dublin/ai-consulting",
+    "/locations/dublin/business-intelligence",
+    "/services/custom-ai-development",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation dublin",
+    "secondary": [
+      "business process automation ireland",
+      "workflow automation dublin",
+      "ai automation agency ireland",
+      "invoice automation dublin"
+    ]
+  }
+}

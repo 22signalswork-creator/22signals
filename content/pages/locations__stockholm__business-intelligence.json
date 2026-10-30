@@ -1,0 +1,137 @@
+{
+  "path": "/locations/stockholm/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Stockholm",
+  "citySlug": "stockholm",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Stockholm: One Set of Numbers | 22 Signals",
+  "description": "Business intelligence for Stockholm companies: Power BI, Looker Studio and Tableau dashboards across entities, currencies and systems, built to be trusted.",
+  "eyebrow": "Business Intelligence in Stockholm",
+  "h1": "Business intelligence for Stockholm groups that report in more than one currency",
+  "intro": "We build business intelligence for Stockholm companies that need one trusted set of numbers across entities, currencies and systems. That covers the data pipeline, the model and the Power BI, Looker Studio or Tableau dashboards on top, designed with the finance and sales teams who will use them. Delivery is remote, in English, on hours that overlap with yours.",
+  "sections": [
+    {
+      "h": "The reporting headache in a Swedish group",
+      "p": [
+        "A typical Stockholm head office sits on top of a parent company in Sweden, sales subsidiaries in Norway, Denmark, Finland and Germany, and perhaps a distributor in the United States. Each entity keeps its own books, often in a different system. The parent reports in Swedish kronor, the eurozone companies in euros, the Norwegian unit in Norwegian kroner and the US arm in dollars.",
+        "Month end then turns into a spreadsheet exercise. Someone exports trial balances, someone else fixes the exchange rates, and the CFO receives a pack that is already a week old and nobody can drill into. Sales and marketing build their own numbers on top, which never quite match finance. Most of the business intelligence Stockholm groups ask us for starts with this exact gap."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Data pipelines: automated feeds from accounting, ERP, CRM, e-commerce and ad platforms into one warehouse",
+        "A shared data model: agreed definitions for revenue, margin, customer and order, written down and owned",
+        "Currency handling: daily, monthly or budget rates applied consistently, so SEK, EUR, NOK and USD figures reconcile",
+        "Dashboards: Power BI, Looker Studio or Tableau reports for the board, finance, sales and operations",
+        "Self-service: trained users who can build their own views without breaking the model",
+        "Governance: row-level security so each subsidiary sees its own data and the group sees everything"
+      ]
+    },
+    {
+      "h": "Swedish data sources we work with",
+      "p": [
+        "Swedish companies often run Fortnox or Visma for smaller entities and SAP, Microsoft Dynamics, IFS or Monitor for larger ones. Accounting data frequently moves in SIE files, the Swedish standard format for exchanging bookkeeping data, which makes a good starting point when an API is limited. We also pull from HubSpot, Salesforce, Shopify, Centra, Google Analytics and the ad platforms.",
+        "Public data can add context. Statistics Sweden (SCB) publishes economic and population figures, and the Riksbank publishes official exchange rates. Where it helps, we bring these into the model so trends can be read against the wider market."
+      ]
+    },
+    {
+      "h": "Sustainability numbers belong in the same model",
+      "p": [
+        "Large Stockholm companies now report sustainability data alongside their financials under EU rules, and many smaller suppliers are asked by their customers for emissions and sourcing figures. These numbers usually live in yet another spreadsheet. We can bring energy use, travel, freight and supplier data into the same warehouse, so the figures have an audit trail and can be refreshed rather than rebuilt each year.",
+        "We do not calculate your emissions or sign off your report. We make sure the data your sustainability team or auditor relies on is complete, consistent and traceable."
+      ]
+    },
+    {
+      "h": "Dashboards that a flat organisation actually uses",
+      "p": [
+        "In Swedish workplaces, information tends to be shared widely. Team leads and specialists expect to see the same figures as management, not a filtered summary weeks later. That changes how we design. Fewer dashboards, clearer definitions, and pages built around the questions each team asks every week.",
+        "We run short sessions with each user group before building, and we test drafts with them. A sales manager in Malmö and a controller in the Stockholm head office should be able to open the same report and agree on what it says. When they disagree, the cause is usually a definition, such as when an order counts as revenue. We settle those in writing, once, and the model follows."
+      ]
+    },
+    {
+      "h": "Data protection and hosting",
+      "p": [
+        "Most BI work involves some personal data, from customer names in the CRM to salary costs in finance. We design under the GDPR, keep data in EU cloud regions, limit access by role and agree what is masked. In Sweden the GDPR is supervised by IMY. If your data needs to stay in a specific country or cloud account, we build there."
+      ]
+    },
+    {
+      "h": "How a BI project runs: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call on the reports you have and the decisions they fail to support.",
+        "Plan: a review of sources, definitions and users, with a written roadmap in 5 to 7 days.",
+        "Build: data engineers and report designers deliver in stages, with each date in writing.",
+        "Grow: we add sources, refine definitions and train more users as the model proves itself."
+      ]
+    },
+    {
+      "h": "Remote, with Stockholm hours in mind",
+      "p": [
+        "We have no office in Stockholm. BI work is done through screen-share workshops, a shared project log and staged releases you can test. Stockholm is one hour ahead of London, so month-end checks and board deadlines fall inside our working day too. For a kick-off with several entity controllers, we can come to Stockholm and run it in a room.",
+        "Reports and documentation are delivered in English, which suits groups with subsidiaries abroad. Labels can be set up in Swedish where local teams prefer them."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of source systems and entities",
+        "How clean and consistent the existing data is",
+        "Currency and consolidation rules",
+        "Number of dashboards and user groups",
+        "Licences for Power BI, Tableau or the warehouse, paid by you",
+        "Ongoing support and new report requests after launch"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for business intelligence",
+      "p": [
+        "We have managed more than $1.5M in projects and worked with more than 30 companies, so we know what happens when reporting is late or wrong. Our team also builds the cloud, the AI tools and the marketing systems that feed the data. That means we can fix a broken source instead of working around it. When your business intelligence, Stockholm head office and subsidiaries included, needs to show one version of the truth, book a 15-minute call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which BI tool should a Stockholm company choose?",
+      "a": "Power BI is common in groups already on Microsoft 365. Looker Studio suits teams living in Google tools and marketing data. Tableau suits heavy analytical work. We recommend based on your stack, licences and users, not on a partnership."
+    },
+    {
+      "q": "Can you consolidate SEK, EUR and other currencies?",
+      "a": "Yes. We agree the rate rules with finance, such as monthly average for profit and loss and closing rate for the balance sheet, then apply them in the model so every report uses the same logic."
+    },
+    {
+      "q": "Can you work with SIE files from Fortnox or Visma?",
+      "a": "Yes. SIE exports are a reliable way to bring Swedish accounting data into a warehouse, and we combine them with API feeds where the system offers them."
+    },
+    {
+      "q": "How long before we see a first dashboard?",
+      "a": "We stage the work so a first useful report arrives early, usually built on the cleanest source. The exact dates depend on your systems and go into the written plan after discovery."
+    },
+    {
+      "q": "Can each subsidiary see only its own data?",
+      "a": "Yes. We set up row-level security so a country manager sees their entity while group finance sees the full picture, all from one model."
+    },
+    {
+      "q": "Do you help with sustainability reporting data?",
+      "a": "We can collect and structure the underlying data, such as energy, freight and supplier figures, with a clear audit trail. Your sustainability team and auditors remain responsible for the calculations and the report."
+    }
+  ],
+  "related": [
+    "/locations/stockholm",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/stockholm/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence stockholm",
+    "secondary": [
+      "power bi consultant stockholm",
+      "data analytics sweden",
+      "bi konsult stockholm",
+      "financial reporting dashboards"
+    ]
+  }
+}

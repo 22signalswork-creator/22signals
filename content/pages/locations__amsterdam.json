@@ -1,0 +1,123 @@
+{
+  "path": "/locations/amsterdam",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "title": "Digital Agency Amsterdam: AI, Web, Search, Video | 22 Signals",
+  "description": "A digital agency for Amsterdam companies that also builds AI, data and cloud systems. Remote delivery from London, one hour behind CET, in English.",
+  "eyebrow": "Amsterdam",
+  "h1": "A digital agency for Amsterdam companies that also builds AI, data and cloud",
+  "intro": "22 Signals works with Amsterdam companies as a digital agency and a technology partner at once. We build AI tools, data and cloud systems, websites and apps, then grow them with SEO and GEO, paid media and video. Work is delivered remotely in English, from one hour behind Amsterdam time, and we travel to the Netherlands when a project needs it.",
+  "sections": [
+    {
+      "h": "Choosing a digital agency: Amsterdam firms often need more than one skill",
+      "p": [
+        "Search for a digital agency, Amsterdam gives you plenty of good options. There are design studios along the canals, performance shops in the Zuidas offices, AI start-ups in Amsterdam Noord and cloud partners near the data centres west of the city. Most of them do one thing well.",
+        "The friction starts when a project crosses those lines. A new European headquarters needs a website, a data warehouse, an AI pilot and a launch campaign in the same quarter. Four suppliers means four contracts, four project plans and a lot of time spent passing files between them. We cover all of it with one team, so the website, the data behind it and the campaigns that drive traffic to it are planned together."
+      ]
+    },
+    {
+      "h": "What Amsterdam businesses ask us to do",
+      "p": [
+        "Each service below has its own Amsterdam page with more detail on how we approach it for Dutch buyers."
+      ],
+      "list": [
+        "AI consulting: a ranked list of AI uses worth funding, with the EU AI Act and GDPR worked into the plan",
+        "AI automation: tools that take repeated admin off teams in finance, customer service and logistics",
+        "Business intelligence: Power BI and data models that pull from Exact Online, AFAS, Shopify and your CRM",
+        "Cloud consulting: architecture, security and cost reviews on Azure, Google Cloud and AWS in European regions",
+        "Web development: fast, accessible sites in Dutch and English, with iDEAL checkout where you sell online",
+        "App development: iOS and Android apps for customers, field staff and drivers",
+        "SEO and GEO: search in Google and in ChatGPT, Claude, Gemini and Google AI Overviews",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns across the Netherlands and wider Europe",
+        "Video and animation: explainers, product films, motion graphics, AI video and live event broadcasts",
+        "3D rendering: visuals for new-build housing, interiors and products"
+      ]
+    },
+    {
+      "h": "The Amsterdam market, as we see it",
+      "p": [
+        "Amsterdam punches above its size. Many American and Asian companies run their European headquarters from the city or from Amstelveen and Hoofddorp, close to Schiphol. The European Medicines Agency moved here after Brexit, and several trading and financial firms followed a similar route. Payments and fintech are a real cluster, and so is e-commerce.",
+        "The wider Randstad matters too. Goods arrive through Schiphol and the Port of Rotterdam, then move across Europe from distribution centres in places like Venlo and Tilburg. That logistics base creates demand for tracking systems, customer portals and data work that most people never see. On the creative side, Amsterdam has long been a home for international advertising agencies, many of which need extra production or technical capacity when a big brief lands."
+      ]
+    },
+    {
+      "h": "English first, Dutch where it counts",
+      "p": [
+        "Dutch business culture is direct and comfortable in English. Many Amsterdam teams use English as their working language, especially in international companies. We deliver all work in English, which suits most of our Amsterdam clients.",
+        "Customers are a different matter. A Dutch consumer searching for a mortgage adviser or a new bike will usually type in Dutch, and expects the page, the ad and the checkout to be in Dutch too. When a project needs Dutch copy, we arrange localisation with partners and build the site, the campaigns and the search plan around both languages from the start."
+      ]
+    },
+    {
+      "h": "Rules we plan around in the Netherlands",
+      "p": [
+        "GDPR applies across the EU, and in the Netherlands it is enforced by the Autoriteit Persoonsgegevens, the Dutch data protection authority. The AP is an active regulator and has issued large fines, including against companies with headquarters in the country. It also coordinates oversight of algorithms in the Netherlands, which matters for any AI work.",
+        "The EU AI Act entered into force in 2024, and its obligations are phasing in over several years. The European Accessibility Act has applied to many consumer-facing digital services since June 2025. Cookie consent, Google Consent Mode and data transfers outside the EU also come up on almost every project. We build these into the plan early, keep the legal points general and ask your legal adviser to confirm anything that turns on the details."
+      ]
+    },
+    {
+      "h": "How we work with Amsterdam teams",
+      "p": [
+        "22 Signals is a global business solutions company registered in London. We have no office in Amsterdam. The work is remote, and when a workshop, a shoot or a launch is better in person, we travel. London is one hour behind Central European Time all year, so a 9:00 start in Amsterdam is 8:00 in London and our working days overlap almost completely.",
+        "Every project follows the same four steps. Talk is a 15-minute call to see whether we are a fit. Plan is discovery and a written roadmap, delivered in 5 to 7 days. Build is where specialist teams do the work against dates we put in writing. Grow is what comes after launch: measuring, fixing and adding what the numbers show is worth adding. Quotes and invoices can be in euros."
+      ]
+    },
+    {
+      "h": "Proof, briefly",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE. We have shipped more than 30 AI builds, broadcast more than 20 live events and managed more than $1.5M in projects. We would rather show you relevant work on a call than list claims here, and we do not name clients without their permission."
+      ]
+    },
+    {
+      "h": "Who we are a good fit for",
+      "p": [
+        "We work best with established Amsterdam businesses and ambitious founders who want to move several things forward at once and would rather deal with one team. That might be a scale-up preparing to enter Germany and France, a European headquarters that needs reporting its US parent will trust, or a creative agency that needs a reliable technical partner behind the scenes. If you only need one small task done, a local specialist may suit you better, and we will say so on the first call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Amsterdam?",
+      "a": "No. 22 Signals has no office in the Netherlands and delivers work remotely. We travel to Amsterdam and elsewhere in the Netherlands when a workshop, shoot or launch is better done in person."
+    },
+    {
+      "q": "Do you work in Dutch?",
+      "a": "Our work is delivered in English, which most international Amsterdam teams use day to day. When a website, campaign or video needs Dutch, we arrange localisation with partners and plan for both languages from the start."
+    },
+    {
+      "q": "What time zone do you work in?",
+      "a": "London time, which is one hour behind Amsterdam all year. Our working hours overlap with a normal Dutch office day, so calls, reviews and launches happen during your hours."
+    },
+    {
+      "q": "Can you invoice in euros?",
+      "a": "Yes. We can quote and invoice in euros for Amsterdam clients, and the written roadmap sets out the scope and dates before any build work starts."
+    },
+    {
+      "q": "Is 22 Signals a digital agency or a technology company?",
+      "a": "Both. We run marketing work such as SEO, GEO, paid media, social and video, and we build the technology behind it: AI tools, data systems, cloud infrastructure, websites and apps."
+    },
+    {
+      "q": "How does a project start?",
+      "a": "With a 15-minute call. If there is a fit, we run discovery and send a written roadmap within 5 to 7 days, so you can decide with a clear scope in front of you."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam/ai-consulting",
+    "/locations/amsterdam/web-development",
+    "/locations/amsterdam/seo-geo",
+    "/locations/amsterdam/cloud-consulting",
+    "/locations/london",
+    "/services/go-to-market"
+  ],
+  "keywords": {
+    "primary": "digital agency amsterdam",
+    "secondary": [
+      "digital agency netherlands",
+      "ai company amsterdam",
+      "web agency amsterdam",
+      "marketing agency amsterdam",
+      "technology partner amsterdam"
+    ]
+  }
+}

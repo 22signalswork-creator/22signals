@@ -1,0 +1,132 @@
+{
+  "path": "/locations/dublin/ai-consulting",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Dublin",
+  "citySlug": "dublin",
+  "service": "ai-consulting",
+  "serviceType": "AI consulting",
+  "title": "AI Consulting Dublin: Plans Built for the EU AI Act | 22 Signals",
+  "description": "AI consulting for Dublin firms: pick the AI uses worth funding, plan them under the GDPR and the EU AI Act, then build a working pilot your team adopts.",
+  "eyebrow": "AI Consulting in Dublin",
+  "h1": "AI consulting Dublin firms can take to the board and the regulator",
+  "intro": "22 Signals provides AI consulting to Dublin and Irish companies that want a clear answer on where AI will pay off and how to use it within EU rules. We review your processes and data, rank the options, write a plan that fits the GDPR and the EU AI Act, and then build the first working system with you.",
+  "sections": [
+    {
+      "h": "The question Irish boards are asking",
+      "p": [
+        "In most Dublin boardrooms the AI question has moved on from whether to try it. Staff are already using chat tools, a vendor is pitching a copilot, and someone in risk wants to know where customer data is going. What the board needs now is a short list of uses that justify real spend, a named owner for each, and a view on compliance that the Data Protection Officer will sign.",
+        "That is the work. Good AI consulting starts with your processes, not with a model. We look at where time goes, which decisions repeat, which documents get read and reread, and where errors cost money. Some of the answers involve AI. Some involve fixing a form or a spreadsheet first. We tell you which is which."
+      ]
+    },
+    {
+      "h": "What the engagement includes",
+      "list": [
+        "Readiness review: your data, systems, skills and risk appetite, written up in plain language.",
+        "Use-case shortlist: ranked by value, effort and regulatory exposure, usually three to five items.",
+        "Build or buy advice: when a Microsoft Copilot licence, an OpenAI, Anthropic or Google model, or a specialist tool is enough, and when a custom build makes sense.",
+        "An AI policy staff can follow: what tools are allowed, what data never goes in, and who to ask.",
+        "Risk classification against the EU AI Act for each proposed system.",
+        "A pilot on one process, measured against a baseline agreed before we start.",
+        "Training for the people who will use it, so adoption does not depend on one enthusiast."
+      ]
+    },
+    {
+      "h": "Planning around the GDPR and the EU AI Act",
+      "p": [
+        "Ireland's Data Protection Commission is the lead GDPR regulator for many of the largest technology companies in Europe, and that has shaped how Irish businesses think about personal data. Any AI system that touches customer, patient or employee data needs a lawful basis, a clear purpose, sensible retention and, for higher-risk processing, a data protection impact assessment. Automated decisions with significant effects on people need real human review.",
+        "The EU AI Act adds a second layer. It entered into force in 2024 and its obligations phase in over several years. It sorts systems by risk: some practices are banned, some uses such as certain hiring, credit and access-to-service decisions count as high risk, and many everyday tools carry lighter transparency duties. For each use case we note where it is likely to sit and what that means in practice. Your legal adviser confirms the position; our job is to make that review quick and well informed."
+      ]
+    },
+    {
+      "h": "Where AI tends to pay first in Dublin sectors",
+      "list": [
+        "Funds and asset servicing around the IFSC: reading investor documents, checking reports against source data, and drafting first-pass responses to routine queries.",
+        "Insurance: summarising claims files, sorting incoming correspondence and spotting missing information before a handler opens the case.",
+        "Aircraft leasing: pulling key terms out of long lease agreements and technical records, with a person checking every extract.",
+        "Pharma and medtech: searching internal SOPs and quality records, with strict limits on what the system may generate about products.",
+        "Professional services: precedent search over your own files, proposal drafting and time capture.",
+        "Retail, hospitality and distribution: demand forecasting, product content and customer service triage."
+      ]
+    },
+    {
+      "h": "Group offices and local priorities",
+      "p": [
+        "Many Dublin teams sit inside a US or global group. Head office may already have an enterprise AI platform, an approved vendor list and a security review that takes months. That does not mean the Irish team has to wait. We work within your group's rules, map which of your use cases the approved tools can already handle, and build a case for anything that needs a new approval, written so group IT and EU compliance can both read it.",
+        "For Irish-owned firms the situation is often the opposite: no platform, no policy and a handful of staff using personal accounts. There we start with the policy and a sensible default tool, then pick the first process to improve."
+      ]
+    },
+    {
+      "h": "How we run it: Talk, Plan, Build, Grow",
+      "p": [
+        "Talk is a 15-minute call to check whether we can help. Plan is discovery with your team and a written roadmap within 5 to 7 days. Build is the pilot, run by our specialist teams, with dates set out in writing. Grow is measuring the pilot honestly, deciding whether to extend it, and moving to the next item on the list.",
+        "Ireland shares London's time zone, so workshops and reviews fit your normal day. We have no Dublin office and work remotely, travelling to Dublin for workshops when being in the room makes the difference."
+      ]
+    },
+    {
+      "h": "Proof from our own work",
+      "p": [
+        "We have delivered more than 30 AI builds across more than 30 companies, from internal assistants and document tools to automations that replaced manual reporting. We do not name clients, but on a call we will show you examples close to your sector and explain what worked and what we would do differently."
+      ]
+    },
+    {
+      "h": "What moves the cost",
+      "list": [
+        "How many departments and processes are in scope.",
+        "The state of your data and how many systems hold it.",
+        "Regulatory weight: a funds administrator needs more documentation than a retailer.",
+        "Whether you want a plan only, or a plan and a pilot build.",
+        "Group approval steps that add review rounds."
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "The people who write your AI plan also build the systems in it, along with the data pipelines, cloud setup, apps and websites around them. That keeps advice practical, because we have to live with it. Related pages cover AI automation and business intelligence in Dublin, and our wider AI consulting service."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does AI consulting Dublin companies buy usually cover?",
+      "a": "Most engagements cover a readiness review, a ranked list of use cases, an AI policy, a risk view under the GDPR and the EU AI Act, and a pilot on one process. Some clients stop at the plan; most go on to build the first system with us."
+    },
+    {
+      "q": "Does the EU AI Act apply to Irish businesses using ChatGPT or Copilot?",
+      "a": "The Act applies to organisations that deploy AI systems in the EU, not only to the companies that make them. For most office uses the duties are lighter, such as transparency and staff awareness, but some uses in hiring, credit or access to services can be high risk. We map each use and your legal adviser confirms it."
+    },
+    {
+      "q": "Do we need a data protection impact assessment for an AI project?",
+      "a": "Often, yes, when the system processes personal data in a way that is likely to carry high risk to people, such as profiling or large-scale processing of sensitive data. We prepare the technical facts a DPIA needs and work with your DPO on the assessment."
+    },
+    {
+      "q": "Can you work within our parent company's AI policy?",
+      "a": "Yes. We start from the approved tools and rules your group already has, and only propose new tools where there is a clear gap. Any request for a new approval comes with the security and data details group IT will ask for."
+    },
+    {
+      "q": "How long does AI consulting take?",
+      "a": "Discovery and a written roadmap take 5 to 7 days once we have access to the right people. A pilot usually follows over a few weeks, depending on the systems involved. Every date is agreed in writing before work starts."
+    },
+    {
+      "q": "Will you meet us in Dublin?",
+      "a": "Yes, when it helps. Discovery workshops often work better in person, so we plan travel into the scope. Day-to-day work runs remotely during Irish business hours, which are the same as London's."
+    }
+  ],
+  "related": [
+    "/locations/dublin",
+    "/services/ai-consulting",
+    "/locations/dublin/ai-automation",
+    "/locations/dublin/business-intelligence",
+    "/insights/how-to-choose-an-ai-consulting-firm",
+    "/insights/what-is-ai-consulting"
+  ],
+  "keywords": {
+    "primary": "ai consulting dublin",
+    "secondary": [
+      "ai consultancy ireland",
+      "eu ai act consulting",
+      "ai strategy dublin",
+      "ai consultants dublin"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "path": "/locations/paris/paid-media",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "paid-media",
+  "serviceType": "Paid media",
+  "title": "Paid Media Agency in Paris: Google, Meta, TikTok | 22 Signals",
+  "description": "Paid media for Paris brands: Google, Meta, LinkedIn and TikTok campaigns planned around French ad law, CNIL consent rules and the French retail calendar.",
+  "eyebrow": "Paid Media in Paris",
+  "h1": "Paid media agency in Paris work, planned around French rules and seasons",
+  "intro": "We run Google, Meta, LinkedIn and TikTok campaigns for Paris brands and firms, tied to sales and qualified leads rather than clicks. Campaigns are planned around French advertising law, CNIL consent rules that change what you can measure, and a retail calendar shaped by the soldes, fashion weeks and the September rentrée.",
+  "sections": [
+    {
+      "h": "Advertising in France follows its own rules",
+      "p": [
+        "Campaigns that work in London or New York often need changes before they run in France. Alcohol advertising is tightly limited by the Loi Evin, which matters to the wine, champagne and spirits brands with headquarters in and around Paris. Influencer content has to be clearly labelled as advertising under the 2023 law on commercial influence. Advertising aimed at French consumers is expected to be in French. Health and beauty claims face their own limits.",
+        "A good paid media agency in Paris builds these rules into the plan rather than discovering them when an ad is rejected or a complaint arrives. We review each campaign against the rules that apply to your sector, and your legal team signs off anything sensitive."
+      ]
+    },
+    {
+      "h": "What we run",
+      "list": [
+        "Google Ads: search, Shopping and Performance Max for online stores, and lead campaigns for services.",
+        "Meta: Facebook and Instagram campaigns for launches, collections and retargeting.",
+        "TikTok: short video campaigns for beauty, fashion and consumer brands reaching younger French audiences.",
+        "LinkedIn: campaigns for B2B firms, finance and professional services targeting decision makers.",
+        "YouTube: video campaigns for launches and brand films.",
+        "Creative testing: several hooks, formats and messages tested against each other every month.",
+        "Tracking setup: consent-aware conversion tracking, server-side where it helps, and offline sales imports."
+      ]
+    },
+    {
+      "h": "Consent changes what you can measure",
+      "p": [
+        "The CNIL enforces consent rules strictly, and a properly built French cookie banner gives refusal the same weight as acceptance. Many visitors say no. That means a share of conversions will never be tracked directly, and anyone reporting perfect attribution from French traffic is probably counting something they should not.",
+        "We work with that reality. Google Consent Mode and the platforms' own modelling fill some of the gap. Server-side tracking makes the consented data more reliable. Offline imports from your CRM or till show which campaigns led to actual sales. And we judge results on business figures, such as revenue, margin and cost per qualified lead, not on platform dashboards alone."
+      ]
+    },
+    {
+      "h": "The French calendar",
+      "list": [
+        "Soldes: France has national winter and summer sales periods, usually starting in January and late June, and campaigns build up to them weeks ahead.",
+        "Fashion weeks: menswear and womenswear seasons in Paris drive attention for fashion and beauty brands several times a year.",
+        "The rentrée: activity returns in September after a quiet August, and B2B budgets and consumer spending both pick up.",
+        "Black Friday and Christmas: the year's busiest online period, with costs per click rising sharply.",
+        "Trade fairs and events: Paris hosts major shows across fashion, design, tech and food, which suit targeted campaigns for exhibitors.",
+        "August: many French businesses slow down or close, so budgets often move to markets still buying."
+      ]
+    },
+    {
+      "h": "Creative in French, briefed properly",
+      "p": [
+        "Ad performance depends on the creative more than on any setting. French audiences respond to French copy written by French writers, not to translated English slogans. Our own delivery is in English: we plan, brief and test. French headlines, scripts and captions come from native copywriters arranged through partners, or from your team, and you approve them before launch.",
+        "Because our team also makes video, motion graphics and 3D, we can produce the test variations that paid social needs every month, rather than waiting on a separate studio."
+      ]
+    },
+    {
+      "h": "Paid media by sector",
+      "p": [
+        "Luxury houses usually want reach and brand control more than direct response, so we focus on placements, frequency and quality signals, and keep exact-match brand search protected. Beauty brands need fast creative testing on TikTok and Instagram, with claims checked. Online fashion stores live on Shopping and Performance Max fed by a clean product feed. Firms at La Défense and in the 8th selling professional services need LinkedIn and search campaigns that reach the right job titles, with lead quality checked against the CRM. Hotels and restaurants need local campaigns that reach visitors before they arrive in Paris, as well as residents."
+      ]
+    },
+    {
+      "h": "Product feeds and the online store",
+      "p": [
+        "For e-commerce brands, Shopping and Performance Max campaigns are only as good as the product feed behind them. Missing sizes, vague titles, wrong prices or images with text on them all cost sales. French feeds add their own checks: titles and descriptions in French, prices including VAT and delivery costs that match the checkout.",
+        "We audit the feed before spending a euro on new campaigns, fix titles and attributes, separate bestsellers from slow lines and exclude products with thin margins or low stock. Clean feeds often lift results more than any change to bids."
+      ]
+    },
+    {
+      "h": "How we report",
+      "p": [
+        "Each month you get a short written report: spend, results against targets, what we tested, what worked and what we will change. Figures are in euros, and wherever possible tied to sales or qualified leads from your own systems. You own the ad accounts and can see everything we see at any time.",
+        "Ad spend is paid by you directly to the platforms, so there is never a question about where the money went."
+      ]
+    },
+    {
+      "h": "How a campaign starts",
+      "list": [
+        "Talk: a 15-minute call about goals, budget range and what has been tried before.",
+        "Plan: an audit of current accounts, tracking and creative, and a written plan in 5 to 7 days.",
+        "Build: tracking fixed first, then campaigns and creative launched on dates agreed in writing.",
+        "Grow: weekly optimisation and monthly testing, with budget moved to what works."
+      ]
+    },
+    {
+      "h": "Proof, and working with us from Paris",
+      "p": [
+        "We have managed more than $1.5M in projects, including paid media for service firms and consumer brands, and we will talk you through relevant examples on a call. We do not publish client names.",
+        "We have no office in Paris and work remotely on shared hours, with Paris one hour ahead of London, which suits the daily rhythm of campaign management. Planning sessions can be held in person when useful."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you run alcohol campaigns in France?",
+      "a": "Within limits. The Loi Evin restricts what alcohol advertising can show and say, and platforms add their own rules. We plan campaigns that stay within both, and your legal team approves the creative before it runs."
+    },
+    {
+      "q": "Why do our French conversion figures look low?",
+      "a": "Often because consent rules mean many visitors refuse tracking. We set up Consent Mode, server-side tracking and offline sales imports to give a truer picture, and judge results on revenue and qualified leads rather than platform figures alone."
+    },
+    {
+      "q": "Do you write French ad copy?",
+      "a": "Our delivery is in English. French copy comes from native copywriters arranged through partners or from your team, working to our briefs, and you approve it before launch."
+    },
+    {
+      "q": "What budget does a paid media agency in Paris need from us?",
+      "a": "It depends on your sector, goals and the competition for your audience. We recommend a test budget after the audit, and ad spend is always paid by you directly to the platforms."
+    },
+    {
+      "q": "Do you handle influencer campaigns too?",
+      "a": "Yes, as part of our wider service. In France, influencer content must be clearly labelled as advertising, and some products face extra restrictions. We build those rules into every brief."
+    },
+    {
+      "q": "Who owns the ad accounts?",
+      "a": "You do. Accounts sit in your company's name, we work with access you grant, and you can see every campaign and figure at any time."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/paid-media",
+    "/services/influencer-campaigns",
+    "/locations/paris/seo-geo",
+    "/locations/paris/video-animation",
+    "/industries/fashion-beauty"
+  ],
+  "keywords": {
+    "primary": "paid media agency in paris",
+    "secondary": [
+      "ppc agency paris",
+      "google ads agency paris",
+      "meta ads paris",
+      "tiktok ads france",
+      "paid social agency paris"
+    ]
+  }
+}

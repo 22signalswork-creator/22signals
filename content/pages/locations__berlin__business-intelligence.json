@@ -1,0 +1,131 @@
+{
+  "path": "/locations/berlin/business-intelligence",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Berlin",
+  "citySlug": "berlin",
+  "service": "business-intelligence",
+  "serviceType": "Business intelligence and data analytics",
+  "title": "Business Intelligence Berlin: SAP, DATEV, Power BI | 22 Signals",
+  "description": "Business intelligence for Berlin and German firms: SAP, DATEV, CRM and spreadsheet data joined into Power BI, Looker Studio or Tableau dashboards.",
+  "eyebrow": "Business intelligence in Berlin",
+  "h1": "Business intelligence for Berlin firms that want one set of numbers",
+  "intro": "We join the data German companies already have, in SAP, DATEV exports, CRMs, shop systems and spreadsheets, into one reporting layer, then build dashboards in Power BI, Looker Studio or Tableau. Managing directors see margin and cash, sales sees pipeline, and investors get the same figures the board does. Definitions are written down, so a number means the same thing in every meeting.",
+  "sections": [
+    {
+      "h": "Three versions of revenue and no agreement",
+      "p": [
+        "Ask the sales director, the finance lead and the managing director of a typical German mid-sized company for last quarter's revenue and you may get three answers. Sales counts orders received. Finance counts invoices posted. The managing director uses the figure the tax adviser sent, which arrived six weeks after quarter end. Each is correct by its own logic. None of them helps a decision made this week.",
+        "Berlin scale-ups have the mirror image. Plenty of data, many tools, and a growth lead who rebuilds the board deck by hand every month because the metrics in the product database, the CRM and the payment provider never quite line up.",
+        "Business intelligence fixes this with two things: a single model of your data, and written definitions everyone has agreed. The dashboard is the visible part, but the agreement is what makes it useful."
+      ]
+    },
+    {
+      "h": "What a BI project with us includes",
+      "list": [
+        "Metric workshop: agreeing what revenue, margin, active customer and churn mean in your business",
+        "Source mapping: SAP or other ERP, DATEV exports, CRM, shop, ticketing and production systems",
+        "Data pipeline: automated loads into a warehouse or a well-structured model, refreshed on a schedule",
+        "Dashboards: built in Power BI, Looker Studio or Tableau, depending on what you already license",
+        "Access rules: each role sees the data it should, including separate views per legal entity",
+        "Documentation: a data dictionary and handover notes your team can maintain"
+      ]
+    },
+    {
+      "h": "German data, German conventions",
+      "p": [
+        "Small details decide whether people trust a report. German users expect a decimal comma and a full stop as the thousands separator, dates written day first, and amounts in euro with VAT shown the way their accountant shows it. A dashboard that prints 1,234.50 to a finance team in Hamburg looks foreign, and people quietly go back to their spreadsheet.",
+        "Fiscal structures matter too. Many German groups run several entities, perhaps a GmbH in Germany, a subsidiary in Austria and a sales company in Switzerland, each with its own chart of accounts. We map them to one reporting structure so the group view adds up and each managing director still sees their own entity. Exports from DATEV, the accounting software many German tax advisers use, are a common source, and we plan around how often your adviser delivers them."
+      ]
+    },
+    {
+      "h": "Investor and board reporting for Berlin scale-ups",
+      "p": [
+        "Venture-backed companies in Berlin report to investors on a fixed rhythm, and the metrics are usually the same family: recurring revenue, growth, net retention, gross margin, burn and runway, plus customer acquisition cost by channel. Building those by hand is slow and invites mistakes that an investor will spot.",
+        "We set up the pipeline once so the monthly board pack comes from the same model as the daily team dashboard. When an investor asks how net retention was calculated, the answer is a written definition, not a spreadsheet formula only one person understands. If you are preparing a funding round, clean historical data is one of the most useful things to have ready for due diligence."
+      ]
+    },
+    {
+      "h": "Privacy and staff data in dashboards",
+      "p": [
+        "Sales and operations dashboards often include personal data: customer contacts, staff names, productivity figures. Under GDPR that data needs a purpose, access limits and retention rules. Where a dashboard shows individual employee performance, a works council will often want a say, and some companies choose team level figures to avoid the issue altogether.",
+        "We design access rules with your data protection officer, keep the reporting data in EU regions, and default to aggregated views unless individual detail is genuinely needed."
+      ]
+    },
+    {
+      "h": "Where business intelligence pays off by sector",
+      "list": [
+        "Manufacturing: order backlog, machine utilisation, scrap rates and margin by product line, in one view",
+        "Wholesale and industrial supply: stock turns, slow movers and customer profitability across branches",
+        "E-commerce: contribution margin per order after returns, shipping and marketplace fees",
+        "SaaS and software: recurring revenue, retention cohorts and pipeline coverage",
+        "Professional services: utilisation, project margin and work in progress",
+        "Hospitality and tourism in Berlin: occupancy, average rate and channel mix by month and trade fair season"
+      ]
+    },
+    {
+      "h": "How the project runs",
+      "list": [
+        "Talk: 15 minutes on which decisions are slowed down by bad numbers.",
+        "Plan: source review, metric definitions and a written roadmap in 5 to 7 days.",
+        "Build: pipelines and the first dashboards delivered against dates agreed in writing.",
+        "Grow: we review usage, retire reports nobody opens and add views as questions come up."
+      ]
+    },
+    {
+      "h": "Remote, with workshops when they help",
+      "p": [
+        "There is no 22 Signals office in Berlin, and most of the business intelligence Berlin companies need is remote work by nature. Source mapping and dashboard reviews happen over shared screens, and the one hour difference between Berlin and London means no early starts for anyone. The metric workshop is the exception: agreeing definitions with the managing director, finance and sales in one room can settle in an afternoon what email takes a month to resolve. If you want that in person, we plan the trip. Between workshops you get a short written update every week: what was loaded, what was checked and what is next."
+      ]
+    },
+    {
+      "h": "Proof and pricing factors",
+      "p": [
+        "We have worked with more than 30 companies and managed more than $1.5M in projects, many of which depended on reporting that people could rely on. We do not name clients, but we will show comparable dashboards on a call. Business intelligence, Berlin start-up or regional manufacturer, is priced after the source review. The main factors are the number of systems, the state of the data, the number of entities and dashboards, and whether you want ongoing support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which BI tool should a German company use?",
+      "a": "Usually the one that fits your existing licences. Many firms already pay for Microsoft 365, which makes Power BI a natural choice. Teams on Google Workspace often start with Looker Studio, and Tableau suits some larger analytics teams. We recommend after seeing your setup."
+    },
+    {
+      "q": "Can you pull data from SAP?",
+      "a": "Yes, through supported extraction methods, standard exports or connectors, depending on your SAP version and licences. Older on-premise systems sometimes need an export routine first. We check access during planning before committing to a timeline."
+    },
+    {
+      "q": "Can business intelligence in Berlin work with DATEV data?",
+      "a": "Yes. Many German companies receive accounting data from their tax adviser as DATEV exports. We load those into the reporting model on the schedule your adviser delivers them, and combine them with live data from your other systems."
+    },
+    {
+      "q": "Where is our data stored?",
+      "a": "In EU cloud regions by default, often Frankfurt, or in your existing environment if you prefer. We agree the location with your data protection officer and document it."
+    },
+    {
+      "q": "Will the dashboards be in German?",
+      "a": "We build in English by default. Labels, number formats and dates can follow German conventions, and full German interface text can be prepared with localisation partners and approved by your team."
+    },
+    {
+      "q": "How long until the first dashboard is live?",
+      "a": "Discovery and the roadmap take 5 to 7 days. The first useful dashboard often follows within a few weeks, depending on how many sources it needs. Dates are agreed in writing once the roadmap is approved."
+    }
+  ],
+  "related": [
+    "/locations/berlin",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/berlin/cloud-consulting",
+    "/insights/power-bi-consulting-cost"
+  ],
+  "keywords": {
+    "primary": "business intelligence berlin",
+    "secondary": [
+      "power bi consultant berlin",
+      "bi consulting germany",
+      "datev reporting dashboard",
+      "sap reporting power bi"
+    ]
+  }
+}

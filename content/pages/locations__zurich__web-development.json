@@ -1,0 +1,143 @@
+{
+  "path": "/locations/zurich/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Zurich",
+  "citySlug": "zurich",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development Zurich: Multilingual Websites | 22 Signals",
+  "description": "Web development for Zurich companies: multilingual websites and client portals built for German, French, Italian and English, accessible to WCAG by default.",
+  "eyebrow": "Web Development in Zurich",
+  "h1": "Web development for Zurich companies that sell in more than one language",
+  "intro": "We build websites, client portals and e-commerce for Zurich companies that need to work in German, French, Italian and English without four separate sites to maintain. Every build is accessible to WCAG standards by default, set up properly for search in each language and planned around the revised FADP. You get a written scope within 5 to 7 days and launch dates in writing.",
+  "sections": [
+    {
+      "h": "The multilingual problem most Swiss sites get wrong",
+      "p": [
+        "A Zurich company selling across Switzerland usually needs at least German and French, often Italian, and English for international clients and staff. Many sites handle this badly. Language versions drift apart, some pages exist in one language only, the language switcher drops visitors on the home page, and search engines index the wrong version for the wrong audience.",
+        "Good web development solves this in the structure, not with patches. Each language gets its own clean URLs, pages are linked to their equivalents, search engines are told which version serves which audience, and editors can see at a glance which translations are missing or out of date."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Corporate and service websites for financial, professional and industrial firms",
+        "Client portals for wealth managers, insurers and advisers, with secure sign-in and document exchange",
+        "E-commerce for brands selling across Switzerland and into the EU",
+        "Product and launch sites for technology and medtech companies",
+        "Recruitment sites for firms competing hard for engineering and finance talent",
+        "Content management that lets your team edit every language version without a developer"
+      ]
+    },
+    {
+      "h": "Swiss details that matter",
+      "list": [
+        "Swiss Standard German spelling: ss instead of the German sharp s, plus Swiss terms and formats for dates, numbers and prices in CHF",
+        "Language codes per market, such as de-CH and fr-CH, so search engines show the Swiss version rather than the German or French one",
+        "Address, phone and canton fields that match Swiss formats, and checkout options Swiss buyers expect",
+        "Privacy notices and consent banners written for the revised FADP, with GDPR added when you serve EU visitors",
+        "Hosting in a Swiss or European region when clients or contracts expect it",
+        "Fast pages on mobile, because many visitors first find you on a phone between meetings or on the train"
+      ]
+    },
+    {
+      "h": "Accessible by default",
+      "p": [
+        "Every site we build follows WCAG accessibility guidelines as standard. That means proper headings, readable contrast, full keyboard use, clear form errors, captions and text alternatives. It is the right thing to do, and it helps search engines and AI assistants read your pages too.",
+        "There is also a commercial reason in Switzerland. Swiss public bodies already work to accessibility standards based on WCAG, and many large companies ask suppliers for the same. Swiss firms that sell certain products and services to consumers in the EU now also face the European Accessibility Act. Building it in from the start costs far less than fixing it later."
+      ]
+    },
+    {
+      "h": "Built to the standard Zurich clients expect",
+      "p": [
+        "Swiss buyers notice details. A misaligned table, a broken link in the French version or a contact form that rejects a Swiss postcode tells a prospective client something about how you work. We test every template in every language, on real devices and screen readers, before launch.",
+        "Security gets the same attention. Client portals use strong authentication, role-based access and encrypted storage, and we document how data moves so your data protection officer can review it. For financial firms, we keep marketing pages and client areas separate so content changes never touch sensitive systems."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "p": [
+        "Talk is a 15-minute call about what the site must achieve and who uses it. Plan is discovery: we review your current site, analytics and search data, agree the language and page structure and deliver a written scope within 5 to 7 days. Build covers design, development, content migration and testing, with each milestone dated in writing. Grow means monitoring speed, search and enquiries after launch and improving what the data shows.",
+        "We deliver in English. Copy in German, French or Italian comes from your team, your translators or localisation partners we arrange, and we load and check every version."
+      ]
+    },
+    {
+      "h": "Examples by sector",
+      "list": [
+        "Wealth managers: a calm, discreet public site plus a secure portal for statements and documents",
+        "Insurers and brokers: product pages, claims forms and broker areas in three languages",
+        "Law and advisory firms: practice and people pages that rank, with structured data for each office",
+        "Industrial and medtech companies: product catalogues with technical specifications, downloads and distributor finders",
+        "Property developers: project sites with renders, floor plans and enquiry routing",
+        "Technology scale-ups: product, pricing and documentation sites built to grow with the company"
+      ]
+    },
+    {
+      "h": "Remote delivery from London",
+      "p": [
+        "We are registered in London, one hour behind Zurich, and work remotely with Swiss clients. Design reviews, content workshops and launch calls happen inside your working day. When a kick-off with several stakeholders benefits from being in one room, we plan a trip to Zurich into the scope."
+      ]
+    },
+    {
+      "h": "What the cost depends on",
+      "list": [
+        "Number of page types, languages and markets",
+        "Portal features, integrations and sign-in requirements",
+        "Content migration from the old site",
+        "E-commerce scope and payment options",
+        "Hosting, licences and translation, paid directly where they come from third parties"
+      ]
+    },
+    {
+      "h": "Why 22 Signals",
+      "p": [
+        "A website is rarely the only problem. It needs search work, paid campaigns, video and sometimes AI or automation behind the forms. We cover all of that, so the site is built with the rest in mind. We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE. If you are comparing options for web development, Zurich companies can start with a short call. Related pages: SEO and GEO, app development and paid media in Zurich."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does web development Zurich firms commission usually include?",
+      "a": "Discovery, information architecture, design, development, content migration, testing in every language, accessibility checks, search setup and launch. Many projects add a client portal or e-commerce, plus ongoing support after go-live."
+    },
+    {
+      "q": "Do you write the German and French content?",
+      "a": "No. We deliver in English and do not claim in-house German or French copywriters. Translations come from your team, your translators or localisation partners we arrange. We build the structure, load each version and check layouts, forms and search settings in every language."
+    },
+    {
+      "q": "Should we have one site or one per language?",
+      "a": "Almost always one site with language versions. That keeps design, code and content in one place, makes it easy to see missing translations and lets search engines understand which version is for which audience. Separate domains only make sense in a few special cases."
+    },
+    {
+      "q": "Is WCAG accessibility included?",
+      "a": "Yes, on every build. We follow WCAG guidelines as standard and test with keyboards and screen readers. If you sell to EU consumers, we also check the parts of the European Accessibility Act that apply to your site."
+    },
+    {
+      "q": "Can you host the site in Switzerland?",
+      "a": "Yes, where it makes sense. Marketing sites usually run well on a global content delivery network, while portals holding client data can be hosted in Swiss cloud regions. We recommend based on what data the site holds and what your clients expect."
+    },
+    {
+      "q": "Which content management systems do you use?",
+      "a": "We choose based on your team and needs, from WordPress and headless systems to custom builds for portals. The deciding factors are how many languages you manage, who edits content and which systems the site must connect to."
+    }
+  ],
+  "related": [
+    "/locations/zurich",
+    "/services/web-app-development",
+    "/locations/zurich/seo-geo",
+    "/locations/zurich/app-development",
+    "/locations/zurich/paid-media",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development zurich",
+    "secondary": [
+      "web agency zurich",
+      "multilingual website switzerland",
+      "website development switzerland",
+      "client portal development",
+      "wcag website switzerland"
+    ]
+  }
+}

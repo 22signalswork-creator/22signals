@@ -1,0 +1,134 @@
+{
+  "path": "/locations/milan",
+  "kind": "location-hub",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "title": "Digital Agency for Milan and Italy: AI, Web, Growth | 22 Signals",
+  "description": "22 Signals works with Milan companies on AI, data, cloud, web and apps, SEO and GEO, paid media, video and 3D, delivered remotely on CET working hours.",
+  "eyebrow": "Milan",
+  "h1": "22 Signals in Milan: a digital agency for companies that sell beyond Italy",
+  "intro": "22 Signals is a global business solutions company that works with Milan firms on AI, data and cloud, websites and apps, search, paid media, video and 3D. We are registered in London, one hour behind Milan, and deliver remotely in English. Clients come to us when one team should handle the technology and the marketing together.",
+  "sections": [
+    {
+      "h": "Why Milan companies look outside the usual agency list",
+      "p": [
+        "Milan has no shortage of agencies. Brera and Isola are full of design studios, and Porta Nuova has the big consultancies. Many are excellent at one thing. The gap shows when a business needs several things at once: a new website for export buyers, a data dashboard for the board, an AI pilot for customer service and a campaign for Salone del Mobile, all due in the same quarter.",
+        "That is the kind of brief we handle. A single team plans and delivers across strategy, AI and automation, data and cloud, web and apps, search, paid media, content and video. You brief once, you get one written plan, and the dates sit in that plan. If you are comparing a digital agency Milan firms already use with a wider partner, the question to ask is simple: who answers when the website, the ads and the data do not line up?"
+      ]
+    },
+    {
+      "h": "What Milan businesses ask us to do",
+      "list": [
+        "AI consulting: picking the few uses of AI that pay off, within GDPR and the EU AI Act",
+        "AI automation: tools that take repeated admin, quoting and order handling off staff",
+        "Business intelligence: one set of numbers across plants, shops and sales agents",
+        "Cloud consulting: AWS, Azure and Google Cloud, including their Milan regions",
+        "Web development: multilingual sites, B2B catalogues and dealer portals",
+        "App development: iOS, Android and web apps for customers, sales teams and field staff",
+        "SEO and GEO: ranking in Google and being named in ChatGPT, Claude, Gemini and Google AI Overviews",
+        "Paid media: Google, Meta, LinkedIn and TikTok campaigns planned around the Milan calendar",
+        "Video and animation: motion graphics, 2D and 3D explainers and AI video",
+        "3D rendering: furniture, product, packaging and interior CGI"
+      ]
+    },
+    {
+      "h": "The Milan economy, as we see it",
+      "p": [
+        "Milan is Italy's financial and business capital. Borsa Italiana sits in Piazza Affari, most large Italian banks and insurers have their head offices or main operations in the city, and international firms use Milan as their base for the Italian market. Lombardy is the country's largest regional economy.",
+        "The city also sets the pace in fashion and luxury. The houses around Via Montenapoleone and the Quadrilatero della Moda sell to the world, and Milan Fashion Week gives them a fixed calendar to plan around. Design is the other pillar. Every April, Salone del Mobile at Fiera Milano Rho and the Fuorisalone events across the city bring furniture makers, architects and buyers from every continent.",
+        "Behind the showrooms are the manufacturing districts of Lombardy and the wider north: furniture in Brianza, silk around Como, mechanical engineering and metalworking around Bergamo, Brescia and Lecco, and machinery and packaging makers further east. Many of these are family-owned businesses, often in their second or third generation, that export most of what they make."
+      ]
+    },
+    {
+      "h": "Family firms modernising, and what that means for the work",
+      "p": [
+        "A lot of our Milan conversations start the same way. The company is profitable and respected, the product is excellent, and the systems behind it have grown up over twenty years. Orders arrive by email and PEC, prices live in spreadsheets, the website was built for a trade fair three launches ago, and the next generation of owners wants to fix it without breaking what works.",
+        "We take that seriously. We start with the processes that cost the most time, keep the existing ERP where it is sound, and change things in steps the team can absorb. A new dashboard or an automation should earn trust in the first month, not ask for it."
+      ]
+    },
+    {
+      "h": "Italian first, English always",
+      "p": [
+        "Italian buyers search, read reviews and ask AI assistants questions in Italian. International buyers of Italian products usually search in English, and often in German or French too. A Milan company that wants to grow needs both, and the pages need to be written for each market rather than run through a translation tool.",
+        "Our work is delivered in English. Where a project needs Italian copy, Italian localisation or native review, we arrange it with partners and build the time for it into the plan. We will tell you clearly which parts are written in Italian by native speakers and which are not."
+      ]
+    },
+    {
+      "h": "Rules we plan around in Italy",
+      "p": [
+        "Personal data in Italy falls under the GDPR, with the Garante per la protezione dei dati personali as the national regulator. The Garante is active and visible: it publishes its own cookie guidelines and was the first European regulator to temporarily restrict ChatGPT in 2023. The EU AI Act has been in force since 2024, with obligations phasing in over several years, and the European Accessibility Act now applies to many consumer websites and apps.",
+        "We design with these in mind from the first plan: consent, data location, records of what each AI tool does, and accessible interfaces. WCAG accessibility is the default on every web build. We are not your lawyers, but we raise the right questions early so your advisers can answer them before launch."
+      ]
+    },
+    {
+      "h": "How we work with Milan clients: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call to see whether there is a real fit.",
+        "Plan: discovery and a written roadmap in 5 to 7 days, with owners and costs.",
+        "Build: specialist teams do the work, with every date in writing.",
+        "Grow: we measure what changed and keep improving it month by month."
+      ]
+    },
+    {
+      "h": "Remote delivery, on Milan's clock",
+      "p": [
+        "We do not have an office in Milan. Work runs remotely, through shared documents, short video calls and written weekly updates, and we travel to Milan when a project needs it, for example a discovery workshop, a factory walk-through or a launch around Salone. London to Milan is a short flight, and Linate and Malpensa make day trips practical.",
+        "Milan runs on Central European Time, one hour ahead of London all year because both cities change their clocks on the same dates. That gives us almost the full Italian working day in common. Contracts and invoices can be in euro."
+      ]
+    },
+    {
+      "h": "Proof, without the client names",
+      "p": [
+        "We have worked with more than 30 companies, shipped more than 30 AI builds, broadcast more than 20 live events and managed over $1.5M in projects. We do not publish client names. On a call we can walk you through work that is close to your situation, whether that is a B2B catalogue, a search programme or an AI tool built around a real process."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office in Milan?",
+      "a": "No. We work with Milan companies remotely and travel when a project needs it, such as a workshop or a launch. Our hours overlap almost completely with the Italian working day, since Milan is one hour ahead of London."
+    },
+    {
+      "q": "Can you deliver work in Italian?",
+      "a": "Our team delivers in English. When a project needs Italian copy, localisation or native review, we arrange it with partners and plan the time for it. We are clear about which parts are written by native Italian speakers."
+    },
+    {
+      "q": "Is 22 Signals a digital agency? Milan clients often ask what sets you apart.",
+      "a": "We do the work of a digital agency, and more. Besides websites, search, paid media and video, the same team builds AI tools, data dashboards and cloud systems. That range matters when a project touches both the marketing and the systems behind it."
+    },
+    {
+      "q": "What kind of Milan companies do you work with?",
+      "a": "Mostly established businesses: family-owned manufacturers, fashion and design brands, professional firms and companies that sell abroad. We also work with ambitious founders who need a product built and launched without hiring a department for each step."
+    },
+    {
+      "q": "How do you handle GDPR for Italian clients?",
+      "a": "We plan consent, data location and access from the start, follow the Garante's guidance on cookies, and document what each system does with personal data. Your legal adviser confirms the final position, and we make that review straightforward."
+    },
+    {
+      "q": "Can you work alongside our current agency or IT supplier?",
+      "a": "Yes. Many clients keep their existing partners for some work. We agree in writing who owns what, share access properly and keep everyone informed, so nothing falls between suppliers."
+    },
+    {
+      "q": "How fast can a Milan project start?",
+      "a": "After a 15-minute call, discovery and a written roadmap take 5 to 7 days. Build starts once you approve the plan, and every date after that is in writing."
+    }
+  ],
+  "related": [
+    "/locations/milan/ai-consulting",
+    "/locations/milan/web-development",
+    "/locations/milan/seo-geo",
+    "/locations/milan/3d-rendering",
+    "/industries/fashion-beauty",
+    "/locations/london"
+  ],
+  "keywords": {
+    "primary": "digital agency milan",
+    "secondary": [
+      "agenzia digitale milano",
+      "business solutions company milan",
+      "web and ai partner italy",
+      "milan marketing and technology agency"
+    ]
+  }
+}

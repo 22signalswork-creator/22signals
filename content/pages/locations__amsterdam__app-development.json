@@ -1,0 +1,140 @@
+{
+  "path": "/locations/amsterdam/app-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Amsterdam",
+  "citySlug": "amsterdam",
+  "service": "app-development",
+  "serviceType": "App development",
+  "title": "App Development Amsterdam: iOS, Android, Field Apps | 22 Signals",
+  "description": "App development for Amsterdam companies: customer apps, driver and field staff apps and fintech apps, built for EU payment, privacy and access rules.",
+  "eyebrow": "App Development in Amsterdam",
+  "h1": "App development for Amsterdam companies whose customers and staff live on their phones",
+  "intro": "We build iOS and Android apps for Amsterdam companies, from customer apps with iDEAL payments to tools for drivers, warehouse staff and field engineers. Each app is planned around how people in the Netherlands actually use their phones, built to EU privacy and accessibility rules, and launched with dates in writing. You own the code.",
+  "sections": [
+    {
+      "h": "A country that does everything on a phone",
+      "p": [
+        "The Netherlands has one of the highest smartphone adoption rates in Europe. People pay with their phone, check train times on it, book a doctor on it and expect any company they deal with regularly to have an app that works. They also expect it to be fast, to remember them and to let them pay in a couple of taps, usually with iDEAL or a stored card.",
+        "That raises the bar. A clumsy app gets deleted, and a one-star review in the App Store stays visible for years. The app development Amsterdam companies hire us for starts with a hard look at whether an app is the right answer at all. Sometimes a well-built web app does the job for less money."
+      ]
+    },
+    {
+      "h": "Apps we build",
+      "list": [
+        "Customer apps: ordering, booking, loyalty, account management and support, connected to your existing systems",
+        "Driver and courier apps: route lists, proof of delivery with photo and signature, scanning and offline mode for areas with weak signal",
+        "Warehouse and field service apps: barcode scanning, job sheets, checklists and parts lookups for teams who are never at a desk",
+        "Fintech and payments apps: onboarding, account views and payments with strong customer authentication",
+        "Internal tools: approval flows, staff scheduling and reporting apps for teams spread across several countries",
+        "AI features inside apps: search over your own content, document capture and assistants that answer from your data"
+      ]
+    },
+    {
+      "h": "Logistics apps for the Schiphol and Rotterdam corridor",
+      "p": [
+        "A large share of European freight passes through the Netherlands, through Schiphol and the Port of Rotterdam and on to distribution centres across Brabant and Limburg. That work runs on handheld devices. Drivers need to see their stops, scan parcels, capture a signature and deal with a closed loading dock without calling the office.",
+        "We build these apps to work offline first and sync when a signal returns, to run on rugged Android scanners as well as ordinary phones, and to connect to your transport management system or warehouse system. The test plan includes real conditions: gloves, bright sunlight, a cold store and a driver in a hurry."
+      ]
+    },
+    {
+      "h": "EU rules that shape an app",
+      "p": [
+        "Several pieces of EU law affect how an app is built and distributed. GDPR, enforced in the Netherlands by the Autoriteit Persoonsgegevens, governs what data you collect, how long you keep it and what consent you need, including for analytics SDKs. Payment services rules require strong customer authentication for many online payments, which matters for any fintech or payments app. The European Accessibility Act now covers many consumer apps in sectors such as e-commerce, banking and transport.",
+        "The Digital Markets Act has also changed app distribution in the EU, with more options for alternative payment and distribution on both major platforms. Whether those options make sense for you depends on your model, and we will lay out the trade-offs. As always, the legal detail is for your adviser to confirm; we build to their advice."
+      ]
+    },
+    {
+      "h": "Native, cross-platform or web app",
+      "p": [
+        "For most Amsterdam businesses a cross-platform framework such as React Native or Flutter gives one codebase for iOS and Android, lower running costs and fast releases. Native Swift and Kotlin still make sense for apps that lean heavily on device hardware, complex animation or the newest platform features. A progressive web app suits internal tools and simple customer services that do not need an app store listing.",
+        "We recommend one in the written plan, with the reasons, and we are open about where the simpler, lower-cost option is good enough."
+      ]
+    },
+    {
+      "h": "Accessible and bilingual by default",
+      "p": [
+        "We follow WCAG principles in app design: support for system text sizes, screen readers such as VoiceOver and TalkBack, enough contrast and touch targets large enough for real fingers. Apps are built ready for Dutch and English from the start, with text kept out of the code so further languages can be added later. Our work is delivered in English, and Dutch copy is arranged through localisation partners or your own team."
+      ]
+    },
+    {
+      "h": "What drives the budget",
+      "p": [
+        "Every quote for app development Amsterdam clients receive from us is built from the same few factors, so you can see where the money goes and what to cut if you need to:"
+      ],
+      "list": [
+        "Number of user types and screens, and how much logic sits behind each one",
+        "Integrations with your ERP, CRM, payment provider, transport system or identity provider",
+        "Offline needs, device hardware such as scanners and cameras, and rugged device support",
+        "Security and compliance work, including strong customer authentication for payments",
+        "Design depth, from a clean standard interface to a fully custom brand experience",
+        "Ongoing support, releases and monitoring after launch"
+      ]
+    },
+    {
+      "h": "How an app project runs",
+      "list": [
+        "Talk: a 15-minute call about who will use the app, what it must do and what systems it must connect to",
+        "Plan: discovery, user flows, technical approach, integration list and a written roadmap with release dates, delivered in 5 to 7 days",
+        "Build: design, development and testing in short cycles, with a test build on your phone every couple of weeks",
+        "Grow: App Store and Google Play launch, crash monitoring, analytics and a release plan for the next features"
+      ]
+    },
+    {
+      "h": "Proof",
+      "p": [
+        "We have worked with more than 30 companies across the United States, the United Kingdom, Europe and the UAE, delivered more than 30 AI builds and managed more than $1.5M in projects. We can show relevant app work on a call."
+      ]
+    },
+    {
+      "h": "Working with us from Amsterdam",
+      "p": [
+        "22 Signals is registered in London and has no office in Amsterdam. App projects run remotely, with test builds sent to your team and reviews held on video during your working day, since we are only one hour behind CET. We travel to the Netherlands for user testing with drivers or staff when seeing people use the app in place will change what we build."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can the app take iDEAL payments?",
+      "a": "Yes. Most payment providers in the Netherlands support iDEAL inside apps, alongside cards, Apple Pay and Google Pay. Note that platform rules on in-app payments differ for physical goods and digital content, and we check which apply."
+    },
+    {
+      "q": "Do you build apps that work offline?",
+      "a": "Yes. Driver, warehouse and field apps are built to store work on the device and sync when a connection returns, so staff can keep working in basements, cold stores and rural areas."
+    },
+    {
+      "q": "Who owns the code?",
+      "a": "You do. The code, app store accounts and design files belong to your company, and we hand over full documentation."
+    },
+    {
+      "q": "How long does app development take?",
+      "a": "The written roadmap arrives 5 to 7 days after discovery starts and sets the release dates. A focused first version often takes a few months; the plan explains what is in it and what comes later."
+    },
+    {
+      "q": "Should we build an app or a web app?",
+      "a": "If customers use you weekly or staff need scanning, offline work or push notifications, an app usually earns its cost. For occasional use, a fast web app is often enough. We will tell you which we think fits."
+    },
+    {
+      "q": "Do you maintain the app after launch?",
+      "a": "Yes. The Grow stage covers operating system updates, crash fixes, security patches and new features on a schedule you agree."
+    }
+  ],
+  "related": [
+    "/locations/amsterdam",
+    "/services/app-development",
+    "/locations/amsterdam/web-development",
+    "/locations/amsterdam/ai-automation",
+    "/locations/amsterdam/cloud-consulting",
+    "/services/custom-ai-development"
+  ],
+  "keywords": {
+    "primary": "app development amsterdam",
+    "secondary": [
+      "app laten maken amsterdam",
+      "app developer amsterdam",
+      "mobile app development netherlands",
+      "logistics app development",
+      "fintech app development"
+    ]
+  }
+}

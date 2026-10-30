@@ -1,0 +1,134 @@
+{
+  "path": "/locations/milan/ai-automation",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Milan",
+  "citySlug": "milan",
+  "service": "ai-automation",
+  "serviceType": "AI automation",
+  "title": "AI Automation in Milan: Orders, PEC and ERP | 22 Signals",
+  "description": "AI automation in Milan for the paperwork Italian firms know well: orders by email and PEC, e-invoices, ERP updates and customer replies, checked by staff.",
+  "eyebrow": "AI Automation in Milan",
+  "h1": "AI automation in Milan for the admin that slows Italian companies down",
+  "intro": "We build AI automation for Milan companies that lose hours each day to retyping orders, chasing documents and answering the same questions. The tools read emails, PEC messages and PDFs, fill your ERP, prepare replies and flag exceptions to a person. Each one is built around a real process, tested on your own files and measured against how the work runs today.",
+  "sections": [
+    {
+      "h": "The work that eats an Italian back office",
+      "p": [
+        "Walk into the sales office of a mid-sized manufacturer in Brianza or a wholesaler near Linate and you will often find skilled people doing clerical work. An order arrives as a PDF from an agent in Germany. Someone reads it, checks the customer code, types each line into the ERP, confirms the delivery date by email and files a copy. Multiply that by two hundred orders a week.",
+        "The same pattern repeats across admin and finance. Supplier documents arrive by PEC, the certified email every Italian company uses. Delivery notes need matching to invoices. Customers ask where their goods are. None of it is hard, but all of it takes time, and mistakes cost money. This is where AI automation in Milan businesses pays back fastest."
+      ]
+    },
+    {
+      "h": "What we automate",
+      "list": [
+        "Order intake: reading orders from email, PEC, PDF and spreadsheets, then preparing them for your ERP with every line checked against price lists and customer codes",
+        "Document matching: pairing delivery notes, purchase orders and supplier invoices, and showing only the mismatches to a person",
+        "Customer service: drafting replies to routine questions about stock, delivery and documents, in Italian and English, for staff to approve or send",
+        "Quoting: building first-draft quotes from past jobs and current costs so the sales office replies the same day",
+        "Agent and dealer requests: collecting requests from sales agents and dealers across Europe into one queue with clear owners",
+        "Internal reporting: weekly summaries pulled from the ERP, CRM and shared drives, sent before the Monday meeting"
+      ]
+    },
+    {
+      "h": "Built around Italian systems",
+      "p": [
+        "Automation only works if it fits the software you already run. In Lombardy that often means an Italian ERP or accounting system such as those from TeamSystem or Zucchetti, an older on-premise package that has been customised for years, or SAP at the larger groups. We work with what is there. Where a modern interface exists we use it. Where it does not, we agree a safe way to exchange data, such as scheduled files, and test it on a copy before it touches live records.",
+        "Electronic invoicing is a good example. Italian businesses have exchanged B2B invoices through the Sistema di Interscambio since 2019, so invoice data is already structured. Rather than reinventing that, our tools read the XML your system already holds and use it to match payments, answer supplier questions or spot errors early."
+      ]
+    },
+    {
+      "h": "People stay in charge",
+      "p": [
+        "We do not build tools that act alone on money, contracts or customer commitments. Every automation has clear limits. A drafted reply waits for approval. An order with an unknown product code goes to a person. A quote above a set value is checked by a manager. You decide where those lines sit, and they can move as trust grows.",
+        "This is also good practice under the GDPR and the EU AI Act. Keeping a person in the loop, logging what each tool did and explaining its role to the people affected makes any question from the Garante or a customer much easier to answer."
+      ]
+    },
+    {
+      "h": "How a project runs",
+      "list": [
+        "Talk: a 15-minute call to hear which tasks take the most time.",
+        "Plan: we sit with the people who do the work, map the process and send a written plan within 5 to 7 days.",
+        "Build: specialist teams build and test on your own historic files, with dates set in writing.",
+        "Grow: the tool goes live on part of the volume first, then expands as the error rate proves itself."
+      ]
+    },
+    {
+      "h": "Measuring whether it worked",
+      "p": [
+        "Before we build anything we record the baseline: how many orders or documents a week, how long each takes, and how many errors reach the customer or the accounts team. After launch we report the same figures. If a tool saves less time than planned, you will see that too, along with what we are changing.",
+        "Our teams have shipped more than 30 AI builds. The common lesson is that the first version should be narrow. One document type, one inbox, one team. Once that runs well, adding the next type is far quicker than building everything at once."
+      ]
+    },
+    {
+      "h": "Language, time and travel",
+      "p": [
+        "Milan companies write to customers in Italian and to export markets in English, German, French and more. The tools we build handle several languages, and we test them on real messages in each one. Our own team works in English. Where Italian wording reaches customers, we arrange native review through partners.",
+        "We do not have an office in Milan. Most of the work is remote and runs on Central European Time, one hour ahead of London. For process mapping, it often helps to watch the work in person, so we plan a visit to Milan or to your site when the project needs it."
+      ]
+    },
+    {
+      "h": "Common starting points by sector",
+      "list": [
+        "Fashion and accessories: wholesale orders from showrooms after Milan Fashion Week, entered and confirmed in days instead of weeks",
+        "Furniture and design: dealer orders with many finishes and options, checked against the configurator before they reach production",
+        "Machinery and components: spare parts requests matched to serial numbers and drawings",
+        "Food and drink exporters: certificates and shipping documents collected for each consignment",
+        "Professional services: client documents sorted, named and filed as they arrive"
+      ]
+    },
+    {
+      "h": "What decides the price",
+      "list": [
+        "How many document types, inboxes and languages the tool must handle",
+        "How easy your ERP and other systems are to connect to",
+        "Volume, and how much of it can run without review",
+        "Hosting choice, including whether data must stay in an EU region",
+        "Ongoing support after launch, and AI platform usage, which you pay directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can AI automation in Milan work with our Italian ERP?",
+      "a": "Usually, yes. We have options for systems with modern interfaces and for older ones that only export files. We test every connection on a copy of your data before going live, and we agree the method with your IT supplier."
+    },
+    {
+      "q": "Can the tools read orders sent by PEC?",
+      "a": "Yes. A PEC message is still an email, so a tool can read it and its attachments once it has proper access to the mailbox. We set that access up with care, log what is read and keep the original message untouched."
+    },
+    {
+      "q": "Will automation replace our staff?",
+      "a": "That is not how we design it. The aim is to move skilled people from retyping to work that needs judgement, such as customer relationships and problem orders. Every tool sends exceptions to a person."
+    },
+    {
+      "q": "Where is our data processed?",
+      "a": "We can host the automation and its data in EU cloud regions, including Milan regions offered by the major providers. We choose AI services with suitable data terms and document the setup for your DPO."
+    },
+    {
+      "q": "How long before we see a result?",
+      "a": "A narrow first automation, such as one order type from one inbox, often goes live within weeks of the plan being approved. The exact dates go in the written plan."
+    },
+    {
+      "q": "Does it handle languages other than Italian?",
+      "a": "Yes. Most Milan exporters receive messages in several languages. We test the tool on real examples in each language your customers use."
+    }
+  ],
+  "related": [
+    "/locations/milan",
+    "/services/ai-automation",
+    "/locations/milan/ai-consulting",
+    "/services/custom-ai-development",
+    "/services/whatsapp-automation",
+    "/services/business-optimization"
+  ],
+  "keywords": {
+    "primary": "ai automation in milan",
+    "secondary": [
+      "automazione ai milano",
+      "business process automation italy",
+      "order processing automation",
+      "pec email automation"
+    ]
+  }
+}

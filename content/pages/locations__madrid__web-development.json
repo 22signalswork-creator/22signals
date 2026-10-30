@@ -1,0 +1,149 @@
+{
+  "path": "/locations/madrid/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Madrid",
+  "citySlug": "madrid",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Madrid: Bilingual Websites | 22 Signals",
+  "description": "Web development for Madrid companies: fast Spanish and English websites, e-commerce and portals, accessible by default and built to rank in Spain.",
+  "eyebrow": "Web Development in Madrid",
+  "h1": "Web development in Madrid for sites that work in Spanish, English and beyond",
+  "intro": "We design and build websites, online shops and client portals for Madrid companies. Every build is fast on mobile, accessible to WCAG standards by default, set up correctly for Spanish and international search, and compliant with Spanish cookie and website rules. Work is delivered in English, and Spanish copy is written with localisation partners or your own team.",
+  "sections": [
+    {
+      "h": "What Madrid buyers expect from a website",
+      "p": [
+        "A buyer in Madrid usually finds you on a phone, often on the metro or between meetings, and makes up their mind in seconds. They expect the site to load fast, to read naturally in Spanish, to show prices or next steps clearly and to offer a quick way to get in touch, often through WhatsApp. If it feels slow, translated or hard to use, they go back to the search results.",
+        "Many Madrid company sites were built years ago by a local studio, extended by several others, and now run on a theme nobody wants to touch. They work, but they hold back search, campaigns and sales. Most of our web development in Madrid starts with exactly that situation."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Company websites: service pages, case studies, careers and investor sections, built for search from day one",
+        "E-commerce: Shopify, WooCommerce or headless shops with Spanish payment options and shipping rules",
+        "Client and partner portals: secure logins for documents, orders, bookings or reports",
+        "Landing pages for campaigns, launches and trade fairs, connected to your CRM",
+        "Multi-country sites for groups with brands in Spain and Latin America",
+        "Rebuilds and migrations that keep your search rankings intact"
+      ]
+    },
+    {
+      "h": "Spanish, English and Latin American versions done properly",
+      "p": [
+        "Spanish is not one market. A visitor in Madrid writes 'ordenador' where one in Mexico City writes 'computadora', and prices, delivery times and legal details all differ by country. If your group sells in Spain and Latin America, each market usually needs its own pages, its own currency and correct hreflang tags, so Google shows the right version to the right person.",
+        "We set up the structure for every language and country you need: URLs, navigation, forms, dates, number formats and search tags. Our team works in English. Spanish copy is written or reviewed by native localisation partners, or by your marketing team, and we build editing tools so your staff can update both languages without a developer."
+      ]
+    },
+    {
+      "h": "Spanish and EU rules your site has to meet",
+      "list": [
+        "Legal notice: Spain's LSSI requires websites run by businesses to show company details such as name, tax ID and registered address, usually in an aviso legal page",
+        "Cookies: the AEPD expects consent before non-essential cookies load, with rejecting as easy as accepting, and it does enforce this",
+        "Privacy: a clear privacy policy under the GDPR and the LOPDGDD, matched to what the site actually collects",
+        "Accessibility: the European Accessibility Act now applies to many online shops and consumer services, and our builds follow WCAG by default",
+        "Consumer law: clear prices, delivery terms and withdrawal rights for online sales"
+      ]
+    },
+    {
+      "h": "Speed and search built in, not added later",
+      "p": [
+        "Search engines and visitors both reward fast, well-structured sites. We build with clean code, compressed images, sensible hosting and structured data so pages load quickly on Spanish mobile networks and are easy for Google and AI assistants to read. Each service, product and location gets a page that answers the question a buyer actually types.",
+        "When we rebuild a site, we map every old URL to its new home before launch, so rankings and backlinks carry across. We then watch Search Console closely for the first weeks and fix anything that slips."
+      ]
+    },
+    {
+      "h": "Payments and checkout for Spanish shoppers",
+      "p": [
+        "Spanish shoppers mostly pay by card, but they also expect Bizum, PayPal and Apple Pay or Google Pay on many sites, and some sectors still rely on bank transfer. For B2B shops, quotes, account pricing and invoicing matter more than a quick checkout. We set up the payment and invoicing options your customers expect, with clear delivery costs shown early, which is one of the main reasons Spanish shoppers abandon a basket."
+      ]
+    },
+    {
+      "h": "Sites for Madrid sectors",
+      "list": [
+        "Property developers and agencies: development pages with plans, renders and availability, plus listings fed to Idealista and Fotocasa",
+        "Hotels and restaurants: direct booking engines that compete with the big travel portals, in several languages for visitors",
+        "Professional firms around the Castellana: partner profiles, practice pages and secure document rooms for clients",
+        "Retail and fashion brands: shops that handle sizes, returns and the January and July sales without slowing down",
+        "Industrial and engineering companies: product catalogues, technical data sheets and distributor areas"
+      ]
+    },
+    {
+      "h": "Our process: Talk, Plan, Build, Grow",
+      "list": [
+        "Talk: a 15-minute call about what the site must achieve and what is holding the current one back.",
+        "Plan: discovery, sitemap, content plan and technical approach in a written roadmap within 5 to 7 days.",
+        "Build: design and development by specialist teams, with each milestone dated in writing.",
+        "Grow: after launch we track speed, search and conversions, and keep improving the site."
+      ]
+    },
+    {
+      "h": "Working remotely with Madrid teams",
+      "p": [
+        "We have no office in Madrid and work remotely, which suits web projects well: design reviews, content collection and testing all run through shared tools and short calls. Madrid's working day is one hour ahead of London, so feedback loops are fast. For a kick-off workshop with several departments, or a launch that needs people in the room, we can travel to Madrid as part of the scope."
+      ]
+    },
+    {
+      "h": "Proof and approach",
+      "p": [
+        "We have worked with more than 30 companies on websites, apps and the marketing that runs through them. Because the same team also handles SEO, paid media, video and AI, the site we build is planned around how you will actually get traffic and leads. We do not name clients here, but we will show you relevant builds on a call."
+      ]
+    },
+    {
+      "h": "What drives the cost",
+      "list": [
+        "Number of page templates, languages and countries",
+        "E-commerce, portal or booking features",
+        "Integrations with CRM, ERP, payment or stock systems",
+        "Content migration and search redirect work",
+        "Hosting, licences and plugins, paid by you directly"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does web development in Madrid cost?",
+      "a": "It depends on the number of templates, languages, integrations and features. A focused company site costs far less than a multi-country shop with ERP integration. We price after planning, with every item listed."
+    },
+    {
+      "q": "Can you build our site in Spanish and English?",
+      "a": "Yes. We build the structure for both languages, with correct hreflang tags and editing tools for each. Spanish copy is written or reviewed by native localisation partners or your own team, since our team delivers in English."
+    },
+    {
+      "q": "Will our new site meet Spanish cookie rules?",
+      "a": "We set up a consent tool that blocks non-essential cookies until visitors agree, makes rejecting as easy as accepting and records consent, in line with AEPD guidance. Your legal adviser should confirm the wording of your policies."
+    },
+    {
+      "q": "Do you build accessible websites?",
+      "a": "Yes. WCAG accessibility is the default on every web build: proper contrast, keyboard navigation, alt text, form labels and screen reader testing. This also helps with the European Accessibility Act for consumer services."
+    },
+    {
+      "q": "Which platforms do you use?",
+      "a": "WordPress, Shopify, WooCommerce, Webflow and custom builds with modern frameworks, depending on what your team needs to edit and how the site must scale. We recommend the simplest platform that does the job."
+    },
+    {
+      "q": "Will we lose rankings when you rebuild our site?",
+      "a": "Not if the migration is planned well. We map every old URL to a new one, keep content that ranks, test before launch and monitor Search Console afterwards, fixing any drop quickly."
+    }
+  ],
+  "related": [
+    "/locations/madrid",
+    "/services/web-app-development",
+    "/locations/madrid/seo-geo",
+    "/locations/madrid/app-development",
+    "/locations/madrid/paid-media",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "web development in madrid",
+    "secondary": [
+      "web design madrid",
+      "website development company spain",
+      "ecommerce development madrid",
+      "bilingual website spain",
+      "accessible website development spain"
+    ]
+  }
+}

@@ -70,6 +70,27 @@ const WhatWeDoGlobe: React.FC = () => {
   const target = useRef({ x: LABELS[START].x, y: LABELS[START].y });
   const pos = useRef({ x: 0, y: 0 });
   const raf = useRef(0);
+  const userPicked = useRef(false);
+  const pillsRef = useRef<HTMLDivElement>(null);
+
+  // Keep the active pill in view inside its row (horizontal only, never moves the page).
+  useEffect(() => {
+    const row = pillsRef.current;
+    const pill = row?.children[active] as HTMLElement | undefined;
+    if (row && pill) row.scrollTo({ left: pill.offsetLeft - (row.clientWidth - pill.offsetWidth) / 2, behavior: "smooth" });
+  }, [active]);
+
+  // On phones, step through the areas slowly until someone taps one.
+  useEffect(() => {
+    if (typeof window === "undefined" || window.innerWidth >= 768) return;
+    const id = window.setInterval(() => {
+      if (userPicked.current) return;
+      const next = (activeRef.current + 1) % UMBRELLAS.length;
+      activeRef.current = next;
+      setActive(next);
+    }, 3800);
+    return () => window.clearInterval(id);
+  }, []);
 
   // Clamp a point to the orb's travel circle (frame coords).
   const clamp = (x: number, y: number) => {
@@ -175,18 +196,19 @@ const WhatWeDoGlobe: React.FC = () => {
         </div>
       </div>
 
-      {/* Phone: the same globe, smaller, with the areas as a list */}
-      <div className="wwd-box md:hidden" style={{ padding: "28px 18px 22px" }}>
-        <div className="relative mx-auto" style={{ width: "100%", maxWidth: 360, aspectRatio: "2 / 1", overflow: "hidden" }}>
+      {/* Phone: globe on top, the chosen area and its services, then a swipeable row of areas */}
+      <div className="wwd-box md:hidden" style={{ padding: "26px 0 22px" }}>
+        <div className="relative mx-auto" style={{ width: "86%", aspectRatio: "2 / 1", overflow: "hidden" }}>
           <div className="wwd-ball" style={{ left: 0, top: 0, width: "100%", aspectRatio: "1 / 1" }} />
           <div className="absolute inset-0" style={{ borderRadius: "999px 999px 0 0", overflow: "hidden" }}>
             <div
               className="wwd-orb"
               style={{
-                width: "56%", height: "112%",
-                left: `${22 + Math.cos(Math.PI - (active * Math.PI) / 6) * 18}%`,
-                top: `${30 - Math.sin(Math.PI - (active * Math.PI) / 6) * 26}%`,
-                transition: "left .5s ease, top .5s ease",
+                width: "60%",
+                height: "120%",
+                left: `${20 - Math.cos((active * Math.PI) / 6) * 22}%`,
+                top: `${12 + (1 - Math.sin((active * Math.PI) / 6)) * 18}%`,
+                transition: "left .6s ease, top .6s ease",
               }}
             />
           </div>
@@ -200,24 +222,34 @@ const WhatWeDoGlobe: React.FC = () => {
             <path d="M 2 180 A 178 178 0 0 1 358 180" fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
           </svg>
         </div>
-        <div className="flex flex-col mt-4">
+
+        <div className="px-5 pt-6 text-center" style={{ minHeight: 168 }}>
+          <div className="text-[11px] tracking-[0.3em] uppercase" style={{ color: "#93b8ff" }}>
+            {String(active + 1).padStart(2, "0")} / 07
+          </div>
+          <div key={active} className="mt-2 text-white wwd-fade" style={{ fontSize: 26, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
+            {UMBRELLAS[active].name}
+          </div>
+          <div key={`c${active}`} className="mt-4 flex flex-wrap justify-center gap-2">
+            <Chips index={active} />
+          </div>
+        </div>
+
+        <div ref={pillsRef} className="wwd-pills mt-5" role="tablist" aria-label="Service areas">
           {UMBRELLAS.map((u, i) => (
-            <div key={u.slug} style={{ borderTop: "1px solid rgba(255,255,255,0.1)" }}>
-              <button
-                type="button"
-                onClick={() => pick(i)}
-                aria-expanded={i === active}
-                className={`wwd-row ${i === active ? "is-on" : ""}`}
-              >
-                <span>{u.short}</span>
-                <span aria-hidden>{i === active ? "−" : "+"}</span>
-              </button>
-              {i === active && (
-                <div className="flex flex-wrap gap-2 pb-4">
-                  <Chips index={i} />
-                </div>
-              )}
-            </div>
+            <button
+              key={u.slug}
+              type="button"
+              role="tab"
+              aria-selected={i === active}
+              onClick={() => {
+                userPicked.current = true;
+                pick(i);
+              }}
+              className={`wwd-pill ${i === active ? "is-on" : ""}`}
+            >
+              {u.short}
+            </button>
           ))}
         </div>
       </div>

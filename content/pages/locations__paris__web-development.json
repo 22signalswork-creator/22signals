@@ -1,0 +1,133 @@
+{
+  "path": "/locations/paris/web-development",
+  "kind": "location-service",
+  "region": "eu",
+  "city": "Paris",
+  "citySlug": "paris",
+  "service": "web-development",
+  "serviceType": "Web development",
+  "title": "Web Development in Paris: Sites and Online Stores | 22 Signals",
+  "description": "Web development for Paris brands and firms: fast sites and online stores that meet French legal, cookie and accessibility rules, in French and English.",
+  "eyebrow": "Web Development in Paris",
+  "h1": "Web development in Paris for sites that look right and follow French rules",
+  "intro": "We build websites, online stores and client portals for Paris companies that need them to look as good as the brand, load fast on a phone and meet French rules on legal notices, cookies, language and accessibility. Every build is accessible to WCAG standards by default, ready for French and English, and set up for search from the first day.",
+  "sections": [
+    {
+      "h": "A French website has more to get right than most",
+      "p": [
+        "A website aimed at French customers carries a set of requirements that many international templates miss. There is the legal notice page, the mentions légales, which identifies who publishes the site. There are cookie rules the CNIL enforces strictly. There is the expectation, backed by the Loi Toubon, that consumer information and advertising aimed at people in France is available in French. And since June 2025 the European Accessibility Act covers many online stores and consumer services.",
+        "Add the visual standard Paris brands hold themselves to, and a site has to be beautiful, fast, legal and accessible at once. That is where web development in Paris often goes wrong: the agency that makes it beautiful is not the one that makes it compliant."
+      ]
+    },
+    {
+      "h": "What we build",
+      "list": [
+        "Brand and corporate sites for luxury, fashion, beauty and professional firms.",
+        "Online stores on Shopify, WooCommerce or a custom stack, with French payment habits supported.",
+        "Bilingual French and English sites with proper language versions, not machine-translated copies.",
+        "Client and partner portals with secure sign-in, document sharing and order history.",
+        "Booking and enquiry flows for hotels, restaurants, clinics and event venues.",
+        "Landing pages for launches and campaigns, built to be changed quickly by your team.",
+        "Rebuilds of slow or ageing sites, with redirects planned so search rankings survive."
+      ]
+    },
+    {
+      "h": "Cookies and consent, the CNIL way",
+      "p": [
+        "The CNIL's position is clear: refusing cookies must be as easy as accepting them, consent must be given before tracking starts, and people must be able to change their mind later. It has fined large companies for consent banners that made refusal harder than acceptance.",
+        "We build consent properly. The banner offers accept and refuse with equal weight, analytics and advertising tags only fire after consent, and Google Consent Mode is set up so you still get modelled measurement when people say no. Your marketing team sees fewer conversions than a non-compliant site would report, but the figures you do see are honest and defensible."
+      ]
+    },
+    {
+      "h": "Accessibility by default",
+      "p": [
+        "Every site we build follows WCAG accessibility guidelines as standard: readable contrast, keyboard navigation, proper headings, labelled forms, text alternatives for images and video captions. France's own standard, the RGAA, is based on WCAG, and the European Accessibility Act now brings accessibility duties to many e-commerce sites and consumer services.",
+        "Luxury design and accessibility can live together. Thin grey type on a white background may look elegant on a designer's screen, but many customers cannot read it on a phone in daylight. We work with your designers to keep the look and meet the standard."
+      ]
+    },
+    {
+      "h": "Selling online in France",
+      "list": [
+        "Prices shown to consumers include VAT, and checkout totals have no surprises.",
+        "Terms of sale, delivery and returns pages that reflect the EU 14-day withdrawal right for online purchases.",
+        "Card payments that support Cartes Bancaires, the French domestic card scheme, alongside Visa, Mastercard and wallets such as Apple Pay.",
+        "Strong customer authentication handled cleanly, so 3-D Secure checks do not lose sales.",
+        "Delivery options French shoppers expect, including relay point pickup as well as home delivery.",
+        "Promotions planned around the national soldes periods and Black Friday."
+      ]
+    },
+    {
+      "h": "French and English versions done properly",
+      "p": [
+        "Many Paris companies sell to French customers and to the world. We build sites with separate French and English versions, correct hreflang tags, translated URLs where they help search and a language switch that keeps people on the equivalent page.",
+        "Our work is delivered in English. French copy comes from your team or from translators and copywriters we arrange through partners, and you approve it before launch. We plan layouts for French text, which often runs longer than English, so buttons and menus do not break when the translation arrives."
+      ]
+    },
+    {
+      "h": "Speed and image quality",
+      "p": [
+        "Paris brands live on imagery, and large images are the usual reason a site is slow. We serve modern image formats at the right size for each screen, load video only when needed and keep scripts to a minimum. Product photography and campaign films still look sharp; the page just stops making visitors wait. Fast pages also rank better and convert better on mobile, where most fashion and beauty shopping now starts. We test on real mid-range phones over mobile data, not only on a fast office connection, and we set a speed budget for each template so new campaigns do not slowly undo the work."
+      ]
+    },
+    {
+      "h": "How a build runs",
+      "list": [
+        "Talk: a 15-minute call about what the site must do and what is wrong with the current one.",
+        "Plan: discovery, site map, technical choices and a written roadmap in 5 to 7 days.",
+        "Build: design, development and content in stages, with dates agreed in writing and a staging site you can review.",
+        "Grow: after launch we monitor speed, search and conversions and keep improving the site."
+      ]
+    },
+    {
+      "h": "Proof, and working with us from Paris",
+      "p": [
+        "We have worked with more than 30 companies, and websites sit at the centre of much of that work, because search, ads and video all send people there. We will show you relevant examples on a call; client names stay private.",
+        "We have no office in Paris and work remotely on shared hours, with Paris one hour ahead of London. Kick-off workshops with your brand and marketing teams can run on site, with travel planned into the scope."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What legal pages does a French website need?",
+      "a": "At minimum a legal notice identifying the publisher, a privacy policy and cookie information. Online stores also need terms of sale covering prices, delivery, returns and the withdrawal right. We build the pages and structure; your lawyer supplies or approves the wording."
+    },
+    {
+      "q": "How do you make cookie banners CNIL compliant?",
+      "a": "Accept and refuse get equal prominence, no tracking runs before consent, and visitors can change their choice at any time. We also set up Google Consent Mode so measurement continues in a privacy-respecting way."
+    },
+    {
+      "q": "Do you write the French content?",
+      "a": "Our own delivery is in English. French content is supplied by your team or by translators and copywriters we arrange through partners, and you approve the final text. We build layouts that cope with longer French text."
+    },
+    {
+      "q": "Does the European Accessibility Act apply to our site?",
+      "a": "It applies to many online stores and consumer services in the EU, with some exemptions for very small businesses. Every site we build follows WCAG guidelines by default, which covers the core of what the Act and the RGAA expect. Your legal adviser confirms your exact obligations."
+    },
+    {
+      "q": "What does web development in Paris cost with you?",
+      "a": "It depends on the number of pages and templates, e-commerce features, integrations, languages and how much content we produce. We give a written scope and price after discovery, and third-party costs such as themes or licences are paid by you directly."
+    },
+    {
+      "q": "Can you rebuild our site without losing search rankings?",
+      "a": "Yes. We map every old URL to its new equivalent, keep the content that ranks, set up redirects and check indexing after launch. Rankings can move for a few weeks, and we monitor them closely through that period."
+    }
+  ],
+  "related": [
+    "/locations/paris",
+    "/services/web-app-development",
+    "/locations/paris/seo-geo",
+    "/locations/paris/app-development",
+    "/industries/fashion-beauty",
+    "/locations/london/web-development"
+  ],
+  "keywords": {
+    "primary": "web development in paris",
+    "secondary": [
+      "web agency paris",
+      "website design paris",
+      "ecommerce development france",
+      "shopify agency paris",
+      "bilingual website france"
+    ]
+  }
+}

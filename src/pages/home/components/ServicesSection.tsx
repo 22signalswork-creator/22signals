@@ -41,11 +41,39 @@ import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
 const WINDING_PATH_D =
   "M0 0C120 120 260 360 357.215 725.005C-60.2856 684.005 -73.7845 284.005 226.716 296.505C527.216 309.005 832.716 841.505 1299.72 661.505C1525.9 574.324 1793.21 649.005 1469.21 1100.01C1145.21 1551.01 756.323 1166.44 480.714 1314.01C226.715 1450.01 208.214 1922.51 480.714 2017.01C753.214 2111.51 1058.71 1882.51 1216.71 2139.51C1374.71 2396.51 1323.21 2893.01 1587.71 2834.51C1852.22 2776.01 1851.71 2526.01 1666.21 2567.01C1480.71 2608.01 1173.01 2827.49 689.715 2636.01C321.214 2490.01 -87.2852 3174.37 430.715 3113.51C948.715 3052.64 929.715 3299.01 864.215 3421.01";
 
+// A gentle S-curve down a narrow column: swings between the two edges.
+const mobilePath = (w: number, h: number) => {
+  if (!w || !h) return "M0 0";
+  const left = 14, right = w - 14, step = 760;
+  let d = `M${w * 0.7} 0`;
+  let y = 0, toLeft = true;
+  while (y < h) {
+    const ny = Math.min(h, y + step);
+    const x = toLeft ? left : right;
+    d += ` C${toLeft ? right : left} ${y + step * 0.35} ${x} ${ny - step * 0.45} ${x} ${ny}`;
+    y = ny; toLeft = !toLeft;
+  }
+  return d;
+};
+
 export const BackgroundWindingLine: React.FC = () => {
   const pathRef = useRef<SVGPathElement>(null);
   const headRef = useRef<SVGGElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [box, setBox] = useState({ w: 0, h: 0 });
+
+  // Phones get a path drawn in real pixels for the column's size.
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg || typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver(() => {
+      const r = svg.getBoundingClientRect();
+      setBox((b) => (Math.abs(b.w - r.width) > 2 || Math.abs(b.h - r.height) > 40 ? { w: Math.round(r.width), h: Math.round(r.height) } : b));
+    });
+    ro.observe(svg);
+    return () => ro.disconnect();
+  }, []);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
@@ -55,7 +83,6 @@ export const BackgroundWindingLine: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (isMobile) return;
     const path = pathRef.current;
     const svg = svgRef.current;
     const head = headRef.current;
@@ -114,16 +141,14 @@ export const BackgroundWindingLine: React.FC = () => {
       document.removeEventListener("scroll", onScroll, { capture: true } as any);
       window.removeEventListener("resize", onScroll);
     };
-  }, [isMobile]);
-
-  if (isMobile) return null;
+  }, [isMobile, box.w, box.h]);
 
   return (
     <svg
       ref={svgRef}
       aria-hidden
       className="absolute pointer-events-none"
-      viewBox="0 0 1817 3441"
+      viewBox={isMobile && box.w ? `0 0 ${box.w} ${box.h}` : "0 0 1817 3441"}
       preserveAspectRatio="xMidYMin slice"
       style={{
         zIndex: 0,
@@ -146,17 +171,19 @@ export const BackgroundWindingLine: React.FC = () => {
         </radialGradient>
       </defs>
       {/* the road ahead: a faint dotted copy of the line */}
-      <path d={WINDING_PATH_D} stroke="rgba(50,95,236,0.16)" strokeWidth="5" strokeDasharray="2 28" strokeLinecap="round" fill="none" />
+      {!isMobile && (
+        <path d={WINDING_PATH_D} stroke="rgba(50,95,236,0.16)" strokeWidth="5" strokeDasharray="2 28" strokeLinecap="round" fill="none" />
+      )}
       <path
         ref={pathRef}
-        d={WINDING_PATH_D}
+        d={isMobile ? mobilePath(box.w, box.h) : WINDING_PATH_D}
         stroke="url(#wl-grad)"
-        strokeWidth="12"
+        strokeWidth={isMobile ? 3 : 12}
         fill="none"
         strokeLinecap="round"
         opacity="0.9"
       />
-      <g ref={headRef} style={{ opacity: 0, transition: "opacity .3s ease" }}>
+      <g ref={headRef} style={{ opacity: 0, transition: "opacity .3s ease", display: isMobile ? "none" : undefined }}>
         <circle r="34" fill="url(#wl-glow)" opacity="0.7" />
         <circle r="9" fill="#ffffff" />
       </g>
