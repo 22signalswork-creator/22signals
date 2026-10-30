@@ -64,10 +64,10 @@
       ]
     },
     {
-      "h": "Built across the gap between London and New York",
+      "h": "How New York automation work is tested and released",
       "p": [
-        "We work with New York companies remotely from London, and the time difference helps with automation work. New York is five hours behind London for most of the year. You can describe a broken step at 16:00 Eastern, and our team can fix and test it before your 9:00 start. Live changes are scheduled for hours when your team is offline, so nobody's queue breaks mid-morning.",
-        "Weekly check-ins sit in your morning, our afternoon. When a process is easier to understand on the floor, for example a mailroom or a front desk, we visit New York when the project needs it."
+        "Every automation is tested on real samples before it touches live work, and the people who run the process sign it off. If a step breaks, you report it in the shared channel and your Signal Lead confirms when the fix will land. Live changes go out in a release window you approve, so nobody's queue breaks mid-morning.",
+        "Weekly check-ins are booked at a time that suits your team. When a process is easier to understand on the floor, for example a mailroom or a front desk, we visit New York when the project needs it."
       ]
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "q": "Can you meet our team in New York?",
-      "a": "We work remotely from London, and most automation projects run well on screen shares because the work lives on screens. If seeing a process in person would save time, such as a front desk or a document room, we can visit when the project needs it."
+      "a": "We work remotely, and most automation projects run well on screen shares because the work lives on screens. If seeing a process in person would save time, such as a front desk or a document room, we can visit when the project needs it."
     },
     {
       "q": "What happens when an automation makes a mistake?",

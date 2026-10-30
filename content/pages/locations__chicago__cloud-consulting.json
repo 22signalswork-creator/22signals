@@ -77,9 +77,9 @@
       ]
     },
     {
-      "h": "Working from London, on Chicago hours",
+      "h": "Change windows, reviews and reporting",
       "p": [
-        "We deliver cloud consulting. Chicago clients work with us remotely from London, six hours ahead of Central Time for most of the year. That gap is useful: maintenance windows and changes can run during our working day, which is before your teams arrive. Reviews with your IT lead happen in the Chicago morning.",
+        "We deliver cloud consulting remotely, through access you control. Maintenance windows and changes are agreed with your IT lead in advance and scheduled for quiet periods in your business, with a rollback plan written down before anything moves. Reviews are booked at times that suit your team, and each one starts from a written summary of what changed.",
         "If a project needs someone at your site, such as checking hardware before a server move, we plan a visit when the project needs it."
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "q": "Will you come to our Chicago office?",
-      "a": "Most cloud work happens remotely, from London, with reviews in your morning. When there is a physical reason to be there, such as inspecting servers before a migration or running a security workshop with leadership, we plan a visit to Chicago when the project needs it. We do not have staff based in Chicago."
+      "a": "Most cloud work happens remotely, with reviews booked at times that suit your team. When there is a physical reason to be there, such as inspecting servers before a migration or running a security workshop with leadership, we plan a visit to Chicago for that stage of the project."
     },
     {
       "q": "Can you manage our cloud after the project?",

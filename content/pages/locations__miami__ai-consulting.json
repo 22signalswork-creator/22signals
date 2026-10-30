@@ -70,7 +70,7 @@
     {
       "h": "Working with us from Miami",
       "p": [
-        "We work with Miami companies remotely from our head office in London. Miami runs on Eastern Time, five hours behind London, so your morning overlaps our afternoon. Workshops and reviews happen between 8am and 1pm Miami time, and progress made in London is waiting for you when you start the next day.",
+        "Workshops and reviews are booked at times that suit your team, and each one ends with a written note of decisions and next steps. Between calls you see progress in one shared channel, and your Signal Lead keeps every agreed date in writing.",
         "Your Signal Lead is the one person accountable for the engagement. Behind them sit specialists in AI, cloud and data, and marketing. If the project needs someone in the room in Downtown or Coral Gables, we plan a visit when the project needs it."
       ]
     },
@@ -98,7 +98,7 @@
   "faqs": [
     {
       "q": "Do you work with Miami companies in person?",
-      "a": "We work remotely from London, and most engagements run well that way. Workshops happen on video between 8am and 1pm Miami time, when both teams are online. If a project needs people in the room, for example a kick-off with your leadership team in Brickell, we plan a visit when the project needs it and agree the dates in writing."
+      "a": "Most engagements run well remotely. Workshops happen on video at times agreed with your team. If a project needs people in the room, for example a kick-off with your leadership team in Brickell, we plan a visit and agree the dates in writing."
     },
     {
       "q": "How does the Florida Digital Bill of Rights affect our AI use?",
@@ -131,6 +131,11 @@
   ],
   "keywords": {
     "primary": "ai consulting miami",
-    "secondary": ["ai consultant miami", "miami ai company", "ai strategy consulting miami", "ai consulting florida"]
+    "secondary": [
+      "ai consultant miami",
+      "miami ai company",
+      "ai strategy consulting miami",
+      "ai consulting florida"
+    ]
   }
 }

@@ -73,7 +73,7 @@
     {
       "h": "Working with us from Karachi",
       "p": [
-        "We have no office in Pakistan. A Signal Lead in London runs your project and is your single contact. The working days overlap well: PKT is five hours ahead of London in winter and four in summer, so a London 11:00 review is 16:00 in Karachi in winter. Data work is done securely on your systems or ours by agreement, and on-site time is arranged only when the project needs it."
+        "A Signal Lead runs your project and is your single contact. Reviews are booked at times that suit your finance and sales teams, and each one starts from a written note of what was loaded, checked and changed. Data work is done securely on your systems or ours by agreement, and on-site time is arranged only when the project needs it."
       ]
     },
     {
@@ -111,7 +111,7 @@
       "a": "It depends on how many sources need connecting and how clean the data is. We usually deliver the first working dashboard on one priority area, often sales, before moving on to the rest, so you see value early. The full timeline is agreed during planning and written into the scope."
     },
     {
-      "q": "Is our financial data safe with a London team?",
+      "q": "Is our financial data safe with you?",
       "a": "We use role-based access, encrypted connections and audit logs, and we only take the access the project needs. Where your policy or the State Bank of Pakistan requires data to stay in specific locations, we design the warehouse accordingly. You keep ownership of all data, pipelines and reports."
     },
     {
@@ -129,6 +129,11 @@
   ],
   "keywords": {
     "primary": "business intelligence karachi",
-    "secondary": ["power bi consultant karachi", "data analytics karachi", "dashboard development pakistan", "bi consulting karachi"]
+    "secondary": [
+      "power bi consultant karachi",
+      "data analytics karachi",
+      "dashboard development pakistan",
+      "bi consulting karachi"
+    ]
   }
 }

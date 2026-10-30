@@ -67,9 +67,9 @@
       ]
     },
     {
-      "h": "Working with a London team from Karachi",
+      "h": "What a first automation project in Karachi covers",
       "p": [
-        "We do not have an office or staff in Karachi. Your project is run from London by one Signal Lead, and the overlap is comfortable: London mornings are Karachi afternoons, with PKT five hours ahead in winter and four in summer. A 09:30 London check-in lands at 14:30 PKT in winter.",
+        "A first project usually takes one workflow, such as entering orders from PDFs or matching payments, and runs it from mapping to live use. One Signal Lead owns it, and you get a written scope with the dates for testing, sign-off and go-live.",
         "Because automation work is mostly done on screen, remote delivery suits it well. We need access to sample documents, a test environment and an hour a week from the process owner. If something has to be seen on site, we plan that visit when the project needs it."
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "q": "Do you visit Karachi to set things up?",
-      "a": "Most automation projects are delivered entirely remotely from London, because the work happens on screen. We schedule calls in the Karachi afternoon, when London is in its morning. If the project needs an on-site visit, for example to watch a warehouse process, we plan it for that stage."
+      "a": "Most automation projects are delivered entirely remotely, because the work happens on screen. Calls are booked at times your team in Karachi chooses. If the project needs an on-site visit, for example to watch a warehouse process, we plan it for that stage."
     }
   ],
   "related": [

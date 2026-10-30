@@ -67,9 +67,9 @@
       ]
     },
     {
-      "h": "Working with us from San Francisco",
+      "h": "How changes to production are handled",
       "p": [
-        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. The gap helps with maintenance: changes that need a quiet window can run in the early hours Pacific, during the London working day, with your team informed in writing beforehand. Reviews happen on calls between 8 and 11 a.m. Pacific. On-site visits happen when the project needs them."
+        "Every change to a San Francisco production environment goes through a written plan: what will change, when, how we will check it and how to roll it back. Changes that need a quiet window run at a time you approve, with your team told in writing beforehand. Review calls are booked at times that suit your engineers, and on-site visits happen when the project needs them."
       ]
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you have cloud engineers in San Francisco?",
-      "a": "No. We work with San Francisco companies remotely from London, with specialist teams across several time zones. Cloud work is done through your accounts with audited access, so location matters less than process. If a workshop with your engineers needs to be in person, we plan a visit when the project needs it."
+      "a": "No. We work with San Francisco companies remotely, with specialist cloud, security and data teams. Cloud work is done through your accounts with audited access, so location matters less than process. If a workshop with your engineers needs to be in person, we plan a visit when the project needs it."
     },
     {
       "q": "How does California privacy law affect our cloud?",

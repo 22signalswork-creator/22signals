@@ -10,7 +10,7 @@
   "description": "AI consulting for Stockholm companies: choose the use cases worth funding, plan for the EU AI Act and GDPR, and build a working pilot your teams agree on.",
   "eyebrow": "AI Consulting in Stockholm",
   "h1": "AI consulting for Stockholm companies that want results their teams will back",
-  "intro": "We help Stockholm companies decide where AI is worth the money, then build a pilot that proves it. That means a short list of use cases tied to real costs, a plan that fits the GDPR and the EU AI Act, and a working tool your staff have helped shape. We are registered in London and work with Swedish teams remotely, in English.",
+  "intro": "We help Stockholm companies decide where AI is worth the money, then build a pilot that proves it. That means a short list of use cases tied to real costs, a plan that fits the GDPR and the EU AI Act, and a working tool your staff have helped shape. We work with Swedish teams in English, with one lead and dates in writing.",
   "sections": [
     {
       "h": "The Stockholm problem is not a lack of ideas",
@@ -71,9 +71,9 @@
       ]
     },
     {
-      "h": "Remote delivery, one hour apart",
+      "h": "How progress is reported",
       "p": [
-        "We do not have a Stockholm office. Work runs through video calls, shared documents and a weekly written update. Stockholm is one hour ahead of London all year, so your working day and ours overlap almost completely. For the discovery workshop or a rollout session with a large team, we can travel to Stockholm and run it in person.",
+        "Work runs through video calls, shared documents and a weekly written update that lists what was done, what was learned and what needs a decision. Calls are booked at times your team prefers. For the discovery workshop or a rollout session with a large team, we can run it in person in Stockholm.",
         "All deliverables are in English. If the AI tool itself must answer customers in Swedish or other Nordic languages, we test it with native speakers through partners before launch."
       ]
     },

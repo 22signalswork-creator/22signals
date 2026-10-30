@@ -56,17 +56,17 @@ const Split: React.FC<{ s?: Section; children?: React.ReactNode }> = ({ s, child
   ) : null;
 
 const ValueCards: React.FC<{ items: string[] }> = ({ items }) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-8">
+  <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-10 gap-y-7 md:gap-y-8">
     {items.map((item, i) => {
       const v = titled(item);
       return (
         <FadeIn key={i} delay={(i % 4) * 0.05}>
           <div className="border-t border-white/15 pt-5">
             <img src={Valuicon} width={36} height={36} alt="" className="mb-4" />
-            <h3 className="m-0" style={{ fontSize: "clamp(18px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
+            <h3 className="m-0" style={{ fontSize: "clamp(16px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
               {v.title}
             </h3>
-            <p className="mt-2 m-0" style={{ fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }}>
+            <p className="mt-2 m-0 text-[13px] md:text-[15px]" style={{ lineHeight: 1.5, color: "rgba(255,255,255,0.6)" }}>
               {v.desc}
             </p>
           </div>
@@ -158,17 +158,17 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
           {solve && (
             <div className="flex flex-col gap-8 md:gap-10">
               <Split s={solve} />
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-5 md:gap-x-10 gap-y-7 md:gap-y-8">
                 {(solve.list || []).map((item, i) => {
                   const v = titled(item);
                   return (
                     <FadeIn key={i} delay={(i % 3) * 0.05}>
                       <div className="border-t border-white/15 pt-5">
                         <div className="text-blue-300/80 text-[11px] tracking-[0.3em] mb-3 tabular-nums">{String(i + 1).padStart(2, "0")}</div>
-                        <h3 className="m-0" style={{ fontSize: "clamp(18px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
+                        <h3 className="m-0" style={{ fontSize: "clamp(16px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
                           {v.title}
                         </h3>
-                        <p className="mt-2 m-0" style={{ fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }}>
+                        <p className="mt-2 m-0 text-[13px] md:text-[15px]" style={{ lineHeight: 1.5, color: "rgba(255,255,255,0.6)" }}>
                           {v.desc}
                         </p>
                       </div>

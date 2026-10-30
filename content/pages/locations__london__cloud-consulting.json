@@ -10,7 +10,7 @@
   "description": "Cloud consultancy London firms use for AWS, Azure and Google Cloud: UK-region architecture, security, cost reviews and managed operations.",
   "eyebrow": "Cloud Consulting in London",
   "h1": "Cloud consultancy London businesses can hand the keys to",
-  "intro": "22 Signals is a cloud consultancy. London is our head office, and from there we design, secure and run infrastructure on AWS, Microsoft Azure and Google Cloud, with data in UK regions when you need it. Established firms use us to tidy up sprawling accounts, meet FCA and UK GDPR expectations, cut wasted spend and get one accountable lead.",
+  "intro": "22 Signals is a cloud consultancy for London businesses. We design, secure and run infrastructure on AWS, Microsoft Azure and Google Cloud, with data in UK regions when you need it. Established firms use us to tidy up sprawling accounts, meet FCA and UK GDPR expectations, cut wasted spend and get one accountable lead.",
   "sections": [
     {
       "h": "How cloud estates drift out of control",
@@ -63,10 +63,10 @@
       ]
     },
     {
-      "h": "Meeting in London, support beyond London hours",
+      "h": "Reviews in person, maintenance in agreed windows",
       "p": [
-        "Our head office is in London, so we can sit with your IT lead or operations director to walk through the estate, and meet in person for quarterly reviews if you want them. Plenty of decisions about access and risk are easier across a table than over a screen share.",
-        "Day-to-day operations run remotely. Our specialist teams operate across several time zones, which lets us schedule maintenance outside London business hours. For companies with colleagues in New York or Dubai, we plan change windows around everyone's working day, not only London's.",
+        "We can sit with your IT lead or operations director to walk through the estate, and meet in person for quarterly reviews if you want them. Plenty of decisions about access and risk are easier across a table than over a screen share.",
+        "Day-to-day operations run remotely. Maintenance windows are agreed with you in writing, so planned changes land when they cause the least disruption. For companies with colleagues in New York or Dubai, we plan those windows around every team that uses the systems, not only the London one.",
         "For multi-site London firms, such as law firms with offices in the City and the West End or clinic groups across several boroughs, we also look at how each site connects: VPNs, device management, Wi-Fi and the shared drives everyone still uses. Cloud problems often turn out to be office network problems in disguise."
       ]
     },
@@ -123,11 +123,11 @@
     },
     {
       "q": "Do you offer ongoing managed cloud support?",
-      "a": "Yes. Managed operations cover monitoring, patching, backups, access reviews, incident response and a monthly report in plain English. You have one Signal Lead to call, and our teams across several time zones handle maintenance outside London working hours, so planned changes do not interrupt your staff during the day."
+      "a": "Yes. Managed operations cover monitoring, patching, backups, access reviews, incident response and a monthly report in plain English. You have one Signal Lead to call, and maintenance runs in windows you approve in advance, so planned changes do not interrupt your staff."
     },
     {
       "q": "Can you visit our London office?",
-      "a": "Yes. Our head office is in London, so we can meet your team in person for the initial review, for workshops on access and risk, and for quarterly reviews if you want them. Most technical work then runs remotely, with changes scheduled in agreed windows."
+      "a": "Yes. We can meet your team in person for the initial review, for workshops on access and risk, and for quarterly reviews if you want them. Most technical work then runs remotely, with changes scheduled in agreed windows."
     },
     {
       "q": "Do you also handle cloud migrations?",

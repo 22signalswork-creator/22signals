@@ -67,9 +67,9 @@
       ]
     },
     {
-      "h": "How the build works with a London team",
+      "h": "How the build works",
       "p": [
-        "We work from our London head office and do not have a Manchester office or staff. Website projects run well remotely: weekly calls, a staging site you can click through at any time, and a shared list of feedback and decisions. Manchester runs on London time, so reviews happen during your normal working day.",
+        "Website projects run well remotely: weekly calls at a time that suits your team, a staging site you can click through at any time, and a shared list of feedback and decisions. Nothing goes live until the person you name has signed it off.",
         "If you want to sit down in person for the kick-off or the launch review, your Signal Lead comes up to Manchester when the project needs it."
       ],
       "list": [
@@ -108,7 +108,7 @@
     },
     {
       "q": "Can you meet us in Manchester during the project?",
-      "a": "Yes, when the project needs it. Kick-off workshops and launch reviews are good moments to meet in person, and your Signal Lead travels up from London for them. Day to day, the project runs through calls, a staging site and written updates during UK working hours."
+      "a": "Yes, when the project needs it. Kick-off workshops and launch reviews are good moments to meet in person, and your Signal Lead comes to Manchester for them. Day to day, the project runs through calls, a staging site and written updates."
     },
     {
       "q": "Is our cookie banner compliant?",

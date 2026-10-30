@@ -71,9 +71,9 @@
       ]
     },
     {
-      "h": "Working with a London-registered team",
+      "h": "How sprints and releases run",
       "p": [
-        "We are registered in London and build remotely for Zurich clients. London is one hour behind Swiss time, so sprint reviews, testing sessions and release calls happen in your working day. When user testing or a stakeholder workshop benefits from being in the room, we plan a visit to Zurich and agree it in the scope.",
+        "We build remotely for Zurich clients. Sprint reviews, testing sessions and release calls are booked at times that suit your team, and each one ends with written notes on what was agreed. When user testing or a stakeholder workshop benefits from being in the room, we plan a visit to Zurich and agree it in the scope.",
         "We deliver in English. Interface text in other languages comes from your team, your translators or partners we arrange, and we test every language version on real devices."
       ]
     },

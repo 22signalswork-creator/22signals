@@ -62,9 +62,9 @@
       ]
     },
     {
-      "h": "How the 8-hour gap helps a remote automation build",
+      "h": "How we test and hand over each automation",
       "p": [
-        "We work from London with specialist teams across several time zones, and Los Angeles is 8 hours behind London for most of the year. For automation work that is useful. We test changes while your team is offline, so nothing breaks in the middle of your working day, and we review results with you in your morning. Monitoring runs around the clock and alerts the right person if a workflow fails. If we ever need to watch a process in person, we plan a visit when the project needs it."
+        "Every automation is built in a test environment first and run against your real cases before it touches live work. We schedule the switch-over for a quiet period your team picks, so nothing breaks in the middle of a busy day, and we review results with you on a call booked at a time that suits you. Monitoring runs around the clock and alerts the right person if a workflow fails. If we ever need to watch a process in person, we plan a visit when the project needs it."
       ]
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "q": "Do you work with Los Angeles companies on site?",
-      "a": "We work remotely from London, with calls in your morning Pacific time. Mapping a process works well over screen share, and the builds happen in your cloud accounts. If watching a process in person would genuinely help, for example on a production floor or warehouse, we plan a visit for that stage."
+      "a": "Mostly not. Mapping a process works well over screen share, calls are booked at times that suit your team, and the builds happen in your cloud accounts. If watching a process in person would genuinely help, for example on a production floor or warehouse, we plan a visit to Los Angeles for that stage."
     },
     {
       "q": "What happens when an automation makes a mistake?",

@@ -28,7 +28,7 @@ export const PROOF = {
   ai: "We've done more than 30 AI builds for businesses that used to run the old way. They don't anymore.",
   events:
     "We've run and broadcast more than 20 large-scale live events. The date never moves, so we treat every deadline like a live date.",
-  scale: "We've worked with 30+ companies across several time zones.",
+  scale: "We've worked with 30+ companies across the US, UK, Europe and the UAE.",
   projects: "Over $1.5 million in projects managed.",
 };
 
@@ -220,7 +220,7 @@ export const PAGES = [
     serviceType: "Go-to-market strategy",
     title: "Go-to-Market Strategy and Launch | 22 Signals",
     description:
-      "Positioning, pricing, launch plans and sales pipelines for new products and new markets, then the teams to execute them. Run from London.",
+      "Positioning, pricing, launch plans and sales pipelines for new products and new markets, then the teams to execute them.",
     eyebrow: "Strategy and Go-to-Market",
     h1: "Go-to-market strategy that ships.",
     intro:
@@ -927,11 +927,11 @@ export const PAGES = [
     areaServed: "US",
     title: "22 Signals in the United States",
     description:
-      "AI, cloud, web, SEO and GEO, paid media and video for ambitious US companies, with meeting hours that overlap Eastern and Pacific time.",
+      "AI, cloud, web, SEO and GEO, paid media and video for ambitious US companies that need more done than their own team can carry.",
     eyebrow: "United States",
     h1: "The team behind ambitious US companies.",
     intro:
-      "22 Signals works with established US companies, and with founders and startups, in healthcare and aesthetics, technology, professional services, fashion and gaming that need more done than their team can carry. Most of our client work is in the US, with meeting hours that overlap Eastern and Pacific time and one lead who answers.",
+      "22 Signals works with established US companies, and with founders and startups, in healthcare and aesthetics, technology, professional services, fashion and gaming that need more done than their team can carry. Most of our client work is in the US, run with a written scope, agreed dates and one shared channel for updates.",
     sections: [
       { h: "Where our clients stand today", p: [PROOF.search] },
       {
@@ -947,8 +947,8 @@ export const PAGES = [
     ],
     faqs: [
       {
-        q: "Do you have a US office?",
-        a: "We work with US clients remotely, with meeting hours that overlap Eastern and Pacific time. Our head office is in London and our teams operate across several time zones.",
+        q: "How do US projects run?",
+        a: "Every project starts with a 15-minute call, then discovery and a written roadmap in 5 to 7 days. After that you get a written scope, agreed dates, one shared channel for updates and review calls booked when they suit you.",
       },
     ],
     related: ["/services/seo-geo", "/industries/healthcare", "/industries/technology-ai"],
@@ -957,13 +957,13 @@ export const PAGES = [
     path: "/united-kingdom",
     kind: "market",
     areaServed: "GB",
-    title: "22 Signals UK: London Business Solutions Company",
+    title: "22 Signals UK: Business Solutions for UK Companies",
     description:
-      "London-led AI, cloud, web, SEO and GEO, paid media and video for UK businesses. More output without adding payroll, and one lead to call.",
+      "AI, cloud, web, SEO and GEO, paid media and video for UK businesses that want more output without adding to payroll, from one team.",
     eyebrow: "United Kingdom",
-    h1: "London-led. Built for UK businesses.",
+    h1: "Built for UK businesses.",
     intro:
-      "22 Signals is a business solutions company based in London. UK businesses bring us in for AI tools and automation, cloud, websites and apps, SEO and GEO, paid media and video, when they want more output without adding to payroll. Meet us in London, deal with one lead, and get specialist teams behind them.",
+      "22 Signals is a business solutions company registered in London. UK businesses bring us in for AI tools and automation, cloud, websites and apps, SEO and GEO, paid media and video, when they want more output without adding to payroll, with specialist teams behind every project.",
     sections: [
       {
         h: "What UK businesses hire us for",
@@ -979,8 +979,8 @@ export const PAGES = [
     ],
     faqs: [
       {
-        q: "Where is 22 Signals based?",
-        a: "Our head office is in London, and our teams operate across several time zones.",
+        q: "Can we meet in person?",
+        a: "Yes. Most work runs through calls and a shared channel, and we meet clients in person when a project needs it, for workshops, shoots or launches.",
       },
     ],
     related: ["/services/ai-automation", "/services/cloud", "/about"],
@@ -1010,8 +1010,8 @@ export const PAGES = [
     ],
     faqs: [
       {
-        q: "Do you have an office in Dubai?",
-        a: "We work with UAE clients from London and across our several time zones, with meeting hours that suit the Gulf.",
+        q: "What does a first UAE project usually look like?",
+        a: "Often a focused piece of work: a website rebuild, WhatsApp automation for enquiries and bookings, or local search. It starts with a 15-minute call and a written roadmap in 5 to 7 days.",
       },
     ],
     related: ["/services/ai-automation", "/services/seo-geo", "/industries/fashion-beauty"],
@@ -1162,8 +1162,8 @@ export const PAGES = [
         a: "No. 22 Signals (22signals.com) is a separate company from 2Signals in Tampa, Florida.",
       },
       {
-        q: "Where is 22 Signals based?",
-        a: "Our head office is in London and our teams operate across several time zones. We work with companies in the United States, the United Kingdom and the UAE.",
+        q: "Where is 22 Signals registered?",
+        a: "22 Signals is registered in London. We work with companies across the United States, the United Kingdom, Europe and the UAE.",
       },
       {
         q: "What industries do you work with?",

@@ -10,7 +10,7 @@
   "description": "AI consulting for Amsterdam companies: find the AI uses worth funding, plan them around GDPR and the EU AI Act, then build a pilot your team will use.",
   "eyebrow": "AI Consulting in Amsterdam",
   "h1": "AI consulting for Amsterdam companies that want a plan the regulator would accept",
-  "intro": "22 Signals gives Amsterdam companies AI consulting that ends in a working system, not a slide deck. We find where AI will save time or money in your business, plan it around GDPR and the EU AI Act, then build the first pilot with your team. Delivery is remote and in English, from one hour behind Amsterdam.",
+  "intro": "22 Signals gives Amsterdam companies AI consulting that ends in a working system, not a slide deck. We find where AI will save time or money in your business, plan it around GDPR and the EU AI Act, then build the first pilot with your team. Delivery is remote and in English, with a written plan and agreed dates.",
   "sections": [
     {
       "h": "The question Amsterdam boards are asking",
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "h": "Remote delivery, with travel when it helps",
+      "h": "How the work runs, and when we meet in person",
       "p": [
-        "22 Signals is registered in London and has no office in Amsterdam. Most of the work happens on video calls and in shared documents. For kick-off workshops or a session with the works council, we can come to Amsterdam in person. London runs one hour behind CET, so our day lines up with yours.",
+        "Most of the work happens on video calls and in shared documents. Each engagement starts with a written scope that lists the deliverables, the owners and the agreed dates, and review calls are booked at times that suit your team. For kick-off workshops or a session with the works council, we can come to Amsterdam in person.",
         "All work is delivered in English. If staff training or user guides need to be in Dutch, we arrange localisation with partners."
       ]
     },
@@ -107,11 +107,11 @@
     },
     {
       "q": "Can you meet us in Amsterdam?",
-      "a": "Yes, when it helps. We have no office in the city, but we travel for workshops and key meetings. The rest of the work runs remotely in English."
+      "a": "Yes, when it helps. We come to Amsterdam for workshops and key meetings, and we agree those dates in the scope. The rest of the work runs remotely in English."
     },
     {
       "q": "Should we choose Microsoft Copilot or build our own?",
-      "a": "It depends on where the value is. Copilot suits general office work for teams already on Microsoft 365. Custom builds suit specific processes with your own data and rules. Many Amsterdam companies end up with both, and we help you decide where each fits."
+      "a": "It depends on where the value is. Copilot suits everyday document and email work for teams already on Microsoft 365. Custom builds suit specific processes with your own data and rules. Many Amsterdam companies end up with both, and we help you decide where each fits."
     },
     {
       "q": "How long does AI consulting take before we see something working?",

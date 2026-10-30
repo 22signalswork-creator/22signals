@@ -37,7 +37,7 @@
         "The first wins differ a lot by industry, so we start with yours."
       ],
       "list": [
-        "Property developers and brokerages: qualifying portal and WhatsApp enquiries overnight, drafting listing copy, and summarising buyer conversations for the agent who calls back in the morning.",
+        "Property developers and brokerages: qualifying portal and WhatsApp enquiries out of hours, drafting listing copy, and summarising buyer conversations for the agent who calls back next.",
         "Hotels and hospitality groups: answering pre-arrival questions in several languages, sorting review themes across properties and turning daily revenue data into a short note for managers.",
         "Trading and logistics firms around Jebel Ali: reading invoices, packing lists and bills of lading, then flagging mismatches before customs paperwork goes out.",
         "DIFC financial and fintech firms: research summaries, client onboarding checks and internal knowledge search, with tight controls on what personal data any model sees.",
@@ -69,7 +69,7 @@
     {
       "h": "Working with us from Dubai",
       "p": [
-        "We are based in London and serve Dubai businesses from there, on-site when the project needs it. Gulf Standard Time is four hours ahead of London in winter and three in summer, and with most UAE offices now working Monday to Friday, your morning and our morning overlap every working day.",
+        "Discovery starts with a 15-minute call, and within 5 to 7 days you have a written roadmap with the use cases ranked by value and risk. Meetings with your people in Dubai are booked at times that suit them, and progress goes into one shared channel rather than scattered email threads.",
         "Discovery interviews work well on video. Where a workshop with your leadership team or a walk through operations would genuinely help, for example inside a warehouse or a hotel, we plan a visit and write it into the scope. You keep one point of contact, the Signal Lead, throughout."
       ]
     },
@@ -100,7 +100,7 @@
     },
     {
       "q": "Do you meet Dubai clients in person?",
-      "a": "Most of the work happens on video, with meeting hours that overlap Gulf Standard Time every weekday. When a leadership workshop or an operations walk-through needs someone in the room, we plan a visit to Dubai and include it in the written scope. We do not have an office in Dubai and do not claim one."
+      "a": "Yes, when it helps. Most of the work happens on video, at times agreed with your team. When a leadership workshop or an operations walk-through needs someone in the room, we plan a visit to Dubai and include it in the written scope."
     },
     {
       "q": "How do you handle the UAE PDPL in AI projects?",
@@ -133,6 +133,11 @@
   ],
   "keywords": {
     "primary": "ai consulting dubai",
-    "secondary": ["ai consultancy dubai", "ai consultant dubai", "ai consulting uae", "dubai ai strategy"]
+    "secondary": [
+      "ai consultancy dubai",
+      "ai consultant dubai",
+      "ai consulting uae",
+      "dubai ai strategy"
+    ]
   }
 }

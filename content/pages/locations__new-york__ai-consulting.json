@@ -10,7 +10,7 @@
   "description": "AI consulting for New York companies in finance, media, healthcare and real estate: rank the uses that pay, set the rules, then build a working pilot.",
   "eyebrow": "AI Consulting in New York",
   "h1": "AI consulting for New York companies that want working tools, not demos",
-  "intro": "22 Signals offers the kind of AI consulting New York companies can put to work: a readiness review, use cases ranked by value and effort, a roadmap, vendor choices and governance that fits NYDFS and New York City hiring rules, then pilot builds your staff actually use. One Signal Lead runs it from London, with calls in your morning.",
+  "intro": "22 Signals offers the kind of AI consulting New York companies can put to work: a readiness review, use cases ranked by value and effort, a roadmap, vendor choices and governance that fits NYDFS and New York City hiring rules, then pilot builds your staff actually use. One Signal Lead owns the whole engagement.",
   "sections": [
     {
       "h": "Why AI plans stall inside New York firms",
@@ -68,7 +68,7 @@
     {
       "h": "Working with us from New York",
       "p": [
-        "We work with New York companies remotely from London. Eastern Time runs five hours behind London for most of the year, and four hours for a few weeks in March and around the start of November, when the US and UK change their clocks on different dates. A 9:00 call in Manhattan is 14:00 for us, so your whole morning is shared working time, and anything we pick up after your lunch is often waiting for you the next day.",
+        "We work with New York companies remotely. After a 15-minute first call, discovery produces a written roadmap within 5 to 7 days, with the use cases, owners and dates agreed before any build starts. Workshops and reviews are booked at times that suit your team, and a short written update arrives every week, so nobody has to chase status.",
         "When a workshop or leadership session works better in a room, we come to New York when the project needs it. Every date we agree goes in writing."
       ]
     },
@@ -92,8 +92,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in New York?",
-      "a": "No. Our head office is in London and our specialist teams work across several time zones. We serve New York clients remotely, with calls in your morning, shared documents and a written schedule. When a workshop or a leadership session is better in person, we travel to New York when the project needs it."
+      "q": "What do we need to prepare before the first call?",
+      "a": "Not much. A short list of the processes or questions you want AI to help with, the main systems your teams use and any rules you already work under, such as NYDFS Part 500. If you have an AI policy or a vendor shortlist, send it over. We use the call to check fit and suggest where discovery should start."
     },
     {
       "q": "How do you handle NYDFS Part 500 when recommending AI tools?",
@@ -112,8 +112,8 @@
       "a": "It depends on scope, not on a rate card. The main factors are the number of use cases, the condition of your data, your regulatory obligations, whether we build pilots, and how much training you need. After a 15-minute call we can tell you which of those apply and send a written proposal."
     },
     {
-      "q": "Will meetings work across the time difference?",
-      "a": "Yes. New York is usually five hours behind London, so a call between 9:00 and 13:00 Eastern falls inside our working afternoon. Most clients keep one weekly call and use written updates for the rest. Work handed over late in your day is often done by the next morning."
+      "q": "How do you report progress during the engagement?",
+      "a": "Your Signal Lead sends a written update every week: what was done, what was decided and what we need from you. Most New York clients keep one weekly call, booked at a time that suits them, and use the written updates for the rest. Each pilot ends with a short report that measures it against the number agreed at the start."
     },
     {
       "q": "Which industries in New York do you work with on AI?",
@@ -130,6 +130,11 @@
   ],
   "keywords": {
     "primary": "ai consulting new york",
-    "secondary": ["ai consultant new york", "ai consulting firm nyc", "ai strategy consulting new york", "nydfs ai guidance"]
+    "secondary": [
+      "ai consultant new york",
+      "ai consulting firm nyc",
+      "ai strategy consulting new york",
+      "nydfs ai guidance"
+    ]
   }
 }

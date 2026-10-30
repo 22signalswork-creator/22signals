@@ -73,9 +73,9 @@
       ]
     },
     {
-      "h": "Remote delivery, Swiss working hours",
+      "h": "Remote delivery, planned change windows",
       "p": [
-        "We are registered in London and run cloud work remotely, which is how most cloud work happens anyway. London is one hour behind Zurich, so planned changes can run early in the Swiss morning or after close of business with engineers fully alert. Where a project involves physical hardware, such as retiring servers in a Zurich data centre, we coordinate with your facilities provider or plan a visit, and we say which at the scoping stage."
+        "We run cloud work remotely, which is how most cloud work happens anyway. Planned changes run in maintenance windows agreed with your team, with a written change note beforehand and a rollback ready. Where a project involves physical hardware, such as retiring servers in a Zurich data centre, we coordinate with your facilities provider or plan a visit, and we say which at the scoping stage."
       ]
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you provide on-site support in Zurich?",
-      "a": "Support is remote, during Swiss working hours. For hardware tasks we work with your data centre or facilities provider, or plan a visit, and agree which before the project begins. We do not have staff based in Zurich."
+      "a": "Support is remote, with response times and contact routes agreed in writing. For hardware tasks we work with your data centre or facilities provider, or plan a visit to Zurich, and agree which before the project begins."
     }
   ],
   "related": [

@@ -87,9 +87,9 @@
       ]
     },
     {
-      "h": "Remote delivery, aligned with Amsterdam hours",
+      "h": "How launch and handover work",
       "p": [
-        "22 Signals is registered in London and has no office in Amsterdam. Design reviews, stand-ups and launches all happen online, one hour behind your time, so they fit the Dutch working day. We travel to Amsterdam for a kick-off workshop when a project is large enough to benefit from one."
+        "Before launch we check redirects, forms, consent banners and page speed on the staging site, and you sign off each item in writing. After go-live your team gets a short training session on editing pages, plus a written guide covering hosting, backups and who to contact. Design reviews are booked at times that suit your team, and updates sit in one shared channel."
       ]
     }
   ],
@@ -124,7 +124,7 @@
     },
     {
       "q": "Can you meet us in Amsterdam?",
-      "a": "We work remotely and have no office in the city, but we travel for workshops on larger projects."
+      "a": "Yes, on larger projects a kick-off workshop in Amsterdam can be part of the plan. Most reviews run on video calls booked at times that suit you."
     }
   ],
   "related": [

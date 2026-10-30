@@ -5,10 +5,10 @@
   "city": "New York",
   "citySlug": "new-york",
   "title": "AI and Digital Consulting in New York | 22 Signals",
-  "description": "AI and digital consulting for New York companies: AI, cloud, data, web, apps, SEO, ads, video and 3D from one accountable team, working in your morning hours.",
+  "description": "AI and digital consulting for New York companies: AI, cloud, data, web, apps, SEO, ads, video and 3D from one accountable team, with every date in writing.",
   "eyebrow": "22 Signals in New York",
   "h1": "AI and digital consulting for New York companies, with one accountable lead",
-  "intro": "22 Signals provides the AI and digital consulting New York companies use when they want one team instead of ten suppliers: AI, cloud, data, websites, apps, SEO, paid media, video and 3D. A single Signal Lead owns your project from London, meetings land in your morning, and every date we agree is written down.",
+  "intro": "22 Signals provides the AI and digital consulting New York companies use when they want one team instead of ten suppliers: AI, cloud, data, websites, apps, SEO, paid media, video and 3D. A single Signal Lead owns your project, updates go into one shared channel, and every date we agree is written down.",
   "sections": [
     {
       "h": "Why New York companies hire one team",
@@ -49,10 +49,10 @@
       ]
     },
     {
-      "h": "How we work with New York from London",
+      "h": "How a New York engagement runs",
       "p": [
-        "We work with New York companies remotely from our head office in London, with specialist teams across several time zones, and we have worked with more than 30 companies across them. New York runs five hours behind London for most of the year (four for a few weeks in spring and autumn, when the clocks change on different dates). Calls between 9:00 and 13:00 Eastern sit inside our working day, and work you hand over in the afternoon often comes back by the next morning.",
-        "We have no office or staff in the city, and we will not pretend otherwise. When a workshop, a site visit or a launch needs us in the room, we come to New York when the project needs it."
+        "We work with New York companies remotely, with specialist teams behind one Signal Lead, and we have worked with more than 30 companies so far. A project starts with a 15-minute call, then discovery and a written roadmap within 5 to 7 days. Calls are booked at times that suit your team, and anything agreed on a call is confirmed in writing.",
+        "When a workshop, a site visit or a launch needs us in the room, we come to New York and plan that into the scope."
       ]
     },
     {
@@ -70,8 +70,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in New York?",
-      "a": "No. Our head office is in London and our specialist teams work across several time zones. We serve New York companies remotely, with calls in your morning and written schedules, and we travel to the city when a project needs someone in the room."
+      "q": "What do we get after the first call?",
+      "a": "A short summary of what we heard and, after discovery, a written roadmap within 5 to 7 days. It lists the problems in order of value, the work we recommend, who owns each piece and the dates we commit to. You can take it to your leadership team before signing anything."
     },
     {
       "q": "What kinds of New York companies do you work with?",
@@ -82,8 +82,8 @@
       "a": "Yes, because each area has its own specialists, and one Signal Lead coordinates them for you. You get one plan and one point of contact, while the people doing the cloud work, the ad campaigns and the animation are each experts in that field."
     },
     {
-      "q": "How do you handle the time difference with New York?",
-      "a": "London is usually five hours ahead, so your morning overlaps our afternoon. We hold calls then, keep written updates for everything else, and use the gap so that work requested late in your day is often ready when you start the next one."
+      "q": "How do you keep us updated during a project?",
+      "a": "Your Signal Lead posts progress in one shared channel and sends a written report each month covering what shipped, what the numbers show and what comes next. Review calls are booked at times that suit you, and nothing reaches your team until it has been checked internally."
     },
     {
       "q": "How much do your services cost?",
@@ -100,6 +100,11 @@
   ],
   "keywords": {
     "primary": "ai and digital consulting new york",
-    "secondary": ["ai consulting new york", "digital agency new york", "cloud consulting new york", "new york business solutions company"]
+    "secondary": [
+      "ai consulting new york",
+      "digital agency new york",
+      "cloud consulting new york",
+      "new york business solutions company"
+    ]
   }
 }

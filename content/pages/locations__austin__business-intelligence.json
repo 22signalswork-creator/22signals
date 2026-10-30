@@ -10,7 +10,7 @@
   "description": "Business intelligence consulting for Austin SaaS, hardware and healthcare firms: KPIs, pipelines and Power BI or Looker Studio dashboards leaders trust.",
   "eyebrow": "Business Intelligence and Data Analytics in Austin",
   "h1": "Business intelligence consulting for Austin companies that have outgrown spreadsheets",
-  "intro": "Our business intelligence and data analytics consulting helps Austin companies agree on the numbers that matter, connect the systems that hold them, and build dashboards people open every week. We design KPIs, pipelines and reports in Power BI, Looker Studio or Tableau, then automate the reporting, working remotely from London on Central Time hours.",
+  "intro": "Our business intelligence and data analytics consulting helps Austin companies agree on the numbers that matter, connect the systems that hold them, and build dashboards people open every week. We design KPIs, pipelines and reports in Power BI, Looker Studio or Tableau, then automate the reporting so it arrives without anyone rebuilding it.",
   "sections": [
     {
       "h": "Three versions of the same number",
@@ -67,13 +67,13 @@
     {
       "h": "Proof",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and almost every engagement, whatever it started as, ends up needing reporting that people believe. That is why definitions come first in our data work: every KPI is written down, with its source and owner, before a single chart is built for an Austin client."
+        "We have worked with more than 30 companies, and almost every engagement, whatever it started as, ends up needing reporting that people believe. That is why definitions come first in our data work: every KPI is written down, with its source and owner, before a single chart is built for an Austin client."
       ]
     },
     {
       "h": "Working with us from Austin",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. KPI workshops and dashboard reviews happen in your morning, which is our afternoon. Pipeline work and data testing often run while Austin is offline, so you start the day with an update.",
+        "Austin projects start with a 15-minute call, then a discovery stage that ends in a written roadmap within five to seven days. KPI workshops and dashboard reviews are booked at times your team picks, and every pipeline is tested against your source systems before a dashboard reaches your desk.",
         "Access to your systems is set up with named accounts and least privilege, and removed at the end of the engagement. If a workshop with finance and operations leaders would go better in person, we plan a visit for that stage."
       ]
     },
@@ -119,7 +119,7 @@
     },
     {
       "q": "Do you meet Austin clients in person for workshops?",
-      "a": "Most workshops run well on video during the Central Time morning, and that is how we usually work with Austin clients. If a KPI workshop with several leaders would clearly benefit from being in the same room, we plan a visit for that stage when the project needs it. We do not have an Austin office."
+      "a": "Most workshops run well on video, and that is how we usually work with Austin clients. If a KPI workshop with several leaders would clearly benefit from being in the same room, we plan a visit for that stage and put the date in the scope."
     }
   ],
   "related": [

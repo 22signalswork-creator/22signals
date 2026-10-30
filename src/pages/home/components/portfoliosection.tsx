@@ -111,7 +111,7 @@ const PortfolioSection = () => {
     dots: false,
     infinite: true,
     speed: 700,
-    slidesToShow: isMobile ? 1 : 2,
+    slidesToShow: 2,
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
@@ -119,7 +119,7 @@ const PortfolioSection = () => {
     adaptiveHeight: false,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 1, arrows: false, dots: true } },
+      { breakpoint: 768, settings: { slidesToShow: 2, slidesToScroll: 2, arrows: false, dots: true } },
     ],
   };
 

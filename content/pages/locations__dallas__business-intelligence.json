@@ -61,14 +61,14 @@
     {
       "h": "Our track record",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and reporting is part of almost every engagement: our search, ads and automation work all ends in a dashboard a client checks every week. We do not name clients, but we are happy to walk through how a reporting setup was designed on a call."
+        "We have worked with more than 30 companies, and reporting is part of almost every engagement: our search, ads and automation work all ends in a dashboard a client checks every week. We do not name clients, but we are happy to walk through how a reporting setup was designed on a call."
       ]
     },
     {
-      "h": "Working remotely with a Dallas data team",
+      "h": "How we work with a Dallas data team",
       "p": [
-        "We run Dallas analytics projects remotely from London. Central Time is six hours behind us, so we use the Dallas morning for KPI workshops and dashboard reviews, and the London evening for pipeline runs and data checks. Your team often wakes up to a refreshed model and a short note on what changed.",
-        "Access goes through your own accounts with named users and multi-factor login. When a kickoff or training day works better in person, we plan a visit to Dallas when the project needs it."
+        "KPI workshops and dashboard reviews are booked at times that suit your finance and operations leads. Between those sessions, pipeline runs and data checks are scheduled and monitored, and each refresh is checked before anyone relies on it. Your team gets a short written note on what changed and why.",
+        "Access goes through your own accounts with named users and multi-factor login. When a kickoff or training day works better in person, we build it into the plan."
       ]
     },
     {
@@ -109,8 +109,8 @@
       "a": "We tag personal data as we build, so when a customer asks to see or delete their data under the Texas Data Privacy and Security Act, your team can find every copy. We keep personal data out of dashboards that do not need it and restrict access by role. Legal judgments stay with your counsel."
     },
     {
-      "q": "Do you meet Dallas clients in person?",
-      "a": "Our analytics work is delivered remotely from London, with meeting hours that overlap Central Time. KPI workshops, reviews and training run well over video. If a kickoff or a training day would work better in person, we plan a visit to Dallas when the project needs it."
+      "q": "What does a first BI project usually include?",
+      "a": "Usually one area of the business, such as weekly sales and margin or operations performance. We agree the KPIs and their definitions, connect the systems that feed them, build the data model and deliver a first set of dashboards with a short guide for the people who use them. Wider rollout comes once that first set is trusted."
     },
     {
       "q": "Is business intelligence only for large Dallas companies?",

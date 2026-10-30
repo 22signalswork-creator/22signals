@@ -73,9 +73,9 @@
       ]
     },
     {
-      "h": "Remote delivery from London",
+      "h": "How delivery works for Miami clients",
       "p": [
-        "We work with Miami clients remotely from our London head office. Being five hours ahead is useful for cloud work: maintenance and changes happen in the early hours of your day, before Miami customers are online, and review calls fall in your morning.",
+        "We work with Miami clients remotely, inside your cloud accounts. Maintenance and changes run in windows you approve in writing, timed to avoid your busiest hours, and review calls are booked at times that suit your team.",
         "One Signal Lead owns your account and is the person you call. Cloud engineers and security specialists work behind them. Most cloud consulting Miami projects never need us in the room, because the work happens inside your accounts. If a project does need us on site, we arrange a visit when the project needs it."
       ]
     },
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you work with Miami companies in person?",
-      "a": "Our team works remotely from London, five hours ahead of Miami, and cloud work suits that well. Changes can be made before your business day starts, with calls in your morning. If something needs us on site, such as a server room move, we plan a visit when the project needs it."
+      "a": "Mostly remotely, because cloud work happens inside your accounts. Changes run in agreed windows and calls are booked around your team. If something needs us on site, such as a server room move, we plan a visit when the project needs it."
     },
     {
       "q": "How much can a cost review save?",
@@ -129,6 +129,11 @@
   ],
   "keywords": {
     "primary": "cloud consulting miami",
-    "secondary": ["cloud consultant miami", "aws consulting miami", "cloud services miami", "managed cloud miami"]
+    "secondary": [
+      "cloud consultant miami",
+      "aws consulting miami",
+      "cloud services miami",
+      "managed cloud miami"
+    ]
   }
 }

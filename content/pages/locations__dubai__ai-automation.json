@@ -15,7 +15,7 @@
     {
       "h": "The work that piles up in a Dubai business",
       "p": [
-        "Walk through almost any Dubai company at 9am and you will find the same backlog. A brokerage has forty WhatsApp enquiries from overnight, half of them asking the same three questions about payment plans. A restaurant group has reservation requests spread across Instagram, WhatsApp and a booking widget. A freight forwarder near Jebel Ali has a sales coordinator retyping invoice lines into a spreadsheet. A retail chain has a manager in every mall sending sales figures by message so someone at head office can paste them together.",
+        "Walk through almost any Dubai company at 9am and you will find the same backlog. A brokerage has forty unanswered WhatsApp enquiries, half of them asking the same three questions about payment plans. A restaurant group has reservation requests spread across Instagram, WhatsApp and a booking widget. A freight forwarder near Jebel Ali has a sales coordinator retyping invoice lines into a spreadsheet. A retail chain has a manager in every mall sending sales figures by message so someone at head office can paste them together.",
         "None of this needs a person's judgement most of the time. All of it eats the hours of people you hired for their judgement."
       ]
     },
@@ -75,9 +75,9 @@
       ]
     },
     {
-      "h": "Working with a London team from Dubai",
+      "h": "Planning the work with your Dubai team",
       "p": [
-        "We serve Dubai businesses from London, on-site when the project needs it. Gulf Standard Time sits four hours ahead of London in winter and three in summer, which leaves plenty of shared working hours from Monday to Friday. Testing a WhatsApp flow does not need anyone in the room, but mapping a warehouse or a front desk sometimes does, and we plan those visits in the scope when they add value."
+        "Most automation work runs over video and screen share. Testing a WhatsApp flow does not need anyone in the room, but mapping a warehouse or a front desk sometimes does, and we plan those sessions in the scope when they add value. Review calls are booked at times that suit your staff, and every flow is tested by our team before your customers see it."
       ]
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "q": "Do you need to visit our Dubai premises?",
-      "a": "Usually not. Most automation work happens over video and screen share during shared GST and London hours. If understanding the process means seeing a warehouse floor, a clinic reception or a sales gallery in person, we plan a visit and include it in the written scope from the start."
+      "a": "Usually not. Most automation work happens over video and screen share. If understanding the process means seeing a warehouse floor, a clinic reception or a sales gallery in person, we include that session in the written scope from the start."
     },
     {
       "q": "How quickly can a first automation go live?",
@@ -133,6 +133,11 @@
   ],
   "keywords": {
     "primary": "ai automation agency dubai",
-    "secondary": ["ai agency dubai", "ai automation dubai", "whatsapp automation dubai", "ai automation company"]
+    "secondary": [
+      "ai agency dubai",
+      "ai automation dubai",
+      "whatsapp automation dubai",
+      "ai automation company"
+    ]
   }
 }

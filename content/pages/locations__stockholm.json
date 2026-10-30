@@ -5,10 +5,10 @@
   "city": "Stockholm",
   "citySlug": "stockholm",
   "title": "Digital Agency for Stockholm Companies | 22 Signals",
-  "description": "AI, data, cloud, web, apps, SEO and GEO, paid media, video and 3D for Stockholm companies, delivered remotely in English on CET-friendly hours.",
+  "description": "AI, data, cloud, web, apps, SEO and GEO, paid media, video and 3D for Stockholm companies, delivered remotely in English to agreed dates.",
   "eyebrow": "Stockholm",
   "h1": "22 Signals for Stockholm: one team for tech, growth and creative work",
-  "intro": "22 Signals works with Stockholm companies that want AI, data, cloud, websites, apps, search, paid media, video and 3D from one team. We are a global business solutions company registered in London, one hour behind Stockholm. Work runs remotely in English, with travel to Stockholm when a project needs people in the room.",
+  "intro": "22 Signals works with Stockholm companies that want AI, data, cloud, websites, apps, search, paid media, video and 3D from one team. We are a global business solutions company registered in London. Work runs remotely in English, with one Signal Lead and every date agreed in writing.",
   "sections": [
     {
       "h": "Why a Stockholm company would look outside Sweden",
@@ -70,10 +70,10 @@
       ]
     },
     {
-      "h": "Working across the Stockholm and London time zones",
+      "h": "How a Stockholm project runs",
       "p": [
-        "Stockholm runs on Central European Time, one hour ahead of London all year because both cities change their clocks on the same dates. A 09:00 start in Stockholm is 08:00 for us, so your whole working day overlaps with ours. Calls, reviews and launch windows sit inside normal office hours on both sides.",
-        "We do not have an office in Stockholm. Most work happens through shared documents, short video calls and a weekly written update. For kick-offs, workshops, filming or a launch that needs people on site, we travel."
+        "Most projects start with a 15-minute call, then discovery and a written roadmap within 5 to 7 days. The roadmap names the owner on each side, the dates we commit to and how often we report. Calls and reviews are set at times that work for your team, and launch windows are agreed in writing.",
+        "Most work happens through shared documents, short video calls and a weekly written update. For kick-offs, workshops, filming or a launch that needs people on site, we plan a visit to Stockholm and write it into the scope."
       ]
     },
     {
@@ -85,8 +85,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in Stockholm?",
-      "a": "No. We work with Stockholm clients remotely, from one hour behind CET. We travel to Stockholm for workshops, filming or launches when the project calls for it, and we agree that in the plan."
+      "q": "What does a first project with 22 Signals usually cover?",
+      "a": "Usually one clear piece of work: a website rebuild, an SEO and GEO programme, an automation pilot or a video series. It starts with discovery, a written roadmap and agreed dates. Once the first piece is running, Stockholm clients often add related work through the same Signal Lead."
     },
     {
       "q": "Do you work in Swedish?",

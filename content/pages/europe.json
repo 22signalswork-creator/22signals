@@ -51,9 +51,9 @@
       ]
     },
     {
-      "h": "Working hours that line up with yours",
+      "h": "What to bring to the first call",
       "p": [
-        "London is one hour behind Paris, Berlin, Madrid, Milan, Amsterdam, Stockholm and Zurich for almost the whole year, because the UK and the EU change their clocks on the same weekends. Dublin keeps the same time as London. In practice that means a full shared working day: a 9:00 call in Berlin is 8:00 in London, and an afternoon review in Madrid lands in our afternoon too.",
+        "Most European projects start with a 15-minute call about the problem you want solved. It helps to bring three things: the numbers you track today, a list of the systems and suppliers involved, and the date that matters to you, such as a launch, a trade fair or a board meeting. From there we run discovery and send a written roadmap within 5 to 7 days. If something is missing, such as access to an analytics account, we say so on the call rather than a week later.",
         "We hold kick-off workshops, weekly reviews and sign-off calls on video at times that suit your team. Updates arrive in writing every week, and you can see work in progress on a shared board rather than waiting for a final reveal."
       ]
     },
@@ -102,8 +102,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have offices in Europe?",
-      "a": "No. We work with European companies remotely, on video calls that fall inside your working day. London is one hour behind most of the EU and on the same time as Dublin, so our hours overlap almost completely. We arrange in-person sessions when a project needs one."
+      "q": "How quickly can a European project start?",
+      "a": "Usually soon after the first call. A 15-minute conversation is followed by discovery and a written roadmap in 5 to 7 days. Once you approve the scope, the dates in it are the dates we work to, and progress is posted in one shared channel so nobody has to chase email threads."
     },
     {
       "q": "How do you handle GDPR?",
@@ -119,7 +119,7 @@
     },
     {
       "q": "Do you work outside the cities listed on this page?",
-      "a": "Yes. The city pages cover our main markets, but we work with companies across the rest of Europe too. The process, the paperwork and the time zone fit are the same wherever you are."
+      "a": "Yes. The city pages cover our main markets, but we work with companies across the rest of Europe too. The process, the paperwork and the written scope are the same wherever you are."
     },
     {
       "q": "What does it cost to work with 22 Signals?",

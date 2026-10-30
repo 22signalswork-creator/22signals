@@ -63,7 +63,7 @@
     {
       "h": "Working with us from San Francisco",
       "p": [
-        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. London is usually eight hours ahead, so a 9 a.m. call in the city is 5 p.m. for us. Workshops run in that morning window, and written reviews, drafts and pilot code arrive in your shared channel overnight. If a workshop works better in person, we plan a visit when the project needs it."
+        "We work with San Francisco companies remotely. Workshops are booked at times that suit your team, and written reviews, drafts and pilot code arrive in your shared channel on the dates agreed in the plan. If a workshop works better in person, we plan a visit when the project needs it."
       ]
     },
     {
@@ -89,8 +89,8 @@
       "a": "Because licenses are not the same as results. Most San Francisco teams we speak to have tools everywhere and no shared view of what works. We find the three or four uses that matter, connect them to the right data, measure them and write the rules, so the spend turns into work that gets done faster and checked properly."
     },
     {
-      "q": "Do you have AI consultants based in San Francisco?",
-      "a": "No. We work from London with teams across several time zones, and keep live meetings in the Pacific morning, which is late afternoon in London. Reviews and pilot code move forward while the Bay Area sleeps. When a workshop works better face to face, we plan a visit for it."
+      "q": "What should we have ready before an AI consulting kickoff?",
+      "a": "A short list of the processes you think AI could help, the name of an owner for each, and early access to the systems involved. Your security and legal leads should know the project is starting, since they will review the rules we write. Any existing ChatGPT or Copilot usage policy is useful too."
     },
     {
       "q": "How do you handle the CCPA and the new automated decision-making rules?",

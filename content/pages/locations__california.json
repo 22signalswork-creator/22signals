@@ -45,7 +45,7 @@
     {
       "h": "Working with us from California",
       "p": [
-        "We work with California companies remotely from our head office in London. Los Angeles and San Francisco are on Pacific Time, eight hours behind London, so we hold calls in your morning, which is our late afternoon and evening, and use the hours in between to build. The gap can help: questions asked at the end of your day often have answers waiting the next morning.",
+        "California projects start with a 15-minute call and a short discovery, followed by a written roadmap in 5 to 7 days. After that, one shared channel holds updates, decisions and files, and review calls are booked at times that suit your team. Every date we agree goes in writing, so you always know what is due next.",
         "When the project needs it, such as a leadership workshop or a shoot, we come on site. Otherwise everything runs through video calls, a shared plan and a weekly written update."
       ]
     },
@@ -65,8 +65,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in California?",
-      "a": "No. We work with California companies remotely from our head office in London, with meeting hours that overlap Pacific Time. California is eight hours behind London, so calls usually sit in your morning. We come on site when the project needs it, for example for a workshop or a production day."
+      "q": "What should we prepare before the first call?",
+      "a": "Very little. A short note on the process you want to improve, the tools your California team uses today and any AI pilots you have already tried is enough. On the call we ask about goals and constraints, and if there is a fit we follow up with a discovery plan and dates in writing. We come on site when the project needs it, for example for a workshop or a production day."
     },
     {
       "q": "How do you handle CCPA and CPRA in AI projects?",
@@ -99,6 +99,12 @@
   ],
   "keywords": {
     "primary": "ai consulting california",
-    "secondary": ["ai consultant california", "ai company california", "ai consulting los angeles", "ai consulting san francisco", "ccpa ai compliance"]
+    "secondary": [
+      "ai consultant california",
+      "ai company california",
+      "ai consulting los angeles",
+      "ai consulting san francisco",
+      "ccpa ai compliance"
+    ]
   }
 }

@@ -150,34 +150,34 @@ const Tabs = () => {
         </div>
       </div>
 
-      <div className="tab-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+      <div className="tab-content blog-grid grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-10 mt-10">
         {filtered.map((article, idx) => {
           const imgSrc = article.image_url || article.bigImage || Bigimg1;
           return (
             <FadeIn key={article.id ?? idx} delay={idx * 0.1}>
               <Cardhovereffect>
-                <div className="bg-white rounded-[24px] shadow-lg overflow-hidden flex flex-col w-full h-full">
-                  <div className="w-full h-[260px] overflow-hidden rounded-t-[24px]">
+                <div className="bg-white rounded-[16px] md:rounded-[24px] shadow-lg overflow-hidden flex flex-col w-full h-full">
+                  <div className="w-full h-[120px] md:h-[260px] overflow-hidden rounded-t-[16px] md:rounded-t-[24px]">
                     <img
                       src={imgSrc}
                       alt={article.title}
                       className="w-full h-full object-cover block"
                     />
                   </div>
-                  <div className="p-6 flex flex-col gap-4 flex-grow">
-                    <div>
+                  <div className="p-3 md:p-6 flex flex-col gap-2 md:gap-4 flex-grow">
+                    <div className="hidden md:block">
                       <span className="services-badge-secondry">
                         {article.category}
                       </span>
                     </div>
-                    <h1 className="tab-card-heading text-[24px] md:text-[28px]">
+                    <h2 className="tab-card-heading text-[15px] md:text-[28px] leading-snug">
                       <span className="text-blue-600">
                         {article.title.split(" ")[0]}
                       </span>{" "}
                       {article.title.split(" ").slice(1).join(" ")}
-                    </h1>
-                    <p className="blog-text flex-grow">{article.description}</p>
-                    <div className="flex items-center gap-4 text-gray-500 text-sm">
+                    </h2>
+                    <p className="blog-text flex-grow hidden md:block">{article.description}</p>
+                    <div className="hidden md:flex items-center gap-4 text-gray-500 text-sm">
                       <span className="text-[16px] font-thin flex items-center gap-2">
                         <img src={Calendar} alt="" className="w-[18px] h-[18px]" />
                         {formatDate(article.published_at)}
@@ -187,8 +187,8 @@ const Tabs = () => {
                         {article.read_time ?? 6} min read
                       </span>
                     </div>
-                    <hr style={{ borderColor: "#BCBCBC" }} />
-                    <div className="flex justify-between items-center pt-2">
+                    <hr className="hidden md:block" style={{ borderColor: "#BCBCBC" }} />
+                    <div className="hidden md:flex justify-between items-center pt-2">
                       <p className="blog-text">Written by: {article.author}</p>
                       <img src={Blogarrow} alt="arrow" className="w-5 h-5" />
                     </div>

@@ -5,10 +5,10 @@
   "city": "Birmingham",
   "citySlug": "birmingham",
   "title": "Digital Agency Birmingham: AI, Web, Cloud | 22 Signals",
-  "description": "AI, cloud, data, web, search, ads and video for established Birmingham companies, run by one accountable lead from London. Same time zone, 80 minutes away.",
+  "description": "AI, cloud, data, web, search, ads and video for established Birmingham companies, run by one accountable lead with specialist teams behind them.",
   "eyebrow": "22 Signals in Birmingham",
   "h1": "A digital agency for Birmingham companies: AI, cloud, web and growth",
-  "intro": "22 Signals is a London business solutions company that Birmingham firms hire for AI, cloud, data, web and app builds, search, paid media and video. You get one accountable lead and specialist teams behind them, in your time zone and about 80 minutes away by train, so you deal with one team instead of ten.",
+  "intro": "22 Signals is a business solutions company that Birmingham firms hire for AI, cloud, data, web and app builds, search, paid media and video. You get one accountable lead with specialist teams behind them, a written roadmap within 5 to 7 days of discovery and agreed dates for every stage, so you deal with one team instead of ten.",
   "sections": [
     {
       "h": "Who we work with in Birmingham",
@@ -18,9 +18,9 @@
       ]
     },
     {
-      "h": "How we work with Birmingham companies from London",
+      "h": "How we work with Birmingham companies",
       "p": [
-        "We are a London-based digital agency Birmingham companies work with remotely: there is no Birmingham office, and we will not pretend otherwise. Birmingham is on the same clock (GMT in winter, BST in summer), so your working day is our working day, and a train from Euston to New Street takes about 80 minutes.",
+        "Every Birmingham project starts with a 15-minute call to check fit, then a short discovery. Within 5 to 7 days you get a written roadmap: what we will build or fix, in what order, who owns each part and when it lands. You approve it before any build work starts, and it becomes the document we report against.",
         "Day to day, the work runs over video calls, shared documents and a weekly written update. When a project needs us in the room, for a discovery workshop on a factory floor, a shoot, or a launch meeting with your board, we come to Birmingham. We agree those visits when the project needs them rather than promising a fixed schedule."
       ]
     },
@@ -75,7 +75,7 @@
     {
       "h": "What we have done",
       "p": [
-        "We have worked with more than 30 companies across several time zones. Examples we can describe without naming clients include a client portal with documents and payments for a US law firm, monthly SEO for US personal injury firms with every statute checked, and the business and marketing plan to take a US neurotech device to market. None are in Birmingham. They show how we work with regulated, high-trust businesses, which describes much of Birmingham's economy."
+        "We have worked with more than 30 companies. Examples we can describe without naming clients include a client portal with documents and payments for a US law firm, monthly SEO for US personal injury firms with every statute checked, and the business and marketing plan to take a US neurotech device to market. None are in Birmingham. They show how we work with regulated, high-trust businesses, which describes much of Birmingham's economy."
       ]
     },
     {
@@ -93,8 +93,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in Birmingham?",
-      "a": "No. Our head office is in London and we work with Birmingham companies from there. We share your time zone, so calls happen in normal working hours, and Birmingham is about 80 minutes from Euston by train. When a project needs us on site for workshops, shoots or launches, we come to you, agreed project by project."
+      "q": "What should we prepare before the first call?",
+      "a": "Very little. A short note on the problem you want solved, the systems you use today and any deadline you are working to is enough. If you have reports, a current website or ad account access, those help in discovery, but we ask for them later. Birmingham teams often bring the person who will own the work day to day, which saves a round of questions."
     },
     {
       "q": "Is 22 Signals a digital agency Birmingham clients can meet in person?",
@@ -127,6 +127,11 @@
   ],
   "keywords": {
     "primary": "digital agency birmingham",
-    "secondary": ["birmingham ai agency", "birmingham web and marketing agency", "ai consultancy birmingham", "web development company birmingham"]
+    "secondary": [
+      "birmingham ai agency",
+      "birmingham web and marketing agency",
+      "ai consultancy birmingham",
+      "web development company birmingham"
+    ]
   }
 }

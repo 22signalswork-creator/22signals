@@ -66,13 +66,13 @@
     {
       "h": "Experience behind the work",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and rendering often sits inside bigger projects: a product launch, a website rebuild or a paid campaign. That means we think about where an image will be used, at what size and next to what text, before we render it."
+        "We have worked with more than 30 companies, and rendering often sits inside bigger projects: a product launch, a website rebuild or a paid campaign. That means we think about where an image will be used, at what size and next to what text, before we render it."
       ]
     },
     {
       "h": "Working with us from Houston",
       "p": [
-        "3D rendering: Houston projects suit remote delivery well, since every review happens on screen. We work with Houston clients from London, with meeting hours that overlap Central Time. With the six-hour gap, test renders sent at the end of our day are waiting for your engineers when they start theirs, and comments sent back by your afternoon are worked on the next morning London time. Your Signal Lead manages reviews and dates. If we need to see a physical product or a site, we arrange a visit when the project needs it."
+        "3D rendering: Houston projects suit remote delivery well, since every review happens on screen. Test renders go to your engineers through a shared review tool, where they can mark up a flange or a valve directly on the image. Each revision round has a date in the written schedule, and review calls are booked at times that suit your team. Your Signal Lead manages reviews and dates. If we need to see a physical product or a site, we arrange a visit when the project needs it."
       ]
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "q": "Do you work with Houston companies in person?",
-      "a": "We deliver remotely from London, which suits rendering well because everything is reviewed on screen. If we need to see a physical product, such as unusual finishes or wear, or visit a site for an architectural project, we arrange it when the project needs it. We do not have a Houston office."
+      "a": "Rendering suits remote delivery well because everything is reviewed on screen. If we need to see a physical product, such as unusual finishes or wear, or visit a site for an architectural project, we arrange it when the project needs it and put the visit in the scope."
     },
     {
       "q": "How long do product renders take?",
@@ -121,6 +121,20 @@
       "a": "Yes, and that is one of the best reasons to render. The same models can be turned into product animations, exploded-view videos, interactive web viewers and augmented reality files. Planning these at the start avoids rebuilding models later and keeps every image and video consistent."
     }
   ],
-  "related": ["/locations/houston", "/services/3d-rendering", "/locations/houston/video-animation", "/services/3d-animation", "/locations/dallas/3d-rendering"],
-  "keywords": { "primary": "3d rendering houston", "secondary": ["3d rendering services houston", "product rendering houston", "architectural rendering houston", "3d visualization houston"] }
+  "related": [
+    "/locations/houston",
+    "/services/3d-rendering",
+    "/locations/houston/video-animation",
+    "/services/3d-animation",
+    "/locations/dallas/3d-rendering"
+  ],
+  "keywords": {
+    "primary": "3d rendering houston",
+    "secondary": [
+      "3d rendering services houston",
+      "product rendering houston",
+      "architectural rendering houston",
+      "3d visualization houston"
+    ]
+  }
 }

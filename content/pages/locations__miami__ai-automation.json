@@ -75,9 +75,9 @@
       ]
     },
     {
-      "h": "Working with a London team from Miami",
+      "h": "How changes go live without disrupting your team",
       "p": [
-        "We deliver our AI automation Miami projects remotely from London. Miami is five hours behind, so when your day starts at 9am, our team has already put in a morning's work. Live calls sit comfortably in the Miami morning, and automation changes are deployed outside your busiest hours.",
+        "We test every AI automation Miami clients sign off on against real sample messages and documents, in English and Spanish, before it goes live. Changes are deployed outside your busiest hours, and each release comes with a short written note on what changed and how to roll it back. Live calls are booked at times that suit your team.",
         "One Signal Lead owns the project and is the person you message. If your operations team wants a walkthrough in person, we arrange a visit when the project needs it."
       ]
     },
@@ -111,8 +111,8 @@
       "a": "Yes. Customer-facing flows handle English, Spanish and mixed messages, which is how many Miami customers write. We test with real examples from your inbox before launch and set rules so anything sensitive or unclear goes to a person who speaks the customer's language."
     },
     {
-      "q": "How do you handle the time difference between London and Miami?",
-      "a": "London is five hours ahead of Miami. We schedule live calls in your morning, when both teams are working, and use the hours before Miami wakes up to build and test. Changes go live outside your busiest hours, and your Signal Lead sends a written update so nothing waits on a call."
+      "q": "How will we know what the automations are doing?",
+      "a": "Every automation keeps a log of what it read, what it changed and what it handed to a person. You get a simple dashboard for the queue and a regular written report from your Signal Lead with volumes, errors and anything that needs a decision, so nothing waits on a call."
     },
     {
       "q": "What happens if an automation breaks?",

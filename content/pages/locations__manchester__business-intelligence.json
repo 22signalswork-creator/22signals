@@ -63,14 +63,14 @@
     {
       "h": "Proof of delivery",
       "p": [
-        "We have managed over $1.5 million in projects across our client work. Reporting on that much delivery, across many teams and several time zones, is a BI problem in its own right, and we run our own operations on the same kind of dashboards and KPI discipline we build for clients."
+        "We have managed over $1.5 million in projects across our client work. Reporting on that much delivery, across many teams and clients, is a BI problem in its own right, and we run our own operations on the same kind of dashboards and KPI discipline we build for clients."
       ]
     },
     {
-      "h": "How we work with Manchester clients",
+      "h": "What we need from your team",
       "p": [
-        "We work from our London head office and do not have a Manchester office. BI projects run comfortably over video calls: we need access to your systems, a few hours of your team's time each week and someone who can answer what a field in the CRM really means. Manchester shares London's time zone, so working days line up exactly.",
-        "For KPI workshops, where getting the directors in one room saves weeks of email, your Signal Lead comes to Manchester in person when the project needs it. London to Manchester is about two hours by train."
+        "BI projects run comfortably over video calls. We need access to your systems, a few hours of your team's time each week and someone who can answer what a field in the CRM really means. Calls are booked at times that suit you, and progress is written up after each one.",
+        "For KPI workshops, where getting the directors in one room saves weeks of email, your Signal Lead comes to Manchester in person when the project needs it."
       ]
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "q": "Do you come to Manchester for workshops?",
-      "a": "When the project needs it, yes. KPI definition workshops with the leadership team are often quicker in person, and your Signal Lead travels up from London for them. Everyday building and reviews run remotely in normal UK working hours, which keeps the project moving between visits."
+      "a": "When the project needs it, yes. KPI definition workshops with the leadership team are often quicker in person, and your Signal Lead joins you in Manchester for them. Everyday building and reviews run over video calls, which keeps the project moving between visits."
     },
     {
       "q": "We are a small finance team. Is BI worth it for us?",

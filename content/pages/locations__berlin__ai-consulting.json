@@ -69,9 +69,9 @@
       ]
     },
     {
-      "h": "Remote delivery, on CET working hours",
+      "h": "What Berlin clients get in writing",
       "p": [
-        "We do not have a Berlin office. The work runs remotely, and because Berlin is only one hour ahead of London, our day matches yours almost hour for hour. Interviews with your staff happen by video call, documents are shared in your systems where you prefer, and progress reports arrive weekly.",
+        "The work runs by video call and in your own systems where you prefer. Interviews with your staff happen on calls booked at times that suit each team, documents are shared in one place, and a written progress report arrives every week. Each report lists what was done, what was decided and what is next, so your managing director and works council see the same picture.",
         "Some steps work better in person: a kick-off with the management team, a half-day on the shop floor watching how orders are actually processed, or a workshop with the works council. When that is true, we plan the visit into the scope so it is not a surprise later."
       ]
     },
@@ -83,7 +83,9 @@
     },
     {
       "h": "What shapes the cost",
-      "p": ["We price the AI consulting Berlin and German clients ask for once we have seen the processes and the data. These are the main factors:"],
+      "p": [
+        "We price the AI consulting Berlin and German clients ask for once we have seen the processes and the data. These are the main factors:"
+      ],
       "list": [
         "Number of departments and processes in scope",
         "State of the data and how many systems it sits in",

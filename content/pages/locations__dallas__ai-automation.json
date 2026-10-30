@@ -65,9 +65,9 @@
       ]
     },
     {
-      "h": "Remote delivery across six hours",
+      "h": "How each automation is checked before it reaches you",
       "p": [
-        "Our Dallas automation projects are run remotely from London, and the six-hour gap works in your favor. We test overnight runs while Dallas sleeps, and by the time your team logs on at 8:00 Central there is a short report of what ran, what failed and what needs a decision. Live reviews sit in the Dallas morning, which is our afternoon.",
+        "Every Dallas automation is run against real sample documents before your team sees it. We log what ran, what failed and what needs a decision, and send that as a short written report. Only when the error rate is agreed as acceptable does the tool go live, and live reviews are booked at times that suit your team.",
         "If a rollout needs someone in the building to train staff or watch the first live day, we plan that visit when the project needs it."
       ]
     },
@@ -110,7 +110,7 @@
     },
     {
       "q": "Do you work on site with Dallas teams?",
-      "a": "We work remotely from London with meeting hours that overlap Central Time, and most automation work does not need a visit. When a rollout benefits from training staff in person or being there on the first live day, we plan an on-site visit in Dallas when the project needs it."
+      "a": "Most automation work runs over video calls and a shared channel, and does not need a visit. When a rollout benefits from training staff in person or being there on the first live day, we plan an on-site visit in Dallas when the project needs it."
     },
     {
       "q": "How quickly can the first automation go live?",

@@ -75,7 +75,7 @@
     {
       "h": "Remote by design, on site when needed",
       "p": [
-        "Cloud work is largely remote, and we do not have an office in Milan. Planned changes run during agreed windows on Central European Time, one hour ahead of London, so our engineers are working the same hours as your team. When hardware is involved, such as retiring servers or replacing a firewall at a plant, we plan a visit to Milan or the site, or coordinate with your local IT provider, and say which at the planning stage."
+        "Cloud work is largely remote. Planned changes run during maintenance windows agreed with your team, with a written change note beforehand and a rollback ready. When hardware is involved, such as retiring servers or replacing a firewall at a plant, we plan a visit to Milan or the site, or coordinate with your local IT provider, and say which at the planning stage."
       ]
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you provide on-site support in Milan?",
-      "a": "Support is remote, during Italian working hours. For hardware tasks we plan a visit or work with your local IT provider. We have no staff based in Milan and will not suggest otherwise."
+      "a": "Support is remote, with response times and contact routes agreed in writing. For hardware tasks we plan a visit to Milan or work with your local IT provider, and say which at the planning stage."
     }
   ],
   "related": [

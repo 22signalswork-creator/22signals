@@ -68,7 +68,7 @@
     {
       "h": "Working with us from Dallas",
       "p": [
-        "We work with Dallas companies remotely from London, with meeting hours that overlap Central Time. Dallas runs six hours behind us, so a 10:00 workshop in Dallas starts at 16:00 in London. Discovery interviews, roadmap reviews and pilot demos all fit inside the Dallas morning.",
+        "Discovery interviews, roadmap reviews and pilot demos run on video and are booked at times that suit your team. Before each session you get a short written agenda, and afterwards a note of what was decided and who owns the next step. Your Signal Lead keeps one list of open questions, so nothing waits on a lost email.",
         "Between calls, progress goes into a shared tracker and a short written update each week. For a leadership workshop or a pilot launch where being in the room helps, we plan an on-site visit when the project needs it."
       ]
     },
@@ -95,7 +95,7 @@
   "faqs": [
     {
       "q": "Do you meet Dallas clients in person?",
-      "a": "Most of our AI consulting work happens remotely, with meeting hours that overlap Central Time. For a leadership workshop or a pilot launch where being in the room adds value, we plan an on-site visit in Dallas when the project needs it. We agree that in the scope rather than promising a fixed schedule."
+      "a": "Most of our AI consulting work happens remotely, over video and shared documents. For a leadership workshop or a pilot launch where being in the room adds value, we plan an on-site visit in Dallas. We agree that in the scope rather than promising a fixed schedule."
     },
     {
       "q": "How long does an AI readiness review take for a Dallas company?",
@@ -122,9 +122,21 @@
       "a": "No. Our main clients are established companies with roughly 5 to 500 staff, from Uptown professional services firms to logistics operators near DFW Airport. Smaller firms often get the fastest return, because one well-chosen pilot can change how a whole team works."
     }
   ],
-  "related": ["/locations/dallas", "/services/ai-consulting", "/locations/dallas/ai-automation", "/locations/houston/ai-consulting", "/locations/austin/ai-consulting", "/industries/professional-services"],
+  "related": [
+    "/locations/dallas",
+    "/services/ai-consulting",
+    "/locations/dallas/ai-automation",
+    "/locations/houston/ai-consulting",
+    "/locations/austin/ai-consulting",
+    "/industries/professional-services"
+  ],
   "keywords": {
     "primary": "ai consulting dallas",
-    "secondary": ["ai consultant dallas", "dallas ai consulting firm", "ai strategy dallas", "ai consulting dfw"]
+    "secondary": [
+      "ai consultant dallas",
+      "dallas ai consulting firm",
+      "ai strategy dallas",
+      "ai consulting dfw"
+    ]
   }
 }

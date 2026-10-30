@@ -58,9 +58,9 @@
       ]
     },
     {
-      "h": "Working across the London to LA time difference",
+      "h": "How data checks and reviews work",
       "p": [
-        "Data work suits remote delivery well. We are based in London, and our specialist teams across several time zones run pipeline builds and data checks while Los Angeles is asleep, 8 hours behind us. Your team arrives to refreshed data and a short written note on anything that changed or failed overnight. Review calls go in your morning. Ownership of the dashboards, data models and accounts is agreed in writing at the start, and you can open all of it at any time. Distance changes the meeting times, not the quality of the business intelligence. Los Angeles clients get the same Signal Lead, written dates and weekly progress note as clients in London."
+        "Data work suits a clear routine. Pipeline builds and data checks run on a schedule agreed with your team, and each refresh comes with a short written note on anything that changed or failed. Review calls are booked at times that suit you. Ownership of the dashboards, data models and accounts is agreed in writing at the start, and you can open all of it at any time. Results depend on the discipline of that routine and the quality of the business intelligence. Los Angeles clients get the same Signal Lead, written dates and weekly progress note as every client we work with."
       ]
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "q": "Do you meet in person in Los Angeles?",
-      "a": "We work remotely from London, with calls in your morning Pacific time, and BI projects run well that way. If a workshop with your leadership team would be better in a room, for example to agree KPI definitions, we plan a visit when the project needs it."
+      "a": "Yes, when it helps. BI projects run well through shared screens and documents, with calls booked at times that suit your team. If a workshop with your leadership team would be better in a room, for example to agree KPI definitions, we plan a visit to Los Angeles when the project needs it."
     },
     {
       "q": "Who owns the data and dashboards when the project ends?",

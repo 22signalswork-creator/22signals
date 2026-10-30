@@ -44,7 +44,7 @@
         "Universities, colleges and schools: admissions sections with deadlines, merit lists and fee information that can be updated without a developer",
         "Hospitals and clinics: doctor directories, timings, departments and appointment requests",
         "Real estate developers: project sites that show approval status, payment plans and progress photos for schemes around the Expressway and Gulberg Greens",
-        "Software exporters: portfolio and case pages written for overseas buyers, with the right time zone on the contact page",
+        "Software exporters: portfolio and case pages written for overseas buyers, with clear contact routes for each market",
         "Suppliers bidding for public and donor contracts: company profiles, capability statements and accessible pages that procurement teams can check quickly"
       ]
     },
@@ -58,7 +58,7 @@
     {
       "h": "Fast on the networks your visitors use",
       "p": [
-        "Most Islamabad visitors arrive on a phone, often on mobile data that slows down at peak hours. We keep pages light, compress images properly, avoid heavy scripts and test on mid-range Android phones over real mobile connections, not just office Wi-Fi in a London meeting room. Fast pages also rank better and convert more of the visitors you already have."
+        "Most Islamabad visitors arrive on a phone, often on mobile data that slows down at peak hours. We keep pages light, compress images properly, avoid heavy scripts and test on mid-range Android phones over real mobile connections, not just on fast office Wi-Fi. Fast pages also rank better and convert more of the visitors you already have."
       ]
     },
     {
@@ -71,10 +71,10 @@
       ]
     },
     {
-      "h": "Working with us from Islamabad",
+      "h": "Reviews, feedback and sign-off",
       "p": [
-        "We work with Islamabad and Rawalpindi organisations remotely from our head office in London. Reviews happen on video calls in the Islamabad afternoon: 11:00 London is 16:00 PKT in winter and 15:00 PKT in summer. Feedback goes straight onto the staging site as comments, so nothing gets lost in a WhatsApp thread.",
-        "If a content workshop or a training session for your editors would work better in person, we plan a visit to Islamabad when the project needs it."
+        "Reviews happen on video calls booked at times that suit your team. Feedback goes straight onto the staging site as comments, so nothing gets lost in a WhatsApp thread, and your Signal Lead confirms every change in writing.",
+        "If a content workshop or a training session for your editors would work better in person, we plan it in Islamabad as part of the scope."
       ]
     },
     {
@@ -120,8 +120,8 @@
       "a": "Yes. We start with an audit of the code, plugins, hosting and access, then fix anything urgent such as outdated software or shared passwords. You keep full ownership of the domain, hosting and code. We document everything as we go so you are never locked in to us either."
     },
     {
-      "q": "Do you meet clients in Islamabad?",
-      "a": "Our meetings are mainly video calls in the Islamabad afternoon, which overlap comfortably with London working hours. We do not have an office in Islamabad. When a workshop or training session would genuinely be better face to face, we arrange a visit when the project needs it and agree the dates in writing."
+      "q": "Will our team be able to update the site after launch?",
+      "a": "Yes. We set up the content management system around the pages your staff actually edit, then run a training session and leave a short written guide. Reports, news and team pages can be updated without a developer. For larger changes, we can stay on a monthly care plan if you want one."
     }
   ],
   "related": [

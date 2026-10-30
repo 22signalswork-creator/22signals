@@ -61,9 +61,9 @@
       ]
     },
     {
-      "h": "Working with a London team on a Lahore process",
+      "h": "How a Lahore automation project runs week to week",
       "p": [
-        "Our head office is in London and we work with Lahore companies remotely. Pakistan is five hours ahead of the UK in winter and four in summer, so a 09:30 London stand-up is 14:30 PKT for most of the year. That leaves time for your team to test changes the same afternoon. Your Signal Lead keeps one written list of what is built, what is next and the date for each.",
+        "We start with the process as your team actually does it, then build in short steps. Stand-ups and test sessions are booked at times that suit your staff, so changes can be tried on real work soon after they are made. Your Signal Lead keeps one written list of what is built, what is next and the date for each.",
         "Data stays in your accounts wherever possible. We follow the Prevention of Electronic Crimes Act 2016 on access to systems and plan for the draft Personal Data Protection Bill, so automations only see the data they need."
       ]
     },
@@ -87,7 +87,7 @@
   "faqs": [
     {
       "q": "What can AI automation do for a small or mid-sized Lahore company?",
-      "a": "It removes the retyping, checking and chasing that fills most office days. Typical first projects are logging WhatsApp enquiries into a sheet or CRM, drafting quotations for approval, matching payments to invoices and producing the owner's weekly report. Most Lahore teams see hours come back in the first process we automate."
+      "a": "It removes the retyping, checking and chasing that  fills most working days. Typical first projects are logging WhatsApp enquiries into a sheet or CRM, drafting quotations for approval, matching payments to invoices and producing the owner's weekly report. Most Lahore teams see hours come back in the first process we automate."
     },
     {
       "q": "Do you work with our existing software?",

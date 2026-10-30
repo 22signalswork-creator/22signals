@@ -57,12 +57,12 @@ const HomeProcess: React.FC = () => {
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
           {steps.map((s, i) => (
             <FadeIn key={s.id ?? s.step_number} delay={i * 0.12}>
               <Cardhovereffect>
                 <div
-                  className="relative h-full rounded-2xl p-6 md:p-8 overflow-hidden"
+                  className="relative h-full rounded-2xl p-4 md:p-8 overflow-hidden"
                   style={{
                     background:
                       "linear-gradient(135deg, rgba(50,95,236,0.08) 0%, rgba(255,255,255,0.02) 100%)",
@@ -71,7 +71,7 @@ const HomeProcess: React.FC = () => {
                 >
                   {/* Step number watermark */}
                   <div
-                    className="absolute -top-2 -right-2 text-[100px] md:text-[140px] font-bold leading-none select-none pointer-events-none"
+                    className="absolute -top-2 -right-2 text-[64px] md:text-[140px] font-bold leading-none select-none pointer-events-none"
                     style={{
                       background:
                         "linear-gradient(180deg, rgba(50,95,236,0.18) 0%, rgba(50,95,236,0) 100%)",
@@ -87,10 +87,10 @@ const HomeProcess: React.FC = () => {
                     <div className="text-blue-400 text-xs tracking-[0.25em] uppercase mb-3">
                       Step {s.step_number}
                     </div>
-                    <h3 className="text-2xl md:text-[28px] text-white font-medium mb-3">
+                    <h3 className="text-lg md:text-[28px] text-white font-medium mb-2 md:mb-3">
                       {s.title}
                     </h3>
-                    <p className="text-white/65 text-sm md:text-[15px] leading-relaxed">
+                    <p className="text-white/65 text-[13px] md:text-[15px] leading-relaxed">
                       {s.description}
                     </p>
                   </div>

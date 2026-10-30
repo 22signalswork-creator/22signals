@@ -71,9 +71,9 @@
       ]
     },
     {
-      "h": "Remote delivery for Chicago",
+      "h": "How Chicago app projects are run",
       "p": [
-        "We deliver app development. Chicago clients work with us remotely from London. Demos and sprint reviews happen in the Chicago morning, which is our afternoon. Test builds go to your team through TestFlight and Google Play testing, so feedback can come from the warehouse or the clinic without anyone being in the same room.",
+        "We deliver app development Chicago clients can follow week by week. Demos and sprint reviews are booked at times that suit your team, and every sprint has a written goal and date. Test builds go to your staff through TestFlight and Google Play testing, so feedback can come from the warehouse or the clinic without anyone being in the same room.",
         "When user testing works better in person, such as watching drivers use the app at a depot, we plan a trip to Chicago when the project needs it."
       ]
     },
@@ -114,7 +114,7 @@
     },
     {
       "q": "Do we need to meet in person?",
-      "a": "Usually not. We work from London and run demos and reviews on video in the Chicago morning, with test builds on your phone between reviews. If user testing needs us on site, at a depot, clinic or plant, we plan a visit to Chicago when the project needs it. We have no Chicago office."
+      "a": "Usually not. Demos and reviews run on video at times that suit you, with test builds on your phone between reviews and one shared channel for questions. If user testing needs us on site, at a depot, clinic or plant, we plan a visit to Chicago for that stage and put it in the scope."
     },
     {
       "q": "Who owns the code?",

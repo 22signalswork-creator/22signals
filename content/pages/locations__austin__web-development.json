@@ -10,7 +10,7 @@
   "description": "A web development company for Austin businesses: new sites, redesigns, migrations that keep your rankings, client portals and ongoing website care and security.",
   "eyebrow": "Web Development in Austin",
   "h1": "A web development company Austin businesses can hand the whole website to",
-  "intro": "22 Signals is a web development company for Austin businesses that need a site which ranks, converts and stays secure. We build new websites and redesigns, migrate platforms without losing search rankings, add client portals and e-commerce, and look after the site once it is live. Remote delivery from London, with meeting hours that overlap Central Time.",
+  "intro": "22 Signals is a web development company for Austin businesses that need a site which ranks, converts and stays secure. We build new websites and redesigns, migrate platforms without losing search rankings, add client portals and e-commerce, and look after the site once it is live. One Signal Lead owns the project, and every date is agreed in writing.",
   "sections": [
     {
       "h": "Most Austin websites have one of three problems",
@@ -72,10 +72,10 @@
       ]
     },
     {
-      "h": "Working with our team from Austin",
+      "h": "How reviews and sign-off work",
       "p": [
-        "We work with Austin companies remotely from London. Your mornings, Central Time, overlap with our afternoons, so design reviews and content sign-offs happen early in your day and changes are often ready by the next morning. Staging links, written feedback and a shared timeline keep everyone working from the same version.",
-        "If a content workshop or photography day needs someone in Austin, we plan it for that stage when the project needs it. Otherwise, a recorded walkthrough of your current site and sales process gives us most of what we need."
+        "Each stage has a clear review point. You see designs and pages on a staging link, leave comments directly on the page, and your Signal Lead turns them into a dated change list. Review calls are booked when your team can attend, and nothing goes live until you have signed off the final version.",
+        "If a content workshop or photography day needs someone in Austin, we plan it into the scope. Otherwise, a recorded walkthrough of your current site and sales process gives us most of what we need."
       ]
     },
     {
@@ -109,8 +109,8 @@
       "a": "It depends on who will run the site. WordPress suits teams that want a familiar editor and many plugins. A headless CMS suits marketing teams who want more design control. Custom builds suit portals, complex integrations or high traffic. We recommend the simplest platform that meets your needs and that your team can actually maintain."
     },
     {
-      "q": "Do you meet Austin clients in person during a website project?",
-      "a": "Most projects run remotely on video, during Central Time mornings, with staging links and written feedback. That keeps reviews quick and well documented. If a kickoff workshop or content day would benefit from being in the room, we plan a visit to Austin for that stage when the project needs it."
+      "q": "What content do we need to provide for the website?",
+      "a": "Less than most teams expect. We need your logo files, any brand guidelines, details of your services and the people who should appear on the site. We write or edit the page copy with you, plan the photos you need and move existing content across during a migration. Your Signal Lead keeps a shared list of what is still outstanding, so content never holds up the launch date."
     },
     {
       "q": "Can you look after our site after launch?",
@@ -131,6 +131,11 @@
   ],
   "keywords": {
     "primary": "web development company austin",
-    "secondary": ["austin web development", "website design austin tx", "web developer austin", "website redesign austin"]
+    "secondary": [
+      "austin web development",
+      "website design austin tx",
+      "web developer austin",
+      "website redesign austin"
+    ]
   }
 }

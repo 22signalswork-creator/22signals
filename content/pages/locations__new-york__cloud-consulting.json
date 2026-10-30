@@ -67,8 +67,8 @@
     {
       "h": "Working with us from New York",
       "p": [
-        "We work with New York companies remotely from London. Eastern Time is five hours behind London for most of the year, which suits cloud operations well. Maintenance windows that fall at 2:00 in Manhattan land in our working morning, so changes happen while your systems are quiet and with an engineer awake and watching. Alerts that fire before New York wakes up reach a person in London who can act.",
-        "Most AWS, Azure and Google Cloud workloads for New York companies run in US East regions in Virginia or Ohio, which keeps latency low for your users. Most of the cloud consulting New York clients ask us for is review and hardening work, which runs well remotely: we need read-only access to start, a list of system owners and a weekly call, not a desk in your building. Reviews and planning calls sit in your morning. We visit when the project needs it."
+        "Cloud operations for New York companies run on an agreed change calendar. Maintenance windows are set for when your systems are quiet, with an engineer watching each change and a rollback step written down before it starts. Monitoring alerts go to a named engineer, with response times agreed in writing.",
+        "Most AWS, Azure and Google Cloud workloads for New York companies run in US East regions in Virginia or Ohio, which keeps latency low for your users. Most of the cloud consulting New York clients ask us for is review and hardening work: we need read-only access to start, a list of system owners and a weekly call, not a desk in your building. Reviews and planning calls are booked at times that suit your team. We visit when the project needs it."
       ]
     },
     {
@@ -99,15 +99,15 @@
     },
     {
       "q": "Do you provide on-site support in New York?",
-      "a": "We work remotely from London, and nearly all cloud work is remote by nature. For a data center visit, a hardware decommission or a workshop with your leadership, we can come to New York when the project needs it, and we will agree that in writing at the plan stage."
+      "a": "Nearly all cloud work is done in the console and in code. For a data center visit, a hardware decommission or a workshop with your leadership, we can come to New York when the project needs it, and we will agree that in writing at the plan stage."
     },
     {
       "q": "How do you cut our cloud bill without risking uptime?",
       "a": "We start with waste that carries no risk: idle resources, unattached storage, oversized test environments. Then we right-size busy systems using real usage data, move cold data to lower-cost storage tiers and buy commitments only for steady workloads. Every change has a rollback plan and is scheduled outside your busy hours."
     },
     {
-      "q": "What happens if something breaks overnight in New York?",
-      "a": "If we manage your cloud, monitoring sends alerts to an engineer. Because London is ahead of New York, the early hours in Manhattan are working hours for us, so many issues are fixed before your team logs in. We agree response times and escalation contacts in writing."
+      "q": "What happens if something breaks in our New York systems?",
+      "a": "If we manage your cloud, monitoring sends alerts to a named engineer. Response times and escalation contacts are agreed in writing at the start, and every incident gets a short written note on the cause and the fix."
     },
     {
       "q": "How much does cloud consulting in New York cost?",
@@ -124,6 +124,11 @@
   ],
   "keywords": {
     "primary": "cloud consulting new york",
-    "secondary": ["cloud consultant nyc", "aws consulting new york", "azure consulting new york", "nydfs cloud security"]
+    "secondary": [
+      "cloud consultant nyc",
+      "aws consulting new york",
+      "azure consulting new york",
+      "nydfs cloud security"
+    ]
   }
 }

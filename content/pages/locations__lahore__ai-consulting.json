@@ -67,7 +67,7 @@
     {
       "h": "Working with us from Lahore",
       "p": [
-        "We run AI consulting for Lahore clients remotely from London. Workshops happen on video in the Lahore afternoon, which is our morning: 11:00 London is 16:00 PKT while the UK is on GMT, and 15:00 PKT in summer. Your Signal Lead keeps one written plan, shares recordings and notes after each session and confirms every date in writing.",
+        "Workshops for Lahore clients run on video at times agreed with your team, with recordings and notes shared after each session. Your Signal Lead keeps one written plan and confirms every date in writing, so nobody has to chase what was agreed.",
         "If a workshop works better in a room, with a factory floor to walk or a team to train together, we arrange a visit when the project needs it."
       ]
     },
@@ -94,8 +94,8 @@
       "a": "An AI consultant finds the few places where AI saves real hours or money, ranks them, picks tools and writes the rules for using them. For Lahore businesses that often means buyer communication for exporters, product content for retailers and enquiry handling on WhatsApp. We then build a pilot so the idea is tested, not just recommended."
     },
     {
-      "q": "Is your AI consulting Lahore-based or remote?",
-      "a": "We work remotely from our head office in London, with sessions in the Lahore afternoon. Most of the review can be done over video and shared documents. When a project needs someone on site, for example to observe a production process or train a large team together, we arrange a visit for that project."
+      "q": "What do we need ready before AI consulting Lahore sessions begin?",
+      "a": "A short list of the tasks that take your team the most time, examples of the documents or messages involved, and the name of the person who owns each process. We review these in the first session and use them to pick a first use case. When a project needs someone on site, for example to observe a production process or train a large team together, we arrange a visit for that project."
     },
     {
       "q": "Is it safe for our staff to use ChatGPT with customer data?",
@@ -118,9 +118,21 @@
       "a": "Buy when a tool already does the job and your data can safely go there. Build when the process is specific to you, the data is sensitive or subscription costs in dollars add up across many users. We set out both options with their running costs before you decide."
     }
   ],
-  "related": ["/locations/lahore", "/services/ai-consulting", "/locations/lahore/ai-automation", "/locations/lahore/business-intelligence", "/locations/karachi/ai-consulting", "/pakistan"],
+  "related": [
+    "/locations/lahore",
+    "/services/ai-consulting",
+    "/locations/lahore/ai-automation",
+    "/locations/lahore/business-intelligence",
+    "/locations/karachi/ai-consulting",
+    "/pakistan"
+  ],
   "keywords": {
     "primary": "ai consulting lahore",
-    "secondary": ["ai consultancy lahore", "ai consultant lahore", "ai strategy pakistan", "ai company lahore"]
+    "secondary": [
+      "ai consultancy lahore",
+      "ai consultant lahore",
+      "ai strategy pakistan",
+      "ai company lahore"
+    ]
   }
 }

@@ -64,9 +64,9 @@
       ]
     },
     {
-      "h": "Remote cloud support on Pacific time",
+      "h": "How changes are planned and reported",
       "p": [
-        "We deliver from London, 8 hours ahead of Los Angeles for most of the year, with teams in several time zones. That spread is an advantage for infrastructure: maintenance windows and risky changes can run during the LA night, when traffic is lowest, and we report back before your day starts. Planning calls sit in your morning. Everything we do happens in your accounts with named access you can revoke, and we only plan an on-site visit when the project needs it. Remote delivery changes the hours, not the substance, of cloud consulting. Los Angeles clients still get one lead, change notes for every fix and a written report each month."
+        "Every change is planned before it is made. Maintenance windows and risky changes are scheduled with your team for the quietest point in your traffic, with a rollback plan written down first, and you get a short note once each change is done. Planning calls are booked at times that suit your engineers. Everything we do happens in your accounts with named access you can revoke. None of this changes the substance of cloud consulting. Los Angeles clients still get one lead, change notes for every fix and a written report each month."
       ]
     },
     {
@@ -84,8 +84,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you provide cloud consulting in Los Angeles on site?",
-      "a": "We work with Los Angeles companies remotely from London, with calls during your morning. Cloud work happens in consoles and code, so remote delivery is normal. If a workshop with your engineers or a data center visit is genuinely needed, we plan a visit for that part of the project."
+      "q": "What does a first cloud consulting engagement cover?",
+      "a": "Usually a review of one environment: architecture, security settings, backups and the monthly bill. You get a written report that ranks the findings by risk and cost, with a plan for fixing them and dates for each step. Many clients then ask us to carry out the fixes and stay on for managed operations."
     },
     {
       "q": "Which cloud provider is best for a media company in LA?",
@@ -105,7 +105,7 @@
     },
     {
       "q": "What does managed cloud operations include?",
-      "a": "Monitoring and alerting, patching, backups and restore tests, access reviews, monthly cost reports and a named lead who handles changes and incidents. Because our teams work across time zones, routine maintenance runs outside your business hours in Los Angeles, and you get a written summary each month."
+      "a": "Monitoring and alerting, patching, backups and restore tests, access reviews, monthly cost reports and a named lead who handles changes and incidents. Routine maintenance is scheduled with your team for low-traffic periods, and you get a written summary each month."
     },
     {
       "q": "How do we know if our cloud setup needs a review?",

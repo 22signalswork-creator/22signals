@@ -10,7 +10,7 @@
   "description": "Cloud consulting for Austin software, hardware and public sector vendors: AWS, Google Cloud and Azure architecture, security, cost reviews and managed ops.",
   "eyebrow": "Cloud Consulting in Austin",
   "h1": "Cloud consulting for Austin companies whose cloud bill grew faster than their revenue",
-  "intro": "Our cloud consulting helps Austin companies design, secure and run their infrastructure on AWS, Google Cloud or Azure. We review architecture and costs, tighten access control, set up monitoring and, if you want, run cloud operations for you. Built for software, hardware and public sector vendors, delivered remotely from London on Central Time hours.",
+  "intro": "Our cloud consulting helps Austin companies design, secure and run their infrastructure on AWS, Google Cloud or Azure. We review architecture and costs, tighten access control, set up monitoring and, if you want, run cloud operations for you. Built for software, hardware and public sector vendors, with every change planned and agreed in writing.",
   "sections": [
     {
       "h": "How Austin cloud setups get messy",
@@ -70,7 +70,7 @@
     {
       "h": "Working with us from Austin",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Being six hours ahead is useful for cloud work: risky changes can be scheduled for early Austin morning, before your users are busy, with our team already online and your engineers joining as they start the day.",
+        "We work with Austin companies through secure remote access, a shared channel for updates and a written change plan. Risky changes are scheduled for a low-traffic window your team chooses, with a rollback ready and your engineers told in advance. Review calls are booked at times that suit you, and every change is logged in a written report you can show to auditors or customers.",
         "Access is granted through named accounts with the minimum permissions needed and removed when work ends. If an on-premises review is needed at a site in Austin or Round Rock, we plan a visit for that stage when the project needs it."
       ]
     },
@@ -94,7 +94,7 @@
   "faqs": [
     {
       "q": "Do you provide cloud consulting to Austin companies on site?",
-      "a": "We work remotely from London with hours that overlap Central Time, and nearly all cloud work is done through secure remote access anyway. When a project includes physical servers or a workshop that benefits from being in the room, we plan a visit to Austin for that stage. We do not have an Austin office or local staff."
+      "a": "Nearly all cloud work is done through secure remote access, so most projects need no visit at all. When a project includes physical servers or a workshop that benefits from being in the room, we plan a visit to Austin for that stage and write it into the scope, so you know the dates from the start."
     },
     {
       "q": "Can you help us get TX-RAMP certified?",
@@ -127,6 +127,11 @@
   ],
   "keywords": {
     "primary": "cloud consulting austin",
-    "secondary": ["cloud consultant austin", "aws consulting austin", "azure consulting austin tx", "tx-ramp cloud consulting"]
+    "secondary": [
+      "cloud consultant austin",
+      "aws consulting austin",
+      "azure consulting austin tx",
+      "tx-ramp cloud consulting"
+    ]
   }
 }

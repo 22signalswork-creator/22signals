@@ -71,10 +71,10 @@
       ]
     },
     {
-      "h": "Working with us from Islamabad and Rawalpindi",
+      "h": "How we keep Islamabad projects on track",
       "p": [
-        "Our head office is in London and we work with Islamabad organisations remotely. With PKT four or five hours ahead of London, a 09:30 London check-in is 14:30 in Islamabad in winter and 13:30 in summer, which leaves your morning clear for your own staff. Build progress goes into a shared tracker and a short weekly note; anything urgent goes to WhatsApp.",
-        "Some processes only make sense once you watch them happen. When that is true, we arrange a visit when the project needs it and agree the dates beforehand."
+        "Every project opens with a 15-minute call and a short discovery, and within 5 to 7 days you get a written plan with scope and dates. Check-ins are booked at times that suit your team. Build progress goes into a shared tracker and a short weekly note; anything urgent goes to WhatsApp.",
+        "Some processes only make sense once you watch them happen. When that is true, we plan a session to observe the work and agree the dates beforehand."
       ]
     },
     {
@@ -120,8 +120,8 @@
       "a": "It is designed to fail safely. Anything the system is unsure about goes to a named person instead of being guessed. Every action is logged, so mistakes can be traced and the rule fixed. In the first weeks we review a sample of outputs with your team and tighten the rules before widening what the automation handles alone."
     },
     {
-      "q": "Do you meet clients in Islamabad?",
-      "a": "Our meetings are mostly video calls, scheduled for the Islamabad afternoon so they suit both London and PKT. When watching a process in person would genuinely help, we arrange a visit when the project needs it. We do not have an office in Islamabad, and we will not pretend otherwise."
+      "q": "How do we know the automation is paying off?",
+      "a": "We agree the measure before we build: hours saved each week, response times, error rates or the number of cases handled without manual work. We record a baseline from your current process, then report against it in writing each month. If an automation is not earning its keep, we say so and suggest whether to fix it or switch it off."
     }
   ],
   "related": [

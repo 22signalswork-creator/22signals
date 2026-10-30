@@ -64,7 +64,7 @@
     {
       "h": "Remote build, real user testing",
       "p": [
-        "We have no office in Berlin. Product reviews happen over video calls, test builds go out through TestFlight and Google Play testing tracks, and feedback lands in one shared board. With Berlin one hour ahead of London, daily or weekly check-ins sit inside normal working hours.",
+        "Product reviews happen over video calls, test builds go out through TestFlight and Google Play testing tracks, and feedback lands in one shared board. Check-ins are booked at a rhythm and time your product owner chooses. Before each release a small group of real users tries the build, and their notes go into the next sprint.",
         "For field and shop floor apps, watching real users matters. When a technician's day or a warehouse routine needs to be seen in person before we design, we plan a site visit into the scope."
       ]
     },

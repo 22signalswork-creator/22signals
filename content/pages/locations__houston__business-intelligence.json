@@ -70,9 +70,9 @@
       ]
     },
     {
-      "h": "Working with a London team from Houston",
+      "h": "How we run the work with your Houston team",
       "p": [
-        "We work with Houston companies remotely, with our day overlapping yours. London is six hours ahead of Central Time, so a 10:00 review in Houston is 16:00 in London. Overnight data loads and fixes often happen while Houston sleeps, which means the dashboard is fresh at the start of your day. Your Signal Lead runs the project and is your single point of contact, backed by specialists across several time zones. On-site sessions in Houston happen when the project needs them, such as a kickoff with finance and operations together."
+        "Your Signal Lead runs the project and is your single point of contact, with specialist analysts and data engineers behind them. Review calls are booked at times that suit your finance and operations leads, and data loads are scheduled and checked so the dashboard is current when people open it. Each change comes with a short written note. On-site sessions in Houston are planned into the scope when they help, such as a kickoff with finance and operations together."
       ]
     },
     {
@@ -106,8 +106,8 @@
       "a": "For a first set of dashboards from two or three sources, it depends on KPI agreement, data access and testing. Larger programs that bring in many systems or acquired companies run in phases, each with its own dates in writing. You see working dashboards early rather than waiting for a big reveal."
     },
     {
-      "q": "Do you work with Houston clients in person?",
-      "a": "We work remotely from London, with meetings in your morning when our working days overlap. For kickoff workshops or training sessions, an on-site visit can be arranged when the project needs it. We do not have a Houston office, but most BI work happens on screen anyway, and our overnight hours suit data loads."
+      "q": "How do you show us the numbers are right?",
+      "a": "Before a dashboard goes live, we reconcile its totals against your source systems and finance reports, and we document any difference and its cause. Your team signs off the key figures in a review session. After launch, automated checks flag failed refreshes or unusual swings, so problems are caught before a meeting rather than in it."
     },
     {
       "q": "How do you keep healthcare data compliant in reporting?",
@@ -122,6 +122,21 @@
       "a": "Yes, once the historical data is trusted. Common Houston examples are production and decline forecasts, patient volume by clinic, freight demand by lane and cash flow by project. We use methods your finance team can explain, and we show the range of likely outcomes, not a single number dressed up as certainty."
     }
   ],
-  "related": ["/locations/houston", "/services/business-intelligence", "/services/power-bi-consulting", "/services/data-engineering", "/locations/dallas/business-intelligence", "/locations/houston/cloud-consulting"],
-  "keywords": { "primary": "business intelligence consulting houston", "secondary": ["bi consulting houston", "power bi consulting houston", "data analytics consulting houston", "houston data analytics"] }
+  "related": [
+    "/locations/houston",
+    "/services/business-intelligence",
+    "/services/power-bi-consulting",
+    "/services/data-engineering",
+    "/locations/dallas/business-intelligence",
+    "/locations/houston/cloud-consulting"
+  ],
+  "keywords": {
+    "primary": "business intelligence consulting houston",
+    "secondary": [
+      "bi consulting houston",
+      "power bi consulting houston",
+      "data analytics consulting houston",
+      "houston data analytics"
+    ]
+  }
 }

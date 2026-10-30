@@ -36,7 +36,7 @@
         "The best automation projects come from the way a sector really works. These are the kinds of jobs that suit Manchester's main sectors."
       ],
       "list": [
-        "E-commerce and fashion: order exceptions, returns reasons sorted and summarised, supplier stock feeds checked overnight, product copy drafted for review.",
+        "E-commerce and fashion: order exceptions, returns reasons sorted and summarised, supplier stock feeds checked each night, product copy drafted for review.",
         "Manufacturing and distribution around Trafford Park: quote requests read from email and drafted against price lists, delivery notes matched to invoices, maintenance logs searchable in plain English.",
         "Professional services in Spinningfields: client onboarding packs, conflict and identity check chasers, time narratives tidied before billing.",
         "Media and production near MediaCityUK: call sheets, release forms and footage logs filed automatically, transcripts turned into searchable notes.",
@@ -63,9 +63,9 @@
       ]
     },
     {
-      "h": "How the project runs from London",
+      "h": "How the project runs",
       "p": [
-        "Our head office is in London and we have no Manchester office. Automation work suits remote delivery well: we map your processes over video calls, get access to the systems, and show working demos as we go. Manchester runs on London time, so your team and ours share the same working day. If the process is easier to understand by watching people do it, your Signal Lead comes up to Manchester to sit with the team, when the project needs it."
+        "Automation work suits remote delivery well: we map your processes over video calls, get access to the systems, and show working demos as we go. Calls are arranged around your team's diary, and each demo ends with a written list of what changes next. If the process is easier to understand by watching people do it, your Signal Lead comes to Manchester to sit with the team, when the project needs it."
       ],
       "list": [
         "Talk: a 15-minute fit check, then a process walk-through with the people who do the work.",
@@ -106,7 +106,7 @@
     },
     {
       "q": "Do you visit our Manchester site to map processes?",
-      "a": "When the project needs it, yes. Most process mapping works well on video calls and screen shares, but some operations, such as a warehouse or production floor, are easier to understand in person. Your Signal Lead travels up from London for those sessions, and we agree them in the plan."
+      "a": "When the project needs it, yes. Most process mapping works well on video calls and screen shares, but some operations, such as a warehouse or production floor, are easier to understand in person. Your Signal Lead comes to your site for those sessions, and we agree them in the plan."
     },
     {
       "q": "How do you keep automations GDPR compliant?",

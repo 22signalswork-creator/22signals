@@ -10,7 +10,7 @@
   "description": "AI automation for Stockholm firms: invoice handling, CRM updates, support triage and reporting built around Fortnox, Visma, Peppol and the tools you use.",
   "eyebrow": "AI Automation in Stockholm",
   "h1": "AI automation for Stockholm teams with too much admin and too few hands",
-  "intro": "We build AI automation that takes repeated admin off Stockholm teams: reading invoices, updating the CRM, sorting support emails, preparing reports and moving data between systems. Each tool is built around the software you already run, tested on your real cases and handed over with clear ownership. Work is delivered remotely, in English, one hour behind CET.",
+  "intro": "We build AI automation that takes repeated admin off Stockholm teams: reading invoices, updating the CRM, sorting support emails, preparing reports and moving data between systems. Each tool is built around the software you already run, tested on your real cases and handed over with clear ownership. Work is delivered remotely, in English, with dates agreed in writing.",
   "sections": [
     {
       "h": "Why automation pays quickly in Sweden",
@@ -70,7 +70,7 @@
     {
       "h": "How remote delivery works",
       "p": [
-        "We have no Stockholm office, and automation rarely needs one. We work through screen-share sessions with your team, a test environment and a weekly written update. Stockholm is one hour ahead of London, so the working day lines up almost entirely. When a project benefits from a day of on-site process mapping, we travel.",
+        "Automation work rarely needs anyone on site. We work through screen-share sessions with your team, a test environment and a weekly written update. Sessions are booked at times that suit the people who do the work, and each one ends with a short written note of what was agreed. When a project benefits from a day of on-site process mapping in Stockholm, we travel.",
         "Documentation and training are in English. If staff need guides in Swedish, we can arrange translation through partners."
       ]
     },

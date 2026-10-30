@@ -64,9 +64,9 @@
       ]
     },
     {
-      "h": "Building your app from London for a New York team",
+      "h": "How sprints, demos and bug fixes run",
       "p": [
-        "We work with New York companies remotely from London. Eastern Time is five hours behind London for most of the year, so sprint reviews and demos sit in your morning, and bugs your testers report in the afternoon are often fixed in the next morning's build. App work is remote by nature: test builds arrive through TestFlight and Google Play testing tracks, and designs live in shared files.",
+        "Each sprint ends with a demo and a written list of what shipped, what moved and what is next. Demos are booked at times that suit your team, and bugs your testers report go into one shared board with a priority and a fix date. App work is remote by nature: test builds arrive through TestFlight and Google Play testing tracks, and designs live in shared files.",
         "For user research with customers in the city or a launch workshop, we come to New York when the project needs it."
       ]
     },
@@ -107,7 +107,7 @@
     },
     {
       "q": "Can we meet the team in New York?",
-      "a": "We are based in London and work remotely, with demos and reviews in your morning. If user interviews with your New York customers or a launch workshop would help, we can come to the city when the project needs it, agreed in writing during planning."
+      "a": "Most of the work runs remotely, with demos and reviews booked at times that suit you. If user interviews with your New York customers or a launch workshop would help, we can come to the city when the project needs it, agreed in writing during planning."
     },
     {
       "q": "What does app development cost for a New York company?",

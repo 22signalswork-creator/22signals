@@ -75,7 +75,7 @@
     {
       "h": "Working with us from Miami",
       "p": [
-        "We work remotely from our London head office, five hours ahead of Miami. Rendering suits this well: you send drawings and comments at the end of your day, and revised drafts are often waiting the next morning. Reviews take place on screen in your morning.",
+        "Rendering suits remote delivery well. You send drawings, finish schedules and comments through one shared channel, and each revision round has a date in the written schedule. Reviews take place on screen, on calls booked at times that suit your Miami team.",
         "Your Signal Lead manages the brief, the schedule and every revision round. If a site visit or a photography session is needed for view studies, we plan it when the project needs it."
       ]
     },
@@ -108,7 +108,7 @@
     },
     {
       "q": "Do you work with Miami architects and developers in person?",
-      "a": "We deliver remotely from London, and most rendering work runs well on screen: you send files and comments, we send drafts and finals. If a site visit or a photography session is needed, we plan it when the project needs it and agree the dates in advance."
+      "a": "Most rendering work runs well on screen: you send files and comments, we send drafts and finals. If a site visit or a photography session is needed, we plan it when the project needs it and agree the dates in advance."
     },
     {
       "q": "Can you render beauty or fashion products before samples exist?",
@@ -129,6 +129,11 @@
   ],
   "keywords": {
     "primary": "3d rendering miami",
-    "secondary": ["3d rendering services miami", "architectural rendering miami", "real estate rendering miami", "product rendering miami"]
+    "secondary": [
+      "3d rendering services miami",
+      "architectural rendering miami",
+      "real estate rendering miami",
+      "product rendering miami"
+    ]
   }
 }

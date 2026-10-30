@@ -15,7 +15,7 @@
     {
       "h": "Three conversations we keep having in Amsterdam",
       "p": [
-        "The first is about money. A company moved to the cloud five years ago, the bill has grown every year and nobody can say which team or product is driving it. The second is about rules. A payments firm or a supplier to one has realised that DORA and NIS2 expect evidence it does not yet have: tested backups, documented recovery plans, a list of critical providers. The third is about control. Boards in the Netherlands now ask openly how dependent they are on a small number of US cloud providers, and what they would do if a contract or a political decision changed overnight.",
+        "The first is about money. A company moved to the cloud five years ago, the bill has grown every year and nobody can say which team or product is driving it. The second is about rules. A payments firm or a supplier to one has realised that DORA and NIS2 expect evidence it does not yet have: tested backups, documented recovery plans, a list of critical providers. The third is about control. Boards in the Netherlands now ask openly how dependent they are on a small number of US cloud providers, and what they would do if a contract or a political decision changed suddenly.",
         "The cloud consulting Amsterdam companies need deals with all three at once, because the architecture that saves money is usually the one that is easier to secure and easier to move."
       ]
     },
@@ -77,7 +77,7 @@
     {
       "h": "Remote cloud delivery for Amsterdam",
       "p": [
-        "22 Signals is registered in London and has no office in Amsterdam. Cloud work is almost entirely remote by nature. We keep the same working day as you, one hour behind CET, and travel to the Netherlands for workshops or a major cut-over if that helps. All documentation is in English."
+        "Cloud work is almost entirely remote by nature. We work inside your accounts with access you grant and can revoke at any time, and every change is logged. Planning workshops or a major cut-over can take place in Amsterdam if that helps. Review calls are booked at times that suit your team, and all documentation is in English."
       ]
     }
   ],

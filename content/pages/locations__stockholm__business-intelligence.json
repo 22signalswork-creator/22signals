@@ -10,7 +10,7 @@
   "description": "Business intelligence for Stockholm companies: Power BI, Looker Studio and Tableau dashboards across entities, currencies and systems, built to be trusted.",
   "eyebrow": "Business Intelligence in Stockholm",
   "h1": "Business intelligence for Stockholm groups that report in more than one currency",
-  "intro": "We build business intelligence for Stockholm companies that need one trusted set of numbers across entities, currencies and systems. That covers the data pipeline, the model and the Power BI, Looker Studio or Tableau dashboards on top, designed with the finance and sales teams who will use them. Delivery is remote, in English, on hours that overlap with yours.",
+  "intro": "We build business intelligence for Stockholm companies that need one trusted set of numbers across entities, currencies and systems. That covers the data pipeline, the model and the Power BI, Looker Studio or Tableau dashboards on top, designed with the finance and sales teams who will use them. Work is delivered in English, with review dates agreed in writing.",
   "sections": [
     {
       "h": "The reporting headache in a Swedish group",
@@ -67,9 +67,9 @@
       ]
     },
     {
-      "h": "Remote, with Stockholm hours in mind",
+      "h": "Month-end and board deadlines",
       "p": [
-        "We have no office in Stockholm. BI work is done through screen-share workshops, a shared project log and staged releases you can test. Stockholm is one hour ahead of London, so month-end checks and board deadlines fall inside our working day too. For a kick-off with several entity controllers, we can come to Stockholm and run it in a room.",
+        "BI work is done through screen-share workshops, a shared project log and staged releases you can test. We plan releases around month-end checks and board deadlines, so a new report never lands in the week your controllers need the old one most. For a kick-off with several entity controllers, we can come to Stockholm and run it in a room.",
         "Reports and documentation are delivered in English, which suits groups with subsidiaries abroad. Labels can be set up in Swedish where local teams prefer them."
       ]
     },

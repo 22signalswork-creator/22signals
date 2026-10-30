@@ -66,9 +66,9 @@
       ]
     },
     {
-      "h": "Remote cloud work on Berlin hours",
+      "h": "Planning changes around the Berlin calendar",
       "p": [
-        "We do not have a Berlin office, and cloud work is remote by nature. Berlin is one hour ahead of London, so planned changes can run early in the German morning or after close of business with our engineers on the same clock as your team. We plan cutovers away from month-end closing, peak order weeks and German public holidays.",
+        "Cloud work runs in the console and in code, so Berlin teams agree a change calendar with us at the start. Planned changes go into windows you choose, with an engineer watching and a rollback step written down. We plan cutovers away from month-end closing, peak order weeks and German public holidays.",
         "When a migration involves physical hardware, such as switching off servers at your site, we either plan a visit or coordinate with your local IT service partner. We agree which one at the planning stage."
       ]
     },
@@ -104,7 +104,7 @@
     },
     {
       "q": "Do you offer cloud consulting in Berlin on site?",
-      "a": "The work is remote, on hours that match Berlin's working day. For hardware tasks or a planning workshop we can travel, or work with your local IT partner, and we agree which approach applies before the project starts."
+      "a": "Almost all of the work is done in the console and in code, with review calls booked at times that suit your Berlin team. For hardware tasks or a planning workshop we can travel, or work with your local IT partner, and we agree which approach applies before the project starts."
     },
     {
       "q": "How do you avoid downtime during migration?",

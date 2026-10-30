@@ -84,10 +84,10 @@
     {
       "h": "Cities where we provide cloud consulting",
       "p": [
-        "Our head office is in London, and we work with companies in the cities below remotely, with meeting hours planned around each time zone. When a project needs it, we can arrange an on-site visit.",
-        "In the United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami. New York and Miami run five hours behind London, the Texas cities and Chicago six hours behind, and Los Angeles and San Francisco eight hours behind, so we keep a regular block of meeting time in your working day.",
-        "In the United Kingdom: London, Manchester and Birmingham, where you can also meet us in London.",
-        "In the UAE: Dubai and Abu Dhabi, three to four hours ahead of London depending on the season. In Pakistan: Lahore, Karachi and Islamabad, four to five hours ahead.",
+        "We work with companies in the cities below remotely, with review calls set at times that work for each team. When a project needs it, we can arrange an on-site visit.",
+        "In the United States: New York, Los Angeles, San Francisco, Dallas, Houston, Austin, Chicago and Miami. Review calls for US teams are agreed at the start of each project, and every change window is confirmed in writing before work begins.",
+        "In the United Kingdom: London, Manchester and Birmingham.",
+        "In the UAE: Dubai and Abu Dhabi. In Pakistan: Lahore, Karachi and Islamabad.",
         "Each market has its own data rules. California has the CCPA. New York has the SHIELD Act. Britain has its own version of GDPR, and the Emirates have a federal data protection law of their own. We choose cloud regions and plan data residency to match."
       ]
     },
@@ -132,8 +132,8 @@
       "a": "Yes. We can run your environment day to day: patching, scaling, backups, access reviews, certificate renewals, monitoring and incident response, with a short monthly report. You keep ownership of every account, password and document, and you can take operations in-house at any point without starting again."
     },
     {
-      "q": "Do you work with companies outside London?",
-      "a": "Yes. Our head office is in London and we work with companies in the United States, the United Kingdom, the UAE and Pakistan remotely, with meeting hours that overlap your working day. When a project needs it, we can arrange a visit. Data regions are chosen to match the rules where you operate."
+      "q": "Do you work with companies in other cities and countries?",
+      "a": "Yes. We work with companies in the United States, the United Kingdom, the UAE and Pakistan remotely, with review calls booked at times that suit your team. When a project needs it, we can arrange a visit. Data regions are chosen to match the rules where you operate."
     },
     {
       "q": "How do you handle security and compliance in the cloud?",

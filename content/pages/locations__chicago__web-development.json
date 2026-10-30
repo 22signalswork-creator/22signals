@@ -77,9 +77,9 @@
       ]
     },
     {
-      "h": "Working with a London team",
+      "h": "How reviews and launches are handled",
       "p": [
-        "We handle web development. Chicago clients work with us remotely from London. Design reviews happen in your morning, which is our afternoon, and build work carries on at our end between reviews, so each review has something new to look at. Launches are scheduled for low-traffic hours on Central Time.",
+        "Chicago clients see design and build work on a staging site between reviews, so each review call has something new to look at. Calls are arranged at times that suit your team, and feedback is collected in one shared list. Launches are scheduled for your low-traffic hours and checked page by page afterwards.",
         "One Signal Lead runs the project and owns the timeline. If a workshop in Chicago with your partners or leadership would speed up sign-off, we plan a visit when the project needs it."
       ]
     },
@@ -119,7 +119,7 @@
     },
     {
       "q": "Do you meet Chicago clients in person?",
-      "a": "We work remotely from London and hold reviews on video during the Chicago morning. That covers almost every web project. If a kick-off or content workshop with your leadership would help, we plan a visit to Chicago when the project needs it. We do not have a Chicago office or local staff."
+      "a": "When it helps, yes. Most web projects run well on video reviews and a staging site you can click through at any time. If a kick-off or content workshop with your leadership would help, we plan a visit to Chicago when the project needs it."
     },
     {
       "q": "Do you look after the site after launch?",

@@ -10,7 +10,7 @@
   "description": "AI consulting for Austin companies in software, hardware, healthcare and state government work: find the use cases worth paying for, then pilot them safely.",
   "eyebrow": "AI Consulting in Austin",
   "h1": "AI consulting for Austin companies that want results, not demos",
-  "intro": "Our AI consulting helps established Austin companies work out where AI will save time or make money, which tools to buy or build, and how to run a pilot without exposing customer data. You get a ranked list of use cases, a written roadmap and a first build, delivered remotely from London on Central Time hours.",
+  "intro": "Our AI consulting helps established Austin companies work out where AI will save time or make money, which tools to buy or build, and how to run a pilot without exposing customer data. You get a ranked list of use cases, a written roadmap and a first build, with every date agreed in writing.",
   "sections": [
     {
       "h": "The Austin problem: everyone has tried AI, few can show the return",
@@ -69,7 +69,7 @@
     {
       "h": "Working with us from Austin",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. London runs six hours ahead, so your morning is our afternoon and workshops usually sit between 8:00 and 11:00 Austin time. Discovery interviews happen on video with the people who do the work, not only with leadership.",
+        "Discovery starts with a 15-minute call, then video interviews with the people who do the work, not only with leadership. Workshops are booked at times that suit your Austin team, and the decisions from each one are written up and shared in one channel, so nobody has to remember what was agreed.",
         "If a roadmap session would go better in person, for example with a leadership team spread between the Domain and an operations site in Round Rock, we plan a visit for that stage. We do not promise a schedule of visits we have not scoped."
       ]
     },
@@ -93,7 +93,7 @@
   "faqs": [
     {
       "q": "Is your AI consulting Austin-based, or remote?",
-      "a": "We work remotely from London on Central Time hours, and that covers nearly every stage. When a workshop or leadership session would clearly go better in the room, we plan a visit to Austin for that stage of the project. We do not have an Austin office, so we will never claim local staff, but you will always have a named Signal Lead."
+      "a": "Remote, and that covers nearly every stage, from discovery interviews to the pilot build. When a workshop or leadership session would clearly go better in person, we plan a visit to Austin for that stage of the project. Either way you have a named Signal Lead who owns the work and reports progress in writing."
     },
     {
       "q": "How long does AI consulting take before we see something working?",
@@ -126,6 +126,11 @@
   ],
   "keywords": {
     "primary": "ai consulting austin",
-    "secondary": ["ai consultant austin", "austin ai consulting firm", "ai strategy consulting austin tx", "ai readiness assessment austin"]
+    "secondary": [
+      "ai consultant austin",
+      "austin ai consulting firm",
+      "ai strategy consulting austin tx",
+      "ai readiness assessment austin"
+    ]
   }
 }

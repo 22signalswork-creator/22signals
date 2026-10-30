@@ -70,27 +70,22 @@ const WhatWeDoGlobe: React.FC = () => {
   const target = useRef({ x: LABELS[START].x, y: LABELS[START].y });
   const pos = useRef({ x: 0, y: 0 });
   const raf = useRef(0);
-  const userPicked = useRef(false);
-  const pillsRef = useRef<HTMLDivElement>(null);
-
-  // Keep the active pill in view inside its row (horizontal only, never moves the page).
-  useEffect(() => {
-    const row = pillsRef.current;
-    const pill = row?.children[active] as HTMLElement | undefined;
-    if (row && pill) row.scrollTo({ left: pill.offsetLeft - (row.clientWidth - pill.offsetWidth) / 2, behavior: "smooth" });
-  }, [active]);
-
-  // On phones, step through the areas slowly until someone taps one.
-  useEffect(() => {
-    if (typeof window === "undefined" || window.innerWidth >= 768) return;
-    const id = window.setInterval(() => {
-      if (userPicked.current) return;
-      const next = (activeRef.current + 1) % UMBRELLAS.length;
-      activeRef.current = next;
-      setActive(next);
-    }, 3800);
-    return () => window.clearInterval(id);
-  }, []);
+  // Phone deck: the card nearest the centre of the scroller is the active area.
+  const deckRef = useRef<HTMLDivElement>(null);
+  const [mActive, setMActive] = useState(0);
+  const onDeckScroll = () => {
+    const el = deckRef.current;
+    if (!el) return;
+    const card = el.firstElementChild as HTMLElement | null;
+    const w = card ? card.offsetWidth + 12 : el.clientWidth;
+    const i = Math.max(0, Math.min(UMBRELLAS.length - 1, Math.round(el.scrollLeft / w)));
+    setMActive((p) => (p === i ? p : i));
+  };
+  const goTo = (i: number) => {
+    const el = deckRef.current;
+    const card = el?.children[i] as HTMLElement | undefined;
+    if (el && card) el.scrollTo({ left: card.offsetLeft - (el.clientWidth - card.offsetWidth) / 2, behavior: "smooth" });
+  };
 
   // Clamp a point to the orb's travel circle (frame coords).
   const clamp = (x: number, y: number) => {
@@ -196,19 +191,20 @@ const WhatWeDoGlobe: React.FC = () => {
         </div>
       </div>
 
-      {/* Phone: globe on top, the chosen area and its services, then a swipeable row of areas */}
-      <div className="wwd-box md:hidden" style={{ padding: "26px 0 22px" }}>
-        <div className="relative mx-auto" style={{ width: "86%", aspectRatio: "2 / 1", overflow: "hidden" }}>
+      {/* Phone: a swipeable deck of the seven areas. The light in the globe
+          moves to the card you are on. */}
+      <div className="wwd-box md:hidden" style={{ padding: "24px 0 20px" }}>
+        <div className="relative mx-auto" style={{ width: "72%", aspectRatio: "2 / 1", overflow: "hidden" }}>
           <div className="wwd-ball" style={{ left: 0, top: 0, width: "100%", aspectRatio: "1 / 1" }} />
           <div className="absolute inset-0" style={{ borderRadius: "999px 999px 0 0", overflow: "hidden" }}>
             <div
               className="wwd-orb"
               style={{
-                width: "60%",
-                height: "120%",
-                left: `${20 - Math.cos((active * Math.PI) / 6) * 22}%`,
-                top: `${12 + (1 - Math.sin((active * Math.PI) / 6)) * 18}%`,
-                transition: "left .6s ease, top .6s ease",
+                width: "62%",
+                height: "124%",
+                left: `${19 + Math.cos(Math.PI - (mActive * Math.PI) / 6) * 26}%`,
+                top: `${8 + (1 - Math.sin((mActive * Math.PI) / 6)) * 22}%`,
+                transition: "left .45s ease, top .45s ease",
               }}
             />
           </div>
@@ -223,32 +219,46 @@ const WhatWeDoGlobe: React.FC = () => {
           </svg>
         </div>
 
-        <div className="px-5 pt-6 text-center" style={{ minHeight: 168 }}>
-          <div className="text-[11px] tracking-[0.3em] uppercase" style={{ color: "#93b8ff" }}>
-            {String(active + 1).padStart(2, "0")} / 07
-          </div>
-          <div key={active} className="mt-2 text-white wwd-fade" style={{ fontSize: 26, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
-            {UMBRELLAS[active].name}
-          </div>
-          <div key={`c${active}`} className="mt-4 flex flex-wrap justify-center gap-2">
-            <Chips index={active} />
-          </div>
+        <div ref={deckRef} onScroll={onDeckScroll} className="wwd-deck mt-5" aria-label="Service areas, swipe to see more">
+          {UMBRELLAS.map((u, i) => (
+            <Link
+              key={u.slug}
+              to={`/services?area=${u.slug}`}
+              className={`wwd-card ${i === mActive ? "is-on" : ""}`}
+              style={{ textDecoration: "none" }}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
+                  {String(i + 1).padStart(2, "0")} / 07
+                </span>
+                <span aria-hidden className="wwd-card-arrow">↗</span>
+              </div>
+              <div className="mt-3 text-white" style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
+                {u.name}
+              </div>
+              <div className="mt-4 flex flex-wrap gap-1.5">
+                {u.items.map((it) => (
+                  <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px", animation: "none" }}>
+                    {it.label}
+                  </span>
+                ))}
+              </div>
+            </Link>
+          ))}
         </div>
 
-        <div ref={pillsRef} className="wwd-pills mt-5" role="tablist" aria-label="Service areas">
+        <div className="flex justify-center gap-1.5 mt-4" role="tablist" aria-label="Choose a service area">
           {UMBRELLAS.map((u, i) => (
             <button
               key={u.slug}
               type="button"
               role="tab"
-              aria-selected={i === active}
-              onClick={() => {
-                userPicked.current = true;
-                pick(i);
-              }}
-              className={`wwd-pill ${i === active ? "is-on" : ""}`}
+              aria-selected={i === mActive}
+              aria-label={u.name}
+              onClick={() => goTo(i)}
+              className="wwd-dot-btn"
             >
-              {u.short}
+              <span className={`wwd-dot ${i === mActive ? "is-on" : ""}`} />
             </button>
           ))}
         </div>

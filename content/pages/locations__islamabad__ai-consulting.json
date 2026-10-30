@@ -10,7 +10,7 @@
   "description": "AI consulting Islamabad organisations can take through procurement: use cases ranked by value, PECA-aware governance and a working pilot.",
   "eyebrow": "AI Consultancy in Islamabad",
   "h1": "AI consulting in Islamabad, planned for audit and procurement",
-  "intro": "22 Signals provides AI consulting to Islamabad organisations that want AI doing real work: development programmes, telecoms, software exporters, universities and hospitals. We find the uses worth paying for, check them against PECA 2016 and the draft data protection bill, then build a pilot on your own data. Head office in London, meetings inside your working day.",
+  "intro": "22 Signals provides AI consulting to Islamabad organisations that want AI doing real work: development programmes, telecoms, software exporters, universities and hospitals. We find the uses worth paying for, check them against PECA 2016 and the draft data protection bill, then build a pilot on your own data. Meetings are booked at times that suit your team.",
   "sections": [
     {
       "h": "Why AI projects in Islamabad stall before they start",
@@ -53,7 +53,7 @@
     {
       "h": "Where AI pays off across Islamabad's sectors",
       "p": [
-        "The capital's economy is unusual. Ministries, regulators and the organisations that serve them sit alongside telecom head offices, a large software export sector, universities, hospitals and a busy property market. The useful AI work differs by sector:"
+        "The capital's economy is unusual. Ministries, regulators and the organisations that serve them sit alongside telecom headquarters, a large software export sector, universities, hospitals and a busy property market. The useful AI work differs by sector:"
       ],
       "list": [
         "Development programmes and NGOs: summarising field reports, drafting donor updates from monitoring data and searching years of programme documents in seconds",
@@ -74,7 +74,7 @@
     {
       "h": "Working with us from Islamabad",
       "p": [
-        "We work with organisations in Islamabad and Rawalpindi remotely from our head office in London. Pakistan Standard Time is five hours ahead of London in winter and four in summer, so a 10:00 London meeting is 15:00 PKT from late October to late March and 14:00 PKT the rest of the year. Most clients settle on one fixed weekly slot in the early Islamabad afternoon.",
+        "We work with organisations in Islamabad and Rawalpindi remotely. After a 15-minute first call, discovery runs over video and you receive a written roadmap within 5 to 7 days. Most clients then settle on one fixed weekly review slot that suits their team, with progress notes shared in writing after each one.",
         "Day-to-day questions run on WhatsApp or email, whichever your team prefers, with decisions confirmed in writing. Meetings and the tools we build can work in English and Urdu. Visits to Islamabad happen when the project needs it, for example a workshop with senior staff, and are agreed in advance."
       ]
     },
@@ -108,8 +108,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in Islamabad?",
-      "a": "No. Our head office is in London and we work with Islamabad organisations remotely, with meetings set inside your working day. Pakistan is four or five hours ahead of London depending on the season. When a workshop or senior review genuinely needs people in the same room, we plan a visit to Islamabad when the project needs it and agree it in writing."
+      "q": "How are results reported during an AI project?",
+      "a": "Your Signal Lead sends a short written update every week: what was built, what was tested, what is blocked and what happens next. Each pilot is measured against the baseline agreed in the roadmap, such as hours saved or response time, so senior staff can judge it on numbers rather than demos. When a workshop or senior review needs people in the same room, we plan a visit to Islamabad and agree it in writing."
     },
     {
       "q": "How do you handle Pakistan's data protection rules?",

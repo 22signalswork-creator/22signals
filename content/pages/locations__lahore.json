@@ -5,10 +5,10 @@
   "city": "Lahore",
   "citySlug": "lahore",
   "title": "Digital Agency for Lahore Businesses | 22 Signals",
-  "description": "A digital agency Lahore companies use for AI, cloud, websites, apps, SEO, ads and video, with one accountable lead and meeting hours that overlap PKT.",
+  "description": "A digital agency Lahore companies use for AI, cloud, websites, apps, SEO, ads and video, with one accountable lead and every date agreed in writing.",
   "eyebrow": "22 Signals in Lahore",
   "h1": "The digital agency Lahore companies use for tech, marketing and video",
-  "intro": "22 Signals is a business solutions company with its head office in London, and we work with established businesses in Lahore. We build the systems a company runs on, from AI and cloud to websites and apps, then grow it with SEO, paid media and video. One accountable lead runs it all, on hours that overlap PKT.",
+  "intro": "22 Signals is a business solutions company, and we work with established businesses in Lahore. We build the systems a company runs on, from AI and cloud to websites and apps, then grow it with SEO, paid media and video. One accountable lead runs it all, with a written roadmap and agreed dates for each stage.",
   "sections": [
     {
       "h": "Why Lahore companies look for one team instead of five",
@@ -40,9 +40,9 @@
       ]
     },
     {
-      "h": "How we work with Lahore from London",
+      "h": "How we work with Lahore businesses",
       "p": [
-        "Our head office is in London and we work with Lahore businesses remotely. Pakistan Standard Time is GMT+5, five hours ahead of London in winter and four hours ahead in summer, so there is a full working afternoon in Lahore that overlaps the London morning. A call at 10:00 London is 15:00 PKT in winter and 14:00 PKT in summer.",
+        "Every Lahore project starts with a 15-minute call to check fit. Discovery follows, and within 5 to 7 days you get a written roadmap: what we will do, in what order, who owns each part and when it lands. You sign that off before build work starts, and our reports measure progress against it.",
         "Your Signal Lead runs a weekly call, keeps a written plan and puts every agreed date in writing. Quick questions go on the channel your team already uses, WhatsApp included. Visits for a shoot or a workshop are arranged when the project needs it, rather than on a fixed schedule."
       ]
     },
@@ -72,7 +72,7 @@
     {
       "h": "Choosing a digital agency: Lahore buyers ask what is different",
       "p": [
-        "Few firms put AI, cloud and data, marketing, and video, animation and 3D in one team. That matters in Lahore because the jobs overlap: a real estate launch needs renders, ads, a landing page and a lead pipeline at the same time. We have worked with 30+ companies across several time zones, and the same Signal Lead model runs every one of them."
+        "Few firms put AI, cloud and data, marketing, and video, animation and 3D in one team. That matters in Lahore because the jobs overlap: a real estate launch needs renders, ads, a landing page and a lead pipeline at the same time. We have worked with 30+ companies, and the same Signal Lead model runs every one of them."
       ]
     },
     {
@@ -88,16 +88,16 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office in Lahore?",
-      "a": "No. Our head office is in London and we work with Lahore businesses remotely, with meeting hours that overlap PKT. You get one accountable Signal Lead, a weekly call and written dates. When a project genuinely needs someone in person, such as a shoot or a workshop, we arrange it for that project."
+      "q": "What does a first project usually cover?",
+      "a": "Usually one clear problem rather than everything at once: a website that does not bring enquiries, an ad account that spends without results, or a manual process that eats staff time. You get one accountable Signal Lead, a weekly call and written dates. Once the first project is live and measured, Lahore clients often add the next service from the same roadmap."
     },
     {
       "q": "Which industries in Lahore do you work with?",
       "a": "Mostly established companies in textiles and apparel exports, retail and fashion, salons and beauty, food and restaurants, real estate, education, healthcare and software. We start with how your sector wins customers, then choose the services that fit, rather than selling a fixed package."
     },
     {
-      "q": "What time are your calls in Pakistan time?",
-      "a": "Most calls fall in the London morning, which is the Lahore afternoon. For example, 10:00 London is 15:00 PKT in winter and 14:00 PKT in summer, when the UK moves to BST and the gap shrinks to four hours. We agree a regular slot at the start."
+      "q": "How do you report progress?",
+      "a": "Your Signal Lead sends a short written update every week: what was done, what is next and anything we need from you. A fuller report follows each month with the numbers that matter for your project, such as enquiries, rankings or ad spend against results. Calls are booked at a regular slot that suits your team, agreed at the start."
     },
     {
       "q": "Can you work in Urdu as well as English?",
@@ -112,9 +112,21 @@
       "a": "We design within the Prevention of Electronic Crimes Act 2016 and treat the draft Personal Data Protection Bill as if it were in force: clear consent, minimum data collected, access limited by role and records kept of who can see what. Fintech work also follows State Bank of Pakistan rules."
     }
   ],
-  "related": ["/pakistan", "/locations/lahore/seo-geo", "/locations/lahore/web-development", "/locations/lahore/ai-automation", "/industries/fashion-beauty", "/locations/karachi"],
+  "related": [
+    "/pakistan",
+    "/locations/lahore/seo-geo",
+    "/locations/lahore/web-development",
+    "/locations/lahore/ai-automation",
+    "/industries/fashion-beauty",
+    "/locations/karachi"
+  ],
   "keywords": {
     "primary": "digital agency lahore",
-    "secondary": ["digital agency in lahore", "lahore digital marketing agency", "ai company lahore", "web and seo agency lahore"]
+    "secondary": [
+      "digital agency in lahore",
+      "lahore digital marketing agency",
+      "ai company lahore",
+      "web and seo agency lahore"
+    ]
   }
 }

@@ -62,14 +62,14 @@
     {
       "h": "Proof",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and the same lesson comes up every time: reporting projects succeed when definitions are agreed before anyone opens Power BI. That is why the first deliverable on our side is a KPI dictionary, not a dashboard."
+        "We have worked with more than 30 companies in finance, healthcare, property and industry, and the same lesson comes up every time: reporting projects succeed when definitions are agreed before anyone opens Power BI. That is why the first deliverable on our side is a KPI dictionary, not a dashboard."
       ]
     },
     {
-      "h": "Working with us from London",
+      "h": "What a first BI project usually covers",
       "p": [
-        "BI work suits remote delivery. We connect to your systems through secure access you control, run workshops over video and send drafts for review in the shared hours. Abu Dhabi is 4 hours ahead of London in winter and 3 in summer, and both cities now take Saturday and Sunday off, so the working week lines up.",
-        "For a leadership session to agree KPIs or a training day for report owners, we come to Abu Dhabi when the project needs it. We have no office in the UAE and we will not pretend otherwise."
+        "Most first projects cover one part of the business, such as finance or operations, rather than the whole group at once. We agree the KPIs with the people who will use them, connect the two or three systems that feed those numbers through secure access you control, and build a short set of reports that managers will actually open each week.",
+        "At handover you receive the KPI dictionary, the data model, the finished reports and a short guide for report owners. A training session for the staff who will maintain the reports is part of the scope, so the dashboards keep working after the project closes."
       ]
     },
     {
@@ -113,10 +113,10 @@
     },
     {
       "q": "How do you work with a team in Abu Dhabi?",
-      "a": "Remotely from London in the shared working hours, with secure access you grant and revoke. Workshops, reviews and training run over video. When an in-person KPI session or training day would help, we travel to Abu Dhabi for it as part of the agreed plan."
+      "a": "It starts with a 15-minute call, then a short discovery phase and a written roadmap within 5 to 7 days. You grant and revoke access to your systems. Workshops, reviews and training run over video at times your team chooses, and an in-person KPI session can be added to the plan if it would help."
     },
     {
-      "q": "Why work with a London team on business intelligence for Abu Dhabi?",
+      "q": "Why use one team for business intelligence in Abu Dhabi?",
       "a": "You get one accountable lead and a team that covers data, cloud, AI and reporting together, so the person who designs the dashboards also answers for the pipelines behind them. Our business intelligence Abu Dhabi clients also gain a team used to UK, US and Gulf reporting standards."
     }
   ],

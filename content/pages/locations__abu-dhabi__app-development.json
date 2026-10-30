@@ -7,7 +7,7 @@
   "service": "app-development",
   "serviceType": "App development",
   "title": "App Development in Abu Dhabi | 22 Signals",
-  "description": "App development for Abu Dhabi organisations: iOS, Android and web apps with Arabic layouts, UAE data handling, payments and app store launch, from London.",
+  "description": "App development for Abu Dhabi organisations: iOS, Android and web apps with Arabic layouts, UAE data handling, payments, app store launch and support.",
   "eyebrow": "App Development in Abu Dhabi",
   "h1": "App development for Abu Dhabi organisations and the people they serve",
   "intro": "We build iOS, Android and web apps for Abu Dhabi organisations: customer apps, staff tools, patient and student apps, and SaaS products. Every app is designed in Arabic and English, handles personal data under UAE law, connects to the systems you already run, and goes through app store launch and support with one accountable lead.",
@@ -73,9 +73,9 @@
       ]
     },
     {
-      "h": "Working with us from London",
+      "h": "How the project runs week to week",
       "p": [
-        "The app development Abu Dhabi clients hire us for runs remotely from London. You get test builds on your phone, a shared progress board and reviews in the overlap with Gulf Standard Time, which is 4 hours ahead of London in winter and 3 in summer. User testing with real customers can run remotely too. When a launch event or a round of in-person user testing makes sense, we come to Abu Dhabi when the project needs it. We have no UAE office."
+        "The app development Abu Dhabi clients hire us for starts with a 15-minute call and a written scope with a date for each milestone. You get test builds on your phone, a shared progress board and one channel for questions, so nothing is lost in email threads. Review calls are booked at times that suit your team. User testing with real customers can run by video too. When a launch event or a round of in-person user testing makes sense, we come to Abu Dhabi for that stage, and it is written into the scope."
       ]
     },
     {

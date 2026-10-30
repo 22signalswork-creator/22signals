@@ -71,7 +71,7 @@
     {
       "h": "Working with us from Karachi",
       "p": [
-        "We have no office in Karachi. The work is run from our London head office with one Signal Lead as your single point of contact. Our working day overlaps the Karachi afternoon: PKT is five hours ahead of London in winter and four in summer, so most workshops sit between 13:00 and 18:00 PKT.",
+        "Every Karachi engagement has one Signal Lead as your single point of contact, and one shared channel for questions and documents. Workshops are booked at times that suit each department, and a written summary follows each one. Within 5 to 7 days of discovery you get a roadmap that lists each use case, its owner and its date.",
         "Workshops run on video with each department in turn, and the materials come in writing afterwards. If a stage needs us in the room, for example a board session, we arrange a visit for that stage once it is agreed. Every date in the plan is confirmed in writing."
       ]
     },
@@ -106,7 +106,7 @@
     },
     {
       "q": "Do you meet Karachi clients in person?",
-      "a": "Most of our work is remote from London, with video workshops during the London morning, which is the Karachi afternoon. We have no office or staff in Pakistan. If a stage of the project genuinely benefits from being in the room, such as a leadership workshop, we plan a visit for that stage with you."
+      "a": "Most of our work runs by video workshop and shared documents, booked at times that suit your teams. If a stage of the project genuinely benefits from being in the room, such as a leadership workshop, we plan a visit to Karachi for that stage with you."
     },
     {
       "q": "Can AI tools work in Urdu?",
@@ -135,6 +135,11 @@
   ],
   "keywords": {
     "primary": "ai consulting karachi",
-    "secondary": ["ai consultancy karachi", "ai consultant karachi", "ai strategy pakistan", "ai for banks pakistan"]
+    "secondary": [
+      "ai consultancy karachi",
+      "ai consultant karachi",
+      "ai strategy pakistan",
+      "ai for banks pakistan"
+    ]
   }
 }

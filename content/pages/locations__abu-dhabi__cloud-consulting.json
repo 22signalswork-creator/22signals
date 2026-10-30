@@ -7,7 +7,7 @@
   "service": "cloud-consulting",
   "serviceType": "Cloud consulting",
   "title": "Cloud Consulting in Abu Dhabi | 22 Signals",
-  "description": "Cloud consulting for Abu Dhabi organisations: AWS, Azure and Google Cloud architecture, UAE data residency, security reviews and managed operations from London.",
+  "description": "Cloud consulting for Abu Dhabi organisations: AWS, Azure and Google Cloud architecture, UAE data residency, security reviews and managed operations.",
   "eyebrow": "Cloud Consulting in Abu Dhabi",
   "h1": "Cloud consulting for Abu Dhabi organisations that need data kept in the UAE",
   "intro": "We design, secure and run cloud infrastructure for Abu Dhabi organisations on AWS, Microsoft Azure and Google Cloud. The work covers architecture, UAE data residency, access control, monitoring, cost reviews and managed operations, for companies whose clients, regulators or health licences ask where data lives and who can reach it.",
@@ -15,7 +15,7 @@
     {
       "h": "The question every cloud project here starts with",
       "p": [
-        "In London, a client asks how fast the system is and what it costs. In the capital, the first question is usually where the data sits. Suppliers to government and semi-government entities are asked in security questionnaires. Hospitals and clinics answer to the federal health data law, which restricts storing health data outside the UAE. ADGM-licensed firms have their own data protection rules and transfer conditions.",
+        "In many markets, the first question about a cloud system is how fast it is and what it costs. In the capital, the first question is usually where the data sits. Suppliers to government and semi-government entities are asked in security questionnaires. Hospitals and clinics answer to the federal health data law, which restricts storing health data outside the UAE. ADGM-licensed firms have their own data protection rules and transfer conditions.",
         "So any cloud consulting Abu Dhabi organisations commission has to begin with a residency and access map, not a vendor brochure. We write that map first and design everything else around it."
       ]
     },
@@ -61,8 +61,8 @@
     {
       "h": "Working with us remotely",
       "p": [
-        "Cloud work is delivered remotely by nature. We access your accounts through roles you control and can remove at any time. Abu Dhabi runs on Gulf Standard Time, 4 hours ahead of London in winter and 3 in summer, so planning calls fall in your afternoon and changes can be scheduled for quiet hours in the UAE.",
-        "If a data centre visit, an on-site audit or a handover workshop needs people present, we come to Abu Dhabi when the project needs it. We do not have a UAE office and will not claim one."
+        "Cloud work is delivered remotely by nature. We access your accounts through roles you control and can remove at any time. Planning calls are booked at times that suit your team, and changes are scheduled for quiet periods in your operations, agreed in writing before anything moves.",
+        "If a data centre visit, an on-site audit or a handover workshop needs people present, we plan that visit to Abu Dhabi as part of the scope, so the dates and the purpose are clear from the start."
       ]
     },
     {
@@ -101,8 +101,8 @@
       "a": "We can build and run cloud environments for healthcare organisations, designed with the Department of Health's ADHICS standard and the federal health data law in mind. Formal compliance is your organisation's responsibility and is assessed by the regulator, so we work alongside your compliance lead and supply the evidence they need."
     },
     {
-      "q": "How does cloud consulting, Abu Dhabi to London, work day to day?",
-      "a": "Everything is done through secure, role-based access you control. Planning and reviews run over video in the overlap between London and Gulf hours, changes are scheduled for quiet periods in the UAE, and every agreed date is written down. When something needs people on site, we travel to Abu Dhabi for it."
+      "q": "What does cloud consulting in Abu Dhabi look like day to day?",
+      "a": "Everything is done through secure, role-based access that you control and can revoke. Planning and review calls are booked at times that suit your team, changes are scheduled for quiet periods in your operations, and every agreed date is written down. When something needs people on site, we plan a visit to Abu Dhabi for it."
     },
     {
       "q": "Can you reduce our cloud bill?",
@@ -123,6 +123,12 @@
   ],
   "keywords": {
     "primary": "cloud consulting abu dhabi",
-    "secondary": ["cloud consultant abu dhabi", "uae data residency", "azure uae central", "aws uae region", "managed cloud abu dhabi"]
+    "secondary": [
+      "cloud consultant abu dhabi",
+      "uae data residency",
+      "azure uae central",
+      "aws uae region",
+      "managed cloud abu dhabi"
+    ]
   }
 }

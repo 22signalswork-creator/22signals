@@ -66,13 +66,13 @@
     {
       "h": "Proof",
       "p": [
-        "We have managed over $1.5 million in projects across several time zones. Cloud work is where that discipline matters most: written change plans, named owners and dates that hold. We would rather tell you a change needs another weekend than rush a cutover on a system your Birmingham site depends on."
+        "We have managed over $1.5 million in projects. Cloud work is where that discipline matters most: written change plans, named owners and dates that hold. We would rather tell you a change needs another weekend than rush a cutover on a system your Birmingham site depends on."
       ]
     },
     {
       "h": "Remote delivery, in person when it counts",
       "p": [
-        "Cloud work is mostly remote by nature, so being based in London rather than Birmingham changes very little day to day. We work your hours, in the same time zone, with access granted through accounts you control and can revoke. Where a project touches physical kit, such as decommissioning an on-site server or connecting a factory network, we plan an on-site visit when the project needs it. New Street is about 80 minutes from Euston.",
+        "Cloud work is mostly remote by nature, so very little of it needs anyone in your building. Access is granted through accounts you control and can revoke, and every change follows a written plan with a named owner and an agreed window. Where a project touches physical kit, such as decommissioning an on-site server or connecting a factory network, we plan an on-site visit when the project needs it.",
         "A cloud consultancy Birmingham firms appoint should leave them in control. Who owns the accounts and documentation is agreed in writing at the start, and you always have access to everything we set up and run for you."
       ]
     },
@@ -111,7 +111,7 @@
     },
     {
       "q": "Do you come to our Birmingham premises?",
-      "a": "When the project needs it, for example to decommission an on-site server or connect a factory network. Most cloud work is remote from our London head office, in the same time zone. Visits are agreed in the scope."
+      "a": "When the project needs it, for example to decommission an on-site server or connect a factory network. Most cloud work runs remotely through accounts you control, with review calls set at times that work for your team. Visits are agreed in the scope."
     },
     {
       "q": "Our cloud bill keeps rising. Can you help?",

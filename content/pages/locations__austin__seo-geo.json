@@ -10,7 +10,7 @@
   "description": "An SEO agency for Austin companies: technical SEO, local search and content that helps you show up in Google and in ChatGPT, Claude and Gemini answers.",
   "eyebrow": "SEO and GEO in Austin",
   "h1": "The SEO agency Austin companies use to get found in Google and in AI answers",
-  "intro": "22 Signals is an SEO agency for Austin businesses that need more qualified buyers finding them. We fix technical SEO, build local search for every location, write answer-first content and shape how your business is described across the web, so you show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers. Monthly reporting, remote from London.",
+  "intro": "22 Signals is an SEO agency for Austin businesses that need more qualified buyers finding them. We fix technical SEO, build local search for every location, write answer-first content and shape how your business is described across the web, so you show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers.  Monthly reporting in plain English.",
   "sections": [
     {
       "h": "Why search is harder in Austin than it looks",
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "h": "Working with an SEO agency in London from Austin",
+      "h": "What working with us looks like month to month",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Monthly reviews happen in your morning, which is our afternoon, and the written report arrives before the call so the meeting is about decisions rather than reading numbers aloud. Most SEO work does not depend on being in the same city, but local knowledge does matter, so we research each Austin neighborhood and suburb you serve, check local competitors and keep your Google Business Profile details accurate."
+        "Monthly reviews are booked at a time that suits your team, and the written report arrives before the call so the meeting is about decisions rather than reading numbers aloud. Most SEO work does not depend on being in the same city, but local knowledge does matter, so we research each Austin neighborhood and suburb you serve, check local competitors and keep your Google Business Profile details accurate."
       ]
     },
     {
@@ -90,8 +90,8 @@
   ],
   "faqs": [
     {
-      "q": "Is it a problem that you are not an Austin-based SEO agency?",
-      "a": "Not for most of the work. Technical SEO, content, profiles and outside mentions are done online wherever the team sits. Local knowledge still matters, so we research each part of Austin you serve and check local competitors directly. We work on Central Time hours, and we visit when a stage of the project needs it."
+      "q": "How do you learn the Austin market?",
+      "a": "Technical SEO, content, profiles and outside mentions are done online. Local knowledge still matters, so we research each part of Austin you serve, check local competitors directly and read the search results your buyers actually see. We visit when a stage of the project needs it."
     },
     {
       "q": "How long does SEO take to work in Austin?",
@@ -124,6 +124,11 @@
   ],
   "keywords": {
     "primary": "seo agency austin",
-    "secondary": ["austin seo company", "generative engine optimization austin", "local seo austin tx", "geo agency austin"]
+    "secondary": [
+      "austin seo company",
+      "generative engine optimization austin",
+      "local seo austin tx",
+      "geo agency austin"
+    ]
   }
 }

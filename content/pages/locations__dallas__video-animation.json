@@ -63,9 +63,9 @@
       ]
     },
     {
-      "h": "Remote production for Dallas teams",
+      "h": "How Dallas video projects are run",
       "p": [
-        "We handle Dallas video work remotely from London, with meeting hours that overlap Central Time. Dallas is six hours behind, so footage you upload at the end of your day can be edited while you sleep, and a first cut is often waiting when your team logs on. Review calls sit in the Dallas morning.",
+        "Dallas teams upload footage and notes to one shared folder, and every piece has a delivery date in the written schedule. First cuts come back with a short note on what changed and what we need from you. Review calls are booked at times that suit your team, and comments go straight onto the frame in a review tool, so nothing gets lost in email.",
         "For live broadcasts and shoots, we plan on-site support in Dallas when the project needs it, agreed in the scope well before the date."
       ]
     },
@@ -92,7 +92,7 @@
   "faqs": [
     {
       "q": "Do you have a film crew in Dallas?",
-      "a": "No, and we will not claim one. We work with Dallas companies remotely from London, with meeting hours that overlap Central Time. Much of our output uses existing footage, simple capture by your team, motion graphics, animation or AI video. When a project needs filming or live broadcast support in Dallas, we plan it in the scope."
+      "a": "Much of our output uses existing footage, simple capture by your team, motion graphics, animation or AI video, so many Dallas projects need no crew at all. When a project needs filming or live broadcast support in Dallas, we plan it in the scope, with the crew, dates and shot list agreed in writing first."
     },
     {
       "q": "Can you edit footage our team films on phones?",
@@ -116,7 +116,7 @@
     },
     {
       "q": "How quickly can you turn around a video?",
-      "a": "A short reel from supplied footage is the quickest job we do, and the time difference means edits often progress overnight Dallas time. Animated explainers and brand films take longer because of scripting and review. Dates for each piece go in writing."
+      "a": "A short reel from supplied footage is the quickest job we do. Animated explainers and brand films take longer because of scripting and review. Dates for each piece go in writing at the start, and each review round has its own date, so you know when to expect a cut."
     }
   ],
   "related": [

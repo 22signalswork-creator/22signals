@@ -15,7 +15,7 @@
     {
       "h": "What goes wrong with cloud in Houston firms",
       "p": [
-        "Many Houston companies moved to the cloud in a hurry: during a merger, after a server room flooded, or when remote work arrived overnight. The result is often an AWS or Azure account that grew without a plan. Admin rights are shared. Nobody is sure which resources belong to which project. Backups exist, but nobody has tested a restore. The monthly bill climbs and finance cannot tell whether it should.",
+        "Many Houston companies moved to the cloud in a hurry: during a merger, after a server room flooded, or when remote work arrived almost without warning. The result is often an AWS or Azure account that grew without a plan. Admin rights are shared. Nobody is sure which resources belong to which project. Backups exist, but nobody has tested a restore. The monthly bill climbs and finance cannot tell whether it should.",
         "The weather adds a local edge. Hurricane Harvey in 2017 and Hurricane Beryl in 2024 left offices and homes across the region without power or access for days, and Winter Storm Uri in 2021 took down large parts of the Texas grid. A Houston business that still runs critical systems from a closet in Westchase or Greenway Plaza, or that keeps every workload in one cloud location, is carrying risk it may not have priced in. Good cloud consulting, Houston teams tell us, starts with that honest look."
       ]
     },
@@ -70,14 +70,16 @@
       ]
     },
     {
-      "h": "Remote cloud consulting from London",
+      "h": "How a Houston cloud engagement is run",
       "p": [
-        "We work with Houston companies remotely from London, with meeting hours that overlap Central Time. We are six hours ahead, which suits cloud work: maintenance windows that would mean a late night for your staff can fall inside our working day. Your Signal Lead is accountable for the engagement, with specialist cloud engineers behind them. If a project needs someone at your site, for example to audit a server room before a migration, we arrange it when the project needs it."
+        "Your Signal Lead is accountable for the engagement, with specialist cloud engineers behind them. Maintenance windows are agreed in writing so changes land when they disrupt your staff least, and live sessions are booked at times that suit your team. If a project needs someone at your site, for example to audit a server room before a migration, we arrange it when the project needs it."
       ]
     },
     {
       "h": "Cost factors",
-      "p": ["We price on scope, never by the hour. For cloud consulting, Houston engagements usually turn on five things:"],
+      "p": [
+        "We price on scope, never by the hour. For cloud consulting, Houston engagements usually turn on five things:"
+      ],
       "list": [
         "How many cloud accounts, subscriptions or projects you run.",
         "Whether workloads are mostly modern services or older servers lifted as they were.",
@@ -108,7 +110,7 @@
     },
     {
       "q": "Do you work with Houston companies on site?",
-      "a": "Most cloud consulting is done remotely from London, with live sessions during your morning and maintenance during our daytime, which is your night. When a project needs it, such as a server room audit or a workshop with IT and operations, we arrange an on-site visit. We do not keep an office in Houston."
+      "a": "Most cloud consulting is done remotely, with live sessions booked around your team and maintenance in windows you approve. When a project needs it, such as a server room audit or a workshop with IT and operations, we arrange an on-site visit in Houston."
     },
     {
       "q": "Is the cloud safe for HIPAA data?",
@@ -119,6 +121,21 @@
       "a": "Yes, carefully. We separate operational technology networks from corporate IT and the cloud, use secure gateways instead of open remote desktop connections, and limit who can reach what. Changes near live plant systems are planned with your operations and safety teams, and nothing goes live without their sign-off."
     }
   ],
-  "related": ["/locations/houston", "/services/cloud", "/services/cloud-migration", "/services/devops-consulting", "/locations/dallas/cloud-consulting", "/locations/texas"],
-  "keywords": { "primary": "cloud consulting houston", "secondary": ["cloud consulting services houston", "aws consulting houston", "azure consultant houston", "cloud security houston"] }
+  "related": [
+    "/locations/houston",
+    "/services/cloud",
+    "/services/cloud-migration",
+    "/services/devops-consulting",
+    "/locations/dallas/cloud-consulting",
+    "/locations/texas"
+  ],
+  "keywords": {
+    "primary": "cloud consulting houston",
+    "secondary": [
+      "cloud consulting services houston",
+      "aws consulting houston",
+      "azure consultant houston",
+      "cloud security houston"
+    ]
+  }
 }

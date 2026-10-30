@@ -75,10 +75,10 @@
       ]
     },
     {
-      "h": "An app development company Birmingham teams work with remotely",
+      "h": "An app development company Birmingham teams can test alongside",
       "p": [
-        "Our head office is in London, and we work with Birmingham clients from there. There is no Birmingham office. App projects suit remote delivery well: you test builds on your own devices, feedback goes into a shared tracker, and we review progress on video calls in the same time zone.",
-        "When the app is for people in the field, such as engineers, drivers or clinic staff, we like to watch them work before we design. We plan those visits into the scope when the project needs them; Birmingham is about 80 minutes away by train. One Signal Lead owns the project from first call to launch."
+        "App projects go better when you see progress early. You test builds on your own devices from the first weeks, feedback goes into one shared tracker, and we walk through each release on a review call booked at a time that suits your team. Every build is checked by our testers before it reaches you.",
+        "When the app is for people in the field, such as engineers, drivers or clinic staff, we like to watch them work before we design, and we plan those sessions into the scope. One Signal Lead owns the project from first call to launch."
       ]
     },
     {
@@ -114,8 +114,8 @@
       "a": "Usually, yes. We connect to ERPs, CRMs, booking and warehouse systems through their APIs. If a system has no API, we can often build a small connector or use its exports. We confirm this in planning so there are no surprises mid-build."
     },
     {
-      "q": "Do you work with Birmingham clients in person?",
-      "a": "When the project needs it, yes, especially to watch field staff or clinic teams at work before designing. Most of the project runs remotely from our London head office in the same time zone, with test builds on your own devices."
+      "q": "What happens after the app launches?",
+      "a": "Launch is the start of the next phase. We watch crash reports, store reviews and usage closely in the first weeks and fix what comes up. After that, most clients keep us on a monthly plan for operating system updates, app store changes and new features, with a written report on what changed. You own the code and the store accounts throughout."
     },
     {
       "q": "How do you handle UK GDPR in an app?",

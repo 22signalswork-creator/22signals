@@ -32,7 +32,7 @@
         "List every server, virtual machine and hosted service, with operating system, size and current utilization.",
         "List every application and who owns it, uses it and supports it.",
         "Map dependencies: which applications call which databases, APIs, file shares and third-party services.",
-        "Find hidden jobs: cron tasks, scheduled scripts, overnight exports and email relays that nobody remembers until they stop.",
+        "Find hidden jobs: cron tasks, scheduled scripts, nightly exports and email relays that nobody remembers until they stop.",
         "Record data volumes, growth rates and how much downtime each system can tolerate.",
         "Note licensing terms, since some software licenses do not transfer to cloud servers on the same terms.",
         "Capture hard-coded IP addresses, hostnames and certificates that will change.",
@@ -167,6 +167,12 @@
   ],
   "keywords": {
     "primary": "cloud migration checklist",
-    "secondary": ["cloud migration plan", "cloud migration steps", "cloud cutover checklist", "lift and shift", "minimal downtime migration"]
+    "secondary": [
+      "cloud migration plan",
+      "cloud migration steps",
+      "cloud cutover checklist",
+      "lift and shift",
+      "minimal downtime migration"
+    ]
   }
 }

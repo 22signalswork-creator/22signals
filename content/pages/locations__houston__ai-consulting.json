@@ -70,8 +70,8 @@
     {
       "h": "Working with us from Houston",
       "p": [
-        "We work with Houston companies remotely from London, with meeting hours that overlap Central Time. London is six hours ahead, so your morning is our afternoon: a 9:00 call in Houston is 15:00 for us, and our team often runs into the London evening to cover your working day. Workshops happen over video, and an on-site visit to your office in Uptown, the Energy Corridor or Downtown can be arranged when the project needs it.",
-        "Every engagement has one Signal Lead, the person accountable for your project, with specialist teams behind them across several time zones. You get one inbox and one name, not a rotating cast."
+        "Workshops and interviews happen over video, booked at times that suit your team, and an on-site visit to your premises in Uptown, the Energy Corridor or Downtown can be arranged when the project needs it. After each session you get a written note of what was agreed and who owns the next step.",
+        "Every engagement has one Signal Lead, the person accountable for your project, with specialist teams behind them. You get one inbox and one name, not a rotating cast."
       ]
     },
     {
@@ -98,7 +98,7 @@
   "faqs": [
     {
       "q": "Do you work with Houston companies in person?",
-      "a": "Mostly remotely, and it works well for this kind of project. We run interviews and workshops over video during your morning, which is our afternoon in London. When a project needs it, such as a site walk at a plant or a leadership workshop in your office, we arrange an on-site visit. We do not have an office in Houston and will not pretend otherwise."
+      "a": "Mostly remotely, and it works well for this kind of project. We run interviews and workshops over video at times that suit your team. When a project needs it, such as a site walk at a plant or a leadership workshop at your premises, we arrange an on-site visit."
     },
     {
       "q": "How do you handle Texas data privacy law in AI projects?",
@@ -125,6 +125,21 @@
       "a": "It depends on what you already run. Many Houston firms are deep in Microsoft, so Copilot and Azure OpenAI are often the starting point. Others suit Google Cloud, AWS Bedrock or a specialist vendor. We have no reseller deals pushing us toward one platform, so the build versus buy call is based on your data, budget and risk."
     }
   ],
-  "related": ["/locations/houston", "/services/ai-consulting", "/locations/houston/ai-automation", "/locations/dallas/ai-consulting", "/locations/texas", "/industries/healthcare"],
-  "keywords": { "primary": "ai consulting houston", "secondary": ["ai consultant houston", "ai consulting firm houston", "houston ai strategy", "ai consulting texas"] }
+  "related": [
+    "/locations/houston",
+    "/services/ai-consulting",
+    "/locations/houston/ai-automation",
+    "/locations/dallas/ai-consulting",
+    "/locations/texas",
+    "/industries/healthcare"
+  ],
+  "keywords": {
+    "primary": "ai consulting houston",
+    "secondary": [
+      "ai consultant houston",
+      "ai consulting firm houston",
+      "houston ai strategy",
+      "ai consulting texas"
+    ]
+  }
 }

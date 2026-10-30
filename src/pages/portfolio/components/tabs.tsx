@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { supabase } from "@/lib/supabase";
-import { mergeRows, OCA_SLUGS, OCA_PARTNER } from "@/content/portfolio";
+import { mergeRows } from "@/content/portfolio";
 import "../../../pages/home/home.css";
 import "../../services/work.css";
 
@@ -144,7 +144,7 @@ const Tabs: React.FC<TabsProps> = ({ projects: fallback = [] }) => {
       </div>
 
       {/* Cards */}
-      <div className="tab-content grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+      <div className="tab-content pf-grid grid grid-cols-2 gap-3 md:gap-6 mt-6">
         {loading ? (
           <p className="text-gray-400 col-span-full text-center py-20">
             Loading projects…
@@ -223,11 +223,11 @@ export const DetailCard: React.FC<{ row: DetailRow }> = ({ row }) => {
   return (
     <Link
       to={`/portfolio/${row.slug}`}
-      className="block group no-underline my-4 h-[calc(100%-2rem)]"
+      className="dc block group no-underline my-0 md:my-4 h-full md:h-[calc(100%-2rem)]"
       style={{ textDecoration: "none" }}
     >
       <div
-        className="glass-card rounded-2xl relative overflow-hidden h-full flex flex-col p-4 md:p-5 transition-transform duration-300 group-hover:-translate-y-1"
+        className="dc-card glass-card rounded-2xl relative overflow-hidden h-full flex flex-col p-4 md:p-5 transition-transform duration-300 group-hover:-translate-y-1"
         style={{ background: gradientBg }}
       >
         <div className="relative rounded-xl overflow-hidden" style={{ aspectRatio: "16 / 9", background: "#0b1222", border: "1px solid rgba(80,140,255,0.2)" }}>
@@ -245,34 +245,34 @@ export const DetailCard: React.FC<{ row: DetailRow }> = ({ row }) => {
             />
           )}
           <div
-            className="absolute top-3 right-3 flex items-center justify-center w-11 h-11 rounded-full transition-transform duration-300 group-hover:rotate-45"
+            className="dc-arrow absolute top-3 right-3 flex items-center justify-center w-11 h-11 rounded-full transition-transform duration-300 group-hover:rotate-45"
             style={{ background: "rgba(5,10,24,0.65)", border: "1px solid rgba(255,255,255,0.25)", color: "#ffffff", fontSize: "18px", backdropFilter: "blur(6px)" }}
           >
             ↗
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 pt-5 px-1 md:px-2 pb-2 flex-grow">
-          <div className="flex flex-wrap items-center gap-2">
+        <div className="dc-body flex flex-col gap-3 pt-5 px-1 md:px-2 pb-2 flex-grow">
+          <div className="dc-tags flex flex-wrap items-center gap-2">
             {row.category && <span className="badge">{row.category}</span>}
             {tags.slice(0, 3).map((t) => (
               <TagChip key={t} label={t} />
             ))}
           </div>
-          <h2 className="recentproject-title" style={{ margin: 0 }}>
+          <h2 className="recentproject-title dc-title" style={{ margin: 0 }}>
             {row.client_name}
           </h2>
-          {OCA_SLUGS.has(row.slug) && (
-            <span className="text-[12px]" style={{ color: "rgba(255,255,255,0.45)", marginTop: -4 }}>
-              Execution partner for {OCA_PARTNER}
+          {row.category && (
+            <span className="md:hidden text-[11px]" style={{ color: "rgba(147,184,255,0.8)" }}>
+              {row.category}
             </span>
           )}
           {row.card_text && (
-            <p className="line-clamp-3" style={{ margin: 0, fontSize: "16px", lineHeight: 1.5, color: "rgba(255,255,255,0.72)" }}>
+            <p className="dc-text line-clamp-3" style={{ margin: 0, fontSize: "16px", lineHeight: 1.5, color: "rgba(255,255,255,0.72)" }}>
               {row.card_text}
             </p>
           )}
-          <span className="mt-auto pt-2 text-[11px] tracking-[0.25em] uppercase" style={{ color: "#93b8ff" }}>
+          <span className="dc-more mt-auto pt-2 text-[11px] tracking-[0.25em] uppercase" style={{ color: "#93b8ff" }}>
             View case study →
           </span>
         </div>

@@ -41,9 +41,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionRef }) => {
               <AnimatedText className="dark-text text-base md:text-lg" delay={0.5}>
                 A curated showcase of our finest work across digital infrastructure, creative media, broadcasting, and streamlined operations.
               </AnimatedText>
-              <p className="mt-3 text-xs md:text-[13px]" style={{ color: "rgba(10,21,48,0.5)" }}>
-                Some work delivered as execution partner for Outlier Creative Agency.
-              </p>
             </div>
             <img src={iconimage} alt="icon" className="w-16 h-16 md:w-20 md:h-20 mx-auto md:mx-0" />
           </div>

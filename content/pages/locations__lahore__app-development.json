@@ -69,9 +69,9 @@
       ]
     },
     {
-      "h": "Remote delivery for Lahore clients",
+      "h": "How Lahore clients review the build",
       "p": [
-        "We build from our head office in London and work with Lahore clients online. Sprint reviews run in the Lahore afternoon, for example 13:00 London, which is 18:00 PKT in winter and 17:00 PKT in summer. You install every test build on your own phone, comment in one shared tracker and get dates in writing from your Signal Lead."
+        "Sprint reviews are booked at times that suit your team. You install every test build on your own phone, comment in one shared tracker and get dates in writing from your Signal Lead. Each build is tested on mid-range Android phones before it reaches you."
       ]
     },
     {
@@ -110,8 +110,8 @@
       "a": "A focused MVP is quicker; a larger product with several user roles and integrations takes longer. We split features into launch and later, give dated milestones in writing and put a working test build in your hands every two weeks."
     },
     {
-      "q": "Is your app development company Lahore-based?",
-      "a": "No. Our head office is in London and we work with Lahore clients remotely, with sprint reviews in the Lahore afternoon. Everything is shared online, from the prototype to test builds. If a workshop with your users in Lahore would help, we arrange it when the project needs it."
+      "q": "What does an app development company Lahore businesses hire need from them first?",
+      "a": "A clear picture of who will use the app and what they need to get done, plus access to any systems it must connect to, such as your ERP, payment gateway or delivery software. A list of the phones your users actually carry helps too. If a workshop with your users in Lahore would help, we plan it into the first stage."
     },
     {
       "q": "Who owns the code and the app store accounts?",

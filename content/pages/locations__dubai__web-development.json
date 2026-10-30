@@ -71,14 +71,16 @@
       ]
     },
     {
-      "h": "Working with us from Dubai",
+      "h": "Reviews, testing and sign-off",
       "p": [
-        "We serve Dubai businesses from London, on-site when the project needs it. Design reviews and testing run over video and shared staging links, with meeting times that suit Gulf Standard Time, four hours ahead of London in winter and three in summer. If a brand workshop or a photo day in Dubai would make the site better, we plan it into the scope."
+        "Design reviews and testing run over video and shared staging links, with each round of feedback logged and answered in writing. Arabic pages are checked by a native speaker before you see them, and review calls are booked at times that suit your team. If a brand workshop or a photo day in Dubai would make the site better, we plan it into the scope."
       ]
     },
     {
       "h": "What decides the cost of a website",
-      "p": ["We do not publish prices, because two Dubai sites with the same page count can differ hugely in integrations and languages. These are the factors that set the scope:"],
+      "p": [
+        "We do not publish prices, because two Dubai sites with the same page count can differ hugely in integrations and languages. These are the factors that set the scope:"
+      ],
       "list": [
         "Number of pages and templates, and whether we write the content.",
         "One language or two, and how much Arabic content there is.",
@@ -116,8 +118,8 @@
       "a": "Any honest web development company Dubai clients speak to will say it depends on content. A focused company site is quicker, while a bilingual e-commerce store or portal takes longer. Content readiness and approvals are usually the biggest factors. With us, you get a written timeline at the start, with dates for design sign-off, content, testing and launch."
     },
     {
-      "q": "Do you meet clients in Dubai?",
-      "a": "Most of our web work runs remotely from London over video and shared staging sites, during hours that overlap Gulf Standard Time. When an in-person workshop or a photo shoot in Dubai would genuinely improve the result, we plan a visit and include it in the scope."
+      "q": "What happens after the website launches?",
+      "a": "We watch speed, forms, WhatsApp clicks and search data closely in the first weeks and fix anything that slips. You get a written handover covering how to edit pages, who holds each login and how backups work. Many Dubai clients then keep us on a monthly care plan for updates, security checks and small improvements."
     }
   ],
   "related": [
@@ -130,6 +132,11 @@
   ],
   "keywords": {
     "primary": "web development company dubai",
-    "secondary": ["website development company dubai", "web design company dubai", "arabic website development dubai", "web design dubai"]
+    "secondary": [
+      "website development company dubai",
+      "web design company dubai",
+      "arabic website development dubai",
+      "web design dubai"
+    ]
   }
 }

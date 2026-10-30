@@ -52,7 +52,14 @@ const LOCATIONS_SUBMENU: { label: string; path: string }[] = [
 ];
 
 // Tabs whose dropdown is a list of { label, path } links.
+const RD_SUBMENU: { label: string; path: string }[] = [
+  { label: "R&D", path: "/r&d" },
+  { label: "Blog", path: "/blog" },
+  { label: "Guides", path: "/insights" },
+];
+
 const LINK_SUBMENUS: Record<string, { label: string; path: string }[]> = {
+  "R&D": RD_SUBMENU,
   About: ABOUT_SUBMENU,
   Portfolio: PORTFOLIO_SUBMENU,
   Locations: LOCATIONS_SUBMENU,
@@ -107,7 +114,6 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
     { label: "Portfolio", path: "/portfolio" },
     { label: "Locations", path: "/locations" },
     { label: "R&D", path: "/r&d" },
-    { label: "Blog", path: "/blog" },
     { label: "Contact", path: "/contact" },
   ];
 

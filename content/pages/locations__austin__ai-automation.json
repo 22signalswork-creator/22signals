@@ -10,7 +10,7 @@
   "description": "An AI automation agency for Austin operations teams: custom tools and workflows across email, CRM and spreadsheets, with a person in the loop where it counts.",
   "eyebrow": "AI Automation in Austin",
   "h1": "The AI automation agency Austin operations teams call when the busywork wins",
-  "intro": "22 Signals is an AI automation agency for Austin companies whose teams lose hours to copying, chasing and reformatting. We build custom AI tools and workflow automations across email, CRM, spreadsheets and internal systems, with clear hand-off to a person when a judgement call is needed. Delivered remotely from London, on Central Time hours.",
+  "intro": "22 Signals is an AI automation agency for Austin companies whose teams lose hours to copying, chasing and reformatting. We build custom AI tools and workflow automations across email, CRM, spreadsheets and internal systems, with clear hand-off to a person when a judgement call is needed. Every build starts with a written plan and agreed dates.",
   "sections": [
     {
       "h": "Your team grew. The manual work grew faster.",
@@ -66,10 +66,10 @@
       ]
     },
     {
-      "h": "How remote delivery works for an Austin team",
+      "h": "How an Austin automation project runs",
       "p": [
-        "We work with Austin companies remotely from London. Austin is six hours behind us, so we use your mornings for process walkthroughs and reviews, and our specialist teams use the hours after your working day to build and test. Changes go to a test environment first, and nothing switches over without your sign-off.",
-        "You get one Signal Lead who owns the plan, a written change log and a short weekly update. If a process walkthrough needs to happen on site, for instance at a warehouse or lab outside Austin, we plan a visit for that stage."
+        "Each project starts with a process walkthrough, booked at a time that suits the people who do the work. Our specialist teams then build and test against real examples from your systems. Changes go to a test environment first, and nothing switches over without your sign-off.",
+        "You get one Signal Lead who owns the plan, a written change log and a short weekly update. If a process can only be understood by watching it, for instance at a warehouse or lab outside Austin, we add a site session to the scope."
       ]
     },
     {
@@ -103,8 +103,8 @@
       "a": "It can be, if it is set up properly. We choose providers whose data terms fit your needs, limit what each automation can see, log what happens and keep sensitive fields out where they are not needed. For Texas privacy law and any industry rules, we document the data flow so your counsel can review it."
     },
     {
-      "q": "Do you work with Austin teams on site?",
-      "a": "We work remotely from London, with meeting hours that overlap Central Time, and that covers most automation projects because the work happens inside your systems. If we need to see a physical process, like a warehouse returns desk or a clinic front desk, we arrange a visit for that stage when the project needs it."
+      "q": "What should we prepare before the first call?",
+      "a": "Pick the one process that wastes the most time and, if you can, gather a few real examples: the emails, forms or spreadsheets involved and the people who touch them. A rough count of how often it happens each week helps us judge the payoff. The first call takes 15 minutes, and if the fit is right you get a written plan with scope and dates within 5 to 7 days."
     },
     {
       "q": "What happens when an automation breaks?",
@@ -125,6 +125,11 @@
   ],
   "keywords": {
     "primary": "ai automation agency austin",
-    "secondary": ["ai automation austin", "workflow automation austin tx", "business process automation austin", "ai agents austin"]
+    "secondary": [
+      "ai automation austin",
+      "workflow automation austin tx",
+      "business process automation austin",
+      "ai agents austin"
+    ]
   }
 }

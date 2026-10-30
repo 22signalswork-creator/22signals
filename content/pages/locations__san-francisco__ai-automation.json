@@ -51,7 +51,7 @@
     {
       "h": "How we build it: Talk, Plan, Build, Grow",
       "p": [
-        "Talk: we sit with the people doing the work, by video in your morning, and record how the job is really done, including the exceptions. Plan: we pick the one workflow with the clearest payback and agree a written date. Build: we ship it with logging, alerts and an off switch, and run it next to the manual process until the numbers match. Grow: we add the next workflow only when the first one has run cleanly."
+        "Talk: we sit with the people doing the work, by video, and record how the job is really done, including the exceptions. Plan: we pick the one workflow with the clearest payback and agree a written date. Build: we ship it with logging, alerts and an off switch, and run it next to the manual process until the numbers match. Grow: we add the next workflow only when the first one has run cleanly."
       ]
     },
     {
@@ -61,9 +61,9 @@
       ]
     },
     {
-      "h": "Working across the eight-hour gap",
+      "h": "Support after a workflow goes live",
       "p": [
-        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Automation suits the gap well. You report a broken step at 5 p.m. in San Francisco, it is morning in London, and the fix is often waiting when you sign in. Live calls sit between 8 and 11 a.m. Pacific. On-site visits happen when the project needs them."
+        "We work with San Francisco companies remotely. Every workflow ships with logging and alerts, so when a step breaks you report it in one shared channel and the fix is tracked there until it is closed. Live calls are booked at times that suit your team, and each fix is tested before it goes back into production. On-site visits happen when the project needs them."
       ]
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "q": "Do you work with San Francisco companies on site?",
-      "a": "We work remotely from London with teams across several time zones. Calls run in the Pacific morning, and fixes often move forward overnight. If mapping a process needs us in the room with your team, we plan a visit to the Bay Area when the project needs it."
+      "a": "Mostly remotely. Calls are booked at times that suit your team, and progress is logged in one shared channel. If mapping a process needs us in the room with your team, we plan a visit to the Bay Area when the project needs it."
     },
     {
       "q": "Which tools can you connect?",

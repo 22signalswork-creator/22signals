@@ -69,9 +69,9 @@
       ]
     },
     {
-      "h": "Remote delivery from London",
+      "h": "How remote delivery works",
       "p": [
-        "Cloud work is remote by nature, and we run it from our head office in London. Pakistan is GMT+5, so in winter our 09:00 is your 14:00 and in summer it is your 13:00. That overlap covers planning calls and change windows; risky changes are scheduled for your quietest hours and agreed in writing beforehand.",
+        "Cloud work is remote by nature. Planning calls are booked at times that suit your team, and change windows are agreed in writing beforehand. Risky changes are scheduled for your quietest hours, with a rollback plan written down before anything is touched.",
         "Your Signal Lead keeps the change log, the architecture diagram and the open-issues list in one shared place."
       ]
     },
@@ -111,7 +111,7 @@
     },
     {
       "q": "Do you provide cloud consulting in Lahore in person?",
-      "a": "We work remotely from London with hours that overlap PKT, which suits cloud work since everything is managed online. If a migration involves physical servers in your building, we coordinate with your on-site staff and arrange a visit when the project needs it."
+      "a": "Cloud work is managed online, so most of it runs remotely through accounts you control. If a migration involves physical servers in your building in Lahore, we coordinate with your on-site staff and arrange a visit when the project needs it."
     },
     {
       "q": "Can you manage our cloud after it is set up?",

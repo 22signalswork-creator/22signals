@@ -10,7 +10,7 @@
   "description": "An app development company for Austin businesses: iOS, Android and web apps, internal tools and SaaS products, from first version to launch and support.",
   "eyebrow": "App Development in Austin",
   "h1": "The app development company Austin teams call when an app has a real job to do",
-  "intro": "22 Signals is an app development company that builds iOS, Android and web apps for Austin businesses: customer apps, internal tools for field and operations teams, and SaaS products. We scope the first version tightly, handle payments, APIs and app store launch, and support the app afterwards. Delivered remotely from London on Central Time hours.",
+  "intro": "22 Signals is an app development company that builds iOS, Android and web apps for Austin businesses: customer apps, internal tools for field and operations teams, and SaaS products. We scope the first version tightly, handle payments, APIs and app store launch, and support the app afterwards., with every date agreed in writing.",
   "sections": [
     {
       "h": "Start with the job the app has to do",
@@ -71,7 +71,7 @@
     {
       "h": "Building an app with us from Austin",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Sprint reviews and planning take place in your morning. Because London is six hours ahead and our specialist teams span several time zones, a bug reported at the end of your day is often fixed in a test build by the time you are back.",
+        "Sprint reviews and planning calls are booked around your team's calendar, and every review ends with a written list of what was agreed. Test builds go to your phones through TestFlight and Google Play internal testing, so a bug you report is logged, fixed and checked in a fresh build before it reaches you again.",
         "When the app has to be tested in the field, for example on a production floor or at a clinic, we plan a visit for that stage when the project needs it."
       ]
     },
@@ -103,7 +103,7 @@
     },
     {
       "q": "Do you work in person with Austin clients?",
-      "a": "We work remotely from London, with meeting hours that overlap Central Time, and most app projects run well that way with prototypes, test builds and recorded demos. If the app needs testing in a physical setting, such as a clinic, warehouse or production floor in the Austin area, we plan a visit for that stage when the project needs it."
+      "a": "Most app projects run well remotely, with prototypes, test builds and recorded demos you can watch when it suits you. If the app needs testing in a physical setting, such as a clinic, warehouse or production floor in the Austin area, we plan a visit for that stage when the project needs it."
     },
     {
       "q": "Who owns the code?",

@@ -8,7 +8,7 @@
   "description": "A digital agency for Berlin scale-ups and German Mittelstand firms: AI, data, cloud, web, search, paid media, video and 3D, delivered remotely in English.",
   "eyebrow": "Berlin",
   "h1": "A digital agency for Berlin scale-ups and the German Mittelstand",
-  "intro": "22 Signals is a global business solutions company that Berlin startups, scale-ups and established German firms hire for AI, automation, data, cloud, websites, apps, search, paid media, video and 3D. We work remotely in English, one hour behind Central European Time, put every date in writing and travel to Berlin when a project needs people in the room.",
+  "intro": "22 Signals is a global business solutions company that Berlin startups, scale-ups and established German firms hire for AI, automation, data, cloud, websites, apps, search, paid media, video and 3D. We work in English, agree a written scope with dated milestones and post every update in one shared channel.",
   "sections": [
     {
       "h": "Why a Berlin company would look beyond its own city",
@@ -66,7 +66,7 @@
     {
       "h": "Remote by default, in Berlin when it counts",
       "p": [
-        "We do not have an office in Berlin, and we will not invent one. 22 Signals is registered in London, and our teams work remotely across several time zones. Berlin runs on Central European Time, one hour ahead of London all year, so a Berlin working day and a London working day overlap almost entirely. A 9:00 call in Berlin is 8:00 in London, which rarely causes trouble.",
+        "Most of the work runs remotely. A project starts with a 15-minute call, then discovery and a written roadmap within 5 to 7 days. Calls and reviews are booked at times that suit your team, updates go through one shared channel, and every deliverable is checked before it reaches you.",
         "Workshops, shoots and launch weeks are different. When a project needs us in the room, we plan the trip into the scope, whether that is a kick-off in Mitte, a product shoot at a factory in Brandenburg or a stand at a trade fair."
       ]
     },
@@ -85,8 +85,8 @@
   ],
   "faqs": [
     {
-      "q": "Do you have an office or staff in Berlin?",
-      "a": "No. We work remotely, and our hours overlap almost fully with Berlin because Central European Time is only one hour ahead of London. When a workshop, shoot or launch needs us there, we plan a visit as part of the project."
+      "q": "What should we prepare before the first call?",
+      "a": "Very little. A rough idea of the problem, the systems you use today and any date that matters, such as a launch or a trade fair, is enough. If you already have analytics, a CRM or an ad account, read access helps us give you a sharper roadmap after discovery."
     },
     {
       "q": "Do you work in German?",
@@ -94,7 +94,7 @@
     },
     {
       "q": "Can you work with Mittelstand companies outside Berlin?",
-      "a": "Yes. Many of the firms we can help most are mid-sized manufacturers and engineering companies across Germany. Remote work means the city matters less than the brief. We travel to a plant or head office when a site visit makes the work better."
+      "a": "Yes. Many of the firms we can help most are mid-sized manufacturers and engineering companies across Germany. Remote work means the city matters less than the brief. We travel to a plant or headquarters when a site visit makes the work better."
     },
     {
       "q": "How do you handle GDPR for German clients?",

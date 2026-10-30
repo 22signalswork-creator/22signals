@@ -44,7 +44,7 @@
         "Healthcare systems and practices: HIPAA-eligible services, signed business associate agreements with the cloud provider, and patient data kept apart from general workloads.",
         "Logistics and distribution: transport and warehouse systems that cannot go down during peak season, with integrations to carriers and customers.",
         "Telecom and tech teams in Richardson and Plano: container platforms, network monitoring and cost control on heavy data workloads.",
-        "Real estate and retail head offices: property and store systems, e-commerce sites and reporting warehouses that need predictable monthly costs."
+        "Real estate and retail headquarters: property and store systems, e-commerce sites and reporting warehouses that need predictable monthly costs."
       ],
       "p": [
         "The cloud consulting Dallas clients need changes with the sector they work in, and so do the risks."
@@ -65,9 +65,9 @@
       ]
     },
     {
-      "h": "Remote cloud operations from London",
+      "h": "How changes and maintenance are scheduled",
       "p": [
-        "All of our Dallas cloud work is delivered remotely. Dallas is six hours behind London, so routine maintenance and patching can run in the London morning while Dallas is asleep, and your team reviews the results at the start of their morning. Reviews and planning calls sit in the Dallas morning, which is our afternoon.",
+        "All of our Dallas cloud work is delivered remotely, inside your accounts. Maintenance and patching run in windows you approve in writing, and your team gets a short summary of what changed after each one. Planning calls and reviews are booked at times that suit your Dallas staff, and nothing goes to production without a tested way back.",
         "Every change goes through your own accounts with named access, and nothing changes in production without an agreed window. If an on-site meeting with your data center provider or IT team would help, we plan it when the project needs it."
       ]
     },
@@ -110,11 +110,11 @@
     },
     {
       "q": "Who responds if something breaks at night in Dallas?",
-      "a": "With managed operations, monitoring alerts go to the engineers on call for your account, and the six-hour difference means much of the Dallas night falls inside working hours for our teams. We agree response times, escalation contacts and what counts as urgent in writing before we take over."
+      "a": "With managed operations, monitoring alerts go to the engineers on call for your account. We agree response times, escalation contacts and what counts as urgent in writing before we take over, so everyone knows who acts and how fast."
     },
     {
       "q": "Do you visit Dallas clients?",
-      "a": "We work remotely from London, with meeting hours that overlap Central Time, and cloud work rarely needs anyone in the building. If a planning session with your IT team or your data center provider works better in person, we arrange a visit to Dallas when the project needs it."
+      "a": "Cloud work rarely needs anyone in the building, so most of it runs remotely with calls booked around your team. If a planning session with your IT team or your data center provider works better in person, we arrange a visit to Dallas when the project needs it."
     },
     {
       "q": "Can you run our cloud environment long term?",

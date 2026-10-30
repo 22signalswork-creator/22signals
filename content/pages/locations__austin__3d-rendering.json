@@ -10,7 +10,7 @@
   "description": "3D rendering for Austin hardware, consumer and real estate companies: photoreal product renders, packaging, campaign visuals and architectural visualization.",
   "eyebrow": "3D Rendering in Austin",
   "h1": "3D rendering for Austin products, packaging and buildings that do not exist yet",
-  "intro": "Our 3D rendering service gives Austin companies photoreal images of products, packaging and spaces before they are made or built. We create product renders, packaging and campaign visuals, interior and architectural visualization, and 3D models for websites and ads, working from CAD files, drawings or sketches. Delivered remotely from London on Central Time hours.",
+  "intro": "Our 3D rendering service gives Austin companies photoreal images of products, packaging and spaces before they are made or built. We create product renders, packaging and campaign visuals, interior and architectural visualization, and 3D models for websites and ads, working from CAD files, drawings or sketches. Every project starts with a written scope and agreed dates.",
   "sections": [
     {
       "h": "Why Austin companies render instead of photograph",
@@ -66,13 +66,13 @@
     {
       "h": "Proof",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and 3D work often sits inside a bigger launch: the renders feed the website, the ads and the sales deck at once. That is why we plan 3D rendering. Austin clients receive a file set organized for every channel that will use it, not one folder of hero shots."
+        "We have worked with more than 30 companies across many industries, and 3D work often sits inside a bigger launch: the renders feed the website, the ads and the sales deck at once. That is why we plan 3D rendering. Austin clients receive a file set organized for every channel that will use it, not one folder of hero shots."
       ]
     },
     {
-      "h": "Working with us from Austin",
+      "h": "How reviews work for Austin projects",
       "p": [
-        "We work with Austin companies remotely from London, with meeting hours that overlap Central Time. Files arrive through shared storage, draft renders come back with numbered notes, and review calls sit in your morning. Because we are six hours ahead, changes requested at the end of your day are often waiting for you the next morning. If we need to see a physical prototype or a site in person, we plan a visit for that stage when the project needs it."
+        "Files arrive through shared storage, and draft renders come back with numbered notes so every comment has a clear answer. Review calls are booked at times that suit your Austin team, and each round of changes has a date agreed in writing before it starts. If we need to see a physical prototype or a site in person, we plan a visit for that stage and include it in the scope."
       ]
     },
     {
@@ -111,7 +111,7 @@
     },
     {
       "q": "Do you visit Austin for 3D rendering projects?",
-      "a": "Most 3D rendering projects do not need a visit, since the work runs on files. We work with Austin clients remotely from London, with meeting hours that overlap Central Time. If seeing a prototype, material sample or site in person would make the renders more accurate, we plan a visit for that stage when the project needs it."
+      "a": "Most 3D rendering projects do not need a visit, since the work runs on CAD files, drawings and photos. If seeing a prototype, material sample or site in Austin in person would make the renders more accurate, we plan a visit for that stage and write it into the scope."
     },
     {
       "q": "Who owns the 3D models and images?",
@@ -128,6 +128,11 @@
   ],
   "keywords": {
     "primary": "3d rendering austin",
-    "secondary": ["3d rendering services austin", "product rendering austin tx", "architectural visualization austin", "3d product visualization austin"]
+    "secondary": [
+      "3d rendering services austin",
+      "product rendering austin tx",
+      "architectural visualization austin",
+      "3d product visualization austin"
+    ]
   }
 }

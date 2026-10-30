@@ -66,9 +66,9 @@
       ]
     },
     {
-      "h": "Remote delivery from London",
+      "h": "Access, change windows and handover",
       "p": [
-        "We have no office or staff in Karachi; your project runs from our London head office under one Signal Lead. Cloud work is done in the console and in code, so remote delivery is normal. The time difference helps: PKT is five hours ahead of London in winter and four in summer, and we schedule maintenance windows and cutovers for your quiet hours, often late evening in Karachi.",
+        "Your Karachi project runs under one Signal Lead. Cloud work is done in the console and in code, and every planned change goes into a calendar agreed with your team. We schedule maintenance windows and cutovers for your quiet hours, with a rollback step written down before anything moves.",
         "Access is granted through your own identity system with named accounts and logging, and is removed when the work ends. If a data-centre visit or workshop on site is needed, we plan it for that stage."
       ]
     },
@@ -107,8 +107,8 @@
       "a": "We start with a cost review: unused resources, oversized servers, storage on the wrong tier and capacity that could be reserved. Most savings come from those basics. Then we set budgets and alerts so the bill stays visible. We report what changed and why, without touching anything you have not approved."
     },
     {
-      "q": "How does cloud consulting Karachi teams get from London work day to day?",
-      "a": "Your Signal Lead runs a weekly call in the Karachi afternoon, which is the London morning, and shares progress in writing. Engineers work through named, logged accounts on your systems. Cutovers are scheduled for your quiet hours. If something needs a person on site, we arrange it for that stage."
+      "q": "What does the cloud consulting Karachi teams get from us look like day to day?",
+      "a": "Your Signal Lead runs a weekly call at a time agreed with your team and shares progress in writing. Engineers work through named, logged accounts on your systems. Cutovers are scheduled for your quiet hours. If something needs a person on site, we arrange it for that stage."
     },
     {
       "q": "Do you offer ongoing cloud support?",
@@ -125,6 +125,11 @@
   ],
   "keywords": {
     "primary": "cloud consulting karachi",
-    "secondary": ["aws consultant karachi", "azure consultant pakistan", "cloud services karachi", "sbp cloud outsourcing"]
+    "secondary": [
+      "aws consultant karachi",
+      "azure consultant pakistan",
+      "cloud services karachi",
+      "sbp cloud outsourcing"
+    ]
   }
 }

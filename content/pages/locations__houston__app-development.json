@@ -60,13 +60,13 @@
     {
       "h": "Our track record",
       "p": [
-        "We have worked with more than 30 companies across several time zones, on everything from client portals to AI products. For app work, the most useful thing that experience gives us is judgment about scope: what to leave out of version one so it ships, and what must be there or users will not trust it."
+        "We have worked with more than 30 companies in many sectors, on everything from client portals to AI products. For app work, the most useful thing that experience gives us is judgment about scope: what to leave out of version one so it ships, and what must be there or users will not trust it."
       ]
     },
     {
-      "h": "Remote delivery across Central Time",
+      "h": "How a Houston app project runs",
       "p": [
-        "We build apps for Houston companies remotely from London, with meeting hours that overlap Central Time. London is six hours ahead. Sprint reviews and user testing sessions run in your morning, and a new test build is often ready when your day starts. Your Signal Lead owns the delivery and is the one person you call. For field research, such as riding along with a crew or watching a clinic front desk, we arrange an on-site visit when the project needs it."
+        "Your Signal Lead owns the delivery and is the one person you call. Work runs in short sprints, each ending with a demo and a test build you can install on your own phone. Sprint reviews and user testing sessions are booked at times that suit your Houston team. For field research, such as riding along with a crew or watching a clinic front desk, we arrange an on-site visit when the project needs it."
       ]
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "q": "Do you meet Houston clients in person?",
-      "a": "We work remotely from London, with sprint reviews in your morning. For user research it often helps to see the work first hand, so we arrange visits to sites, yards or clinics when the project needs it. You will always have test builds to try on your own phone, wherever you are."
+      "a": "Yes, when it helps. For user research it often pays to see the work first hand, so we arrange visits to sites, yards or clinics when the project needs it. Between visits, you will always have test builds to try on your own phone and a written update on what changed."
     },
     {
       "q": "How long does it take to build an app?",
@@ -116,6 +116,20 @@
       "a": "We agree ownership of the source code, designs, repositories, developer accounts and app store listings in writing at the start, and you always have access to what we build, so you are never locked in. If you later bring development in-house, we hand over documentation and help your team take it on."
     }
   ],
-  "related": ["/locations/houston", "/services/app-development", "/locations/houston/web-development", "/services/custom-ai-development", "/locations/dallas/app-development"],
-  "keywords": { "primary": "app development houston", "secondary": ["mobile app development houston", "app developers houston", "houston app development company", "field service app development"] }
+  "related": [
+    "/locations/houston",
+    "/services/app-development",
+    "/locations/houston/web-development",
+    "/services/custom-ai-development",
+    "/locations/dallas/app-development"
+  ],
+  "keywords": {
+    "primary": "app development houston",
+    "secondary": [
+      "mobile app development houston",
+      "app developers houston",
+      "houston app development company",
+      "field service app development"
+    ]
+  }
 }

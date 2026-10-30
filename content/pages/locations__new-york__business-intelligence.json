@@ -10,7 +10,7 @@
   "description": "Business intelligence consulting for New York firms: one set of numbers in Power BI, Looker Studio or Tableau, refreshed before the morning meeting.",
   "eyebrow": "Business Intelligence and Data Analytics in New York",
   "h1": "Business intelligence consulting for New York companies that need one version of the numbers",
-  "intro": "22 Signals provides business intelligence consulting for established New York companies: we agree the KPIs, connect your finance, CRM and operating systems into one warehouse, and build dashboards in Power BI, Looker Studio or Tableau that refresh overnight. Leaders open accurate numbers at 8:00 Eastern instead of waiting for someone to rebuild a spreadsheet.",
+  "intro": "22 Signals provides business intelligence consulting for established New York companies: we agree the KPIs, connect your finance, CRM and operating systems into one warehouse, and build dashboards in Power BI, Looker Studio or Tableau that refresh automatically. Leaders open accurate numbers each morning instead of waiting for someone to rebuild a spreadsheet.",
   "sections": [
     {
       "h": "The Monday morning spreadsheet problem",
@@ -56,7 +56,7 @@
         "Who owns the warehouse and the logins when the project ends?",
         "Can they connect our industry system, not only the common ones?",
         "How will they prove the dashboard total matches the ledger?",
-        "Who fixes a broken refresh at 7:00 Eastern on a board day?"
+        "Who fixes a broken refresh on the morning of a board meeting?"
       ]
     },
     {
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "h": "Proof and how we work from London",
+      "h": "Proof and how the work is checked",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and reporting is part of almost every engagement, from monthly SEO reports to operating dashboards. We work with New York companies remotely from London. Because London is five hours ahead for most of the year, data refreshes and checks run while Manhattan sleeps, and a person on our side has reviewed the overnight load before your first meeting. Weekly reviews sit in your morning. We visit New York when the project needs it."
+        "We have worked with more than 30 companies, and reporting is part of almost every engagement, from monthly SEO reports to operating dashboards. Data refreshes run on a schedule, and a person on our side checks each load against agreed totals before the numbers reach your team, so errors are caught before your meetings rather than in them. Weekly reviews are booked at times that suit you, and we visit New York when the project needs it."
       ]
     },
     {
@@ -125,6 +125,11 @@
   ],
   "keywords": {
     "primary": "business intelligence consulting new york",
-    "secondary": ["data analytics consulting new york", "power bi consultant nyc", "bi consulting new york", "dashboard consulting nyc"]
+    "secondary": [
+      "data analytics consulting new york",
+      "power bi consultant nyc",
+      "bi consulting new york",
+      "dashboard consulting nyc"
+    ]
   }
 }

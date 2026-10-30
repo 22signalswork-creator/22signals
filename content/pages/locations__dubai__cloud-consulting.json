@@ -67,9 +67,9 @@
       ]
     },
     {
-      "h": "Remote cloud delivery for Dubai",
+      "h": "How cloud delivery works for Dubai",
       "p": [
-        "We serve Dubai businesses from London, on-site when the project needs it. Cloud work is mostly remote by nature, and Gulf Standard Time being four hours ahead of London in winter, three in summer, means planned changes can run early in the Dubai morning or after close of business with our engineers awake and alert.",
+        "We serve Dubai businesses through secure remote access, on-site when the project needs it. Cloud work is mostly remote by nature. Planned changes run in a maintenance window your team chooses, such as before trading starts or after close of business, with a rollback ready and a written change note sent beforehand.",
         "When a project involves physical hardware, such as decommissioning servers in a Dubai data centre or wiring a branch network, we either plan a site visit or coordinate with your local facilities provider, and we say which at the scoping stage."
       ]
     },
@@ -109,11 +109,11 @@
     },
     {
       "q": "Do you provide on-site support in Dubai?",
-      "a": "Support for our cloud consulting Dubai clients is remote, with hours that overlap Gulf Standard Time on every UAE working day. For hardware tasks we plan a visit or work with your facilities provider, and we agree which approach applies before the project starts. We do not have staff based in Dubai and will not suggest otherwise."
+      "a": "Support for our cloud consulting Dubai clients is remote, with response times and contact routes agreed in writing before the project starts. For hardware tasks we plan a visit or work with your facilities provider, and we agree which approach applies at the scoping stage."
     },
     {
       "q": "How do you handle a migration without downtime?",
-      "a": "We plan the cutover for a low-traffic window, often early in the Dubai morning or on a weekend, test the new environment with real data first and keep a rollback ready. Most migrations need only a short pause rather than a full outage. The plan and dates are agreed in writing beforehand."
+      "a": "We plan the cutover for a low-traffic window, often before the working day starts or on a weekend, test the new environment with real data first and keep a rollback ready. Most migrations need only a short pause rather than a full outage. The plan and dates are agreed in writing beforehand."
     },
     {
       "q": "When is the right time to bring in a cloud consultant?",

@@ -62,9 +62,9 @@
       ]
     },
     {
-      "h": "How remote app delivery works for Dallas",
+      "h": "How app delivery works for Dallas",
       "p": [
-        "Dallas clients work with us remotely from London, with meeting hours that overlap Central Time. With Dallas six hours behind, sprint reviews and user testing calls run in the Dallas morning, and new test builds are often ready to install when your team starts the next day.",
+        "Dallas projects run in short sprints with a demo at the end of each one. Sprint reviews and user testing calls are booked at times that suit your team, and each new test build comes with a short note on what changed and what to try.",
         "You see progress through test builds on your own phone, not status slides. For user research with drivers, residents or staff on site in Dallas, we plan a visit when the project needs it."
       ]
     },
@@ -112,7 +112,7 @@
     },
     {
       "q": "Do you meet Dallas clients in person?",
-      "a": "We work remotely from London, with meeting hours that overlap Central Time, and most of the build is reviewed through test builds on your phone. For user research with drivers, residents or staff at a Dallas site, we plan an on-site visit when the project needs it."
+      "a": "Yes, when it helps. Most of the build is reviewed through test builds on your phone and short demo calls. For user research with drivers, residents or staff at a Dallas site, we plan an on-site visit when the project needs it."
     },
     {
       "q": "Who owns the code and the app store accounts?",

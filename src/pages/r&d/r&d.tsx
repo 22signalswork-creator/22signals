@@ -424,7 +424,7 @@ const RD: React.FC = () => {
           {loading ? (
             <p className="text-white/40 text-sm py-12 text-center">Loading research…</p>
           ) : filtered.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="rd-grid grid grid-cols-2 gap-3 md:gap-5">
               {filtered.map((p, i) => (
                 <Link
                   key={p.slug}
@@ -441,7 +441,7 @@ const RD: React.FC = () => {
                       ease: [0.22, 1, 0.36, 1],
                     }}
                     whileHover={{ y: -4 }}
-                    className="rounded-2xl p-6 md:p-7 relative overflow-hidden transition-shadow duration-300 group h-full"
+                    className="rounded-2xl p-4 md:p-7 relative overflow-hidden transition-shadow duration-300 group h-full"
                     style={{
                       background:
                         "linear-gradient(135deg, rgba(50,95,236,0.06) 0%, rgba(255,255,255,0.02) 100%)",
@@ -477,14 +477,14 @@ const RD: React.FC = () => {
                       className="text-xl md:text-2xl mb-2 leading-tight"
                       style={{
                         ...plainHeading,
-                        fontSize: "clamp(20px, 1.7vw, 26px)",
+                        fontSize: "clamp(15px, 1.7vw, 26px)",
                       }}
                     >
                       {p.title}
                     </h3>
 
                     {p.card_text && (
-                      <p className="text-white/55 text-sm leading-relaxed mb-5">
+                      <p className="hidden md:block text-white/55 text-sm leading-relaxed mb-5">
                         {p.card_text}
                       </p>
                     )}
@@ -508,7 +508,7 @@ const RD: React.FC = () => {
                       />
                     </div>
 
-                    <div className="inline-flex items-center gap-2 text-blue-300 text-xs tracking-[0.2em] uppercase">
+                    <div className="hidden md:inline-flex items-center gap-2 text-blue-300 text-xs tracking-[0.2em] uppercase">
                       Read more
                       <span className="transition-transform group-hover:translate-x-1">→</span>
                     </div>
@@ -583,12 +583,12 @@ const RD: React.FC = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5">
             {STATS.map((s, i) => (
               <FadeIn key={s.kicker} delay={i * 0.08}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="rounded-2xl p-7 h-full flex flex-col justify-between min-h-[220px] relative overflow-hidden transition-shadow duration-300"
+                  className="rounded-2xl p-4 md:p-7 h-full flex flex-col justify-between min-h-[150px] md:min-h-[220px] relative overflow-hidden transition-shadow duration-300"
                   style={{
                     background:
                       "linear-gradient(135deg, rgba(50,95,236,0.10) 0%, rgba(255,255,255,0.02) 100%)",
@@ -609,7 +609,7 @@ const RD: React.FC = () => {
                   </div>
                   <div className="relative z-10">
                     <div
-                      className="text-5xl md:text-6xl font-light leading-none"
+                      className="text-4xl md:text-6xl font-light leading-none"
                       style={{
                         background:
                           "linear-gradient(91deg, #325FEC 0%, #FFFFFF 50%, #325FEC 100%)",

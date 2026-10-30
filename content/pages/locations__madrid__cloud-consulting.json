@@ -74,7 +74,7 @@
     {
       "h": "How we support Madrid from outside the city",
       "p": [
-        "Cloud work is remote by nature, and we have no office in Madrid. Madrid is one hour ahead of London, so planned changes can run early in the morning or after the working day with our engineers fully alert. When a project includes physical work, such as retiring servers from a Madrid data centre, we either plan a visit or coordinate with your facilities provider, and we agree which at the scoping stage."
+        "Cloud work is remote by nature. Planned changes are booked into a change window you approve, with a written rollback plan and an engineer watching each step. When a project includes physical work, such as retiring servers from a Madrid data centre, we either plan a visit or coordinate with your facilities provider, and we agree which at the scoping stage."
       ]
     },
     {
