@@ -271,10 +271,19 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
 
           {/* WHAT WE STAND FOR: team value cards */}
           {values && (
-            <div className="flex flex-col gap-10">
-              <Split s={values} />
-              <ValueCards items={values.list || []} />
-            </div>
+            <FadeIn>
+              <div className="border-t border-white/15 pt-8">
+                <h2 className="mb-6" style={{ fontSize: "clamp(22px, 2vw, 30px)" }}>{values.h}</h2>
+                <ul className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-3 list-none p-0 m-0">
+                  {(values.list || []).map((item) => (
+                    <li key={item} className="flex items-center gap-3 text-white text-[15px] md:text-[17px]">
+                      <span aria-hidden className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "#6B92FF" }} />
+                      {titled(item).title}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </FadeIn>
           )}
 
           {/* FOUNDER: portrait card and title only, linking to his page */}

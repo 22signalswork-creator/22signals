@@ -70,23 +70,6 @@ const WhatWeDoGlobe: React.FC = () => {
   const target = useRef({ x: LABELS[START].x, y: LABELS[START].y });
   const pos = useRef({ x: 0, y: 0 });
   const raf = useRef(0);
-  // Phone deck: the card nearest the centre of the scroller is the active area.
-  const deckRef = useRef<HTMLDivElement>(null);
-  const [mActive, setMActive] = useState(0);
-  const onDeckScroll = () => {
-    const el = deckRef.current;
-    if (!el) return;
-    const card = el.firstElementChild as HTMLElement | null;
-    const w = card ? card.offsetWidth + 12 : el.clientWidth;
-    const i = Math.max(0, Math.min(UMBRELLAS.length - 1, Math.round(el.scrollLeft / w)));
-    setMActive((p) => (p === i ? p : i));
-  };
-  const goTo = (i: number) => {
-    const el = deckRef.current;
-    const card = el?.children[i] as HTMLElement | undefined;
-    if (el && card) el.scrollTo({ left: card.offsetLeft - (el.clientWidth - card.offsetWidth) / 2, behavior: "smooth" });
-  };
-
   // Clamp a point to the orb's travel circle (frame coords).
   const clamp = (x: number, y: number) => {
     const dx = x - CX, dy = y - CY, d = Math.hypot(dx, dy);
@@ -191,76 +174,128 @@ const WhatWeDoGlobe: React.FC = () => {
         </div>
       </div>
 
-      {/* Phone: a swipeable deck of the seven areas. The light in the globe
-          moves to the card you are on. */}
-      <div className="wwd-box md:hidden" style={{ padding: "24px 0 20px" }}>
-        <div className="relative mx-auto" style={{ width: "72%", aspectRatio: "2 / 1", overflow: "hidden" }}>
-          <div className="wwd-ball" style={{ left: 0, top: 0, width: "100%", aspectRatio: "1 / 1" }} />
-          <div className="absolute inset-0" style={{ borderRadius: "999px 999px 0 0", overflow: "hidden" }}>
-            <div
-              className="wwd-orb"
-              style={{
-                width: "62%",
-                height: "124%",
-                left: `${19 + Math.cos(Math.PI - (mActive * Math.PI) / 6) * 26}%`,
-                top: `${8 + (1 - Math.sin((mActive * Math.PI) / 6)) * 22}%`,
-                transition: "left .45s ease, top .45s ease",
-              }}
-            />
-          </div>
-          <svg aria-hidden="true" viewBox="0 0 360 180" className="absolute inset-0 w-full h-full">
-            <g fill="none" stroke="rgba(220,230,255,0.4)" strokeWidth="1">
-              <ellipse cx="180" cy="180" rx="40" ry="178" />
-              <ellipse cx="180" cy="180" rx="105" ry="178" />
-              <ellipse cx="180" cy="120" rx="150" ry="22" />
-              <ellipse cx="180" cy="70" rx="104" ry="14" />
-            </g>
-            <path d="M 2 180 A 178 178 0 0 1 358 180" fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
-          </svg>
-        </div>
+      {/* Phone: NoGood-style pinned globe, driven by scroll or tap */}
+      <MobileWhatWeDo />
+    </div>
+  );
+};
 
-        <div ref={deckRef} onScroll={onDeckScroll} className="wwd-deck mt-5" aria-label="Service areas, swipe to see more">
-          {UMBRELLAS.map((u, i) => (
-            <Link
-              key={u.slug}
-              to={`/services?area=${u.slug}`}
-              className={`wwd-card ${i === mActive ? "is-on" : ""}`}
-              style={{ textDecoration: "none" }}
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
-                  {String(i + 1).padStart(2, "0")} / 07
-                </span>
-                <span aria-hidden className="wwd-card-arrow">↗</span>
-              </div>
-              <div className="mt-3 text-white" style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
-                {u.name}
-              </div>
-              <div className="mt-4 flex flex-wrap gap-1.5">
-                {u.items.map((it) => (
-                  <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px", animation: "none" }}>
-                    {it.label}
-                  </span>
+/* ── Phone version ─────────────────────────────────────────────────────
+ * The section pins while you scroll through it. A half-globe sits on the
+ * right edge with the seven areas on a dotted arc beside it. Scrolling moves
+ * through the areas; tapping a name jumps to it. The light in the globe
+ * turns towards the active name, and its services show underneath.
+ */
+const VW = 360, VH = 400, GX = 392, GY = 196, GR = 168, AR = 228;
+const ANG = UMBRELLAS.map((_, i) => ((126 + (i * 108) / 6) * Math.PI) / 180);
+const MPOS = ANG.map((a) => ({ x: GX + AR * Math.cos(a), y: GY + AR * Math.sin(a) }));
+
+const MobileWhatWeDo: React.FC = () => {
+  const outerRef = useRef<HTMLDivElement>(null);
+  const [i, setI] = useState(0);
+
+  useEffect(() => {
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const el = outerRef.current;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const span = r.height - window.innerHeight;
+      const p = span > 0 ? Math.min(0.9999, Math.max(0, -r.top / span)) : 0;
+      const next = Math.floor(p * UMBRELLAS.length);
+      setI((cur) => (cur === next ? cur : next));
+    };
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(update);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll, { passive: true });
+    update();
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+
+  const jump = (k: number) => {
+    const el = outerRef.current;
+    if (!el) return;
+    const top = el.getBoundingClientRect().top + window.scrollY;
+    const span = el.offsetHeight - window.innerHeight;
+    window.scrollTo({ top: top + ((k + 0.5) / UMBRELLAS.length) * span, behavior: "smooth" });
+  };
+
+  const a = ANG[i];
+  const orb = { x: GX + 105 * Math.cos(a), y: GY + 105 * Math.sin(a) };
+  const u = UMBRELLAS[i];
+
+  return (
+    <div ref={outerRef} className="md:hidden relative" style={{ height: `calc(100svh + ${UMBRELLAS.length * 34}svh)` }}>
+      <div className="wwd-box" style={{ position: "sticky", top: 84, height: "calc(100svh - 100px)", minHeight: 560 }}>
+        <div className="relative w-full" style={{ aspectRatio: `${VW} / ${VH}` }}>
+          <svg viewBox={`0 0 ${VW} ${VH}`} className="absolute inset-0 w-full h-full" aria-hidden="true">
+            <defs>
+              <clipPath id="mwwd-clip">
+                <circle cx={GX} cy={GY} r={GR} />
+              </clipPath>
+              <radialGradient id="mwwd-orb">
+                <stop offset="0" stopColor="#dfe8ff" stopOpacity="1" />
+                <stop offset="0.25" stopColor="#7ea2ff" stopOpacity="0.9" />
+                <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.35" />
+                <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
+              </radialGradient>
+            </defs>
+            <circle cx={GX} cy={GY} r={GR} fill="#0a1640" />
+            <g clipPath="url(#mwwd-clip)">
+              <circle cx={orb.x} cy={orb.y} r="120" fill="url(#mwwd-orb)" style={{ transition: "cx .5s ease, cy .5s ease" }} />
+              <g fill="none" stroke="rgba(220,230,255,0.38)" strokeWidth="1">
+                {[40, 90, 135].map((rx) => (
+                  <ellipse key={rx} cx={GX} cy={GY} rx={rx} ry={GR} />
                 ))}
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        <div className="flex justify-center gap-1.5 mt-4" role="tablist" aria-label="Choose a service area">
-          {UMBRELLAS.map((u, i) => (
+                {[-110, -55, 0, 55, 110].map((dy) => (
+                  <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={18} />
+                ))}
+              </g>
+            </g>
+            <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
+            <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(147,184,255,0.35)" strokeWidth="1" strokeDasharray="2 6" />
+            {MPOS.map((q, k) => (
+              <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4 : 2.5} fill={k === i ? "#ffffff" : "rgba(147,184,255,0.6)"} />
+            ))}
+          </svg>
+          {UMBRELLAS.map((m, k) => (
             <button
-              key={u.slug}
+              key={m.slug}
               type="button"
-              role="tab"
-              aria-selected={i === mActive}
-              aria-label={u.name}
-              onClick={() => goTo(i)}
-              className="wwd-dot-btn"
+              onClick={() => jump(k)}
+              aria-pressed={k === i}
+              className={`mwwd-label ${k === i ? "is-on" : ""}`}
+              style={{ left: `${(MPOS[k].x / VW) * 100}%`, top: `${(MPOS[k].y / VH) * 100}%` }}
             >
-              <span className={`wwd-dot ${i === mActive ? "is-on" : ""}`} />
+              {m.short}
             </button>
           ))}
+        </div>
+
+        <div className="px-5 pt-2 pb-5">
+          <div className="text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
+            {String(i + 1).padStart(2, "0")} / 07
+          </div>
+          <div key={u.slug} className="wwd-fade mt-2 text-white" style={{ fontSize: 24, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
+            {u.name}
+          </div>
+          <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-1.5">
+            {u.items.map((it) => (
+              <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px" }}>
+                {it.label}
+              </span>
+            ))}
+          </div>
+          <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-4 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#93b8ff", textDecoration: "none" }}>
+            Explore {u.short} <span aria-hidden>→</span>
+          </Link>
         </div>
       </div>
     </div>

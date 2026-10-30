@@ -448,9 +448,9 @@ const RD: React.FC = () => {
                       border: "1px solid rgba(80,140,255,0.18)",
                     }}
                   >
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center justify-between gap-2 mb-3 md:mb-4">
                       <span
-                        className="text-[10px] tracking-[0.25em] uppercase px-3 py-1 rounded-full"
+                        className="text-[8px] md:text-[10px] tracking-[0.04em] md:tracking-[0.25em] uppercase px-1.5 md:px-3 py-1 rounded-full whitespace-nowrap min-w-0"
                         style={{
                           background: "rgba(80,140,255,0.1)",
                           border: "1px solid rgba(80,140,255,0.25)",
@@ -460,7 +460,7 @@ const RD: React.FC = () => {
                         {p.category ?? "Research"}
                       </span>
                       <span
-                        className="text-2xl font-light tabular-nums"
+                        className="text-sm md:text-2xl font-light tabular-nums shrink-0"
                         style={{
                           background:
                             "linear-gradient(91deg, #325FEC 0%, #FFFFFF 100%)",
@@ -588,7 +588,7 @@ const RD: React.FC = () => {
               <FadeIn key={s.kicker} delay={i * 0.08}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="rounded-2xl p-4 md:p-7 h-full flex flex-col justify-between min-h-[150px] md:min-h-[220px] relative overflow-hidden transition-shadow duration-300"
+                  className="rounded-2xl p-4 md:p-7 h-full flex flex-col justify-start md:justify-between gap-3 min-h-[140px] md:min-h-[220px] relative overflow-hidden transition-shadow duration-300"
                   style={{
                     background:
                       "linear-gradient(135deg, rgba(50,95,236,0.10) 0%, rgba(255,255,255,0.02) 100%)",
@@ -604,7 +604,7 @@ const RD: React.FC = () => {
                     }}
                   />
 
-                  <div className="relative z-10 text-blue-300/80 text-[10px] tracking-[0.3em] uppercase font-medium">
+                  <div className="relative z-10 text-blue-300/80 text-[9px] md:text-[10px] tracking-[0.15em] md:tracking-[0.3em] uppercase font-medium min-h-[2.4em] md:min-h-0">
                     {s.kicker}
                   </div>
                   <div className="relative z-10">
@@ -624,7 +624,7 @@ const RD: React.FC = () => {
                         display={s.display}
                       />
                     </div>
-                    <p className="text-white/65 text-sm mt-4">{s.label}</p>
+                    <p className="text-white/65 text-[13px] md:text-sm mt-2 md:mt-4">{s.label}</p>
                   </div>
                 </motion.div>
               </FadeIn>

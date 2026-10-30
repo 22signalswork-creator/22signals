@@ -1184,10 +1184,15 @@ h3.teamcard-title {
   .pf-grid .dc-arrow, .featured-slider .dc-arrow { width: 28px; height: 28px; font-size: 13px !important; top: 6px; right: 6px; }
   .pf-grid .dc-body, .featured-slider .dc-body { gap: 6px; padding: 10px 4px 4px; }
   .pf-grid .dc-tags, .featured-slider .dc-tags { display: none; }
-  .pf-grid .dc-text, .pf-grid .dc-more, .featured-slider .dc-text, .featured-slider .dc-more { display: none; }
-  .pf-grid h2.dc-title, .featured-slider h2.dc-title { font-size: 15px !important; line-height: 1.25 !important; }
+  .pf-grid .dc-more, .featured-slider .dc-more { display: none; }
+  .pf-grid h2.dc-title, .featured-slider h2.dc-title { font-size: 15px !important; line-height: 1.25 !important; padding: 0 !important; color: #ffffff !important; -webkit-text-fill-color: #ffffff !important; }
+  /* one-liner under each project */
+  .pf-grid .dc-text, .featured-slider .dc-text { font-size: 12px !important; line-height: 1.4 !important; color: rgba(255,255,255,0.62) !important; -webkit-line-clamp: 2 !important; }
+  .pf-grid .dc-body, .featured-slider .dc-body { justify-content: flex-start; flex-grow: 0; }
   .featured-slider .slick-slide > div { padding: 0 5px; }
 }
 /* Blog cards: titles are h2 now (one h1 per page) */
 .blog-grid h2.tab-card-heading { margin: 0; color: #0a1530; -webkit-text-fill-color: #0a1530; background: none; font-weight: 400; font-size: 15px !important; line-height: 1.3 !important; }
 @media (min-width: 768px) { .blog-grid h2.tab-card-heading { font-size: 26px !important; line-height: 1.15 !important; } }
+.mwwd-label { position: absolute; transform: translate(-100%, -50%); padding: 8px 12px 8px 6px; min-height: 36px; font-size: 13px; white-space: nowrap; color: rgba(255,255,255,0.55); background: none; border: 0; transition: color .3s ease, text-shadow .3s ease, font-size .3s ease; }
+.mwwd-label.is-on { color: #ffffff; font-size: 15px; text-shadow: 0 0 14px rgba(107,146,255,0.9); }

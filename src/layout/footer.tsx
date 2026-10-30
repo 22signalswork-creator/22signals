@@ -113,13 +113,13 @@ const Footer = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
-        className="w-full flex items-center bg-black bg-cover bg-center overflow-hidden min-h-[300px]"
+        className="w-full flex items-center bg-black bg-cover bg-center overflow-hidden min-h-[180px] md:min-h-[300px]"
         style={{ 
           backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${BgImage})`,
           backgroundBlendMode: 'overlay'
         }}
       >
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-8 px-6 md:px-12 lg:px-20 py-12">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-5 md:gap-8 px-6 md:px-12 lg:px-20 py-8 md:py-12">
           {/* Left Side */}
           <motion.div 
             initial={{ x: -50, opacity: 0 }}
@@ -128,12 +128,12 @@ const Footer = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-left"
           >
-            <h2 className="recentproject-title flex flex-col sm:flex-row items-start sm:items-center justify-start gap-4 text-[28px] sm:text-[32px] md:text-[44px] text-white font-bold leading-tight">
+            <h2 className="recentproject-title flex flex-col sm:flex-row items-start sm:items-center justify-start gap-3 text-[24px] sm:text-[32px] md:text-[44px] text-white font-bold leading-tight">
               {/* Fixed copy (the CMS value carried a reel offer that belongs in emails and VSLs, not on the site) */}
               Schedule a call. Let's connect!
               <img src={Union} alt="Union" className="w-8 h-8 md:w-10 md:h-10 animate-pulse" />
             </h2>
-            <p className="text-gray-300 mt-4 max-w-lg">
+            <p className="text-gray-300 mt-3 md:mt-4 max-w-lg text-sm md:text-base">
               Get the signal for what's next... or get left behind in the digital age.
             </p>
           </motion.div>
@@ -161,19 +161,19 @@ const Footer = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="container mx-auto px-6 md:px-12 lg:px-20 pt-20 md:pt-24 pb-14 md:pb-16"
+          className="container mx-auto px-6 md:px-12 lg:px-20 pt-10 md:pt-24 pb-8 md:pb-16"
         >
-          <div className="grid grid-cols-1 md:grid-cols-[1.6fr_1fr_1fr_1.2fr] gap-10 md:gap-16 text-left">
+          <div className="grid grid-cols-2 md:grid-cols-[1.6fr_1fr_1fr_1.2fr] gap-x-6 gap-y-8 md:gap-16 text-left">
             {/* Column 1: Logo + Description */}
-            <motion.div variants={itemVariants} className="w-full text-left md:pr-8">
+            <motion.div variants={itemVariants} className="col-span-2 md:col-span-1 w-full text-left md:pr-8">
               <Link to="/">
                 <img
                   src={Logo}
                   alt="Logo"
-                  className="mb-6 h-12 md:h-14 object-contain cursor-pointer hover:scale-105 transition-transform"
+                  className="mb-4 md:mb-6 h-10 md:h-14 object-contain cursor-pointer hover:scale-105 transition-transform"
                 />
               </Link>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
+              <p className="hidden md:block text-gray-400 text-sm leading-relaxed mb-6">
                 22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them.
               </p>
               <FooterNewsletter />
@@ -198,9 +198,9 @@ const Footer = () => {
             </motion.div>
 
             {/* Column 2: Navigation */}
-            <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
+            <motion.div variants={itemVariants} className="col-span-2 md:col-span-1 flex flex-col gap-3 md:gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Navigation</h4>
-              <ul className="text-gray-400 space-y-3 text-sm">
+              <ul className="text-gray-400 grid grid-cols-3 md:grid-cols-1 gap-x-4 gap-y-2 md:gap-y-3 text-sm">
                 {[
                   ["Services", "/services"],
                   ["Portfolio", "/portfolio"],
@@ -224,19 +224,19 @@ const Footer = () => {
             </motion.div>
 
             {/* Column 3: Legal */}
-            <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
+            <motion.div variants={itemVariants} className="flex flex-col gap-3 md:gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Legal</h4>
-              <ul className="text-gray-400 space-y-3 text-sm">
+              <ul className="text-gray-400 space-y-2 md:space-y-3 text-sm">
                 <li><Link to="/privacy-policy" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Privacy Policy</Link></li>
                 <li><Link to="/terms-of-service" className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">Terms of Service</Link></li>
-                <li><a href={`mailto:${email}`} className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">{email}</a></li>
+                <li className="hidden md:list-item"><a href={`mailto:${email}`} className="hover:text-[#504CFF] hover:pl-2 transition-all duration-300 block">{email}</a></li>
               </ul>
             </motion.div>
 
             {/* Column 4: Contact */}
-            <motion.div variants={itemVariants} className="flex flex-col gap-4 text-left">
+            <motion.div variants={itemVariants} className="flex flex-col gap-3 md:gap-4 text-left">
               <h4 className="text-[#504CFF] font-bold uppercase tracking-wider text-sm">Contact</h4>
-              <ul className="space-y-4">
+              <ul className="space-y-2 md:space-y-4">
                 {SHOW_PHONE && (
                   <li className="flex items-center justify-start gap-3 group">
                     <img src={Frame1} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
@@ -249,7 +249,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center justify-start gap-3 group">
                   <img src={dashiconemail} alt="" className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  <a href={`mailto:${email}`} className="text-gray-400 text-sm hover:text-white">{email}</a>
+                  <a href={`mailto:${email}`} className="text-gray-400 text-sm hover:text-white break-all">{email}</a>
                 </li>
                 <li className="text-gray-400 text-sm">London, United Kingdom</li>
                 {SHOW_ADDRESS && (
