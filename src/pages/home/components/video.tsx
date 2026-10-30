@@ -156,6 +156,24 @@ const Video: React.FC = () => {
     return () => io.disconnect();
   }, [hasEnteredView]);
 
+  // Phones only autoplay when the video is muted as a real attribute, and
+  // React does not write that attribute. Set it and start playback by hand.
+  useEffect(() => {
+    const v = htmlVideoRef.current;
+    if (!hasEnteredView || !v) return;
+    v.muted = true;
+    v.defaultMuted = true;
+    v.setAttribute("muted", "");
+    v.setAttribute("playsinline", "");
+    const go = () => v.play().catch(() => {});
+    go();
+    v.addEventListener("loadeddata", go, { once: true });
+    // resume when it comes back on screen (some phones pause off-screen video)
+    const io = new IntersectionObserver((es) => { if (es[0]?.isIntersecting && v.paused) go(); }, { threshold: 0.2 });
+    io.observe(v);
+    return () => io.disconnect();
+  }, [hasEnteredView, videoUrl]);
+
   useEffect(() => {
     const h = () => setIsFullscreen(getFullscreenElement() === frameRef.current);
     document.addEventListener("fullscreenchange", h);

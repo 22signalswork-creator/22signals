@@ -9,6 +9,8 @@ import React, { useEffect, useRef } from "react";
 
 const CursorFx: React.FC = () => {
   const ringRef = useRef<HTMLDivElement>(null);
+  const dotRef = useRef<HTMLDivElement>(null);
+  const labelRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
     const fine = window.matchMedia("(pointer: fine) and (min-width: 768px)").matches;
@@ -37,6 +39,7 @@ const CursorFx: React.FC = () => {
       if (e.pointerType !== "mouse") return;
       x = e.clientX;
       y = e.clientY;
+      if (dotRef.current) dotRef.current.style.transform = `translate3d(${x}px, ${y}px, 0)`;
       ring.classList.add("is-on");
       if (!raf) raf = requestAnimationFrame(tick);
 
@@ -45,6 +48,10 @@ const CursorFx: React.FC = () => {
       const quiet = t?.closest?.(".wwd-stage");
       ring.classList.toggle("is-hot", !!hot && !quiet);
       ring.classList.toggle("is-quiet", !!quiet);
+      const reel = t?.closest?.("video");
+      const lab = reel ? "Reel" : "";
+      ring.classList.toggle("is-label", !!lab);
+      if (labelRef.current && lab) labelRef.current.textContent = lab;
 
       const m = t?.closest?.("[data-magnetic]") as HTMLElement | null;
       if (m !== mag) release();
@@ -74,7 +81,12 @@ const CursorFx: React.FC = () => {
     };
   }, []);
 
-  return <div ref={ringRef} aria-hidden className="fx-ring" />;
+  return (
+    <>
+      <div ref={ringRef} aria-hidden className="fx-ring"><span ref={labelRef} className="fx-ring-label" /></div>
+      <div ref={dotRef} aria-hidden className="fx-dot hidden md:block" />
+    </>
+  );
 };
 
 export default CursorFx;

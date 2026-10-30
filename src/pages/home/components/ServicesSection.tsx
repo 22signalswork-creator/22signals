@@ -174,7 +174,8 @@ const VideoShowcase: React.FC = () => {
   // Desktop: the reel opens up to full size as it rises into view.
   const reelRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress: reelP } = useScroll({ target: reelRef, offset: ["start end", "center center"] });
-  const reelScale = useTransform(reelP, [0, 1], [0.84, 1]);
+  const reelScale = useTransform(reelP, [0, 1], [still ? 0.88 : 0.84, 1]);
+  const reelFade = useTransform(reelP, [0, 0.6], [0.35, 1]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -285,7 +286,7 @@ const VideoShowcase: React.FC = () => {
 
         {/* Video frame */}
         <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-3 md:mx-0">
-          <motion.div ref={reelRef} className="relative z-10" style={still ? undefined : { scale: reelScale, transformOrigin: "50% 0%" }}>
+          <motion.div ref={reelRef} className="relative z-10" style={{ scale: reelScale, opacity: reelFade, transformOrigin: "50% 0%" }}>
             <Video />
           </motion.div>
         </motion.div>
@@ -396,7 +397,7 @@ const ServicesSection = () => {
               <Link
                 data-magnetic
                 to="/services"
-                className="self-start md:self-auto inline-flex items-center gap-3 rounded-full px-7 py-4 text-sm tracking-[0.12em] uppercase no-underline"
+                className="self-start md:self-auto inline-flex items-center gap-2 md:gap-3 rounded-full px-5 py-2.5 md:px-7 md:py-4 text-[11px] md:text-sm tracking-[0.12em] uppercase no-underline"
                 style={{ background: "#325FEC", color: "#ffffff", textDecoration: "none", boxShadow: "0 12px 30px -12px rgba(50,95,236,0.6)" }}
               >
                 Explore all services <span aria-hidden>↗</span>
