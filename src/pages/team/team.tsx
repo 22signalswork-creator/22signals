@@ -12,7 +12,7 @@ import { supabase } from "@/lib/supabase";
 import CEOPortrait from "@/assets/Potrait_DaniyalMansur.webp";
 
 // Sample cards: on for the preview, off before launch.
-const SHOW_SAMPLES = true;
+const SHOW_SAMPLES = false;
 
 type Member = {
   id?: string;
