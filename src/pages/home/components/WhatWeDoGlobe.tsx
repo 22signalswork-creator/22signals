@@ -106,8 +106,31 @@ const WhatWeDoGlobe: React.FC = () => {
     return () => cancelAnimationFrame(raf.current);
   }, [kick]);
 
+  // When nobody is pointing at it, the light drifts from area to area on its
+  // own, so the globe never sits still on screen.
+  const lastMove = useRef(0);
+  useEffect(() => {
+    const box = boxRef.current;
+    if (!box || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let seen = false;
+    const io = new IntersectionObserver((es) => { seen = !!es[0]?.isIntersecting; }, { threshold: 0.35 });
+    io.observe(box);
+    const iv = window.setInterval(() => {
+      if (!seen || box.offsetParent === null || Date.now() - lastMove.current < 4000) return;
+      const next = (activeRef.current + 1) % UMBRELLAS.length;
+      target.current = { ...LABELS[next] };
+      kick();
+      pick(next);
+    }, 2600);
+    return () => {
+      io.disconnect();
+      window.clearInterval(iv);
+    };
+  }, [kick, pick]);
+
   const onMove = (e: React.PointerEvent) => {
     if (e.pointerType === "touch") return;
+    lastMove.current = Date.now();
     const r = boxRef.current!.getBoundingClientRect();
     const x = ((e.clientX - r.left) / r.width) * W;
     const y = ((e.clientY - r.top) / r.height) * H;

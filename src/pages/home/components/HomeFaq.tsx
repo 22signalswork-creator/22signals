@@ -80,7 +80,7 @@ const HomeFaq: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3">
+            <div className="faq-list flex flex-col gap-3">
               {faqs.map((item, i) => {
                 const isOpen = open === i;
                 return (

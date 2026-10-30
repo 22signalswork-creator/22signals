@@ -57,7 +57,7 @@ const HomeProcess: React.FC = () => {
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+        <div className="process-grid grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
           {steps.map((s, i) => (
             <FadeIn key={s.id ?? s.step_number} delay={i * 0.12}>
               <Cardhovereffect>

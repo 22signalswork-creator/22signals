@@ -3,6 +3,10 @@ import HeroSection from "./components/hero-section.tsx";
 import PortfolioSection from "./components/portfoliosection.tsx";
 import ServicesSection, { BackgroundWindingLine } from "./components/ServicesSection.tsx";
 import CursorFx from "@/components/fx/CursorFx";
+import SmoothScroll from "@/components/fx/SmoothScroll";
+import RevealFx from "@/components/fx/RevealFx";
+import ServiceMarquee from "@/components/fx/ServiceMarquee";
+import PanelReveal from "@/components/fx/PanelReveal";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
 import HomeLogos from "./components/HomeLogos.tsx";
@@ -22,6 +26,8 @@ const Home = () => {
     <>
       <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
       <CursorFx />
+      <SmoothScroll />
+      <RevealFx />
       {/* Everything below the hero. The scroll trace runs down the left
           margin of all of it and names each section as you reach it. */}
       <div className="relative">
@@ -30,14 +36,18 @@ const Home = () => {
           <ServicesSection />
         </div>
 
+        <div className="relative z-10">
+          <ServiceMarquee />
+        </div>
+
         {/* Companies We Have Worked With, straight after What We Do */}
         <div className="relative z-10" data-trace="Clients">
           <HomeLogos />
         </div>
 
-        <div data-trace="Work">
+        <PanelReveal trace="Work">
           <PortfolioSection />
-        </div>
+        </PanelReveal>
 
         <div data-trace="How we work">
           <HomeProcess />

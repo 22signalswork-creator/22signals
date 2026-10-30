@@ -1284,3 +1284,20 @@ h3.teamcard-title {
 @keyframes st-pulse { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(1.8); opacity: 0; } }
 @media (max-width: 767px) { .scroll-trace-tail, .scroll-trace-tick, .scroll-trace-label { display: none; } }
 @media (prefers-reduced-motion: reduce) { .scroll-trace-dot.pulse::after { animation: none; } }
+
+/* Lenis */
+html.lenis-on, html.lenis-on body { height: auto; }
+html.lenis-on { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* staggered rise-in */
+.fx-rise { opacity: 0; transform: translate3d(0, 46px, 0) scale(.985); }
+.fx-rise.fx-in { opacity: 1; transform: none; transition: opacity .9s ease, transform 1.2s cubic-bezier(.19,1,.22,1); transition-delay: calc(var(--ri, 0) * 90ms); }
+
+/* service names band */
+.smq { position: relative; width: 100vw; margin-left: calc(50% - 50vw); overflow: hidden; padding: clamp(28px, 5vw, 72px) 0; pointer-events: none; user-select: none; }
+.smq-track { white-space: nowrap; will-change: transform; }
+.smq-row { display: inline-flex; align-items: center; }
+.smq-item { display: inline-flex; align-items: center; font-size: clamp(38px, 7.4vw, 118px); line-height: 1.08; font-weight: 300; letter-spacing: -0.03em; color: #0a1530; padding-right: .35em; }
+.smq-row.is-outline .smq-item { color: transparent; -webkit-text-stroke: 1px rgba(50,95,236,0.6); }
+.smq-star { font-size: .38em; color: #325FEC; margin-left: .35em; -webkit-text-stroke: 0; }
