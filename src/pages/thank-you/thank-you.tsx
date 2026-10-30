@@ -96,7 +96,7 @@ const ThankYou: React.FC = () => {
             <p className="text-white/55 text-base md:text-lg leading-relaxed mt-6 max-w-2xl mx-auto">
               {booked
                 ? "A calendar invite is on its way to your inbox. If you want to share anything before the call, reply to that email or write to daniyal@22signals.com."
-                : "We have your message and will get back to you by email. The quickest next step is to book a 15-minute call, so we can talk it through."}
+                : "We have your message and a confirmation is on its way to your inbox. The quickest next step is to book a 15-minute call, so we can talk it through."}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
