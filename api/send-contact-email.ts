@@ -52,7 +52,6 @@ const DEFAULT_TO = [
   "22signals.work@gmail.com",
   "business@22signals.com",
   "ataulkarim2003@gmail.com",
-  "khanajwa950@gmail.com",
 ];
 
 const env = (k: string, d = "") => process.env[k]?.trim() || d;
