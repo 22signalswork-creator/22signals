@@ -3,9 +3,9 @@ import MyButton from "@/components/CustomButton";
 import AnimatedText from "@/transitions/herosectionP.tsx";
 import RisingText from "@/transitions/RisingText";
 
-type HeroProps = { titleAs?: "h1" | "h2"; subtitle?: string };
+type HeroProps = { titleAs?: "h1" | "h2"; subtitle?: string; title?: string };
 
-export default function HeroSection({ titleAs = "h2", subtitle }: HeroProps = {}) {
+export default function HeroSection({ titleAs = "h2", subtitle, title }: HeroProps = {}) {
   const Title = titleAs;
   return (
     <section className="hero-section">
@@ -21,7 +21,7 @@ export default function HeroSection({ titleAs = "h2", subtitle }: HeroProps = {}
             <div className="content-container">
               <div className="service-content ">
                 <RisingText>
-                <Title className="team-title mb-3">The Engine Behind 22 Signals.</Title>
+                <Title className="team-title mb-3">{title ?? "The Engine Behind 22 Signals."}</Title>
                 </RisingText>
 
                <AnimatedText className="white-text mb-20">

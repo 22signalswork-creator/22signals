@@ -1013,7 +1013,7 @@ export const PAGES = [
   {
     path: "/about",
     kind: "about",
-    title: "About 22 Signals: Business Solutions Company, London",
+    title: "About 22 Signals: Global Business Solutions Company",
     description:
       "22 Signals is a global business solutions company. We build intelligent systems for businesses, then grow them and execute with them.",
     eyebrow: "Who we are",
@@ -1026,9 +1026,8 @@ export const PAGES = [
         id: "who",
         h: "Who we are.",
         list: [
-          "Why we exist: most businesses don't need another supplier. They need capability they don't have in-house, run by someone who owns the result. We are one team of strategists, engineers, marketers and creatives that takes an idea from a plan to a working system, then grows it.",
-          "Who we work with: businesses ready to move off manual processes, scattered data and marketing nobody can measure, and founders building something new without hiring a whole team first.",
-          "Where we started: live events and esports, where the start time never moves and the audience is watching. We still run every project that way, with one accountable lead and every date in writing.",
+          "Why we exist: most businesses don't need another supplier. They need capability they don't have in-house, from a team that owns the result.",
+          "Who we work with: established businesses and ambitious founders across the US, UK and UAE, in healthcare, fashion and beauty, technology and AI, law, gaming and real estate.",
         ],
       },
       {
@@ -1047,7 +1046,7 @@ export const PAGES = [
       {
         id: "do",
         h: "What we do.",
-        p: ["Seven areas, one team. Pick the one you need today; the rest are already in the room when you need them."],
+        p: ["Seven areas, one team."],
         list: [
           "Strategy and Consulting: go-to-market plans, AI consulting and business process optimization.|/services/go-to-market",
           "AI and Automation: custom AI tools and agents, workflow automation and WhatsApp automation.|/services/ai-automation",
@@ -1057,31 +1056,6 @@ export const PAGES = [
           "Creative Studio: video and motion graphics, AI video, 2D and 3D animation, 3D rendering and brand identity.|/services/video-motion",
           "Managed Services and Events: managed specialist teams, live events and broadcast, game development and product sourcing.|/services/more",
         ],
-      },
-      {
-        id: "how",
-        h: "How we work.",
-        p: [
-          "Every engagement has one accountable lead, the Signal Lead, with specialist teams behind them across several time zones. You get one person to call, a written scope, and dates you can hold us to.",
-        ],
-        list: [
-          "Talk: a 15-minute call to see if we fit.",
-          "Plan: discovery and a written roadmap in 5 to 7 days.",
-          "Build: specialist teams build it, dates in writing.",
-          "Grow: we run it, measure it and grow it with you.",
-        ],
-      },
-      {
-        id: "with",
-        h: "Where we work.",
-        p: [
-          "Across the United States, the United Kingdom and the UAE, in healthcare and wellness, fashion and beauty, technology and AI, law and professional services, gaming and entertainment, and real estate.",
-        ],
-      },
-      {
-        id: "numbers",
-        h: "In numbers we stand behind.",
-        list: ["30+|Companies worked with", "30+|AI builds", "20+|Live events broadcast", "$1.5M+|In projects managed"],
       },
       {
         id: "values",

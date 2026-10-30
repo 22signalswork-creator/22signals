@@ -138,7 +138,7 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
               {page.intro}
             </p>
           </FadeIn>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-14 md:mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 mt-12 md:mt-16 max-w-5xl">
             {(who?.list || []).map((item, i) => {
               const v = titled(item);
               return (
@@ -179,47 +179,36 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
             </div>
           )}
 
-          {/* WHAT WE DO: seven areas, each linking to its services */}
+          {/* WHAT WE DO: the seven areas as quiet links (detail lives on /services) */}
           {doo && (
-            <div className="flex flex-col gap-10">
-              <Split s={doo} />
-              <div className="flex flex-col">
-                {(doo.list || []).map((item, i) => {
+            <FadeIn>
+              <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
+                <div>
+                  <h2>What we do.</h2>
+                  <div className="mt-3">
+                    <Para>{doo.p?.[0]}</Para>
+                  </div>
+                </div>
+                <Link to="/services" className="text-blue-300 hover:text-white text-xs tracking-[0.25em] uppercase no-underline transition-colors" style={{ textDecoration: "none" }}>
+                  All services →
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                {(doo.list || []).map((item) => {
                   const v = titled(item);
                   return (
-                    <FadeIn key={i} delay={i * 0.03}>
-                      <Link
-                        to={v.link || "/services"}
-                        className="group grid grid-cols-[48px_1fr_auto] md:grid-cols-[64px_1.1fr_1.6fr_auto] gap-4 md:gap-8 items-center py-6 md:py-7 border-t border-white/15 no-underline"
-                        style={{ textDecoration: "none" }}
-                      >
-                        <span className="text-blue-400/80 text-sm tabular-nums tracking-[0.2em]">{String(i + 1).padStart(2, "0")}</span>
-                        <span
-                          className="transition-colors"
-                          style={{
-                            fontSize: "clamp(20px, 2.2vw, 34px)",
-                            lineHeight: 1.15,
-                            background: "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #325FEC 102.48%)",
-                            WebkitBackgroundClip: "text",
-                            WebkitTextFillColor: "transparent",
-                          }}
-                        >
-                          {v.title}
-                        </span>
-                        <span className="hidden md:block text-[15px] leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-                          {v.desc}
-                        </span>
-                        <span className="text-blue-300 text-xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
-                        <span className="md:hidden col-span-3 -mt-2 text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-                          {v.desc}
-                        </span>
-                      </Link>
-                    </FadeIn>
+                    <Link
+                      key={v.title}
+                      to={v.link || "/services"}
+                      className="no-underline rounded-full px-5 py-3 text-[15px] transition-colors"
+                      style={{ textDecoration: "none", color: "#ffffff", border: "1px solid rgba(147,184,255,0.35)", background: "rgba(50,95,236,0.08)" }}
+                    >
+                      {v.title}
+                    </Link>
                   );
                 })}
-                <div className="border-t border-white/15" />
               </div>
-            </div>
+            </FadeIn>
           )}
 
           {/* HOW WE WORK: four steps */}
