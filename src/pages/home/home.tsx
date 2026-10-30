@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import HeroSection from "./components/hero-section.tsx";
 import PortfolioSection from "./components/portfoliosection.tsx";
 import ServicesSection, { BackgroundWindingLine } from "./components/ServicesSection.tsx";
+import CursorFx from "@/components/fx/CursorFx";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
 import HomeLogos from "./components/HomeLogos.tsx";
@@ -20,8 +21,9 @@ const Home = () => {
   return (
     <>
       <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
-      {/* The light part of the page: the scroll line runs behind all of it,
-          from the reel down to where Featured Projects begins. */}
+      <CursorFx />
+      {/* Everything below the hero. The scroll trace runs down the left
+          margin of all of it and names each section as you reach it. */}
       <div className="relative">
         <BackgroundWindingLine />
         <div ref={nextSectionRef} className="relative z-10">
@@ -29,18 +31,22 @@ const Home = () => {
         </div>
 
         {/* Companies We Have Worked With, straight after What We Do */}
-        <div className="relative z-10">
+        <div className="relative z-10" data-trace="Clients">
           <HomeLogos />
         </div>
+
+        <div data-trace="Work">
+          <PortfolioSection />
+        </div>
+
+        <div data-trace="How we work">
+          <HomeProcess />
+        </div>
+
+        <div data-trace="FAQ">
+          <HomeFaq />
+        </div>
       </div>
-
-      <PortfolioSection />
-
-      {/* New: Operational Framework process */}
-      <HomeProcess />
-
-      {/* New: Home FAQ */}
-      <HomeFaq />
 
 
       {/* Footer */}

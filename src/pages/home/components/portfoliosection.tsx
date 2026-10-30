@@ -1,3 +1,4 @@
+import Words from "@/components/fx/Words";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MyButton from "@/components/CustomButton.js";
@@ -227,11 +228,13 @@ const PortfolioSection = () => {
           <FadeIn direction="up">
             <div className="flex flex-col md:flex-row justify-between items-center mb-6">
               <h2 className="recentproject-title text-2xl md:text-3xl font-light text-blue-400 text-center md:text-left flex items-center">
-                Featured Projects
+                <Words>Featured Projects</Words>
                 <img src={Union} alt="Union" className="ml-2 inline-block w-4 h-4" />
               </h2>
               <div className="mt-4 md:mt-0">
-                <MyButton text="ALL PORTFOLIO" variant="primary" onClick={() => navigate("/portfolio")} />
+                <span data-magnetic className="inline-block">
+                  <MyButton text="ALL PORTFOLIO" variant="primary" onClick={() => navigate("/portfolio")} />
+                </span>
               </div>
             </div>
           </FadeIn>

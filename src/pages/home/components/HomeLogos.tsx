@@ -1,3 +1,4 @@
+import Words from "@/components/fx/Words";
 /**
  * "Companies We Have Worked With", unchanged in look, right after What We Do.
  */
@@ -47,7 +48,7 @@ const HomeLogos: React.FC = () => {
                 margin: 0,
               }}
             >
-              {t("home_logos_heading", "Companies We Have Worked With")}
+              <Words>{t("home_logos_heading", "Companies We Have Worked With")}</Words>
             </h2>
           </div>
         </FadeIn>

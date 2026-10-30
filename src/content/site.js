@@ -166,8 +166,8 @@ export const PAGES = [
       },
     ],
     faqs: [
-      { q: "Who do I work with day to day?", a: "One accountable lead, the Signal Lead, who runs the specialist teams behind your project. One person to call, a written scope and dates." },
-      { q: "What if I need multiple services?", a: "One lead runs all of it. Technology, AI, cloud, marketing and go-to-market sit under one team, so you deal with one team instead of ten." },
+      { q: "Who do I work with day to day?", a: "A project lead who runs the specialist teams behind your project. One person to call, a written scope and agreed dates." },
+      { q: "What if I need multiple services?", a: "We run all of it. Technology, AI, cloud, marketing and go-to-market sit under one team, so you deal with one team instead of ten." },
       { q: "What does it cost?", a: "It depends on scope, so we price after a 15-minute call. For product sourcing and managed teams, savings of 40 to 60% are typical, depending on product, volume and role." },
       { q: "What does 22 Signals do?", a: "Businesses hire us to handle their tech, marketing and launches, so they deal with one team instead of ten and don't have to hire a whole team for it." },
     ],

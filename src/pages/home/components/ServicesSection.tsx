@@ -12,6 +12,7 @@ import WhatWeDoGlobe from "./WhatWeDoGlobe.tsx";
 import Video, { REEL_YEAR } from "./video.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
+import Words from "@/components/fx/Words";
 
 
 /* ──────────────────────────────────────────────────────────────────────────
@@ -22,30 +23,68 @@ import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
  *  fills in behind it. One transform per frame, no SVG paths, nothing that
  *  crosses the content.
  * ────────────────────────────────────────────────────────────────────── */
+type Mark = { y: number; label: string };
+
 export const BackgroundWindingLine: React.FC = () => {
   const railRef = useRef<HTMLDivElement>(null);
   const fillRef = useRef<HTMLDivElement>(null);
   const dotRef = useRef<HTMLDivElement>(null);
+  const tailRef = useRef<HTMLDivElement>(null);
+  const labelRef = useRef<HTMLDivElement>(null);
+  const [marks, setMarks] = useState<Mark[]>([]);
+  const [cur, setCur] = useState(-1);
+  const marksRef = useRef<Mark[]>([]);
+
+  // Section ticks: every [data-trace] block in the page below the hero.
+  useEffect(() => {
+    const rail = railRef.current;
+    const host = rail?.parentElement;
+    if (!rail || !host) return;
+    const read = () => {
+      const top = rail.getBoundingClientRect().top;
+      const list = Array.from(host.querySelectorAll<HTMLElement>("[data-trace]")).map((el) => ({
+        y: Math.max(0, el.getBoundingClientRect().top - top),
+        label: el.dataset.trace || "",
+      }));
+      marksRef.current = list;
+      setMarks((old) => (JSON.stringify(old) === JSON.stringify(list) ? old : list));
+    };
+    read();
+    const ro = new ResizeObserver(read);
+    ro.observe(host);
+    return () => ro.disconnect();
+  }, []);
 
   useEffect(() => {
     const rail = railRef.current, fill = fillRef.current, dot = dotRef.current;
+    const tail = tailRef.current, label = labelRef.current;
     if (!rail || !fill || !dot) return;
     let raf = 0;
     let shown = -1;
     let goal = 0;
+    let vis = "0";
 
     const measure = () => {
       const r = rail.getBoundingClientRect();
       const h = r.height || 1;
-      // where the middle of the screen sits on the rail
       goal = Math.max(0, Math.min(h, window.innerHeight * 0.5 - r.top));
-      dot.style.opacity = goal > 2 && goal < h - 2 ? "1" : "0";
+      vis = goal > 2 && goal < h - 2 ? "1" : "0";
+      dot.style.opacity = vis;
+      if (tail) tail.style.opacity = vis;
+      if (label) label.style.opacity = vis;
+      let k = -1;
+      marksRef.current.forEach((m, i) => {
+        if (m.y <= goal + 4) k = i;
+      });
+      setCur((c) => (c === k ? c : k));
     };
     const frame = () => {
-      shown = shown < 0 ? goal : shown + (goal - shown) * 0.35;
+      shown = shown < 0 ? goal : shown + (goal - shown) * 0.3;
       if (Math.abs(goal - shown) < 0.5) shown = goal;
       fill.style.transform = `scaleY(${shown / (rail.offsetHeight || 1)})`;
       dot.style.transform = `translate3d(-50%, ${shown}px, 0)`;
+      if (tail) tail.style.transform = `translate3d(0, ${shown}px, 0)`;
+      if (label) label.style.transform = `translate3d(0, ${shown + 22}px, 0)`;
       raf = shown !== goal ? requestAnimationFrame(frame) : 0;
     };
     const onScroll = () => {
@@ -60,13 +99,25 @@ export const BackgroundWindingLine: React.FC = () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, []);
+  }, [marks]);
 
+  const m = cur >= 0 ? marks[cur] : null;
   return (
     <div ref={railRef} aria-hidden className="scroll-trace pointer-events-none">
       <div className="scroll-trace-line" />
       <div ref={fillRef} className="scroll-trace-fill" />
-      <div ref={dotRef} className="scroll-trace-dot" />
+      {marks.map((mk, i) => (
+        <div key={mk.label + i} className={`scroll-trace-tick ${i <= cur ? "is-past" : ""}`} style={{ top: mk.y }} />
+      ))}
+      <div ref={tailRef} className="scroll-trace-tail" />
+      <div ref={dotRef} className="scroll-trace-dot pulse" />
+      <div ref={labelRef} className="scroll-trace-label">
+        {m && (
+          <span key={m.label} className="stl-txt">
+            <b>{String(cur + 1).padStart(2, "0")}</b> {m.label}
+          </span>
+        )}
+      </div>
     </div>
   );
 };
@@ -120,6 +171,10 @@ const VideoShowcase: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   // Phones skip the numeral parallax: it fought momentum scrolling.
   const [still] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
+  // Desktop: the reel opens up to full size as it rises into view.
+  const reelRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress: reelP } = useScroll({ target: reelRef, offset: ["start end", "center center"] });
+  const reelScale = useTransform(reelP, [0, 1], [0.84, 1]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -150,6 +205,7 @@ const VideoShowcase: React.FC = () => {
     // within the showcase, but the line below can still bleed to viewport edges.
     <div
       ref={sectionRef}
+      data-trace="Showreel"
       className="relative w-full overflow-hidden"
     >
       {/* Huge faded reel numeral */}
@@ -213,13 +269,15 @@ const VideoShowcase: React.FC = () => {
               lineHeight: 1.12,
             }}
           >
-            <span className="services-hero-line">
-              We translate <span style={ACCENT_COLOR}>complex</span> challenges
-            </span>{" "}
-            <span className="services-hero-line">
-              into tangible{" "}
-              <span style={ACCENT_COLOR}>data driven results.</span>
-            </span>
+            <Words>
+              <span className="services-hero-line">
+                We translate <span style={ACCENT_COLOR}>complex</span> challenges
+              </span>{" "}
+              <span className="services-hero-line">
+                into tangible{" "}
+                <span style={ACCENT_COLOR}>data driven results.</span>
+              </span>
+            </Words>
           </h1>
         </motion.div>
 
@@ -227,9 +285,9 @@ const VideoShowcase: React.FC = () => {
 
         {/* Video frame */}
         <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-3 md:mx-0">
-          <div className="relative z-10">
+          <motion.div ref={reelRef} className="relative z-10" style={still ? undefined : { scale: reelScale, transformOrigin: "50% 0%" }}>
             <Video />
-          </div>
+          </motion.div>
         </motion.div>
 
         {/* Vertical connector */}
@@ -306,7 +364,7 @@ const ServicesSection = () => {
       {/* What we do: outside the line wrapper so the line never crosses it */}
       <div className="relative z-10">
           <FadeIn>
-            <div className="mb-8 md:mb-10 mt-16 md:mt-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div data-trace="What we do" className="mb-8 md:mb-10 mt-16 md:mt-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
               <div>
                 <div
                   className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
@@ -326,16 +384,19 @@ const ServicesSection = () => {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  One team <br />
-                  <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
+                  <Words>
+                    One team <br />
+                    <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
+                  </Words>
                 </h2>
                 <p className="text-lg md:text-xl mt-5 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
                   AI, cloud, websites, marketing and video, under one roof.
                 </p>
               </div>
               <Link
+                data-magnetic
                 to="/services"
-                className="self-start md:self-auto inline-flex items-center gap-3 rounded-full px-7 py-4 text-sm tracking-[0.12em] uppercase no-underline transition-transform hover:-translate-y-0.5"
+                className="self-start md:self-auto inline-flex items-center gap-3 rounded-full px-7 py-4 text-sm tracking-[0.12em] uppercase no-underline"
                 style={{ background: "#325FEC", color: "#ffffff", textDecoration: "none", boxShadow: "0 12px 30px -12px rgba(50,95,236,0.6)" }}
               >
                 Explore all services <span aria-hidden>↗</span>
