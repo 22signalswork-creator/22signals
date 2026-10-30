@@ -186,7 +186,9 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
   const getTextColorClass = () => {
     if (isHome) return "menu-white";
     const themeMenu = theme === "dark" ? "menu-black" : "menu-white";
-    return scrolled ? "menu-black" : themeMenu;
+    // The desktop header scrolls away with the page, so its colours follow the
+    // page theme only (switching on scroll turned the menu black on dark heroes).
+    return themeMenu;
   };
 
   /* ---- Framer-motion variants for the drawer ---- */
@@ -376,7 +378,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
           <SignalButton src={Headericon} />
           <MyButton
             text="GET STARTED"
-            variant={theme === "light" && !scrolled ? "secondary" : "primary"}
+            variant={theme === "light" ? "secondary" : "primary"}
             className="header-b"
             onClick={() => navigate("/contact")}
           />
