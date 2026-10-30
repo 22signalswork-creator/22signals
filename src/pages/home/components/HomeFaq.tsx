@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Faqicon from "@/assets/faqicon.png";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import { useCMS } from "@/hooks/useCMS";
@@ -100,12 +99,14 @@ const HomeFaq: React.FC = () => {
                       <span className="text-white text-base md:text-lg font-medium">
                         {item.question}
                       </span>
-                      <span className="flex-shrink-0 w-7 h-7 flex items-center justify-center text-white text-2xl leading-none">
-                        {isOpen ? (
-                          "−"
-                        ) : (
-                          <img src={Faqicon} alt="open" className="w-6 h-6 object-contain" />
-                        )}
+                      <span
+                        aria-hidden
+                        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full transition-transform duration-300"
+                        style={{ background: isOpen ? "#325FEC" : "rgba(107,146,255,0.16)", border: "1px solid rgba(107,146,255,0.5)", transform: isOpen ? "rotate(180deg)" : "none" }}
+                      >
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                          <path d="M6 9l6 6 6-6" stroke={isOpen ? "#ffffff" : "#93b8ff"} strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
                       </span>
                     </div>
                     {isOpen && (

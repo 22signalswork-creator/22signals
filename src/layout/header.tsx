@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import logo from "../assets/logo.png";
+import SignalButton from "@/components/fx/SignalButton";
 import MyButton from "../components/CustomButton.tsx";
 import "./headerfooter.css";
 import Headericon from "@/assets/headericon.png";
@@ -372,7 +373,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
 
         {/* DESKTOP RIGHT */}
         <div className="desktop-button">
-          <img src={Headericon} className="w-[44px] h-[44px]" alt="" />
+          <SignalButton src={Headericon} />
           <MyButton
             text="GET STARTED"
             variant={theme === "light" && !scrolled ? "secondary" : "primary"}
@@ -388,7 +389,7 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
             aria-label="Open menu"
             aria-expanded={mobileMenuOpen}
             className={`mobile-hamburger-btn ${mobileMenuOpen ? "is-open" : ""} ${
-              scrolled ? "text-black" : "text-white"
+              "text-white"
             }`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >

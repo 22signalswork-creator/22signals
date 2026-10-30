@@ -82,7 +82,7 @@ const CompanyStatsCounts = () => {
                 <RollingNumber target={stat.value} />
                 {stat.suffix}
               </div>
-              <p className="dark-text text-xs md:text-base">{stat.label}</p>
+              <p className="dark-text text-[11px] md:text-sm">{stat.label}</p>
             </div>
           </Cardhovereffect>
         </FadeIn>

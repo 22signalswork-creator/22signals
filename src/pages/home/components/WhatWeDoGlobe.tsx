@@ -38,10 +38,12 @@ const GlobeLines: React.FC = () => (
       </clipPath>
     </defs>
     <g clipPath="url(#wwd-ball)" fill="none" stroke="rgba(220,230,255,0.42)" strokeWidth="1">
-      <ellipse cx={CX} cy={CY - 200} rx={168} ry={30} />
-      <ellipse cx={CX} cy={CY - 140} rx={226} ry={40} />
-      <ellipse cx={CX} cy={CY - 70} rx={272} ry={50} />
-      <ellipse cx={CX} cy={CY + 10} rx={298} ry={56} />
+      {[-0.72, -0.48, -0.24, 0, 0.24].map((k) => {
+        // a latitude ring: as wide as the sphere at that height, seen slightly from above
+        const y = CY + k * R_GLOBE;
+        const rx = Math.sqrt(R_GLOBE * R_GLOBE - (y - CY) * (y - CY));
+        return <ellipse key={k} cx={CX} cy={y} rx={rx} ry={rx * 0.19} />;
+      })}
       <ellipse cx={CX} cy={CY} rx={60} ry={R_GLOBE} />
       <ellipse cx={CX} cy={CY} rx={150} ry={R_GLOBE} />
       <ellipse cx={CX} cy={CY} rx={235} ry={R_GLOBE} />
@@ -115,16 +117,37 @@ const WhatWeDoGlobe: React.FC = () => {
     let seen = false;
     const io = new IntersectionObserver((es) => { seen = !!es[0]?.isIntersecting; }, { threshold: 0.35 });
     io.observe(box);
+    // Ease in and out along the arc from one area to the next, then rest.
+    const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+    let tween = 0;
+    const glide = (next: number) => {
+      const from = { ...pos.current };
+      const to = clamp(LABELS[next].x, LABELS[next].y);
+      const t0 = performance.now(), dur = 850;
+      cancelAnimationFrame(tween);
+      const step = (now: number) => {
+        if (Date.now() - lastMove.current < 300) return; // the pointer took over
+        const k = ease(Math.min(1, (now - t0) / dur));
+        const x = from.x + (to.x - from.x) * k, y = from.y + (to.y - from.y) * k;
+        pos.current = { x, y };
+        target.current = { x, y };
+        if (orbRef.current) {
+          const gx = x - (CX - R_GLOBE) - ORB / 2, gy = y - (CY - R_GLOBE) - ORB / 2;
+          orbRef.current.style.transform = `translate3d(${(gx / ORB) * 100}%, ${(gy / ORB) * 100}%, 0)`;
+        }
+        if (k > 0.5) pick(next);
+        if (k < 1) tween = requestAnimationFrame(step);
+      };
+      tween = requestAnimationFrame(step);
+    };
     const iv = window.setInterval(() => {
-      if (!seen || box.offsetParent === null || Date.now() - lastMove.current < 4000) return;
-      const next = (activeRef.current + 1) % UMBRELLAS.length;
-      target.current = { ...LABELS[next] };
-      kick();
-      pick(next);
-    }, 2600);
+      if (!seen || box.offsetParent === null || Date.now() - lastMove.current < 3000) return;
+      glide((activeRef.current + 1) % UMBRELLAS.length);
+    }, 1500);
     return () => {
       io.disconnect();
       window.clearInterval(iv);
+      cancelAnimationFrame(tween);
     };
   }, [kick, pick]);
 
@@ -215,7 +238,7 @@ const ANG_DEG = UMBRELLAS.map((_, i) => A0 + (i * (A1 - A0)) / (UMBRELLAS.length
 const ANG = ANG_DEG.map((d) => (d * Math.PI) / 180);
 const MPOS = ANG.map((a) => ({ x: GX + AR * Math.cos(a), y: GY + AR * Math.sin(a) }));
 const N = UMBRELLAS.length;
-const ORB_R = 86;
+const ORB_R = 104;
 
 const HoldArrow: React.FC<{ dir: 1 | -1; onStep: (d: number) => void }> = ({ dir, onStep }) => {
   const timers = useRef<{ t?: number; iv?: number }>({});
@@ -361,9 +384,9 @@ const MobileWhatWeDo: React.FC = () => {
               <circle cx={GX} cy={GY} r={GR} />
             </clipPath>
             <radialGradient id="mwwd-orb">
-              <stop offset="0" stopColor="#e6edff" stopOpacity="1" />
-              <stop offset="0.22" stopColor="#7ea2ff" stopOpacity="0.95" />
-              <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.4" />
+              <stop offset="0" stopColor="#8cafff" stopOpacity="0.95" />
+              <stop offset="0.35" stopColor="#5a85f6" stopOpacity="0.68" />
+              <stop offset="0.7" stopColor="#325FEC" stopOpacity="0.26" />
               <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
             </radialGradient>
             <radialGradient id="mwwd-ball" cx="0.3" cy="0.6" r="0.9">

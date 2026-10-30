@@ -285,7 +285,7 @@ const VideoShowcase: React.FC = () => {
         {/* Lead paragraph removed per request */}
 
         {/* Video frame */}
-        <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-3 md:mx-0">
+        <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-2 md:mx-0">
           <motion.div ref={reelRef} className="relative z-10" style={{ scale: reelScale, opacity: reelFade, transformOrigin: "50% 0%" }}>
             <Video />
           </motion.div>
