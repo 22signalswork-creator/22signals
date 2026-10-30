@@ -111,6 +111,7 @@ const WhatWeDoGlobe: React.FC = () => {
   // When nobody is pointing at it, the light drifts from area to area on its
   // own, so the globe never sits still on screen.
   const lastMove = useRef(0);
+  const inside = useRef(false); // pointer resting inside the ring of names
   useEffect(() => {
     const box = boxRef.current;
     if (!box || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -123,7 +124,7 @@ const WhatWeDoGlobe: React.FC = () => {
     const glide = (next: number) => {
       const from = { ...pos.current };
       const to = clamp(LABELS[next].x, LABELS[next].y);
-      const t0 = performance.now(), dur = 850;
+      const t0 = performance.now(), dur = 620;
       cancelAnimationFrame(tween);
       const step = (now: number) => {
         if (Date.now() - lastMove.current < 300) return; // the pointer took over
@@ -141,9 +142,9 @@ const WhatWeDoGlobe: React.FC = () => {
       tween = requestAnimationFrame(step);
     };
     const iv = window.setInterval(() => {
-      if (!seen || box.offsetParent === null || Date.now() - lastMove.current < 3000) return;
+      if (!seen || box.offsetParent === null || inside.current || Date.now() - lastMove.current < 1500) return;
       glide((activeRef.current + 1) % UMBRELLAS.length);
-    }, 1500);
+    }, 850);
     return () => {
       io.disconnect();
       window.clearInterval(iv);
@@ -153,10 +154,17 @@ const WhatWeDoGlobe: React.FC = () => {
 
   const onMove = (e: React.PointerEvent) => {
     if (e.pointerType === "touch") return;
-    lastMove.current = Date.now();
     const r = boxRef.current!.getBoundingClientRect();
     const x = ((e.clientX - r.left) / r.width) * W;
     const y = ((e.clientY - r.top) / r.height) * H;
+    // Only steer when the pointer is inside the ring of area names; outside
+    // it, the light keeps drifting on its own.
+    if (Math.hypot(x - CX, (y - CY) / 0.86) > R_LABEL + 40) {
+      inside.current = false;
+      return;
+    }
+    inside.current = true;
+    lastMove.current = Date.now();
     target.current = { x, y };
     kick();
     // nearest area to where the light is heading
@@ -182,6 +190,7 @@ const WhatWeDoGlobe: React.FC = () => {
         ref={boxRef}
         className="wwd-stage hidden md:block mx-auto"
         onPointerMove={onMove}
+        onPointerLeave={() => { inside.current = false; }}
         style={{ aspectRatio: `${W} / ${H}`, maxWidth: `min(1400px, calc(76vh * ${W / H}))` }}
       >
         <div
