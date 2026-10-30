@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://www.22signals.com",
   tagline: "Ambitious ideas, executed.",
   description:
-    "22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with one accountable lead and specialist teams across the US, UK and UAE.",
+    "22 Signals is a global business solutions company. We build intelligent systems so companies can operate in the new era of business, then we grow them and execute with them: AI, cloud, data, technology, marketing and go-to-market, with specialist teams across the US, UK and UAE.",
   short:
     "We do the tech, the marketing and the execution for ambitious businesses, so they don't have to hire a whole team for it.",
   email: "business@22signals.com",
