@@ -567,6 +567,66 @@ const VISUALS: Record<string, () => React.ReactElement> = {
       </text>
     </Frame>
   ),
+
+  // Social media management: a week's content calendar
+  "social-media-management": () => (
+    <Frame title="content calendar · this week">
+      {["Mon", "Tue", "Wed", "Thu", "Fri"].map((d, i) => (
+        <g key={d}>
+          <text x={22 + i * 50} y="48" fontFamily="monospace" fontSize="8" fill={C.label}>{d}</text>
+          <rect x={18 + i * 50} y="56" width="44" height="58" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(107,146,255,0.3)" />
+          <rect x={23 + i * 50} y="62" width="34" height="26" rx="3" fill={i % 2 ? "rgba(107,146,255,0.35)" : "rgba(255,180,140,0.35)"} />
+          <rect x={23 + i * 50} y="94" width="26" height="4" rx="2" fill="rgba(255,255,255,0.35)" />
+          <rect x={23 + i * 50} y="102" width="18" height="4" rx="2" fill="rgba(255,255,255,0.2)" />
+        </g>
+      ))}
+      <g fontFamily="sans-serif" fontSize="8.5" fill="#fff">
+        {[["Instagram", 0.82], ["LinkedIn", 0.64], ["TikTok", 0.9]].map(([l, v], i) => (
+          <g key={l as string}>
+            <text x="18" y={136 + i * 15}>{l as string}</text>
+            <rect x="70" y={130 + i * 15} width="170" height="5" rx="2.5" fill="rgba(255,255,255,0.08)" />
+            <rect x="70" y={130 + i * 15} width={170 * (v as number)} height="5" rx="2.5" fill={C.key} />
+          </g>
+        ))}
+      </g>
+      <text x="18" y="188" fontFamily="monospace" fontSize="8" fill="#7eaaff">► 12 posts scheduled · replies handled daily</text>
+    </Frame>
+  ),
+
+  // Influencer campaigns: creator roster and tracking
+  "influencer-campaigns": () => (
+    <Frame title="creator roster" dots={false}>
+      {[["@creator.one", "Briefed", "#7eaaff"], ["@creator.two", "Contracted", "#A8C5FF"], ["@creator.three", "Live", "#FFB48C"]].map(([h, st, c], i) => (
+        <g key={h}>
+          <rect x="18" y={36 + i * 38} width="244" height="30" rx="7" fill="rgba(255,255,255,0.04)" stroke="rgba(107,146,255,0.25)" />
+          <circle cx="36" cy={51 + i * 38} r="9" fill="rgba(107,146,255,0.35)" stroke={C.key} />
+          <text x="52" y={54 + i * 38} fontFamily="sans-serif" fontSize="9" fill="#fff">{h}</text>
+          <rect x="190" y={44 + i * 38} width="62" height="14" rx="7" fill="rgba(0,0,0,0.25)" stroke={c} />
+          <text x="221" y={54 + i * 38} textAnchor="middle" fontFamily="sans-serif" fontSize="7.5" fill={c}>{st}</text>
+        </g>
+      ))}
+      <text x="18" y="164" fontFamily="monospace" fontSize="8" fill={C.label}>tracked links · codes · disclosures checked</text>
+      <text x="18" y="184" fontFamily="monospace" fontSize="8" fill="#7eaaff">► Results tied to visits and sales</text>
+    </Frame>
+  ),
+
+  // Content marketing: an article taking shape
+  "content-marketing": () => (
+    <Frame title="draft · review · publish">
+      <rect x="18" y="36" width="160" height="148" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(107,146,255,0.3)" />
+      <rect x="30" y="50" width="120" height="8" rx="3" fill="rgba(255,255,255,0.75)" />
+      <rect x="30" y="64" width="90" height="6" rx="3" fill="rgba(255,255,255,0.35)" />
+      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
+        <rect key={i} x="30" y={82 + i * 12} width={i % 3 === 2 ? 96 : 136} height="4" rx="2" fill="rgba(255,255,255,0.18)" />
+      ))}
+      {[["Brief", true], ["Draft", true], ["Fact check", true], ["Client review", false], ["Publish", false]].map(([l, done], i) => (
+        <g key={l as string}>
+          <circle cx="196" cy={50 + i * 26} r="6" fill={done ? C.blue : "transparent"} stroke={C.key} />
+          <text x="208" y={53 + i * 26} fontFamily="sans-serif" fontSize="8" fill={done ? "#fff" : C.label}>{l as string}</text>
+        </g>
+      ))}
+    </Frame>
+  ),
 };
 
 /** Visual for a service slug (e.g. "power-bi-consulting"), or null if none. */

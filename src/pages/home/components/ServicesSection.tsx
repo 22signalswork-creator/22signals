@@ -7,37 +7,12 @@ import {
   useSpring,
   type Variants,
 } from "framer-motion";
-import Framed from "@/assets/DigitalIcon.png";
-import CreativeIcon from "@/assets/creativeicon.png";
-import Stafficon from "@/assets/staffIcon.png";
-import Broadcastingicon from "@/assets/broadcasticon.png";
-import SliderComponent from "@/components/Slider.tsx";
 
-import ScrollLineBottom from "./ScrollLineBottom.js";
-import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
+import WhatWeDoGlobe from "./WhatWeDoGlobe.tsx";
 import Video, { REEL_YEAR } from "./video.tsx";
-import ServiceCard from "./ServiceCard.tsx";
 import FadeIn from "@/transitions/FadeIn.tsx";
 import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
-import {
-  DecoCircuit,
-  DecoData,
-  DecoCloud,
-  DecoSparkle,
-  DecoTeam,
-  DecoBroadcast,
-  DecoFactory,
-} from "./ServiceDecorations.tsx";
-import { useCMS } from "@/hooks/useCMS";
-import { usePageContent } from "@/hooks/usePageContent";
 
-interface ClientLogo {
-  id: string;
-  name?: string;
-  logo_url: string;
-  sort_order?: number;
-  is_active?: boolean;
-}
 
 /* ──────────────────────────────────────────────────────────────────────────
  *  BackgroundWindingLine
@@ -68,13 +43,14 @@ const WINDING_PATH_D =
 
 const BackgroundWindingLine: React.FC = () => {
   const pathRef = useRef<SVGPathElement>(null);
+  const headRef = useRef<SVGGElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
     check();
-    window.addEventListener("resize", check);
+    window.addEventListener("resize", check, { passive: true });
     return () => window.removeEventListener("resize", check);
   }, []);
 
@@ -82,39 +58,61 @@ const BackgroundWindingLine: React.FC = () => {
     if (isMobile) return;
     const path = pathRef.current;
     const svg = svgRef.current;
+    const head = headRef.current;
     if (!path || !svg) return;
 
     const pathLength = path.getTotalLength();
-    path.setAttribute("stroke-dasharray", String(pathLength));
-    path.setAttribute("stroke-dashoffset", String(pathLength));
+    path.style.strokeDasharray = String(pathLength);
+    path.style.strokeDashoffset = String(pathLength);
 
+    // Only work when the page scrolls (the page scrolls inside <body>, so
+    // listen in the capture phase), at most once per frame, and only while
+    // the line is near the screen.
     let raf = 0;
-    let lastTop = Number.POSITIVE_INFINITY;
+    let shown = 0; // eased progress so the line glides rather than jumps
+    let goal = 0;
+    let inView = true;
 
-    const tick = () => {
+    const measure = () => {
       const rect = svg.getBoundingClientRect();
-      if (rect.top !== lastTop) {
-        lastTop = rect.top;
-        const wh = window.innerHeight;
-        const sectionHeight = rect.height;
-
-        // Total scroll distance from "section just entering viewport bottom"
-        // to "section just left viewport top".
-        const total = wh + sectionHeight;
-        // How far we've scrolled into that journey.
-        const scrolled = wh - rect.top;
-        // Progress 0 → 1 across the WHOLE scroll-through of the section.
-        let progress = scrolled / total;
-        progress = Math.max(0, Math.min(1, progress));
-
-        const offset = pathLength * (1 - progress);
-        path.setAttribute("stroke-dashoffset", String(offset));
-      }
-      raf = requestAnimationFrame(tick);
+      const wh = window.innerHeight;
+      const p = (wh * 0.85 - rect.top) / rect.height;
+      goal = Math.max(0, Math.min(1, p));
     };
 
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
+    const frame = () => {
+      shown += (goal - shown) * 0.18;
+      if (Math.abs(goal - shown) < 0.0005) shown = goal;
+      path.style.strokeDashoffset = String(pathLength * (1 - shown));
+      if (head) {
+        const pt = path.getPointAtLength(pathLength * shown);
+        head.setAttribute("transform", `translate(${pt.x} ${pt.y})`);
+        head.style.opacity = shown > 0.002 && shown < 0.998 ? "1" : "0";
+      }
+      raf = shown !== goal ? requestAnimationFrame(frame) : 0;
+    };
+
+    const onScroll = () => {
+      if (!inView) return;
+      measure();
+      if (!raf) raf = requestAnimationFrame(frame);
+    };
+
+    const io = new IntersectionObserver((es) => {
+      inView = es[0]?.isIntersecting ?? true;
+      if (inView) onScroll();
+    }, { rootMargin: "200px 0px" });
+    io.observe(svg);
+
+    document.addEventListener("scroll", onScroll, { capture: true, passive: true });
+    window.addEventListener("resize", onScroll, { passive: true });
+    onScroll();
+    return () => {
+      io.disconnect();
+      cancelAnimationFrame(raf);
+      document.removeEventListener("scroll", onScroll, { capture: true } as any);
+      window.removeEventListener("resize", onScroll);
+    };
   }, [isMobile]);
 
   if (isMobile) return null;
@@ -129,22 +127,38 @@ const BackgroundWindingLine: React.FC = () => {
       style={{
         zIndex: 0,
         top: 0,
-        // Break out of container's left/right padding to span the full viewport.
         left: "50%",
         transform: "translateX(-50%)",
         width: "100vw",
         height: "100%",
       }}
     >
+      <defs>
+        <linearGradient id="wl-grad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#325FEC" />
+          <stop offset="1" stopColor="#6B92FF" />
+        </linearGradient>
+        <radialGradient id="wl-glow">
+          <stop offset="0" stopColor="#dfe8ff" />
+          <stop offset="0.3" stopColor="#6B92FF" stopOpacity="0.85" />
+          <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
+        </radialGradient>
+      </defs>
+      {/* the road ahead: a faint dotted copy of the line */}
+      <path d={WINDING_PATH_D} stroke="rgba(50,95,236,0.16)" strokeWidth="5" strokeDasharray="2 28" strokeLinecap="round" fill="none" />
       <path
         ref={pathRef}
         d={WINDING_PATH_D}
-        stroke="#325FEC"
-        strokeWidth="14"
+        stroke="url(#wl-grad)"
+        strokeWidth="12"
         fill="none"
         strokeLinecap="round"
-        opacity="0.85"
+        opacity="0.9"
       />
+      <g ref={headRef} style={{ opacity: 0, transition: "opacity .3s ease" }}>
+        <circle r="60" fill="url(#wl-glow)" className="wl-head-pulse" />
+        <circle r="13" fill="#ffffff" />
+      </g>
     </svg>
   );
 };
@@ -422,18 +436,6 @@ const StatsBlock: React.FC = () => (
  * ────────────────────────────────────────────────────────────────────── */
 
 const ServicesSection = () => {
-  const navigate = useNavigate();
-  const stagger = (i: number) => i * 0.1;
-  const { t } = usePageContent();
-
-  const goToService = (slug: string) => () => navigate(`/services/${slug}`);
-
-  const { data: logos } = useCMS<ClientLogo>("client_logos", {
-    filter: { is_active: true },
-    orderBy: "sort_order",
-  });
-  const slideUrls = logos.map((l) => l.logo_url).filter(Boolean);
-
   return (
     <section className="container relative pb-16 px-6 md:px-12 lg:px-20 pt-20 md:pt-40 section-fade-from-black">
       {/* ░░ Line wrapper — video + stats + pillar cards (NOT logos) ░░ */}
@@ -446,331 +448,38 @@ const ServicesSection = () => {
           <StatsBlock />
 
           <FadeIn>
-            <div className="mb-12 mt-24 flex flex-col md:flex-row justify-between md:items-end gap-6">
-              <div>
-                <div
-                  className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
-                  style={{
-                    border: "1px solid rgba(50,95,236,0.4)",
-                    color: "rgba(50,95,236,0.95)",
-                  }}
-                >
-                  {t("home_services_eyebrow", "What We Do")}
-                </div>
-                <h2
-                  className="text-4xl md:text-[56px] leading-[1.05]"
-                  style={{
-                    color: "#0A1530",
-                    background: "none",
-                    WebkitTextFillColor: "#0A1530",
-                    backgroundClip: "unset",
-                    WebkitBackgroundClip: "unset",
-                    fontWeight: 800,
-                    letterSpacing: "-0.025em",
-                  }}
-                >
-                  {t("home_services_heading_part1", "Integrated Solutions")}{" "}
-                  <br className="hidden md:block" />
-                  <span
-                    style={{
-                      color: "#325FEC",
-                      WebkitTextFillColor: "#325FEC",
-                      background: "none",
-                    }}
-                  >
-                    {t("home_services_heading_part2", "Singular Focus.")}
-                  </span>
-                </h2>
-              </div>
-              <p
-                className="text-base md:text-lg max-w-md"
-                style={{ color: "#000" }}
+            <div className="mb-10 md:mb-14 mt-24">
+              <div
+                className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
+                style={{ border: "1px solid rgba(50,95,236,0.4)", color: "rgba(50,95,236,0.95)" }}
               >
-                {t(
-                  "home_services_subheading",
-                  "Seven pillars. One operating model. End-to-end execution from engineering to broadcast to physical product."
-                )}
+                What We Do
+              </div>
+              <h2
+                className="text-4xl md:text-[64px] leading-[1.03]"
+                style={{
+                  color: "#0A1530",
+                  background: "none",
+                  WebkitTextFillColor: "#0A1530",
+                  backgroundClip: "unset",
+                  WebkitBackgroundClip: "unset",
+                  fontWeight: 800,
+                  letterSpacing: "-0.03em",
+                }}
+              >
+                One team <br />
+                <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
+              </h2>
+              <p className="text-lg md:text-xl mt-6 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
+                AI, cloud, websites, marketing and video, under one roof.
               </p>
             </div>
           </FadeIn>
 
-          {/* ─────────────────────────────────────────────────────────────
-              DESKTOP (md+) — keep the original two-row layout exactly as it
-              was designed: 3 "tall" pillar cards on top, 4 regular cards
-              below. Hidden on mobile because we render a purpose-built
-              compact grid for phones instead (see further below).
-          ─────────────────────────────────────────────────────────────── */}
-          <div className="hidden md:grid grid-cols-3 gap-6 mb-6">
-            <FadeIn delay={stagger(0)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="Web and App Development"
-                  description="Websites, portals and apps built to rank, convert and last."
-                  icon={Framed}
-                  tone="dark"
-                  size="tall"
-                  highlight="01 / Pillar"
-                  decoration={<DecoCircuit tone="dark" />}
-                  buttonVariant="white"
-                  onClick={goToService("web-app-development")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-
-            <FadeIn delay={stagger(1)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="AI and Automation"
-                  description="Custom AI tools and automations that take a business off the old way of working."
-                  icon={Framed}
-                  tone="blue"
-                  size="tall"
-                  highlight="02 / Pillar"
-                  decoration={<DecoData tone="blue" />}
-                  buttonVariant="secondary"
-                  onClick={goToService("ai-automation")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-
-            <FadeIn delay={stagger(2)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="Cloud and Data"
-                  description="Cloud infrastructure, migrations, DevOps and data systems that keep up with the business."
-                  icon={Framed}
-                  tone="dark"
-                  size="tall"
-                  highlight="03 / Pillar"
-                  decoration={<DecoCloud tone="dark" />}
-                  buttonVariant="white"
-                  onClick={goToService("cloud")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-          </div>
-
-          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <FadeIn delay={stagger(3)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="Video, Motion and 3D"
-                  description="Reels, brand films, motion graphics, 3D and live broadcast."
-                  icon={CreativeIcon}
-                  tone="blue"
-                  decoration={<DecoSparkle tone="blue" />}
-                  buttonVariant="secondary"
-                  onClick={goToService("video-motion")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-
-            <FadeIn delay={stagger(4)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="Strategy and Go-to-Market"
-                  description="The plan for a new market or product, and the people to run it."
-                  icon={Stafficon}
-                  tone="dark"
-                  decoration={<DecoTeam tone="dark" />}
-                  buttonVariant="white"
-                  onClick={goToService("go-to-market")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-
-            <FadeIn delay={stagger(5)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="SEO, GEO and Paid Media"
-                  description="Show up in Google and in ChatGPT, Claude and Gemini answers, and run ads tied to leads."
-                  icon={Broadcastingicon}
-                  tone="blue"
-                  decoration={<DecoBroadcast tone="blue" />}
-                  buttonVariant="secondary"
-                  onClick={goToService("seo-geo")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-
-            <FadeIn delay={stagger(6)}>
-              <Cardhovereffect>
-                <ServiceCard
-                  title="More We Do"
-                  description="Managed teams, live events, game development and product sourcing."
-                  icon={Stafficon}
-                  tone="dark"
-                  decoration={<DecoFactory tone="dark" />}
-                  buttonVariant="white"
-                  onClick={goToService("more")}
-                />
-              </Cardhovereffect>
-            </FadeIn>
-          </div>
-
-          {/* ─────────────────────────────────────────────────────────────
-              MOBILE (< md) — one unified compact grid for all 7 services.
-
-              Why this layout: when the desktop's "3 pillars on top + 4
-              below" structure is forced into a 2-column phone grid, the 3rd
-              pillar card ends up alone on a row by itself (orphan). To
-              avoid that, we drop all 7 services into a single grid and let
-              the 7th service span both columns at the bottom — a clean
-              3-rows-of-2-plus-1-wide rhythm, no orphans.
-
-              Each tile is a slim purpose-built mobile card: icon, title,
-              one-line description, arrow. No big GET STARTED button — the
-              whole tile is tappable.
-          ─────────────────────────────────────────────────────────────── */}
-          <div className="grid md:hidden grid-cols-2 gap-3">
-            {[
-              { title: "Web and App Development", short: "Sites, portals and apps.",                  tone: "dark" as const, slug: "web-app-development",    label: "01" },
-              { title: "AI and Automation",     short: "Custom AI tools and automations.",            tone: "blue" as const, slug: "ai-automation",           label: "02" },
-              { title: "Cloud and Data",        short: "Cloud, DevOps and data systems.",             tone: "dark" as const, slug: "cloud",                  label: "03" },
-              { title: "Video, Motion and 3D",   short: "Reels, motion, 3D and broadcast.",            tone: "blue" as const, slug: "video-motion",           label: "04" },
-              { title: "Strategy and Go-to-Market", short: "Plans for new markets and products.",   tone: "dark" as const, slug: "go-to-market",           label: "05" },
-              { title: "SEO, GEO and Paid Media", short: "Google, AI answers and ads.",               tone: "blue" as const, slug: "seo-geo",                label: "06" },
-              { title: "More We Do",            short: "Teams, events, games and sourcing.",          tone: "dark" as const, slug: "more",                   label: "07" },
-            ].map((s, i) => {
-              const isBlue = s.tone === "blue";
-              const isLast = i === 6; // span 2 columns to terminate cleanly
-              return (
-                <FadeIn key={s.slug} delay={i * 0.04}>
-                  <button
-                    type="button"
-                    onClick={goToService(s.slug)}
-                    className={`group relative w-full h-full text-left rounded-2xl overflow-hidden transition-transform duration-300 active:scale-[0.98] ${
-                      isLast ? "col-span-2" : ""
-                    }`}
-                    style={{
-                      background: isBlue
-                        ? "linear-gradient(135deg, #4571F5 0%, #2447b8 70%, #1a3392 100%)"
-                        : "linear-gradient(135deg, #0E1628 0%, #050A18 60%, #02040D 100%)",
-                      border: "1px solid rgba(80,140,255,0.18)",
-                      boxShadow: isBlue
-                        ? "0 10px 30px -12px rgba(50,95,236,0.45)"
-                        : "0 10px 30px -12px rgba(0,0,0,0.6)",
-                      minHeight: isLast ? 110 : 150,
-                    }}
-                  >
-                    {/* Subtle corner glow */}
-                    <span
-                      aria-hidden
-                      className="absolute -top-10 -right-8 w-32 h-32 rounded-full pointer-events-none opacity-40 blur-2xl"
-                      style={{
-                        background: isBlue ? "rgba(255,255,255,0.35)" : "rgba(80,140,255,0.55)",
-                      }}
-                    />
-
-                    <div className="relative z-10 flex flex-col justify-between h-full p-4">
-                      {/* Top row: status dot + numeric label */}
-                      <div className="flex items-center justify-between">
-                        <span
-                          className={`flex items-center justify-center w-8 h-8 rounded-full ${
-                            isBlue ? "bg-white/20" : "bg-white/[0.08]"
-                          }`}
-                          style={{ border: "1px solid rgba(255,255,255,0.14)" }}
-                        >
-                          <span
-                            className="block w-2 h-2 rounded-full"
-                            style={{
-                              background: isBlue ? "#ffffff" : "#7eaaff",
-                              boxShadow: isBlue
-                                ? "0 0 8px rgba(255,255,255,0.7)"
-                                : "0 0 8px rgba(126,170,255,0.7)",
-                            }}
-                          />
-                        </span>
-                        <span
-                          className="text-[9px] tracking-[0.25em] uppercase font-medium"
-                          style={{ color: isBlue ? "rgba(255,255,255,0.7)" : "rgba(126,170,255,0.85)" }}
-                        >
-                          / {s.label}
-                        </span>
-                      </div>
-
-                      {/* Bottom block: title + 1-line description on the left,
-                          arrow chip in the bottom-right corner. Same layout
-                          for every tile (including the full-width "07"). */}
-                      <div className="flex items-end justify-between gap-3">
-                        <div className="min-w-0">
-                          <h3
-                            className="text-white font-medium leading-tight"
-                            style={{ fontSize: isLast ? 18 : 15 }}
-                          >
-                            {s.title}
-                          </h3>
-                          <p
-                            className="text-white/65 mt-1 leading-snug"
-                            style={{ fontSize: 11 }}
-                          >
-                            {s.short}
-                          </p>
-                        </div>
-
-                        <span
-                          className="inline-flex items-center justify-center w-7 h-7 rounded-full transition-transform group-hover:translate-x-0.5 flex-shrink-0"
-                          style={{
-                            background: isBlue ? "rgba(255,255,255,0.18)" : "rgba(80,140,255,0.18)",
-                            border: "1px solid rgba(255,255,255,0.18)",
-                            color: "#ffffff",
-                          }}
-                          aria-hidden
-                        >
-                          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                            <line x1="7" y1="17" x2="17" y2="7" />
-                            <polyline points="8 7 17 7 17 16" />
-                          </svg>
-                        </span>
-                      </div>
-                    </div>
-                  </button>
-                </FadeIn>
-              );
-            })}
-          </div>
+          <FadeIn>
+            <WhatWeDoGlobe />
+          </FadeIn>
         </div>
-      </div>
-
-      {/* ░░ Logos — outside the line wrapper ░░ */}
-      <div className="relative z-20 mt-20 md:mt-28">
-        <ScrollLineBottom />
-
-        <FadeIn>
-          <div className="text-center mt-8 md:mt-10 mb-3 md:mb-4 relative z-20">
-            <div
-              className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-4"
-              style={{
-                border: "1px solid rgba(50,95,236,0.4)",
-                color: "rgba(50,95,236,0.95)",
-              }}
-            >
-              {t("home_logos_eyebrow", "Trusted By")}
-            </div>
-            <h2
-              className="leading-[1.15] font-bold"
-              style={{
-                color: "#0A1530",
-                background: "none",
-                WebkitTextFillColor: "#0A1530",
-                backgroundClip: "unset",
-                WebkitBackgroundClip: "unset",
-                fontSize: "clamp(28px, 3.4vw, 44px)",
-                fontWeight: 700,
-                padding: "8px 0 0 0",
-                margin: 0,
-              }}
-            >
-              {t("home_logos_heading", "Companies We Have Worked With")}
-            </h2>
-          </div>
-        </FadeIn>
-
-        {slideUrls.length > 0 && (
-          <div className="logos-band-wrap mt-1 md:mt-2 relative z-10">
-            <SliderComponent slides={slideUrls} />
-          </div>
-        )}
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import PortfolioSection from "./components/portfoliosection.tsx";
 import ServicesSection from "./components/ServicesSection.tsx";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
+import HomeLogos from "./components/HomeLogos.tsx";
 import Footer from "../../layout/footer.tsx";
 
 const Home = () => {
@@ -30,6 +31,9 @@ const Home = () => {
 
       {/* New: Home FAQ */}
       <HomeFaq />
+
+      {/* Companies We Have Worked With: last section before the footer */}
+      <HomeLogos />
 
       {/* Footer */}
       <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto">

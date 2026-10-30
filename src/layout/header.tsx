@@ -14,6 +14,8 @@ interface HeaderProps {
  * Sub-menus shared between desktop dropdown + mobile expandable accordion
  * so both surfaces stay in sync with one source of truth.
  */
+import { UMBRELLAS, NEW_SERVICES } from "@/content/umbrellas";
+
 const SERVICES_SUBMENU: { label: string; slug: string }[] = [
   { label: "Strategy and Go-to-Market", slug: "go-to-market" },
   { label: "AI and Automation", slug: "ai-automation" },
@@ -90,10 +92,10 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
 
   const tabs = [
     { label: "Home", path: "/" },
+    { label: "About", path: "/about" },
     { label: "Services", path: "/services" },
     { label: "Portfolio", path: "/portfolio" },
     { label: "Locations", path: "/locations" },
-    { label: "About", path: "/about" },
     { label: "R&D", path: "/r&d" },
     { label: "Blog", path: "/blog" },
     { label: "Contact", path: "/contact" },
@@ -243,21 +245,39 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     <span>{tab.label}</span>
                     <span className="header-dropdown-caret" aria-hidden>▾</span>
                   </a>
-                  <div className="header-dropdown-menu">
-                    {SERVICES_SUBMENU.map((s) => (
-                      <a
-                        key={s.slug}
-                        href={`/services/${s.slug}`}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          closeDropdown();
-                          navigate(`/services/${s.slug}`);
-                        }}
-                        className="header-dropdown-item"
-                      >
-                        {s.label}
-                      </a>
-                    ))}
+                  <div className="header-dropdown-menu header-dropdown-mega">
+                    <div className="mega-grid">
+                      {UMBRELLAS.map((u) => (
+                        <div key={u.slug} className="mega-col">
+                          <a
+                            href={`/services?area=${u.slug}`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              closeDropdown();
+                              navigate(`/services?area=${u.slug}`);
+                            }}
+                            className="mega-head"
+                          >
+                            {u.name}
+                          </a>
+                          {u.items.map((it) => (
+                              <a
+                                key={it.label}
+                                href={it.path}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  closeDropdown();
+                                  navigate(it.path);
+                                }}
+                                className="header-dropdown-item mega-item"
+                              >
+                                {it.label}
+                                {NEW_SERVICES.has(it.path) && <span className="mega-new">NEW</span>}
+                              </a>
+                            ))}
+                        </div>
+                      ))}
+                    </div>
                     <div className="header-dropdown-divider" />
                     <a
                       href="/services"
@@ -454,14 +474,14 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                                   All services →
                                 </a>
                               </li>
-                              {SERVICES_SUBMENU.map((s) => (
-                                <li key={s.slug}>
+                              {UMBRELLAS.map((u) => (
+                                <li key={u.slug}>
                                   <a
-                                    href={`/services/${s.slug}`}
-                                    onClick={(e) => { e.preventDefault(); goTo(`/services/${s.slug}`); }}
+                                    href={`/services?area=${u.slug}`}
+                                    onClick={(e) => { e.preventDefault(); goTo(`/services?area=${u.slug}`); }}
                                     className="mobile-submenu-item"
                                   >
-                                    {s.label}
+                                    {u.name}
                                   </a>
                                 </li>
                               ))}

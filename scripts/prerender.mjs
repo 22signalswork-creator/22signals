@@ -331,12 +331,13 @@ for (const p of rd) {
 }
 
 // 5. Portfolio case pages.
-const projects = await fetchTable("project_detail_pages", "select=slug,client_name,card_text,intro,sections,is_active&is_active=eq.true");
+const { mergeRows: mergePortfolio, OCA_SLUGS, OCA_PARTNER } = await import("../src/content/portfolio.js");
+const projects = mergePortfolio(await fetchTable("project_detail_pages", "select=slug,client_name,card_text,intro,sections,cover_image,tags,sort_order,is_active&is_active=eq.true"));
 for (const p of projects) {
   if (!p.slug) continue;
   const route = `/portfolio/${p.slug}`;
   const sections = Array.isArray(p.sections)
-    ? p.sections.filter((s) => s && (s.body || s.heading)).map((s) => ({ h: s.heading || p.client_name, p: s.body ? [s.body] : [] }))
+    ? p.sections.filter((s) => s && (s.body || s.heading)).map((s) => ({ h: s.title || s.heading || p.client_name, p: s.body ? String(s.body).split(/\n\n+/) : [] }))
     : [];
   const desc = String(p.card_text || p.intro || "").replace(/\s+/g, " ").slice(0, 155);
   write(
@@ -347,7 +348,7 @@ for (const p of projects) {
       description: desc,
       eyebrow: "Work",
       h1: p.client_name,
-      intro: p.intro || p.card_text || "",
+      intro: (p.intro || p.card_text || "") + (OCA_SLUGS.has(p.slug) ? ` Delivered as execution partner for ${OCA_PARTNER}.` : ""),
       sections,
       faqs: [],
       related: ["/portfolio", "/services"],

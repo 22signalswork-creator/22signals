@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from "react";
+import React, { Suspense, useState, useEffect, useLayoutEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,50 +8,40 @@ import {
 import Header from "../src/layout/header.tsx";
 import Footer from "../src/layout/footer.tsx";
 import Home from "./pages/home/home.tsx";
-import Portfolio from "./pages/portfolio/portfolio.tsx";
-import Team from "./pages/team/team.tsx";
-import Readdetails from "./pages/r&d/r&d.tsx";
-import Blog from "./pages/blog/blog.tsx";
-import Contact from "./pages/contact/contact.tsx";
-import ThankYou from "./pages/thank-you/thank-you.tsx";
-import PrivacyPolicy from "./pages/legal/PrivacyPolicy.tsx";
-import TermsOfService from "./pages/legal/TermsOfService.tsx";
 import Preloader from "./layout/Preloader.tsx";
-import ContentPage from "./pages/content/ContentPage";
 import { useHead } from "./content/useHead";
 import MANIFEST from "./content/generated/manifest.json";
 const PAGES = MANIFEST as { path: string }[];
 import { Navigate } from "react-router-dom";
-import ProjectDetailPagesAdmin from "./admin/pages/ProjectDetailPagesAdmin";
-import ProjectDetailPage from "./pages/portfolio/ProjectDetailPage";
 
 // Admin imports
 import { AuthProvider } from "./admin/AuthContext";
 import ProtectedRoute from "./admin/ProtectedRoute";
-import AdminLayout from "./admin/AdminLayout";
-import Login from "./admin/pages/Login";
-import Dashboard from "./admin/pages/Dashboard";
-import HeroEditor from "./admin/pages/HeroEditor";
-import SiteSettings from "./admin/pages/SiteSettings";
-import EmailSettings from "./admin/pages/EmailSettings";
-import ContactSubmissions from "./admin/pages/ContactSubmissions";
-import {
-  ServicesAdmin,
-  StatsAdmin,
-  ProcessStepsAdmin,
-  FaqsAdmin,
-  ProjectsAdmin,
-  TestimonialsAdmin,
-  BlogPostsAdmin,
-  TeamMembersAdmin,
-  ClientLogosAdmin,
-} from "./admin/pages/CrudPages";
-import PageContentAdmin from "./admin/pages/PageContent";
-import ServicePillarsAdmin from "./admin/pages/ServicePillarsAdmin";
-import ServiceDetailPagesAdmin from "./admin/pages/ServiceDetailPagesAdmin";
-import ServiceDetailPage from "./pages/services/ServiceDetailPage";
-import RDResearchPagesAdmin from "./admin/pages/RDResearchPagesAdmin";
-import RDResearchDetailPage from "./pages/r&d/RDResearchDetailPage";
+
+import { R, preloadRest } from "./routes";
+
+// Admin screens load only when someone opens /admin.
+const ProjectDetailPagesAdmin = React.lazy(() => import("./admin/pages/ProjectDetailPagesAdmin"));
+const AdminLayout = React.lazy(() => import("./admin/AdminLayout"));
+const Login = React.lazy(() => import("./admin/pages/Login"));
+const Dashboard = React.lazy(() => import("./admin/pages/Dashboard"));
+const HeroEditor = React.lazy(() => import("./admin/pages/HeroEditor"));
+const SiteSettings = React.lazy(() => import("./admin/pages/SiteSettings"));
+const EmailSettings = React.lazy(() => import("./admin/pages/EmailSettings"));
+const ContactSubmissions = React.lazy(() => import("./admin/pages/ContactSubmissions"));
+const PageContentAdmin = React.lazy(() => import("./admin/pages/PageContent"));
+const ServicePillarsAdmin = React.lazy(() => import("./admin/pages/ServicePillarsAdmin"));
+const ServiceDetailPagesAdmin = React.lazy(() => import("./admin/pages/ServiceDetailPagesAdmin"));
+const RDResearchPagesAdmin = React.lazy(() => import("./admin/pages/RDResearchPagesAdmin"));
+const ServicesAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.ServicesAdmin })));
+const StatsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.StatsAdmin })));
+const ProcessStepsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.ProcessStepsAdmin })));
+const FaqsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.FaqsAdmin })));
+const ProjectsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.ProjectsAdmin })));
+const TestimonialsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.TestimonialsAdmin })));
+const BlogPostsAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.BlogPostsAdmin })));
+const TeamMembersAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.TeamMembersAdmin })));
+const ClientLogosAdmin = React.lazy(() => import("./admin/pages/CrudPages").then((m) => ({ default: m.ClientLogosAdmin })));
 
 type HeaderTheme = "light" | "dark";
 
@@ -130,6 +120,7 @@ const AppShell = ({
   // Admin routes never show the preloader
   if (isAdmin) {
     return (
+      <Suspense fallback={null}>
       <Routes>
         <Route path="/admin/login" element={<Login />} />
         <Route
@@ -161,6 +152,7 @@ const AppShell = ({
           <Route path="rd-research-pages" element={<RDResearchPagesAdmin />} />
         </Route>
       </Routes>
+      </Suspense>
     );
   }
 
@@ -171,25 +163,26 @@ const AppShell = ({
     <>
       {isLoading && <Preloader onComplete={onPreloaderDone} />}
       <PublicLayout>
+        <Suspense fallback={<div style={{ minHeight: "100vh" }} />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Navigate to="/portfolio" replace />} />
           {(PAGES as { path: string }[])
             .filter((p) => p.path !== "/")
             .map((p) => (
-              <Route key={p.path} path={p.path} element={<ContentPage path={p.path} />} />
+              <Route key={p.path} path={p.path} element={<R.Content path={p.path} />} />
             ))}
-          <Route path="/services/:slug" element={<ServiceDetailPage />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/r&d" element={<Readdetails />} />
-          <Route path="/r&d/:slug" element={<RDResearchDetailPage />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/thank-you" element={<ThankYou />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/portfolio/:slug" element={<ProjectDetailPage />} />
+          <Route path="/services/:slug" element={<R.ServiceDetail />} />
+          <Route path="/portfolio" element={<R.Portfolio />} />
+          <Route path="/team" element={<R.Team />} />
+          <Route path="/r&d" element={<R.RD />} />
+          <Route path="/r&d/:slug" element={<R.RDDetail />} />
+          <Route path="/blog" element={<R.Blog />} />
+          <Route path="/contact" element={<R.Contact />} />
+          <Route path="/thank-you" element={<R.ThankYou />} />
+          <Route path="/privacy-policy" element={<R.Privacy />} />
+          <Route path="/terms-of-service" element={<R.Terms />} />
+          <Route path="/portfolio/:slug" element={<R.ProjectDetail />} />
           <Route path="/privacy" element={<Navigate to="/privacy-policy" replace />} />
           <Route
             path="*"
@@ -201,20 +194,40 @@ const AppShell = ({
             }
           />
         </Routes>
+        </Suspense>
       </PublicLayout>
     </>
   );
 };
 
+// The intro animation plays once per visit, not on every page load.
+const seenIntro = (() => {
+  try {
+    return sessionStorage.getItem("22s-intro") === "1";
+  } catch {
+    return false;
+  }
+})();
+
 export default function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(!seenIntro);
+  useEffect(() => {
+    preloadRest();
+  }, []);
 
   return (
     <Router>
       <AuthProvider>
         <AppShell
           isLoading={isLoading}
-          onPreloaderDone={() => setIsLoading(false)}
+          onPreloaderDone={() => {
+            try {
+              sessionStorage.setItem("22s-intro", "1");
+            } catch {
+              /* private mode */
+            }
+            setIsLoading(false);
+          }}
         />
       </AuthProvider>
     </Router>

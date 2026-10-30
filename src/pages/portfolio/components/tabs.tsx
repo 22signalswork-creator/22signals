@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { supabase } from "@/lib/supabase";
+import { mergeRows, OCA_SLUGS, OCA_PARTNER } from "@/content/portfolio";
 import "../../../pages/home/home.css";
 import "../../services/work.css";
 
@@ -61,7 +62,7 @@ export function usePortfolioRows(): DetailRow[] {
       .eq("is_active", true)
       .order("sort_order", { ascending: true })
       .then(({ data }) => {
-        if (data) setRows(data as DetailRow[]);
+        setRows(mergeRows(data || []) as DetailRow[]);
       });
   }, []);
   return rows;
@@ -80,7 +81,7 @@ const Tabs: React.FC<TabsProps> = ({ projects: fallback = [] }) => {
       .eq("is_active", true)
       .order("sort_order", { ascending: true })
       .then(({ data }) => {
-        if (data && data.length > 0) setRows(data as DetailRow[]);
+        setRows(mergeRows(data || []) as DetailRow[]);
         setLoading(false);
       });
   }, []);
@@ -262,6 +263,11 @@ export const DetailCard: React.FC<{ row: DetailRow }> = ({ row }) => {
           <h2 className="recentproject-title" style={{ margin: 0 }}>
             {row.client_name}
           </h2>
+          {OCA_SLUGS.has(row.slug) && (
+            <span className="text-[12px]" style={{ color: "rgba(255,255,255,0.45)", marginTop: -4 }}>
+              Execution partner for {OCA_PARTNER}
+            </span>
+          )}
           {row.card_text && (
             <p className="line-clamp-3" style={{ margin: 0, fontSize: "16px", lineHeight: 1.5, color: "rgba(255,255,255,0.72)" }}>
               {row.card_text}

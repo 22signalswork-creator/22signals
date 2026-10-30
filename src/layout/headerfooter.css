@@ -790,3 +790,33 @@
     display: none;
   }
 }
+
+/* Services mega menu: same dark card, seven umbrellas in a grid */
+.header-dropdown-mega {
+  left: -140px;
+  transform: translateY(-6px);
+  width: min(980px, calc(100vw - 48px));
+  padding: 18px 16px 10px;
+}
+.header-dropdown-wrap.is-open .header-dropdown-mega,
+.header-dropdown-wrap:focus-within .header-dropdown-mega {
+  transform: translateY(0);
+}
+.mega-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px 10px;
+}
+.mega-head {
+  display: block;
+  padding: 6px 14px 10px;
+  margin-bottom: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #93b8ff !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.mega-head:hover { color: #ffffff !important; }
+.mega-item { padding: 8px 14px; }
+.mega-new { margin-left: 8px; font-size: 9px; letter-spacing: 0.15em; color: #ffb48c; }

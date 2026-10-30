@@ -1,0 +1,153 @@
+{
+  "path": "/services/content-marketing",
+  "kind": "service",
+  "region": "global",
+  "service": "content-marketing",
+  "serviceType": "Content marketing",
+  "title": "Content Marketing Services: Strategy to Video | 22 Signals",
+  "description": "Content marketing services that plan, write, film and publish the articles, guides and video your buyers search for, checked for facts and tracked to leads.",
+  "eyebrow": "Content Marketing",
+  "h1": "Content marketing services that answer what your buyers ask",
+  "intro": "Content marketing services at 22 Signals cover the strategy, writing, video and distribution behind the articles, guides, case studies and clips your buyers find in Google, AI assistants and social feeds. We plan topics from real search and sales questions, check every fact before publishing, and report which pieces brought visits, leads and sales.",
+  "sections": [
+    {
+      "h": "Why so much company content goes unread",
+      "p": [
+        "Most companies publish content because they feel they should. A blog post goes up every few weeks on whatever topic came to mind, it is shared once on LinkedIn, and it never gets looked at again. Nobody can say whether any of it brought in a customer.",
+        "The problem is rarely the writing. It is the lack of a plan behind it. Topics are chosen without checking what buyers search for or ask the sales team. Pieces are written to a word count instead of to a question. And there is no route from a reader to a next step, so even a popular article produces nothing.",
+        "We start the other way round: from the questions your buyers ask, the searches they run and the objections your sales team hears. Every piece gets a purpose, a target reader and a next step before a word is written."
+      ]
+    },
+    {
+      "h": "What our content marketing services include",
+      "list": [
+        "Content strategy: audience research, topic plans, a publishing calendar and the measures we will report on",
+        "Blog writing services: articles and guides written for a specific search or question",
+        "Service, product and location pages that state what you offer in the opening lines",
+        "Case studies, built from interviews with your team and, with permission, your clients",
+        "Long-form guides, reports and email newsletters",
+        "Video content: short explainers, interview clips and motion graphics made by our in-house team",
+        "Editing, fact-checking and on-page SEO for every piece before it is published",
+        "Distribution across your website, email, LinkedIn and other social channels",
+        "Refreshing older content that has slipped in search or gone out of date"
+      ]
+    },
+    {
+      "h": "Content strategy comes first",
+      "p": [
+        "A content strategy is a short written plan: who the content is for, which questions it answers, which formats suit each question, where it will be published and how it leads to a sale. It keeps every later piece pointed at the same goal.",
+        "We build it from four sources. Search data shows what buyers type into Google. AI assistant testing shows how ChatGPT, Gemini, Claude and Perplexity currently describe your field. Your sales and support teams tell us the questions buyers ask before they sign. And a review of your existing content shows what already works and what should be updated or removed.",
+        "The result is a ranked list of topics with the format, the target search and the next step for each one. You approve it before writing starts."
+      ]
+    },
+    {
+      "h": "Writing that is checked before it goes live",
+      "p": [
+        "Our content writing services are run by writers and editors who research before they write. Each piece is built around a clear answer in the first lines, then the detail a careful buyer needs: steps, costs to consider, risks, examples and what to do next.",
+        "Facts are checked against primary sources. For law firms that means statutes, deadlines and court references. For clinics it means treatment information and the limits on what can be claimed. For technology companies it means product details your team signs off. We keep a record of the sources behind each piece and what changed in each revision.",
+        "We use AI tools where they save time, such as research summaries and first outlines, but every published piece is written, edited and checked by a person."
+      ]
+    },
+    {
+      "h": "Video content alongside the written work",
+      "p": [
+        "Many buyers would rather watch a two-minute explanation than read a long article. So we plan video content with the written content, not as an extra. One interview with a partner, clinician or product lead can become an article, a set of short clips for social, a page video and an email.",
+        "Our video and motion team handles the filming plan, editing, captions and motion graphics. Where a subject is hard to film, such as a medical procedure, a software workflow or a building that is not finished, we use animation or 3D instead."
+      ]
+    },
+    {
+      "h": "Content for Google and AI answers",
+      "p": [
+        "Content marketing and search now work as one job. Pages that answer a question clearly in the first lines are more likely to rank in Google and to be quoted when an AI assistant answers the same question. Content that buries the answer under sales copy struggles in both.",
+        "Because our SEO and GEO team sits with our writers, each piece is planned with the target search, internal links, structured data and the way your business is described across the web. We measure the result in Search Console, analytics and our monthly checks of how AI assistants describe your business."
+      ]
+    },
+    {
+      "h": "How a content engagement runs",
+      "p": [
+        "Talk: a 15-minute intro call to learn what you sell, who buys it and what content you already have. If content is not the right first step for your goal, we will tell you.",
+        "Plan: within 5 to 7 days of discovery you get a written roadmap with the content strategy, the first ranked topic list, formats, publishing rhythm, review steps and the numbers we will report on.",
+        "Build: research, interviews, drafts, edits and fact checks, with your review at agreed points. Pieces are published with SEO, internal links and tracking in place.",
+        "Grow: each month we report what was published, what it brought in and what we will change. Pieces that work get extended and promoted. Pieces that do not are rewritten or retired."
+      ]
+    },
+    {
+      "h": "Industries we write and produce content for",
+      "list": [
+        "Law firms and professional services: practice area pages, legal guides and blog content, with every statute and deadline checked",
+        "Healthcare and wellness: treatment pages, patient guides and clinician video, careful with claims",
+        "Technology, SaaS and AI: product pages, comparison guides, tutorials and case studies",
+        "Fashion, beauty and retail: category pages, buying guides and editorial for online stores",
+        "Real estate: area guides, property and development content",
+        "Gaming, esports and entertainment: event, team and release content for fans"
+      ]
+    },
+    {
+      "h": "What decides the scope",
+      "list": [
+        "Number of pieces each month and their length and depth",
+        "How much research, expert interviews and fact-checking each piece needs",
+        "Amount of video, animation or design alongside the writing",
+        "Languages and markets: US, UK, UAE or several",
+        "Whether we publish directly to your site or hand over to your team",
+        "Whether distribution through email, social or paid promotion is included"
+      ]
+    },
+    {
+      "h": "Why 22 Signals for content marketing",
+      "p": [
+        "Writers, editors, video producers, SEO specialists and web developers work in one team here. A topic can go from search data to published article, video clips and an email in the same plan, and a page that needs a new layout or a booking form does not wait for another supplier.",
+        "We have worked with more than 30 companies, including monthly SEO and content programmes for US law firms where accuracy is not optional. We will not publish thin pages in bulk or promise traffic numbers. We write content worth reading, check it carefully and show you what it produced."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are content marketing services?",
+      "a": "They are the planning, writing, video and distribution of content that helps buyers find and choose your business: articles, guides, case studies, service pages, newsletters and short video. At 22 Signals they also include fact-checking, SEO and reporting on which pieces brought visits and leads."
+    },
+    {
+      "q": "What is the difference between content marketing and SEO?",
+      "a": "SEO is the work that gets your site found in search, including technical fixes, links and how your business is described across the web. Content marketing is the material buyers actually read and watch. They overlap heavily, which is why our writers and SEO specialists plan each piece together."
+    },
+    {
+      "q": "Do you offer blog writing services on their own?",
+      "a": "Yes, but we still start with a short topic plan so each post has a target search and a purpose. Posts that are written without one rarely bring in visitors. If you already have a strategy, we can write to it."
+    },
+    {
+      "q": "Who checks the facts in the content?",
+      "a": "Our editors check every claim against a primary source before you see a draft, and keep a record of those sources. For regulated fields such as law and healthcare, your team approves anything that goes live under your name. Nothing is published without a person reviewing it."
+    },
+    {
+      "q": "Do you use AI to write the content?",
+      "a": "We use AI tools for research summaries and early outlines where they save time. Every published piece is written, edited and fact-checked by a person. We do not publish AI-written pages in bulk, because they tend to repeat what is already online and do little for search or for buyers."
+    },
+    {
+      "q": "How long before content marketing shows results?",
+      "a": "New pieces usually need time to be found and ranked, and that depends on your site and how competitive your topics are. Refreshing existing content that already has some traction is often the quickest win. We agree the first milestones in the plan and report against them every month."
+    },
+    {
+      "q": "Can you make video content as well as written content?",
+      "a": "Yes. Our in-house video and motion team makes explainers, interview clips, motion graphics and short social cuts, planned alongside the written pieces so one interview can feed several formats."
+    }
+  ],
+  "related": [
+    "/services/seo-geo",
+    "/services/social-media-management",
+    "/services/influencer-campaigns",
+    "/services/video-motion",
+    "/services/web-app-development",
+    "/industries/professional-services"
+  ],
+  "keywords": {
+    "primary": "content marketing services",
+    "secondary": [
+      "content marketing agency",
+      "content writing services",
+      "blog writing services",
+      "video content",
+      "content strategy",
+      "seo content writing"
+    ]
+  }
+}

@@ -22,6 +22,21 @@ export default defineConfig({
     include: ['react', 'react-dom', 'react-router'],
   },
   build: {
+    // Long-lived vendor chunks: they change rarely, so browsers keep them
+    // cached across deploys while page code updates.
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (!id.includes("node_modules")) return;
+          if (/[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/.test(id)) return "react";
+          if (id.includes("framer-motion") || id.includes("motion-dom") || id.includes("motion-utils")) return "motion";
+          if (id.includes("@supabase")) return "supabase";
+          if (id.includes("gsap")) return "gsap";
+          if (id.includes("react-slick") || id.includes("slick-carousel")) return "slick";
+          if (id.includes("@react-spring")) return "spring";
+        },
+      },
+    },
     commonjsOptions: {
        transformMixedEsModules: true,
       include: ['webgl-sdf-generator', 'troika-three-text', 'three', /node_modules/ ]

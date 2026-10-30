@@ -24,7 +24,20 @@ export default function NeonGlobe() {
     let animFrameId: number;
     let renderer: any;
 
-    const script = document.createElement("script");
+    // Each mount gets a run id; the module loop stops when the id changes
+    // (unmount) and idles while the hero is off screen or the tab is hidden.
+    const w = window as any;
+    w.__globeRun = (w.__globeRun || 0) + 1;
+    w.__globeVisible = true;
+    const container = document.getElementById("globe-canvas-container");
+    const io = container
+      ? new IntersectionObserver((es) => { w.__globeVisible = es[0]?.isIntersecting ?? true; }, { threshold: 0 })
+      : null;
+    if (io && container) io.observe(container);
+
+    const existingMap = document.querySelector('script[data-globe-importmap]');
+    const script = (existingMap as HTMLScriptElement) || document.createElement("script");
+    script.setAttribute("data-globe-importmap", "1");
     script.type = "importmap";
     script.textContent = JSON.stringify({
       imports: {
@@ -32,12 +45,15 @@ export default function NeonGlobe() {
         "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
       },
     });
-    document.head.appendChild(script);
+    if (!existingMap) document.head.appendChild(script);
 
     const moduleScript = document.createElement("script");
     moduleScript.type = "module";
     moduleScript.textContent = `
 import * as THREE from 'three';
+const RUN = window.__globeRun;
+const alive = () => window.__globeRun === RUN;
+const active = () => alive() && window.__globeVisible !== false && !document.hidden;
 
 const NOISE_GLSL = \`
 vec4 permute(vec4 x){ return mod(((x*34.0)+1.0)*x, 289.0); }
@@ -595,7 +611,8 @@ function tickCursor() {
     cursorRenderX += (cursorRawX - cursorRenderX) * 0.28;
     cursorRenderY += (cursorRawY - cursorRenderY) * 0.28;
     cursorDot.style.transform = 'translate3d(' + cursorRenderX + 'px, ' + cursorRenderY + 'px, 0) translate(-50%, -50%)';
-    requestAnimationFrame(tickCursor);
+    if (!alive()) return;
+    if (active()) requestAnimationFrame(tickCursor); else setTimeout(tickCursor, 300);
 }
 requestAnimationFrame(tickCursor);
 
@@ -663,7 +680,7 @@ function toggleUI() {
 }
 document.getElementById('hideUI').addEventListener('click', toggleUI);
 toggleBtn.addEventListener('click', toggleUI);
-document.addEventListener('keydown', (e) => { if (e.key === 'h' || e.key === 'H') toggleUI(); });
+
 
 function onResize() {
     const w = window.innerWidth, h = window.innerHeight;
@@ -677,7 +694,7 @@ window.addEventListener('resize', onResize);
 
 const clock = new THREE.Clock();
 let frameCount = 0, lastFpsTime = 0;
-const fpsEl = document.getElementById('fps');
+
 
 const hitSphere = new THREE.Mesh(
     new THREE.SphereGeometry(1.15, 32, 32),
@@ -686,15 +703,11 @@ const hitSphere = new THREE.Mesh(
 globeGroup.add(hitSphere);
 
 function animate() {
+    if (!alive()) { renderer.dispose(); return; }
+    if (!active()) { clock.getDelta(); setTimeout(animate, 250); return; }
     requestAnimationFrame(animate);
     const dt = clock.getDelta();
     const t = clock.getElapsedTime();
-
-    frameCount++;
-    if (t - lastFpsTime > 0.5) {
-        fpsEl.textContent = Math.round(frameCount / (t - lastFpsTime)) + ' fps';
-        frameCount = 0; lastFpsTime = t;
-    }
 
     raycaster.setFromCamera(mouse, camera);
     const hits = raycaster.intersectObject(hitSphere);
@@ -757,7 +770,8 @@ animate();
     document.body.appendChild(moduleScript);
 
     return () => {
-      document.head.removeChild(script);
+      w.__globeRun++;
+      io?.disconnect();
       document.body.removeChild(moduleScript);
       const canvas = document.getElementById("globe-canvas");
       if (canvas) canvas.remove();
@@ -807,7 +821,6 @@ animate();
           cursor: pointer; font-size: 11px;
         }
         button.toggle:hover { background: rgba(80,130,255,0.22); }
-        #fps { position: fixed; bottom: 10px; left: 10px; font-size: 11px; color: rgba(255,255,255,0.25); z-index: 10; }
         #toggle-ui {
           position: fixed; top: 16px; right: 16px; z-index: 11;
           background: rgba(0,0,0,0.5); border: 1px solid rgba(100,140,255,0.2);
@@ -835,7 +848,6 @@ animate();
         <button className="toggle" id="hideUI">Hide UI (H)</button>
       </div>
       <button id="toggle-ui" ref={toggleUiRef} style={{ display: "none" }}>Show UI (H)</button>
-      <div id="fps" ref={fpsRef} />
     </>
   );
 }

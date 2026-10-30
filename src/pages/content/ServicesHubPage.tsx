@@ -16,6 +16,8 @@ import PreCtaSections from "@/components/PreCtaSections";
 import FadeIn from "@/transitions/FadeIn";
 // @ts-ignore - plain JS content module shared with the prerender script
 import { SERVICES, INDUSTRIES } from "@/content/site.js";
+import { UMBRELLAS, NEW_SERVICES } from "@/content/umbrellas";
+import { useSearchParams } from "react-router-dom";
 
 type NavItem = { path: string; label: string; blurb?: string };
 type HubPage = { h1: string; intro: string; faqs: { q: string; a: string }[] };
@@ -126,6 +128,9 @@ const ServiceCard: React.FC<{ s: NavItem; number: string; index: number }> = ({ 
         }}
       >
         {s.label}
+        {NEW_SERVICES.has(s.path) && (
+          <span className="ml-2 align-middle text-[10px] tracking-[0.15em]" style={{ color: "#E8743B" }}>NEW</span>
+        )}
       </h3>
       {s.blurb && (
         <p
@@ -149,16 +154,29 @@ const ServiceCard: React.FC<{ s: NavItem; number: string; index: number }> = ({ 
 );
 
 const ServicesGrid: React.FC<{ heading: string; intro: string }> = ({ heading, intro }) => {
-  const [activeTab, setActiveTab] = useState("All");
+  const [params] = useSearchParams();
+  const fromUrl = UMBRELLAS.find((u) => u.slug === params.get("area"));
+  const [activeTab, setActiveTab] = useState(fromUrl ? fromUrl.short : "All");
   const tabsRef = useRef<HTMLDivElement>(null);
-  const numberOf = (path: string) => pad((SERVICES as NavItem[]).findIndex((s) => s.path === path) + 1);
-  const visible = useMemo(() => {
-    const all = SERVICES as NavItem[];
-    if (activeTab === "All") return all;
-    const g = GROUPS.find((x) => x.name === activeTab);
-    return all.filter((s) => g?.paths.includes(s.path));
-  }, [activeTab]);
-  const tabs = ["All", ...GROUPS.map((g) => g.name)];
+  // Every service once, in umbrella order, with label and blurb from SERVICES.
+  const ordered = useMemo(() => {
+    const byPath = new Map((SERVICES as NavItem[]).map((s) => [s.path, s]));
+    const seen = new Set<string>();
+    const out: (NavItem & { area: string })[] = [];
+    for (const u of UMBRELLAS) for (const it of u.items) {
+      if (seen.has(it.path)) continue;
+      seen.add(it.path);
+      const s = byPath.get(it.path);
+      if (s) out.push({ ...s, label: it.path === "/services/more" ? "Managed Teams, Events, Games and Sourcing" : s.label, area: u.short });
+    }
+    return out;
+  }, []);
+  const numberOf = (path: string) => pad(ordered.findIndex((s) => s.path === path) + 1);
+  const visible = useMemo(
+    () => (activeTab === "All" ? ordered : ordered.filter((s) => s.area === activeTab)),
+    [activeTab, ordered]
+  );
+  const tabs = ["All", ...UMBRELLAS.map((u) => u.short)];
 
   return (
     <section className="relative overflow-hidden" style={{ background: "linear-gradient(180deg, #f7f9ff 0%, #ffffff 50%, #eef3ff 100%)" }}>
@@ -194,7 +212,7 @@ const ServicesGrid: React.FC<{ heading: string; intro: string }> = ({ heading, i
                   fontWeight: 600,
                 }}
               >
-                {heading.replace(/\.$/, "")}. <span style={{ color: "#325FEC" }}>One accountable lead.</span>
+                One team <span style={{ color: "#325FEC" }}>instead of ten.</span>
               </h2>
             </div>
             <p className="text-sm md:text-base leading-relaxed lg:max-w-md lg:ml-auto" style={{ color: "rgba(10, 21, 48, 0.65)" }}>
@@ -283,7 +301,7 @@ const ServicesHubPage: React.FC<{ page: HubPage }> = ({ page }) => (
           How we work, <br /> step by step
         </>
       }
-      text="One accountable lead, specialist teams behind them, and every date in writing. Discovery and a roadmap take 5 to 7 days."
+      text="Specialist teams, every date in writing. Discovery and a roadmap take 5 to 7 days."
     />
     <Companystatscounts />
     <FaqSection items={page.faqs.map((f) => ({ question: f.q, answer: f.a }))} />

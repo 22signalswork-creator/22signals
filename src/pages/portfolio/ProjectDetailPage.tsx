@@ -20,6 +20,7 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { supabase } from "@/lib/supabase";
+import { applyOverride, extraBySlug, mergeRows, OCA_SLUGS, OCA_PARTNER } from "@/content/portfolio";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 import MyButton from "@/components/CustomButton";
@@ -92,8 +93,15 @@ const ProjectDetailPage: React.FC = () => {
   // ----- Fetch current project -----
   useEffect(() => {
     if (!slug) return;
-    setLoading(true);
     setNotFound(false);
+    const extra = extraBySlug(slug);
+    if (extra) {
+      // Projects kept in code render straight away, no network wait.
+      setData(mergeRows([]).find((r: { slug: string }) => r.slug === slug) as ProjectDetailRow);
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
     supabase
       .from("project_detail_pages")
       .select("*")
@@ -104,7 +112,7 @@ const ProjectDetailPage: React.FC = () => {
         if (error || !data) {
           setNotFound(true);
         } else {
-          setData(data as ProjectDetailRow);
+          setData(applyOverride(data) as ProjectDetailRow);
         }
         setLoading(false);
       });
@@ -119,9 +127,10 @@ const ProjectDetailPage: React.FC = () => {
       .eq("is_active", true)
       .neq("slug", slug)
       .order("sort_order", { ascending: true })
-      .limit(6)
       .then(({ data }) => {
-        if (data) setOtherProjects(data as OtherProject[]);
+        setOtherProjects(
+          (mergeRows(data || []) as OtherProject[]).filter((r) => r.slug !== slug).slice(0, 6)
+        );
       });
   }, [slug]);
 
@@ -349,6 +358,14 @@ const ProjectDetailPage: React.FC = () => {
                 </FadeIn>
               )}
 
+              {slug && OCA_SLUGS.has(slug) && (
+                <FadeIn delay={0.21}>
+                  <p className="mt-4 text-[13px]" style={{ color: "rgba(255,255,255,0.5)" }}>
+                    Delivered as execution partner for {OCA_PARTNER}.
+                  </p>
+                </FadeIn>
+              )}
+
               {whatWeDid.length > 0 && (
                 <FadeIn delay={0.22}>
                   <div className="flex flex-wrap items-center gap-2 mt-7">
@@ -390,9 +407,12 @@ const ProjectDetailPage: React.FC = () => {
 
             {/* Cover image card (desktop) — graceful fallback if missing */}
             <FadeIn delay={0.25}>
+              <div className="hidden lg:block">
               <div
-                className="hidden lg:block w-[480px] aspect-[16/10] rounded-2xl overflow-hidden relative browser-frame"
+                className="aspect-[16/10] rounded-2xl overflow-hidden relative browser-frame"
                 style={{
+                  width: "min(540px, 38vw)",
+                  cursor: "default",
                   background: hasCover
                     ? "transparent"
                     : "linear-gradient(135deg, rgba(80,140,255,0.10), rgba(50,95,236,0.04))",
@@ -426,6 +446,7 @@ const ProjectDetailPage: React.FC = () => {
                     </div>
                   </div>
                 )}
+              </div>
               </div>
             </FadeIn>
           </div>

@@ -49,6 +49,9 @@ export const SERVICES = [
   { path: "/services/app-development", label: "App Development", blurb: "iOS, Android and web apps, from MVP to app store launch." },
   { path: "/services/seo-geo", label: "SEO and GEO", blurb: "Show up in Google and in ChatGPT, Claude, Gemini and Google AI Overview answers." },
   { path: "/services/paid-media", label: "Paid Media", blurb: "Google, Meta, LinkedIn and TikTok campaigns tied to leads you can count." },
+  { path: "/services/social-media-management", label: "Social Media Management", blurb: "Calendars, posting, community and reporting across the channels your buyers use." },
+  { path: "/services/influencer-campaigns", label: "Influencer Campaigns", blurb: "Creators who fit the brand, briefed, contracted and tracked to results." },
+  { path: "/services/content-marketing", label: "Content Marketing", blurb: "Articles, guides and short video that bring the right people to you." },
   { path: "/services/video-motion", label: "Video and Motion Graphics", blurb: "Reels, brand films, motion graphics and live broadcast." },
   { path: "/services/ai-video-production", label: "AI Video Production", blurb: "AI presenters, AI ad variations and AI-generated scenes, clearly labeled." },
   { path: "/services/3d-animation", label: "2D and 3D Animation", blurb: "Animated explainers, product and technical animation." },
@@ -130,11 +133,11 @@ export const PAGES = [
     eyebrow: "Business solutions company",
     h1: "Ambitious ideas, executed.",
     intro:
-      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company, with one accountable lead and specialist teams across the US, UK and UAE.",
+      "We build the systems a business runs on, then we grow it. 22 Signals is a global business solutions company, with specialist teams across the US, UK and UAE.",
     sections: [
       {
         h: "One team instead of ten.",
-        p: ["Seven core services under one accountable lead: strategy, AI, cloud, builds, search, paid media and video."],
+        p: ["Seven areas, one team: strategy, AI, data and cloud, web and apps, growth marketing, creative and managed services."],
         list: [
           "Web and App Development: websites, portals and apps built to rank, convert and last.",
           "AI and Automation: custom AI tools and automations that take a business off the old way of working.",
@@ -173,10 +176,10 @@ export const PAGES = [
     eyebrow: "What we do",
     h1: "Ambitious ideas, executed.",
     intro:
-      "22 Signals builds the systems a business runs on, then grows it. Seven core services, plus managed teams, live events, game development and product sourcing, all run by one accountable lead with specialist teams behind them.",
+      "22 Signals builds the systems a business runs on, then grows it. Seven service areas, from strategy and AI to growth marketing and video, run by one team with specialists behind every project.",
     sections: [
       {
-        h: "One team instead of ten. One accountable lead.",
+        h: "One team instead of ten.",
         p: [
           "Pick the service you need today. Strategy and AI, data and cloud, websites and apps, search and paid media, and video and 3D all sit under one team, so the next service is already in the room when you need it.",
         ],
