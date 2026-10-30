@@ -174,7 +174,22 @@ const VideoShowcase: React.FC = () => {
   // Desktop: the reel opens up to full size as it rises into view.
   const reelRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress: reelP } = useScroll({ target: reelRef, offset: ["start end", "center center"] });
-  const reelScale = useTransform(reelP, [0, 1], [0.84, 1]);
+  // TEST BUILD: the reel grows past the column to the full screen width.
+  const [full, setFull] = useState(1.2);
+  const [extra, setExtra] = useState(0);
+  useEffect(() => {
+    const m = () => {
+      const el = reelRef.current;
+      if (!el) return;
+      const f = Math.max(1, window.innerWidth / el.offsetWidth);
+      setFull(f);
+      setExtra(el.offsetHeight * (f - 1));
+    };
+    m();
+    window.addEventListener("resize", m);
+    return () => window.removeEventListener("resize", m);
+  }, []);
+  const reelScale = useTransform(reelP, [0, 1], [0.7, full]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -206,7 +221,8 @@ const VideoShowcase: React.FC = () => {
     <div
       ref={sectionRef}
       data-trace="Showreel"
-      className="relative w-full overflow-hidden"
+      className="relative w-full"
+
     >
       {/* Huge faded reel numeral */}
       <motion.div
@@ -285,7 +301,7 @@ const VideoShowcase: React.FC = () => {
 
         {/* Video frame */}
         <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-3 md:mx-0">
-          <motion.div ref={reelRef} className="relative z-10" style={still ? undefined : { scale: reelScale, transformOrigin: "50% 0%" }}>
+          <motion.div ref={reelRef} className="relative z-10" style={still ? undefined : { scale: reelScale, transformOrigin: "50% 0%", marginBottom: extra }}>
             <Video />
           </motion.div>
         </motion.div>

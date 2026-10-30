@@ -14,7 +14,7 @@ const PanelReveal: React.FC<{ children: React.ReactNode; trace?: string }> = ({ 
     <motion.div
       ref={ref}
       data-trace={trace}
-      style={{ scale, borderTopLeftRadius: radius, borderTopRightRadius: radius, transformOrigin: "50% 0%", overflow: "hidden", willChange: "transform" }}
+      style={{ scale, borderTopLeftRadius: radius, borderTopRightRadius: radius, transformOrigin: "50% 0%", overflow: "clip", willChange: "transform" }}
     >
       {children}
     </motion.div>

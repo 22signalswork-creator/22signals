@@ -1,3 +1,4 @@
+import HorizontalGallery from "@/components/fx/HorizontalGallery";
 import Words from "@/components/fx/Words";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -146,7 +147,7 @@ const PortfolioSection = () => {
   const getDelay = (index: number) => 0.1 + (index % 4) * 0.15;
 
   return (
-    <div className="relative w-full bg-[#000202] text-white pt-2 allow-internal-scroll overflow-hidden">
+    <div className="relative w-full bg-[#000202] text-white pt-2 allow-internal-scroll" style={{ overflowX: "clip" }}>
       {/* === PROVEN RESULTS FIRST (per brief) === */}
       {SHOW_TESTIMONIALS && (
       <div
@@ -240,7 +241,10 @@ const PortfolioSection = () => {
           </FadeIn>
 
           <div className="relative">
-            {projects.length > 0 && (
+            {projects.length > 0 && !isMobile && (
+              <HorizontalGallery items={projects.map((row) => <DetailCard key={row.slug} row={row} />)} />
+            )}
+            {projects.length > 0 && isMobile && (
             <Slider {...projectSliderSettings} className="w-full featured-slider">
               {projects.map((row) => (
                 <div key={row.slug} className="px-2 h-full">
