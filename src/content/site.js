@@ -158,7 +158,7 @@ export const PAGES = [
       },
       {
         h: "How we work.",
-        p: ["Talk, plan, build, grow. One lead, dates in writing."],
+        p: ["Talk, plan, build, grow."],
       },
       {
         h: "In numbers we stand behind",
@@ -1063,17 +1063,6 @@ export const PAGES = [
           "Growth Marketing: SEO and GEO, paid media, social media management, influencer campaigns and content.|/services/seo-geo",
           "Creative Studio: video and motion graphics, AI video, 2D and 3D animation, 3D rendering and brand identity.|/services/video-motion",
           "Managed Services and Events: managed specialist teams, live events and broadcast, game development and product sourcing.|/services/more",
-        ],
-      },
-      {
-        id: "values",
-        h: "What we stand for.",
-        p: ["The rules every project runs on, whoever is on the team."],
-        list: [
-          "Own the result: one team answers for it from the first call to launch.",
-          "Dates in writing: we agree the dates up front and hold ourselves to them.",
-          "Build, then grow: we don't stop at the plan. We build it, then we help it grow.",
-          "Plain answers: if something isn't worth doing, we say so on the first call.",
         ],
       },
       {

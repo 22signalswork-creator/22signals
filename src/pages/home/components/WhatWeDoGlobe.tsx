@@ -174,129 +174,156 @@ const WhatWeDoGlobe: React.FC = () => {
         </div>
       </div>
 
-      {/* Phone: NoGood-style pinned globe, driven by scroll or tap */}
+      {/* Phone: globe with tap and hold controls, never holds the scroll */}
       <MobileWhatWeDo />
     </div>
   );
 };
 
 /* ── Phone version ─────────────────────────────────────────────────────
- * The section pins while you scroll through it. A half-globe sits on the
- * right edge with the seven areas on a dotted arc beside it. Scrolling moves
- * through the areas; tapping a name jumps to it. The light in the globe
- * turns towards the active name, and its services show underneath.
+ * Sits in the page like any other section and never holds the scroll.
+ * A half-globe on the right edge has the seven areas on a dotted arc beside
+ * it. Tap a name, tap the arrows, or press and hold an arrow to cycle
+ * through. The light in the globe turns towards the active name, and its
+ * services show underneath.
  */
 const VW = 360, VH = 400, GX = 392, GY = 196, GR = 168, AR = 228;
 const ANG = UMBRELLAS.map((_, i) => ((126 + (i * 108) / 6) * Math.PI) / 180);
 const MPOS = ANG.map((a) => ({ x: GX + AR * Math.cos(a), y: GY + AR * Math.sin(a) }));
+const N = UMBRELLAS.length;
+
+const HoldArrow: React.FC<{ dir: 1 | -1; onStep: (d: number) => void }> = ({ dir, onStep }) => {
+  const timers = useRef<{ t?: number; iv?: number }>({});
+  const stop = () => {
+    window.clearTimeout(timers.current.t);
+    window.clearInterval(timers.current.iv);
+    timers.current = {};
+  };
+  useEffect(() => stop, []);
+  const start = (e: React.PointerEvent) => {
+    e.preventDefault();
+    stop();
+    onStep(dir);
+    timers.current.t = window.setTimeout(() => {
+      timers.current.iv = window.setInterval(() => onStep(dir), 520);
+    }, 420);
+  };
+  return (
+    <button
+      type="button"
+      aria-label={dir > 0 ? "Next area" : "Previous area"}
+      className="mwwd-arrow"
+      onPointerDown={start}
+      onPointerUp={stop}
+      onPointerLeave={stop}
+      onPointerCancel={stop}
+      onContextMenu={(e) => e.preventDefault()}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onStep(dir);
+        }
+      }}
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d={dir > 0 ? "M9 5l7 7-7 7" : "M15 5l-7 7 7 7"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </button>
+  );
+};
 
 const MobileWhatWeDo: React.FC = () => {
-  const outerRef = useRef<HTMLDivElement>(null);
   const [i, setI] = useState(0);
-
-  useEffect(() => {
-    let raf = 0;
-    const update = () => {
-      raf = 0;
-      const el = outerRef.current;
-      if (!el) return;
-      const r = el.getBoundingClientRect();
-      const span = r.height - window.innerHeight;
-      const p = span > 0 ? Math.min(0.9999, Math.max(0, -r.top / span)) : 0;
-      const next = Math.floor(p * UMBRELLAS.length);
-      setI((cur) => (cur === next ? cur : next));
-    };
-    const onScroll = () => {
-      if (!raf) raf = requestAnimationFrame(update);
-    };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll, { passive: true });
-    update();
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
-      cancelAnimationFrame(raf);
-    };
-  }, []);
-
-  const jump = (k: number) => {
-    const el = outerRef.current;
-    if (!el) return;
-    const top = el.getBoundingClientRect().top + window.scrollY;
-    const span = el.offsetHeight - window.innerHeight;
-    window.scrollTo({ top: top + ((k + 0.5) / UMBRELLAS.length) * span, behavior: "smooth" });
-  };
+  const step = (d: number) => setI((c) => (c + d + N) % N);
 
   const a = ANG[i];
   const orb = { x: GX + 105 * Math.cos(a), y: GY + 105 * Math.sin(a) };
   const u = UMBRELLAS[i];
 
   return (
-    <div ref={outerRef} className="md:hidden relative" style={{ height: `calc(100svh + ${UMBRELLAS.length * 34}svh)` }}>
-      <div className="wwd-box" style={{ position: "sticky", top: 84, height: "calc(100svh - 100px)", minHeight: 560 }}>
-        <div className="relative w-full" style={{ aspectRatio: `${VW} / ${VH}` }}>
-          <svg viewBox={`0 0 ${VW} ${VH}`} className="absolute inset-0 w-full h-full" aria-hidden="true">
-            <defs>
-              <clipPath id="mwwd-clip">
-                <circle cx={GX} cy={GY} r={GR} />
-              </clipPath>
-              <radialGradient id="mwwd-orb">
-                <stop offset="0" stopColor="#dfe8ff" stopOpacity="1" />
-                <stop offset="0.25" stopColor="#7ea2ff" stopOpacity="0.9" />
-                <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.35" />
-                <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
-              </radialGradient>
-            </defs>
-            <circle cx={GX} cy={GY} r={GR} fill="#0a1640" />
-            <g clipPath="url(#mwwd-clip)">
-              <circle cx={orb.x} cy={orb.y} r="120" fill="url(#mwwd-orb)" style={{ transition: "cx .5s ease, cy .5s ease" }} />
-              <g fill="none" stroke="rgba(220,230,255,0.38)" strokeWidth="1">
-                {[40, 90, 135].map((rx) => (
-                  <ellipse key={rx} cx={GX} cy={GY} rx={rx} ry={GR} />
-                ))}
-                {[-110, -55, 0, 55, 110].map((dy) => (
-                  <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={18} />
-                ))}
-              </g>
+    <div className="md:hidden mwwd-band">
+      <div className="relative w-full" style={{ aspectRatio: `${VW} / ${VH}` }}>
+        <svg viewBox={`0 0 ${VW} ${VH}`} className="absolute inset-0 w-full h-full" aria-hidden="true">
+          <defs>
+            <clipPath id="mwwd-clip">
+              <circle cx={GX} cy={GY} r={GR} />
+            </clipPath>
+            <radialGradient id="mwwd-orb">
+              <stop offset="0" stopColor="#dfe8ff" stopOpacity="1" />
+              <stop offset="0.25" stopColor="#7ea2ff" stopOpacity="0.9" />
+              <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.35" />
+              <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
+            </radialGradient>
+          </defs>
+          <circle cx={GX} cy={GY} r={GR} fill="#0a1640" />
+          <g clipPath="url(#mwwd-clip)">
+            <circle cx={orb.x} cy={orb.y} r="120" fill="url(#mwwd-orb)" style={{ transition: "cx .5s ease, cy .5s ease" }} />
+            <g fill="none" stroke="rgba(220,230,255,0.38)" strokeWidth="1">
+              {[40, 90, 135].map((rx) => (
+                <ellipse key={rx} cx={GX} cy={GY} rx={rx} ry={GR} />
+              ))}
+              {[-110, -55, 0, 55, 110].map((dy) => (
+                <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={18} />
+              ))}
             </g>
-            <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
-            <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(147,184,255,0.35)" strokeWidth="1" strokeDasharray="2 6" />
-            {MPOS.map((q, k) => (
-              <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4 : 2.5} fill={k === i ? "#ffffff" : "rgba(147,184,255,0.6)"} />
-            ))}
-          </svg>
-          {UMBRELLAS.map((m, k) => (
-            <button
-              key={m.slug}
-              type="button"
-              onClick={() => jump(k)}
-              aria-pressed={k === i}
-              className={`mwwd-label ${k === i ? "is-on" : ""}`}
-              style={{ left: `${(MPOS[k].x / VW) * 100}%`, top: `${(MPOS[k].y / VH) * 100}%` }}
-            >
-              {m.short}
-            </button>
+          </g>
+          <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
+          <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(147,184,255,0.35)" strokeWidth="1" strokeDasharray="2 6" />
+          {MPOS.map((q, k) => (
+            <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4 : 2.5} fill={k === i ? "#ffffff" : "rgba(147,184,255,0.6)"} />
           ))}
+        </svg>
+        {UMBRELLAS.map((m, k) => (
+          <button
+            key={m.slug}
+            type="button"
+            onClick={() => setI(k)}
+            aria-pressed={k === i}
+            className={`mwwd-label ${k === i ? "is-on" : ""}`}
+            style={{ left: `${(MPOS[k].x / VW) * 100}%`, top: `${(MPOS[k].y / VH) * 100}%` }}
+          >
+            {m.short}
+          </button>
+        ))}
+      </div>
+
+      <div className="px-5 pt-1">
+        <div className="flex items-center gap-3">
+          <HoldArrow dir={-1} onStep={step} />
+          <div className="flex-1 flex gap-1.5" role="tablist" aria-label="Areas">
+            {UMBRELLAS.map((m, k) => (
+              <button
+                key={m.slug}
+                type="button"
+                role="tab"
+                aria-selected={k === i}
+                aria-label={m.name}
+                onClick={() => setI(k)}
+                className="mwwd-seg"
+              >
+                <span style={{ background: k === i ? "#ffffff" : k < i ? "rgba(147,184,255,0.7)" : "rgba(147,184,255,0.22)" }} />
+              </button>
+            ))}
+          </div>
+          <HoldArrow dir={1} onStep={step} />
         </div>
 
-        <div className="px-5 pt-2 pb-5">
-          <div className="text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
-            {String(i + 1).padStart(2, "0")} / 07
-          </div>
-          <div key={u.slug} className="wwd-fade mt-2 text-white" style={{ fontSize: 24, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
-            {u.name}
-          </div>
-          <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-1.5">
-            {u.items.map((it) => (
-              <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px" }}>
-                {it.label}
-              </span>
-            ))}
-          </div>
-          <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-4 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#93b8ff", textDecoration: "none" }}>
-            Explore {u.short} <span aria-hidden>→</span>
-          </Link>
+        <div className="mt-5 text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
+          {String(i + 1).padStart(2, "0")} / 0{N}
         </div>
+        <div key={u.slug} className="wwd-fade mt-2 text-white" style={{ fontSize: 24, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
+          {u.name}
+        </div>
+        <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-1.5 content-start" style={{ minHeight: 76 }}>
+          {u.items.map((it) => (
+            <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px" }}>
+              {it.label}
+            </span>
+          ))}
+        </div>
+        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-3 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#93b8ff", textDecoration: "none" }}>
+          Explore {u.short} <span aria-hidden>→</span>
+        </Link>
       </div>
     </div>
   );

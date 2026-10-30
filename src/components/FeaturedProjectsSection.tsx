@@ -49,8 +49,9 @@ const FeaturedProjectsSection: React.FC<Props> = ({ title = "Featured Projects" 
     adaptiveHeight: false,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 2, slidesToScroll: 2, arrows: false, dots: true } },
+      { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll: 1, centerMode: true, centerPadding: "56px", arrows: false, dots: true } },
     ],
+    ...(isMobile ? { slidesToShow: 1, slidesToScroll: 1, centerMode: true, centerPadding: "56px", arrows: false, dots: true } : {}),
   };
 
   return (
