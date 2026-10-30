@@ -216,7 +216,7 @@ const Video: React.FC = () => {
     >
       <div
         ref={frameRef}
-        className={isFullscreen ? "relative w-full h-full bg-black" : "relative w-full aspect-[16/9] rounded-[28px] overflow-hidden shadow-2xl"}
+        className={isFullscreen ? "relative w-full h-full bg-black" : "relative w-full aspect-[4/3] md:aspect-[16/9] rounded-[24px] md:rounded-[28px] overflow-hidden shadow-2xl"}
         style={{ backgroundColor: "#0a0f1f" }}
       >
         {directFile ? (

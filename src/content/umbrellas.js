@@ -82,3 +82,21 @@ export const UMBRELLAS = [
 export const umbrellaFor = (path) => UMBRELLAS.find((u) => u.items.some((i) => i.path === path));
 // Services to badge as NEW. Empty: no badges shown anywhere.
 export const NEW_SERVICES = new Set([]);
+
+// The homepage globe shows the same number of services for every area.
+// Each entry is the label shown and the page it opens.
+export const GLOBE_ITEMS = {
+  strategy: ["Go-to-Market Strategy", "AI Consulting", "Business Optimization"],
+  ai: ["AI Automation", "Custom AI Development", "WhatsApp Automation"],
+  "data-cloud": ["Business Intelligence", "Data Engineering", "Cloud Consulting"],
+  "web-apps": ["Web Development", "App Development", { label: "Portals and E-commerce", path: "/services/web-app-development" }],
+  growth: ["SEO and GEO", "Paid Media", "Social Media Management"],
+  creative: ["Video and Motion Graphics", "AI Video Production", "2D and 3D Animation"],
+  managed: ["Managed Teams", "Live Events and Broadcast", "Game Development"],
+};
+
+export const globeItems = (u) => {
+  const pick = GLOBE_ITEMS[u.slug];
+  if (!pick) return u.items.slice(0, 3);
+  return pick.map((p) => (typeof p === "string" ? u.items.find((i) => i.label === p) : p)).filter(Boolean);
+};

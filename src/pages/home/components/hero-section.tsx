@@ -93,7 +93,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
             textAlign: "left",
             boxSizing: "border-box",
           }}
-          className="pt-2 md:pt-20 md:px-0"
+          className="hero-words pt-2 md:pt-20 md:px-0"
         >
           <RisingText>
             <h1

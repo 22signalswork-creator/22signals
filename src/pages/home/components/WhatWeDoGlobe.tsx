@@ -1,7 +1,7 @@
 /**
- * "What we do" globe. A still wireframe globe inside a dark card; a soft light
- * inside it follows the pointer, and the service area nearest the light is
- * highlighted, with its services shown as links inside the globe.
+ * "What we do" globe. A dark wireframe globe sitting on the page (no card);
+ * a soft light inside it follows the pointer, and the service area nearest
+ * the light is highlighted, with three of its services shown in the globe.
  *
  * Performance: the orb moves through a ref (transform only, one rAF per
  * frame, nothing re-renders); React state changes only when the highlighted
@@ -9,7 +9,7 @@
  */
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { UMBRELLAS, NEW_SERVICES } from "@/content/umbrellas";
+import { UMBRELLAS, globeItems } from "@/content/umbrellas";
 
 // Layout is designed on a 1344 x 860 frame and placed in percentages.
 const W = 1344;
@@ -50,13 +50,12 @@ const GlobeLines: React.FC = () => (
   </svg>
 );
 
-// Service names inside the globe are labels only, not links.
+// Service names inside the globe are labels only on desktop.
 const Chips: React.FC<{ index: number }> = ({ index }) => (
   <>
-    {UMBRELLAS[index].items.map((s) => (
+    {globeItems(UMBRELLAS[index]).map((s) => (
       <span key={s.label} className="wwd-chip">
         {s.label}
-        {NEW_SERVICES.has(s.path) && <span className="wwd-new">NEW</span>}
       </span>
     ))}
   </>
@@ -135,9 +134,9 @@ const WhatWeDoGlobe: React.FC = () => {
       {/* Desktop and tablet */}
       <div
         ref={boxRef}
-        className="wwd-box hidden md:block mx-auto"
+        className="wwd-stage hidden md:block mx-auto"
         onPointerMove={onMove}
-        style={{ aspectRatio: `${W} / ${H}`, maxWidth: `calc(62vh * ${W / H})` }}
+        style={{ aspectRatio: `${W} / ${H}`, maxWidth: `min(1400px, calc(76vh * ${W / H}))` }}
       >
         <div
           className="wwd-ball"
@@ -181,16 +180,19 @@ const WhatWeDoGlobe: React.FC = () => {
 };
 
 /* ── Phone version ─────────────────────────────────────────────────────
- * Sits in the page like any other section and never holds the scroll.
+ * Sits on the page like any other section and never holds the scroll.
  * A half-globe on the right edge has the seven areas on a dotted arc beside
- * it. Tap a name, tap the arrows, or press and hold an arrow to cycle
- * through. The light in the globe turns towards the active name, and its
- * services show underneath.
+ * it. Tap a name, use the arrows (press and hold to cycle), or press and
+ * hold anywhere on the globe and drag to steer the light, like the pointer
+ * does on desktop. The three services underneath link to their pages.
  */
-const VW = 360, VH = 400, GX = 392, GY = 196, GR = 168, AR = 228;
-const ANG = UMBRELLAS.map((_, i) => ((126 + (i * 108) / 6) * Math.PI) / 180);
+const VW = 360, VH = 440, GX = 380, GY = 215, GR = 190, AR = 250;
+const A0 = 126, A1 = 234;
+const ANG_DEG = UMBRELLAS.map((_, i) => A0 + (i * (A1 - A0)) / (UMBRELLAS.length - 1));
+const ANG = ANG_DEG.map((d) => (d * Math.PI) / 180);
 const MPOS = ANG.map((a) => ({ x: GX + AR * Math.cos(a), y: GY + AR * Math.sin(a) }));
 const N = UMBRELLAS.length;
+const ORB_R = 118;
 
 const HoldArrow: React.FC<{ dir: 1 | -1; onStep: (d: number) => void }> = ({ dir, onStep }) => {
   const timers = useRef<{ t?: number; iv?: number }>({});
@@ -234,43 +236,140 @@ const HoldArrow: React.FC<{ dir: 1 | -1; onStep: (d: number) => void }> = ({ dir
 
 const MobileWhatWeDo: React.FC = () => {
   const [i, setI] = useState(0);
+  const [drag, setDrag] = useState<{ x: number; y: number } | null>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
+  const hold = useRef<{ t?: number; on: boolean; sx: number; sy: number }>({ on: false, sx: 0, sy: 0 });
   const step = (d: number) => setI((c) => (c + d + N) % N);
 
+  // Finger position -> light position and nearest area.
+  const steer = (cx: number, cy: number) => {
+    const r = stageRef.current!.getBoundingClientRect();
+    const x = ((cx - r.left) / r.width) * VW;
+    const y = ((cy - r.top) / r.height) * VH;
+    let deg = (Math.atan2(y - GY, x - GX) * 180) / Math.PI;
+    if (deg < 0) deg += 360;
+    deg = Math.max(A0, Math.min(A1, deg));
+    const dist = Math.max(40, Math.min(150, Math.hypot(x - GX, y - GY) - 60));
+    const rad = (deg * Math.PI) / 180;
+    setDrag({ x: GX + dist * Math.cos(rad), y: GY + dist * Math.sin(rad) });
+    const k = Math.round(((deg - A0) / (A1 - A0)) * (N - 1));
+    setI((c) => (c === k ? c : k));
+  };
+
+  // Press and hold (about a quarter second) to steer; a quick swipe still scrolls the page.
+  useEffect(() => {
+    const el = stageRef.current;
+    if (!el) return;
+    const h = hold.current;
+    const end = () => {
+      window.clearTimeout(h.t);
+      if (h.on) {
+        h.on = false;
+        setDrag(null);
+      }
+    };
+    const start = (e: TouchEvent) => {
+      const t = e.touches[0];
+      h.sx = t.clientX;
+      h.sy = t.clientY;
+      window.clearTimeout(h.t);
+      h.t = window.setTimeout(() => {
+        h.on = true;
+        steer(h.sx, h.sy);
+      }, 240);
+    };
+    const move = (e: TouchEvent) => {
+      const t = e.touches[0];
+      if (h.on) {
+        e.preventDefault();
+        steer(t.clientX, t.clientY);
+      } else if (Math.hypot(t.clientX - h.sx, t.clientY - h.sy) > 8) {
+        window.clearTimeout(h.t);
+      }
+    };
+    el.addEventListener("touchstart", start, { passive: true });
+    el.addEventListener("touchmove", move, { passive: false });
+    el.addEventListener("touchend", end);
+    el.addEventListener("touchcancel", end);
+    return () => {
+      end();
+      el.removeEventListener("touchstart", start);
+      el.removeEventListener("touchmove", move);
+      el.removeEventListener("touchend", end);
+      el.removeEventListener("touchcancel", end);
+    };
+  }, []);
+
+  // Mouse (small desktop windows): drag with the button held.
+  const mouseDown = (e: React.PointerEvent) => {
+    if (e.pointerType !== "mouse") return;
+    hold.current.on = true;
+    steer(e.clientX, e.clientY);
+  };
+  const mouseMove = (e: React.PointerEvent) => {
+    if (e.pointerType === "mouse" && hold.current.on) steer(e.clientX, e.clientY);
+  };
+  const mouseUp = (e: React.PointerEvent) => {
+    if (e.pointerType === "mouse" && hold.current.on) {
+      hold.current.on = false;
+      setDrag(null);
+    }
+  };
+
   const a = ANG[i];
-  const orb = { x: GX + 105 * Math.cos(a), y: GY + 105 * Math.sin(a) };
+  const orb = drag ?? { x: GX + 112 * Math.cos(a), y: GY + 112 * Math.sin(a) };
   const u = UMBRELLAS[i];
 
   return (
-    <div className="md:hidden mwwd-band">
-      <div className="relative w-full" style={{ aspectRatio: `${VW} / ${VH}` }}>
+    <div className="md:hidden mwwd">
+      <div
+        ref={stageRef}
+        className={`mwwd-stage relative w-full ${drag ? "is-dragging" : ""}`}
+        style={{ aspectRatio: `${VW} / ${VH}` }}
+        onPointerDown={mouseDown}
+        onPointerMove={mouseMove}
+        onPointerUp={mouseUp}
+        onPointerLeave={mouseUp}
+        onContextMenu={(e) => e.preventDefault()}
+      >
         <svg viewBox={`0 0 ${VW} ${VH}`} className="absolute inset-0 w-full h-full" aria-hidden="true">
           <defs>
             <clipPath id="mwwd-clip">
               <circle cx={GX} cy={GY} r={GR} />
             </clipPath>
             <radialGradient id="mwwd-orb">
-              <stop offset="0" stopColor="#dfe8ff" stopOpacity="1" />
-              <stop offset="0.25" stopColor="#7ea2ff" stopOpacity="0.9" />
-              <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.35" />
+              <stop offset="0" stopColor="#e6edff" stopOpacity="1" />
+              <stop offset="0.22" stopColor="#7ea2ff" stopOpacity="0.95" />
+              <stop offset="0.6" stopColor="#325FEC" stopOpacity="0.4" />
               <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
             </radialGradient>
+            <radialGradient id="mwwd-ball" cx="0.3" cy="0.6" r="0.9">
+              <stop offset="0" stopColor="#10215e" />
+              <stop offset="1" stopColor="#050a18" />
+            </radialGradient>
           </defs>
-          <circle cx={GX} cy={GY} r={GR} fill="#0a1640" />
+          <circle cx={GX} cy={GY} r={GR} fill="url(#mwwd-ball)" />
           <g clipPath="url(#mwwd-clip)">
-            <circle cx={orb.x} cy={orb.y} r="120" fill="url(#mwwd-orb)" style={{ transition: "cx .5s ease, cy .5s ease" }} />
-            <g fill="none" stroke="rgba(220,230,255,0.38)" strokeWidth="1">
-              {[40, 90, 135].map((rx) => (
+            <circle
+              cx={orb.x}
+              cy={orb.y}
+              r={ORB_R}
+              fill="url(#mwwd-orb)"
+              style={{ transition: drag ? "none" : "cx .5s ease, cy .5s ease" }}
+            />
+            <g fill="none" stroke="rgba(220,230,255,0.36)" strokeWidth="1">
+              {[46, 100, 150].map((rx) => (
                 <ellipse key={rx} cx={GX} cy={GY} rx={rx} ry={GR} />
               ))}
-              {[-110, -55, 0, 55, 110].map((dy) => (
-                <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={18} />
+              {[-125, -62, 0, 62, 125].map((dy) => (
+                <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={20} />
               ))}
             </g>
           </g>
-          <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(220,230,255,0.8)" strokeWidth="1.2" />
-          <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(147,184,255,0.35)" strokeWidth="1" strokeDasharray="2 6" />
+          <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(50,95,236,0.55)" strokeWidth="1.2" />
+          <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(50,95,236,0.4)" strokeWidth="1" strokeDasharray="2 6" />
           {MPOS.map((q, k) => (
-            <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4 : 2.5} fill={k === i ? "#ffffff" : "rgba(147,184,255,0.6)"} />
+            <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4.5 : 2.5} fill={k === i ? "#325FEC" : "rgba(50,95,236,0.45)"} />
           ))}
         </svg>
         {UMBRELLAS.map((m, k) => (
@@ -287,7 +386,7 @@ const MobileWhatWeDo: React.FC = () => {
         ))}
       </div>
 
-      <div className="px-5 pt-1">
+      <div className="px-5 pt-2">
         <div className="flex items-center gap-3">
           <HoldArrow dir={-1} onStep={step} />
           <div className="flex-1 flex gap-1.5" role="tablist" aria-label="Areas">
@@ -301,27 +400,30 @@ const MobileWhatWeDo: React.FC = () => {
                 onClick={() => setI(k)}
                 className="mwwd-seg"
               >
-                <span style={{ background: k === i ? "#ffffff" : k < i ? "rgba(147,184,255,0.7)" : "rgba(147,184,255,0.22)" }} />
+                <span style={{ background: k === i ? "#325FEC" : k < i ? "rgba(50,95,236,0.45)" : "rgba(10,21,48,0.12)" }} />
               </button>
             ))}
           </div>
           <HoldArrow dir={1} onStep={step} />
         </div>
+        <div className="mt-2 text-center text-[11px]" style={{ color: "rgba(10,21,48,0.45)" }}>
+          Tap an area, or hold the globe and drag
+        </div>
 
-        <div className="mt-5 text-[11px] tracking-[0.3em]" style={{ color: "#93b8ff" }}>
+        <div className="mt-5 text-[11px] tracking-[0.3em]" style={{ color: "#325FEC" }}>
           {String(i + 1).padStart(2, "0")} / 0{N}
         </div>
-        <div key={u.slug} className="wwd-fade mt-2 text-white" style={{ fontSize: 24, lineHeight: 1.15, letterSpacing: "-0.01em" }}>
+        <div key={u.slug} className="wwd-fade mt-2" style={{ fontSize: 26, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530" }}>
           {u.name}
         </div>
-        <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-1.5 content-start" style={{ minHeight: 76 }}>
-          {u.items.map((it) => (
-            <span key={it.label} className="wwd-chip" style={{ fontSize: 12, padding: "6px 10px" }}>
-              {it.label}
-            </span>
+        <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-2">
+          {globeItems(u).map((it) => (
+            <Link key={it.label} to={it.path} className="mwwd-chip">
+              {it.label} <span aria-hidden>↗</span>
+            </Link>
           ))}
         </div>
-        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-3 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#93b8ff", textDecoration: "none" }}>
+        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-4 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#325FEC", textDecoration: "none" }}>
           Explore {u.short} <span aria-hidden>→</span>
         </Link>
       </div>

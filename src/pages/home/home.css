@@ -426,3 +426,7 @@ color: rgba(222, 225, 230, 1);
   position: absolute; /* Stack them all in the middle */
   transform-origin: center;
 }
+/* Phones: the desktop side padding squeezed the headline off centre */
+@media (max-width: 767px) {
+  .home-hero-section { padding-left: 16px !important; padding-right: 16px !important; }
+}

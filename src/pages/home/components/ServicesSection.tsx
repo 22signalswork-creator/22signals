@@ -41,17 +41,18 @@ import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
 const WINDING_PATH_D =
   "M0 0C120 120 260 360 357.215 725.005C-60.2856 684.005 -73.7845 284.005 226.716 296.505C527.216 309.005 832.716 841.505 1299.72 661.505C1525.9 574.324 1793.21 649.005 1469.21 1100.01C1145.21 1551.01 756.323 1166.44 480.714 1314.01C226.715 1450.01 208.214 1922.51 480.714 2017.01C753.214 2111.51 1058.71 1882.51 1216.71 2139.51C1374.71 2396.51 1323.21 2893.01 1587.71 2834.51C1852.22 2776.01 1851.71 2526.01 1666.21 2567.01C1480.71 2608.01 1173.01 2827.49 689.715 2636.01C321.214 2490.01 -87.2852 3174.37 430.715 3113.51C948.715 3052.64 929.715 3299.01 864.215 3421.01";
 
-// A gentle S-curve down a narrow column: swings between the two edges.
+// Phones: a calm wave that stays in the left margin, so it never runs
+// across the text or the video.
 const mobilePath = (w: number, h: number) => {
   if (!w || !h) return "M0 0";
-  const left = 14, right = w - 14, step = 760;
-  let d = `M${w * 0.7} 0`;
-  let y = 0, toLeft = true;
+  const a = 7, b = 19, step = 520;
+  let d = `M${b} 0`;
+  let y = 0, toA = true;
   while (y < h) {
     const ny = Math.min(h, y + step);
-    const x = toLeft ? left : right;
-    d += ` C${toLeft ? right : left} ${y + step * 0.35} ${x} ${ny - step * 0.45} ${x} ${ny}`;
-    y = ny; toLeft = !toLeft;
+    const x = toA ? a : b;
+    d += ` C${toA ? b : a} ${y + step * 0.5} ${x} ${ny - step * 0.5} ${x} ${ny}`;
+    y = ny; toA = !toA;
   }
   return d;
 };
@@ -69,7 +70,7 @@ export const BackgroundWindingLine: React.FC = () => {
     if (!svg || typeof ResizeObserver === "undefined") return;
     const ro = new ResizeObserver(() => {
       const r = svg.getBoundingClientRect();
-      setBox((b) => (Math.abs(b.w - r.width) > 2 || Math.abs(b.h - r.height) > 40 ? { w: Math.round(r.width), h: Math.round(r.height) } : b));
+      setBox((b) => (Math.abs(b.w - r.width) > 2 || Math.abs(b.h - r.height) > 160 ? { w: Math.round(r.width), h: Math.round(r.height) } : b));
     });
     ro.observe(svg);
     return () => ro.disconnect();
@@ -109,7 +110,8 @@ export const BackgroundWindingLine: React.FC = () => {
     };
 
     const frame = () => {
-      shown += (goal - shown) * 0.08;
+      // Desktop glides; phones follow the finger closely so it never lags behind.
+      shown += (goal - shown) * (isMobile ? 0.5 : 0.08);
       if (Math.abs(goal - shown) < 0.0005) shown = goal;
       path.style.strokeDashoffset = String(pathLength * (1 - shown));
       if (head) {
@@ -178,7 +180,7 @@ export const BackgroundWindingLine: React.FC = () => {
         ref={pathRef}
         d={isMobile ? mobilePath(box.w, box.h) : WINDING_PATH_D}
         stroke="url(#wl-grad)"
-        strokeWidth={isMobile ? 3 : 12}
+        strokeWidth={isMobile ? 2.5 : 12}
         fill="none"
         strokeLinecap="round"
         opacity="0.9"
@@ -238,6 +240,8 @@ const fadeUp: Variants = {
 
 const VideoShowcase: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
+  // Phones skip the numeral parallax: it fought momentum scrolling.
+  const [still] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -281,10 +285,7 @@ const VideoShowcase: React.FC = () => {
       >
         <motion.span
           style={{
-            y: numeralY,
-            x: numeralX,
-            scale: numeralScale,
-            opacity: numeralOpacity,
+            ...(still ? { opacity: 0.07 } : { y: numeralY, x: numeralX, scale: numeralScale, opacity: numeralOpacity }),
             fontSize: "clamp(200px, 30vw, 520px)",
             color: "transparent",
             WebkitTextStroke: "1px rgba(50,95,236,0.45)",
@@ -347,7 +348,7 @@ const VideoShowcase: React.FC = () => {
         {/* Lead paragraph removed per request */}
 
         {/* Video frame */}
-        <motion.div variants={fadeUp} className="mt-12 md:mt-16 relative">
+        <motion.div variants={fadeUp} className="mt-10 md:mt-16 relative -mx-3 md:mx-0">
           <div className="relative z-10">
             <Video />
           </div>
@@ -396,7 +397,7 @@ const StatsBlock: React.FC = () => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.2 }}
     transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
-    className="mt-6 md:mt-8 mb-10 md:mb-14 relative z-10"
+    className="home-stats mt-6 md:mt-8 mb-10 md:mb-14 relative z-10"
   >
     <CompanyStatsCounts />
   </motion.div>
