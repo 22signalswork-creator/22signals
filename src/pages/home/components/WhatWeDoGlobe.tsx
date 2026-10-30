@@ -124,7 +124,7 @@ const WhatWeDoGlobe: React.FC = () => {
     const glide = (next: number) => {
       const from = { ...pos.current };
       const to = clamp(LABELS[next].x, LABELS[next].y);
-      const t0 = performance.now(), dur = 720;
+      const t0 = performance.now(), dur = 880;
       cancelAnimationFrame(tween);
       const step = (now: number) => {
         if (Date.now() - lastMove.current < 300) return; // the pointer took over
@@ -144,7 +144,7 @@ const WhatWeDoGlobe: React.FC = () => {
     const iv = window.setInterval(() => {
       if (!seen || box.offsetParent === null || inside.current || Date.now() - lastMove.current < 1500) return;
       glide((activeRef.current + 1) % UMBRELLAS.length);
-    }, 1000);
+    }, 1250);
     return () => {
       io.disconnect();
       window.clearInterval(iv);
