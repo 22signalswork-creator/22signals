@@ -186,13 +186,13 @@ const WhatWeDoGlobe: React.FC = () => {
  * hold anywhere on the globe and drag to steer the light, like the pointer
  * does on desktop. The three services underneath link to their pages.
  */
-const VW = 360, VH = 440, GX = 380, GY = 215, GR = 190, AR = 250;
-const A0 = 126, A1 = 234;
+const VW = 360, VH = 330, GX = 374, GY = 165, GR = 150, AR = 196;
+const A0 = 128, A1 = 232;
 const ANG_DEG = UMBRELLAS.map((_, i) => A0 + (i * (A1 - A0)) / (UMBRELLAS.length - 1));
 const ANG = ANG_DEG.map((d) => (d * Math.PI) / 180);
 const MPOS = ANG.map((a) => ({ x: GX + AR * Math.cos(a), y: GY + AR * Math.sin(a) }));
 const N = UMBRELLAS.length;
-const ORB_R = 118;
+const ORB_R = 100;
 
 const HoldArrow: React.FC<{ dir: 1 | -1; onStep: (d: number) => void }> = ({ dir, onStep }) => {
   const timers = useRef<{ t?: number; iv?: number }>({});
@@ -249,7 +249,7 @@ const MobileWhatWeDo: React.FC = () => {
     let deg = (Math.atan2(y - GY, x - GX) * 180) / Math.PI;
     if (deg < 0) deg += 360;
     deg = Math.max(A0, Math.min(A1, deg));
-    const dist = Math.max(40, Math.min(150, Math.hypot(x - GX, y - GY) - 60));
+    const dist = Math.max(30, Math.min(120, Math.hypot(x - GX, y - GY) - 50));
     const rad = (deg * Math.PI) / 180;
     setDrag({ x: GX + dist * Math.cos(rad), y: GY + dist * Math.sin(rad) });
     const k = Math.round(((deg - A0) / (A1 - A0)) * (N - 1));
@@ -317,7 +317,7 @@ const MobileWhatWeDo: React.FC = () => {
   };
 
   const a = ANG[i];
-  const orb = drag ?? { x: GX + 112 * Math.cos(a), y: GY + 112 * Math.sin(a) };
+  const orb = drag ?? { x: GX + 92 * Math.cos(a), y: GY + 92 * Math.sin(a) };
   const u = UMBRELLAS[i];
 
   return (
@@ -358,11 +358,11 @@ const MobileWhatWeDo: React.FC = () => {
               style={{ transition: drag ? "none" : "cx .5s ease, cy .5s ease" }}
             />
             <g fill="none" stroke="rgba(220,230,255,0.36)" strokeWidth="1">
-              {[46, 100, 150].map((rx) => (
+              {[36, 80, 120].map((rx) => (
                 <ellipse key={rx} cx={GX} cy={GY} rx={rx} ry={GR} />
               ))}
-              {[-125, -62, 0, 62, 125].map((dy) => (
-                <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={20} />
+              {[-100, -50, 0, 50, 100].map((dy) => (
+                <ellipse key={dy} cx={GX} cy={GY + dy} rx={Math.sqrt(GR * GR - dy * dy)} ry={16} />
               ))}
             </g>
           </g>
@@ -384,9 +384,10 @@ const MobileWhatWeDo: React.FC = () => {
             {m.short}
           </button>
         ))}
+        <div className="mwwd-hint">Tap an area, or hold the globe and drag.</div>
       </div>
 
-      <div className="px-5 pt-2">
+      <div className="px-5 pt-1">
         <div className="flex items-center gap-3">
           <HoldArrow dir={-1} onStep={step} />
           <div className="flex-1 flex gap-1.5" role="tablist" aria-label="Areas">
@@ -406,24 +407,21 @@ const MobileWhatWeDo: React.FC = () => {
           </div>
           <HoldArrow dir={1} onStep={step} />
         </div>
-        <div className="mt-2 text-center text-[11px]" style={{ color: "rgba(10,21,48,0.45)" }}>
-          Tap an area, or hold the globe and drag
-        </div>
 
-        <div className="mt-5 text-[11px] tracking-[0.3em]" style={{ color: "#325FEC" }}>
+        <div className="mt-3 text-[11px] tracking-[0.3em]" style={{ color: "#325FEC" }}>
           {String(i + 1).padStart(2, "0")} / 0{N}
         </div>
-        <div key={u.slug} className="wwd-fade mt-2" style={{ fontSize: 26, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530" }}>
+        <div key={u.slug} className="wwd-fade mt-1.5" style={{ fontSize: 23, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530" }}>
           {u.name}
         </div>
-        <div key={`c-${u.slug}`} className="mt-3 flex flex-wrap gap-2">
+        <div key={`c-${u.slug}`} className="mt-2.5 flex flex-wrap gap-1.5">
           {globeItems(u).map((it) => (
             <Link key={it.label} to={it.path} className="mwwd-chip">
               {it.label} <span aria-hidden>↗</span>
             </Link>
           ))}
         </div>
-        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-4 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#325FEC", textDecoration: "none" }}>
+        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-2.5 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#325FEC", textDecoration: "none" }}>
           Explore {u.short} <span aria-hidden>→</span>
         </Link>
       </div>

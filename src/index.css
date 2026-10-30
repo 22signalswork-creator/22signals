@@ -1030,8 +1030,15 @@ h3.teamcard-title {
   position: relative;
   width: 100%;
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(180deg, #000 84%, transparent 100%);
-  mask-image: linear-gradient(180deg, #000 84%, transparent 100%);
+}
+/* the globe rises from a fine horizon line instead of fading out */
+.wwd-stage::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(50,95,236,0) 0%, rgba(50,95,236,0.5) 30%, rgba(50,95,236,0.5) 70%, rgba(50,95,236,0) 100%);
+  z-index: 3;
 }
 .wwd-stage .wwd-label { color: rgba(10,21,48,0.5); }
 .wwd-stage .wwd-label:hover, .wwd-stage .wwd-label.is-on { color: #325FEC; text-shadow: 0 0 22px rgba(50,95,236,0.28); }
@@ -1214,10 +1221,11 @@ h3.teamcard-title {
   position: relative;
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  padding: 8px 0 24px;
+  padding: 8px 0 0;
 }
+.mwwd-hint { position: absolute; left: 20px; bottom: 6px; font-size: 11px; line-height: 1.3; color: rgba(10,21,48,0.45); max-width: 120px; pointer-events: none; }
 .mwwd-stage { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
-.mwwd-chip { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; min-height: 40px; border-radius: 999px; font-size: 13px; color: #0a1530 !important; text-decoration: none !important; background: #ffffff; border: 1px solid rgba(10,21,48,0.14); box-shadow: 0 6px 16px -10px rgba(10,21,48,0.35); animation: wwd-in .35s ease both; }
+.mwwd-chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; min-height: 36px; border-radius: 999px; font-size: 12.5px; color: #0a1530 !important; text-decoration: none !important; background: #ffffff; border: 1px solid rgba(10,21,48,0.14); box-shadow: 0 6px 16px -10px rgba(10,21,48,0.35); animation: wwd-in .35s ease both; }
 .mwwd-chip span { color: #325FEC; font-size: 12px; }
 .mwwd-chip:active { border-color: #325FEC; }
 .mwwd-arrow { flex: none; width: 44px; height: 44px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; color: #0a1530; background: #ffffff; border: 1px solid rgba(10,21,48,0.16); touch-action: manipulation; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
@@ -1243,3 +1251,11 @@ h3.teamcard-title {
   .hero-words { text-align: center !important; padding-left: 16px !important; padding-right: 16px !important; margin: 0 auto !important; width: 100% !important; }
   .hero-words h1 { display: block !important; text-align: center !important; margin: 0 auto !important; width: 100% !important; }
 }
+
+/* Homepage scroll trace: a quiet rail with a dot that keeps pace with you */
+.scroll-trace { position: absolute; top: 120px; bottom: 80px; left: max(14px, calc((100vw - 1440px) / 2 + 28px)); width: 1px; z-index: 1; }
+.scroll-trace-line { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(50,95,236,0) 0%, rgba(50,95,236,0.14) 8%, rgba(50,95,236,0.14) 92%, rgba(50,95,236,0) 100%); }
+.scroll-trace-fill { position: absolute; inset: 0; transform-origin: top; transform: scaleY(0); background: linear-gradient(180deg, rgba(50,95,236,0) 0%, rgba(50,95,236,0.55) 14%, rgba(50,95,236,0.55) 100%); will-change: transform; }
+.scroll-trace-dot { position: absolute; left: 50%; top: 0; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 999px; background: #325FEC; box-shadow: 0 0 0 4px rgba(50,95,236,0.12), 0 0 14px rgba(50,95,236,0.45); opacity: 0; transition: opacity .3s ease; will-change: transform; }
+@media (max-width: 767px) { .scroll-trace { left: 7px; } .scroll-trace-dot { width: 6px; height: 6px; margin-top: -3px; } }
+@media (prefers-reduced-motion: reduce) { .scroll-trace-fill, .scroll-trace-dot { transition: none; } }

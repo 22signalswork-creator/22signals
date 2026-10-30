@@ -15,181 +15,59 @@ import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
 
 
 /* ──────────────────────────────────────────────────────────────────────────
- *  BackgroundWindingLine
+ *  ScrollTrace (exported under the old name so home.tsx is unchanged)
  *
- *  Two changes vs. previous version:
- *
- *  1. FULL VIEWPORT WIDTH.  The SVG breaks out of the container's box via
- *     left:50% + transform:translateX(-50%) + width:100vw. Its parent
- *     section drops overflow-hidden so the SVG can spill past the container
- *     padding on both sides.
- *
- *  2. SLOW SCROLL DRAW.  The previous math finished drawing the line as
- *     soon as the section was half a viewport into view. The new math maps
- *     pathLength to the user's FULL scroll through the section:
- *
- *         progress = scrolled / (viewport_height + section_height)
- *
- *     So the line starts at 0 when the section just enters the viewport,
- *     and reaches 1 only when the section has fully scrolled past the
- *     viewport's TOP edge. Drawing is gradual the whole time.
+ *  A hairline rail in the left margin of the light part of the page. A small
+ *  soft dot rides it, always level with the middle of the screen, and the rail
+ *  fills in behind it. One transform per frame, no SVG paths, nothing that
+ *  crosses the content.
  * ────────────────────────────────────────────────────────────────────── */
-
-// Path now starts from the TOP-LEFT corner (M 0 0) and curves down into the
-// original winding flow. The first control segment was rewritten to enter
-// from the corner rather than from x≈865 at the top.
-const WINDING_PATH_D =
-  "M0 0C120 120 260 360 357.215 725.005C-60.2856 684.005 -73.7845 284.005 226.716 296.505C527.216 309.005 832.716 841.505 1299.72 661.505C1525.9 574.324 1793.21 649.005 1469.21 1100.01C1145.21 1551.01 756.323 1166.44 480.714 1314.01C226.715 1450.01 208.214 1922.51 480.714 2017.01C753.214 2111.51 1058.71 1882.51 1216.71 2139.51C1374.71 2396.51 1323.21 2893.01 1587.71 2834.51C1852.22 2776.01 1851.71 2526.01 1666.21 2567.01C1480.71 2608.01 1173.01 2827.49 689.715 2636.01C321.214 2490.01 -87.2852 3174.37 430.715 3113.51C948.715 3052.64 929.715 3299.01 864.215 3421.01";
-
-// Phones: a calm wave that stays in the left margin, so it never runs
-// across the text or the video.
-const mobilePath = (w: number, h: number) => {
-  if (!w || !h) return "M0 0";
-  const a = 7, b = 19, step = 520;
-  let d = `M${b} 0`;
-  let y = 0, toA = true;
-  while (y < h) {
-    const ny = Math.min(h, y + step);
-    const x = toA ? a : b;
-    d += ` C${toA ? b : a} ${y + step * 0.5} ${x} ${ny - step * 0.5} ${x} ${ny}`;
-    y = ny; toA = !toA;
-  }
-  return d;
-};
-
 export const BackgroundWindingLine: React.FC = () => {
-  const pathRef = useRef<SVGPathElement>(null);
-  const headRef = useRef<SVGGElement>(null);
-  const svgRef = useRef<SVGSVGElement>(null);
-  const [isMobile, setIsMobile] = useState(false);
-  const [box, setBox] = useState({ w: 0, h: 0 });
-
-  // Phones get a path drawn in real pixels for the column's size.
-  useEffect(() => {
-    const svg = svgRef.current;
-    if (!svg || typeof ResizeObserver === "undefined") return;
-    const ro = new ResizeObserver(() => {
-      const r = svg.getBoundingClientRect();
-      setBox((b) => (Math.abs(b.w - r.width) > 2 || Math.abs(b.h - r.height) > 160 ? { w: Math.round(r.width), h: Math.round(r.height) } : b));
-    });
-    ro.observe(svg);
-    return () => ro.disconnect();
-  }, []);
+  const railRef = useRef<HTMLDivElement>(null);
+  const fillRef = useRef<HTMLDivElement>(null);
+  const dotRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth <= 768);
-    check();
-    window.addEventListener("resize", check, { passive: true });
-    return () => window.removeEventListener("resize", check);
-  }, []);
-
-  useEffect(() => {
-    const path = pathRef.current;
-    const svg = svgRef.current;
-    const head = headRef.current;
-    if (!path || !svg) return;
-
-    const pathLength = path.getTotalLength();
-    path.style.strokeDasharray = String(pathLength);
-    path.style.strokeDashoffset = String(pathLength);
-
-    // Only work when the page scrolls (the page scrolls inside <body>, so
-    // listen in the capture phase), at most once per frame, and only while
-    // the line is near the screen.
+    const rail = railRef.current, fill = fillRef.current, dot = dotRef.current;
+    if (!rail || !fill || !dot) return;
     let raf = 0;
-    let shown = 0; // eased progress so the line glides rather than jumps
+    let shown = -1;
     let goal = 0;
-    let inView = true;
 
     const measure = () => {
-      const rect = svg.getBoundingClientRect();
-      const wh = window.innerHeight;
-      // Same pace as the original line: draws across the whole scroll-through.
-      const p = (wh - rect.top) / (wh + rect.height);
-      goal = Math.max(0, Math.min(1, p));
+      const r = rail.getBoundingClientRect();
+      const h = r.height || 1;
+      // where the middle of the screen sits on the rail
+      goal = Math.max(0, Math.min(h, window.innerHeight * 0.5 - r.top));
+      dot.style.opacity = goal > 2 && goal < h - 2 ? "1" : "0";
     };
-
     const frame = () => {
-      // Desktop glides; phones follow the finger closely so it never lags behind.
-      shown += (goal - shown) * (isMobile ? 0.5 : 0.08);
-      if (Math.abs(goal - shown) < 0.0005) shown = goal;
-      path.style.strokeDashoffset = String(pathLength * (1 - shown));
-      if (head) {
-        const pt = path.getPointAtLength(pathLength * shown);
-        head.setAttribute("transform", `translate(${pt.x} ${pt.y})`);
-        head.style.opacity = shown > 0.002 && shown < 0.998 ? "1" : "0";
-      }
+      shown = shown < 0 ? goal : shown + (goal - shown) * 0.35;
+      if (Math.abs(goal - shown) < 0.5) shown = goal;
+      fill.style.transform = `scaleY(${shown / (rail.offsetHeight || 1)})`;
+      dot.style.transform = `translate3d(-50%, ${shown}px, 0)`;
       raf = shown !== goal ? requestAnimationFrame(frame) : 0;
     };
-
     const onScroll = () => {
-      if (!inView) return;
       measure();
       if (!raf) raf = requestAnimationFrame(frame);
     };
-
-    const io = new IntersectionObserver((es) => {
-      inView = es[0]?.isIntersecting ?? true;
-      if (inView) onScroll();
-    }, { rootMargin: "200px 0px" });
-    io.observe(svg);
-
-    document.addEventListener("scroll", onScroll, { capture: true, passive: true });
+    window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll, { passive: true });
     onScroll();
     return () => {
-      io.disconnect();
       cancelAnimationFrame(raf);
-      document.removeEventListener("scroll", onScroll, { capture: true } as any);
+      window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, [isMobile, box.w, box.h]);
+  }, []);
 
   return (
-    <svg
-      ref={svgRef}
-      aria-hidden
-      className="absolute pointer-events-none"
-      viewBox={isMobile && box.w ? `0 0 ${box.w} ${box.h}` : "0 0 1817 3441"}
-      preserveAspectRatio="xMidYMin slice"
-      style={{
-        zIndex: 0,
-        top: 0,
-        left: "50%",
-        transform: "translateX(-50%)",
-        width: "100vw",
-        height: "100%",
-      }}
-    >
-      <defs>
-        <linearGradient id="wl-grad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#325FEC" />
-          <stop offset="1" stopColor="#6B92FF" />
-        </linearGradient>
-        <radialGradient id="wl-glow">
-          <stop offset="0" stopColor="#dfe8ff" />
-          <stop offset="0.3" stopColor="#6B92FF" stopOpacity="0.85" />
-          <stop offset="1" stopColor="#325FEC" stopOpacity="0" />
-        </radialGradient>
-      </defs>
-      {/* the road ahead: a faint dotted copy of the line */}
-      {!isMobile && (
-        <path d={WINDING_PATH_D} stroke="rgba(50,95,236,0.16)" strokeWidth="5" strokeDasharray="2 28" strokeLinecap="round" fill="none" />
-      )}
-      <path
-        ref={pathRef}
-        d={isMobile ? mobilePath(box.w, box.h) : WINDING_PATH_D}
-        stroke="url(#wl-grad)"
-        strokeWidth={isMobile ? 2.5 : 12}
-        fill="none"
-        strokeLinecap="round"
-        opacity="0.9"
-      />
-      <g ref={headRef} style={{ opacity: 0, transition: "opacity .3s ease", display: isMobile ? "none" : undefined }}>
-        <circle r="34" fill="url(#wl-glow)" opacity="0.7" />
-        <circle r="9" fill="#ffffff" />
-      </g>
-    </svg>
+    <div ref={railRef} aria-hidden className="scroll-trace pointer-events-none">
+      <div className="scroll-trace-line" />
+      <div ref={fillRef} className="scroll-trace-fill" />
+      <div ref={dotRef} className="scroll-trace-dot" />
+    </div>
   );
 };
 
