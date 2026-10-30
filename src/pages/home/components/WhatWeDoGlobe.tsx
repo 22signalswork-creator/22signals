@@ -431,9 +431,15 @@ const MobileWhatWeDo: React.FC = () => {
           <HoldArrow dir={1} onStep={step} />
         </div>
 
-        <div key={u.slug} className="wwd-fade mt-3" style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530" }}>
-          {u.name}
-        </div>
+        <Link
+          key={u.slug}
+          to={`/services?area=${u.slug}`}
+          className="wwd-fade mt-3 inline-flex items-baseline gap-2"
+          style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530", textDecoration: "none" }}
+        >
+          <span><span style={{ color: "#325FEC" }}>Explore</span> {u.short}</span>
+          <span aria-hidden style={{ color: "#325FEC", fontSize: 18 }}>→</span>
+        </Link>
         <div key={`c-${u.slug}`} className="mt-2.5 flex flex-wrap gap-1.5">
           {globeItems(u).map((it) => (
             <Link key={it.label} to={it.path} className="mwwd-chip">
@@ -441,9 +447,6 @@ const MobileWhatWeDo: React.FC = () => {
             </Link>
           ))}
         </div>
-        <Link to={`/services?area=${u.slug}`} className="inline-flex items-center gap-2 mt-2.5 text-[12px] tracking-[0.2em] uppercase" style={{ color: "#325FEC", textDecoration: "none" }}>
-          Explore {u.short} <span aria-hidden>→</span>
-        </Link>
       </div>
     </div>
   );

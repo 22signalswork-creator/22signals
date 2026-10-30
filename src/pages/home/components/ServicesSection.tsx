@@ -365,10 +365,10 @@ const ServicesSection = () => {
       {/* What we do: outside the line wrapper so the line never crosses it */}
       <div className="relative z-10">
           <FadeIn>
-            <div data-trace="What we do" className="mb-8 md:mb-10 mt-16 md:mt-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div data-trace="What we do" className="mb-4 md:mb-10 mt-10 md:mt-20 flex flex-col md:flex-row md:items-end md:justify-between gap-4 md:gap-6">
               <div>
                 <div
-                  className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
+                  className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-2 md:mb-5"
                   style={{ border: "1px solid rgba(50,95,236,0.4)", color: "rgba(50,95,236,0.95)" }}
                 >
                   What We Do
@@ -383,6 +383,8 @@ const ServicesSection = () => {
                     WebkitBackgroundClip: "unset",
                     fontWeight: 800,
                     letterSpacing: "-0.03em",
+                    padding: 0,
+                    margin: 0,
                   }}
                 >
                   <Words>
@@ -390,7 +392,7 @@ const ServicesSection = () => {
                     <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
                   </Words>
                 </h2>
-                <p className="text-lg md:text-xl mt-5 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
+                <p className="text-base md:text-xl mt-2 md:mt-5 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
                   AI, cloud, websites, marketing and video, under one roof.
                 </p>
               </div>
