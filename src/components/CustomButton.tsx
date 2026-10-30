@@ -145,7 +145,7 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
       ref={btnRef}
       type={type}
       onClick={onClick}
-      className={`relative overflow-hidden group rounded-full border px-9 py-4 will-change-transform ${className}`}
+      className={`custom-btn relative overflow-hidden group rounded-full border px-9 py-4 will-change-transform ${className}`}
       style={{
         transition: "color 0.3s ease, border-color 0.3s ease" // Smooth color switch
       }}
@@ -182,12 +182,12 @@ function CustomButton({ variant = "primary", text = "GET STARTED", className = "
       {/* CSS for Icon change on Hover */}
       <style jsx>{`
         /* Button hover par icon ko pure black karne ke liye */
-        button:hover .btn-icon {
+        button.custom-btn:hover .btn-icon {
           filter: brightness(0) !important;
         }
-        
+
         /* Text color ko bhi dark black karne ke liye agar zaroorat ho */
-        button:hover {
+        button.custom-btn:hover {
           color: #000000 !important;
         }
       `}</style>
