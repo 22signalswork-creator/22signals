@@ -29,6 +29,16 @@ const FALLBACK_HERO: HeroRow = {
   gradient_word: "Create.",
 };
 
+// On a refresh (intro already played this visit) the hero comes in straight
+// away; the long wait is only for the first-visit intro animation.
+const introDone = (() => {
+  try {
+    return sessionStorage.getItem("22s-intro") === "1";
+  } catch {
+    return false;
+  }
+})();
+
 const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   const sectionRef = useRef<HTMLElement>(null);
   const { data: hero } = useCMSSingle<HeroRow>("hero_section", FALLBACK_HERO);
@@ -48,8 +58,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.3,
-        delayChildren: 1.2,
+        staggerChildren: introDone ? 0.15 : 0.3,
+        delayChildren: introDone ? 0.1 : 1.2,
       },
     },
   };
@@ -72,7 +82,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
       <motion.div
         initial={{ opacity: 0, scale: 0.92 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
+        transition={{ duration: introDone ? 0.7 : 1.5, ease: "easeOut" }}
         className="absolute inset-0 z-0 pointer-events-none"
       >
         <NeonScene />

@@ -280,8 +280,8 @@ function render(page, { noindex = false, schema = true } = {}) {
   return template
     .replace(/<title>[\s\S]*?<\/title>/, "")
     .replace(/<meta name="description"[^>]*>/, "")
-    .replace("</head>", `    ${head}\n  </head>`)
-    .replace('<div id="root"></div>', `<div id="root">${body(page)}</div>${page.kind ? `<script id="page-data" type="application/json">${JSON.stringify(page).replace(/</g, "\\u003c")}</script>` : ""}`);
+    .replace("</head>", `    ${head}\n    <style>html:not(.app-ready),html:not(.app-ready) body{background:${["/services", "/portfolio", "/blog"].includes(page.path) ? "#f0f1fa" : "#000"}}</style>\n  </head>`)
+    .replace('<div id="root"></div>', `<div id="root"><div class="seo-pre">${body(page)}</div></div>${page.kind ? `<script id="page-data" type="application/json">${JSON.stringify(page).replace(/</g, "\\u003c")}</script>` : ""}`);
 }
 
 function write(routePath, html) {

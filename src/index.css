@@ -1330,6 +1330,10 @@ video::-webkit-media-controls-overlay-cast-button { display: none !important; }
 
 /* Phones: keep the scroll line clear of the reel and the project cards */
 @media (max-width: 767px) {
-  .scroll-trace { left: 5px !important; }
+  .scroll-trace { left: 5px; }
   .panel-reveal { position: relative; z-index: 2; }
 }
+
+.scroll-trace.no-label .scroll-trace-label { display: none; }
+.scroll-trace.no-label .scroll-trace-dot.pulse::after { inset: -4px; }
+.scroll-trace.is-tight { display: none; }

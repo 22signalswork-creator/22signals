@@ -49,10 +49,33 @@ export const BackgroundWindingLine: React.FC = () => {
       marksRef.current = list;
       setMarks((old) => (JSON.stringify(old) === JSON.stringify(list) ? old : list));
     };
-    read();
-    const ro = new ResizeObserver(read);
+    // Sit in the middle of the empty margin left of the content, whatever
+    // the screen width. The section label is shown only when the margin is
+    // wide enough for it; on narrow margins the line and dot stay, quietly.
+    const place = () => {
+      if (window.innerWidth < 768) {
+        rail.style.left = "";
+        rail.classList.remove("no-label", "is-tight");
+        return;
+      }
+      let edge = Infinity;
+      host.querySelectorAll<HTMLElement>(".container").forEach((c) => {
+        const r = c.getBoundingClientRect();
+        if (!r.width) return;
+        const pad = parseFloat(getComputedStyle(c).paddingLeft) || 0;
+        edge = Math.min(edge, r.left + pad);
+      });
+      if (!isFinite(edge)) return;
+      const x = Math.max(5, Math.round(edge / 2));
+      rail.style.left = `${x}px`;
+      rail.classList.toggle("no-label", edge < 84);
+      rail.classList.toggle("is-tight", edge < 26);
+    };
+    place();
+    const ro = new ResizeObserver(() => { read(); place(); });
     ro.observe(host);
-    return () => ro.disconnect();
+    window.addEventListener("resize", place);
+    return () => { ro.disconnect(); window.removeEventListener("resize", place); };
   }, []);
 
   useEffect(() => {
