@@ -74,10 +74,10 @@
       ]
     },
     {
-      "h": "Working with us from Miami",
+      "h": "Who runs a Miami BI project",
       "p": [
-        "Our head office is in London, and we work with Miami companies remotely. London is five hours ahead, so data jobs can run and be checked before your team logs on, and review calls sit in your morning.",
-        "A typical business intelligence Miami engagement has one owner: your Signal Lead, who is accountable for delivery. Analysts, data engineers and dashboard designers work behind them. If your finance team prefers a session in person in Brickell or Coral Gables, we arrange a visit when the project needs it."
+        "Review calls are booked at times that suit your team, and data jobs are scheduled and checked so reports are current before anyone opens them. Each release comes with a short written note on what changed.",
+        "A typical business intelligence Miami engagement has one owner: your Signal Lead, who is accountable for delivery. Analysts, data engineers and dashboard designers work behind them. If your finance team prefers a session in person in Brickell or Coral Gables, we build it into the plan."
       ]
     },
     {
@@ -108,8 +108,8 @@
       "a": "For most mid-sized companies, the first useful dashboard arrives early, once data access is sorted. Larger warehouse projects take longer. We set the dates during planning, put them in writing, and show work in progress so you are never waiting for a big reveal."
     },
     {
-      "q": "Do you work with Miami companies in person?",
-      "a": "We deliver remotely from London, five hours ahead of Miami, with calls in your morning. Most BI work happens on screen anyway. When a workshop or handover would go better in a room, for example with your finance team, we plan a visit when the project needs it."
+      "q": "What do you need from us to start?",
+      "a": "Read access to the systems that hold the numbers, such as your accounting software, CRM, point of sale or booking platform, plus one person on your side who knows how the figures are produced today. A copy of the reports you use now shows us what people rely on. From there, we agree KPIs and definitions in writing before building anything."
     },
     {
       "q": "How do you keep financial and patient data secure?",
@@ -130,6 +130,11 @@
   ],
   "keywords": {
     "primary": "business intelligence miami",
-    "secondary": ["data analytics miami", "power bi consultant miami", "bi consulting miami", "data analytics consulting miami"]
+    "secondary": [
+      "data analytics miami",
+      "power bi consultant miami",
+      "bi consulting miami",
+      "data analytics consulting miami"
+    ]
   }
 }

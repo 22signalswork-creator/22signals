@@ -13,7 +13,7 @@
       "h": "When Power BI stops working for you",
       "p": [
         "Power BI is easy to start with, which is part of the problem. Someone builds a useful report in Power BI Desktop, it gets shared, copied and edited, and within a year the company has dozens of reports in personal workspaces, each with its own version of revenue. Nobody is sure which one the board pack uses.",
-        "Other symptoms follow. Reports take a long time to open because the model imports every column from every table. Scheduled refreshes fail overnight and nobody notices until a meeting. A measure written by someone who has since left gives a different answer from the same measure in another report. Sales managers can see each other's numbers when they shouldn't.",
+        "Other symptoms follow. Reports take a long time to open because the model imports every column from every table. Scheduled refreshes fail without warning and nobody notices until a meeting. A measure written by someone who has since left gives a different answer from the same measure in another report. Sales managers can see each other's numbers when they shouldn't.",
         "None of this means Power BI is the wrong tool. It means the setup underneath needs design: a proper data model, shared semantic models, clear workspaces and rules for who can publish what."
       ]
     },
@@ -92,7 +92,7 @@
     {
       "h": "Why 22 Signals for Power BI",
       "p": [
-        "We have worked with more than 30 companies across several time zones, and we approach Power BI as part of the business, not a reporting add-on. One Signal Lead owns the work, with data engineers, analysts and AI specialists behind them. Because the same team runs data engineering, AI automation and marketing, your Power BI reports can show marketing spend next to revenue, feed alerts into the tools your team uses, and sit on a data platform built to last.",
+        "We have worked with more than 30 companies, and we approach Power BI as part of the business, not a reporting add-on. One Signal Lead owns the work, with data engineers, analysts and AI specialists behind them. Because the same team runs data engineering, AI automation and marketing, your Power BI reports can show marketing spend next to revenue, feed alerts into the tools your team uses, and sit on a data platform built to last.",
         "Related services: business intelligence consulting if you are still choosing a BI tool, data engineering for the pipelines and warehouse behind Power BI, and cloud consulting for the wider Azure setup."
       ]
     }

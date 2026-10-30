@@ -10,7 +10,7 @@
   "description": "Cloud consulting for Stockholm companies: AWS, Azure and Google Cloud set up in Nordic and EU regions, secured, documented and reviewed for cost in kronor.",
   "eyebrow": "Cloud Consulting in Stockholm",
   "h1": "Cloud consulting for Stockholm companies that want EU hosting and a bill that makes sense",
-  "intro": "We design, migrate, secure and run cloud environments for Stockholm companies on AWS, Microsoft Azure and Google Cloud. Most clients want data kept in Nordic or EU regions, a security set-up their auditors accept and a monthly bill someone can explain. We deliver remotely, document everything in English and stay on to run the platform if you want.",
+  "intro": "We design, migrate, secure and run cloud environments for Stockholm companies on AWS, Microsoft Azure and Google Cloud. Most clients want data kept in Nordic or EU regions, a security set-up their auditors accept and a monthly bill someone can explain. We document everything in English, agree dates in writing and stay on to run the platform if you want.",
   "sections": [
     {
       "h": "Two kinds of cloud problem we see in Stockholm",
@@ -69,9 +69,9 @@
       ]
     },
     {
-      "h": "Remote by design",
+      "h": "Change windows and site work",
       "p": [
-        "Cloud work is remote by nature, and we have no Stockholm office. Stockholm is one hour ahead of London all year, so planned changes can run early in the Swedish morning or after office hours with our engineers fully awake. Where a project involves physical hardware, such as clearing out an on-premises server room in the city, we plan a site visit or work with your facilities provider and agree which in the plan."
+        "Cloud work happens in consoles and code, so it rarely needs anyone on site. Planned changes are scheduled with your team for low-traffic periods, each with a rollback plan written down first, and you get a short note when they are done. Where a project involves physical hardware, such as clearing out an on-premises server room in the city, we plan a site visit or work with your facilities provider and agree which in the plan."
       ]
     },
     {

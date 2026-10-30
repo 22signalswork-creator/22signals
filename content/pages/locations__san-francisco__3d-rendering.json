@@ -58,13 +58,13 @@
     {
       "h": "Experience across many clients",
       "p": [
-        "We have worked with more than 30 companies across several time zones, from clinics to esports to law firms, and 3D work has sat alongside video and web projects for many of them. The habit that carries over is simple: one master model, kept up to date, feeding every image, animation and web viewer."
+        "We have worked with more than 30 companies, from clinics to esports to law firms, and 3D work has sat alongside video and web projects for many of them. The habit that carries over is simple: one master model, kept up to date, feeding every image, animation and web viewer."
       ]
     },
     {
-      "h": "Working with us from San Francisco",
+      "h": "Files, renders and review calls",
       "p": [
-        "We work with San Francisco companies remotely from London, with meeting hours that overlap Pacific Time. Rendering is well suited to the eight-hour gap. Your engineers send an updated CAD file at the end of their day, renders run during ours, and the new images are waiting the next morning. Review calls sit in the Pacific morning. On-site visits happen when the project needs them, for example to see a physical prototype.",
+        "Most of the 3D rendering San Francisco product teams commission from us runs on files, so it needs nothing more than CAD updates and review calls. Your engineers send an updated file when the design changes, we re-render from the master model, and every image is checked before it reaches you. Review calls are booked at times that suit your team. If seeing a physical prototype matters, we plan that into the scope.",
         "Shipping a sample by courier works too. A physical part on the desk of the artist doing the materials usually saves a review round on finishes like anodized aluminum or soft-touch plastic."
       ]
     },
@@ -100,8 +100,8 @@
       "a": "For many uses, yes: product pages, packaging, ads, pitch decks and preorder campaigns. Renders let you show colors and versions that have not been made, and update images when the design changes. Some brands still shoot lifestyle photos once real units exist, and we can match renders to that look."
     },
     {
-      "q": "Do you need to visit us for 3D rendering? San Francisco is a long way from London.",
-      "a": "We work remotely from London with teams across several time zones, and most rendering projects need nothing more than files and review calls in the Pacific morning. If seeing a physical prototype matters for materials or finish, we arrange a visit when the project needs it, or you can courier a sample."
+      "q": "How many rounds of changes are included?",
+      "a": "We agree the number of review rounds in the written scope before work starts, typically one round on the model and lighting and one or two on the final images. Changes that come from a design update, rather than feedback on the render, are logged and scoped separately so the schedule stays honest. San Francisco hardware teams often change finishes late, so we leave room for that in the plan. Your Signal Lead tracks every request in one list."
     },
     {
       "q": "Can you render real estate projects in San Francisco?",
