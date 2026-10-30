@@ -70,7 +70,7 @@ export default function TeamSection({
   label = "Our Team",
   bigHeading = "MEET THE TEAM",
   bigHeadingAs = "h1",
-  intro = "As a result of our diverse experience, we are able to think creatively and find new solutions to problems — providing clients with memorable, purpose-driven experiences that cut through the noise and connect where it matters.",
+  intro = "As a result of our diverse experience, we are able to think creatively and find new solutions to problems, providing clients with memorable, purpose-driven experiences that cut through the noise and connect where it matters.",
   valuesTitle = "The DNA of Our Standard.",
   valuesText = "Our operational framework is built on precision, speed, and cross-departmental excellence to help you lead your market.",
   valueItems = values,

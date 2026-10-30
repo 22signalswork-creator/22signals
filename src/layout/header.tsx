@@ -28,11 +28,17 @@ const SERVICES_SUBMENU: { label: string; slug: string }[] = [
 ];
 
 const PORTFOLIO_SUBMENU: { label: string; path: string }[] = [
-  { label: "All Projects", path: "/portfolio" },
+  { label: "All projects", path: "/portfolio" },
   { label: "Digital & AI", path: "/portfolio?cat=Digital%20%26%20AI" },
   { label: "Creative & Marketing", path: "/portfolio?cat=Creative%20%26%20Marketing" },
   { label: "Broadcasting & Esports", path: "/portfolio?cat=Broadcasting%20%26%20Esports" },
-  { label: "Manufacturing", path: "/portfolio?cat=Manufacturing" },
+  { label: "Case studies", path: "/case-studies" },
+];
+
+const ABOUT_SUBMENU: { label: string; path: string }[] = [
+  { label: "About 22 Signals", path: "/about" },
+  { label: "Team", path: "/team" },
+  { label: "Daniyal Mansur, Founder", path: "/about/daniyal-mansur" },
 ];
 
 const LOCATIONS_SUBMENU: { label: string; path: string }[] = [
@@ -45,6 +51,7 @@ const LOCATIONS_SUBMENU: { label: string; path: string }[] = [
 
 // Tabs whose dropdown is a list of { label, path } links.
 const LINK_SUBMENUS: Record<string, { label: string; path: string }[]> = {
+  About: ABOUT_SUBMENU,
   Portfolio: PORTFOLIO_SUBMENU,
   Locations: LOCATIONS_SUBMENU,
 };

@@ -121,7 +121,7 @@ const ServicesGrid: React.FC = () => {
               className="text-sm md:text-base leading-relaxed lg:max-w-md lg:ml-auto"
               style={{ color: "rgba(10, 21, 48, 0.65)" }}
             >
-              Every service stands on its own — and every service plugs into the
+              Every service stands on its own, and every service plugs into the
               others. Pick the pillar you need today; access the entire suite
               the moment you need to scale.
             </p>

@@ -23,7 +23,7 @@ const HomeLogos: React.FC = () => {
   const slideUrls = logos.map((l) => l.logo_url).filter(Boolean);
 
   return (
-    <section className="relative" style={{ background: "#F0F1FA" }}>
+    <section className="relative">
       <div className="container px-6 md:px-12 lg:px-20 pt-6 md:pt-10 pb-20 md:pb-28">
         <FadeIn>
           <div className="text-center mb-3 md:mb-4 relative z-20">

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { supabase } from "@/lib/supabase";
 import { mergeRows, OCA_SLUGS, OCA_PARTNER } from "@/content/portfolio";
 import "../../../pages/home/home.css";
@@ -41,16 +41,8 @@ interface TabsProps {
   projects?: LegacyProject[];
 }
 
-const TABS = [
-  "All",
-  "Digital & AI",
-  "Creative & Marketing",
-  "Broadcasting & Esports",
-  "Manufacturing",
-  "Outsourcing",
-  "Game Development",
-  "Trading & Investments (Coming Soon)",
-];
+// Tab order; a tab only shows when at least one project is in it.
+const TAB_ORDER = ["Digital & AI", "Creative & Marketing", "Broadcasting & Esports", "Manufacturing"];
 
 /** Active portfolio entries (the real case studies), in sort order. */
 export function usePortfolioRows(): DetailRow[] {
@@ -69,7 +61,11 @@ export function usePortfolioRows(): DetailRow[] {
 }
 
 const Tabs: React.FC<TabsProps> = ({ projects: fallback = [] }) => {
-  const [activeTab, setActiveTab] = useState<string>("All");
+  const [params] = useSearchParams();
+  const [activeTab, setActiveTab] = useState<string>(params.get("cat") || "All");
+  useEffect(() => {
+    setActiveTab(params.get("cat") || "All");
+  }, [params]);
   const tabsRef = useRef<HTMLDivElement>(null);
   const [rows, setRows] = useState<DetailRow[]>([]);
   const [loading, setLoading] = useState(true);
@@ -96,6 +92,9 @@ const Tabs: React.FC<TabsProps> = ({ projects: fallback = [] }) => {
     : activeTab === "All"
     ? rows
     : rows.filter((p) => p.category === activeTab);
+
+  const present = new Set((useFallback ? fallback : rows).map((p) => p.category));
+  const TABS = ["All", ...TAB_ORDER.filter((t) => present.has(t))];
 
   const scrollLeft = () =>
     tabsRef.current?.scrollBy({ left: -200, behavior: "smooth" });

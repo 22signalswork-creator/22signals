@@ -28,7 +28,7 @@ const PrivacyPolicy: React.FC = () => {
       </p>
 
       <section id="how-we-found-you">
-        <h2 className="text-white text-xl md:text-2xl font-semibold mb-3">
+        <h2>
           How we found you (business emails)
         </h2>
         <div className="space-y-3">
@@ -65,7 +65,7 @@ const PrivacyPolicy: React.FC = () => {
         <p>
           <strong>Information collected automatically.</strong> Like most websites,
           our hosting provider automatically records limited technical information
-          for security and reliability — for example your IP address, browser type,
+          for security and reliability, for example your IP address, browser type,
           and the date and time of requests. We use this only to operate and protect
           the Site.
         </p>
@@ -105,7 +105,7 @@ const PrivacyPolicy: React.FC = () => {
         <p>
           We do not use analytics or advertising cookies, and we do not show a cookie
           consent banner because we do not set non-essential cookies. The only local
-          storage we use is strictly necessary — for example, keeping authorised staff
+          storage we use is strictly necessary, for example, keeping authorised staff
           signed in to our private content-management area. This does not apply to
           ordinary visitors.
         </p>
@@ -118,20 +118,20 @@ const PrivacyPolicy: React.FC = () => {
         </p>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>Supabase</strong> — stores form submissions in our database,
+            <strong>Supabase</strong>, stores form submissions in our database,
             powers our secure staff login, and sends us email notifications about new
             enquiries.
           </li>
           <li>
-            <strong>Vercel</strong> — hosts the Site and processes standard server
+            <strong>Vercel</strong>, hosts the Site and processes standard server
             logs (such as IP addresses) for delivery and security.
           </li>
           <li>
-            <strong>Our email provider</strong> — delivers notification emails about
+            <strong>Our email provider</strong>, delivers notification emails about
             your enquiry to our team.
           </li>
           <li>
-            <strong>YouTube (Google)</strong> — where a video is embedded, it is
+            <strong>YouTube (Google)</strong>, where a video is embedded, it is
             served in privacy-enhanced mode (<em>youtube-nocookie.com</em>). If you
             play an embedded video, Google may receive data in accordance with its own
             privacy policy.
@@ -205,7 +205,7 @@ const PrivacyPolicy: React.FC = () => {
         <p>
           If you have questions about this Policy or your information, contact us at:
         </p>
-        <p className="text-white/85">
+        <p>
           22 Signals, London, United Kingdom
           <br />
           Email: <a className="text-[#6B92FF] hover:underline" href="mailto:business@22signals.com">business@22signals.com</a>

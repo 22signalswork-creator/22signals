@@ -43,7 +43,7 @@ export const projects: Project[] = [
     subtitle:
       "Bridging the gap between aesthetic excellence and measurable conversion.",
     description:
-      "We don't just create content — we create comprehensive campaigns. Translating your brand vision into visually compelling assets distributed through high-converting marketing channels.",
+      "We don't just create content, we create comprehensive campaigns. Translating your brand vision into visually compelling assets distributed through high-converting marketing channels.",
     details: `<b>End-to-End Marketing (SMM & Paid Media):</b> Full-funnel digital marketing strategies for max ROI.<br/><br/><b>Visual & UI/UX Design:</b> Captivating, human-centered design that builds trust.<br/><br/><b>Motion & Immersive Media:</b> Dynamic motion graphics, video editing, immersive 2D/3D animations.`,
     visual: <VisualCreative />,
   },
@@ -54,7 +54,7 @@ export const projects: Project[] = [
       "Flawless live execution and strategic access to the elusive youth demographic.",
     description:
       "Top-tier broadcast production for high-stakes digital events. Deep roots in gaming bridge the gap between global brands and the highly engaged esports demographic.",
-    details: `<b>Broadcasting Solutions:</b> End-to-end online broadcast management — live direction, dynamic overlays, broadcast intervals.<br/><br/><b>Esports & Tournament Management:</b> Online and offline tournaments, gaming-focused content, talent scouting.`,
+    details: `<b>Broadcasting Solutions:</b> End-to-end online broadcast management, live direction, dynamic overlays, broadcast intervals.<br/><br/><b>Esports & Tournament Management:</b> Online and offline tournaments, gaming-focused content, talent scouting.`,
     visual: <VisualBroadcast />,
   },
   {
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     category: "Outsourcing",
     subtitle: "Building your global backend office with built-in management.",
     description:
-      "Top-tier global talent at a fraction of the cost. Scale operations rapidly, maintain high work output, significantly reduce overhead — without the management headaches.",
+      "Top-tier global talent at a fraction of the cost. Scale operations rapidly, maintain high work output, significantly reduce overhead, without the management headaches.",
     details: `<b>Tech & IT:</b> Software developers, AI specialists, data analysts, UI/UX designers.<br/><br/><b>Creative & Marketing:</b> SEO specialists, content strategists, animators, project managers.<br/><br/><b>Support & Finance:</b> Virtual assistants, accountants, bookkeepers.<br/><br/><b>The Management Edge:</b> A dedicated supervisor at no extra cost.`,
     visual: <VisualOutsourcing />,
   },

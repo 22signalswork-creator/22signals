@@ -10,7 +10,6 @@ import "@/index.css";
 import "@/pages/services/services.css";
 import HeroSection from "@/pages/services/hero-section";
 import ProcessSteps from "@/pages/services/components/process-steps.tsx";
-import Companystatscounts from "@/pages/services/components/CompanyStatsCounts.tsx";
 import FaqSection from "@/pages/services/components/FaqSection.tsx";
 import PreCtaSections from "@/components/PreCtaSections";
 import FadeIn from "@/transitions/FadeIn";
@@ -296,14 +295,9 @@ const ServicesHubPage: React.FC<{ page: HubPage }> = ({ page }) => (
     <ServicesGrid heading="One team instead of ten" intro={page.intro} />
     <ProcessSteps
       steps={STEPS}
-      title={
-        <>
-          How we work, <br /> step by step
-        </>
-      }
+      title="How we work."
       text="Specialist teams, every date in writing. Discovery and a roadmap take 5 to 7 days."
     />
-    <Companystatscounts />
     <FaqSection items={page.faqs.map((f) => ({ question: f.q, answer: f.a }))} />
     <PreCtaSections />
   </div>

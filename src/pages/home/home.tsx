@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import HeroSection from "./components/hero-section.tsx";
 import PortfolioSection from "./components/portfoliosection.tsx";
-import ServicesSection from "./components/ServicesSection.tsx";
+import ServicesSection, { BackgroundWindingLine } from "./components/ServicesSection.tsx";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
 import HomeLogos from "./components/HomeLogos.tsx";
@@ -20,12 +20,19 @@ const Home = () => {
   return (
     <>
       <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
-      <div ref={nextSectionRef}>
-        <ServicesSection />
-      </div>
+      {/* The light part of the page: the scroll line runs behind all of it,
+          from the reel down to where Featured Projects begins. */}
+      <div className="relative">
+        <BackgroundWindingLine />
+        <div ref={nextSectionRef} className="relative z-10">
+          <ServicesSection />
+        </div>
 
-      {/* Companies We Have Worked With, straight after What We Do */}
-      <HomeLogos />
+        {/* Companies We Have Worked With, straight after What We Do */}
+        <div className="relative z-10">
+          <HomeLogos />
+        </div>
+      </div>
 
       <PortfolioSection />
 

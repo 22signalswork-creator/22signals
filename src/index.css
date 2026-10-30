@@ -1071,8 +1071,9 @@ h3.teamcard-title {
   border: 1px solid rgba(147,184,255,0.35);
   transition: border-color .2s ease, background .2s ease;
   animation: wwd-in .35s ease both;
+  cursor: default;
+  user-select: none;
 }
-.wwd-chip:hover { border-color: #6b92ff; background: rgba(50,95,236,0.25); }
 .wwd-new { font-size: 9px; letter-spacing: .15em; color: #ffb48c; }
 @keyframes wwd-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 .wwd-row {
@@ -1126,3 +1127,26 @@ h3.teamcard-title {
 .detail-more > summary::after { content: "+"; font-size: 15px; }
 .detail-more[open] > summary::after { content: "−"; }
 .detail-more[open] > summary { margin-bottom: 14px; }
+
+/* Legal pages: readable document styles (scoped, so they beat the global p/h2 rules) */
+.legal-body { color: rgba(10, 21, 48, 0.75); font-size: 16px; line-height: 1.7; }
+.legal-body > * + * { margin-top: 40px; }
+.legal-body p, .legal-body li { color: rgba(10, 21, 48, 0.75); font-size: 16px; line-height: 1.7; }
+.legal-body p + p, .legal-section-body > * + * { margin-top: 14px; }
+.legal-body strong { color: #0a1530; font-weight: 500; }
+.legal-body h2 {
+  display: flex; align-items: baseline; gap: 14px;
+  margin: 0 0 14px; padding: 0;
+  font-size: clamp(20px, 1.8vw, 26px); line-height: 1.25; font-weight: 400;
+  color: #0a1530; -webkit-text-fill-color: #0a1530; background: none; letter-spacing: -0.01em;
+}
+.legal-body h2.text-white { color: #0a1530; }
+.legal-body h3 { font-size: 17px; font-weight: 500; color: #0a1530; margin: 18px 0 6px; }
+.legal-num { font-size: 12px; letter-spacing: 0.2em; color: #325fec; -webkit-text-fill-color: #325fec; }
+.legal-body ul { list-style: disc; padding-left: 22px; }
+.legal-body ul li + li { margin-top: 8px; }
+.legal-body a { color: #325fec; text-decoration: underline; text-underline-offset: 3px; }
+.legal-body table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 12px; }
+.legal-body th, .legal-body td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(10,21,48,0.1); color: rgba(10,21,48,0.75); }
+.legal-link { color: rgba(10, 21, 48, 0.6) !important; text-decoration: none !important; }
+.legal-link:hover { color: #325fec !important; }

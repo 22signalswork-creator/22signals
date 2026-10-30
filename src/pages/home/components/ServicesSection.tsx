@@ -41,7 +41,7 @@ import CompanyStatsCounts from "./CompanyStatsCounts.tsx";
 const WINDING_PATH_D =
   "M0 0C120 120 260 360 357.215 725.005C-60.2856 684.005 -73.7845 284.005 226.716 296.505C527.216 309.005 832.716 841.505 1299.72 661.505C1525.9 574.324 1793.21 649.005 1469.21 1100.01C1145.21 1551.01 756.323 1166.44 480.714 1314.01C226.715 1450.01 208.214 1922.51 480.714 2017.01C753.214 2111.51 1058.71 1882.51 1216.71 2139.51C1374.71 2396.51 1323.21 2893.01 1587.71 2834.51C1852.22 2776.01 1851.71 2526.01 1666.21 2567.01C1480.71 2608.01 1173.01 2827.49 689.715 2636.01C321.214 2490.01 -87.2852 3174.37 430.715 3113.51C948.715 3052.64 929.715 3299.01 864.215 3421.01";
 
-const BackgroundWindingLine: React.FC = () => {
+export const BackgroundWindingLine: React.FC = () => {
   const pathRef = useRef<SVGPathElement>(null);
   const headRef = useRef<SVGGElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -388,7 +388,6 @@ const ServicesSection = () => {
     <section className="container relative pb-16 px-6 md:px-12 lg:px-20 pt-20 md:pt-40 section-fade-from-black">
       {/* ░░ Line wrapper — video + stats + pillar cards (NOT logos) ░░ */}
       <div className="relative">
-        <BackgroundWindingLine />
 
         <div className="relative z-10">
           <VideoShowcase />

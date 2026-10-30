@@ -54,7 +54,7 @@ export function linkBlocks(page, manifest) {
   }
   if (page.kind === "industry") add("Services", SERVICES.slice(0, 12).map((s) => ({ path: s.path, label: s.label })));
   if (page.kind === "case-studies-index" || page.kind === "insights-index") {
-    add(page.kind === "insights-index" ? "Guides" : "Case studies", manifest.filter((m) => m.kind === (page.kind === "insights-index" ? "guide" : "case-study")).map((m) => ({ path: m.path, label: m.h1 })));
+    add(page.kind === "insights-index" ? "Guides" : "Case studies", manifest.filter((m) => m.kind === (page.kind === "insights-index" ? "guide" : "case-study")).map((m) => ({ path: m.path, label: m.h1, blurb: m.description })));
   }
   return blocks;
 }

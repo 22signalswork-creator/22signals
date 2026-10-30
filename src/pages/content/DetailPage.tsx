@@ -100,6 +100,7 @@ const DetailPage: React.FC<{
 
   const number = serviceNumber(page);
   const isService = page.kind === "service";
+  const isIndex = page.kind === "case-studies-index" || page.kind === "insights-index";
   const sections = page.sections || [];
   const faqs = page.faqs || [];
 
@@ -417,13 +418,18 @@ const DetailPage: React.FC<{
                     >
                       {b.title}
                     </h2>
-                    <div className="flex flex-wrap gap-2">
-                      {b.items.map((s) => (
-                        <Link key={s.path} to={s.path} className="detail-chip">
-                          {s.label}
-                        </Link>
-                      ))}
-                    </div>
+                    {isIndex ? (
+                      // Index pages (case studies, guides): proper cards
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">{b.items.map((s, i) => linkCard(s, i))}</div>
+                    ) : (
+                      <div className="flex flex-wrap gap-2">
+                        {b.items.map((s) => (
+                          <Link key={s.path} to={s.path} className="detail-chip">
+                            {s.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </FadeIn>
               ))}

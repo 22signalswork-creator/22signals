@@ -33,9 +33,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   const sectionRef = useRef<HTMLElement>(null);
   const { data: hero } = useCMSSingle<HeroRow>("hero_section", FALLBACK_HERO);
 
-  const cities = hero?.cities_list?.length
-    ? hero.cities_list
-    : FALLBACK_HERO.cities_list!;
   const tagline = hero?.tagline || FALLBACK_HERO.tagline;
   const gradientWord = hero?.gradient_word || FALLBACK_HERO.gradient_word;
 
@@ -123,13 +120,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
             variants={itemVariants}
             className="flex flex-col justify-end items-center md:items-start gap-4 h-full pointer-events-auto order-2 md:order-1"
           >
-            <AnimatedText
-              className="text-white hero-section-desc-text text-center md:text-left tracking-[0.18em] text-sm md:text-base"
-              delay={0}
-              duration={1.5}
-            >
-              {cities.join("  |  ")}
-            </AnimatedText>
+            {/* City line removed: the hero no longer names a location. */}
           </motion.div>
 
           {/* Mouse */}

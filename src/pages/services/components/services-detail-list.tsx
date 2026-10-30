@@ -90,7 +90,7 @@ const FALLBACK_PILLARS: ServicePillar[] = [
     body:
       "We assist businesses in accessing top-tier global talent at a fraction of the cost. Scale your operations rapidly, maintain a high level of work output, and significantly reduce overhead expenses—all without the usual management headaches of remote teams.",
     bullets: [
-      { label: "The Talent Arsenal — Tech & IT", text: "Software developers, AI specialists, data analysts, and UI/UX designers." },
+      { label: "The Talent Arsenal, Tech & IT", text: "Software developers, AI specialists, data analysts, and UI/UX designers." },
       { label: "Creative & Marketing", text: "SEO specialists, content strategists, animators, and project managers." },
       { label: "Support & Finance", text: "Virtual assistants, accountants, bookkeepers, and real estate agents." },
       { label: "The Management Edge", text: "Unlike traditional outsourcing, we provide a dedicated supervisor at no additional cost. This ensures you have a single Point of Contact (POC) to efficiently manage your customized team, streamlining communication and guaranteeing productivity." },

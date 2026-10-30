@@ -69,7 +69,7 @@ const FALLBACK_TESTIMONIALS: Testimonial[] = [
     id: "t5",
     name: "Nugraha",
     role: "Founder, Mangcoding",
-    text: "A truly integrated partner — strategy, design, and engineering executed under one roof.",
+    text: "A truly integrated partner, strategy, design, and engineering executed under one roof.",
     image: test1,
   },
   {

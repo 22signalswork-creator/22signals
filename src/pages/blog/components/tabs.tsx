@@ -28,7 +28,7 @@ const FALLBACK_ARTICLES: Article[] = [
     id: "f1",
     title: "How AI Agents Are Reshaping Backend Operations",
     description:
-      "Multi-agentic systems are no longer experimental — they are reducing operational overhead by up to 60% in real deployments.",
+      "Multi-agentic systems are no longer experimental, they are reducing operational overhead by up to 60% in real deployments.",
     bigImage: Bigimg1,
     category: "AI & Automation",
     author: "Daniyal Mansur",
@@ -58,7 +58,7 @@ const FALLBACK_ARTICLES: Article[] = [
     id: "f4",
     title: "GEO & AEO: The New Frontier After SEO",
     description:
-      "Generative and Answer Engine Optimization explained — and how to position your brand inside AI-driven search.",
+      "Generative and Answer Engine Optimization explained, and how to position your brand inside AI-driven search.",
     bigImage: Bigimg1,
     category: "Digital Strategy",
     author: "Daniyal Mansur",
@@ -68,7 +68,7 @@ const FALLBACK_ARTICLES: Article[] = [
     id: "f5",
     title: "Web3 Beyond the Hype: Practical Applications",
     description:
-      "Cutting through the noise — where blockchain actually creates business value in 2026.",
+      "Cutting through the noise, where blockchain actually creates business value in 2026.",
     bigImage: Bigimg1,
     category: "Web3",
     author: "Sarah Chen",

@@ -23,7 +23,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "LEAP",
-    description: "Tech & innovation summit — full broadcast & event execution.",
+    description: "Tech & innovation summit, full broadcast & event execution.",
     bigImage: Bigimg1,
     category: "Broadcasting & Esports",
   },
@@ -35,7 +35,7 @@ export const projects: Project[] = [
   },
   {
     title: "Latakoo",
-    description: "Enterprise media platform — UI/UX and product engineering.",
+    description: "Enterprise media platform, UI/UX and product engineering.",
     bigImage: Bigimg3,
     category: "Digital & AI",
   },
@@ -53,7 +53,7 @@ export const projects: Project[] = [
   },
   {
     title: "Atlas Apparel",
-    description: "Custom apparel and merch line — manufacturing partnership.",
+    description: "Custom apparel and merch line, manufacturing partnership.",
     bigImage: Bigimg2,
     category: "Manufacturing",
   },

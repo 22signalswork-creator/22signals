@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "@/index.css";
-import FadeIn from "@/transitions/FadeIn";
-import logo from "@/assets/22signals-logo.png";
 
 interface Props {
   /** Page title, e.g. "Privacy Policy" */
@@ -14,105 +12,75 @@ interface Props {
 }
 
 /**
- * Shared shell for the static legal pages (Privacy Policy, Terms of Service).
- *
- * Deliberately calm: legal copy needs to be readable, so we keep the site's
- * dark theme + blue accents but avoid heavy scroll animations over long text.
+ * Shared shell for the legal pages (Privacy Policy, Terms of Service).
+ * A short dark header in the site style, then the document on a light page
+ * in a readable column. No scroll animations on long text.
  */
 const LegalLayout: React.FC<Props> = ({ title, lastUpdated, children }) => {
-  // Long documents — make sure we always open at the top.
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="bg-[#000202] min-h-screen pt-32 pb-24 px-6 relative overflow-hidden text-white">
-      {/* Ambient background glow to match the rest of the site */}
-      <div
-        className="absolute inset-0 opacity-40 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(circle at 50% 0%, rgba(50,95,236,0.16) 0%, transparent 55%)",
-        }}
-      />
-
-      <div className="container relative z-10">
-        <FadeIn>
-          <div className="max-w-3xl mx-auto">
-            {/* Header */}
-            <div className="mb-12 text-center">
-              <div className="flex justify-center mb-8">
-                <Link to="/">
-                  <img
-                    src={logo}
-                    alt="22 Signals"
-                    className="h-10 md:h-12 w-auto"
-                    style={{ filter: "drop-shadow(0 0 30px rgba(50,95,236,0.4))" }}
-                    draggable={false}
-                  />
-                </Link>
-              </div>
-              <h1
-                className="text-4xl md:text-[56px] leading-[1.05] mb-4"
-                style={{
-                  background:
-                    "linear-gradient(91.16deg, #325FEC 1.74%, #FFFFFF 50%, #325FEC 102.48%)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                }}
-              >
-                {title}
-              </h1>
-              <p className="text-white/45 text-sm tracking-wide uppercase">
-                {lastUpdated}
-              </p>
+    <div className="legal-page">
+      <header
+        className="relative overflow-hidden pt-40 md:pt-48 pb-14 md:pb-16"
+        style={{ background: "linear-gradient(135deg, #050A18 0%, #0E1628 60%, #1a3392 130%)" }}
+      >
+        <div className="container relative z-10">
+          <div className="max-w-3xl">
+            <div className="text-[11px] tracking-[0.3em] uppercase mb-4" style={{ color: "#93b8ff" }}>
+              Legal
             </div>
-
-            {/* Body */}
-            <div className="legal-body text-white/70 text-[15px] md:text-base leading-relaxed space-y-8">
-              {children}
-            </div>
-
-            {/* Footer nav between the two legal pages */}
-            <div className="mt-16 pt-8 border-t border-white/10 flex flex-wrap gap-x-8 gap-y-3 justify-center text-sm">
-              <Link
-                to="/privacy-policy"
-                className="text-white/60 hover:text-[#6B92FF] transition-colors"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                to="/terms-of-service"
-                className="text-white/60 hover:text-[#6B92FF] transition-colors"
-              >
-                Terms of Service
-              </Link>
-              <Link
-                to="/contact"
-                className="text-white/60 hover:text-[#6B92FF] transition-colors"
-              >
-                Contact
-              </Link>
+            <h1
+              style={{
+                display: "block",
+                margin: 0,
+                fontSize: "clamp(34px, 4vw, 52px)",
+                lineHeight: 1.08,
+                fontWeight: 400,
+                color: "#ffffff",
+                WebkitTextFillColor: "#ffffff",
+                background: "none",
+                letterSpacing: "-0.02em",
+              }}
+            >
+              {title}
+            </h1>
+            <div className="mt-4 text-[13px]" style={{ color: "rgba(255,255,255,0.55)" }}>
+              {lastUpdated}
             </div>
           </div>
-        </FadeIn>
+        </div>
+      </header>
+
+      <div className="bg-white py-14 md:py-20">
+        <div className="container">
+          <article className="legal-body max-w-3xl">{children}</article>
+
+          <nav className="max-w-3xl mt-16 pt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm" style={{ borderTop: "1px solid rgba(10,21,48,0.1)" }}>
+            <Link to="/privacy-policy" className="legal-link">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="legal-link">Terms of Service</Link>
+            <Link to="/contact" className="legal-link">Contact</Link>
+          </nav>
+        </div>
       </div>
     </div>
   );
 };
 
-/** Section heading used inside the legal pages. */
+/** Numbered section inside a legal page. */
 export const LegalSection: React.FC<{
   n: number;
   title: string;
   children: React.ReactNode;
 }> = ({ n, title, children }) => (
   <section>
-    <h2 className="text-white text-xl md:text-2xl font-semibold mb-3">
-      <span className="text-[#6B92FF] mr-2">{n}.</span>
+    <h2>
+      <span className="legal-num">{String(n).padStart(2, "0")}</span>
       {title}
     </h2>
-    <div className="space-y-3">{children}</div>
+    <div className="legal-section-body">{children}</div>
   </section>
 );
 

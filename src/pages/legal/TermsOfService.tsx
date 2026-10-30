@@ -47,8 +47,8 @@ const TermsOfService: React.FC = () => {
 
       <LegalSection n={2} title="Intellectual property">
         <p>
-          Unless otherwise stated, all content on the Site — including text, graphics,
-          logos, the "22 Signals" name and marks, designs, animations, and code — is
+          Unless otherwise stated, all content on the Site, including text, graphics,
+          logos, the "22 Signals" name and marks, designs, animations, and code, is
           owned by or licensed to 22 Signals and is protected by intellectual-property
           laws. You may not reproduce, distribute, or create derivative works from our
           content without our prior written consent.
@@ -70,8 +70,8 @@ const TermsOfService: React.FC = () => {
 
       <LegalSection n={4} title="Informational content only">
         <p>
-          Content on the Site — including blog posts, R&amp;D insights, case studies,
-          and service descriptions — is provided for general information. It does not
+          Content on the Site, including blog posts, R&amp;D insights, case studies,
+          and service descriptions, is provided for general information. It does not
           constitute professional, legal, financial, or technical advice, and any
           reliance you place on it is at your own risk. Engagements are governed by a
           separate written agreement.
@@ -133,7 +133,7 @@ const TermsOfService: React.FC = () => {
 
       <LegalSection n={11} title="Contact us">
         <p>Questions about these Terms? Contact us at:</p>
-        <p className="text-white/85">
+        <p>
           22 Signals, London, United Kingdom
           <br />
           Email: <a className="text-[#6B92FF] hover:underline" href="mailto:business@22signals.com">business@22signals.com</a>

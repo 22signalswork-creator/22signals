@@ -50,18 +50,14 @@ const GlobeLines: React.FC = () => (
   </svg>
 );
 
-const Chips: React.FC<{ index: number; dark?: boolean }> = ({ index }) => (
+// Service names inside the globe are labels only, not links.
+const Chips: React.FC<{ index: number }> = ({ index }) => (
   <>
     {UMBRELLAS[index].items.map((s) => (
-      <Link
-        key={s.label}
-        to={s.path}
-        className="wwd-chip"
-        style={{ textDecoration: "none" }}
-      >
+      <span key={s.label} className="wwd-chip">
         {s.label}
         {NEW_SERVICES.has(s.path) && <span className="wwd-new">NEW</span>}
-      </Link>
+      </span>
     ))}
   </>
 );

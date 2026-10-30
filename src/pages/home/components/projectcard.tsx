@@ -40,7 +40,7 @@ export const FALLBACK_PROJECTS: Project[] = [
   {
     id: "fallback-1",
     title: "LEAP",
-    description: "Tech & innovation summit — full broadcast & event execution.",
+    description: "Tech & innovation summit, full broadcast & event execution.",
     bigImage: Bigimg1,
     slug: "leap",
   },
@@ -54,7 +54,7 @@ export const FALLBACK_PROJECTS: Project[] = [
   {
     id: "fallback-3",
     title: "Latakoo",
-    description: "Enterprise media platform — UI/UX and product engineering.",
+    description: "Enterprise media platform, UI/UX and product engineering.",
     bigImage: Bigimg3,
     slug: "latakoo",
   },

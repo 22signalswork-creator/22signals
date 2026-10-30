@@ -1,114 +1,97 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "../services.css";
-import Arrowright from "@/assets/image-removebg-preview (4).png";
-import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
 
 type Step = { number: string; title: string; desc: string };
 type Props = { steps?: Step[]; title?: React.ReactNode; text?: string };
 
-const ProcessSteps: React.FC<Props> = (props) => {
-  const getStaggerDelay = (index: number) => index * 0.15;
+const defaultSteps: Step[] = [
+  { number: "01", title: "Talk", desc: "A 15-minute call to see if we fit." },
+  { number: "02", title: "Plan", desc: "Discovery and a written roadmap in 5 to 7 days." },
+  { number: "03", title: "Build", desc: "Specialist teams build it, dates in writing." },
+  { number: "04", title: "Grow", desc: "We run it, measure it and grow it with you." },
+];
 
-  // Per brief: replace text + graphics with these 4 stages
-  const defaultSteps = [
-    {
-      number: "01",
-      title: "Discovery",
-      desc: "We analyze your bottlenecks.",
-    },
-    {
-      number: "02",
-      title: "Strategy",
-      desc: "We curate a specialized strategy.",
-    },
-    {
-      number: "03",
-      title: "Execution",
-      desc: "Rapid sprints with weekly reporting.",
-    },
-    {
-      number: "04",
-      title: "Scale",
-      desc: "Scale your operations.",
-    },
-  ];
+/**
+ * Process as a timeline: one line that fills as it comes into view, a node
+ * per step, short copy underneath. Vertical on phones.
+ */
+const ProcessSteps: React.FC<Props> = (props) => {
   const steps = props.steps ?? defaultSteps;
 
   return (
-    <section className="process-section py-24 flex items-center justify-center">
-      <div className="container items-center">
+    <section className="py-20 md:py-28" style={{ background: "#ffffff" }}>
+      <div className="container">
         <FadeIn>
-          <div className="process-header">
-            <RisingText end="80%">
-              <h2 className="faq-heading">
-                {props.title ?? (
-                  <>
-                    Our Process Step <br /> By Step Strategy
-                  </>
-                )}
-              </h2>
-            </RisingText>
-            <p className="dark-text">
-              {props.text ??
-                "Stop managing multiple agencies. Partner with us to gain a dedicated supervisor and instant access to our full suite of digital, creative, and manufacturing solutions."}
-            </p>
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-14 md:mb-20">
+            <h2
+              style={{
+                margin: 0,
+                fontSize: "clamp(30px, 3.4vw, 48px)",
+                lineHeight: 1.08,
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "#0A1530",
+                WebkitTextFillColor: "#0A1530",
+                background: "none",
+              }}
+            >
+              {props.title ?? "How we work."}
+            </h2>
+            {props.text && (
+              <p className="m-0 max-w-sm text-[15px] leading-relaxed" style={{ color: "rgba(10,21,48,0.6)" }}>
+                {props.text}
+              </p>
+            )}
           </div>
         </FadeIn>
 
-        <FadeIn>
-          <div className="process-steps mt-5">
-            {steps.map((step, index, arr) => (
-              <FadeIn key={index} delay={getStaggerDelay(index)}>
-                <div className="step-item">
-                  <div className="step">
-                    {/* Hexagonal step indicator (no more PNGs) */}
-                    <div className="step-number-wrapper">
-                      <svg
-                        width="80"
-                        height="80"
-                        viewBox="0 0 80 80"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <polygon
-                          points="40,4 72,22 72,58 40,76 8,58 8,22"
-                          fill="rgba(50, 95, 236, 0.08)"
-                          stroke="#325FEC"
-                          strokeWidth="1.5"
-                        />
-                        <text
-                          x="40"
-                          y="48"
-                          textAnchor="middle"
-                          fontSize="22"
-                          fill="#325FEC"
-                          fontFamily="Aeonik-medium, sans-serif"
-                          fontWeight="500"
-                        >
-                          {step.number}
-                        </text>
-                      </svg>
-                    </div>
-                    <h2
-                      className="card-heading pt-2 pl-2 animated-gradient-black"
-                      style={{ fontSize: "30px" }}
-                    >
-                      {step.title}
-                    </h2>
-                    <p>{step.desc}</p>
-                  </div>
-                  {index < arr.length - 1 && (
-                    <img
-                      src={Arrowright}
-                      alt="arrow"
-                      className="step-arrow-right"
-                    />
-                  )}
+        <div className="relative">
+          {/* the line (desktop: horizontal, phone: vertical) */}
+          <div aria-hidden className="absolute hidden md:block left-0 right-0 top-[7px] h-px" style={{ background: "rgba(10,21,48,0.1)" }} />
+          <motion.div
+            aria-hidden
+            className="absolute hidden md:block left-0 right-0 top-[7px] h-px origin-left"
+            style={{ background: "linear-gradient(90deg, #325FEC, #93b8ff)" }}
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true, amount: 0.6 }}
+            transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
+          />
+          <div aria-hidden className="absolute md:hidden left-[7px] top-0 bottom-0 w-px" style={{ background: "linear-gradient(180deg, #325FEC, rgba(50,95,236,0.15))" }} />
+
+          <ol className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8 list-none p-0 m-0">
+            {steps.map((step, i) => (
+              <motion.li
+                key={step.number}
+                className="relative pl-9 md:pl-0"
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.4 }}
+                transition={{ duration: 0.6, delay: 0.25 + i * 0.18, ease: [0.22, 1, 0.36, 1] }}
+              >
+                <span
+                  aria-hidden
+                  className="absolute left-0 top-1 md:static block w-[15px] h-[15px] rounded-full"
+                  style={{ background: "#ffffff", border: "2px solid #325FEC", boxShadow: "0 0 0 5px rgba(50,95,236,0.1)" }}
+                />
+                <div className="md:mt-8 text-[12px] tracking-[0.3em] tabular-nums" style={{ color: "#325FEC" }}>
+                  {step.number}
                 </div>
-              </FadeIn>
+                <h3
+                  className="mt-2"
+                  style={{ margin: "8px 0 0", fontSize: "clamp(24px, 2.2vw, 32px)", fontWeight: 400, color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
+                >
+                  {step.title}
+                </h3>
+                <p className="mt-2 m-0 text-[15px] leading-relaxed max-w-[260px]" style={{ color: "rgba(10,21,48,0.6)" }}>
+                  {step.desc}
+                </p>
+              </motion.li>
             ))}
-          </div>
-        </FadeIn>
+          </ol>
+        </div>
       </div>
     </section>
   );
