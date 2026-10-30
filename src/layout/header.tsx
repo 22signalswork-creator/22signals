@@ -15,27 +15,7 @@ interface HeaderProps {
  * so both surfaces stay in sync with one source of truth.
  */
 import { UMBRELLAS, NEW_SERVICES } from "@/content/umbrellas";
-import { supabase } from "@/lib/supabase";
-import { mergeRows } from "@/content/portfolio";
 
-// Project names for the Portfolio menu: CMS projects plus the ones kept in code.
-function usePortfolioMenu() {
-  const [items, setItems] = useState<{ label: string; path: string }[]>(() =>
-    mergeRows([]).map((r: { slug: string; client_name: string }) => ({ label: r.client_name, path: `/portfolio/${r.slug}` }))
-  );
-  useEffect(() => {
-    supabase
-      .from("project_detail_pages")
-      .select("slug, client_name, sort_order, card_text, category, cover_image, tags")
-      .eq("is_active", true)
-      .order("sort_order", { ascending: true })
-      .then(({ data }) => {
-        if (data && data.length)
-          setItems(mergeRows(data).map((r: { slug: string; client_name: string }) => ({ label: r.client_name, path: `/portfolio/${r.slug}` })));
-      });
-  }, []);
-  return items;
-}
 
 const SERVICES_SUBMENU: { label: string; slug: string }[] = [
   { label: "Strategy and Go-to-Market", slug: "go-to-market" },
@@ -119,8 +99,6 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
   };
 
   const isHome = location.pathname === "/" || location.pathname === "";
-
-  const portfolioItems = usePortfolioMenu();
 
   const tabs = [
     { label: "Home", path: "/" },
@@ -352,48 +330,6 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                     <span>{tab.label}</span>
                     <span className="header-dropdown-caret" aria-hidden>▾</span>
                   </a>
-                  {tab.label === "Portfolio" ? (
-                    <div className="header-dropdown-menu header-dropdown-mega header-dropdown-portfolio">
-                      <div className="portfolio-mega">
-                        <div className="mega-col">
-                          <div className="mega-head">By area</div>
-                          {submenu.map((p) => (
-                            <a
-                              key={p.label}
-                              href={p.path}
-                              onClick={(e) => {
-                                e.preventDefault();
-                                closeDropdown();
-                                navigate(p.path);
-                              }}
-                              className="header-dropdown-item mega-item"
-                            >
-                              {p.label}
-                            </a>
-                          ))}
-                        </div>
-                        <div className="mega-col">
-                          <div className="mega-head">Projects</div>
-                          <div className="portfolio-mega-projects">
-                            {portfolioItems.map((p) => (
-                              <a
-                                key={p.path}
-                                href={p.path}
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  closeDropdown();
-                                  navigate(p.path);
-                                }}
-                                className="header-dropdown-item mega-item"
-                              >
-                                {p.label}
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
                   <div className="header-dropdown-menu">
                     {submenu.map((p) => (
                       <a
@@ -410,7 +346,6 @@ const Header = ({ theme = "dark" }: HeaderProps) => {
                       </a>
                     ))}
                   </div>
-                  )}
                 </div>
               );
             }
