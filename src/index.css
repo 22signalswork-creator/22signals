@@ -1303,3 +1303,7 @@ h3.teamcard-title {
 @media (max-width: 767px) { .fx-progress { height: 2px; } }
 @media (prefers-reduced-motion: reduce) { .fx-skew { transform: none !important; } }
 
+
+/* Hide Chrome's cast button that floats over background videos */
+video::-internal-media-controls-overlay-cast-button { display: none !important; }
+video::-webkit-media-controls-overlay-cast-button { display: none !important; }

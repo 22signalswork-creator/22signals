@@ -165,6 +165,10 @@ const Video: React.FC = () => {
     v.defaultMuted = true;
     v.setAttribute("muted", "");
     v.setAttribute("playsinline", "");
+    // no "cast to TV" / AirPlay button over the reel
+    (v as any).disableRemotePlayback = true;
+    v.setAttribute("disableremoteplayback", "");
+    v.setAttribute("x-webkit-airplay", "deny");
     const go = () => v.play().catch(() => {});
     go();
     v.addEventListener("loadeddata", go, { once: true });
@@ -247,6 +251,8 @@ const Video: React.FC = () => {
             loop
             playsInline
             preload="none"
+            controls={false}
+            {...({ disableRemotePlayback: true, "x-webkit-airplay": "deny" } as any)}
           />
         ) : ytSrc && hasEnteredView ? (
           <iframe
