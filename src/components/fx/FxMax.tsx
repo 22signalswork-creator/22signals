@@ -64,7 +64,9 @@ const FxMax: React.FC = () => {
 
     // headings skew with scroll speed
     const tagHeadings = () =>
-      document.querySelectorAll("main h2, .services-hero-headline").forEach((h) => h.classList.add("fx-skew"));
+      document.querySelectorAll("main h2, .services-hero-headline").forEach((h) => {
+        if (!h.closest(".legal-body, .dc, .glass-card, form")) h.classList.add("fx-skew");
+      });
     tagHeadings();
 
     // eyebrow pills scramble in
@@ -87,7 +89,7 @@ const FxMax: React.FC = () => {
     let tilted: HTMLElement | null = null;
     const reset = () => { if (tilted) { tilted.style.transform = ""; tilted.classList.remove("fx-tilting"); tilted = null; } };
     const move = (e: PointerEvent) => {
-      const t = (e.target as HTMLElement)?.closest?.(".stats-card-compact, .dc-card, .process-grid > *") as HTMLElement | null;
+      const t = (e.target as HTMLElement)?.closest?.(".stats-card-compact, .dc-card, .process-grid > *, .rd-grid > *, .blog-grid > *, .svc-card, .detail-card") as HTMLElement | null;
       if (t !== tilted) reset();
       if (!t || t.classList.contains("fx-rise")) return;
       tilted = t;

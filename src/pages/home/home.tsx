@@ -2,9 +2,6 @@ import React, { useRef } from "react";
 import HeroSection from "./components/hero-section.tsx";
 import PortfolioSection from "./components/portfoliosection.tsx";
 import ServicesSection, { BackgroundWindingLine } from "./components/ServicesSection.tsx";
-import CursorFx from "@/components/fx/CursorFx";
-import RevealFx from "@/components/fx/RevealFx";
-import FxMax from "@/components/fx/FxMax";
 import PanelReveal from "@/components/fx/PanelReveal";
 import HomeProcess from "./components/HomeProcess.tsx";
 import HomeFaq from "./components/HomeFaq.tsx";
@@ -24,9 +21,6 @@ const Home = () => {
   return (
     <>
       <HeroSection nextSectionRef={nextSectionRef} scrollNext={handleScrollNext} />
-      <CursorFx />
-      <RevealFx />
-      <FxMax />
       {/* Everything below the hero. The scroll trace runs down the left
           margin of all of it and names each section as you reach it. */}
       <div className="relative">

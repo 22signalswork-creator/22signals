@@ -38,7 +38,7 @@ const PORTFOLIO_SUBMENU: { label: string; path: string }[] = [
 
 const ABOUT_SUBMENU: { label: string; path: string }[] = [
   { label: "About 22 Signals", path: "/about" },
-  { label: "Team", path: "/team" },
+  // Team page hidden until the team is filled in: { label: "Team", path: "/team" },
   { label: "Daniyal Mansur", path: "/about/daniyal-mansur" },
 ];
 

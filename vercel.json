@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/team",
+      "destination": "/about",
+      "permanent": false
+    },
+    {
       "source": "/services/digital-solutions",
       "destination": "/services/web-app-development",
       "permanent": true

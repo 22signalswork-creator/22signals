@@ -9,6 +9,9 @@ import Header from "../src/layout/header.tsx";
 import Footer from "../src/layout/footer.tsx";
 import Home from "./pages/home/home.tsx";
 import Preloader from "./layout/Preloader.tsx";
+import CursorFx from "./components/fx/CursorFx";
+import FxMax from "./components/fx/FxMax";
+import RevealFx from "./components/fx/RevealFx";
 import { useHead } from "./content/useHead";
 import MANIFEST from "./content/generated/manifest.json";
 const PAGES = MANIFEST as { path: string }[];
@@ -96,6 +99,10 @@ const PublicLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="min-h-screen flex flex-col relative">
       <Header theme={getHeaderTheme()} />
+      {/* Site-wide motion: cursor ring, progress bar, label scramble, heading lean, card tilt, rise-ins */}
+      <CursorFx />
+      <FxMax />
+      <RevealFx />
       <main className="flex-1">{children}</main>
       {!isHome && <Footer />}
     </div>
@@ -174,7 +181,8 @@ const AppShell = ({
             ))}
           <Route path="/services/:slug" element={<R.ServiceDetail />} />
           <Route path="/portfolio" element={<R.Portfolio />} />
-          <Route path="/team" element={<R.Team />} />
+          {/* Team page hidden until the team is filled in */}
+          <Route path="/team" element={<Navigate to="/about" replace />} />
           <Route path="/r&d" element={<R.RD />} />
           <Route path="/r&d/:slug" element={<R.RDDetail />} />
           <Route path="/blog" element={<R.Blog />} />
