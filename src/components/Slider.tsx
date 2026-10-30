@@ -78,7 +78,10 @@ const MarqueeRow: React.FC<RowProps> = ({ track, direction, duration, rowIndex }
               alt=""
               className="logos-img"
               draggable={false}
-              loading="lazy"
+              loading="eager"
+              decoding="async"
+              onLoad={(e) => e.currentTarget.classList.add("is-ready")}
+              ref={(el) => { if (el && el.complete && el.naturalWidth) el.classList.add("is-ready"); }}
             />
           </div>
         ))}
@@ -127,12 +130,17 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
         }
         .logos-row-wrapper {
           width: 100%;
+          /* logos glide in and out of soft edges instead of hard cuts */
+          -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 88%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 88%, transparent 100%);
         }
         .logos-track {
           display: flex;
           width: max-content;
           align-items: center;
           will-change: transform;
+          backface-visibility: hidden;
+          transform: translate3d(0, 0, 0);
         }
         .logos-track--left {
           animation: logos-scroll-left var(--row-duration) linear infinite;
@@ -163,9 +171,10 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
           object-fit: contain;
           user-select: none;
           filter: grayscale(15%);
-          opacity: 0.95;
-          transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+          opacity: 0;
+          transition: filter 0.3s ease, opacity 0.6s ease, transform 0.3s ease;
         }
+        .logos-img.is-ready { opacity: 0.95; }
         .logos-img:hover {
           filter: grayscale(0%);
           opacity: 1;
