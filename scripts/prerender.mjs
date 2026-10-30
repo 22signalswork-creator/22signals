@@ -235,6 +235,26 @@ function body(page) {
   return chrome(h);
 }
 
+// Link-preview image per page (made by scripts/og/make-og.cjs into public/og).
+const OG_DIR = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "public", "og");
+const ogHas = (id) => fs.existsSync(path.join(OG_DIR, id + ".jpg"));
+function ogFor(page) {
+  const p = page.path || "/";
+  const last = p.split("/").filter(Boolean).pop() || "";
+  let id = "home";
+  if (p === "/") id = "home";
+  else if (p.startsWith("/services/") && ogHas("svc-" + last)) id = "svc-" + last;
+  else if (page.kind === "location-service" && ogHas("svc-" + last)) id = "svc-" + last;
+  else if (p.startsWith("/services") || page.kind === "industry") id = "services";
+  else if (/^\/(locations|united-states|united-kingdom|uk|us|europe|uae|pakistan)/.test(p) || ["location-hub", "state-hub", "market", "locations-index"].includes(page.kind)) id = "locations";
+  else if (p.startsWith("/portfolio") || p.startsWith("/case-studies")) id = "portfolio";
+  else if (p.startsWith("/insights") || p.startsWith("/blog")) id = "insights";
+  else if (p.startsWith("/r&d") || p.startsWith("/r%26d")) id = "rnd";
+  else if (p.startsWith("/about") || p.startsWith("/partners")) id = "about";
+  else if (p.startsWith("/contact") || p.startsWith("/thank-you")) id = "contact";
+  return `https://www.22signals.com/og/${id}.jpg`;
+}
+
 function render(page, { noindex = false, schema = true } = {}) {
   const canonical = abs(page.path);
   const head = [
@@ -247,8 +267,12 @@ function render(page, { noindex = false, schema = true } = {}) {
     `<meta property="og:title" content="${esc(page.title)}" />`,
     `<meta property="og:description" content="${esc(page.description)}" />`,
     `<meta property="og:url" content="${esc(canonical)}" />`,
-    `<meta property="og:image" content="${SITE.ogImage}" />`,
+    `<meta property="og:image" content="${ogFor(page)}" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
+    `<meta property="og:image:alt" content="${esc(page.title)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:image" content="${ogFor(page)}" />`,
     schema ? `<script type="application/ld+json">${JSON.stringify(schemaFor(page))}</script>` : "",
   ]
     .filter(Boolean)

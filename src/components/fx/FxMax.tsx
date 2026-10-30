@@ -11,6 +11,11 @@ const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/+*";
 function scramble(el: HTMLElement) {
   const final = el.dataset.fxText || el.textContent || "";
   el.dataset.fxText = final;
+  // hold the label's size so nothing around it shifts while letters change
+  const r = el.getBoundingClientRect();
+  el.style.minWidth = `${Math.ceil(r.width)}px`;
+  el.style.whiteSpace = "nowrap";
+  el.style.fontVariantNumeric = "tabular-nums";
   let f = 0;
   const total = 22;
   const tick = () => {
@@ -21,7 +26,10 @@ function scramble(el: HTMLElement) {
       .join("");
     el.textContent = shown;
     if (f < total) requestAnimationFrame(tick);
-    else el.textContent = final;
+    else {
+      el.textContent = final;
+      el.style.minWidth = "";
+    }
   };
   tick();
 }
@@ -65,7 +73,7 @@ const FxMax: React.FC = () => {
     // headings skew with scroll speed
     const tagHeadings = () =>
       document.querySelectorAll("main h2, .services-hero-headline").forEach((h) => {
-        if (!h.closest(".legal-body, .dc, .glass-card, form")) h.classList.add("fx-skew");
+        if (!h.closest(".legal-body, .dc, .glass-card, form, a, li, .grid")) h.classList.add("fx-skew");
       });
     tagHeadings();
 
@@ -77,6 +85,9 @@ const FxMax: React.FC = () => {
     const tagEyebrows = () =>
       document.querySelectorAll<HTMLElement>("main .rounded-full.uppercase").forEach((el) => {
         if (el.dataset.fxScr || el.children.length) return;
+        // only standalone section labels, never labels inside cards or grids
+        if (el.closest("a, .grid, li, button, .dc, .glass-card, .slick-slider")) return;
+        if ((el.textContent || "").length > 28) return;
         el.dataset.fxScr = "1";
         io.observe(el);
       });

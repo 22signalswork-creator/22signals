@@ -18,7 +18,7 @@ export const SITE = {
   country: "GB",
   booking: "https://calendly.com/business-22signals/15min",
   founder: "Daniyal Mansur",
-  ogImage: "https://www.22signals.com/logo.png",
+  ogImage: "https://www.22signals.com/og/home.jpg",
 };
 
 // Proof lines cleared for public use. One per section, said out loud.
