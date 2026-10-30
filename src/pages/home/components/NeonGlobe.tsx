@@ -610,6 +610,7 @@ function tickCursor() {
     // Lerp toward raw position for buttery follow
     cursorRenderX += (cursorRawX - cursorRenderX) * 0.28;
     cursorRenderY += (cursorRawY - cursorRenderY) * 0.28;
+    cursorDot.style.opacity = window.__globeVisible === false ? '0' : '1';
     cursorDot.style.transform = 'translate3d(' + cursorRenderX + 'px, ' + cursorRenderY + 'px, 0) translate(-50%, -50%)';
     if (!alive()) return;
     if (active()) requestAnimationFrame(tickCursor); else setTimeout(tickCursor, 300);

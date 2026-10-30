@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   motion,
   useScroll,
@@ -76,12 +76,13 @@ const BackgroundWindingLine: React.FC = () => {
     const measure = () => {
       const rect = svg.getBoundingClientRect();
       const wh = window.innerHeight;
-      const p = (wh * 0.85 - rect.top) / rect.height;
+      // Same pace as the original line: draws across the whole scroll-through.
+      const p = (wh - rect.top) / (wh + rect.height);
       goal = Math.max(0, Math.min(1, p));
     };
 
     const frame = () => {
-      shown += (goal - shown) * 0.18;
+      shown += (goal - shown) * 0.08;
       if (Math.abs(goal - shown) < 0.0005) shown = goal;
       path.style.strokeDashoffset = String(pathLength * (1 - shown));
       if (head) {
@@ -156,8 +157,8 @@ const BackgroundWindingLine: React.FC = () => {
         opacity="0.9"
       />
       <g ref={headRef} style={{ opacity: 0, transition: "opacity .3s ease" }}>
-        <circle r="60" fill="url(#wl-glow)" className="wl-head-pulse" />
-        <circle r="13" fill="#ffffff" />
+        <circle r="34" fill="url(#wl-glow)" opacity="0.7" />
+        <circle r="9" fill="#ffffff" />
       </g>
     </svg>
   );
@@ -223,9 +224,9 @@ const VideoShowcase: React.FC = () => {
 
   const orbAY = useTransform(progress, [0, 1], ["-30%", "40%"]);
   const orbBY = useTransform(progress, [0, 1], ["35%", "-25%"]);
-  const numeralY = useTransform(progress, [0, 1], ["10%", "-25%"]);
-  const numeralX = useTransform(progress, [0, 1], ["-3%", "5%"]);
-  const numeralScale = useTransform(progress, [0, 0.4, 1], [0.7, 1.05, 1.15]);
+  const numeralY = useTransform(progress, [0, 1], ["4%", "-8%"]);
+  const numeralX = useTransform(progress, [0, 1], ["0%", "0%"]);
+  const numeralScale = useTransform(progress, [0, 1], [0.96, 1.02]);
   const numeralOpacity = useTransform(
     progress,
     [0, 0.2, 0.8, 1],
@@ -279,59 +280,6 @@ const VideoShowcase: React.FC = () => {
         viewport={{ once: true, amount: 0.15 }}
         className="relative z-10"
       >
-        {/* Eyebrow row */}
-        <div className="flex items-center justify-between gap-4 mb-8 md:mb-12">
-          <motion.div variants={fadeUp} className="flex items-center gap-3">
-            <span
-              className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-[10px] tracking-[0.32em] uppercase"
-              style={{
-                border: "1px solid rgba(50,95,236,0.4)",
-                color: "rgba(50,95,236,0.95)",
-                background: "rgba(50,95,236,0.04)",
-                backdropFilter: "blur(6px)",
-              }}
-            >
-              <motion.span
-                aria-hidden
-                animate={{ scale: [1, 1.4, 1], opacity: [0.7, 1, 0.7] }}
-                transition={{
-                  duration: 1.8,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-                className="inline-block w-1.5 h-1.5 rounded-full"
-                style={{ background: "#325FEC" }}
-              />
-              Watch our showcase
-            </span>
-            <span
-              className="hidden md:inline text-[10px] tracking-[0.32em] uppercase"
-              style={{ color: "rgba(10,21,48,0.45)" }}
-            >
-              Reel 022 / {REEL_YEAR}
-            </span>
-          </motion.div>
-
-          <motion.div
-            variants={fadeUp}
-            className="hidden md:flex items-center gap-2 text-[10px] tracking-[0.32em] uppercase"
-            style={{ color: "rgba(10,21,48,0.55)" }}
-          >
-            <span>scroll</span>
-            <motion.span
-              animate={{ y: [0, 6, 0] }}
-              transition={{
-                duration: 1.6,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-              className="inline-block"
-            >
-              ↓
-            </motion.span>
-          </motion.div>
-        </div>
-
         {/* Decorative rule */}
         <motion.div
           style={{ scaleX: ruleScaleX, transformOrigin: "left center" }}
@@ -379,10 +327,10 @@ const VideoShowcase: React.FC = () => {
         </motion.div>
 
         {/* Vertical connector */}
-        <div className="relative flex justify-center mt-10 md:mt-12">
+        <div className="relative flex justify-center mt-6 md:mt-8">
           <motion.div
             style={{ scaleY: connectorScale, transformOrigin: "top center" }}
-            className="w-px h-20 md:h-28"
+            className="w-px h-10 md:h-14"
             aria-hidden
           >
             <div
@@ -421,7 +369,7 @@ const StatsBlock: React.FC = () => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.2 }}
     transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
-    className="mt-14 md:mt-20 mb-32 md:mb-48 relative z-10"
+    className="mt-6 md:mt-8 mb-10 md:mb-14 relative z-10"
   >
     <CompanyStatsCounts />
   </motion.div>
@@ -447,39 +395,52 @@ const ServicesSection = () => {
 
           <StatsBlock />
 
+        </div>
+      </div>
+
+      {/* What we do: outside the line wrapper so the line never crosses it */}
+      <div className="relative z-10">
           <FadeIn>
-            <div className="mb-10 md:mb-14 mt-24">
-              <div
-                className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
-                style={{ border: "1px solid rgba(50,95,236,0.4)", color: "rgba(50,95,236,0.95)" }}
-              >
-                What We Do
+            <div className="mb-8 md:mb-10 mt-16 md:mt-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+              <div>
+                <div
+                  className="inline-block px-4 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase mb-5"
+                  style={{ border: "1px solid rgba(50,95,236,0.4)", color: "rgba(50,95,236,0.95)" }}
+                >
+                  What We Do
+                </div>
+                <h2
+                  className="text-4xl md:text-[60px] leading-[1.03]"
+                  style={{
+                    color: "#0A1530",
+                    background: "none",
+                    WebkitTextFillColor: "#0A1530",
+                    backgroundClip: "unset",
+                    WebkitBackgroundClip: "unset",
+                    fontWeight: 800,
+                    letterSpacing: "-0.03em",
+                  }}
+                >
+                  One team <br />
+                  <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
+                </h2>
+                <p className="text-lg md:text-xl mt-5 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
+                  AI, cloud, websites, marketing and video, under one roof.
+                </p>
               </div>
-              <h2
-                className="text-4xl md:text-[64px] leading-[1.03]"
-                style={{
-                  color: "#0A1530",
-                  background: "none",
-                  WebkitTextFillColor: "#0A1530",
-                  backgroundClip: "unset",
-                  WebkitBackgroundClip: "unset",
-                  fontWeight: 800,
-                  letterSpacing: "-0.03em",
-                }}
+              <Link
+                to="/services"
+                className="self-start md:self-auto inline-flex items-center gap-3 rounded-full px-7 py-4 text-sm tracking-[0.12em] uppercase no-underline transition-transform hover:-translate-y-0.5"
+                style={{ background: "#325FEC", color: "#ffffff", textDecoration: "none", boxShadow: "0 12px 30px -12px rgba(50,95,236,0.6)" }}
               >
-                One team <br />
-                <span style={{ color: "#325FEC", WebkitTextFillColor: "#325FEC", background: "none" }}>instead of ten.</span>
-              </h2>
-              <p className="text-lg md:text-xl mt-6 max-w-xl" style={{ color: "rgba(10,21,48,0.7)" }}>
-                AI, cloud, websites, marketing and video, under one roof.
-              </p>
+                Explore all services <span aria-hidden>↗</span>
+              </Link>
             </div>
           </FadeIn>
 
           <FadeIn>
             <WhatWeDoGlobe />
           </FadeIn>
-        </div>
       </div>
     </section>
   );

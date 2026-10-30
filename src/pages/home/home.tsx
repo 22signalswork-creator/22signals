@@ -24,6 +24,9 @@ const Home = () => {
         <ServicesSection />
       </div>
 
+      {/* Companies We Have Worked With, straight after What We Do */}
+      <HomeLogos />
+
       <PortfolioSection />
 
       {/* New: Operational Framework process */}
@@ -32,8 +35,6 @@ const Home = () => {
       {/* New: Home FAQ */}
       <HomeFaq />
 
-      {/* Companies We Have Worked With: last section before the footer */}
-      <HomeLogos />
 
       {/* Footer */}
       <section className="w-full h-full bg-black flex flex-col justify-end overflow-y-auto">

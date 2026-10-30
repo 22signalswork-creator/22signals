@@ -140,9 +140,9 @@ const WhatWeDoGlobe: React.FC = () => {
       {/* Desktop and tablet */}
       <div
         ref={boxRef}
-        className="wwd-box hidden md:block"
+        className="wwd-box hidden md:block mx-auto"
         onPointerMove={onMove}
-        style={{ aspectRatio: `${W} / ${H}` }}
+        style={{ aspectRatio: `${W} / ${H}`, maxWidth: `calc(62vh * ${W / H})` }}
       >
         <div
           className="wwd-ball"

@@ -80,4 +80,5 @@ export const UMBRELLAS = [
 ];
 
 export const umbrellaFor = (path) => UMBRELLAS.find((u) => u.items.some((i) => i.path === path));
-export const NEW_SERVICES = new Set(["/services/social-media-management", "/services/influencer-campaigns", "/services/content-marketing"]);
+// Services to badge as NEW. Empty: no badges shown anywhere.
+export const NEW_SERVICES = new Set([]);

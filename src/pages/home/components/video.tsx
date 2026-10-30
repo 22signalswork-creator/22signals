@@ -4,7 +4,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { supabase } from "@/lib/supabase";
 
 /* ──────────────────────────────────────────────────────────────────────────
@@ -92,86 +92,23 @@ const requestFs = (el: HTMLElement): Promise<void> => {
   return Promise.reject(new Error("Fullscreen API not supported"));
 };
 
-/* ── PLAY OUR SHOWCASE marquee ─────────────────────────────────────── */
+/* ── Home reel ───────────────────────────────────────────────────────
+ * Plays muted on a loop in the background. Two small controls only:
+ * sound on/off and fullscreen. No tilt, no click-anywhere behaviour.
+ * ──────────────────────────────────────────────────────────────────── */
 
-interface MarqueeProps {
-  direction?: "left" | "right";
-  speed?: number;
-}
-
-const ShowcaseMarquee: React.FC<MarqueeProps> = ({
-  direction = "left",
-  speed = 32,
-}) => {
-  const half = Array.from({ length: 10 }).map((_, i) => (
-    <span key={i} className="sm-item">
-      <span className="sm-arrow">▶▶▶</span>
-      <span className="sm-text">PLAY&nbsp;OUR&nbsp;SHOWCASE</span>
-    </span>
-  ));
-
-  return (
-    <div className="sm-wrap" aria-hidden="true">
-      <div
-        className={`sm-track ${direction === "right" ? "sm-reverse" : ""}`}
-        style={{ animationDuration: `${speed}s` }}
-      >
-        {half}
-        {half}
-      </div>
-
-      <style>{`
-        .sm-wrap {
-          width: 100%;
-          min-width: 0;
-          max-width: 100%;
-          overflow: hidden;
-          position: relative;
-          line-height: 1;
-          mask-image: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
-          -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
-        }
-        .sm-track {
-          display: flex;
-          width: max-content;
-          will-change: transform;
-          animation-name: sm-scroll;
-          animation-timing-function: linear;
-          animation-iteration-count: infinite;
-          transform: translate3d(0, 0, 0);
-        }
-        .sm-reverse {
-          animation-direction: reverse;
-        }
-        .sm-item {
-          display: inline-flex;
-          align-items: center;
-          gap: 10px;
-          padding: 0 14px;
-          font-weight: 600;
-          letter-spacing: 0.04em;
-          color: #0A1530;
-          white-space: nowrap;
-          font-size: clamp(13px, 1.3vw, 16px);
-        }
-        .sm-arrow {
-          color: #325FEC;
-          font-size: 0.85em;
-          letter-spacing: 2px;
-        }
-        @keyframes sm-scroll {
-          from { transform: translate3d(0, 0, 0); }
-          to   { transform: translate3d(-50%, 0, 0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .sm-track { animation: none; }
-        }
-      `}</style>
-    </div>
-  );
-};
-
-/* ── Main component ─────────────────────────────────────────────────── */
+const IconBtn: React.FC<{ label: string; onClick: () => void; children: React.ReactNode }> = ({ label, onClick, children }) => (
+  <button
+    type="button"
+    aria-label={label}
+    title={label}
+    onClick={onClick}
+    className="flex items-center justify-center w-11 h-11 rounded-full transition-colors"
+    style={{ background: "rgba(5,10,24,0.55)", border: "1px solid rgba(255,255,255,0.25)", color: "#ffffff", backdropFilter: "blur(8px)" }}
+  >
+    {children}
+  </button>
+);
 
 const Video: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -179,20 +116,8 @@ const Video: React.FC = () => {
   const frameRef = useRef<HTMLDivElement>(null);
 
   const [videoUrl, setVideoUrl] = useState<string>("");
-  const [introVisible, setIntroVisible] = useState(true);
-  const [isHovered, setIsHovered] = useState(false);
+  const [muted, setMuted] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
-
-  // Magnetic 3D tilt — only active when NOT in fullscreen.
-  const [tilt, setTilt] = useState({ rx: 0, ry: 0 });
-  const [playOffset, setPlayOffset] = useState({ x: 0, y: 0 });
-
-  // Real runtime, read off the file's metadata once it loads.
-  const [duration, setDuration] = useState(0);
-
-  // Gate the download until the frame is near the viewport. The reel is a
-  // multi-megabyte file served from Supabase Storage, so eagerly fetching it
-  // for visitors who never scroll this far burns egress for nothing.
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   useEffect(() => {
@@ -203,494 +128,141 @@ const Video: React.FC = () => {
       .eq("key", "home_video_url")
       .maybeSingle()
       .then(({ data }) => {
-        if (cancelled) return;
-        setVideoUrl(data?.value?.trim() ?? "");
+        if (!cancelled) setVideoUrl(data?.value?.trim() ?? "");
       });
     return () => {
       cancelled = true;
     };
   }, []);
 
+  // Only start downloading the reel when it is close to the screen.
   useEffect(() => {
-    const t = setTimeout(() => setIntroVisible(false), 1500);
-    return () => clearTimeout(t);
-  }, []);
-
-  useEffect(() => {
-    if (hasEnteredView) return;
     const el = frameRef.current;
-    if (!el) return;
-    // No observer (old browsers, SSR shims) → just load it.
+    if (!el || hasEnteredView) return;
     if (typeof IntersectionObserver === "undefined") {
       setHasEnteredView(true);
       return;
     }
     const io = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((entry) => entry.isIntersecting)) {
+      (es) => {
+        if (es.some((x) => x.isIntersecting)) {
           setHasEnteredView(true);
           io.disconnect();
         }
       },
-      // Start fetching slightly before the frame scrolls in, so the reel is
-      // ready by the time it's actually on screen.
       { rootMargin: "300px" }
     );
     io.observe(el);
     return () => io.disconnect();
   }, [hasEnteredView]);
 
-  const sendInlineCommand = useCallback(
-    (cmd: "playVideo" | "pauseVideo") => {
-      if (iframeRef.current) {
-        iframeRef.current.contentWindow?.postMessage(
-          JSON.stringify({ event: "command", func: cmd, args: [] }),
-          "*"
-        );
-      }
-      if (htmlVideoRef.current) {
-        if (cmd === "playVideo") htmlVideoRef.current.play().catch(() => {});
-        else htmlVideoRef.current.pause();
-      }
-    },
-    []
-  );
-
-  const openFullscreen = useCallback(
-    async (e?: React.MouseEvent | React.KeyboardEvent) => {
-      if (e) e.stopPropagation();
-      const el = frameRef.current;
-      if (!el) return;
-      try {
-        sendInlineCommand("pauseVideo");
-        await requestFs(el);
-      } catch (err) {
-        // iOS / unsupported → open YouTube as fallback
-        const ytId = extractYouTubeId(videoUrl) || FALLBACK_YOUTUBE_ID;
-        if (ytId) {
-          window.open(`https://www.youtube.com/watch?v=${ytId}`, "_blank");
-        }
-        console.warn("Fullscreen not supported, opened tab fallback", err);
-      }
-    },
-    [sendInlineCommand, videoUrl]
-  );
-
   useEffect(() => {
-    const handler = () => {
-      const active = getFullscreenElement() === frameRef.current;
-      setIsFullscreen(active);
-      if (active) {
-        setTilt({ rx: 0, ry: 0 });
-        setPlayOffset({ x: 0, y: 0 });
-      } else {
-        setTimeout(() => sendInlineCommand("playVideo"), 80);
-      }
-    };
-    document.addEventListener("fullscreenchange", handler);
-    document.addEventListener("webkitfullscreenchange", handler);
+    const h = () => setIsFullscreen(getFullscreenElement() === frameRef.current);
+    document.addEventListener("fullscreenchange", h);
+    document.addEventListener("webkitfullscreenchange", h);
     return () => {
-      document.removeEventListener("fullscreenchange", handler);
-      document.removeEventListener("webkitfullscreenchange", handler);
+      document.removeEventListener("fullscreenchange", h);
+      document.removeEventListener("webkitfullscreenchange", h);
     };
-  }, [sendInlineCommand]);
+  }, []);
 
-  const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (isFullscreen) return;
-    const el = frameRef.current;
-    if (!el) return;
-    const r = el.getBoundingClientRect();
-    const cx = r.left + r.width / 2;
-    const cy = r.top + r.height / 2;
-    const dx = (e.clientX - cx) / (r.width / 2);
-    const dy = (e.clientY - cy) / (r.height / 2);
-    setTilt({ rx: -dy * 5, ry: dx * 7 });
-    setPlayOffset({ x: dx * 18, y: dy * 18 });
-  };
-  const onMouseEnter = () => setIsHovered(true);
-  const onMouseLeave = () => {
-    setIsHovered(false);
-    setTilt({ rx: 0, ry: 0 });
-    setPlayOffset({ x: 0, y: 0 });
-  };
-
-  const youTubeId =
-    extractYouTubeId(videoUrl) ?? (videoUrl ? null : FALLBACK_YOUTUBE_ID);
+  const youTubeId = extractYouTubeId(videoUrl) ?? (videoUrl ? null : FALLBACK_YOUTUBE_ID);
   const directFile = isDirectVideoFile(videoUrl) ? videoUrl : null;
 
-  // Only known for direct files — the YouTube embed doesn't expose it, so the
-  // label is dropped entirely rather than showing an invented runtime.
-  const durationLabel = formatDuration(duration);
+  const ytCommand = (func: string) =>
+    iframeRef.current?.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args: [] }), "*");
 
-  const ytInlineSrc =
+  const toggleSound = useCallback(() => {
+    const next = !muted;
+    setMuted(next);
+    if (htmlVideoRef.current) {
+      htmlVideoRef.current.muted = next;
+      if (!next) htmlVideoRef.current.play().catch(() => {});
+    }
+    ytCommand(next ? "mute" : "unMute");
+  }, [muted]);
+
+  const toggleFullscreen = useCallback(async () => {
+    const el = frameRef.current;
+    if (!el) return;
+    if (getFullscreenElement()) {
+      const d = document as FsDocument;
+      (d.exitFullscreen || d.webkitExitFullscreen)?.call(d);
+      return;
+    }
+    try {
+      await requestFs(el);
+    } catch {
+      // iPhone Safari: use the video element's own fullscreen, or YouTube.
+      const v = htmlVideoRef.current as (HTMLVideoElement & { webkitEnterFullscreen?: () => void }) | null;
+      if (v?.webkitEnterFullscreen) v.webkitEnterFullscreen();
+      else if (youTubeId) window.open(`https://www.youtube.com/watch?v=${youTubeId}`, "_blank");
+    }
+  }, [youTubeId]);
+
+  const ytSrc =
     youTubeId &&
     `https://www.youtube-nocookie.com/embed/${youTubeId}` +
       `?autoplay=1&mute=1&loop=1&playlist=${youTubeId}` +
-      `&controls=0&showinfo=0&modestbranding=1&rel=0` +
-      `&playsinline=1&enablejsapi=1&iv_load_policy=3` +
-      `&disablekb=1&fs=0&cc_load_policy=0`;
-
-  const ytFsSrc =
-    youTubeId &&
-    `https://www.youtube-nocookie.com/embed/${youTubeId}` +
-      `?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3`;
+      `&controls=0&modestbranding=1&rel=0&playsinline=1&enablejsapi=1&iv_load_policy=3&disablekb=1&fs=0`;
 
   return (
-    <div className="w-full min-w-0 max-w-full flex flex-col items-stretch">
-      {/* ░ TOP MARQUEE — slides in from LEFT on first view ░ */}
-      <motion.div
-        initial={{ opacity: 0, x: -60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, margin: "-50px" }}
-        transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-        className="mb-6 md:mb-8 w-full min-w-0"
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-60px" }}
+      transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+      className="w-full"
+    >
+      <div
+        ref={frameRef}
+        className={isFullscreen ? "relative w-full h-full bg-black" : "relative w-full aspect-[16/9] rounded-[28px] overflow-hidden shadow-2xl"}
+        style={{ backgroundColor: "#0a0f1f" }}
       >
-        <ShowcaseMarquee direction="left" speed={28} />
-      </motion.div>
+        {directFile ? (
+          <video
+            ref={htmlVideoRef}
+            className={`absolute inset-0 w-full h-full ${isFullscreen ? "object-contain" : "object-cover"}`}
+            src={hasEnteredView ? directFile : undefined}
+            autoPlay
+            muted={muted}
+            loop
+            playsInline
+            preload="none"
+          />
+        ) : ytSrc && hasEnteredView ? (
+          <iframe
+            ref={iframeRef}
+            className="absolute pointer-events-none"
+            src={ytSrc}
+            title="22 Signals showcase reel"
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            style={
+              isFullscreen
+                ? { inset: 0, width: "100%", height: "100%", border: 0 }
+                : { top: "-60px", left: "-5%", width: "110%", height: "calc(100% + 120px)", border: 0 }
+            }
+          />
+        ) : null}
 
-      {/* ░ VIDEO FRAME ░ */}
-      <motion.div
-        initial={{ opacity: 0, y: 80, scale: 0.88 }}
-        whileInView={{ opacity: 1, y: 0, scale: 1 }}
-        viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.25 }}
-        className="self-center w-full"
-        style={{ perspective: 1400 }}
-      >
-        <motion.div
-          ref={frameRef}
-          onMouseEnter={onMouseEnter}
-          onMouseLeave={onMouseLeave}
-          onMouseMove={onMouseMove}
-          animate={{
-            rotateX: tilt.rx,
-            rotateY: tilt.ry,
-          }}
-          transition={{
-            type: "spring",
-            stiffness: 140,
-            damping: 18,
-            mass: 0.4,
-          }}
-          className={
-            isFullscreen
-              ? "relative w-full h-full bg-black"
-              : "relative w-full aspect-[16/10] rounded-[28px] overflow-hidden shadow-2xl cursor-pointer group"
-          }
-          style={{
-            transformStyle: "preserve-3d",
-            backgroundColor: "#0a0f1f",
-          }}
-        >
-          {directFile ? (
-            <video
-              ref={htmlVideoRef}
-              className={
-                isFullscreen
-                  ? "absolute inset-0 w-full h-full object-contain"
-                  : "absolute inset-0 w-full h-full object-cover pointer-events-none"
-              }
-              src={hasEnteredView ? directFile : undefined}
-              autoPlay
-              muted={!isFullscreen}
-              loop={!isFullscreen}
-              controls={isFullscreen}
-              playsInline
-              preload="none"
-              onLoadedMetadata={(e) =>
-                setDuration(e.currentTarget.duration)
-              }
-            />
-          ) : ytInlineSrc ? (
-            <iframe
-              key={isFullscreen ? "fs" : "inline"}
-              ref={iframeRef}
-              className={
-                isFullscreen
-                  ? "absolute inset-0 w-full h-full"
-                  : "absolute pointer-events-none"
-              }
-              src={isFullscreen ? ytFsSrc ?? undefined : ytInlineSrc}
-              title="22 Signals — Showcase"
-              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-              allowFullScreen
-              style={
-                isFullscreen
-                  ? { border: 0 }
-                  : {
-                      top: "-60px",
-                      left: "-5%",
-                      width: "110%",
-                      height: "calc(100% + 120px)",
-                      border: 0,
-                    }
-              }
-            />
-          ) : null}
-
-          {!isFullscreen && (
-            <>
-              <AnimatePresence>
-                {!directFile && introVisible && (
-                  <motion.div
-                    key="intro-tint"
-                    initial={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.6, ease: "easeOut" }}
-                    className="absolute inset-0 pointer-events-none"
-                    style={{
-                      background:
-                        "linear-gradient(135deg, #0a0f1f 0%, #1a3392 70%, #325FEC 130%)",
-                    }}
-                  >
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="relative flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-400" />
-                      </span>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
-              <div
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  background:
-                    "linear-gradient(135deg, rgba(50,95,236,0.12) 0%, rgba(50,95,236,0.02) 50%, rgba(50,95,236,0.10) 100%)",
-                }}
-              />
-
-              <motion.div
-                aria-hidden
-                className="absolute inset-0 rounded-[28px] pointer-events-none"
-                initial={false}
-                animate={{
-                  boxShadow: isHovered
-                    ? "inset 0 0 0 1px rgba(50,95,236,0.5), 0 30px 80px rgba(50,95,236,0.25)"
-                    : "inset 0 0 0 1px rgba(255,255,255,0.06), 0 16px 50px rgba(10,21,48,0.18)",
-                }}
-                transition={{ duration: 0.3 }}
-              />
-
-              <motion.div
-                className="absolute inset-0 pointer-events-none"
-                initial={false}
-                animate={{
-                  backgroundColor:
-                    isHovered && !introVisible
-                      ? "rgba(0,0,0,0.34)"
-                      : "rgba(0,0,0,0)",
-                }}
-                transition={{ duration: 0.3 }}
-              />
-
-              {/* TOP-LEFT label */}
-              <motion.div
-                initial={{ opacity: 0, x: -16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.9, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute top-4 left-4 md:top-5 md:left-5 z-10 pointer-events-none"
-              >
-                <span
-                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] tracking-[0.3em] uppercase"
-                  style={{
-                    background: "rgba(255,255,255,0.92)",
-                    color: "#0A1530",
-                    boxShadow: "0 10px 28px rgba(10,21,48,0.18)",
-                  }}
-                >
-                  <motion.span
-                    animate={{ opacity: [1, 0.3, 1] }}
-                    transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
-                    className="inline-block w-1.5 h-1.5 rounded-full"
-                    style={{ background: "#ff3d3d" }}
-                  />
-                  Live · {REEL_YEAR}
-                </span>
-              </motion.div>
-
-              {/* TOP-RIGHT fullscreen icon */}
-              <AnimatePresence>
-                {isHovered && !introVisible && (
-                  <motion.button
-                    key="fs-icon"
-                    type="button"
-                    aria-label="Expand to fullscreen"
-                    onClick={(e) => openFullscreen(e)}
-                    initial={{ opacity: 0, scale: 0.7, y: -6 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.7, y: -6 }}
-                    transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.94 }}
-                    className="absolute top-4 right-4 md:top-5 md:right-5 flex items-center justify-center w-10 h-10 rounded-full z-20"
-                    style={{
-                      background: "rgba(255,255,255,0.95)",
-                      boxShadow: "0 6px 20px rgba(0,0,0,0.3)",
-                      border: "none",
-                    }}
-                  >
-                    <svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#0A1530"
-                      strokeWidth="2.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M3 9V3h6" />
-                      <path d="M21 9V3h-6" />
-                      <path d="M3 15v6h6" />
-                      <path d="M21 15v6h-6" />
-                    </svg>
-                  </motion.button>
-                )}
-              </AnimatePresence>
-
-              {/* BOTTOM-LEFT label */}
-              <motion.div
-                initial={{ opacity: 0, x: -16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 1.0, ease: [0.22, 1, 0.36, 1] }}
-                className="absolute bottom-4 left-4 md:bottom-5 md:left-5 z-10 pointer-events-none"
-              >
-                <span
-                  className="inline-flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase"
-                  style={{
-                    color: "rgba(255,255,255,0.85)",
-                    textShadow: "0 2px 8px rgba(0,0,0,0.4)",
-                  }}
-                >
-                  Reel 022 · Showcase {REEL_YEAR}
-                </span>
-              </motion.div>
-
-              {/* BOTTOM-RIGHT label — real runtime, once metadata has loaded */}
-              {durationLabel && (
-                <motion.div
-                  initial={{ opacity: 0, x: 16 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                  className="absolute bottom-4 right-4 md:bottom-5 md:right-5 z-10 pointer-events-none"
-                >
-                  <span
-                    className="inline-flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase"
-                    style={{
-                      color: "rgba(255,255,255,0.85)",
-                      textShadow: "0 2px 8px rgba(0,0,0,0.4)",
-                    }}
-                  >
-                    {durationLabel}
-                  </span>
-                </motion.div>
-              )}
-
-              {/* Centered play button — appears on hover, magnetic + rotating ring */}
-              <AnimatePresence>
-                {isHovered && !introVisible && (
-                  <motion.div
-                    key="play-btn"
-                    initial={{ opacity: 0, scale: 0.6 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.6 }}
-                    transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                    className="absolute inset-0 flex items-center justify-center pointer-events-none"
-                  >
-                    <motion.div
-                      animate={{ x: playOffset.x, y: playOffset.y }}
-                      transition={{ type: "spring", stiffness: 150, damping: 18, mass: 0.4 }}
-                      className="relative"
-                    >
-                      <motion.div
-                        aria-hidden
-                        animate={{ rotate: 360 }}
-                        transition={{ duration: 18, repeat: Infinity, ease: "linear" }}
-                        className="absolute -inset-4 rounded-full pointer-events-none"
-                        style={{
-                          border: "1px dashed rgba(255,255,255,0.55)",
-                        }}
-                      />
-                      <motion.button
-                        type="button"
-                        aria-label="Watch in fullscreen"
-                        onClick={(e) => openFullscreen(e)}
-                        whileHover={{ scale: 1.08 }}
-                        whileTap={{ scale: 0.94 }}
-                        className="relative flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full"
-                        style={{
-                          pointerEvents: "auto",
-                          border: "none",
-                          background: "transparent",
-                        }}
-                      >
-                        <motion.span
-                          aria-hidden
-                          className="absolute inset-0 rounded-full"
-                          animate={{
-                            boxShadow: [
-                              "0 14px 50px rgba(50,95,236,0.4), 0 0 0 8px rgba(255,255,255,0.18)",
-                              "0 14px 70px rgba(50,95,236,0.75), 0 0 0 14px rgba(255,255,255,0.05)",
-                              "0 14px 50px rgba(50,95,236,0.4), 0 0 0 8px rgba(255,255,255,0.18)",
-                            ],
-                          }}
-                          transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-                          style={{ background: "#325FEC" }}
-                        />
-                        <svg
-                          width="32"
-                          height="32"
-                          viewBox="0 0 24 24"
-                          fill="white"
-                          style={{ marginLeft: 4, position: "relative", zIndex: 1 }}
-                        >
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </motion.button>
-                    </motion.div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
-              {/* Click-anywhere-on-frame still triggers fullscreen */}
-              <button
-                type="button"
-                aria-label="Open video in fullscreen"
-                onClick={(e) => openFullscreen(e)}
-                tabIndex={0}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    openFullscreen(e);
-                  }
-                }}
-                className="absolute inset-0 z-[1]"
-                style={{
-                  background: "transparent",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              />
-            </>
-          )}
-        </motion.div>
-      </motion.div>
-
-      {/* ░ BOTTOM MARQUEE — slides in from RIGHT on first view ░ */}
-      <motion.div
-        initial={{ opacity: 0, x: 60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, margin: "-50px" }}
-        transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
-        className="mt-6 md:mt-8 w-full min-w-0"
-      >
-        <ShowcaseMarquee direction="right" speed={32} />
-      </motion.div>
-    </div>
+        <div className="absolute right-4 bottom-4 md:right-6 md:bottom-6 flex gap-2 z-10">
+          <IconBtn label={muted ? "Turn sound on" : "Turn sound off"} onClick={toggleSound}>
+            {muted ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M11 5 6 9H2v6h4l5 4z" /><line x1="22" y1="9" x2="16" y2="15" /><line x1="16" y1="9" x2="22" y2="15" /></svg>
+            ) : (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M11 5 6 9H2v6h4l5 4z" /><path d="M15.5 8.5a5 5 0 0 1 0 7" /><path d="M19 5a10 10 0 0 1 0 14" /></svg>
+            )}
+          </IconBtn>
+          <IconBtn label={isFullscreen ? "Exit full screen" : "Full screen"} onClick={toggleFullscreen}>
+            {isFullscreen ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M8 3v3a2 2 0 0 1-2 2H3M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3" /></svg>
+            ) : (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3" /></svg>
+            )}
+          </IconBtn>
+        </div>
+      </div>
+    </motion.div>
   );
 };
 

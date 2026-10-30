@@ -1,6 +1,5 @@
 /**
- * "Companies We Have Worked With", unchanged in look, now the last section
- * before the footer. A soft black-to-light fade leads into it.
+ * "Companies We Have Worked With", unchanged in look, right after What We Do.
  */
 import React from "react";
 import FadeIn from "@/transitions/FadeIn.tsx";
@@ -25,12 +24,7 @@ const HomeLogos: React.FC = () => {
 
   return (
     <section className="relative" style={{ background: "#F0F1FA" }}>
-      <div
-        aria-hidden
-        className="w-full"
-        style={{ height: "clamp(120px, 22vh, 260px)", background: "linear-gradient(180deg, #000202 0%, #1b2140 40%, #F0F1FA 100%)" }}
-      />
-      <div className="container px-6 md:px-12 lg:px-20 pb-20 md:pb-28">
+      <div className="container px-6 md:px-12 lg:px-20 pt-6 md:pt-10 pb-20 md:pb-28">
         <FadeIn>
           <div className="text-center mb-3 md:mb-4 relative z-20">
             <div
