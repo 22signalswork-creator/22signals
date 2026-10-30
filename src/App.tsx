@@ -208,14 +208,9 @@ const AppShell = ({
   );
 };
 
-// The intro animation plays once per visit, not on every page load.
-const seenIntro = (() => {
-  try {
-    return sessionStorage.getItem("22s-intro") === "1";
-  } catch {
-    return false;
-  }
-})();
+// The intro animation plays on every full page load, refreshes included.
+// Moving between pages inside the site never replays it (the app stays loaded).
+const seenIntro = false;
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(!seenIntro);

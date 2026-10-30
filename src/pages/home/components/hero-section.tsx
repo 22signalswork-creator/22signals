@@ -29,15 +29,8 @@ const FALLBACK_HERO: HeroRow = {
   gradient_word: "Create.",
 };
 
-// On a refresh (intro already played this visit) the hero comes in straight
-// away; the long wait is only for the first-visit intro animation.
-const introDone = (() => {
-  try {
-    return sessionStorage.getItem("22s-intro") === "1";
-  } catch {
-    return false;
-  }
-})();
+// The intro plays on every page load, so the hero waits for it to finish.
+const introDone = false;
 
 const HeroSection: React.FC<HeroSectionProps> = ({ scrollNext }) => {
   const sectionRef = useRef<HTMLElement>(null);
