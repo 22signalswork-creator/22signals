@@ -39,6 +39,7 @@ const LOCATIONS_SUBMENU: { label: string; path: string }[] = [
   { label: "United States", path: "/united-states" },
   { label: "United Kingdom", path: "/united-kingdom" },
   { label: "UAE", path: "/uae" },
+  { label: "Pakistan", path: "/pakistan" },
   { label: "All locations", path: "/locations" },
 ];
 

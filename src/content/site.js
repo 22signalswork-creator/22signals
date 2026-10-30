@@ -1034,16 +1034,14 @@ export const PAGES = [
       {
         id: "solve",
         h: "What we solve.",
-        p: ["The problems that hold established businesses back, and the ones founders hit early."],
+        p: ["What holds a business back, and what we do about it."],
         list: [
-          "Manual operations: work still running on spreadsheets, email and copy-paste. We build the systems and AI that take it off your team.",
-          "Scattered data: numbers spread across tools, so decisions run on guesses. We put data in one place, with dashboards leaders actually read.",
-          "Slow infrastructure: systems that are slow, insecure or cost too much. We fix the cloud underneath and keep it running.",
-          "Missing capability: plans bigger than the team that has to deliver them. Our specialist teams fill the gap without a hiring round.",
-          "Hard to find: customers can't find you in Google, in AI answers or on social. We fix search, content, social and ads so they do.",
-          "Too many suppliers: nobody owns the result. One lead runs everything under one team.",
-          "Slipping launches: dates that move because nobody owned them. Every date we agree goes in writing.",
-          "Ideas without execution: an ambitious idea and no team to build it. We plan it, build it and grow it with you.",
+          "Manual operations: work stuck in spreadsheets and copy-paste. We automate it.",
+          "Scattered data: numbers spread across ten tools. We put them in one place.",
+          "Slow infrastructure: systems that are slow, costly or insecure. We fix the cloud underneath.",
+          "Hard to find: missing from Google, AI answers and social. We fix that.",
+          "Too many suppliers: nobody owns the result. One team does.",
+          "Ideas without execution: an ambitious idea and no team. We build it with you.",
         ],
       },
       {
@@ -1090,7 +1088,7 @@ export const PAGES = [
         h: "What we stand for.",
         p: ["The rules every project runs on, whoever is on the team."],
         list: [
-          "One accountable lead: one person owns your result from the first call to launch, so nothing falls between suppliers.",
+          "Own the result: one team answers for it from the first call to launch.",
           "Dates in writing: we agree the dates up front and hold ourselves to them.",
           "Build, then grow: we don't stop at the plan. We build it, then we help it grow.",
           "Plain answers: if something isn't worth doing, we say so on the first call.",

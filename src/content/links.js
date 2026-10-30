@@ -47,8 +47,9 @@ export function linkBlocks(page, manifest) {
       { path: "/united-states", label: "United States" },
       { path: "/united-kingdom", label: "United Kingdom" },
       { path: "/uae", label: "UAE" },
+      { path: "/pakistan", label: "Pakistan" },
     ]);
-    for (const r of ["us", "uk", "uae"])
+    for (const r of ["us", "uk", "uae", "pk"])
       add(REGION_LABELS[r], CITIES.filter((x) => x.region === r).map((x) => ({ path: `/locations/${x.slug}`, label: x.name })));
   }
   if (page.kind === "industry") add("Services", SERVICES.slice(0, 12).map((s) => ({ path: s.path, label: s.label })));

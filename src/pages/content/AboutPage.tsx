@@ -12,7 +12,6 @@ import HeroSection from "@/pages/team/component/hero-section.tsx";
 import PreCtaSections from "@/components/PreCtaSections";
 import RisingText from "@/transitions/RisingText";
 import FadeIn from "@/transitions/FadeIn";
-import Cardhovereffect from "@/transitions/cardhovereffect.tsx";
 import Valuicon from "@/assets/valueicon.png";
 import { PortraitCard } from "./FounderPage";
 
@@ -57,23 +56,20 @@ const Split: React.FC<{ s?: Section; children?: React.ReactNode }> = ({ s, child
   ) : null;
 
 const ValueCards: React.FC<{ items: string[] }> = ({ items }) => (
-  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-8">
     {items.map((item, i) => {
       const v = titled(item);
       return (
         <FadeIn key={i} delay={(i % 4) * 0.05}>
-          <Cardhovereffect>
-            <div
-              style={{ background: "linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)", border: "1px solid #FFFFFF" }}
-              className="rounded-[20px] p-6 flex flex-col gap-4 h-full"
-            >
-              <img src={Valuicon} width={"66px"} alt="" />
-              <h3 className="teamcard-title">{v.title}</h3>
-              <p className="text-left flex-grow" style={{ color: "#ffffff" }}>
-                {v.desc}
-              </p>
-            </div>
-          </Cardhovereffect>
+          <div className="border-t border-white/15 pt-5">
+            <img src={Valuicon} width={36} height={36} alt="" className="mb-4" />
+            <h3 className="m-0" style={{ fontSize: "clamp(18px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
+              {v.title}
+            </h3>
+            <p className="mt-2 m-0" style={{ fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }}>
+              {v.desc}
+            </p>
+          </div>
         </FadeIn>
       );
     })}
@@ -125,7 +121,7 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
             <h2
               className="font-bold leading-[0.95] tracking-tight whitespace-nowrap"
               style={{
-                fontSize: "clamp(28px, 8vw, 124px)",
+                fontSize: "clamp(28px, 5.4vw, 80px)",
                 letterSpacing: "-0.035em",
                 background: "linear-gradient(91deg, #325FEC 0%, #FFFFFF 50%, #325FEC 100%)",
                 WebkitBackgroundClip: "text",
@@ -138,7 +134,7 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
             </h2>
           </RisingText>
           <FadeIn delay={0.1}>
-            <p className="leading-snug mt-8 md:mt-12 max-w-5xl" style={{ fontSize: "clamp(22px, 2.3vw, 36px)", color: "rgba(255,255,255,0.92)", fontWeight: 300 }}>
+            <p className="leading-snug mt-6 md:mt-8 max-w-4xl" style={{ fontSize: "clamp(17px, 1.55vw, 23px)", color: "rgba(255,255,255,0.85)", fontWeight: 300 }}>
               {page.intro}
             </p>
           </FadeIn>
@@ -160,9 +156,26 @@ const AboutPage: React.FC<{ page: AboutData }> = ({ page }) => {
         <div className="container relative z-10 flex flex-col gap-20 md:gap-28 pb-20 md:pb-28">
           {/* WHAT WE SOLVE */}
           {solve && (
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-8 md:gap-10">
               <Split s={solve} />
-              <ValueCards items={solve.list || []} />
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
+                {(solve.list || []).map((item, i) => {
+                  const v = titled(item);
+                  return (
+                    <FadeIn key={i} delay={(i % 3) * 0.05}>
+                      <div className="border-t border-white/15 pt-5">
+                        <div className="text-blue-300/80 text-[11px] tracking-[0.3em] mb-3 tabular-nums">{String(i + 1).padStart(2, "0")}</div>
+                        <h3 className="m-0" style={{ fontSize: "clamp(18px, 1.45vw, 22px)", color: "#ffffff", fontWeight: 400, background: "none", WebkitTextFillColor: "#ffffff" }}>
+                          {v.title}
+                        </h3>
+                        <p className="mt-2 m-0" style={{ fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.6)" }}>
+                          {v.desc}
+                        </p>
+                      </div>
+                    </FadeIn>
+                  );
+                })}
+              </div>
             </div>
           )}
 

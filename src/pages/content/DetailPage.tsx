@@ -233,7 +233,7 @@ const DetailPage: React.FC<{
         {number && (
           <div
             aria-hidden
-            className="absolute top-4 right-2 md:-top-8 md:right-8 text-[200px] md:text-[340px] leading-none font-bold pointer-events-none select-none"
+            className="absolute top-4 right-2 md:-top-8 md:right-8 text-[160px] md:text-[260px] leading-none font-bold pointer-events-none select-none"
             style={{
               background: "linear-gradient(180deg, rgba(120,170,255,0.22) 0%, rgba(50,95,236,0) 85%)",
               WebkitBackgroundClip: "text",
@@ -275,8 +275,10 @@ const DetailPage: React.FC<{
 
               <RisingText end="80%">
                 <h1
-                  className="text-4xl md:text-[60px] leading-[1.04] font-medium"
+                  className="font-medium"
                   style={{
+                    fontSize: "clamp(32px, 3.6vw, 52px)",
+                    lineHeight: 1.08,
                     display: "block",
                     marginBottom: "28px",
                     color: "#ffffff",
@@ -327,24 +329,11 @@ const DetailPage: React.FC<{
             </FadeIn>
           </div>
 
-          <FadeIn delay={0.4}>
-            <div className="flex items-center gap-3 mt-16 md:mt-20">
-              <div className="h-[1px] w-12 bg-blue-300/40" />
-              <span className="text-[10px] tracking-[0.3em] uppercase text-blue-300/60">Scroll to explore</span>
-              <motion.div
-                animate={{ y: [0, 6, 0] }}
-                transition={{ repeat: Infinity, duration: 1.6, ease: "easeInOut" }}
-                className="text-blue-300/60"
-              >
-                ↓
-              </motion.div>
-            </div>
-          </FadeIn>
         </div>
       </section>
 
       {/* SECTIONS + STICKY SIDEBAR */}
-      <section className="relative py-20 md:py-28 bg-white">
+      <section className="relative py-16 md:py-24 bg-white">
         <div
           className="absolute inset-0 opacity-[0.03] pointer-events-none"
           style={{
@@ -355,7 +344,7 @@ const DetailPage: React.FC<{
         />
         <div className="container relative">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_240px] lg:grid-cols-[1fr_260px] gap-12 md:gap-10 lg:gap-16">
-            <div className="flex flex-col gap-20 md:gap-28 min-w-0">
+            <div className="flex flex-col gap-14 md:gap-20 min-w-0">
               {sections.map((section, idx) => {
                 const sectionId = section.id || slugifySection(section.h, idx);
                 return (
@@ -367,68 +356,50 @@ const DetailPage: React.FC<{
                     }}
                     className="relative scroll-mt-24"
                   >
-                    <div
-                      aria-hidden
-                      className="absolute -top-10 md:-top-16 -left-2 md:-left-6 text-[120px] md:text-[200px] leading-none font-bold pointer-events-none select-none"
-                      style={{
-                        background: "linear-gradient(180deg, rgba(50,95,236,0.10) 0%, rgba(50,95,236,0) 85%)",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                        letterSpacing: "-0.05em",
-                      }}
-                    >
-                      {pad(idx + 1)}
-                    </div>
                     <FadeIn>
                       <div className="relative">
-                        <div className="flex items-center gap-3 mb-5">
-                          <div className="h-[2px] w-10 rounded-full bg-blue-500" />
-                          <span className="text-blue-500 text-[10px] tracking-[0.3em] uppercase font-medium">
-                            Section {pad(idx + 1)}
-                          </span>
-                        </div>
+                        <div className="text-blue-500 text-[11px] tracking-[0.3em] mb-3 tabular-nums">{pad(idx + 1)}</div>
                         <h2
-                          className="text-3xl md:text-[44px] leading-[1.1] max-w-3xl"
-                          style={{ marginBottom: "20px", padding: 0, color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
+                          className="max-w-3xl"
+                          style={{ fontSize: "clamp(24px, 2.3vw, 34px)", lineHeight: 1.18, fontWeight: 400, marginBottom: "16px", padding: 0, color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
                         >
                           {section.h}
                         </h2>
-                        {(section.p || []).map((t, k) => (
-                          <p key={k} className="text-base md:text-[17px] leading-relaxed max-w-3xl mb-5" style={{ color: "rgba(10,21,48,0.72)" }}>
+                        {(section.p || []).slice(0, 1).map((t, k) => (
+                          <p key={k} className="text-base md:text-[17px] leading-relaxed max-w-3xl mb-4" style={{ color: "rgba(10,21,48,0.72)" }}>
                             {t}
                           </p>
                         ))}
-                        {section.list && section.list.length > 0 && (
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mt-8">
-                            {section.list.map((item, j) => (
-                              <motion.div
-                                key={j}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, amount: 0.2 }}
-                                transition={{ duration: 0.5, delay: j * 0.05, ease: [0.22, 1, 0.36, 1] }}
-                                whileHover={{ y: -4 }}
-                                className="group relative p-5 md:p-6 rounded-2xl transition-all duration-300 cursor-default detail-capability-card"
-                                style={{ background: "#ffffff", border: "1px solid rgba(10,21,48,0.08)", boxShadow: "0 1px 0 rgba(10,21,48,0.02)" }}
-                              >
-                                <div
-                                  className="absolute left-0 top-5 bottom-5 w-[3px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                  style={{ background: "linear-gradient(180deg, #325FEC 0%, #93b8ff 100%)" }}
-                                />
-                                <div className="flex items-start gap-4">
-                                  <div
-                                    className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-lg text-[11px] font-medium tabular-nums tracking-wider"
-                                    style={{ background: "rgba(50,95,236,0.08)", color: "#325FEC" }}
-                                  >
-                                    {pad(j + 1)}
-                                  </div>
-                                  <p className="text-[15px] md:text-[15.5px] leading-relaxed flex-1" style={{ color: "rgba(10,21,48,0.82)" }}>
-                                    {item}
-                                  </p>
-                                </div>
-                              </motion.div>
+                        {(section.p || []).length > 1 && (
+                          <details className="detail-more max-w-3xl">
+                            <summary>Read more</summary>
+                            {(section.p || []).slice(1).map((t, k) => (
+                              <p key={k} className="text-base md:text-[17px] leading-relaxed mb-4" style={{ color: "rgba(10,21,48,0.72)" }}>
+                                {t}
+                              </p>
                             ))}
-                          </div>
+                          </details>
+                        )}
+                        {section.list && section.list.length > 0 && (
+                          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-10 mt-6 pl-0 list-none max-w-4xl">
+                            {section.list.map((item, j) => {
+                              const [main] = item.split("|");
+                              const c = main.indexOf(": ");
+                              return (
+                                <li key={j} className="py-3.5 text-[15px] leading-relaxed" style={{ borderTop: "1px solid rgba(10,21,48,0.08)", color: "rgba(10,21,48,0.72)" }}>
+                                  {c > 0 && c < 60 ? (
+                                    <>
+                                      <span style={{ color: "#0A1530", fontWeight: 500 }}>{main.slice(0, c)}</span>
+                                      {": "}
+                                      {main.slice(c + 2)}
+                                    </>
+                                  ) : (
+                                    main
+                                  )}
+                                </li>
+                              );
+                            })}
+                          </ul>
                         )}
                       </div>
                     </FadeIn>
@@ -440,17 +411,19 @@ const DetailPage: React.FC<{
               {blocks.map((b) => (
                 <FadeIn key={b.title}>
                   <div>
-                    <div className="flex items-center gap-3 mb-5">
-                      <div className="h-[2px] w-10 rounded-full bg-blue-500" />
-                      <span className="text-blue-500 text-[10px] tracking-[0.3em] uppercase font-medium">Explore</span>
-                    </div>
                     <h2
-                      className="text-2xl md:text-[34px] leading-[1.15] mb-7 max-w-3xl"
-                      style={{ color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
+                      className="mb-5 max-w-3xl"
+                      style={{ fontSize: "clamp(19px, 1.6vw, 24px)", lineHeight: 1.2, fontWeight: 400, color: "#0A1530", WebkitTextFillColor: "#0A1530", background: "none", letterSpacing: "-0.01em" }}
                     >
                       {b.title}
                     </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">{b.items.map((s, i) => linkCard(s, i))}</div>
+                    <div className="flex flex-wrap gap-2">
+                      {b.items.map((s) => (
+                        <Link key={s.path} to={s.path} className="detail-chip">
+                          {s.label}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 </FadeIn>
               ))}
@@ -546,37 +519,9 @@ const DetailPage: React.FC<{
         </div>
       )}
 
-      {/* STATS BAND */}
-      <section
-        className="py-16 md:py-20 relative overflow-hidden"
-        style={{
-          background: "linear-gradient(180deg, #ffffff 0%, #f5f7fb 100%)",
-          borderTop: "1px solid rgba(10,21,48,0.06)",
-          borderBottom: "1px solid rgba(10,21,48,0.06)",
-        }}
-      >
-        <div className="container">
-          <FadeIn>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-              {STATS.map((s, i) => (
-                <div key={s.label}>
-                  <div
-                    className="text-5xl md:text-6xl font-medium mb-2 tabular-nums"
-                    style={{ color: i === 0 ? "#325FEC" : "#0A1530", letterSpacing: "-0.02em" }}
-                  >
-                    {s.value}
-                  </div>
-                  <div className="text-[10px] tracking-[0.3em] uppercase text-black/50">{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-
       {/* CTA BAND */}
       <section
-        className="py-20 md:py-28 relative overflow-hidden"
+        className="py-16 md:py-20 relative overflow-hidden"
         style={{ background: "linear-gradient(135deg, #050A18 0%, #0E1628 60%, #1a3392 130%)" }}
       >
         <div
