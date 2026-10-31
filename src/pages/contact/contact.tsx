@@ -63,11 +63,18 @@ const GOALS = [
 
 type Payload = Record<string, string | undefined>;
 
-// Sends the notification and confirmation emails. Never blocks the visitor:
-// the submission is already saved in the admin inbox before this runs.
+// Sends the notification and confirmation emails (api/send-contact-email.ts).
+// Never blocks the visitor: the submission is already saved in the admin inbox
+// before this runs.
 async function notify(body: Payload) {
   try {
-    await supabase.functions.invoke("send-contact-email", { body });
+    const res = await fetch("/api/send-contact-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      keepalive: true,
+    });
+    if (!res.ok) console.warn("[Contact] Email notification failed (non-blocking):", res.status);
   } catch (e) {
     console.warn("[Contact] Email notification failed (non-blocking):", e);
   }
@@ -385,7 +392,7 @@ const Contact: React.FC = () => {
               <div className="max-w-3xl mx-auto rounded-3xl p-8 md:p-12" style={cardStyle} role="status">
                 <h2 className="text-2xl md:text-3xl text-white mb-4">Thanks, {sent.name.split(" ")[0]}. We have your message.</h2>
                 <p className="text-white/65 leading-relaxed">
-                  We will get back to you at {sent.email}. The quickest next step
+                  A confirmation is on its way to {sent.email}. The quickest next step
                   is to pick a time for a call, and your details are already
                   filled in.
                 </p>
