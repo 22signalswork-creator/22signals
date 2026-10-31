@@ -294,7 +294,27 @@ const MobileWhatWeDo: React.FC = () => {
   const [drag, setDrag] = useState<{ x: number; y: number } | null>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const hold = useRef<{ t?: number; on: boolean; sx: number; sy: number }>({ on: false, sx: 0, sy: 0 });
-  const step = (d: number) => setI((c) => (c + d + N) % N);
+  // Last time the visitor touched the section: the light pauses its own
+  // drift for a few seconds after any tap, arrow or drag.
+  const touched = useRef(0);
+  const poke = () => { touched.current = Date.now(); };
+  const step = (d: number) => { poke(); setI((c) => (c + d + N) % N); };
+  const choose = (k: number) => { poke(); setI(k); };
+
+  // On its own, the light moves to the next area every 1.25 seconds while
+  // the section is on screen (clockwise: Strategy upwards to Managed).
+  useEffect(() => {
+    const el = stageRef.current;
+    if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let seen = false;
+    const io = new IntersectionObserver((es) => { seen = !!es[0]?.isIntersecting; }, { threshold: 0.3 });
+    io.observe(el);
+    const iv = window.setInterval(() => {
+      if (!seen || hold.current.on || Date.now() - touched.current < 5000) return;
+      setI((c) => (c + 1) % N);
+    }, 1250);
+    return () => { io.disconnect(); window.clearInterval(iv); };
+  }, []);
 
   // Finger position -> light position and nearest area.
   const steer = (cx: number, cy: number) => {
@@ -308,6 +328,7 @@ const MobileWhatWeDo: React.FC = () => {
     const rad = (deg * Math.PI) / 180;
     setDrag({ x: GX + dist * Math.cos(rad), y: GY + dist * Math.sin(rad) });
     const k = Math.round(((deg - A0) / (A1 - A0)) * (N - 1));
+    poke();
     setI((c) => (c === k ? c : k));
   };
 
@@ -410,7 +431,7 @@ const MobileWhatWeDo: React.FC = () => {
               cy={orb.y}
               r={ORB_R}
               fill="url(#mwwd-orb)"
-              style={{ transition: drag ? "none" : "cx .5s ease, cy .5s ease" }}
+              style={{ transition: drag ? "none" : "cx .88s cubic-bezier(.65,0,.35,1), cy .88s cubic-bezier(.65,0,.35,1)" }}
             />
             <g fill="none" stroke="rgba(220,230,255,0.36)" strokeWidth="1">
               {[30, 68, 102].map((rx) => (
@@ -431,7 +452,7 @@ const MobileWhatWeDo: React.FC = () => {
           <button
             key={m.slug}
             type="button"
-            onClick={() => setI(k)}
+            onClick={() => choose(k)}
             aria-pressed={k === i}
             className={`mwwd-label ${k === i ? "is-on" : ""}`}
             style={{ left: `${(MPOS[k].x / VW) * 100}%`, top: `${(MPOS[k].y / VH) * 100}%` }}
@@ -453,7 +474,7 @@ const MobileWhatWeDo: React.FC = () => {
                 role="tab"
                 aria-selected={k === i}
                 aria-label={m.name}
-                onClick={() => setI(k)}
+                onClick={() => choose(k)}
                 className="mwwd-seg"
               >
                 <span style={{ background: k === i ? "#325FEC" : k < i ? "rgba(50,95,236,0.45)" : "rgba(10,21,48,0.12)" }} />
