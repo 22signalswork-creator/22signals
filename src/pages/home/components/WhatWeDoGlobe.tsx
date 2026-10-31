@@ -9,6 +9,7 @@
  */
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 import { UMBRELLAS, globeItems } from "@/content/umbrellas";
 
 // Layout is designed on a 1344 x 860 frame and placed in percentages.
@@ -445,7 +446,7 @@ const MobileWhatWeDo: React.FC = () => {
           <circle cx={GX} cy={GY} r={GR} fill="none" stroke="rgba(50,95,236,0.55)" strokeWidth="1.2" />
           <circle cx={GX} cy={GY} r={AR} fill="none" stroke="rgba(50,95,236,0.4)" strokeWidth="1" strokeDasharray="2 6" />
           {MPOS.map((q, k) => (
-            <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4.5 : 2.5} fill={k === i ? "#325FEC" : "rgba(50,95,236,0.45)"} />
+            <circle key={k} cx={q.x} cy={q.y} r={k === i ? 4.5 : 2.5} fill={k === i ? "#325FEC" : "rgba(50,95,236,0.45)"} style={{ transition: "r .6s cubic-bezier(.22,1,.36,1), fill .6s ease" }} />
           ))}
         </svg>
         {UMBRELLAS.map((m, k) => (
@@ -466,7 +467,12 @@ const MobileWhatWeDo: React.FC = () => {
       <div className="px-5 pt-1">
         <div className="flex items-center gap-3">
           <HoldArrow dir={-1} onStep={step} />
-          <div className="flex-1 flex gap-1.5" role="tablist" aria-label="Areas">
+          <div className="flex-1 flex gap-1.5 relative" role="tablist" aria-label="Areas">
+            <span
+              aria-hidden
+              className="mwwd-seg-thumb"
+              style={{ width: `calc((100% - ${(N - 1) * 6}px) / ${N})`, transform: `translateX(calc(${i} * (100% + 6px)))` }}
+            />
             {UMBRELLAS.map((m, k) => (
               <button
                 key={m.slug}
@@ -477,28 +483,42 @@ const MobileWhatWeDo: React.FC = () => {
                 onClick={() => choose(k)}
                 className="mwwd-seg"
               >
-                <span style={{ background: k === i ? "#325FEC" : k < i ? "rgba(50,95,236,0.45)" : "rgba(10,21,48,0.12)" }} />
+                <span style={{ background: k <= i ? "rgba(50,95,236,0.38)" : "rgba(10,21,48,0.12)" }} />
               </button>
             ))}
           </div>
           <HoldArrow dir={1} onStep={step} />
         </div>
 
-        <Link
-          key={u.slug}
-          to={`/services?area=${u.slug}`}
-          className="wwd-fade mt-3 inline-flex items-baseline gap-2"
-          style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530", textDecoration: "none" }}
-        >
-          <span><span style={{ color: "#325FEC" }}>Explore</span> {u.short}</span>
-          <span aria-hidden style={{ color: "#325FEC", fontSize: 18 }}>→</span>
-        </Link>
-        <div key={`c-${u.slug}`} className="mt-2.5 flex flex-wrap gap-1.5">
-          {globeItems(u).map((it) => (
-            <Link key={it.label} to={it.path} className="mwwd-chip">
-              {it.label} <span aria-hidden>↗</span>
-            </Link>
-          ))}
+        {/* Area name and its services cross-fade in place: old and new share
+            one grid cell, so nothing below jumps while they swap. */}
+        <div className="mt-3" style={{ display: "grid", minHeight: 130 }}>
+          <AnimatePresence initial={false}>
+            <motion.div
+              key={u.slug}
+              style={{ gridArea: "1 / 1" }}
+              initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              exit={{ opacity: 0, y: -10, filter: "blur(4px)" }}
+              transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <Link
+                to={`/services?area=${u.slug}`}
+                className="inline-flex items-baseline gap-2"
+                style={{ fontSize: 22, lineHeight: 1.15, letterSpacing: "-0.01em", color: "#0a1530", textDecoration: "none" }}
+              >
+                <span><span style={{ color: "#325FEC" }}>Explore</span> {u.short}</span>
+                <span aria-hidden style={{ color: "#325FEC", fontSize: 18 }}>→</span>
+              </Link>
+              <div className="mt-2.5 flex flex-wrap gap-1.5" style={{ minHeight: 82, alignContent: "flex-start" }}>
+                {globeItems(u).map((it) => (
+                  <Link key={it.label} to={it.path} className="mwwd-chip mwwd-chip--still">
+                    {it.label} <span aria-hidden>↗</span>
+                  </Link>
+                ))}
+              </div>
+            </motion.div>
+          </AnimatePresence>
         </div>
       </div>
     </div>

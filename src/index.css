@@ -1236,9 +1236,11 @@ h3.teamcard-title {
 .mwwd-seg { flex: 1 1 0 !important; }
 .mwwd-arrow:active { background: #325FEC; color: #fff; }
 .mwwd-seg { flex: 1; height: 28px; display: flex; align-items: center; padding: 0; background: none; border: 0; }
-.mwwd-seg > span { display: block; width: 100%; height: 3px; border-radius: 3px; transition: background .3s ease; }
-.mwwd-label { position: absolute; transform: translate(-100%, -50%); padding: 6px 12px 6px 6px; min-height: 32px; font-size: 13.5px; white-space: nowrap; color: rgba(10,21,48,0.55); background: none; border: 0; transition: color .3s ease, text-shadow .3s ease, font-size .3s ease; }
-.mwwd-label.is-on { color: #325FEC; font-size: 15px; font-weight: 500; text-shadow: none; }
+.mwwd-seg > span { display: block; width: 100%; height: 3px; border-radius: 3px; transition: background .6s ease; }
+.mwwd-seg-thumb { position: absolute; left: 0; top: 50%; height: 3px; margin-top: -1.5px; border-radius: 3px; background: #325FEC; box-shadow: 0 0 8px rgba(50,95,236,.5); transition: transform .7s cubic-bezier(.65,0,.35,1); pointer-events: none; z-index: 1; }
+.mwwd-chip--still { animation: none !important; }
+.mwwd-label { position: absolute; transform: translate(-100%, -50%); transform-origin: right center; padding: 6px 12px 6px 6px; min-height: 32px; font-size: 13.5px; white-space: nowrap; color: rgba(10,21,48,0.55); background: none; border: 0; transition: color .6s ease, transform .6s cubic-bezier(.22,1,.36,1); will-change: transform; }
+.mwwd-label.is-on { color: #325FEC; transform: translate(-100%, -50%) scale(1.1); text-shadow: none; }
 
 /* Homepage stats on phones: smaller cards */
 @media (max-width: 767px) {
